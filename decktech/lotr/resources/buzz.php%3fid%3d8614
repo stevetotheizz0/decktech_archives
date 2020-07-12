@@ -1,0 +1,924 @@
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Lord of the Rings Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Lord of the Rings, Gandalf, Frodo, Ring, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #111188;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; color: #111111; font-size: 8pt; font-style: normal; text-decoration: none; background-color: #FFFFFF; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.headerbg {  color: #E2DED3}
+TD.headerbg A {  color: #E2DED3}
+
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.r2body {  color: #EDE9DE}
+TD.r2body A:link {color: #A17D2D}
+TD.r2body A:active {color: #A17D2D}
+TD.r2body A:visited {color: #A17D2D}
+TD.r2body A:hover {color: #FFFFFF}
+
+TD.r2body .level1nav:link {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:active {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:visited {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:hover {  font-family: Verdana, Arial, sans-serif; color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 8pt;}
+
+input {font-family: Verdana, Arial, sans-serif; font-size: 8pt }
+select {font-family: Arial, sans-serif; font-size: 8pt }
+
+-->
+</style>
+ 
+</head>
+<body link="#111155" vlink="#CF4300" alink="#0000FF" text="#111111" margin="0" marginwidth="0" marginheight="0" background="/lotr/gfx/mom/bg.jpg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=186 hspace=0 vspace=0
+src="/lotr/gfx/mom/logoleft.gif" width=1 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=186 hspace=0 src="/lotr/gfx/mom/logoright.jpg" width=195 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">LotR TCG ======</option>
+<option value="/lotr/index.php">Home</option>
+<option value="/lotr/main/about.php">About</option>
+<option value="/lotr/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+<option value="#"></option>
+<option value="#">Themes =======</option>
+<option value="/lotr/resources/buzz.php?setheme=fellowship">Fellowship</option>
+<option value="/lotr/resources/buzz.php?setheme=moria">Balrog&Gandalf</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Lord of the Rings</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#152A43" class="r2body" width=88%><font class="bfont">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><a href="/lotr/index.php" class="level1nav">Home</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/articles/index.php" class="level1nav">Articles</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/decks/index.php" class="level1nav">Decks</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/treports/index.php" class="level1nav">Tournament 
+      Reports</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/outfitters/index.php" class="level1nav">M.E. 
+      Outfitters</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/trade/index.php" class="level1nav">Trade</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/resources/index.php" class="level1nav">Resources</a><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%"><img src="../../global/images/home/trans.gif" width="10" height="5"></td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/rules.php">Current Rules</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/buzz.php">Buzz Board</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/cardlist.php">Card List</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/play.php">Play Online</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/download.php">Downloads</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/links.php">Related Sites</a></font></td>
+        </tr>
+      </table>
+      <br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+    </td>
+  </tr>
+</table>
+
+</font></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Auction</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#152A43" class="r2body" width=88%><font class="bfont"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">DeckTech Writers</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#423210" class="r2body" width=88%><font class="bfont"><font size='1'></font> 
+
+</font></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Site Sponsor</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#423210" class="r2body" width=88%><font class="bfont"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><BR><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Top Articles</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#063926" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#063926" class="r2body" width=88%><font class="bfont"><ol></ol> 
+</font></td>
+      <td bgcolor="#063926" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> <table cellspacing=0 cellpadding=0 width="100%" border=0>
+<tr valign="top">      
+<td background="/lotr/gfx/mom/header_back.gif" height="150" valign="middle" align="center"><br>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript></td></tr></table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="" valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="" valign="top"><!-- #BeginEditable "Body" --> 
+            <script language="javascript">
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+
+prev1.document.writeln(texttoshow);
+
+}
+
+function changetobold()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+linkyaddress = document.buzzboardform.texttoconvert.value;
+
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+
+function oldchangetobold()
+{
+
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+<table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr><td width=1><img src="/lotr/gfx/mom/blu_01.gif" width=6 height=6></td><td width=100% background="/lotr/gfx/mom/blu_02.gif"></td>
+<td width=1><img src="/lotr/gfx/mom/blu_03.gif" width=6 height=6></td></tr>
+<tr><td background="/lotr/gfx/mom/blu_04.gif"><img src="/lotr/gfx/mom/clear.gif" height=35 width=1></td>
+<td background="/lotr/gfx/mom/blu_05.gif" class="headerbg"><font class="h1font"><font color="#FFFFFF">2007 in review.</font></B></td><td background="/lotr/gfx/mom/blu_06.gif"></td></tr>
+	<tr><td background="/lotr/gfx/mom/whi_07.gif"></td>
+		<td bgcolor="#FFFFFF" background="/lotr/gfx/mom/whi_08.gif"><font class="bfont"><font class="bfont"> From: <a href="http://www.decktech.net/vs/main/mpage.php?member=17798">Dave Barry </a></font><BR><font class="bfont"><A HREF='/lotr/resources/buzz.php'>Back to Topics List</A></font><BR><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font><BR><font class="bfont"><A HREF='/lotr/resources/buzz.php?id=8614'><b>REFRESH THIS TOPIC</b></A></font><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#A2B1C1><font class="h2font"> Comment</td></tr><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">The funny thing about Maclean&#39;s is that it is &#39;run&#39; by conservatives.  It&#39;s sales/readers are up and it is refreshing to see those kind of articles not coming from the left. <br><BR><font size=1>10:43 09-21-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">yeah, I was definately referring to all those subtitles too. I thought MacLean&#39;s was more like Time magazine. WHOOPS <br><BR><font size=1>10:35 09-21-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Haha.  Just look at the names of the articles it will have:<br />
+<br />
+-Praying for the souls of Britney and friends<br />
+-Dorm drama<br />
+-Dion of the Dead<br />
+-15 tooky women take a hike<br />
+<br />
+Political pulp at its best/worst?<br />
+<br />
+Check out their webpage, the Bush article looks like it is a good read, or maybe just a long one. <br><BR><font size=1>10:34 09-21-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">wow, Maclean&#39;s has gotten pretty racy <br><BR><font size=1>10:30 09-21-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src=http://www.macleans.ca/images/homepage/Macleans_Oct1.JPG> <br><BR><font size=1>10:27 09-21-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">At one point yesterday, the Canadian dollar was trading at US$1.0008<br />
+<br />
+BAM <br><BR><font size=1>10:22 09-21-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">In Europe it isn&#39;t customary to give tips because in many &#39;service&#39; jobs they get paid more than their North American counterparts do.<br />
+<br />
+However, I have learned that tipping hot chicks in Hungary can make you friends. <br><BR><font size=1>10:11 09-21-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">I&#39;ve heard that both Americans and Canadians are good tippers and that Europeans are the worst tippers ever. <br />
+<br />
+Yeah, you should still buy your stuff in the U.S. Everything is cheaper there. It&#39;s crazy how much stuff gets marked up to sell in Canada. Like check the back of books. That was from when the exchange rate was really out of whack but now it&#39;s at par and none of this stuff has caught up. Cars are a NIGHTMARE in terms of price difference :( <br><BR><font size=1>09:50 09-21-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">It is still cheaper to buy cars in the US.  It will take about 6-24 months before Canadians &#39;see&#39; any major changes on the cost of imported items.<br />
+<br />
+However, I do a lot of purchases from you guys, so this is great for me.<br />
+<br />
+As for the tipping, I have heard the same comment about Americans.  In general people are cheap and bad tippers. <br><BR><font size=1>09:39 09-21-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>The Judge</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Canada rules. Their money is so valuable now, it actually makes it worth it for them to come to the US. I seem to recall when it was worth like .65, when I was in retail here in Florida and all these Canadian&#39;s came down every Winter anyway and spent assloads of money on shoes because they cost so much more in Canada.<br />
+<br />
+They also thought tipping was a city in China but that&#39;s another story.  lol<br />
+<br />
+I think it&#39;s great that Canada is doing well, the Euro is like $1.40 to $1.00US so that&#39;s doing well, the pound is always worth almost twice as much.<br />
+<br />
+Let&#39;s face it, our money sucks right now. Maybe I should have bought my new car in Canada? <br><BR><font size=1>09:19 09-21-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Jedi Genius</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">zzzzz<br />
+<br />
+Canadian Smug alert.<br />
+<br />
+And I can&#39;t get the General Petraeus song out of my head from The Daily Show everytime I see his name.  <br><BR><font size=1>07:35 09-21-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>_Armaedes_</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Canadians have money?  I thought they just traded beaver pelts or something . . . <br><BR><font size=1>06:38 09-21-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>mikefrench</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">the restaurant where i work started accepting canadian money.  makes doing the bookwork harder.  stupid canadians. <br><BR><font size=1>00:18 09-21-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#A2B1C1><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=175">CRingwell™</a></B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Didn&#39;t we do this last year?  Jeez. <br />
+<br />
+oh, wait. <br><BR><font size=1>19:57 09-20-2007</font><BR><BR>Any chance we can make a claim against Decipher for the money we spent on Young Jedi? - Ken B</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">We are terrorists after all, since our military is full of &#39;uncivilized&#39; weaponry.<br />
+<br />
+Oh, and we have oil! <br><BR><font size=1>10:54 09-20-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">oh crap! It&#39;ll be brother against brother! <br />
+<br />
+If I see Mike French at the other end of the battlefield through a scope, I hope he knows I won&#39;t take that shot. <br />
+<br />
+I will turn Ryan&#39;s head into a canoe tho... <br><BR><font size=1>10:25 09-20-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>General David Petraeus</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Get the troops behind the border.  The time has come.<br />
+<br />
+Finally...its time to unleash Operation Snow Bunny. <br><BR><font size=1>10:13 09-20-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Higher being the key word? <br><BR><font size=1>10:02 09-20-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">NO DON&#39;T! Let&#39;s take the higher ground on this one :) <br><BR><font size=1>10:01 09-20-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">I just went to Reuters and got this: CAD = 0.99860 USD<br />
+<br />
+Regardless of where it OFFICIALLY is, it is time to make many smug jokes about the USD. <br><BR><font size=1>09:52 09-20-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Reuters (which is a REAL source for financial data) has it at par <br><BR><font size=1>09:46 09-20-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Actually I think the Bank of Canada has listed it at 0.9999USD.<br />
+<br />
+Tomorrow? <br><BR><font size=1>09:44 09-20-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I should really celebrate the occassion by getting a premium membership which only costs 15 Canadian dollars now! <br><BR><font size=1>09:39 09-20-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">OK BOYS, MARK YOUR CALENDARS...<br />
+<br />
+The Canadian dollar is at par with the U.S. greenback for the 1st time in over 30 years (since January 28th, 1976). <br />
+<br />
+so....<br />
+<br />
+<b>NO MORE LAME JOKES!!</b><br />
+<br />
+Now you yanks are on thin ice cuz you&#39;ll probably be seeing a period where the CAD > USD for a while. <br />
+<br />
+And I&#39;ll bet 10 CANADIAN dollars that Mike French will give a &#39;zzzzzzzzz&#39; post <br><BR><font size=1>09:36 09-20-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>CoS</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">"don&#39;t even have subways"<br />
+<br />
+ftw <br><BR><font size=1>17:12 03-04-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>_Melkor_</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">I like these ones<br />
+<br />
+<i> . . . the big sports story is the start of the World Cup tournament, with U.S. fans hopeful that our players have finally caught up with the rest of the world in soccer. The American team arrives in Italy brimming with confidence, only to be informed that the tournament is being held in Germany.<br />
+<br />
+"In baseball, the New York Yankees, despite being clearly the best and most expensive team the world has ever seen, fail to even get into the World Series, leaving Yankee fans to spend yet another bitter off-season wondering why their team can&#39;t simply be awarded the championship and not have to play these stupid games against clearly inferior teams from dirtball cities that don&#39;t even have subways. </i><br />
+ <br><BR><font size=1>23:15 03-02-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=3300">Shadow 13™</a></B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><blockquote><i>For their part, future House and Senate majority leaders Nancy Pelosi and Harry Reid issue a joint statement promising to "make every effort to find common ground with the president," adding, "We are clearly lying."</i></blockquote><br />
+<br />
+awesome. <br><BR><font size=1>04:44 03-02-2007</font><BR><BR><hr><img src="http://www.decktech.net/memberimages/3300rst.jpg"><br><a href="http://www.myspace.com/ryan_freedom13">Ryan French</a><br><a href="http://www.decktech.net/groups/h.php?g=540">Rebel Strike Team</a> founder</TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>sithborg279</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Good old Dave Barry. <br><BR><font size=1>23:43 03-01-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Judge</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">that sums up 2006 very nicely! <br><BR><font size=1>14:27 03-01-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#A2B1C1><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17798">boothwah™</a></B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">That Blasted Year<br />
+Dave Barry shoots 2006 full of holes<br />
+<br />
+By Dave Barry<br />
+Sunday, December 31, 2006; W18<br />
+<br />
+<br />
+<br />
+IT WAS A MOMENTOUS YEAR, a year of events that will echo in the annals of history the way a dropped plate of calamari echoes in an Italian restaurant with a tile floor. Decades from now, our grandchildren will come to us and say, "Tell us, Grandpa or Grandma, as the case may be, what it was like to be alive in the year that Angelina Jolie, Tom Cruise, Brad Pitt, Britney Spears and Katie whats-hername all had babies, although not necessarily in those combinations." And we will smile wisely and emit a streamer of drool, because we will be very old and unable to hear them.<br />
+<br />
+And that will be a good thing, because there are many things about 2006 that we will not want to remember. This was the year in which the members of the United States Congress, who do not bother to read the actual bills they pass, spent weeks poring over instant messages sent by a pervert. This was the year in which the vice president of the United States shot a lawyer, which turned out to be totally legal inTexas. This was the year in which -- as clearly foretold in the Bible as a sign of the Apocalypse -- Howie Mandel wound up with a hit TV show.<br />
+<br />
+Also, there were many pesky problems left over from 2005 that refused to go away in 2006, including Iraq, immigration, high gas prices, terrorism, global warming, avian flu, Iran, North Korea and Paris Hilton. Future generations are going to look back at this era and ask us how we could have allowed Paris Hilton to happen, and we are not going to have a good answer.<br />
+<br />
+[JANUARY]<br />
+<br />
+. . . a month that dawns with petty partisan bickering in Washington, D.C., a place where many people view petty partisan bickering as honest, productive work -- like making furniture. The immediate cause of the bickering is the Republican ethics scandal involving lobbyist Jack Abramoff and House Majority Leader Tom DeLay, both of whom you can tell, just by looking at them, are guilty of something. The Democrats charge that the Republicans have created a Culture of Corruption and should be thrown out of office so the Democrats can return to power and run the scandal-free style of government for which they are so famous. The Republicans respond that the Democrats are soft on terrorism, soft on terrorism, soft on terrorism, soft on terrorism. Both sides issue news releases far into the night.<br />
+<br />
+The other big focus of the bickering is the nomination of Samuel Alito to the Supreme Court. As always, the Senate Judiciary Committee hearings provide high-quality TV entertainment as the nation tunes in to see whether Sen. Edward M. Kennedy will be able to successfully remember the nominee&#39;s name. The bulk of the hearings are spent in the traditional manner, with Democrats trying to trick the nominee into revealing his views on abortion, and Republicans reminding the nominee that he does not have to reveal his views on abortion. The subsequent exchange of news releases is so intense that several government fax machines burst into flames.<br />
+<br />
+In the War on Terror, Osama bin Laden, who may or may not be dead, nevertheless releases another audiotape, for the first time making it downloadable from iTunes. Bin Laden also starts a blog, in which he calls upon his followers to destroy the corrupt infidels and also to try to find out how a person, hypothetically, can get Chinese food delivered to a cave.<br />
+<br />
+In the Middle East, Palestinian voters elect the militant Hamas party, which assumes control of government functions such as street repair, which Hamas decides to handle by firing rockets at potholes. Canada also holds elections, which are won by some Canadian, we assume.<br />
+<br />
+In economic news, the big story is the retirement of Federal Reserve Board Chairman Alan Greenspan, who, after 19 years as the person most responsible for guiding the American economy, steps down, taking with him the thanks of a grateful nation and a suitcase containing $11 billion. But the financial news is not so good in . . .<br />
+<br />
+[FEBRUARY]<br />
+<br />
+. . . when President Bush, delivering what is billed as a "major address on energy policy," reveals that the nation has an "addiction" to "foreign oil," which comes from "foreign countries" located "outside of the United States" that are getting this oil from "under the ground." To combat this problem, the president proposes the development of "new technology" in the form of "inventions" such as "a Lincoln Navigator that gets 827 miles per gallon," although he allows that this could take "time."<br />
+<br />
+But this bold energy initiative does not get nearly as much attention as the administration&#39;s decision to allow a company owned by the United Arab Emirates to operate some U.S. seaports. This outrages Congress, which briefly ceases partisan bickering to demand that the White House return control of the ports, in the interest of national security, to Tony Soprano.<br />
+<br />
+Speaking of guys who avoid the limelight: Vice President pipeweed Cheney, attempting to bring down a quail with a shotgun, shoots attorney Harry Whittington. Local authorities rule the shooting was an accident, noting that if the vice president were going to intentionally shoot somebody, it would be Nancy Pelosi. The quail is eventually tracked down and vaporized by an F-16.<br />
+<br />
+Internationally, the big news comes from Denmark, center of a mounting furor over some cartoons, published the previous year in a Danish newspaper, that depict a prophet whom, in the interest of not offending anybody, we will refer to as Fohammed. This upsets several million of the prophet&#39;s followers, who request a formal apology from the newspaper, greater sensitivity to their religious beliefs and, where necessary, beheadings. Eventually everybody realizes that the whole darned thing was just a silly misunderstanding. That is all we are going to say about this.<br />
+<br />
+In sports, Super Bowl XVXXLMCMII takes place in Detroit, and by all accounts it&#39;s a big success for the Motor City, with huge crowds thronging to both of the restaurants. The Pittsburgh Steelers win a game featuring a controversial play in which an apparent Seattle Seahawk touchdown pass is called back after the Steeler defender -- in what is later ruled an accident -- is gunned down by Vice President Cheney.<br />
+<br />
+But the big sporting event is the Winter Olympics, a glorious quadrennial celebration of world-class virtuoso athletic accomplishment in sports nobody has ever heard of. Surprise winners include Latvia in the 500-kilometer Modified Nordic Combined; the Republic of Irvingkahnistan in the 2,300-meter Slavic Personified; and U.S. skier Bode Miller in Most Nike Commercials Featuring a Competitor Who, in the Actual Competitions, Mainly Falls Down.<br />
+<br />
+[MARCH]<br />
+<br />
+. . . the real-estate boom appears to be over, as the government reports that, so far in 2006, only one U.S. homeowner managed to sell his house, and he had to offer, as an incentive to the buyer, his wife. But the employment numbers remain strong, thanks to strong growth in the sector of people trying to get you to refinance your mortgage for, like, the sixth time. Meanwhile, as the average gasoline price creeps past $2.50, the Hummer company, having downsized from the massive Hummer to the somewhat smaller H2, and then to the even smaller H3, begins development of the H4, which the company says will be "a very rugged skateboard."<br />
+<br />
+In the Academy Awards, the overwhelming favorite for best picture is "Brokeback Mountain," the story of two men who discover, while spending many isolated weeks together in the mountains, that they enjoy exchanging instant messages with Mark Foley. But, in a stunning upset, the Oscar for best picture instead goes to "Crash," a documentary about Bode Miller.<br />
+<br />
+In other entertainment news, a book by two San Francisco Chronicle writers revives suspicions about possible steroid use by San Francisco Giants slugger Barry Bonds, alleging, with extensive documentation, that as recently as 10 years ago, Bonds was a woman.<br />
+<br />
+In other science news, thrilled NASA astronomers, in what they describe as a "smashing, surprising" discovery, announce that they have found evidence of pockets of water beneath the surface of Enceladus, one of the moons of Saturn, which strongly suggests -- as has long been suspected -- that astronomers do not get out much.<br />
+<br />
+In foreign news, Israeli voters give a parliamentary majority to acting Prime Minister Ehud Olmert because his name can be rearranged to spell "hot eel drum." Meanwhile in Paris, thousands of demonstrators take to the streets and shut down the city to demonstrate the fact that, hey, it&#39;s Paris. In the Middle East, tension mounts in response to mounting tension. We don&#39;t know specifically what is happening in Africa, but we know it is bad.<br />
+<br />
+[APRIL]<br />
+<br />
+. . . Tom DeLay decides not to seek reelection to Congress, making the announcement via audio-tape from a cave somewhere in Pakistan. Republican leaders express relief over DeLay&#39;s decision and issue a statement pledging that there will be "no more Republican scandals, unless somebody finds out about Mark Foley."<br />
+<br />
+Meanwhile in the Middle East, tension mounts still higher when Iranian President Mahmoud Ahmadinejad announces that Iran has successfully produced enriched uranium, although he claims that his nation plans to use it only for peaceful purposes, "such as cooking." In Iraq, there is good news and bad news for the Bush administration: The good news is that rival Iraqi leaders have finally agreed on a new prime minister. The bad news is that it is Nancy Pelosi.<br />
+<br />
+Domestically, the national debate over illegal immigration heats up as thousands of demonstrators take to the streets of major U.S. cities, thus causing a total shutdown of Paris. Meanwhile the Mexican government, in what is widely viewed as a deliberate provocation, convenes in Milwaukee. But the big story is the price of gasoline, which continues its relentless climb toward an unprecedented $3 a gallon. Responding quickly, Congress, in a rare display of decisive bipartisan action, takes a recess, with both sides promising to resume bickering the instant they get back.<br />
+<br />
+[MAY]<br />
+<br />
+. . . the National Oceanic and Atmospheric Administration, which has a budget of over $3 billion, predicts that the 2006 hurricane season will be worse than usual. This item will seem funnier later in the year. In related news, the voters of New Orleans reelect Ray Nagin as mayor, proving that Hurricane Katrina killed far more brain cells than was previously believed.<br />
+<br />
+On the terrorism front, the Bush administration comes under heavy criticism following press reports that the National Security Agency has been collecting telephone records of millions of Americans. Responding to the outcry, President Bush assures the nation that "the government is not collecting personal information on any individual citizen," adding, "Warren H. Glompett of Boston, call your wife back immediately, because your dog has eaten your entire Viagra supply."<br />
+<br />
+In another controversial move, the president announces that he will use National Guard troops to stop illegal immigration. The initial troops are assigned to guard the border between Mexico and Arizona, with California, New Mexico and Texas being covered by pipeweed Cheney.<br />
+<br />
+In Houston, former Enron executives Kenneth Lay and Jeffrey Skilling are convicted of fraud by a federal jury, which apparently is not persuaded by the defense&#39;s claim that Skilling and Lay could not have been responsible for the collapse of the $100 billion corporation because they were, quote, "both getting haircuts."<br />
+<br />
+TRUE FACT: After the verdict, Lay says, "We believe God in fact is in control."<br />
+<br />
+ANOTHER TRUE FACT: Less than two months later, Lay will die of heart failure.<br />
+<br />
+In sports, Barbaro, the popular racehorse who won the Kentucky Derby, breaks his leg in the Preakness after a freak collision with Bode Miller. Barbaro is forced to retire, although his agent does not rule out future appearances on "Dancing With the Stars." Meanwhile the hottest show on TV is the much-hyped finale of "American Idol," which is won by crooner Taylor Hicks, who narrowly edges out Nancy Pelosi.<br />
+<br />
+[JUNE]<br />
+<br />
+. . . the big sports story is the start of the World Cup tournament, with U.S. fans hopeful that our players have finally caught up with the rest of the world in soccer. The American team arrives in Italy brimming with confidence, only to be informed that the tournament is being held in Germany. Undaunted, the team boards a train for Geneva, with the coach promising that "we will score many touchdowns."<br />
+<br />
+In politics, the debate over Iraq continues to heat up, with President Bush insisting that "we must stay the course, whatever it may or may not be," while the Democrats claim that they would bring the troops home "immediately," or "in about six months," or "maybe not for a long time," depending on which particular Democrat is speaking and what time of day it is. On a more positive note, U.S. troops kill Abu Musab al-Zarqawi, who is identified by intelligence experts as "a person with a really terrorist-sounding name." In another hopeful development in Iraq, the Sunnis and the Shiites agree to try to come up with a simple way for Americans to remember which one is which.<br />
+<br />
+On the legal front, the U.S. Supreme Court rules that the Bush administration cannot try suspected terrorists in ad hoc military tribunals, after the court learns that the administration is interpreting "ad hoc" to mean "under water."<br />
+<br />
+Dan Rather, who stopped anchoring the evening news in 2005, announces his retirement from CBS after a career spanning 44 years and several galaxies. Explaining his decision, Rather cites a desire to "explore other options" and "not keep getting maced by the CBS security guard."<br />
+<br />
+On a happier note, the United States marks the 50th anniversary of the interstate highway system -- an engineering marvel consisting of 47,000 miles of high-speed roads connecting 157,000 Waffle Houses. A formal ceremony is planned, but it has to be canceled when Dad refuses to stop.<br />
+<br />
+[JULY]<br />
+<br />
+. . . the Tour de France bicycle race is once again tainted by suspicions of doping when the winner, American Floyd Landis, is clocked ascending the Alps at over 200 mph. Landis denies that he uses illegal drugs, attributing his performance to, quote, "gears."<br />
+<br />
+In other sports highlights, Italy defeats France in a World Cup final match that is marred by a violent head-butting incident involving Bode Miller. The U.S. team fares poorly in the World Cup, failing to win a single match; the players blame this on their inability to adjust to the "no hands" rule.<br />
+<br />
+But the month&#39;s big story occurs in the Middle East, where violence flares along the Israel-Lebanon border in response to the fact that, because of terrible planning, the two countries are located right next to each other. In another troubling international development, rogue state North Korea test-fires seven ballistic missiles, including two believed to be potentially capable of reaching U.S. soil. World tension goes back down when the missiles, upon reaching an altitude of 200 feet, explode and spell "HAPPY BIRTHDAY." American military analysts caution that these missiles "could easily be modified to spell something more threatening."<br />
+<br />
+In other rocket news, the troubled U.S. space program suffers yet another setback when the launch of the shuttle Discovery is delayed for several days by Transportation Security Administration screeners, who insist that the astronauts remove their shoes before they go through the metal detector. Finally, however, Discovery blasts off and flies a flawless mission, highlighted by scientific experiments proving that when you let go of things in space, they float around, same as last year.<br />
+<br />
+[AUGUST]<br />
+<br />
+. . . when the International Astronomical Union rules that Pluto will no longer be classified as a major planet, on the grounds that it is "less than half the size of James Gandolfini." A top U.S. law firm immediately files a class-action lawsuit on behalf of Pluto, as well as "anybody else who has been hurt by this ruling or has ever experienced neck pain."<br />
+<br />
+In sports, a French medical laboratory burns to the ground after the catastrophic explosion of Floyd Landis&#39;s urine sample.<br />
+<br />
+Fidel Castro is rumored to be seriously ill after publication of photographs showing worms crawling out of his eye sockets. Cuban authorities insist that the aging leader is merely recovering from surgery and that, for the time being, government operations are in the capable hands of Nancy Pelosi.<br />
+<br />
+As the situation in Lebanon deteriorates, Secretary of State Condoleezza Rice warns that, if violence continues, the United States will have no choice but to dispatch Vice President Cheney to the region to hunt doves. Within minutes, a cease-fire breaks out, with both sides agreeing to resume fire at a mutually convenient future date.<br />
+<br />
+Meanwhile, commercial air travel turns into a total nightmare. No, wait, it was already a total nightmare. But it turns into an even worse total nightmare after Britain uncovers a terrorist plot targeting international flights, which results in a whole new set of security rules, including a total ban on all gels and liquids, including spit, urine, heavy perspirers and lactating women. After days of chaos at the airports, the TSA issues a new directive stating that "passengers may carry small quantities of liquids on board, but only if they are inside clear, one-quart, sealable plastic bags." This leads to still more chaos, as many TSA employees interpret this to mean that the passengers must be inside the bags. Eventually the TSA issues a clarification stating that "if necessary, the bags can have air holes."<br />
+<br />
+Elsewhere in the War on Terror, the Bush administration suffers a setback when a federal judge in Michigan rules that U.S. authorities cannot call up suspected terrorists and try to get them to switch long-distance carriers.<br />
+<br />
+In crime news, a man in Thailand claims that he had something to do with the 1996 murder of JonBenet Ramsey. It quickly becomes clear that the man is an unstable creep whose story is totally unbelievable, so the cable TV shows drop it.<br />
+<br />
+Ha-ha! Just kidding! The cable TV shows go into days of round-the-clock, All-JonBenet-All-the-Time Wallow Mode. Battalions of legal experts are called in, some of them so excited about the opportunity to revisit the JonBenet tragedy that additional janitors have to be brought to the studios to mop up puddles of expert weewee.<br />
+<br />
+On the weather front, the until-now quiet hurricane season erupts in fearsome fury in the form of Tropical Storm Ernesto, which hurricane experts, using scientific computer models, predict could become a major storm and inflict devastation upon Texas, or possibly Florida or Connecticut. A state of near-panic sets in as millions of coastal residents jam gas stations, hardware stores and supermarkets, while many schools and businesses close. Tension mounts for days, until finally Ernesto slams into Florida with all the fury of a diseased fruit fly. Life slowly returns to normal for everyone except the ever-vigilant hurricane experts, who immediately begin scanning their scientific computer simulations for the next potentially deadly threat.<br />
+<br />
+[SEPTEMBER]<br />
+<br />
+. . . Steve Irwin, of "Crocodile Hunter" fame, is fatally wounded while filming a new TV series-- in what biologists describe as a freak accident -- he collides with Bode Miller. Meanwhile, Americans -- already on edge because of concern over terrorism, avian flu, AIDS, nuclear escalation and global warming -- find themselves facing a deadly new menace: killer spinach. The lethal vegetable is removed from supermarket shelves by police SWAT teams; many units of innocent produce are harmed. Paris shuts down completely.<br />
+<br />
+Speaking of vegetables, the U.S. Congress is rocked by yet another scandal with the publication of e-mails and instant messages sent to male pages by Congressman Mark Foley of Florida, in which he explicitly discusses acts of a sheepherding nature. As the scandal expands, House Republican leaders issue a statement claiming that they "are not aware of any so-called Congressman Mark Foley of Florida." Democrats cite Foley as another example of Republican corruption, declaring that they would never, ever, under any circumstances tolerate such behavior, unless it involved a consenting page.<br />
+<br />
+In other political developments, the New York Times prints a leaked top-secret government report expressing doubts about the war in Iraq. The Bush administration holds a secret meeting to prepare a response, but within hours the Times prints leaked details of the meeting, including who went to the bathroom and why. The administration then attempts to take out the Times building with a missile, but the Times, using leaked launch codes, redirects the missile to The Washington Post. As the debate over Iraq heats up, President Bush pledges to "keep on continuing to stay the present course while at the same time not doing anything different." Democratic leaders declare that they have a "bold new plan" for Iraq, which they will reveal just as soon as the New York Times leaks it to them.<br />
+<br />
+Abroad, Pope Benedict XVI gets in big trouble when he gives a speech suggesting that the Muslim religion has historically been linked to violence. Ha-ha! What a crazy idea! The pope soon sees that he has made a big mistake and apologizes several times.<br />
+<br />
+Rumors about Fidel Castro&#39;s health continue to swirl following publication of a photograph showing Venezuelan President Hugo Chavez shaking Castro&#39;s hand. The rest of Castro&#39;s body is nowhere to be seen.<br />
+<br />
+[OCTOBER]<br />
+<br />
+. . . North Korea conducts an underground nuclear test, which is especially troubling because the ground in question is located in Wyoming. This goes virtually unnoticed in Washington, where everybody continues to be obsessed with the growing body of instant messages generated by Mark Foley, who, despite his busy schedule as a lawmaker, apparently found time to attempt to become sheepherding buddies with pretty much every young male in North America.<br />
+<br />
+In other political developments, Sen. Barack Obama, looking back on a career in the U.S. Senate that spans nearly 20 months, allows as how he might be ready to move on to the presidency. Obamamania sweeps the nation as millions of voters find themselves deeply impressed by Obama&#39;s views and the fact that he was on "Oprah." In a gracious gesture from a potential 2008 rival, Sen. Hillary Rodham Clinton sends Obama a good-luck card, which is stapled to the head of a horse.<br />
+<br />
+Opponents of illegal Mexican immigration had cheered when Congress authorized the construction of a 700-mile fence. Their cheers quickly fade when they learn that, because of wording inserted at the last minute by Sens. Robert Byrd and Ted Stevens, 650 miles of the fence will be constructed in West Virginia and Alaska.<br />
+<br />
+Vice President pipeweed Cheney again becomes the center of controversy when, while being interviewed on a radio show, he defends the interrogation technique known as "water-boarding" as a legitimate anti-terrorism tool, not torture. At first the host disagrees, but after several "commercial breaks," Cheney brings him around.<br />
+<br />
+A strong earthquake shocks Hawaii, causing Paris to shut down completely.<br />
+<br />
+In sports, a football game between the University of Miami and Florida International University is marred by violence, prompting both schools to seriously consider banning players from carrying handguns onto the field. In baseball, the New York Yankees, despite being clearly the best and most expensive team the world has ever seen, fail to even get into the World Series, leaving Yankee fans to spend yet another bitter off-season wondering why their team can&#39;t simply be awarded the championship and not have to play these stupid games against clearly inferior teams from dirtball cities that don&#39;t even have subways.<br />
+<br />
+[NOVEMBER]<br />
+<br />
+. . . when Kerry&#39;s "joke" causes widespread outrage, prompting Kerry, with typical humility, to insist that it was obviously humorous and that anybody who disagrees is an idiot. Kerry is finally subdued by Democratic strategists armed with duct tape, but not before many political analysts see a tightening of the race to control Congress.<br />
+<br />
+As the campaign lumbers to the finish line, the Republicans desperately hope that the voters will not notice that they -- once the party of small government -- have turned into the party of war-bungling, corruption-tolerating, pork-spewing power-lusting toads, while the Democrats desperately hope that the voters will not notice that they are still, basically, the Democrats. The actual voters, of course, are paying no attention, having given up on politics months ago because every time they turn on the TV all they see are political ads accusing pretty much every candidate on either side of being, at minimum, a child molester.<br />
+<br />
+Thus nobody really knows what will happen as the voters go to the polls. In Florida, nobody knows anything even after the voting is over, because -- prepare to be shocked -- many electronic balloting machines malfunction. Voters in one district report that their machines, instead of displaying the candidates for Congress, showed "Star Wars: Episode IV." (By an overwhelming margin, this district elects Jabba the Hutt.) Nationwide, however, it eventually becomes clear that the Democrats have gained control of both houses of Congress. President Bush handles the defeat with surprisingly good humor, possibly because his staff has not told him about it. For their part, future House and Senate majority leaders Nancy Pelosi and Harry Reid issue a joint statement promising to "make every effort to find common ground with the president," adding, "We are clearly lying." Pelosi sets about the difficult task of trying to fill leadership posts with Democrats who have not been videotaped discussing bribes with federal undercover agents.<br />
+<br />
+The first major casualty of the GOP defeat is Defense Secretary Donald Rumsfeld, who, the day after the election, is invited to go quail-hunting with the vice president. He is never seen again. As Rumsfeld&#39;s replacement, the president nominates -- in what is widely seen as a change in direction on Iraq -- Barbra Streisand.<br />
+<br />
+In other celebrity news, Michael Richards, a graduate of the Mel Gibson School of Standup, responds to a comedy-club heckler by unleashing a racist tirade so vile that even John Kerry realizes it is not funny. A chastened Richards apologizes for his behavior, citing, by way of explanation, the fact that he is a moron.<br />
+<br />
+Speaking of which, O.J. Simpson is once again in the headlines when Fox TV announces that Simpson will be interviewed on a two-night special in conjunction with his new book, If I Did It, in which he will explain how, "hypothetically," he would have murdered Nicole Brown Simpson and Ronald Goldman. This idea is so sick, so disgusting, so utterly depraved that it would undoubtedly get huge ratings. But Fox, faced with withering criticism, is forced to cancel the project, which is the brainchild of publisher Judith Regan, about whom you could write a "hypothetical" book titled If Judith Regan Had the Moral Standards of a Tapeworm.<br />
+<br />
+On the economic front, the holiday shopping season officially kicks off with "Black Friday," and retailers are pleased with the numbers: 2,038 shoppers hospitalized, up 37 percent from last year.<br />
+<br />
+In other good news, with only a few days left in the virtually storm-free 2006 hurricane season and still no storms in sight, U.S. weather experts, citing new data, predict that the season will end up having been very mild. This forecast turns out to be right on the money, but the experts waste no time on self-congratulation, as they immediately begin making scientific predictions for next year&#39;s hurricane season, which, they warn, could be a bad one.<br />
+<br />
+[DECEMBER]<br />
+<br />
+. . . gets off to a troubling start , with the worsening situation in Iraq worsening faster than ever. The nation&#39;s hopes for a solution are pinned on the Iraq Study Group, a presidentially appointed blue-ribbon panel consisting of five Republicans, five Democrats and the Wizard of Oz. In accordance with longstanding Washington tradition, the panel first formally leaks its report to the New York Times, then delivers it to the president, who turns it over to White House personnel specially trained in reading things.<br />
+<br />
+In essence, the study group recommends a three-pronged approach, consisting of: 1) a gradual withdrawal of U.S. troops, but not on a fixed timetable; 2) intensified training of Iraqi troops; and 3) the physical relocation of Iraq, including buildings, to Greenland. Republican and Democratic leaders, after considering the report for the better part of a nanosecond, commence what is expected to be a minimum of two more years of bickering.<br />
+<br />
+With the Iraq situation pretty much solved, the world&#39;s attention shifts to Iran and its suspected nuclear program, which becomes the subject of renewed concern after U.S. satellites detect a glowing 400-foot-high spider striding around Tehran. Iranian President Mahmoud Ahmadinejad insists that it is "a peaceful spider" that will be used "only for mail delivery." Shortly thereafter, North Korea -- in what many observers see as a deliberate provocation -- detonates a nuclear device inside the Lincoln Memorial.<br />
+<br />
+Finally responding to these new threats to international stability, the five permanent members of the U.N. Security Council -- the United States, the United Kingdon, Russia, China and Google -- hold an emergency meeting in Paris, where, after heated debate, they vote to have a bottle of 1959 Chateau Margaux with their entree. Unfortunately, they cannot agree on a dessert wine, causing the city, which had just reopened, to shut down completely.<br />
+<br />
+In other food news, New York City, having apparently solved all of its other problems, bans "trans fats." Hours later, police surround a Burger King in Brooklyn and fire 50 bullets into a man suspected of carrying a concealed Whopper. The medical examiner&#39;s office, after a thorough investigation, concludes that the man "definitely could have developed artery problems down the road."<br />
+<br />
+Speaking of health problems, rumors that Fidel Castro is ailing gain new strength when, at an official state dinner in Havana, a waiter accidentally tips over the longtime Cuban leader&#39;s urn, spilling most of him on the floor.<br />
+<br />
+In other deceased-Communist news, British police rule that the mysterious death of a former Russian spy in London was a murder, caused by the radioactive element polonium-210. New York immediately bans the element, forcing the closure of 70 percent of the city&#39;s Taco Bells.<br />
+<br />
+As the year, finally, nears its conclusion, Americans turn their attention to the holiday season, which they celebrate -- as generations have before them -- by frantically overbidding on eBay for the Sony PlayStation 3, of which Sony, anticipating the near-homicidal level of demand, manufactured an estimated 11 units. Millions of Americans also head "home for the holidays," making this one of the busiest air travel seasons ever. The always vigilant TSA responds by raising the Security Threat Level to "ultraviolet," which means that passengers may not board an airplane if they contain blood.<br />
+<br />
+But despite the well-founded fear of terrorism, the seemingly unbreakable and escalating cycle of violence in the Middle East, the uncertain world economic future, the menace of global warming, the near-certainty that rogue states run by lunatics will soon have nuclear weapons, and the fact that America is confronting these dangers with a federal government sharply divided into two hostile parties unable to agree on anything except that the other side is scum, Americans face the new year with a remarkable lack of worry, and for a very good reason: They are busy drinking beer and watching football.<br />
+<br />
+So, Happy New Year.<br />
+<br />
+(Burp.)<br />
+ <br><BR><font size=1>13:07 03-01-2007</font><BR><BR><hr><b>Sithborg279</b>   I prefer Blanka electrocutions to beating up hookers.</TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/lotr/resources/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/lotr/resources/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=8614><input type='Submit'  value=' Show all Posts '></form><form action='/lotr/resources/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=8614><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/lotr/main/join.php'> become a registered member</a></font></font></td><td background="/lotr/gfx/mom/whi_09.gif"></td></tr>
+<tr><td><img src="/lotr/gfx/mom/whi_10.gif" width=6 height=18></td>
+<td background="/lotr/gfx/mom/whi_11.gif"></td>
+<td><img src="/lotr/gfx/mom/whi_12.gif" width=6 height=18></td></tr>
+</table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script> 			
+<!-- rumors board code end -->
+<!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr align="center" valign="bottom" > 
+      <td height="100"><font class="lfont">This site is maintained and updated 
+        by fans of The Lord of the Rings TCG, and is in no way affiliated with 
+        New Line Cinema or Decipher Inc. We in no way claim the artwork displayed 
+        to be our own. Copyrights and trademarks for the films and other promotional 
+        materials are held by their respective owners and their use is allowed 
+        under the fair use clause of the Copyright Law.<a href="/global/terms.php" class="level1nav"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

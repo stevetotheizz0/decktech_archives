@@ -1,0 +1,366 @@
+
+<html><!-- #BeginTemplate "/Templates/freedom.dwt" -->
+<head>
+<title>FreedomCon - United We Stand</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {  margin: 0px 0px; border: none; font: 10pt Verdana, Arial, Helvetica, sans-serif; color: #000000}
+.legal {  font: 6pt Verdana, Arial, Helvetica, sans-serif; color: #CCCCCC}
+td {  font: 9pt Verdana, Arial, Helvetica, sans-serif}
+.nav {  font-size: 8pt; color: #FFFFFF; text-decoration: none}
+-->
+</style>
+</head>
+
+<body bgcolor="#000E58" margin="0" marginwidth="0" marginheight="0">
+<table width="93%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td colspan="2" height="97"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+        <tr>
+          <td><img src="/freedomcon/gfx/freeblue.gif" width="266" height="123" border="0"> 
+          </td>
+          <td valign="middle" align="center">&nbsp; </td>
+        </tr>
+      </table>
+      
+    </td>
+    <td width="42" height="97">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td height="149"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <tr> 
+                <td class="legal"><a href="/freedomcon/index.php" class="nav">Home</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/about.php" class="nav">About FreedomCon</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/sponsors.php" class="nav">Our Sponsors</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/contact.php" class="nav">Contact Us</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/attend.php" class="nav">Players Attending</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/donate.php" class="nav">Donations and Charity</a></td>
+              </tr>
+              <tr>
+                <td><a href="/freedomcon/buzz.php" class="nav">Discuss FreedomCon 2!</a></td>
+              </tr>				  
+			  
+            </table>
+            
+          </td>
+        </tr>
+      </table>
+
+      <!-- #BeginEditable "nav" --> <!-- #EndEditable --><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><br>
+      </font>
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b><br>
+            What:<br>
+            FreedomCon</b> <br>
+            Philadelphia 2002<br>
+            <br>
+            <b>When:</b> <br>
+            October 4-6 <br>
+            <br>
+            <b>Where:</b> <br>
+            NeoQuest Games<br>
+            Gary's Plaza<br>
+            531 South Broad Street<br>
+            Lansdale, PA 19446<br>
+            </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">215 
+            855 7035</font></td>
+        </tr>
+      </table>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"></font></td>
+    <td width="541" bgcolor="#FFFFFF" valign="top" background="/freedomcon/gfx/Vegasxflcam.jpg"><!-- #BeginEditable "body" --> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td valign="top" height="461" width="57%"> <br>
+
+<script language="javascript">
+
+echo "test";
+
+// This makes certain pages private, for members only. Neal 10-2013
+if ($access == "" )
+{
+echo "<table bgcolor='#ffffff' width=500><tr><td><P>This area of DeckTech is now restricted to members only. You must be logged in to view this page.
+Go to <a href='http://www.decktech.net/'> DeckTech.net </a> to log in";
+echo "<P>If you are not a member, and would like to spy on a member, you are cordially invited to kiss off.</td></tr></table>";
+exit;
+}
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+prev1.document.writeln(texttoshow);
+}
+
+function changetobold()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetospoiler()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "(drag mouse to see spoiler)<div style=background-color:red;color:red;foreground-color:red>"+newtext+"</div>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+linkyaddress = document.buzzboardform.texttoconvert.value;
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function oldchangetobold()
+{
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+
+
+
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5<br />
+<b>Warning</b>:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in <b>/home/decktech/public_html/global/includes/com/buzzboard.php</b> on line <b>1719</b><br />
+<table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font class="h1font">Premiere Star Wars CCG revisited </B></font></td></tr><tr valign="top"><td><font class="bfont"><font class="bfont"> From: <a href="http://www.decktech.net/magic/main/mpage.php?member=17">neal </a></font><BR><table><TR><TD><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='/freedomcon/buzz.php?id=10127'><b>REFRESH THIS TOPIC</b></A></font></td><td width=40>&nbsp;</td></tr></table><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#EFF1FF><font class="h2font"> Comment</td></tr><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">make that 3 blizz walkers in deck not four.. lol  <br><BR><font size=1>09:37 04-30-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">my deck has: <br />
+4 copies of card A<br />
+4 copies of card B<br />
+2 copies of card C<br />
+<br />
+im on turn two. guess what? i have all of the above RED cards in my 16 card hand. <br />
+<br />
+<br />
+also have 4 copies of card D in my deck. 2 in my hand. another card with no ability.(blizz walker) <br><BR><font size=1>08:50 04-30-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">i will not be on gemp again. terrible shuffling system. <br><BR><font size=1>08:34 04-30-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>CategoryOneGame </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=CategoryOneGame '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Not only was the cast revealed but so were the new books - http://categoryone.wpengine.com/?p=389  <br><BR><font size=1>01:48 04-30-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">same goes for baker..<br />
+<br />
+at least daniels speaks... <br><BR><font size=1>16:03 04-29-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">what the hell is peter mahyew gonna do? all the wookies were cgi last time around. <br><BR><font size=1>16:02 04-29-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Darth Bear </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Darth Bear '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Episode 7 cast revealed...<br />
+<br />
+http://www.imdb.com/news/ni57137049/?ref_=hm_nw_tp_t1<br />
+<br />
+Max von Sydow is on the list.  There&#39;s about a 99% chance he&#39;s the main bad guy.  Great choice IMHO. <br><BR><font size=1>12:58 04-29-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">it&#39;s fun, but it&#39;s all space battles <br><BR><font size=1>12:34 04-29-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">im really hating the sealed format. <br><BR><font size=1>07:48 04-29-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">but theres like 3 cards that cancel it. for each side.<br />
+<br />
+AND you can like i said.. control your troops. and not have 10 at one site.. ive literally moved away from a site and not drained to make sure. <br><BR><font size=1>21:36 04-24-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Surprise Assault is so stupid, honestly.  "Sealed" has to have so many fixed cards to be playable, I wonder if you can really call it sealed lol.<br />
+<br />
+I pulled a couple nice ones. I did that stupid thing where I forgot to disembark and it cost me 15 damage.  I came back and won. No kidding, but boy was it close.<br />
+<br />
+In another game, I was hitting the opponent with Leesub, as usual picking interrupt before draining, right? So I see a dreadnaught in hand. Next turn I drain for 3, and pick starship with only like 5 cards in hand. DREADNAUGHT! Buh bye. <br><BR><font size=1>16:21 04-24-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">uh you got Darth Vader, adds +1 to destiny?  Not VADER. Wow. That&#39;s like what, an auto win? <br><BR><font size=1>16:19 04-24-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">But if youre smart you know to split your forces and not get hot by surprise/counter assault too bad<br />
+but yeah its one of the three lost interupts i check for<br />
+<br />
+I got vader in sealed I really need to play some<br />
+<br />
+ <br><BR><font size=1>13:12 04-24-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">it seems to be working now, I played a little of the new sealed against bear. He had me, but I got lucky and surprise assaulted him badly.<br />
+<br />
+Surprise assault is so totally broken in sealed. One just because the card is broken, 2 because a hit of like 6 is really magnified because of the small deck size.<br />
+<br />
+For sealed there needs to be like 3 tarkin&#39;s orders per side. <br><BR><font size=1>12:44 04-24-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">you&#39;re just neal on there right? i&#39;ll talk to tbiesty that happened to me and he fixed it. <br><BR><font size=1>19:11 04-23-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">no I mean I can&#39;t access the site. I haven&#39;t been able to even bring the site up for like a week. It just sits and times out. <br><BR><font size=1>12:41 04-23-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">i apparently signed up for a league and i need to play but my work just picked up like crazy and on top of that i have a chicken coop to finish before my chicks arrive.. and two girlfriends and a garden to till and build and plant soon. <br><BR><font size=1>18:48 04-22-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I haven&#39;t been able to get to the site for like a week <br><BR><font size=1>12:14 04-22-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">i make way more mistakes neal.<br />
+<br />
+and dont assume you know everyone&#39;s personality type. you cant boldly claim "you make less mistakes because of interface"  because of the speed i make way more. in real games i  never forgot forcedraining. thats like breathing to me. <br><BR><font size=1>18:58 04-17-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Nitsuj </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Nitsuj '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I&#39;m 12-1 in constructed play according to my game history.  Someone tell Hunter to put me on his list.  <br><BR><font size=1>12:37 04-17-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Playing online isn&#39;t too bad, you just have to get the hang of it. Actually, you make less mistakes I feel (not a good thing really) because of the interface. It highlights the legal moves for the phase and once or twice I have been like "Oh, wait, I can do that? Cool" <br><BR><font size=1>11:39 04-17-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">i played my last game with making only 1 mistake.. so i might give it a chance <br><BR><font size=1>21:33 04-16-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">So, i&#39;d really LOVE to LOVE playing on GEMP... but<br />
+<br />
+my personality type does not work with it at all.<br />
+im very used to play swccg and my habbits are very strongly ingrained.<br />
+<br />
+that combined with the fact that i have major ADD make me a poor candidate.<br />
+<br />
+<br />
+so verdicts in. i cant stand playing swccg online. i&#39;ll stick to in person. <br><BR><font size=1>20:04 04-16-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I dont think dinelle would call himself stud for some reason. I got his number wanna call him and ask him? Lol <br><BR><font size=1>13:07 04-16-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I have seen a few weird things, but that guy is the top weirdo. Welcome to the world of websites; things start off good, and then get annoying as the buttholes join. <br><BR><font size=1>12:04 04-16-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Nitsuj </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Nitsuj '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">So, the community for GEMP SWCCG is starting to get a little bigger, but I suspect that we already have our first troll.<br />
+<br />
+A player playing as STUD/muet is confirmed.  STUD has rage quit on me once, and then I saw muet playing a very similar deck and prodded him a little during a chat and got him to reveal that he was STUD.<br />
+<br />
+Today, I saw a player TJ3 who was playing a different deck, but it definitely was built around gimmicks like STUD/muet&#39;s deck.  I was having light banter in the chat log, and he got angry that we were chatting during his game.  I made a comment that if his opponent played "wuher" it would be amazing - and he took offense to it.  <br />
+<br />
+I can tell that he&#39;s a non-native speaker, and I cannot help but wonder if its Dinelle.  The gimmick decks do look well constructed, and I have to admit that Dinelle was a solid deck builder. <br><BR><font size=1>10:14 04-16-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">btw, it is a LOT more fun with ANH <br><BR><font size=1>23:46 04-10-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">so Booth, basically, droids can only be battled if someone else on the same side is with them <br><BR><font size=1>23:46 04-10-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Aglets </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Aglets '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">They will participate in a battle like any other character but there must be some other card with ability of one or more there for the battle to take place.  Both sides need &#39;presence&#39; at a location for a battle to be initiated.   <br><BR><font size=1>17:31 04-08-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">So droids can be battled like any other character?   <br><BR><font size=1>16:12 04-08-2014</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=10127><input type='Submit'  value=' Show all Posts '></form><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=10127><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/swtcg/main/join.php'> become a registered member</a></font></font></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script>
+<!-- advertising code -->
+<!-- Kontera ContentLink(TM);-->
+<!--
+<script type='text/javascript'>
+var dc_AdLinkColor = 'blue' ; 
+var dc_PublisherID = 157626 ; 
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'>
+</script>
+-->
+<!-- rumors board code end -->
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+      </table>
+      <!-- #EndEditable --></td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"> 
+      <p align="center" class="legal"><span class="legal"><span class="legal"><span class="legal"><br>
+        Legal- TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and related 
+        marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher Inc. Decipher, 
+        Customizable Card Game, The Art of Great Games and associated marks and 
+        intellectual property are exclusively owned by Decipher Inc. All Rights 
+        Reserved. THIS Web Site IS NOT PRODUCED OR ENDORSED BY DECIPHER, INC OR 
+        LUCASFILM LTD OR PARAMOUNT PICTURES. STAR TREK. </span></span></span> 
+        <span class="legal"><span class="legal"><br>
+        <span class="legal"> TM & © 2002 www.decktech.net. All Rights Reserved. 
+        </span></span></span><br>
+        <br>
+      </p>
+      </td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+</body>
+<!-- #EndTemplate --></html>

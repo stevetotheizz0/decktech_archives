@@ -1,0 +1,437 @@
+ 
+<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
+<head>
+<title>DeckTech - for the players, by the players.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/swccg/global/css/white.css">
+<!-- #BeginEditable "Style" --> 
+<style type="text/css">
+<!--
+.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
+.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
+.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
+.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
+.centercolor {  background-color: #313063}
+-->
+</style>
+<!-- #EndEditable -->
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" -->
+
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>
+
+<!-- END BURST CODE -->
+ <!-- #EndLibraryItem --></td>
+    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
+      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
+    <td valign="top" class="centercolor" rowspan="2" > 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
+          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
+          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
+        </tr>
+        <tr> 
+          <td colspan="2"><!-- #BeginEditable "Body" --> 
+            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
+              <tr> 
+                <td bgcolor="#333366" height="12" valign="top" width="44%"><img src="/swccg/global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
+                <td bgcolor="#333366" align="right" valign="top" height="12" width="48%"><img src="/swccg/global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr> 
+                <td height="622" valign="top" colspan="2" bgcolor="#333366"><table width="100%" border="0" cellpadding="4"><tr bgcolor="#000000"><td><font color="#FFFFFF"><font face="Haettenschweiler, Tahoma, Arial" size="6">Return Of The Killer EBO v1.1</font></td></tr></table><BR><table WIDTH="100%" CELLPADDING="4"><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">This deck looks very solid.  One good battle and that could be game for you.  I would add that new effect, Launching the Assault and maybe to more cruiser, like Liberty and something else.  Nice job on the deck.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=425">Info Broker</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">k </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=4333">Lord Kenobi</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd9.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Nice deck, but you might want to throw in a yarna dal gargan.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=1869">The Man</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd9.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Looks powerful!</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=1962">Kevsith</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd9.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Great Overall Deck.... not many weaknesses.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=2003">Raglov</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd9.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Awesome Deck!</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=3496">Wookie20</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Good EBO deck. 5 systems is good in a tight game. I would use one more cannon and now days a AO to avoid the -2 power of fighters comming in. I would also put 2 hyper escape in ant take out surprise assult and out of nowhere.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=2041">Pr B</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">It looks like a solid deck.  You might have some trouble beating a rops deck.  The usually can flip easily.  You can avoid this with some rebel barriers, then beat the crap out of them.  I would switch the independence for the liberty for resusing.  Also, add a epp han, maybe some multiples of obi and luke.  Otherwise, looks good.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=2105">Teknologik</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Good solid EBO.	Good balance between ground and space.	At least that way an early alter on EB Garrison won't slow you down too much.	I'd probably go ahead and throw in Bacta tank if you have it... it's real nice for those 2-2 pilots.	Also, I've always thought that Sprial is a better ship than Tantive.  You also may want to think about another X-wing laser cannon for use against the bounty hunters and all the TIEs running around.  Also, is your avg destiny high enough for Surprise assalut to be effective?  Again, solid deck...good luck with it.<br>
+<br>
+Best,<br>
+Matt	  </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=2286">Rooster</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">	Since you can deploy your systems from the deck, you probably don't need five of them.  You might have trouble holding that many, actually.  I recommend using Hoth, Sullust, and Kiffex.<br>
+  You've got both Luke and Chewie in this deck, add Han With Heavy Blaster Pistol.  The extra battle destiny makes him worthwhile.  Replace Commander Wedge Antilles with Wedge Antilles, Red Squadron Leader.<br>
+  Add the Spiral to back up your ships as a react.  Replace Docking And Repair Facilities with Bacta Tank, it helps more since you're short on characters and can be grabbed with Echo Base Garrison.<br>
+  Take out Surprise Assault and Traffic Control for two more copies of The Signal.  Your destiny average isn't high enough to put SA to work, and this deck deploys stuff quickly enough to make Traffic Control almost pointless.  </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=443">Douglas</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Good solid EBO offering.  I'd personally swap Lost In The<br>
+Wilderness out for Wise Advice, because more than likely,<br>
+either your Echo Base Garrison, Rebel Fleet, Traffic Control<br>
+or some other nice Effect WILL get Altered, no matter<br>
+whether you have Do Or Do Not down or not.  I'd also try to<br>
+find room for a grabber or two (just like American Express,<br>
+you should never leave home without 'em).  "Other than that,<br>
+it looks pretty solid."</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=47">Gold 42</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">[Note: I have no experience whatsoever playing EBO, so I'm just going by what I see.] Looks good. I would recommend adding 1 more It's a Hit and a X-Wing Laser Cannon, and *maybe* another Organized Attack. Also protect Haven if Sullust is in play (or at least keep an ICBW in your hand). Consider adding a Han of some sort (probably EPP or Captain Han and Super Falcon stuff, or Gold Sq. 1 with Gen Calrissian and Nien Nunb). You may have some slight problems with a ground based deck, so maybe some more EPPs in there.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=1774">Kalit!</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Looks like it could be a solid deck.  Most of the reviews I've seen here look real helpful.<br>
+<br>
+Yeah, *I* would drop Independence for Liberty.	That built in Myo-type of ability is HUGE.<br>
+<br>
+Yeah, I would get Mechanical Failure in here.  If they decide to try to enforce decree...TAKE THEM OUT.<br>
+<br>
+And Han w/ Blaster...he's by boy!  He's got that weapon.  He adds a destiny with Luke AND Chewie.  And he's a +3 power pilot.  He's a big card!<br>
+<br>
+But besides that it looks like you got a good start for a deck here.  Monnok would hurt it...but if people aren't playing it in your area...not a big deal.<br>
+<br>
+PEACE OUT!</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=3031">Mage</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Good but still not quite 4 1/2.<br>
+First off, I HAVE seen Monnk used so a Yarna would be wisely advised.<br>
+second of all, the iceing on the cake (S-foils) makes the cake taste so much better, so u might want to consider it.<br>
+And really, take out honor of the jedi.  Boushh can get on Executor easily enough, and, well, I just don't think u need it.  But I guess that's your call.<br>
+Like I said before, trying to kill vader might not be the best idea seeing as the new Lord vader is extremely powerful dueling wise.<br>
+still a good deck.  but I think Tessek is more fun:)hehe</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=1442">Duke Devil</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">pretty good, sorry it took so long to rate this, you D-mailed me like, 2 weeks ago.  You dont need any extra tech for EBO.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=2368">Rogahh</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2"><br>
+ </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=7879">vader69</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd7.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Sorry, but Rops, the most common deck, will rape this.  You<br>
+don't have enough ground to stop there imperial decree.<br>
+Try mechanical failure, cause they're likely to put an<br>
+atst under the sheilds.<br>
+I also used rebel barrier+icestorm to get rid of vader<br>
+coming down to play....<br>
+Also, for the new dark side objective, you have to have luke<br>
+at a battleground site to afford losing the force.. so I'd<br>
+worry about that, but i think you'll do ok anyways.<br>
+if you were a little stronger vs rops, it would be 4 stars.<br>
+I'd also worry about Tie decks and guns...</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=2021">Serpent</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd7.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">looks good, throw in the right AO, and it would rule</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=2928">Keya</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd7.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Once you have a monnok used against you, you'll understand why protection is important. However this deck covers the EBO standard perfectly, though the new admiral's orders will each ahve a negative effect on your deck. Possibly switch some of the generic x-wings for matching x-wings for hobbie and wedge. They can hold a system by themselves.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=2186">Skuff D</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd7.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">This is a pretty good deck. I would take out the Surprise Assault, Tatooine and the Lost In The Wilderness and put in 2x What are you trying to Push on Us and Wise Advice. If you are not playing SAC then you really need to defend well against it and the Push is good against other kinds of abused interrupts.  I think that you will find pulling the characters will not work out to be as fast as you think. I would add some cheap deploy guys and maybe some tricks to go get them. But then it would really be a different deck. Also, be careful when you are pulling your stuff. You seem to indicate that you can pull EBO with ANSB after you have already gotten out your sites. You can only pull the Effects along with a site, as far as I know. Good luck with it.<br>
+</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=29">rayc</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd6.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Screw Boushh.  Boushh don't keep Honor Of A Jedi working.  Why Melas when Han w/ Gun is so much better?  Consider chunking all your characters (besides drawable from Garrison) for three Obi's with Sabers, two Luke Skywalker, Jedi Knights, a Luke's Saber, and a Tunnel Vision.  Take out the Surprise Assault for a Bacta Tank.	Between the Obi's, for clearing, the Lukes, for staying, and the Bacta Tank, you've got a hell of a ground force.  Screw Yavin 4 and Tatooine.  Throw in Chandrila.  Screw Mon Calamari.  Throw in Aquaris.  Screw Out Of Nowhere; your destiny isn't that good.  Chunk Independence for Liberty.  An immunity to attrition <3 isn't worth it.  Screw Lost In The Wilderness and It's a Hit.  Throw in something worthwhile that will help your deck.  You've got a lot of loose ends here, but they'll get tighter once you playtest.  Every card needs to be essential to the deck for some purpose.  An okay deck, but it's pretty rough on the edges.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=1098">FrOsTbYtE</A></FONT></TD></TR></table></td>
+              </tr>
+              <tr> 
+                <td height="67" valign="top" colspan="2" bgcolor="#333366"><a href="/swccg/decks/light/lightdetail.php3?deck=8953"><img src="/swccg/decks/images/ldback.GIF" width="65" height="77" border="0"></a> 
+                  <a href='/swccg/decks/light/lightreview.php3?deck=8953'><img src='/swccg/decks/images/ldreview.GIF' width='65' height='77' border='0'></a> 
+                </td>
+              </tr>
+            </table>
+            <!-- #EndEditable --></td>
+        </tr>
+      </table>
+    </td>
+    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
+      <table border="0" cellspacing="0" cellpadding="0" width="150">
+        <tr align="right" valign="top"> 
+          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
+          <td width="154" valign="top" align="right"> 
+            <table width="154" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF">&nbsp; </td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF"> 
+                  <script language="JavaScript">
+
+function logout() {
+var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
+document.cookie = cookie;
+window.location = "../index.php3";
+	}
+
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+
+</script>
+                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
+<select name="select1" onChange="go(this)">
+    <option selected>Quick Jump</option>
+    <option value="/swccg/resources/rulings.php3">Current Rulings</option>
+    <option value="/swccg/main/decktech.php3">About DeckTech</option>
+    <option value="/swccg/membercenter/directory.php3">Member Directory</option>
+    <option value="#">-----------------------------</option>
+    <option value="http://www.decktech.net">decktech.net</option>
+  </select>
+</form><br>
+<!-- #EndLibraryItem --> </td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
+                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
+                  Center</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
+                  Reports </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/treports/index.php3" class="level1nav"></a></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav"></a><a href="/swccg/shop/index.php" class="level1nav">Tech 
+                  Shop </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
+                  Resources</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
+          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/decks.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/index.php3" class="level2nav">Decks 
+      Home</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/dark/darkdecks.php3" class="level2nav">Dark 
+      Decks</a><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/light/lightdecks.php3" class="level2nav">Light 
+      Decks</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
+          <td width="155" valign="top" height="13"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr align="left" valign="top" bgcolor="#630063"> 
+                <td width="154">
+ <!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --> 
+<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
+                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
+      Updates</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2002-01-12</font><BR></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
+      Tips</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><p><font face='arial' size='2' color='#ffffff'>Trying to find something to do to help promote SW:CCG? Look at our community projects just off the homepage!</font></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

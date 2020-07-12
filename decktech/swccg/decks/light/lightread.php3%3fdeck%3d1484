@@ -1,0 +1,463 @@
+ 
+<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
+<head>
+<title>DeckTech - for the players, by the players.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/swccg/global/css/white.css">
+<!-- #BeginEditable "Style" --> 
+<style type="text/css">
+<!--
+.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
+.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
+.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
+.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
+.centercolor {  background-color: #313063}
+-->
+</style>
+<!-- #EndEditable -->
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript><!-- #EndLibraryItem --></td>
+    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
+      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
+    <td valign="top" class="centercolor" rowspan="2" > 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
+          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
+          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
+        </tr>
+        <tr> 
+          <td colspan="2"><!-- #BeginEditable "Body" --> 
+            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
+              <tr> 
+                <td bgcolor="#333366" height="12" valign="top" width="44%"><img src="/swccg/global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
+                <td bgcolor="#333366" align="right" valign="top" height="12" width="48%"><img src="/swccg/global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr> 
+                <td height="622" valign="top" colspan="2" bgcolor="#333366"><table width="100%" border="0" cellpadding="4"><tr bgcolor="#000000"><td><font color="#FFFFFF"><font face="Haettenschweiler, Tahoma, Arial" size="6">Matt's World Deck</font></td></tr></table><BR><table WIDTH="100%" CELLPADDING="4"><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">DEfinatly World Quality</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=1152">Amidala</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I've had the pleasure of playing and seeing this deck in action many times.  It runs smoothly and has few, if any weaknesses.<br>
+A few additional comments, based on what others have said and my own observations:<br>
+<br>
+- The Falcon/Capt Han/EPP Leia combo is absolutely killer.  I love it! The addition of Legendary Starfighter would really make the DS miserable.<br>
+- I know this deck has struggled against Big Blue Walker decks.  Perhaps 1-2 Mechanical Failures would help?<br>
+- Odds decks are rare in Central Texas right now, which is why Matt doesn't have much Odds protection.  Ultimatum works fine in a pinch.<br>
+<br>
+Great deck, as always!</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=304">Red 81</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">An old schooler finally has his day in the sun. I might go for a GOTM or 2 and I know would rock. I think that these are still the superlative decks no matter what anyone else says</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=279">Darth_Cheese</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I really like it!</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=66">Wampa8jedi</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Awesome. A high destiny hunt down deck might be a problem...</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=1995">redawg77</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Kickass!</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=1584">yodamuppet</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">youre my idol</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=629">JWRP119</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Its a damn good deck, and you surely know how to run it. Won't stand a chance against any of my dark decks, though :)</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=2426">hoostino</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">This deck is amazing.  it is almost impossible to realize how good it is until seeing it in action.  the addition of the grabber should go a long way.  there are just some times when you do not want to sense something or just cannot.  this deck is so tweaked it is hard to make any changes.  i worry about the only one celebration.  if that goes off the top aack.  i like controls (i know matt does not too much)  i would probably swap out the 2 LITW for 2 controls.  one thing you have to see to believe is the staying power of this deck, these characters stick around and keep knocking off the opponents.  also, the force gen AND the ability to choke off the opponent is huge.  finally SOLO HAN RULES for all you who do not know.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=17">Dredlox</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">k </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=3275">Boda-Baas</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">nice deck. </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=1258">pakkratt</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2"><br>
+ </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=7879">vader69</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">666 </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=9455">Dark Lord666</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">nice </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=9537">Phillipe2</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I dont think I would change a card on a beast like this, but sometimes you just cant handle the dark mains. </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=1867">Krycek1</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">This is a pretty solid deck dude, I don&#146;t know why it didn&#146;t work out for you.  I would play it except don&#146;t you think three Smokescreens is a little crazy?  Just learn to track ya scrub! </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=5800">Armaedes</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd9.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">What can I say ? Very strong and balanced mains and toys deck.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=534">CJ</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd9.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Great deck, you're right it is teched out against ops but not so much as that it could not beat other decks. Very balanced. Could have problems with a heavy duel Hunt Down.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=332">JFunkAllStar</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd9.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">SAC is sooo good. I like the deck a lot, but I just don't know what to say to change.. very good.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=283">Bad Player</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd9.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Niceness</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=464">Zuckuss</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd9.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">You peaple that don't understand Smoke Screen and lone destiny adders are dumm they easy to set up and are good. Also there is only 1 person in Texas that plays numbers and he lives in Salt Flat, Texas, that is his reason for no pertection. One other thing I should have beat this damm deck at that last tournament Matt, you got lucky.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=783">Odi-Wan</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd9.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">worked great for me in the pre-d*ii eara </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=459">Yoda</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd9.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">This deck is powerful enough for worlds but may have a weaknessagainst a specific deck type.<br>
+<br>
+that says it all</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=1004">Jackal</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd9.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">excellent deck<br>
+ </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=5383">The Judge</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd9.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">ok </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=6178">Hardpack</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd9.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">looks good </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=6831">KissTK</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Tat Cel is so tempting, but it's so hard to keep going.  The deck looks great, and I'm not really sure why you couldn't stand up to big power decks, except for maybe due to lack of destiny adders or something. You need better SCrew protection, and I don't see anything for numbers.  Oh wait, your space is terrible!  Not even the Tantive or Spiral?  I guess that would be a big problem against dark space.	Add space and a few counters.  I really love the GIFT idea.  </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=309">Soma</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">You are a little teched out, I'd use the Station instead of<br>
+Mos Eisley.  Take out a Smoke Screen for a Swing-And-A-Miss. When ECC is out use Sorry About the Mess for counter 4-Lom, I'd take out a Solo Han and the Clash for 2.	Great, Awesome, incredible deck, looks really good.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=18">Norman</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">SAC is good, but it won't be good enough against manipulation.  There is no protection against screw, one grabber is not enough.	I question boshek, why not use orimarrko.  I think a landing claw should go in there.  3 of an interrupt, i found too many, since they always seem to get monnoked.  I'd take out a smoke screen and add a sorry about the mess.  All in all, a pretty tough deck, but not much drain potential, especially against ops.  It may shut down their drains to one, but you can only drain for one.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=251">Stuart Jones</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">nicely done</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=1095">Djas Phur</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I beat in in the worlds, hehe!</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=1303">Mart</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2"><font color="green"> <marquee> Nice Deck </marquee> </font></FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=2033">Krogoth</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">nice deck</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=1341">Old Ben 425</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd7.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I would give it a higher rating if it had anti-odds stuff.  Odds is still a very viable stragety and should be dealt with accordingly. Why the Solo Hans?	I can see a Han by himself if you had an EPP han with savrip of bacta tank, but a Captain Solo cannot deploy very easily, and Solo Han only works at sites.  If they are playing ops or something other than hoth or CC then the solo hans are worthless.  I do like the anti-ops crap.</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=727">morbius 18</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd7.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">nice deck, well balanced.. needs better protection vs. manipulation and numbers though.. itd really have trouble.. </FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=239">XjedeyeX</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
+	<IMG SRC="../images/dd6.GIF" BORDER=0></TD>
+	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I think this deck would lose to any drain deck</FONT></TD>
+	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
+	<A HREF="../../membercenter/directory/memberpage.php3?member=1869">The Man</A></FONT></TD></TR></table></td>
+              </tr>
+              <tr> 
+                <td height="67" valign="top" colspan="2" bgcolor="#333366"><a href="/swccg/decks/light/lightdetail.php3?deck=1484"><img src="/swccg/decks/images/ldback.GIF" width="65" height="77" border="0"></a> 
+                  <a href='/swccg/decks/light/lightreview.php3?deck=1484'><img src='/swccg/decks/images/ldreview.GIF' width='65' height='77' border='0'></a> 
+                </td>
+              </tr>
+            </table>
+            <!-- #EndEditable --></td>
+        </tr>
+      </table>
+    </td>
+    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
+      <table border="0" cellspacing="0" cellpadding="0" width="150">
+        <tr align="right" valign="top"> 
+          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
+          <td width="154" valign="top" align="right"> 
+            <table width="154" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF">&nbsp; </td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF"> 
+                  <script language="JavaScript">
+
+function logout() {
+var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
+document.cookie = cookie;
+window.location = "../index.php3";
+	}
+
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+
+</script>
+                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
+<select name="select1" onChange="go(this)">
+    <option selected>Quick Jump</option>
+    <option value="/swccg/resources/rulings.php3">Current Rulings</option>
+    <option value="/swccg/main/decktech.php3">About DeckTech</option>
+    <option value="/swccg/membercenter/directory.php3">Member Directory</option>
+    <option value="#">-----------------------------</option>
+    <option value="http://www.decktech.net">decktech.net</option>
+  </select>
+</form><br>
+<!-- #EndLibraryItem --> </td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
+                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
+                  Center</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
+                  Reports </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/treports/index.php3" class="level1nav"></a></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav"></a><a href="/swccg/shop/index.php" class="level1nav">Tech 
+                  Shop </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
+                  Resources</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
+          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/decks.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/index.php3" class="level2nav">Decks 
+      Home</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/dark/darkdecks.php3" class="level2nav">Dark 
+      Decks</a><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/light/lightdecks.php3" class="level2nav">Light 
+      Decks</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
+          <td width="155" valign="top" height="13"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr align="left" valign="top" bgcolor="#630063"> 
+                <td width="154">
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
+                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
+      Updates</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2002-07-03</font><BR></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
+      Tips</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><p><font face='arial' size='2' color='#ffffff'>For newer members wanting to gain review ability, the easiest thing is to first write a tournament report. Check the current reports to get the feel for different styles, then go to a tournament and write your own. Even Sealed Decks count!</font></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

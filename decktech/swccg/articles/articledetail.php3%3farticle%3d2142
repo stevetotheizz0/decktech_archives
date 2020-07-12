@@ -1,0 +1,473 @@
+ 
+<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
+<head>
+<title>DeckTech - for the players, by the players.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/swccg/global/css/white.css">
+<!-- #BeginEditable "Style" --> 
+<style type="text/css">
+<!--
+.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
+.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
+.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
+.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
+.centercolor {  background-color: #004142}
+-->
+</style>
+<!-- #EndEditable -->
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" -->
+
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<script language="JavaScript">
+<!-- /* © 1997-1999 BURST! Media, LLC. All Rights Reserved.*/
+var TheAdcode = 'ad8702a';
+var bN = navigator.appName;
+var bV = parseInt(navigator.appVersion);
+var base='http://www.burstnet.com/';
+var Tv='';
+var agt=navigator.userAgent.toLowerCase();
+if (bV>=4)
+  {ts=window.location.pathname+window.location.search;
+   i=0; Tv=0; while (i< ts.length)
+      { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+   if( Tv.charAt(0)!='/' ) Tv="/"+Tv;
+          else if (Tv.charAt(1)=="/")Tv="";
+  if( Tv.charAt(Tv.length-1) == "/")
+    Tv = Tv + "_";}
+if (bN=='Netscape'){ 
+     if ((bV>=4)&&(agt.indexOf("mac")==-1))
+{  document.write('<s'+'cript src="'+ 
+      base+'cgi-bin/ads/'+TheAdcode+'.cgi/RETURN-CODE/JS' 
+      +Tv+'">'); 
+     document.write('</'+'script>');    } 
+     else if (bV>=3) {document.write('<'+'a href="'+base+'ads/'+ 
+        TheAdcode+'-map.cgi'+Tv+'"target=_top>'); 
+        document.write('<img src="' + base + 'cgi-bin/ads/' + 
+        TheAdcode + '.cgi' + Tv + '" ismap width="468" height="60"' + 
+        ' border="0" alt="Click Here"></a>');} 
+ } 
+if (bN=='Microsoft Internet Explorer') 
+ document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'+ 
+  TheAdcode + '.cgi' + Tv + '/RETURN-CODE" width="468" height="60"' + 
+  'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' + 
+  'frameborder="0" scrolling="no"></ifr'+'ame>'); 
+// --> 
+</script>
+<noscript><a href="http://www.burstnet.com/ads/ad8702a-map.cgi" target="_top"> 
+<img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi" 
+ width="468" height="60" border="0" alt="Click Here"></a> </noscript> <!-- END BURST CODE --> 
+ <!-- #EndLibraryItem --></td>
+    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
+      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
+    <td valign="top" class="centercolor" rowspan="2" > 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
+          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
+          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
+        </tr>
+        <tr> 
+          <td colspan="2"><!-- #BeginEditable "Body" --> 
+            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
+              <tr> 
+                <td bgcolor="#004142" height="12" valign="top" width="44%"><img src="../global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
+                <td bgcolor="#004142" align="right" valign="top" height="12" width="48%"><img src="../global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr> 
+                <td height="622" valign="top" colspan="2" bgcolor="#004142">&nbsp;<table width="100%" border="0" cellpadding="4"><tr bgcolor="#000000"><td><font color="#FFFFFF"><font face="Haettenschweiler, Tahoma, Arial" size="6">Flag Deck</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC="images/a4.gif" BORDER=0><A HREF="articleread.php3?article=2142"><IMG SRC="images/aread.GIF" BORDER=0></A><A HREF="articlereview.php3?article=2142"><IMG SRC="images/areview.GIF" BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="../membercenter/directory/memberpage.php3?member=4267">Paul "Ultima 1" Merrian</A></FONT></TD></TR><!-- 4267 --><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Description</Font></TD><TD><font face="Arial, sans-serif" size="2">Most people know about Rebel Leadership/Imperial Command, but few realize what cards they affect.  This article will examine the admirals and generals of Star Wars CCG (as of Reflections 2) .</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Article</Font></TD><TD><font face="Arial, sans-serif" size="2">Light Side Admirals:<br>
+At this time,  the Light Side only has one admiral.  That is Ackbar.  He is an exclusive rare (or fixed) character from the Death Star 2 expansion.  Here is his text:<br>
+<br>
+Power 3 Ability 3<br>
+Pilot, Leader<br>
+Deploys -2 to Home One. Adds 3 to power of any capital starship he pilots. Your capital starships deploy -1 to same system. Once per game, may take one Mon Calamari character or Admiral&#146;s Order into hand from Reserve Deck| reshuffle.<br>
+Deploy 4<br>
+<br>
+His deploy is reduced to 2 aboard Home One, which is very nice, since that is where you should probably have him in most decks.  He adds 3 to the power of anything, which is useful.  Capital ships deploy for one less, which is nice, especially at Dantooine, where they are already deploy -2.  This gives the possibility of getting a Corvette out for one Force.  Once per game he can pull a Mon Cal or Admiral&#146;s Order from the Reserve deck.  Here is a list of those cards currently (and capabilities for the Mon Calamari):<br>
+<br>
+Captain Verrack (improves destiny targeting starship weapons)<br>
+First Officer Thespani (increases ability required for opponent&#146;s destiny to six when on a star cruiser with another Mon Cal.)<br>
+Major Haash&#146;n (excellent star cruiser pilot)<br>
+Capital Support<br>
+Combined Fleet Action<br>
+Concentrate All Fire<br>
+I&#146;ll Take the Leader<br>
+No Questions Asked<br>
+Taking Them With Us<br>
+<br>
+Ackbar is great in most Light Side decks.  For ground, he and Home One can help protect space, and in space, he&#146;s a great pilot.<br>
+<br>
+Light Side Generals:<br>
+<br>
+The Light Side fares better with generals, with seven of them.  This doesn&#146;t count Obi-Wan, since his cards&#146; titles don&#146;t identify him as a general.<br>
+<br>
+First is General Calrissian, a rare character from the Death Star 2 expansion:<br>
+<br>
+Power 4 Ability 3<br>
+Pilot, Warrior, Leader, Gambler<br>
+Deploy -2 aboard Falcon. Adds 3 to power of anything he pilots. When piloting a freighter, adds 1 to maneuver and draws one battle destiny if not able to otherwise. When he attempts to &quot;blow away&quot; Death Star II, adds 2 to total.<br>
+Deploy 4<br>
+<br>
+He is an essential part of the Mini-Falcon combo, along with Nein Nunb and Gold Squadron 1.<br>
+Deploys for only 2 on any Falcon.  Adds 3 to the power of anything.  On any freighter, he adds 1 to maneuver and draws destiny.  He also makes it more likely to take out the Death Star 2, if that&#146;s what your opponent is playing.  This is a great auxiliary Falcon pilot if you need Han and Chewie for the ground, such as in an RST deck, a Hidden Mains using EPP Han and a Chewie, or if Death Star 2 decks are popular in your area.<br>
+<br>
+Mini-Falcon combo:<br>
+	General C. + Nien Nunb + Gold Squadron 1 = 8 power, 6 maneuver, two destiny, immune to attrition&lt; 6<br>
+<br>
+Next is General Carlist Rieekan, a rare2 from the Hoth expansion.<br>
+<br>
+Power 2 Ability 2<br>
+Warrior, Leader<br>
+Each Rebel present with him at a Hoth site is power +1. May use 1 Force to cancel Death Squadron. While at an Echo site, opponent must occupy an additional Hoth site to cancel Echo Base Operations.<br>
+Deploy 3<br>
+<br>
+He&#146;s almost essential for EBO decks, increasing the locations required to cancel it.  He is also great for adding power to other Rebels on Hoth with him.  He can also cancel Death Squadron.  A good trick with him is to do a five site EBO, since that is the minimum to get it out, and not have another Hoth location, making it nearly impossible for the Dark Side to cancel it.<br>
+<br>
+Third on my list is General Crix Madine, a rare from Endor.<br>
+<br>
+Power 3 Ability 3<br>
+Warrior, Leader<br>
+Once during each of your deploy phases, may take one scout of ability &lt; 3 into hand from Reserve Deck, reshuffle. While at your war room or aboard your capital starship, adds 1 to immunity to attrition of all your scouts who have immunity.<br>
+Deploy 3<br>
+<br>
+He can pull most scouts in the game.  Here is his pulls list:<br>
+Arcona<br>
+Cal Alder<br>
+Captain Yutani<br>
+Chewbacca of Kashyyyk<br>
+Colonel Cracken<br>
+Corporal Beezer<br>
+Corporal Delevar<br>
+Corporal Janse<br>
+Corporal Kensaric<br>
+Corporal Midge<br>
+Dresselian Commando<br>
+Endor Scout Trooper<br>
+Ewok Sentry<br>
+Geezum<br>
+Het Nkik<br>
+Ketwol<br>
+Lieutenant Blount<br>
+Lieutenant Greeve<br>
+Major Panno<br>
+Paploo<br>
+Ralltiir Freighter Captain<br>
+Rebel Scout<br>
+Romba<br>
+Seargent Brooks Carlson<br>
+Sargent Bruckman<br>
+Sargent Junkin<br>
+Shistavanen Wolfman<br>
+Snivvian<br>
+Tauntaun Handler<br>
+Tedn Dahai<br>
+Wicket<br>
+Wuta<br>
+Yarkora<br>
+<br>
+Yes, that is a long list, so you can keep him busy with just his first ability, but it gets better.  If you put him at a War room, he adds to immunity of immune scouts.  So that is any main scout, and a scout of ability &lt;3 or Lieutenant Page at the same or adjacent location to an Endor Scout Trooper on Endor.  A common strategy is to put him at Home One: War Room almost immediately to get him pulling scouts.  This is especially useful in RST or other scout-oriented decks.<br>
+<br>
+Here is a good combo with him:<br>
+<br>
+General Madine @ Home One War Room +2 Endor Scout Troopers +Lieutenant Page at an Endor site = 7    power, battle destiny, and all characters in battle immune to attrition &lt;3.<br>
+<br>
+The next general is the first Light Side general ever created, General Dodonna, an uncommon1 from the Premiere set.<br>
+<br>
+Power 2 Ability 2<br>
+Warrior, Leader<br>
+Increases Rebel Planners by 1, doubles if at same site. May use 1 Force to cancel Wrong Turn. Each Rebel present with him at a Yavin 4 site is power +1.<br>
+Deploy 3<br>
+<br>
+General Dodonna helps a lot with space decks, despite not being a pilot, because Rebel Planners effectively adds 1 to the power of every ship you have at the same system, and he adds 1 to that just by being on the table.  He can also cancel Wrong Turn, which is a very common beatdown establishment mechanism.  He also does the same thing at Yavin 4 as Rieekan does at Hoth, which can help too.<br>
+<br>
+Next we&#146;ll look at General McQuarrie, a rare Special Edition general.<br>
+<br>
+Power 2 Ability 2<br>
+Warrior<br>
+While McQuarrie is on Hoth, your Hoth Sentry is not unique (*), is doubled, deploys free, applies all three of its modifiers and is immune to Alter. Power -1 when not on Hoth.<br>
+Deploy 2<br>
+<br>
+McQuarrie is almost exclusively useful for EBO style decks, because of his improvement of Hoth Sentry and his power -1 restriction.  He is tied for the lowest base deploy cost of any LS general, though.<br>
+<br>
+Our second-to-last general, is the only main with general in his title, General Solo, a rare from the Endor expansion.  He is easy to get, even with his rare status, because he is in the Death Star 2 preconstructed starter deck.<br>
+<br>
+Power 4 Ability 3<br>
+Pilot, Warrior, Leader, Scout<br>
+Deploys -2 on Falcon, Tydirium or Endor. Adds 3 to power of anything he pilots. When in battle with Chewie (or another of your scouts at an exterior site), may use 2 Force to cancel one opponent&#146;s battle destiny just drawn. Immune to attrition &lt; 3.<br>
+Deploy 6<br>
+<br>
+A good pilot and warrior.  Extremely good with RST and other scout or ground decks because of his destiny cancellation with Chewie or another scout.  Also fair immunity, though it becomes better with Madine at a war room..  Also deploys cheaper to the main places you&#146;d want to deploy him, Endor and the Falcon.<br>
+<br>
+I could write a whole article about him, but I should move on.<br>
+<br>
+The final LS general is an uncommon from the Death Star 2 expansion, General Walex Blissex.<br>
+<br>
+Power 1 Ability 2<br>
+Pilot<br>
+Deploys -2 aboard your Star Cruiser or to same location as your Admiral. Adds 1 to the power of anything he pilots. Adds 1 to the power and forfeit of each of your A-wings at same and related locations.<br>
+Deploy 2<br>
+<br>
+In the circumstances you would want to deploy him in, he deploys free, making him the cheapest overall general.  His usefulness is limited, however, because his only real benefit is the A-wing boost, which is only useful in A-wing swarm type decks.<br>
+<br>
+Dark Side Admirals:<br>
+<br>
+The dark side fares better with admirals, having five of them.  The first is a rare from the Death Star 2 expansion, Admiral Chiraneau.<br>
+<br>
+Power 2 Ability 2<br>
+Pilot, Warrior<br>
+Adds 3 to power of anything he pilots. When piloting a Star Destroyer at a battleground system, adds 1 to your Force drains here and at each other battleground system controlled by a Star Destroyer within 2 parsecs of Chiraneau.<br>
+Deploy 3<br>
+<br>
+Good pilot, but his best asset is his drain enhancement within a four-parsec area.  This is only useless against training decks, where all of your drain modifiers will soon be canceled.<br>
+<br>
+The original Dark Side admiral, Admiral Motti, is a rare2 from the premiere set.<br>
+<br>
+Power 3 Ability 3<br>
+Pilot, Warrior, Leader<br>
+Deploy -2 if at least two Imperial starships on table. Rebel pilots at same system with Motti have forfeit -1. Adds 2 to power of any starship he pilots.<br>
+Deploy 3<br>
+<br>
+A weaker pilot than most, Motti made up for it with his forfeit reducing before unique pilots were so common.  He is virtually unseen in most tournaments today because of his relative uselessness.<br>
+<br>
+Next is the cheapest admiral ever created, Admiral Ozzel.  He is a rare1 from the Hoth expansion.<br>
+<br>
+Power 3 Ability 2<br>
+Pilot, Leader<br>
+Your capital starships are deploy -1 to same system. Adds 2 to power of any starship he pilots. Immediately lost if Vader is on table and opponent &#146;reacts&#146; to same location as Ozzel.<br>
+Deploy 0<br>
+<br>
+He is a weak pilot with a large downside from the react loss, so in many decks you must choose whether to play Ozzel or Vader, a choice which almost always goes to Vader.  A possibility which would allow you to play both would be using react prevention characters such as DS-181-3 at his location.  His capitals deploy -1 is now a common ability, leaving him less than useful.<br>
+<br>
+The next admiral is Admiral Piett, a fixed character from the Death Star 2 expansion.<br>
+<br>
+Power 3 Ability 3<br>
+Pilot, Warrior, Leader<br>
+Deploys -2 to Executor. Adds 2 to power of anything he pilots (3 if a Star Destroyer). Your capital starships deploy -1 to same system. Once per game, you may take one Admiral&#146;s Order or any commander into hand from Reserve Deck reshuffle.<br>
+Deploy 4<br>
+<br>
+His 2/3 power addition is nothing to worry about since most of the time, you will have him on a Star Destroyer of some kind anyway.  He also can pull many cards:  <br>
+<br>
+Commander Brandei<br>
+Commander Desanne<br>
+Commander Gherant<br>
+Commander Igar<br>
+Commander Merrejk<br>
+Commander Nemet<br>
+Commander Praji<br>
+Imperial Commander<br>
+Lieutenant Commander Ardan<br>
+Battle Deployment<br>
+Black Sun Fleet<br>
+Fighter Cover<br>
+Fighters Coming In<br>
+Intensify the Forward Batteries<br>
+We&#146;re in Attack Position Now<br>
+<br>
+He also gives capital ships a deploy -1.<br>
+<br>
+The final DS admiral is Grand Admiral Thrawn, a premium card from Reflections 2.<br>
+<br>
+Power 2 Ability 4<br>
+Pilot, Warrior, Leader<br>
+Adds 3 to power of any starship he pilots.  When piloting a star destroyer in battle, adds one battle destiny. While no other admiral and no star cruiser on table, your Admiral&#146;s Order just placed in used pile from table, may be taken into hand instead.<br>
+Deploy 4<br>
+<br>
+It can honestly be said that in most decks, Thrawn is the only admiral you will need.  He adds a destiny on any Star Destroyer, and can cause Admiral&#146;s Orders to return to your hand, to replace your opponents on your next turn.  He is also an essential part of the Super Chimaera combo, along with Captain Pellaeon.  His only real drawback is  his deploy cost.<br>
+<br>
+Super Chimaera combo:<br>
+Chimaera + G.A. Thrawn + Capt. Gilad Pellaeon = power 14, armor 8, hyperspeed 5, two destiny, immune to attrition&lt; 6<br>
+<br>
+Dark Side Generals:<br>
+<br>
+The Dark Side makes up for its number of admirals by only having two generals, however each of these two is very strong and useful.<br>
+<br>
+General Tagge is a rare2 character from Premiere.<br>
+<br>
+Power 3 Ability 3<br>
+Warrior, Leader<br>
+Tagge&#146;s forfeit +1 for each Imperial trooper, of any kind, present with him at a site.<br>
+Deploy 3<br>
+<br>
+Tagge is mainly used in trooper decks, such as some forms of RalOps, as a supporting character and battle damage/attrition absorber.<br>
+<br>
+The other DS general is General Veers, a rare1 from the Hoth expansion.<br>
+<br>
+Power 3 Ability 3<br>
+Pilot, Warrior, Leader<br>
+Power +1 when at same site as Admiral Ozzel. Imperials at same Hoth site are power +1. Adds 3 to power of any combat vehicle he pilots. On Blizzard 1, also adds 1 to armor and draws one battle destiny if not able to otherwise.<br>
+Deploy 3<br>
+<br>
+Veers has many capabilities, the best of which are his power boost to Imperials on Hoth and his Matching pilot abilities with Blizzard 1.  He is power +1 with Ozzel, but you probably won&#146;t use that capability much.  He is a critical part of what I call the Walker Strike combo.<br>
+<br>
+Walker Strike combo:<br>
+	General Veers + Commander Igar + Tempest 1 =  power 12, armor 7, two destinies, immunity to attrition&lt;4.<br>
+<br>
+Thank you for taking a look at this article.  You now know who you can use with Rebel Leadership and Imperial Command.  I hope you find this information useful in your future play.<br>
+ </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="articles.php3"><img src="images/aback.GIF" border="0"></a><A HREF="articleread.php3?article=2142"><IMG SRC="images/aread.GIF" BORDER=0></A><A HREF="articlereview.php3?article=2142"><IMG SRC="images/areview.GIF" BORDER=0></A><a href="articleprint.php3?article=2142" TARGET="BLANK_"><img src="images/aprint.gif" border="0"></a></FONT></TD></TR></TABLE> </td>
+              </tr>
+            </table>
+            <!-- #EndEditable --></td>
+        </tr>
+      </table>
+    </td>
+    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
+      <table border="0" cellspacing="0" cellpadding="0" width="150">
+        <tr align="right" valign="top"> 
+          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
+          <td width="154" valign="top" align="right"> 
+            <table width="154" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF">&nbsp; </td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF"> 
+                  <script language="JavaScript">
+
+function logout() {
+var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
+document.cookie = cookie;
+window.location = "../index.php3";
+	}
+
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+
+</script>
+                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
+<select name="select1" onChange="go(this)">
+    <option selected>Quick Jump</option>
+    <option value="/swccg/resources/rulings.php3">Current Rulings</option>
+    <option value="/swccg/main/decktech.php3">About DeckTech</option>
+    <option value="/swccg/membercenter/directory.php3">Member Directory</option>
+    <option value="#">-----------------------------</option>
+    <option value="http://www.decktech.net">decktech.net</option>
+  </select>
+</form><br>
+<!-- #EndLibraryItem --> </td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
+                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
+                  Center</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
+                  Reports </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/treports/index.php3" class="level1nav"></a></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav"></a><a href="/swccg/shop/index.php" class="level1nav">Tech 
+                  Shop </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
+                  Resources</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
+          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/article.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"> 
+      &nbsp; <a href="/swccg/articles/index.php3" class="level2nav">Article Home</a> 
+      </font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
+      <a href="/swccg/articles/articles.php3" class="level2nav">Article Archive</a> 
+      <br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
+          <td width="155" valign="top" height="13"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr align="left" valign="top" bgcolor="#630063"> 
+                <td width="154">
+
+
+<center>
+  <a href="http://www.decktech.net/swccg/index_news.php3?artc=18"><img src="/swccg/global/images/banner_125.jpg" width="125" height="121" border="0"></a> 
+</center>
+
+
+<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
+                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
+      Updates</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-07-12</font><BR></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
+      Tips</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><p><font face='arial' size='2' color='#ffffff'>For newer members wanting to gain review ability, the easiest thing is to first write a tournament report. Check the current reports to get the feel for different styles, then go to a tournament and write your own. Even Sealed Decks count!</font></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

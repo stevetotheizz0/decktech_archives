@@ -1,0 +1,636 @@
+ 
+<html><!-- #BeginTemplate "/Templates/decktech_2.dwt" -->
+<head>
+<title>Welcome Lord of the Rings Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Lord of the Rings, Gandalf, Frodo, Ring, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #111188;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; color: #111111; font-size: 8pt; font-style: normal; text-decoration: none; background-color: #FFFFFF; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.headerbg {  color: #E2DED3}
+TD.headerbg A {  color: #E2DED3}
+
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.r2body {  color: #EDE9DE}
+TD.r2body A:link {color: #A17D2D}
+TD.r2body A:active {color: #A17D2D}
+TD.r2body A:visited {color: #A17D2D}
+TD.r2body A:hover {color: #FFFFFF}
+
+TD.r2body .level1nav:link {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:active {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:visited {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:hover {  font-family: Verdana, Arial, sans-serif; color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 8pt;}
+
+input {font-family: Verdana, Arial, sans-serif; font-size: 8pt }
+select {font-family: Arial, sans-serif; font-size: 8pt }
+
+-->
+</style>
+</head>
+<body link="#111155" vlink="#CF4300" alink="#0000FF" text="#111111" margin="0" marginwidth="0" marginheight="0" background="/lotr/gfx/mom/bg.jpg"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=186 hspace=0 vspace=0
+src="/lotr/gfx/mom/logoleft.gif" width=1 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=186 hspace=0 src="/lotr/gfx/mom/logoright.jpg" width=195 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">LotR TCG ======</option>
+<option value="/lotr/index.php">Home</option>
+<option value="/lotr/main/about.php">About</option>
+<option value="/lotr/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+<option value="#"></option>
+<option value="#">Themes =======</option>
+<option value="/lotr/decks/decks.php?setheme=fellowship">Fellowship</option>
+<option value="/lotr/decks/decks.php?setheme=moria">Balrog&Gandalf</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Lord of the Rings</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#3C402E" class="r2body" width=88%><font class="bfont">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><a href="/lotr/index.php" class="level1nav">Home</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/articles/index.php" class="level1nav">Articles</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/decks/index.php" class="level1nav">Decks</a><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%"><img src="../../global/images/home/trans.gif" width="10" height="5"></td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/decks/decks.php?cat=AD">Advanced</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/decks/decks.php?cat=IN">Intermediate</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/decks/decks.php?cat=BG">Beginner</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/decks/decks.php?cat=FN">Fun</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/decks/decks.php">All</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/cardlist.php">Card List</a></td>
+        </tr>
+      </table>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/treports/index.php" class="level1nav">Tournament 
+      Reports</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/outfitters/index.php" class="level1nav">M.E. 
+      Outfitters</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/trade/index.php" class="level1nav">Trade</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/resources/index.php" class="level1nav">Resources</a><br>
+      <br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+    </td>
+  </tr>
+</table>
+
+</font></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Auction</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#152A43" class="r2body" width=88%><font class="bfont"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">DeckTech Writers</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#063926" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#063926" class="r2body" width=88%><font class="bfont"><font size='1'></font> 
+
+</font></td>
+      <td bgcolor="#063926" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Site Sponsor</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#423210" class="r2body" width=88%><font class="bfont"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><BR><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Top Articles</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#063926" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#063926" class="r2body" width=88%><font class="bfont"><ol></ol> 
+</font></td>
+      <td bgcolor="#063926" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> <table cellspacing=0 cellpadding=0 width="100%" border=0>
+<tr valign="top">      
+<td background="/lotr/gfx/mom/header_back.gif" height="150" valign="middle" align="center"><br>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript></td></tr></table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td  valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td  valign="top"><!-- #BeginEditable "Body" --> 
+            <script language="Javascript" src="http://www.decktech.net/global/dynapi/src/dynapi.js"></script>
+<script language="Javascript">
+
+DynAPI.setLibraryPath('http://www.decktech.net/global/dynapi/src/lib/');
+DynAPI.include('dynapi.api.*');
+DynAPI.include('dynapi.event.*');
+DynAPI.include('dynapi.gui.loadlayer.js');
+
+//Variable Declarations
+var card_form = new Array();
+var card_detail = new Array();
+var carddetail = new Array();
+var uplayer = 0;
+
+DynAPI.onLoad=function() { 
+	pageX=0;
+	pageY=0;
+	var d = new EventListener()
+	d.onmousemove = function(e) {
+          pageX = e.getPageX();
+          pageY = e.getPageY();
+    }
+	DynAPI.document.addEventListener(d);
+}        
+
+
+function card_browser(n){
+	if(DynAPI.document.all['card_form['+n+']']){
+		card_form[n].setVisible(true);
+		card_form[n].moveTo(pageX,pageY)
+
+	}else{
+	  card_form[n] = new DynLayer('card_form['+n+']',pageX,pageY,250,343,'#000000');
+	  var html = '<TABLE width="100%" cellpading="0" cellspacing="0"><TR><TD><a href="javascript:card_form['+ n +'].setVisible(false)"><IMG SRC="http://www.decktech.net/global/images/x.gif" WIDTH="18" HEIGHT="15" BORDER=0 hspace="2" align="right" alt="Close"></a><a href="javascript:cardOpen('+ n +')"><IMG SRC="http://www.decktech.net/global/images/refresh.gif" WIDTH="18" HEIGHT="15" BORDER=0 hspace="2" align="right" alt="Refresh"></a><font class="h2font"><font color="#FFFFFF">Card Browser</font></font></TD></TR></TABLE>';		
+	  card_form[n].setHTML(html);
+	  DynAPI.document.addChild(card_form[n]);
+
+
+  carddetail[n] =  new DynLayer( null, 10, 20, 228, 313, "#ffffff")
+  carddetail[n].toLoadLayer("cb1.php?card="+n,"<B>Loading...</B>");
+  card_form[n].addChild(carddetail[n]);
+
+  myListener1 = new EventListener(DynAPI.document);
+  myListener1.onmousedown=function(e) {
+      	e.setBubble(false);
+  	  	}
+  carddetail[n].addEventListener(myListener1);
+
+  DragEvent.setDragBoundary(card_form[n],0,DynAPI.document.getWidth(),10000,0);
+  DragEvent.enableDragEvents(card_form[n]);
+
+//  cardOpen(n,n);
+
+
+	myListenerDrag=new EventListener(card_form[n]) 
+
+	myListenerDrag.ondragstart=function(e){ 
+	    o=e.getTarget();
+	    o.setZIndex(+(card_form.length+uplayer))
+		uplayer = uplayer +1;
+	   }
+
+	 card_form[n].addEventListener(myListenerDrag)
+	}
+  review_id = n;
+}
+
+function cardOpen(card) {
+carddetail[card].setURL("cb1.php?card="+card);
+}
+
+
+</script><table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr><td width=1><img src="/lotr/gfx/mom/blu_01.gif" width=6 height=6></td><td width=100% background="/lotr/gfx/mom/blu_02.gif"></td>
+<td width=1><img src="/lotr/gfx/mom/blu_03.gif" width=6 height=6></td></tr>
+<tr><td background="/lotr/gfx/mom/blu_04.gif"><img src="/lotr/gfx/mom/clear.gif" height=35 width=1></td>
+<td background="/lotr/gfx/mom/blu_05.gif" class="headerbg"><font class="h1font"><font color="#FFFFFF"> Advanced Decks</font></B></td><td background="/lotr/gfx/mom/blu_06.gif"></td></tr>
+	<tr><td background="/lotr/gfx/mom/whi_07.gif"></td>
+		<td bgcolor="#FFFFFF" background="/lotr/gfx/mom/whi_08.gif"><font class="bfont"><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td colspan="2"><font class="h1font">Don&#39;t Pee In The (Twilight) Pool</font></td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font class="h2font"> Rating</Font></TD><TD><table width='96' border='0' cellspacing='0' cellpadding='0'><tr><td background='/lotr/gfx/5star.gif'><img src='/lotr/gfx/trans.gif' width='1' height='25'></td></tr></table><font size=1>(4.81)</font> | <A HREF="/lotr/decks/decks.php?reviews=20725">Read Reviews</A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font class="h2font"> Author</font></TD><TD><font class="bfont"> <A HREF="http://www.decktech.net/lotr/main/mpage.php?member=327">Alex "Greedo" Tennet</A></FONT> <font class="afont"> <a href='http://www.decktech.net/lotr/main/mpage.php?member=327&sub=1'> (Subscribe to this member)</a></font></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font class="h2font"> Description</Font></TD><TD> </TD></TR><TR><TD COLSPAN="2" VALIGN="TOP"><font class="bfont"> The Moria Choke deck used on both sides of the Atlantic. Featuring detailed strategy notes, camp english accents and lots of beer. Flawless tournament record and has turned many sceptics to the path of the Moria Pisshole.</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font class="h2font"> Submitted</Font></TD><TD><font class="bfont"> January 19, 2002</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font class="h2font"> Cards</Font></TD><TD> </TD></TR><TR><TD COLSPAN="2" VALIGN="TOP"><font class="bfont"> STARTING FELLOWSHIP: <br />
+<a href="javascript:card_browser(173)">Frodo, Old Bilbo&#39;s Heir</a> <br />
+<a href="javascript:card_browser(96)">The One Ring, Isildur&#39;s Bane</a> <br />
+<a href="javascript:card_browser(299)">Aragorn, Ranger of the North</a> <br />
+<br />
+SITES: <br />
+<a href="javascript:card_browser(201)">East Road</a> <br />
+<a href="javascript:card_browser(214)">Trollshaw Forest</a> <br />
+<a href="javascript:card_browser(217)">Council Courtyard</a> <br />
+<a href="javascript:card_browser(224)">Mithril Mine</a> <br />
+<a href="javascript:card_browser(228)">The Bridge of Khazad-dum</a> <br />
+<a href="javascript:card_browser(230)">Dimrill Dale</a> <br />
+<a href="javascript:card_browser(233)">Anduin Wilderland</a> <br />
+<a href="javascript:card_browser(238)">Shores of Nen Hithoel</a> <br />
+<a href="javascript:card_browser(242)">Summit of Amon Hen</a> <br />
+<br />
+FREE PEOPLES (34): <br />
+<a href="javascript:card_browser(301)">Aragorn&#39;s Bow</a> x2 <br />
+<a href="javascript:card_browser(304)">Athelas</a> x2 <br />
+<a href="javascript:card_browser(189)">Pippin, Hobbit of Some Intelligence</a> <br />
+The Saga of Elendil <br />
+<a href="javascript:card_browser(8)">No Stranger to the Shadows</a> x4 <br />
+<a href="javascript:card_browser(164)">Thrarin, Dwarven Smith</a> <br />
+Ranger Sword x3 <br />
+<a href="javascript:card_browser(194)">Sting</a> x3 <br />
+<a href="javascript:card_browser(179)">Hobbit Stealth</a> x4 <br />
+<a href="javascript:card_browser(15)">Swordsman of the Northern Kingdom</a> <br />
+<a href="javascript:card_browser(14)">Swordarm of the White Tower</a> x4 <br />
+<a href="javascript:card_browser(170)">Bounder</a> x2 <br />
+<a href="javascript:card_browser(3)">Dagger Strike</a> <br />
+<a href="javascript:card_browser(16)">Valiant Man of the West</a> x2 <br />
+<a href="javascript:card_browser(190)">Power According to His Stature</a> x3 <br />
+<br />
+BUNKAKWUNK (35): <br />
+Goblin <a href="javascript:card_browser(303)">Armor</a>y x4 <br />
+<a href="javascript:card_browser(75)">Goblin Scimitar</a> x4 <br />
+<a href="javascript:card_browser(86)">Moria Scout</a> x3 <br />
+<a href="javascript:card_browser(79)">Goblin Wallcrawler</a> x2 <br />
+<a href="javascript:card_browser(73)">Goblin Scavengers</a> x4 <br />
+<a href="javascript:card_browser(72)">Goblin Runner</a> x4 <br />
+<a href="javascript:card_browser(94)">Troll&#39;s Keyward</a> x2 <br />
+<a href="javascript:card_browser(312)">Cave Troll of Moria, Scourge of the Black Pit</a> x3 <br />
+<a href="javascript:card_browser(81)">Guard Commander</a> <br />
+<a href="javascript:card_browser(78)">Goblin Swarms</a> x2 <br />
+<a href="javascript:card_browser(82)">Host of Thousands</a> <br />
+<a href="javascript:card_browser(91)">They Are Coming</a> x4 <br />
+Ulaire Enquea    </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font class="h2font"> Strategy</Font></TD><TD> </TD></TR><TR><TD COLSPAN="2" VALIGN="TOP"><font class="bfont"> This is the bit you must read. It&#39;s actually supposed to help you understand the deck, but as we know, people frequently skip this part. Being a wily kinda guy, I&#39;ve devised a clever way of making you read it. No, it&#39;s not some feel-good bollocks about becoming one with the deck and finding a new soulmate in the Troll&#39;s Keyward. Nor some startlingly witty commentary to keep you enthralled in my scribblings till the end. The main reason you&#39;re going to read this strategy is because, somewhere along the line, I&#39;m going to tell you what Bunkakwunk actually means (and in the process bring new meaning to your life). So read on and discover a new word to mutter behind your nemesis&#39; back or to yell at those women drivers on the motorway. And hopefully the reasons why you should play this deck too... <br />
+<br />
+Before the actual strategy, I&#39;d like to offer a few relevant thoughts on the game and this deck in particular. If you&#39;re experienced, bear with me. I&#39;ll attempt to appeal to all skill levels in this strategy section as a whole. <br />
+<br />
+First, the issue of splitting your deck into two seperate, non-related halves. This is a huge misconception which I see far too much of currently. There&#39;s even a trend of building a few shadow halves and another number of free peoples halves and just mixing them together from game to game. Fine for casual play, don&#39;t get me wrong. But for a tournament deck, your deck needs to be just that. A deck. Not two decks shuffled together. Both sides need to complement each other and work toward a single goal (or at least have focus on one). I always think about the minion and free peoples sides together when constructing a deck and usually cards from one can be included to complement the other. <br />
+<br />
+They Are Coming however takes it one step further and actually turns your free peoples cards into shadow cards. You can exchange your cards at the rate of 3 to 1. Given that in your opponent&#39;s turn your fellowship cards are completely useless to you, TAC is your new best mate for this purpose. It also gives you the potential to draw up to 8 new cards a turn, letting you see the cards you need to see before your opponent sees his. <br />
+<br />
+In fact I should probably establish a few things for you about this deck right now: <br />
+<br />
+You are almost never going to win the race to site 9. In actual fact, you do your level best not to win it. Bid to go second, move one site at a time. <br />
+<br />
+Your Fellowship half centres around two things, staying alive and halting the throughput (posh term for the ability to run through a deck and get cards in and out of hand) of the opponent&#39;s deck. <br />
+<br />
+The shadow cards, while simple, combine to make the most versatile (this is an absolute, I stand by it) minion machine in the environment. They win you the game, the fellowship half (directly anyway) does not. <br />
+<br />
+<br />
+CCGs have seen every strategy under the sun. Chances are if you make a deck, it follows one of the basic principles common to many card games. Denial, discard, drawing and direct damage are examples of principles which are common to most intermediate/advanced level CCGs. Denial is the most prominent feature in this deck. <br />
+<br />
+Think about what you can do with 2 or 3 twilight. Not a whole lot. Especially at sites 2 and 3 where most minions are roaming. As a player, Denial and resource advantage is one of my most-used and certainly most consistent strategies. From the Winter Orb and land destruction of MTG to probably my most popular deck, the Dark Surgeon in SWCCG, all used the fairly obvious maxim that less for them is more for you. And in LOTR, denial is also very much linked to throughput. <br />
+<br />
+Example: You throw down No Stranger on Aragorn and move to site #2 (Trollshaw forest) which you put out last turn when I moved. I&#39;m playing Nazgul and with 2 pool (almost unheard of on most people&#39;s first turn), there&#39;s not a lot I can do. Maybe play a black breath or a blade tip to get something out my hand if I can. But the other shadow cards in my hand (just over 50% of every deck is shadow when starting out, and hands are shadow-oriented on an opponent&#39;s turn) are quite useless. They will continue to be useless. Only 1 card can be discarded per turn without alternate effects such as They Are Coming or Gwemegil - which is only useful if minions are around to be skirmished - and thus the opponent&#39;s hand will gradually become badly clogged up with shadow, leaving your minions better off to kill with no fellowship hinderances in the opponent&#39;s hand. <br />
+Note that this is strong against Moria and Nazgul, but devastating against Sauron and Uruk-Hai. It&#39;s a vital crux of the deck. Your opponent will frequently be sitting on a hand which is 75% (100/8 x 6) or more shadow; all draws being statistically even. This can lead to very quick overwhelming. <br />
+<br />
+Rudimentaries then...what do you do to play this deck? First, look to go second. Bidding for this is something of a meta call and it helps immensely to know your local area and what&#39;s popular. If you misjudge, the East Road will ideally give you lots of pool on the shadow side to drop most of your hand (if you desire) and thus let you pick up more to find what you need. Do not bid zero unless you&#39;re quite sure they will choose to go first. Bid something more to give yourself the option. 2 is a good neutral choice, but it&#39;s better to be aware of what&#39;s popular around you and bid more or less depending. Fortunately the prancing pony start is very common in most areas and this means your opponent has to go first to play his site first. But if you get the choice, always pick to go second. <br />
+<br />
+Don&#39;t worry about cards like Thror&#39;s Map. Frodo can only be exerted so much, and if he&#39;s doing so for the Map, he won&#39;t be frequently for Sting so your pool is safe. This deck works so well against other hobbit themes anyway, try it out and see what I mean. <br />
+<br />
+Always move one site at a time. Don&#39;t even run from 1-3 (site 2 is especially good for your own hand control anyway). There may be very oddball occasions you would not do this -and the deck has completed the site 9 run in odd circumstances- but moving more than once just gives away more pool for the opponent to drop more cards. So it&#39;s generally a bad idea. You control the game from behind with your shadow minions. <br />
+<br />
+Get cards out your hand. With the exception of the Troll, which you want to hang onto until used, your minions are replayable from lost pile with Host of Thousands and TAC. Goblin Swarms is very large in pushing the nail into the coffin proper. Albert Dreary and Sleep Caradhras (cards that are not easy to find in the first place...I probably can&#39;t stress the subtleties of the effect on an opponent&#39;s hand enough) are interferences but by no means your bane. <br />
+I&#39;ve faced Sleep many times, probably in half my games with this. Mainly it provides a friendly 3 pool and wounded Gandalf (if he&#39;s not already a goner). This said, do not chuck your spare copies of conditions away so often, and consider holding onto an armoury in hand if you have multiples, just until you&#39;re ready to drop a real moria bomb. This is just tactical playing and is something you learn to do after playing the deck a few times. Spotting the type of decks that will play Sleep is fortunately pretty easy. <br />
+<br />
+Some card choices then to finish us off: <br />
+Trollshaw Forest - 1 twilight, massive. Go second and give only two pool with No Stranger! When you stop there, you get to draw cards for playing cards - huge. <br />
+<br />
+Council Courtyard - This is where you mainly want to play those things that cost twilight. Drop two of your cards here and they&#39;re free (note that nothing costs more than 1 twilight in the fellowship). <br />
+<br />
+Mithril Mine - Better than Moria Stairway due to the extra 1 pool and the ability to play weapons from lost without spending 3 on a scavengers. This usually helps in getting the troll or enquea out here and punishes them severely in time for site 5 and 6. Also the best place to wound legolas and aragorn so their bows aren&#39;t effective subsequently. <br />
+<br />
+Pippin (Fall guy) - Could be another Athelas, but this way you get to remove a wound/burden AND have a hobbit shield for archery fire or to feed to nasty minions. Best to have him killed the site after you play him so he doesn&#39;t sit around adding pool. Only play him if you really have to. Cool with Bounder to block a fierce minion twice. <br />
+<br />
+Sting - Looking at the opponent&#39;s hand is HUGE. It&#39;s not as strong in LOTR as in other games, but still lets you plan out both your turns with degrees of certainty you could never have before. I try to use this every turn if possible. <br />
+<br />
+Ranger sword/Dagstrike/Swordsman/arm & valiant man - Aragorn soaks up wounds like no other and more frequently deals them out with these cards. Given that facing more than 1 minion is rare before site 5 (the game is normally won before you can move to site 7) it&#39;s quite easy to Stealth early skirmishes and then aragorn lives to use his bow and fight when he needs to with these cards (and heal with others). He is the one man army corp, he protects you while you sleep - do NOT f*ck with him :) <br />
+<br />
+Goblin Wallcrawler - These are big. 8 power underground (which is where you start winning games), 10 with scimtars and reduce archery all for 2 twilight. They&#39;re especially key if there&#39;s no troll around. <br />
+<br />
+Goblin Armoury/Scavengers/Scimitar - The DIY Pool engine. Don&#39;t be afraid to ditch the armouries if it will have important effects on the game by keeping your orcs alive. Also of note - try and spread your scimitars onto the less powerful orcs such as runners and scouts. This means playing them before you play your scavengers and makes every minion a potential winner. <br />
+<br />
+Guard Commander - This guy is very good, notably because he gives you something to do with that pool they offer when playing post-shadow phase cards. Sensible fellowship players make him skirmish first and try to pair him up with a killer, but obviously this just helps the rest of your minions out. Boosting your weaker goblins by 2 (or even himself) is strong and can be used multiple times if you have the pool - and there is frequently a surplus if you&#39;ve had a bad draw (or a very good one :). I&#39;ve overwhelmed frodo thanks to this card quite a few times. Don&#39;t stack him on swarms if you think you&#39;ll need him. <br />
+<br />
+Ulaire Enquea - Helps with two problems, large fellowships and overburdening. Because Moria doesn&#39;t have many burden-reliant cards, the opponent is often quite happy to let them stack up on his ringbearer. Enquea can win you the game in this instance. And if they have a 6+ man fellowship, which quite often happens, and all are wounded in some fashion as they will be, he can usually remove a couple of them completely (this is most common at site 5, 6 [free from ARV] and 8). Plus, he&#39;s a strong, fierce minion. Great independent addition. <br />
+<br />
+Frodo and his support cards - Use the little guy. He&#39;s just dead weight in most decks and should do something for that twilight he adds. Between Sting and Bounder (who he heals) he doesn&#39;t die without strength 18 on him. He can cancel any skirmish up to site 5. Beyond then, the stealth cards/dagstrike add 6 onto the overwhelming requirements. PATHS, especially combined with Aragorn&#39;s Bow, buggers Moria swarm and countless other minions. He&#39;ll stay alive long enough for you to win, and that&#39;s what counts. <br />
+<br />
+I actually think most of it is self explanatory in card choices, what needs to be emphasised is the theory behind playing this absolute denial/minion kill deck. If you have any questions on certain cards or anything else, dmail me or email me (atennet@hotmail.com). <br />
+<br />
+So to summarise. The fellowship side is the subtle part. You don&#39;t need every card in there, far from it. The most important thing is to NOT give away unneccesary pool. When you&#39;re playing a large fellowship and lots of expensive cards, 1 pool sometimes doesn&#39;t make a difference. In this deck, every pool is a potential card out your opponent&#39;s hand. Don&#39;t give them the opportunity. When in doubt, discarding the card which costs twilight is often better than playing it. And with particular note to site 5 - try not to play anything at site 4 unless they are playing orcs and you can remove it with sting. 7 pool is not enough to damage you. 8 or more often can be. Play it safe on fellowship and you will reap the benefits on your minion side. <br />
+<br />
+Finally, this deck is very frustrating to play against. Take it to tournaments and you will probably get some pissed off opponents, but they&#39;ll come hand in hand with won games. It&#39;s a lot more damaging than most other decks, even other &quot;choke&quot; variants, because it does what all the strongest decks do and interferes with your opponent&#39;s basic ability to play the game. Decks that define the rules of play always outshine those that just follow them. <br />
+<br />
+Thanks go to Mike Dalton for ideas and taking this to tournaments, David and Neal for the net&#39;s best CCG website, Kim, Gaz, Kyle and Doug for miscellania and Bunkakwunk for being an intriguing norwegian word. If you speak norwegian, please translate it in your review. <br />
+<br />
+Have fun.<br />
+Cheers, <br />
+Alex Tennet  </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font class="bfont"> <a href="/lotr/decks/decks.php">Back to Decks Directory</a> | <A HREF="/lotr/decks/decks.php?reviews=20725"> Read Reviews </A> | <a href="deckprint.php?deck=20725" TARGET="BLANK_"> Printer Friendly</a></FONT></TD></TR></TABLE><a name="review"></a><font class="h2font">In order to review decks you must be a registered member. <A href="/lotr/main/join.php">Sign up for free!</A></font></font></td><td background="/lotr/gfx/mom/whi_09.gif"></td></tr>
+<tr><td><img src="/lotr/gfx/mom/whi_10.gif" width=6 height=18></td>
+<td background="/lotr/gfx/mom/whi_11.gif"></td>
+<td><img src="/lotr/gfx/mom/whi_12.gif" width=6 height=18></td></tr>
+</table> <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr align="center" valign="bottom" > 
+      <td height="100"><font class="lfont">This site is maintained and updated 
+        by fans of The Lord of the Rings TCG, and is in no way affiliated with 
+        New Line Cinema or Decipher Inc. We in no way claim the artwork displayed 
+        to be our own. Copyrights and trademarks for the films and other promotional 
+        materials are held by their respective owners and their use is allowed 
+        under the fair use clause of the Copyright Law.<a href="/global/terms.php" class="level1nav"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

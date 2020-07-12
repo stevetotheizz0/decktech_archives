@@ -1,0 +1,364 @@
+
+<html><!-- #BeginTemplate "/Templates/freedom.dwt" -->
+<head>
+<title>FreedomCon - United We Stand</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {  margin: 0px 0px; border: none; font: 10pt Verdana, Arial, Helvetica, sans-serif; color: #000000}
+.legal {  font: 6pt Verdana, Arial, Helvetica, sans-serif; color: #CCCCCC}
+td {  font: 9pt Verdana, Arial, Helvetica, sans-serif}
+.nav {  font-size: 8pt; color: #FFFFFF; text-decoration: none}
+-->
+</style>
+</head>
+
+<body bgcolor="#000E58" margin="0" marginwidth="0" marginheight="0">
+<table width="93%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td colspan="2" height="97"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+        <tr>
+          <td><img src="/freedomcon/gfx/freeblue.gif" width="266" height="123" border="0"> 
+          </td>
+          <td valign="middle" align="center">&nbsp; </td>
+        </tr>
+      </table>
+      
+    </td>
+    <td width="42" height="97">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td height="149"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <tr> 
+                <td class="legal"><a href="/freedomcon/index.php" class="nav">Home</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/about.php" class="nav">About FreedomCon</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/sponsors.php" class="nav">Our Sponsors</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/contact.php" class="nav">Contact Us</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/attend.php" class="nav">Players Attending</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/donate.php" class="nav">Donations and Charity</a></td>
+              </tr>
+              <tr>
+                <td><a href="/freedomcon/buzz.php" class="nav">Discuss FreedomCon 2!</a></td>
+              </tr>				  
+			  
+            </table>
+            
+          </td>
+        </tr>
+      </table>
+
+      <!-- #BeginEditable "nav" --> <!-- #EndEditable --><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><br>
+      </font>
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b><br>
+            What:<br>
+            FreedomCon</b> <br>
+            Philadelphia 2002<br>
+            <br>
+            <b>When:</b> <br>
+            October 4-6 <br>
+            <br>
+            <b>Where:</b> <br>
+            NeoQuest Games<br>
+            Gary's Plaza<br>
+            531 South Broad Street<br>
+            Lansdale, PA 19446<br>
+            </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">215 
+            855 7035</font></td>
+        </tr>
+      </table>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"></font></td>
+    <td width="541" bgcolor="#FFFFFF" valign="top" background="/freedomcon/gfx/Vegasxflcam.jpg"><!-- #BeginEditable "body" --> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td valign="top" height="461" width="57%"> <br>
+
+<script language="javascript">
+
+echo "test";
+
+// This makes certain pages private, for members only. Neal 10-2013
+if ($access == "" )
+{
+echo "<table bgcolor='#ffffff' width=500><tr><td><P>This area of DeckTech is now restricted to members only. You must be logged in to view this page.
+Go to <a href='http://www.decktech.net/'> DeckTech.net </a> to log in";
+echo "<P>If you are not a member, and would like to spy on a member, you are cordially invited to kiss off.</td></tr></table>";
+exit;
+}
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+prev1.document.writeln(texttoshow);
+}
+
+function changetobold()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetospoiler()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "(drag mouse to see spoiler)<div style=background-color:red;color:red;foreground-color:red>"+newtext+"</div>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+linkyaddress = document.buzzboardform.texttoconvert.value;
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function oldchangetobold()
+{
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+
+
+
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5<br />
+<b>Warning</b>:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in <b>/home/decktech/public_html/global/includes/com/buzzboard.php</b> on line <b>1719</b><br />
+<table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font class="h1font">Movie Review Thread </B></font></td></tr><tr valign="top"><td><font class="bfont"><font class="bfont"> From: <a href="http://www.decktech.net/magic/main/mpage.php?member=17">neal </a></font><BR><table><TR><TD><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='/freedomcon/buzz.php?id=9000'><b>REFRESH THIS TOPIC</b></A></font></td><td width=40>&nbsp;</td></tr></table><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#EFF1FF><font class="h2font"> Comment</td></tr><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I don&#39;t really care for the Cohen bros for the last decade. I&#39;ll stay away, thanks! <br><BR><font size=1>12:49 04-23-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 (Review)</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 (Review)'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><a href=http://www.decktech.net/magic/decks/decks.php?deck=37126>Inside Llewyn Davis (2013)  </a> <BR><BR>0.5 stars <BR><BR>  2010 True Grit <br />
+ 2004 The Ladykillers <br />
+ 2000 O Brother, Where Art Thou? (uncredited) <br />
+ 1998 The Big Lebowski (uncredited) <br />
+ 1996 Fargo (uncredited) <br />
+ 1987 Raising Arizona (uncredited) <br />
+<br />
+the above is the list of movies i somewhat enjoyed or more from the cohen brothers....<br />
+<br />
+do you see this movie on that list? <font size=1>(-2 tp)</font> </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">all i watched when i was a kid was nature shows.. i wasnt allowed gi joe or any of that stuff, i watched nature showws and fraggle rock.<br />
+<br />
+and salmon are something im familiar with my family is from the east coast and all the men on my dad&#39;s side fly fished for years.<br />
+<br />
+anyways. all that to say id seen the salmon story before..so wasnt that impressed! hehe. but those cubs were cute... ive been watching bear/wolverine shows since i watched bears..almost every night ive watched old nature shows <br><BR><font size=1>18:37 04-22-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Phil, you know who I thought were the real heroes of Bears?  The SALMON.  They are completely heroic, what epic efforts they take through animals and nature to get where they need to be.  Hell, they seem to feed half the state too. <br><BR><font size=1>12:13 04-22-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 (Review)</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 (Review)'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><a href=http://www.decktech.net/magic/decks/decks.php?deck=37123>Hateship Loveship (2013)  </a> <BR><BR>1.5 stars <BR><BR> this movie had lots of potential. its actually a decent movie. but leaves so many things unanswered..<br />
+<br />
+ <font size=1>(-1 tp)</font> </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 (Review)</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 (Review)'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><a href=http://www.decktech.net/magic/decks/decks.php?deck=37124>Blood Ties (2013)  </a> <BR><BR>1.5 stars <BR><BR> very torn on this. movie is quite good. but something was missing for me. it was a bit depressing and.. so many people make so many bad decisions.<br />
+<br />
+in the end movies are entertainment. and i wasnt entertained after a while..i just wanted it over with ;] sop 1.5 <font size=1>(-1 tp)</font> </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 (Review)</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 (Review)'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><a href=http://www.decktech.net/magic/decks/decks.php?deck=37125>Labor Day (2013)  </a> <BR><BR>4 stars <BR><BR> very good positive movie. enjoyed it very much.<br />
+ <font size=1>(+5 tp)</font> </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 (Review)</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 (Review)'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><a href=http://www.decktech.net/magic/decks/decks.php?deck=37122>Bears  </a> <BR><BR>4 stars <BR><BR> yeah the narration is a bit odd.<br />
+<br />
+but for me the cubs won it over, loved seeing their relationship with their parents and all their sounds they make. freaking cute. <font size=1>(+5 tp)</font> </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Dredlox (Review)</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Dredlox (Review)'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><a href=http://www.decktech.net/magic/decks/decks.php?deck=37122>Bears  </a> <BR><BR>3.5 stars <BR><BR> Lots of beautiful scenery and animals from places you&#39;d never see is offset by some very odd narration. It&#39;s a little slow paced too.  Cool animals, great geography, but a little more narrative and information would have been nice. <font size=1>(+2 tp)</font> </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">i had my dad and was very close to him. i think thats how it should be and thats important ;] <br><BR><font size=1>18:59 04-17-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">It&#39;s so important at that age to have SOME older man who isn&#39;t your dad to confide in and look up to.  It&#39;s important at any age, but especially then. <br><BR><font size=1>11:41 04-17-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>hag </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=hag '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Mud was like a glorious blend of Stand By Me and Great Expectations. It perfectly captures what it is like to have your heart broken when you&#39;re 14 <br><BR><font size=1>23:39 04-16-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>hag </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=hag '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">He is just one of those actors that is too famous, ya know? Like I expect him to bust out some colorful streams of cussing at RDJ any moment. "I don&#39;t wanna hear no motherfrimbazelin&#39; ifs, man! Can you close the rift or what?"<br />
+<br />
+Initially I was bent about recasting of Hulk, but I actually quite like Ruffalo.<br />
+<br />
+@phil...Avengers isn&#39;t about any kind of back stories, that is what all the stand alone movies were for. Avengers is just all action all the time that they can get away with cuz they&#39;ve already done it all in other movies.<br />
+ <br><BR><font size=1>23:37 04-16-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">That is a good point about Samuel Jackson. He doesn&#39;t really fit the character.  He just has too much natural swagger <br><BR><font size=1>22:38 04-16-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 (Review)</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 (Review)'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><a href=http://www.decktech.net/magic/decks/decks.php?deck=36964>The Avengers  </a> <BR><BR>3.5 stars <BR><BR> loki was a terrible villain, im with brad on this one.<br />
+<br />
+<br />
+fun movie though as far as all the heros and stuff. but a bit too flashy for me. i like my super hero movies with some meat. i like background stories and i like seeing their family etc. <font size=1>(+2 tp)</font> </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 (Review)</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 (Review)'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><a href=http://www.decktech.net/magic/decks/decks.php?deck=37121>Mud  </a> <BR><BR>4 stars <BR><BR> decent flick.<br />
+<br />
+enjoyed it quite a lot, but i still hate MM <font size=1>(+5 tp)</font> </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>dope5tar (Review)</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=dope5tar (Review)'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><a href=http://www.decktech.net/magic/decks/decks.php?deck=36964>The Avengers  </a> <BR><BR>4.5 stars <BR><BR> They did a pretty remarkable job juggling all the characters. I really kind of detest Iron Man as a character and Samuel L is too distracting as Fury, but other than that it is pretty well the perfect comic book movie <font size=1>(+5 tp)</font> </TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Wasn&#39;t that a masterpiece of a movie?  It really sticks with me <br><BR><font size=1>18:29 04-16-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Hey good to see you man. Drop by more often <br><BR><font size=1>18:28 04-16-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>dope5tar (Review)</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=dope5tar (Review)'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><a href=http://www.decktech.net/magic/decks/decks.php?deck=37121>Mud  </a> <BR><BR>5 stars <BR><BR> Flawless. Everything you would want from an independent movie <font size=1>(+5 tp)</font> </TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">My god both Marcia and Shelly long as mrs brady were dead on accurate.  <br><BR><font size=1>01:06 04-15-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>BartmanMLV </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=BartmanMLV '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I remember when Run Lola Run came out and saw it at a local indie theatre here and absolutely was glued for the short film. I had to go out and buy it when it came out on DVD. I recommend it for anyone.  <br><BR><font size=1>23:55 04-14-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>BartmanMLV </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=BartmanMLV '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I thought the Brady Bunch movie was clever as well as the brilliant casting for Marcia.  <br><BR><font size=1>23:53 04-14-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Run Lola run is a great movie. Good job. I have always been curious about Unbearable Ligtness thanks <br><BR><font size=1>18:47 04-14-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 (Review)</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 (Review)'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><a href=http://www.decktech.net/magic/decks/decks.php?deck=37120>Run Lola Run (1998)   </a> <BR><BR>4.5 stars <BR><BR> Such a good movie.<br />
+<br />
+if you have not seen it, do so. <font size=1>(+5 tp)</font> </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 (Review)</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 (Review)'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><a href=http://www.decktech.net/magic/decks/decks.php?deck=37119>The Unbearable Lightness of Being (1988)  </a> <BR><BR>2.5 stars <BR><BR> very long<br />
+sad<br />
+decently entertaining human story..<br />
+really want to give it more.. but just cant bring myself too. <font size=1>(0 tp)</font> </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 (Review)</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 (Review)'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><a href=http://www.decktech.net/magic/decks/decks.php?deck=37118>Dom Hemingway (2013)  </a> <BR><BR>0.5 stars <BR><BR> what a pos.<br />
+<br />
+i dig jude law. but..man this was painful. <font size=1>(-2 tp)</font> </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 (Review)</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 (Review)'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><a href=http://www.decktech.net/magic/decks/decks.php?deck=37116>Goodbye World (2013)  </a> <BR><BR>4 stars <BR><BR> this low budjet flick actually wasnt that bad.<br />
+<br />
+my only beef with it was the guys were frimbazeling pussies.<br />
+the one guy got all ready for the end of the world..but didnt get guns? what a tard. (+2 tp <font size=1>(+5 tp)</font> </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 (Review)</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 (Review)'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><a href=http://www.decktech.net/magic/decks/decks.php?deck=37116>Goodbye World (2013)  </a> <BR><BR>3.5 stars <BR><BR> this low budjet flick actually wasnt that bad.<br />
+<br />
+my only beef with it was the guys were frimbazeling pussies.<br />
+the one guy got all ready for the end of the world..but didnt get guns? what a tard. <font size=1>(+2 tp)</font> </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 (Review)</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 (Review)'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><a href=http://www.decktech.net/magic/decks/decks.php?deck=37117>The Legend of Hercules (2014)  </a> <BR><BR>0.5 stars <BR><BR> this was a winner. <font size=1>(-2 tp)</font> </TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=9000><input type='Submit'  value=' Show all Posts '></form><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=9000><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/swtcg/main/join.php'> become a registered member</a></font></font></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script>
+<!-- advertising code -->
+<!-- Kontera ContentLink(TM);-->
+<!--
+<script type='text/javascript'>
+var dc_AdLinkColor = 'blue' ; 
+var dc_PublisherID = 157626 ; 
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'>
+</script>
+-->
+<!-- rumors board code end -->
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+      </table>
+      <!-- #EndEditable --></td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"> 
+      <p align="center" class="legal"><span class="legal"><span class="legal"><span class="legal"><br>
+        Legal- TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and related 
+        marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher Inc. Decipher, 
+        Customizable Card Game, The Art of Great Games and associated marks and 
+        intellectual property are exclusively owned by Decipher Inc. All Rights 
+        Reserved. THIS Web Site IS NOT PRODUCED OR ENDORSED BY DECIPHER, INC OR 
+        LUCASFILM LTD OR PARAMOUNT PICTURES. STAR TREK. </span></span></span> 
+        <span class="legal"><span class="legal"><br>
+        <span class="legal"> TM & © 2002 www.decktech.net. All Rights Reserved. 
+        </span></span></span><br>
+        <br>
+      </p>
+      </td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+</body>
+<!-- #EndTemplate --></html>

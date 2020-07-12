@@ -1,0 +1,430 @@
+ 
+<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
+<head>
+<title>DeckTech - for the players, by the players.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/swccg/global/css/white.css">
+<!-- #BeginEditable "Style" --> 
+<style type="text/css">
+<!--
+.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
+.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
+.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
+.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
+.centercolor {  background-color: #424142}
+-->
+</style>
+<!-- #EndEditable -->
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript><!-- #EndLibraryItem --></td>
+    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
+      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
+    <td valign="top" class="centercolor" rowspan="2" > 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
+          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
+          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
+        </tr>
+        <tr> 
+          <td colspan="2"><!-- #BeginEditable "Body" -->  
+            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
+              <tr> 
+                <td bgcolor="#424142" height="12" valign="top" width="44%"><img src="../../global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
+                <td bgcolor="#424142" align="right" valign="top" height="12" width="48%"><img src="../../global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr> 
+                <td height="622" valign="top" colspan="2" bgcolor="#404040"> 
+                  <table width="100%" border="0" cellpadding="4">
+                    <tr> 
+                      <td> 
+                        <table border="0" cellpadding="4" width="100%">
+                          <tr> 
+                            <td colspan="2" bgcolor="#000000"><font color="#FFFFFF" face="Haettenschweiler, Tahoma, Arial" size="6">Michael "Gilliatt" Raveling</font><font face="Arial" size="2"> 
+                              </font></td>
+                          </tr>
+                          <tr> <!-- <td valign="top" width="66%"> attempt at fixing nestscape problem--> 
+                            <td valign="top" width="400"> 
+                              <table align="left" cellpadding="4" border="0" width="100%">
+                                <tr> 
+                                  <td> <img src='/memberimages/4375shaquille_oneal.jpg' HSPACE=10 VSPACE=10 ><P><font face="Haettenschweiler, Tahoma, Arial" size="5" color="#FFFFFF">MY HALL OF FAME</FONT><BR><font face="Arial, Helvetica, sans-serif" color="#FFFFFF" size="2" >My SWCCG hall of fame.
+<BR>Because the decktech hall of fame will never contain names which I think are deserving but instead will only contain self-serving tools of Decktech, I have put together this short list of who i think is in my hall-of-fame.<BR>
+1.  Matt Potter.  Only MN to win it all.  He knew how to abuse a strategy like operatives and was the first to hit me with Droid inserts.  
+2.  Adam Ankrum.  I never did beat him and the only way I ever beat him in tournaments was if I didn&#8217;t play him but defeated him on differential.  If his cards didn&#8217;t get stolen he probably would still be a great player.
+3.  Josh Kohman.  For being the underdog but going to the big tourneys and performing.  He is in here just for beating up on that Girard guy twice at Gen Con while getting interviewed by his tape recorder.
+4.  Michael Berghum.  Made his way to worlds with Matt Potter and Adam Ankrum.  I have to give him some mention.
+5.  Jim Li.  Never saw a player work so hard to perform well.  The only reason he is number five is that his attitude is the exact opposite of what would earn my respect.
+6.  Graham Neal.  For being the underdog in the big tournaments and beating up on Kohman when I failed to do so.
+7.  Jon Swenson.  I never defeated him in tournament play and his ranking in so few games was always something that I admired.  He also had such nice hair.
+8.  Zach Stenerson.  For beating up on all those North Dakota players and almost single-handedly killing whatever SWCCG scene there was in Fargo-Moorhead by beating up on the locals every tournament.
+9.  Josh Grace.  In here because Jeff at Outpost 2000 said &quot;I could never play SW because it would be tough to beat you or Graham.  And I would never come close to beating that Josh Grace.&quot;  When you get that kind of respect you are in the hall of fame.
+10.  I will reserve this slot for someone who I think deserves to be in it.  Is it Garret Larson, Justin Alfs, or a TD like Dion Erbes, Chris Perman, Matt Decker, or Josh Lynch? 
+<BR><BR>
+Where am I?  You may be asking this question and wondering where my submissions be at or why I haven&#8217;t been posting anything or reviewing anything?  Am I done with SWCCG?  Am I wack or something?  Here is the 411 in total gangster terms:<BR>Ok I can&#8217;t do anymore gangster so here is my info with an imaginary interview with myself.<BR><BR>Question 1: MRR asks MRR>  What do you think of the announcement that Decipher has lost the license?  <BR>I am saddened by it but I hope SWCCG doesn&#8217;t die.  I will still play the game.  I emailed decipher about being on their players committie but mostly to find out what it involves and what it means.  I hope to continue to play Star Wars and I am encouraged by Deciphers willingness to continue the game beyond today.<BR><BR>MRR>Do you still play SWCCG?  Excellent question Mike and the answer is yes.  I still play.  
+<BR>MRR>If you play then why not post decks up here?  MRR>I thought about posting a LS post R3 and Theed Palace but I decided that my time is best served elsewhere.  Who would look at it anyways?<BR>
+MRR>I certainly would.<BR>
+MRR>Well you would be one of the few.<BR>
+MRR>Why haven&#8217;t we seen more activity out of you on Decktech?  Tourney Reports?  What about the DPC worlds thingy?<BR>
+MRR>Sometimes it is better just to keep your mouth shut and this is one of those times.  I know the Decktech guys worked hard for that tourney so I got to just leave it at that.  I will say that a lot of wind went out of my sails with the cancellation of Decipher Worlds.  As far as Tourney Reports go, they take a lot of time to write up and think through.  I usually treated them as excuses to test my memory and wriitng skills but my work keeps me busy enough so I don&#8217;t have time to do that anymore.  That is why I usually tend to post TRs to tourneys I do well at.<BR>
+MRR>Why haven&#8217;t you been reviewing anyones stuff?<BR>
+MRR>I am tired of that.  Not enough Minnesotans or Iowans post stuff anymore to keep me coming to the site.<BR>
+MRR>What do you think of the state of the game itself?<BR>
+MRR>Well I still love it and am willing to do all I can to support Decipher and the game itself.  I still go to tourneys regularly and everything.  I think the game is super awesome right now but I don&#8217;t know what Theed Palace has really brought to the game.  I will have to wait and give my opinion after I have had time to really play with the cards from that set but I loved R3.<BR>
+MRR>Any comments on the end of Star Wars.<BR>
+MRR>I don&#8217;t know anything about the end of SWCCG but I know that Decipher has to keep their mouth shut till they renew the license.  I also think that big D has been releasing so much stuff to try to build up enough capital to try to keep the Star Wars license.  But having said that I don&#8217;t know.
+MRR>Any final comments?<BR>
+MRR>I would just like to say you are an excellent interviewer.<BR>
+MRR>Thanks and you are an excellent interviewee person.<BR>
+MRR>That&#8217;s all we have for tonight<BR> 
+<br><BR>As Always,<BR><BR>Your Friend<BR>Michael Raveling                 </FONT> <BR> </td>
+                                </tr>
+                                <tr bgcolor="#000000"> 
+                                  <td><font face="Arial, Helvetica, sans-serif" size="2" color="#FFC000"><b><font color="#FFFFFF">My 
+                                    Links</font> </b></font></td>
+                                </tr>
+                                <tr> 
+                                  <td> 
+                                    <ul>
+                                      <li><font face="Arial, Helvetica, sans-serif" size="2" ><a href="http://www.aynrand.org/medialink/actofwar.html" target="newwindow">http://www.aynrand.org/medialink/actofwar.html</a><br>
+                                        </font> 
+                                      <li><font face="Arial, Helvetica, sans-serif" size="2" ><a href="http://www.msnbc.com/news/afghan_front.asp" target="newwindow">http://www.msnbc.com/news/afghan_front.asp</a><br>
+                                        </font> 
+                                      <li><font face="Arial, Helvetica, sans-serif" size="2" ><a href="http://www.fiu.edu/~fcf/cubanterrorism5198.html" target="newwindow">http://www.fiu.edu/~fcf/cubanterrorism5198.html</a><br>
+                                        </font> 
+                                    </ul>
+                                  </td>
+                                </tr>
+                                <tr> 
+                                  <td>   </td>
+                                </tr>
+                              </table>
+                            </td>
+                            <td valign="top" width="34%"> 
+                              <table border="0" cellpadding="4" cellspacing="0" width="100%">
+                                <tr> 
+                                  <td valign="top"> <font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" color="#FFFFFF"> 
+                                    Current Tech Rating: 15195 
+                                    </font><br>
+                                    <br>
+                                  </td>
+                                </tr>
+                                <tr> 
+                                  <td valign="top" bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2" color="#FFC000"><b><font color="#FFFFFF">My 
+                                    Dark Decks</font></b></font></td>
+                                </tr>
+                                <tr> 
+                                  <td  valign="top"> <TABLE width="100%"><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/dark/darkdetail.php3?deck=14063">DPC Deck--Raveling&#146;s SYCFA</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/dark/darkdetail.php3?deck=15943">State Deck- Raveling&#146;s BHBM</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/dark/darkdetail.php3?deck=16512">Raveling&#146;s Podrace HuntDown</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/dark/darkdetail.php3?deck=11905">Raveling&#146;s My Kind Of Scum</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/dark/darkdetail.php3?deck=11199">Imperial Command BHBM</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/dark/darkdetail.php3?deck=11354">Raveling&#146;s Bunker Deck</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/dark/darkdetail.php3?deck=13105">Raveling&#146;s Agents of Black Sun</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/dark/darkdetail.php3?deck=19237">Raveling&#146;s Episode 1 Racer</A></FONT></TD></TR></TABLE> </td>
+                                </tr>
+                                <tr> 
+                                  <td valign="top" bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2" color="#FFC000"><b><font color="#FFFFFF">My 
+                                    Light Decks</font></b></font> </td>
+                                </tr>
+                                <tr> 
+                                  <td valign="top"><TABLE width="100%"><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/light/lightdetail.php3?deck=11383">Raveling&#146;s Throne Room</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/light/lightdetail.php3?deck=14043">DPC Deck--Raveling&#146;s WYS</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/light/lightdetail.php3?deck=16594">Raveling&#146;s Profit</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/light/lightdetail.php3?deck=11861">Raveling&#146;s Agents In The Court</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/light/lightdetail.php3?deck=15962">State Deck-Raveling&#146;s Euro-WYS</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/light/lightdetail.php3?deck=13076">Raveling&#146;s Watch Your Step</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/light/lightdetail.php3?deck=19260">Raveling&#146;s Episode 1 Racer</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/light/lightdetail.php3?deck=11382">Raveling&#146;s Throne Room</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/decks/light/lightdetail.php3?deck=11243">Raveling&#146;s Space</A></FONT></TD></TR></TABLE> </td>
+                                </tr>
+                                <tr> 
+                                  <td valign="top" bgcolor="#000000"><font size="2" face="Arial, Helvetica, sans-serif" color="#FFC000"><b><font color="#FFFFFF">My 
+                                    Articles</font></b></font></td>
+                                </tr>
+                                <tr> 
+                                  <td valign="top"><TABLE width="100%"><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/articles/articledetail.php3?article=2351">Three Selected Topics on SWCCG</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/articles/articledetail.php3?article=2131">How To Cheat</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/articles/articledetail.php3?article=2001">Mind Games</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/articles/articledetail.php3?article=1944">Character of the Year 2000</A></FONT></TD></TR></TABLE> </td>
+                                </tr>
+                                <tr> 
+                                  <td valign="top" bgcolor="#000000"><font size="2" face="Arial, Helvetica, sans-serif" color="#FFC000"><b><font color="#FFFFFF">My 
+                                    Tournament Reports</font></b></font></td>
+                                </tr>
+                                <tr> 
+                                  <td valign="top"><TABLE width="100%"><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/treports/reportdetail.php3?deck=2385">Minneapolis, MN 2001</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/treports/reportdetail.php3?deck=2350">Rochester, MN 2001</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/treports/reportdetail.php3?deck=2317">States Mirkwood 2001</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/treports/reportdetail.php3?deck=1814">Normal 2001</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/treports/reportdetail.php3?deck=1701">Rochester, MN 2001</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/treports/reportdetail.php3?deck=1648">St. Cloud, 2001</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/treports/reportdetail.php3?deck=1534">Raveling, Fargo, ND 2000</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/treports/reportdetail.php3?deck=1500">Mirkwood, Minnesota 2000</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/treports/reportdetail.php3?deck=1392">Grand Slam, Minnesota</A></FONT></TD></TR><TR><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/treports/reportdetail.php3?deck=1318">Orlando, Florida 2000</A></FONT></TD></TR></TABLE> </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!-- #EndEditable --> </td>
+        </tr>
+      </table>
+    </td>
+    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
+      <table border="0" cellspacing="0" cellpadding="0" width="150">
+        <tr align="right" valign="top"> 
+          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
+          <td width="154" valign="top" align="right"> 
+            <table width="154" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF">&nbsp; </td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF"> 
+                  <script language="JavaScript">
+
+function logout() {
+var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
+document.cookie = cookie;
+window.location = "../index.php3";
+	}
+
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+
+</script>
+                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
+<select name="select1" onChange="go(this)">
+    <option selected>Quick Jump</option>
+    <option value="/swccg/resources/rulings.php3">Current Rulings</option>
+    <option value="/swccg/main/decktech.php3">About DeckTech</option>
+    <option value="/swccg/membercenter/directory.php3">Member Directory</option>
+    <option value="#">-----------------------------</option>
+    <option value="/index.php">decktech.net</option>
+  </select>
+</form><!-- #EndLibraryItem --> </td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
+                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
+                  Center</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
+                  Reports </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/treports/index.php3" class="level1nav"></a></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav"></a><a href="/swccg/shop/index.php" class="level1nav">Tech 
+                  Shop </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
+                  Resources</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
+          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/MemberNav.lbi" --><table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td>&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/main/swccg.php3" class="level2nav">About 
+      SW:CCG</a><a href="/www/articles/strategy.php3" class="level2nav"> </a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/main/decktech.php3" class="level2nav">&nbsp;About 
+      DeckTech</a> <br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/main/join.php3" class="level2nav"> 
+      &nbsp;Sign Me Up!</a> <br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/membercenter/gallery.php3" class="level2nav">&nbsp;Member 
+      Gallery </a> <br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/membercenter/directory.php3" class="level2nav">&nbsp;Member 
+      Directory </a> <br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/main/faq.php3" class="level2nav">FAQ 
+      </a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+  <tr> 
+    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/main/terms.php3" class="level2nav">&nbsp;Terms 
+      of Service</a><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
+          <td width="155" valign="top" height="13"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr align="left" valign="top" bgcolor="#630063"> 
+                <td width="154">
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
+                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
+      Updates</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><a href='/swccg/resources/hoostinopage.php3'><font face='Arial, sans-serif' size='2'>Justin Warren</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2002-05-17</font><BR></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
+      Tips</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><p><font face='arial' size='2' color='#ffffff'>Trying to find something to do to help promote SW:CCG? Look at our community projects just off the homepage!</font></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

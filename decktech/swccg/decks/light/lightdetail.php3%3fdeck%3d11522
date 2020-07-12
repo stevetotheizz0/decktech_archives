@@ -1,0 +1,367 @@
+ 
+<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
+<head>
+<title>DeckTech - for the players, by the players.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/swccg/global/css/white.css">
+<!-- #BeginEditable "Style" --> 
+<style type="text/css">
+<!--
+.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
+.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
+.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
+.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
+.centercolor {  background-color: #313063}
+-->
+</style>
+<!-- #EndEditable -->
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE -->
+<script language="JavaScript">
+<!-- /* © 1997-1999 BURST! Media, LLC. All Rights Reserved.*/
+var TheAdcode = 'ad8702a';
+var bN = navigator.appName;
+var bV = parseInt(navigator.appVersion);
+var base='http://www.burstnet.com/';
+var Tv='';
+var agt=navigator.userAgent.toLowerCase();
+if (bV>=4)
+  {ts=window.location.pathname+window.location.search;
+   i=0; Tv=0; while (i< ts.length)
+      { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+   if( Tv.charAt(0)!='/' ) Tv="/"+Tv;
+          else if (Tv.charAt(1)=="/")Tv="";
+  if( Tv.charAt(Tv.length-1) == "/")
+    Tv = Tv + "_";}
+if (bN=='Netscape'){ 
+     if ((bV>=4)&&(agt.indexOf("mac")==-1))
+{  document.write('<s'+'cript src="'+ 
+      base+'cgi-bin/ads/'+TheAdcode+'.cgi/RETURN-CODE/JS' 
+      +Tv+'">'); 
+     document.write('</'+'script>');    } 
+     else if (bV>=3) {document.write('<'+'a href="'+base+'ads/'+ 
+        TheAdcode+'-map.cgi'+Tv+'"target=_top>'); 
+        document.write('<img src="' + base + 'cgi-bin/ads/' + 
+        TheAdcode + '.cgi' + Tv + '" ismap width="468" height="60"' + 
+        ' border="0" alt="Click Here"></a>');} 
+ } 
+if (bN=='Microsoft Internet Explorer') 
+ document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'+ 
+  TheAdcode + '.cgi' + Tv + '/RETURN-CODE" width="468" height="60"' + 
+  'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' + 
+  'frameborder="0" scrolling="no"></ifr'+'ame>'); 
+// --> 
+</script> 
+<noscript><a href="http://www.burstnet.com/ads/ad8702a-map.cgi" target="_top"> 
+<img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi" 
+ width="468" height="60" border="0" alt="Click Here"></a> 
+</noscript> 
+<!-- END BURST CODE -->
+<!-- #EndLibraryItem --></td>
+    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
+      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
+    <td valign="top" class="centercolor" rowspan="2" > 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
+          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
+          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
+        </tr>
+        <tr> 
+          <td colspan="2"><!-- #BeginEditable "Body" --> 
+            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
+              <tr> 
+                <td bgcolor="#333366" height="12" valign="top" width="44%"><img src="/swccg/global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
+                <td bgcolor="#333366" align="right" valign="top" height="12" width="48%"><img src="/swccg/global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr> 
+                <td height="622" valign="top" colspan="2" bgcolor="#333366"><table width="100%" border="0" cellpadding="4"><tr bgcolor="#000000"><td><font color="#FFFFFF"><font face="Haettenschweiler, Tahoma, Arial" size="6">Mind What You&#146;ve Learned on Endor</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC="../images/dd9.GIF" BORDER=0><A HREF="lightread.php3?deck=11522"><IMG SRC="../images/ldread.GIF" BORDER=0></A><A HREF="lightreview.php3?deck=11522"><IMG SRC="../images/ldreview.GIF" BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="../../membercenter/directory/memberpage.php3?member=4212">John "Parn12" Digiovanni</A></FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Description</Font></TD><TD><font face="Arial, sans-serif" size="2">MWYHL done playing the scout game on Endor, I&#146;ve not seen it done this way before.</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Date Created</Font></TD><TD><font face="Arial, sans-serif" size='2'>November 2, 2000</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Cards</Font></TD><TD><font face="Arial, sans-serif" size="2">Starting (6)<br>
+MWYHL/SYIC<br>
+Dagobah<br>
+Heading For The Medical Frigate<br>
+Wise Advice<br>
+The Way Of Things<br>
+Strike Planning (generally)<br>
+<br>
+Locations (7)<br>
+Dagobah: Training Area<br>
+Dagobah: Swamp<br>
+Dagobah: Jungle<br>
+Dagobah: Yoda&#146;s Hut<br>
+Endor: Back Door<br>
+Endor: Rebel Landing Site<br>
+Endor: Hidden Forest Trail<br>
+<br>
+Characters (21)<br>
+General Crix Madine<br>
+Colonel Cracken<br>
+Corporal Beezer<br>
+Chewbacca Of Kashyyyk<br>
+Daughter Of Skywalker<br>
+Luke With Lightsaber<br>
+Obi-Wan Kenobi<br>
+Lieutenant Blount<br>
+Yoda<br>
+General Solo<br>
+Luke Skywalker, Jedi Knight x2<br>
+Corporal Midge<br>
+Corporal Kensaric<br>
+Major Panno<br>
+Orrimaarko<br>
+Lieutenant Page<br>
+Wedge Antilles, Red Squadron Leader<br>
+Lieutenant Greeve<br>
+Wuta<br>
+General Calrissian<br>
+<br>
+Starships (7)<br>
+Tala 2<br>
+Millennium Falcon<br>
+Artoo-Detoo In Red 5<br>
+Spiral<br>
+Red Squadron 1<br>
+Home One<br>
+Tantive IV<br>
+<br>
+Interrupts (4)<br>
+Star Destroyer<br>
+Insertion Planning<br>
+Fly Casual<br>
+The Signal<br>
+<br>
+Effects (5)<br>
+What&#146;re You Trying To Push On Us?<br>
+Reflection<br>
+Traffic Control<br>
+Yoda&#146;s Hope<br>
+Lightsaber Proficiency<br>
+<br>
+Devices/Weapons (4)<br>
+Anakin&#146;s Lightsaber<br>
+Obi-Wan&#146;s Lightsaber<br>
+Luke&#146;s Lightsaber<br>
+Luke&#146;s Backpack<br>
+<br>
+Jedi Tests (6)<br>
+Great Warrior<br>
+A Jedi&#146;s Strength<br>
+Domain Of Evil<br>
+Size Matters Not<br>
+It Is The Future You See<br>
+You Must Confront Vader </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Strategy</Font></TD><TD><font face="Arial, sans-serif" size="2">--------------------<br>
+Card list update:<br>
+Remove:<br>
+1x Lieutenant Blount<br>
+1x Tala 2<br>
+<br>
+Replace with:<br>
+1x Tala 1<br>
+1x Daughter of Skywalker<br>
+--------------------<br>
+<br>
+Okay, doesn&#146;t take a rocket scientist to figure out the first obvious thing... compared to many Mind What You Have Learned decks, the destiny of this deck sucks, a killer 2.4 average after starting stuff, but it goes up dramatically once you strike planning 2 1&#146;s and start sifting 0&#146;s and low destiny scouts out of the way.  Also, when done right you&#146;ll generally only need to draw like a 2 to pass a particular test, and with 5 ability, 4 sites, and a max total of like another +5 or so... you&#146;d have to be trying to fail these tests.  Its done fine so far, doing what it has to do with brutal efficiency.  Most MWYHL decks I&#146;ve seen have ran like 13 characters at the most and 20 interrupts and up, gotta have those fancy destiny to show your opponent and show off... hell, just draw Greeve or Midge and laugh because it&#146;ll do for passing.  No tricks like On and Off The Edge, useless engines that are easily shut down... grabbers and Something Special both kills this game.  Speaking of grabbers, they&#146;re pretty useless against me... sure, my highest destiny comes from these 4 interrupts.. but most likely I won&#146;t be playing them unless its pretty much neccessary, so don&#146;t cry if he grabs a Signal, it won&#146;t kill you.	As for all of you who think getting a destiny 7 on Test 5 is the only way to win, I got something for you all: shove it... this deck&#146;ll do fine with a 5, or a 3, or 1, doesn&#146;t matter, it isn&#146;t the focus.<br>
+<br>
+So, now that everyone knows I&#146;m NOT playing typical training, in one essence, lets get into what the deck does: beat the hell out of the other guy, hunt down and destroy vader, smeer the queer, whatever you want to call it, just kill the other player.  And if the horrible maiming doesn&#146;t do the trick, just force drain him until his eyeballs fall out, between Endor draining and Test 1, this deck&#146;ll typically win a drain race if it comes down to it.<br>
+<br>
+Okay, think Ralltiir Ops here, spend 2 force to get any card you want.. 5 or 6 turns and that&#146;s what you&#146;re doing with this deck, test 4 is the one to go for here, not 5 or 2 or some other arbitrary number, but all the tests are in here... it is always nice to retrieve 10 and then make him lose 2 each turn after Vader&#146;s gone, but all that is just for Leia to pass time while you&#146;re beating your opponent over the head mercilessly.. and if a few people die in the meantime, retrieve them when you complete #5.<br>
+<br>
+So, for all of you who don&#146;t know training (I pity you, really), here&#146;s how it goes, once more.<br>
+<br>
+Turn 1: Snag Training Area with Dagobah, search reserve deck with MWYHL, grab Leia 1st, drawing her REALLY hurts, REALLY REALLY hurts, and if she&#146;s not in there, hit Yoda up... most of the time your opponent won&#146;t give you 4 force on the first turn, so don&#146;t worry about doing them both.	Grab a Jedi Test (1 hopefully) with Training Area.  During opponent&#146;s next turn: grab test 2 (or 1 if you missed it) with the training area.<br>
+<br>
+Turn 2: Snag Yoda&#146;s Hut with Dagobah, search for anything with MWYHL that you missed last turn, fetch a Jedi test.  Deploy Yoda or Daughter (whichever you didn&#146;t last turn) and Jedi Test 1. Search for another test on opponent&#146;s turn.  Should only have tests 5 and 6 left in reserve deck at this point.<br>
+<br>
+Turn 3: Complete Test 1 (control phase), deploy Jungle (hopefully), on the opposite side of the training area from the hut, from reserve deck with Dagobah.  Play test 2 on the Jungle, ask opponent if he wishes to move the test (a wise person would say yes, which sucks because while he does move it to the site where you are at, it actually stalls you 1 turn, read below).  If he doesn&#146;t move the test, then he sucks.	Spend 2 force, 1 to put Leia at the Jungle, and another to move Yoda to the hut.<br>
+<br>
+Turn 4: Swamp goes between the hut and the training area, but test first, pass #2, then proceed to the deploying crap part of your turn.  Now is when your opponent was either smart and planned ahead, or daft and deserves to be slapped.  Deploy test 3 on the Jungle, if you&#146;re lucky, Leia should be there, and The Way of Things immediately passes the test and you zip right on to deploying test 4 on the Swamp.	If not, move to the Jungle, pass test 3 with The Way of Things.  If you&#146;re at moving to test 4 right now, use The Way Of Things (Leia as landspeed of 2) to run her over to the Swamp (then pull test 5 during your opponent&#146;s turn if you haven&#146;t drawn it).<br>
+<br>
+Turn 5: Test for test 4 and deploy #5, or deploy #4 and move to it... sucks huh?<br>
+<br>
+Turn 6: Leia flips, or you pass #4 and deploy #5 (fetch #5 on your opponent&#146;s turn after you complete 4... never know when that extra 5&#146;ll come in handy).<br>
+<br>
+Turn 7: Leia flips, or at the end of your turn you pull 10 back from the lost pile (I&#146;ve not been able to get the full 10 yet) and draw for test 5... draw test 6 from reserve deck during opponent&#146;s turn, don&#146;t be daft and put it on test 5, even if you draw it for the test.<br>
+<br>
+Turn 8: You&#146;re at Test 6, or you&#146;ll be completing test 5... either way, by now your opponent should be feeling pretty bad.<br>
+<br>
+Well, that seems pretty monotonous and really boring to do every game... so while you&#146;re doing that you have a whole different game you&#146;re playing at the same time out of the same deck.  There are 3 Endor sites, get one fast.  Before you do much, like on your opponent&#146;s first turn, strike planning Solo and Crix out (or sub Calrissian if you drew one of the two).  When you get the force, and the endor site, dump Crix, get a scout, dump solo, dump scout... if you&#146;re wise you&#146;d get Kensaric... certainly sucks to deploy against him, especially when he&#146;s playing tag-team with Solo.By now Yoda should be on the hut and you should be nearing or past clearing test 3.  In effect this means: he&#146;s deploy +2 for anything he wants to put there, attrition -2, all his draws are -1 (attrition -3), and needs 6 ability to draw against you.  Also Solo is sitting there, so if he wants to be a menace with multi-destiny, cancel down until he has no more attrition.	Same for space, be know, Solo only works in space with Chewie, but whatever floats your boat, I&#146;d just as soon drain him out on the ground, but if you must.  Once test 4 hits the table you should be pretty well off, go fetch a character that&#146;ll put the final nail into kicking him off of a site, or that ellusive lightsaber, or just to scan and see what you can pull with Crix, may even need to weed out destiny 1&#146;s and 0&#146;s with this... but not likely.  The name of the game is insane power and cripling tests on your opponent.  See how well he lasts.<br>
+<br>
+Deck Type Matches:<br>
+<br>
+BHBM: Pick and choose fights, don&#146;t lose... make sure you keep Luke free until you want him captured (if you want him captured), if he&#146;s taken, kill Vader and get him back, or just don&#146;t lose battles and beware losing too many duels to Vader (it stacks if he wins, and then you lose 3 to boot).  If you&#146;re confident in your destiny vs. his, don&#146;t worry about the duels, just let him ping himself to death with that 1 a turn.  Oh, and ironically enough, if Vader has Luke with the Emperor on the Death Star II, he&#146;s not at a battleground site, so he&#146;s vulnerable to test 6 damage, just food for your thought.  Should be a tough match, perhaps the toughest.<br>
+<br>
+ROPs: Where&#146;d it go?  Either way, just play a typical game, test 1 should do its damage to his drains, if you can control Ralltiir early, go to stop him from flipping, its just annoying.  Just play smart here, don&#146;t get in a position to get nailed for 9 attrition, it hurts immensely.	But this deck should finally be on its way out, so let us all wave.<br>
+<br>
+Court: Don&#146;t play stupid, don&#146;t play stupid... and did I mention don&#146;t play stupid?  Be careful of the hidden weapons games... though test 1 should do a bit of damage.	Remember that test 3 says you may, so if he draws a pesky 2 for hidden weapons, it becomes a 1, just read the card... and then decide if its better to leave it be or -1 it.  None Shall Pass is annoying, yes, live with it.  Don&#146;t let him get squirrely and come smack you at a site where you thought you were safe... and grab his stupid projective telepathy if he&#146;s playing that crazy game.<br>
+<br>
+Endor Ops: They&#146;ll never see it coming, hehe.  One battle should tell the game, be sneaky, don&#146;t let him know you&#146;re playing his game.<br>
+<br>
+TIEs: Use your better judgment.  There is some space in here, just don&#146;t go thinking you can take down 15 intercepters and a dready with Red Squad 1 and Red 5, it won&#146;t happen.  Snatch his Short Range Fighters, or All Power To Weapons if you&#146;re battling a lot.<br>
+<br>
+New Objective: Consider looking at court, though I&#146;ve seen a nasty one that plays with the droid workshop, Mosep, EV-9D9, droids, and Ephant Mon as the rep... and then that crazy effect that kills modifying or canceling it because Ephant and Mo are together there... trust me, it sucks to have to play, if you&#146;re not ready to.  Test 1 kills this deck, so don&#146;t even worry about him.  Other decks like this... dunno, haven&#146;t seen any others, JPOTSD is a little costly, and we&#146;re just a bunch of poor Georgia boys out here... plus I don&#146;t see many tournies these days, thank you oh sweet job of mine.<br>
+<br>
+Questions, comments... well, keep them to yourself.  Just kidding, send me a message or rate the deck, something other than letting this deck rot.  Keep your head to grindstone, and, as always, enjoy! </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="lightdecks.php3"><img src="../images/ldback.GIF" border="0"></a><A HREF="lightread.php3?deck=11522"><IMG SRC="../images/ldread.GIF" BORDER=0></A><A HREF="lightreview.php3?deck=11522"><IMG SRC="../images/ldreview.GIF" BORDER=0></A><a href="deckprint.php3?deck=11522" TARGET="BLANK_"><img src="../images/ldprint.GIF"  border="0"></a></FONT></TD></TR></TABLE> </td>
+              </tr>
+            </table>
+            <!-- #EndEditable --></td>
+        </tr>
+      </table>
+    </td>
+    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
+      <table border="0" cellspacing="0" cellpadding="0" width="150">
+        <tr align="right" valign="top"> 
+          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
+          <td width="154" valign="top" align="right"> 
+            <table width="154" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF">&nbsp; </td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF"> 
+                  <script language="JavaScript">
+
+function logout() {
+var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
+document.cookie = cookie;
+window.location = "../index.php3";
+	}
+
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+
+</script>
+                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
+<select name="select1" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="/swccg/resources/rulings.php3">Current Rulings</option>
+<option value="/swccg/main/decktech.php3">About DeckTech</option>
+<option value="/swccg/membercenter/directory.php3">Member Directory</option>
+</select>
+</form><BR>
+<!-- #EndLibraryItem --> </td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
+                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
+                  Center</a></font> <br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
+                  Reports </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
+                  Resources</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
+          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/decks.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/index.php3" class="level2nav">Decks 
+      Home</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/dark/darkdecks.php3" class="level2nav">Dark 
+      Decks</a><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/light/lightdecks.php3" class="level2nav">Light 
+      Decks</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
+          <td width="155" valign="top" height="13"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr align="left" valign="top" bgcolor="#630063"> 
+                <td width="154">
+<center>
+<a href="http://www.freebieclub.com/FC_myFreebies.asp?a=26049" target=blank>
+<img src="/swccg/global/includes/125.gif" border="0" width="125" height="125"></a></center>
+<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
+                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" --><table width="100%" border="0" cellspacing="0" cellpadding="4">
+  <tr bgcolor="#000000"> 
+    <td><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Latest News 
+      </font></b></font></td>
+  </tr>
+  <tr> 
+    <td> <p><font face="Arial, Helvetica, sans-serif" size="2"><a href=/dpc/news/fantasy_winners.php>Announcing: The Fantasy DeckTech Players&#146; Challenge Winners</a></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Thu, March 1, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR><p><font face="Arial, Helvetica, sans-serif" size="2"><a href=/dpc/news/coverage.php>Round by Round Web Coverage of the first DPC Open</a></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Wed, February 21, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR><p><font face="Arial, Helvetica, sans-serif" size="2"><A href=/dpc/news/normal_schedule.php>The DPC Normal: Schedule of Events</A></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Tue, February 20, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR> <a href="/swccg/main/news.php3"><font face="Arial, Helvetica, sans-serif" size="1"><br>
+      more news</font></a> </td>
+  </tr>
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
+      Updates</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><a href='/swccg/resources/tjpage.php3'><font face='Arial, sans-serif' size='2'>Tj Holman</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-08</font><BR><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-25</font><BR><a href='  /swccg/resources/terwilligerpage.php3'><font face='Arial, sans-serif' size='2'>Brian Terwilliger</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-03</font><BR></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
+      Tips</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><p><font face='arial' size='2' color='#ffffff'>Use the Quick Jump box to jump straight to your member page.</font></td>
+  </tr>
+</table><!-- #EndLibraryItem --></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

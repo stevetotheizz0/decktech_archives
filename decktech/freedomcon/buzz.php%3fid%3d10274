@@ -1,0 +1,343 @@
+
+<html><!-- #BeginTemplate "/Templates/freedom.dwt" -->
+<head>
+<title>FreedomCon - United We Stand</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {  margin: 0px 0px; border: none; font: 10pt Verdana, Arial, Helvetica, sans-serif; color: #000000}
+.legal {  font: 6pt Verdana, Arial, Helvetica, sans-serif; color: #CCCCCC}
+td {  font: 9pt Verdana, Arial, Helvetica, sans-serif}
+.nav {  font-size: 8pt; color: #FFFFFF; text-decoration: none}
+-->
+</style>
+</head>
+
+<body bgcolor="#000E58" margin="0" marginwidth="0" marginheight="0">
+<table width="93%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td colspan="2" height="97"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+        <tr>
+          <td><img src="/freedomcon/gfx/freeblue.gif" width="266" height="123" border="0"> 
+          </td>
+          <td valign="middle" align="center">&nbsp; </td>
+        </tr>
+      </table>
+      
+    </td>
+    <td width="42" height="97">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td height="149"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <tr> 
+                <td class="legal"><a href="/freedomcon/index.php" class="nav">Home</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/about.php" class="nav">About FreedomCon</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/sponsors.php" class="nav">Our Sponsors</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/contact.php" class="nav">Contact Us</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/attend.php" class="nav">Players Attending</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/donate.php" class="nav">Donations and Charity</a></td>
+              </tr>
+              <tr>
+                <td><a href="/freedomcon/buzz.php" class="nav">Discuss FreedomCon 2!</a></td>
+              </tr>				  
+			  
+            </table>
+            
+          </td>
+        </tr>
+      </table>
+
+      <!-- #BeginEditable "nav" --> <!-- #EndEditable --><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><br>
+      </font>
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b><br>
+            What:<br>
+            FreedomCon</b> <br>
+            Philadelphia 2002<br>
+            <br>
+            <b>When:</b> <br>
+            October 4-6 <br>
+            <br>
+            <b>Where:</b> <br>
+            NeoQuest Games<br>
+            Gary's Plaza<br>
+            531 South Broad Street<br>
+            Lansdale, PA 19446<br>
+            </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">215 
+            855 7035</font></td>
+        </tr>
+      </table>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"></font></td>
+    <td width="541" bgcolor="#FFFFFF" valign="top" background="/freedomcon/gfx/Vegasxflcam.jpg"><!-- #BeginEditable "body" --> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td valign="top" height="461" width="57%"> <br>
+
+<script language="javascript">
+
+echo "test";
+
+// This makes certain pages private, for members only. Neal 10-2013
+if ($access == "" )
+{
+echo "<table bgcolor='#ffffff' width=500><tr><td><P>This area of DeckTech is now restricted to members only. You must be logged in to view this page.
+Go to <a href='http://www.decktech.net/'> DeckTech.net </a> to log in";
+echo "<P>If you are not a member, and would like to spy on a member, you are cordially invited to kiss off.</td></tr></table>";
+exit;
+}
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+prev1.document.writeln(texttoshow);
+}
+
+function changetobold()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetospoiler()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "(drag mouse to see spoiler)<div style=background-color:red;color:red;foreground-color:red>"+newtext+"</div>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+linkyaddress = document.buzzboardform.texttoconvert.value;
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function oldchangetobold()
+{
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+
+
+
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5<br />
+<b>Warning</b>:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in <b>/home/decktech/public_html/global/includes/com/buzzboard.php</b> on line <b>1719</b><br />
+<table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font class="h1font">The new state of "Jefferson". Will it happen? </B></font></td></tr><tr valign="top"><td><font class="bfont"><font class="bfont"> From: <a href="http://www.decktech.net/magic/main/mpage.php?member=17">neal </a></font><BR><table><TR><TD><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='/freedomcon/buzz.php?id=10274'><b>REFRESH THIS TOPIC</b></A></font></td><td width=40>&nbsp;</td></tr></table><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#EFF1FF><font class="h2font"> Comment</td></tr><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>BartmanMLV </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=BartmanMLV '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I&#39;ve only been to Northern Cal. I imagine it&#39;s quite different from Southern Cal. Culturally it seems like ya got two states right there :) <br />
+<br />
+It&#39;s my favorite area of the states. If I could afford to live there I would. (San Fran, Napa Valley area).  <br><BR><font size=1>00:05 03-25-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">sorry, meant to say ungovernable as a state. It&#39;s basically a country masquerading as a state. <br><BR><font size=1>09:20 03-17-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Nitsuj </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Nitsuj '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Sure, why not?  If the United States is governable, then surely California is. <br><BR><font size=1>09:19 03-17-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Do you think California is governable in its current form? That&#39;s the big question here.<br />
+<br />
+I don&#39;t know, myself. It might be. <br><BR><font size=1>09:18 03-17-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Nitsuj </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Nitsuj '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I&#39;d see it more likely for conservatives to try to work out a proportional electoral college then split off into seperate states.  I think I read there was some attempts to do that in quite a few blue states after the Romney loss. <br><BR><font size=1>09:12 03-17-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Thanks Phil, great to see you.  I am planning on posting more stuff, now that I see everyone streaming back in here.  I want to get some discussions going again, seems like the tempers around here, which occasionally flair up, have died back down. There&#39;s not a lot of intelligent people to discuss with, and the discussions I have here are probably the best I have in my life.<br />
+<br />
+Anyhow, that&#39;s a good point you have, a very good point! Each state would just have to replicate all those services over and over again, wasting a lot of money, i.e. each state has a DMV, a food stamps program, emissions, and more.  And each of those needs workers and computers and infrastucture and managers. <br><BR><font size=1>19:37 03-16-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">i used to live in south cali.<br />
+it was non governable then! sure is now too!<br />
+<br />
+but. making more states would only create more jobs that leech on society. more politicians and more of everything below. so i cant see this helping anything.<br />
+<br />
+posted just for neal. <br><BR><font size=1>19:03 03-16-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">thank you.<br />
+<br />
+There&#39;s another rumor that CA will split into 4 states. The money says no, to me.<br />
+<br />
+Anyone from CA care to comment?  Is California ungovernable as is? <br><BR><font size=1>08:21 03-16-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Only if they name southern california "Snazzy Mexico"<br />
+ <br><BR><font size=1>23:53 03-15-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">oh come on, 7 views. DT is so dead lately, that if you are going to lurk, you are obligated to COMMENT <br><BR><font size=1>21:19 03-15-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">This idea has been floated around for a long time, and I heard about it while I was in Oregon the first time. However, lately, it&#39;s gaining steam.<br />
+<br />
+Briefly, the idea is that Southern California and Northern California have about nothing in common. Additionally, Southern Oregon has more in common with Northern California than say Portland.  Also, that California is basically ungovernable due to its size.<br />
+<br />
+Therefore, the state of California would be split and some of Oregon would join N.Cali to make the 51st state of "Jefferson" quite likely a red state. One would then imagine Puerto Rico being added as 52, unquestionably a blue state.  Everyone&#39;s happy.<br />
+<br />
+Think this will happen? I don&#39;t see it, but any insight is welcome. <br><BR><font size=1>21:03 03-15-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=10274><input type='Submit'  value=' Show all Posts '></form><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=10274><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/swtcg/main/join.php'> become a registered member</a></font></font></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script>
+<!-- advertising code -->
+<!-- Kontera ContentLink(TM);-->
+<!--
+<script type='text/javascript'>
+var dc_AdLinkColor = 'blue' ; 
+var dc_PublisherID = 157626 ; 
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'>
+</script>
+-->
+<!-- rumors board code end -->
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+      </table>
+      <!-- #EndEditable --></td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"> 
+      <p align="center" class="legal"><span class="legal"><span class="legal"><span class="legal"><br>
+        Legal- TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and related 
+        marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher Inc. Decipher, 
+        Customizable Card Game, The Art of Great Games and associated marks and 
+        intellectual property are exclusively owned by Decipher Inc. All Rights 
+        Reserved. THIS Web Site IS NOT PRODUCED OR ENDORSED BY DECIPHER, INC OR 
+        LUCASFILM LTD OR PARAMOUNT PICTURES. STAR TREK. </span></span></span> 
+        <span class="legal"><span class="legal"><br>
+        <span class="legal"> TM & © 2002 www.decktech.net. All Rights Reserved. 
+        </span></span></span><br>
+        <br>
+      </p>
+      </td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+</body>
+<!-- #EndTemplate --></html>

@@ -1,0 +1,626 @@
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Lord of the Rings Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Lord of the Rings, Gandalf, Frodo, Ring, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #111188;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; color: #111111; font-size: 8pt; font-style: normal; text-decoration: none; background-color: #FFFFFF; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.headerbg {  color: #E2DED3}
+TD.headerbg A {  color: #E2DED3}
+
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.r2body {  color: #EDE9DE}
+TD.r2body A:link {color: #A17D2D}
+TD.r2body A:active {color: #A17D2D}
+TD.r2body A:visited {color: #A17D2D}
+TD.r2body A:hover {color: #FFFFFF}
+
+TD.r2body .level1nav:link {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:active {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:visited {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:hover {  font-family: Verdana, Arial, sans-serif; color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 8pt;}
+
+input {font-family: Verdana, Arial, sans-serif; font-size: 8pt }
+select {font-family: Arial, sans-serif; font-size: 8pt }
+
+-->
+</style>
+ 
+</head>
+<body link="#111155" vlink="#CF4300" alink="#0000FF" text="#111111" margin="0" marginwidth="0" marginheight="0" background="/lotr/gfx/mom/bg.jpg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=186 hspace=0 vspace=0
+src="/lotr/gfx/mom/logoleft.gif" width=1 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=186 hspace=0 src="/lotr/gfx/mom/logoright.jpg" width=195 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action=""><input type="hidden" name="PHPSESSID" value="71cd6057f09b34426d1aced53249d173" />
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">LotR TCG ======</option>
+<option value="/lotr/index.php">Home</option>
+<option value="/lotr/main/about.php">About</option>
+<option value="/lotr/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+<option value="#"></option>
+<option value="#">Themes =======</option>
+<option value="/lotr/treports/treports.php?setheme=fellowship">Fellowship</option>
+<option value="/lotr/treports/treports.php?setheme=moria">Balrog&Gandalf</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Lord of the Rings</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#3C402E" class="r2body" width=88%><font class="bfont">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><a href="/lotr/index.php?PHPSESSID=71cd6057f09b34426d1aced53249d173" class="level1nav">Home</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/articles/index.php?PHPSESSID=71cd6057f09b34426d1aced53249d173" class="level1nav">Articles</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/decks/index.php?PHPSESSID=71cd6057f09b34426d1aced53249d173" class="level1nav">Decks</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/treports/index.php?PHPSESSID=71cd6057f09b34426d1aced53249d173" class="level1nav">Tournament 
+      Reports</a><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%"><img src="../../global/images/home/trans.gif" width="10" height="5"></td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=constructed&PHPSESSID=71cd6057f09b34426d1aced53249d173">Constructed</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=sealed&PHPSESSID=71cd6057f09b34426d1aced53249d173">Sealed 
+            Deck</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=league&PHPSESSID=71cd6057f09b34426d1aced53249d173">League 
+            Play</a></font></td>
+        </tr>
+      </table>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/outfitters/index.php?PHPSESSID=71cd6057f09b34426d1aced53249d173" class="level1nav">M.E. 
+      Outfitters</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/trade/index.php?PHPSESSID=71cd6057f09b34426d1aced53249d173" class="level1nav">Trade</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/resources/index.php?PHPSESSID=71cd6057f09b34426d1aced53249d173" class="level1nav">Resources</a><br>
+      <br><a href="/premium/index.php?PHPSESSID=71cd6057f09b34426d1aced53249d173"                    
+class="level1nav">Premium Memberships</a><br>
+
+    </td>
+  </tr>
+</table>
+
+</font></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Auction</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#421D21" class="r2body" width=88%><font class="bfont"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=71cd6057f09b34426d1aced53249d173'>List Your Item!</a> 
+
+</font></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">DeckTech Writers</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#421D21" class="r2body" width=88%><font class="bfont"><font size='1'><b>Star Wars CCG</b><br><a href='/starwarsccg/featured/taylor.php?PHPSESSID=71cd6057f09b34426d1aced53249d173'>2006-05-18 Scott Lingrell</a><br></font> 
+
+</font></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Site Sponsor</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#3C402E" class="r2body" width=88%><font class="bfont"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><BR><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Top Articles</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#152A43" class="r2body" width=88%><font class="bfont"><ol><li><font class="bfont"><A HREF="/lotr/articles/articles.php?id=6369&view=2&PHPSESSID=71cd6057f09b34426d1aced53249d173">European Championship LOTR</A></font></li><BR></ol> 
+</font></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> <table cellspacing=0 cellpadding=0 width="100%" border=0>
+<tr valign="top">      
+<td background="/lotr/gfx/mom/header_back.gif" height="150" valign="middle" align="center"><br>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript></td></tr></table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="" valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr><td width=1><img src="/lotr/gfx/mom/red_01.gif" width=6 height=6></td><td width=100% background="/lotr/gfx/mom/red_02.gif"></td>
+<td width=1><img src="/lotr/gfx/mom/red_03.gif" width=6 height=6></td></tr>
+<tr><td background="/lotr/gfx/mom/red_04.gif"><img src="/lotr/gfx/mom/clear.gif" height=35 width=1></td>
+<td background="/lotr/gfx/mom/red_05.gif" class="headerbg"><font class="h1font"><font color="#FFFFFF"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Tournament Reports</td><form method='post' action=''><input type="hidden" name="PHPSESSID" value="71cd6057f09b34426d1aced53249d173" /><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Tournament Reports</option><option value='#'> </option><option value='/starwarsccg/treports/index.php3'>Star Wars: CCG</option><option value='/heroclix/treports/treports.php'>HeroClix</option><option value='/vs/treports/treports.php'>Marvel VS</option><option value='/lotr/treports/treports.php'>Lord of the Rings</option><option value='/magic/treports/treports.php'>Video Games and Movies</option><option value='/wars/treports/treports.php'>Wizards Minis</option></select></td></form></tr></table></font></B></td><td background="/lotr/gfx/mom/red_06.gif"></td></tr>
+	<tr><td background="/lotr/gfx/mom/whi_07.gif"></td>
+		<td bgcolor="#FFFFFF" background="/lotr/gfx/mom/whi_08.gif"><font class="bfont"><font class="h1font"> World Cup<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><font size='1'>(5.00)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/lotr/main/mpage.php?member=12149'>Patrick "CaptCanada" Malboeuf</A></font><font class="afont"> <a href='http://www.decktech.net/lotr/main/mpage.php?member=12149&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> October 22, 2002</font><p align='justify'><blockquote><font class="bfont"> Before I start, I would like to make a few short comments.<br />
+1- This is going to be an as much detailed as possible tournament report, so it might be long<br />
+2- While I am doing my best at writing in English, there is still the possibility that I make mistakes, or that my words are misunderstood. Those of you who are too ashamed of my english writing skills are kindly asked to go and read another tournament report.<br />
+3- I have a very bad memory with names so I mean no disrespect at all if I talk about you with your description instead of your name. Please excuse me for that.<br />
+4- I am writing this tournament report because I am unable to do otherwise. It was such a thrilling and fun experience and I have so much to say that even if I tried not writing it (not to reveal any secrets about my game play for example) I wouldn&#39;t be able to.<br />
+5- My lotr skills have evolved over the time and I remember once that I would have very much liked to know how people won big events. I am always happy to share some knowledge with other players and I think this tournament report will be somewhat of a summary of my LOTR knowledge.<br />
+6- Another tournament report about the Essen Premier Serie will follow.<br />
+<br />
+I met Joel Milette at the Holiday Inn in Essen October the evening of October 14th. We talked a little and playtested. I had brought my brother&#39;s deck from DragonCon and my trust me deck that I had play tested after DragonCon and with which I was the most confortable. Joel also played trust me and won a few times against my moria, which just told me to go with trust me, since I was winning agaisnt his nazgul with it.<br />
+<br />
+Then the 15th I woke up at 6pm and realized that I had slept for the whole day. Me and Joel walked 2 hours to find the Internet Cafe where we could print decklist forms to fill them before the morning of the tournament. That had been one of my many mistakes in Atlanta, I filled my decklist the morning of the tournament, when the last thing I wanted to think about was if I missed some cards.<br />
+<br />
+We went back to the Hotel room and then it happened: I couldn&#39;t sleep. I had slept all day, so with that time thing (I still don&#39;t know how you say décallagae horaire) in Germany I was awake all night. That didn&#39;t help. I went for a walk at 5 am and went back to the hotel afterwards. Amazingly, my body was so f*cked up and confused that it forgot to make me throw up like I always did the morning before any tournament. I was even able to eat eggs for breakfast (not benedectine eggs tough...). Our hotel served a huge free breakfast that was like a brunch. I ate so much I felt I would explode, and still no throwing up.<br />
+<br />
+So me and Joel arrived at the convention center to meet with Yako and Yannick. At that time I felt like I needed to go to bed after a long day of work, but the day was just begining.<br />
+<br />
+Yako had kept hsi trust me deck from DragonCon (with minor changes) so the 3 of us (Joel, me and Yako) were playing trust me decks. Me and Yako played uruks while Joel played Nazgul. A lot of teams would later think that we had prepared a groups strategy but the fact is that we didn&#39;t prepare at all for the World Cup (not in team, anyways).<br />
+<br />
+Round One: Yugoslavia<br />
+<br />
+There were 2 Yugoslavians so all we needed to do was win one of our matchups and we wold advance. So obviously me and Yako wanted to play so we sat down at the table after veryig that it was ok with Joel.<br />
+<br />
+We had the highest rating so I started and paired myself with the one that had the biggest deck (they both had towers). Then, they asked us which one of Joel or Yako had the lowest rating. And then we asked, when the World Cup ratings were calculated? And they answered yes. So Yako said: That would be me. Amazingly, they teamed the other one with the highest premier points player without even knowing it.<br />
+<br />
+My matchup:<br />
+Trust me/ Uruks vs Bormir and Merry/moria with underdeeps of Moria.<br />
+<br />
+My first game went to time. I was dealing fine with his moria 9playing trust me) and he had troubles with my shadow ( I was stopping him really well) so the game ended when I moved to site 8 and survived.<br />
+<br />
+My second game was easier. My opponent saw that he couldn&#39;t overwhelm me so he started running. I kep t drawing crappy shadow hands and he was double moving against uruks like butter. Probabilities always bounce back however and I destroyed him when he tried to skip the site 6 sacntuary with all companions exhaustes (there is a fine line between agressivness and boldness). He had 4 paths in hand and I knew it so Saruman and troop were all I needed.<br />
+<br />
+Yako&#39;s Matchup:<br />
+trust me/ uruks vs Similar Boromir and Merry with Nazgul tower.<br />
+<br />
+Both me and Yako thought that he played Moria but were surprised to see that his tower was made of Nazgul. The troubles of Yako that day started with that guy as he played black breaths and drew them early. Yako&#39;s trust Me is really weak against nazguls so he lost the matchup. Overall, Yako had a very bad day (hey, it happens, I know it I had one or two in Atlanta ;) ). <br />
+<br />
+Round Two:<br />
+<br />
+Sweden<br />
+<br />
+Yeah. We were going against Sweden very confident. That time, I said I would take the Nazgul player (which was the team&#39;s Captain felix Arvid) to take some pressure of yako and since I was playing 2 flaming brands and has practiced a lot agaisnt Nazgul with my friend David Marra Hurtubise back home. So I knew I could win with trust me even against Nazguls.<br />
+<br />
+My matchup:<br />
+<br />
+trust me/Uruks v.s. Ranger/Nazgul<br />
+<br />
+Just before the start of the game, I started doubting if he really was playing Nazgul and thought that he wasnt. So I bid 7 to start. Comes up that he was playing Nazguls... with Nazgul Swords... with eregion hills... Let&#39;s just say that moving to Eregion hills I move my token and then Arvid Begins playing shadow stuff like black breaths. He then realizes that I did not add a burden. So he says, please add a burden. And I say, that was when I moved, which is at the end of the fellowship phase, we are now in the shadow phase. That really upset him and he called a judge who couldn&#39;t say anything else than: it,s a sportsmanship issue. Those who know me know that I have a long history with that sportsmanship issue. To make a long story short: everyone have their own notion of sportsmanship, and some people will even be inconsistent in their sportsmanship. There is nothing you can do about it (I realised that after trying to punish people that didn&#39;t have the same notion as sportsmanship as me and loosin gmy worlds bye because of it). So that morning when Scott Gatea said loud and clear: no take backs are allowed, some players may allow them but they should not be expected, I listened very closely. Looks like Arvid didn&#39;t. I was very happy that I had that sportsmanship issue settled way before such a top level compteition. He was furious. That deconcentrated him. He won the first game to my first of 2 mistakes of the entire world cup. I assigned the Witch King with Pale Blade to Frodo without thinking about the fact that Toldea was also there and gave the witch king 20 strenght, which is enough to overwhelm frodo, even with +3 and -3 to the Nazgul.<br />
+<br />
+The second game I bid less (dah!) and went for a relatively easy win, drawing my brands in time and killing those nasty nazguls.<br />
+<br />
+However, Both Joel and Yako had lost their 2 games which meant that we had lost has a team and made my last game insignificant. We played it because a judge told us too and I lost because I took a risk that I wouldn&#39;t have taken if my game had counted. I must say however as I said to Arvid that his bluff at site 3 (combined with his killer draw early in the game) was very nice. A bluff that elaborate was a proof that I was facing a good player. However, I felt that in all the games we played, I was successfull in making him stop without any minions. He looked like he was always afraid of a bluff, so whenever I had a chance, I bluffed him and that stopped him. From what I saw, he was a safe player, which is a style of play, but not mine. It proved to be very successful for him and his team so I must congratulate them for their win.<br />
+<br />
+Before goin on to the next round, I must talk about that swedish guy who was teamed up against Joel and whose shadow was relying on the Balrog. Finaly cries, balrog swords, the whole kit. The funniest thing is that he went on to beat Joel, and also Kyle Craft of the Usa when Craft assigned the balrog to frodo, cancelling with filibert and when that guy played 2 final cries to corrupt Frodo! Anyways, I met that guy between my rounds against the netherlands and he told me about what had happened against Craft with a smile, We laughed togheter as I couldn&#39;t believe that he was winning with such a deck. He was a real nice fellow.<br />
+<br />
+Round 3: Netherlands<br />
+<br />
+We didn&#39;t expect to loose against Sweden at all. in the morning we had looked at our future opponents and saw that we would have to face the Usa and Lothlorien, which we considered to be very tough. But we didnt expect to be sitting down againt the Netherlands on last round of day one. They would prove to be very fierce opponents.<br />
+<br />
+For the matchups, I paired myself to the one with the biggest deck, hoping for Moria. Joel got matched up with uruks and Yako with Moria.<br />
+<br />
+My mactchup:<br />
+trust me/uruks v.s. choke/moria<br />
+<br />
+The problem of that guy&#39;s deck was that his fellowship was a really good choke, that his shadow was a good swarm but that his felowship didn&#39;t set up his shadow. I took advantage of this, both games double moving between 3 and 6 and my trust me resisted against the orcs while his felowship was always one site behind. He was a nice guy and had lots of foils, which worked against me since I had a terrible headache and the lights reflected directly on the dam scavengers into my eyes. It&#39;s like when someone directs watch at you and you cannot see anything but an annoying sparkling light. I tried not to show that to him but at that point I so needed rest that everything annoyed me.<br />
+<br />
+Yako lost his matchup and Joel went 1-1 after two games. ironically, Joel would determine the faith of team canada on 2 occasions. That one time, he got us through and let&#39;s just say that we were all very happy. Joel&#39;s opponent was also a very nice guy. Made us sign a ring, I think that&#39;s pretty cool, I might as well start doing this.<br />
+<br />
+So that evening we decided we needed practice if we wanted to succeed better and Yako wanted to change his deck so he needed playtesting so we headed to his and Yannick&#39;s hotel room and then he changed to Yannick&#39;s deck, which would prove to be a good idea. Walking back to the hotel Yako and Yannick were trying to find their hotel and Joel was complaining saying we had to get a cab. It was so funny to see Yako and Yannick that kept saying: Oh! we&#39;re so near, I recognize this place, we&#39;re like 5 minutes away. we walked for about half an hour like that and had to ask a German guy our way. Yako kept practicing how to ask &quot;Do you speak English?&quot; in german without realising that all he had to do was ask it in English to know who spoke in English :). At one point that German guy directed us but instead of using street&#39;s names, he told us like: go in that direction for 500 meters, and then right 200 meters. How the hell were we supposed to know what 500 meters was? We finally stopped at a pizza place to realize that we had gone totally away from their hotel and we had to take a taxi to get there and it took more time than it would have taken if we wuold have taken a taxi from the convention center. It was really fun tough. However, the only problem was that it rained all evening and that I got a cold from it and started coughing from day 2 like a mad man. I still have that gosh darnit cold.<br />
+<br />
+The next morning we were teamed against Hungary so again we felt very confident. Wrong Again!<br />
+<br />
+Round 4: Hungary<br />
+<br />
+I teamed myseleasterlingainst their team Captain once again and Yako faced their worst player while Joel faced Gabor Vida, who would later be my opponent in the Premier Finals. His deck is very very original and kept winning, so Joel was no exception.<br />
+<br />
+My matchup:<br />
+trust me/uruks v.s. trust me/uruks.<br />
+<br />
+It was like playing against a mirror. The guy was playing almost every same card as me, with the exception of playing more armors and the boromir defender of minas tirith instead of my lord of gondor.<br />
+<br />
+First game was really close but I won beacause I bid 7 to his 5. i was able to stay ahead. In game one something hapened however that will help me explain something about trust me decks: that guy double moved 5-6 and when he resolved the skimishes at 6 I succeeded at making him believe that I had a savagery so he had to play it safe and had to loose legolas insteat of assigning to Gandalf. That would prove to be the game breaking point since I had no savageries and since loosing your elf makes gandalf -1 and he doesnt win anymore against troops and bersekers. That same thing would happen to me 3 times that day, double moving to 6 and I would assign the guys to Gandalf, taking the risk of loosing at site 6 instead of nine. My point is, the issue of most games are decided at other sites than the site were one survives or dies. For example, I had a lot of chances to double move early against uruks that day (I would face 3 on 3) but I always stopped to equip my companions better since the trust me deck is not like the ranger deck. It will advance untouched it it is prpoerly equipped, but it will die dramtically if only one servant is missing.<br />
+<br />
+Second game he also bid 7 and won the toss (gosh darnit luck). here I would like to adress those players who say that games are detemrined this way. Of course he was lucky in winning with the dice, but all that changes is that you now have to play differently. For me, that meant putting so much pressure on him to make him double move and kill him when he was not equipped enough since when youstart you are ahead, but are most likely not as well equipped. that didn&#39;t work in game 2 as I didn&#39;t draw any minions before site 8 or so. Just to give you an idea, i reconciled 7 cards at site 9 when I was shadow and they were all minions. I had kept a abandoning reason for madness in the event of felowship cards since i really needed a killer hand so I had to discard 2 savageries (which I didnt draw all game long) with it which made me reocnclie two other saodw cards! saruman&#39;s power and abandonning reason for madness. i thought a lot and decided to discard the sarumans power and i drew a ravager! Probabilities always bounce back. However, it was not enough and a lot of people would say that luck had given him the win but I played all I could and didnt abanodon yet. He made 2 errrors in assignments and barely survived because of that. My point is: there are so many factors in that level of play that have to be mastered, don&#39;t waste your time on trying to change those that you have no control over.<br />
+<br />
+It was all decided in game 3. I was about to bid 9 when I looked at his face and just knew that he was going for 9 too. i had seen one enquea in his deck and he had only seen one berseker in my deck, so I knew he was going for it. so I only bid 7 and set my mind to pressure to make him double move+ hurt him with shadow. That is exactly what happened. He muliganed, which only gave him 6 cards to push to 3 and once again probabilities nouced back. he had troubles geeting his gear for the trsut me deck and moved reluctantly from them on. I did draw minions that game ant because he was trying to stay alive, he had to waste his events to reconcile fellowship cards, which enabled me to get rid of savageries early, take the wounds and then move. I was thus able to move untouched 8-9 after he stopped at 8.<br />
+<br />
+That allowed us to go one round further.<br />
+<br />
+Round 5: Austria<br />
+<br />
+I had read a tournament report on deck tech before about an austrian who said that the members of team austria did good in an important tournament, so I was expecting a good challenge. It was indeed a good challenge.<br />
+<br />
+Again, I paired myslef to their team Captain, he also had the biggest deck, so I was expecting Moria which I was handling nicely up to here.<br />
+<br />
+My Matchup:<br />
+trust me/uruks v.s. trust me/uruks<br />
+<br />
+gosh darnit, another mirror match. i told the guy: I choose you because of your big deck, I thought you were playing moria and he said that he was playing moria the day before and had changed his shadow. i think that is a common problem as people do not seem to realise the importance of the ratio of savageries in an uruk deck. Especially against my trust me deck, that was what won me first game. At one point I moved to 6 and if he had drawn a savagery he would have won right there as I assigned a minion to exhausted Gandalf with no servant but he didnt so I was able to heal, reconcile and then win.<br />
+<br />
+The second game was tougher, he was able to move ahead and stay ahead and I was short of killing him. Fortunately however Yako and Joel had won their games which alowed me to get some food as I played all my 5 games since the morning to the time limit. It allowed me to relax a little bit and that felt good.<br />
+<br />
+Round 6:<br />
+Croatia<br />
+<br />
+The croatians had just beaten the Malaysians who had beaten the UK and were on fire. They were very happy to get so far and were all fired up. They had payed without a break since the morning.<br />
+<br />
+I paired myself to their team captain (surprise surprise) and began my match.<br />
+<br />
+My matchup<br />
+Trust me/uruks v.s. Ranger/uruks<br />
+<br />
+Very early in the game something very interesting happened. When my opponent moved to site 2 and after I played lurtz, he just played a bunch of cards and actions very fast and said I move again after my lurtz was dead. i then said, euh... wait, we&#39;re in the manoeuver phase and then he said: yes, i skip you skip, i exert legolas twice i take on earchery on frodo i assign to frodo i path i add a burden and i move. The guy was playign for both of us. Then I said, ok but is it possible to do it so I can follow what happens and so I can say if I skip my phases or not? And then he insulted me with words that do not fit on deck tech. I simply didnt understand why he was so mad. i called the judge and the judge asked us to behave in a sportsmanlike manner and he just kept being mad like hell at me. I thought it was some kind of strategy to get me out of my game so I answered, you want to be mean, I can be mean. And the rest of the game was mean. I won. After the game I explain to the guy that it was all misunderstanding, that all I wanted to do was to be able to say for myself that i skip my phases and I understood that he and his friends had played non-stop games for the whole day and were always hanging on a thread. we then talked and he was way more relax, I learned that he didnt like the way Yako was playing and that was part of his frustration. However, I saw Yako do nothing wrong.<br />
+<br />
+Game two was way more relax as the Croatians had had some time to get a break and came back with beers. My opponent was completely changed as he was enjoying his beer and talking to me. Once again, I won because i took the risk of assigning a minion on Gandalf at 6 and he didnt have a savagery. He took care fo showing me that it was the next card on the top of his draw deck, which seems to always be the case in so close matches.<br />
+<br />
+Anyways, we talked a bit and I realized that the guy was a cool fellow and he wished us luck in the rest of the tournament. Yako was able to win his matchup, and I dont remember what happened with Joel and it doesnt really matter since that meant we advanced to day 3.<br />
+<br />
+That time we decided to head to our hotel because it was bigger and because we had to change our decks since we knew the Germans had watched our last game while they had to wait and knew all our decks. So I reluctantly decided to change for Moria because it is not my style. I am a free-peoples player all the way. I know how to survive, but I dont know as well how to kill. However, since I knew the Germans would tech against us, I had to change to the opposite of Uruks, and on a non-gandalf relying fellowship whith which I had some basis and I thus chose a version of my brother&#39;s Moria from DragonCon. I added a touch of fun with 4 foul creation, to look at my opponent&#39;s hand and draw more if he played uruks but I oriented the deck on overwhelming with shadow. My trouble in the past had been that I had the habbit of moving when I could which was not the thing to do with this deck. I thus tried to focus on killing. Yannick would later give us a really funny trick which is to repeat : &quot;blood blood blood&quot; before games. Hey, it worked for me :).<br />
+<br />
+So Joel wanted to change his deck but was faced with the problem that he was not used to uruks or with moria and that there was no way we would net him play sauron. So he had to stick with nazgul. I asked him if he would feel confortable enough to play rangers but he said he would prefer playing trust me.<br />
+<br />
+Yako took the same deck without the foul creation since there was no way he was going back to the trust me deck with the german tech and his troubles in day one. We were prepared for day 3, and knew the worst we could do was finish 6th.<br />
+<br />
+Day 3<br />
+<br />
+Round 7: Germany<br />
+<br />
+The team captain Rolan Benn chose me right from the start without hesitation, I choose to put Yako against Jonas and Joel against Marcus. That would prove to be a mistake since I didn&#39;t know Jonas was so good of a player. If we would have teamed Joel against him and Yako against Marcus, I think we would have advanced, but then again give the Germans credit fot their preparation.<br />
+<br />
+My matchup:<br />
+My brother&#39;s Moria/Ranger (Horn)/Nazgul<br />
+<br />
+It took very little time for me to realize that my opponent had teched against me. Too great and terrible, black breaths, blade tips, even foul creations! Unfortunately for him, I had changed to a deck were Gandalf can die and I dont care and were I dont play uruks anymore. Unfortunately for me, he played rumil, the horn, massive archery galdriel to heal that and even frying pan! I challenge anyone to try to overwhelm frodo with frying pan.<br />
+<br />
+First game his mistake was to bid 8. He bid in anticipation of my trust me deck where i bid 7 but faced enquea in the second turn and nertea at site 5 which brought back enquea  and friends. That would prove to be too much, even for Frodo with the pan.<br />
+<br />
+Second game I was able to overwhelm him with more difficulty at site 8 after he got all his gear because of only one man: Ulaire Nertea. Time was running up and I had to kill him at 8 or he would have survived and had a time win but enough armories combined with the extra minions of Nertea was enough for even the frying pan.<br />
+<br />
+I challenge anyone to try to overwhelm a guy that has galadriel, rumil, legolas, frying pan and 7 companions without Nertea. Nertea is a machine.<br />
+<br />
+Anyways, I went 2-0 but Yako would loose to Jonas and Joel would again determine our faith in his third match.<br />
+<br />
+I went away since I hate watching my friends play when it&#39;s important. I feel so powerless. i came back just in time to see what could not be avoided: Joel&#39;s trust me loosing to Nazguls. The fact that he stole a game was already a good effort.<br />
+<br />
+So, there it was, we were out of the competition.<br />
+<br />
+However, I have to say something about both Markus and Jonas of the German team.<br />
+<br />
+Markus is one of the nicest persons I have ever met. He looks like a viking and is huge but always has that sincere smile on. He is not the best player in the world, but he plays with intensity and for the fun of the game. I have to salute this good sportsman.<br />
+<br />
+I was intrigued at Jonas since everytime I looked at his game with Yako, he would always be in the lead, which is very unusual when you play against Yako. Since I did not have a good chance to see their games, I carefully watched the games he played against Polish. Jonas plays with a huge demon has a token and almost never says a word druing a game. All he does is he reads through his opponent&#39;s eyes like mad. Whenever he can move, he does and doesnt evne speak. He takes his big demon and puts in one spot ahead, waiting for his opponent to place his site underneath it. Whatever the number of the sites, be them sanctuary or not, he moves if he can. Jonas is one of the most agressive players I know. That would prove to be the reason for his loss against Poland, but also the reason for his earlier success. I went to Germany to learn about very good players, and Jonas is one of the few players that impressed me. I salute you two man.<br />
+<br />
+So, that was it. Canada was out of the World Cup, but finished 6th, which looks pretty good to me. I had a really good time at the World Cup and was very happy to see different styles of play, from the Balrog of Sweden, to the Nazgul of Poland, to the Moria of Yugoslavia.<br />
+<br />
+I am looking forward to meet many of you again in the future, maybe I&#39;ll see you at DecipherCon!<br />
+<br />
+Props:<br />
+-The decipher team, for holding what I consider to be the event with the coolest concept.<br />
+-The team of judges for being able to deal with people from all around the world and their languages, especially the one with the big beard that spoke to me and french and called me Pahtikk.<br />
+-Joel and Yako for being great teammates.<br />
+-Yannick for being one of the nicest guy and best card player I know and helping us go so far with his support.<br />
+-Jonas cause he inspired me.<br />
+-Markus for entering in the Essen premier afer 2 rounds just to &quot;meet people&quot;<br />
+-The croatians and particularly their team captain for drinking imported (or perhpas not imported since we were in Europe) beer during a round that would determine if they make it in day 3 or not and laughing about it.<br />
+-The Yugoslavians for playing Moria with Underdeeps of Moria and making it work.<br />
+-That mexican guy that I forgot his name. Sorry man, but you taught me that in mexico the f word is the p word, at least I remember that :)<br />
+-The guys from the Netherlands for genuienly trying to remember our names (I should have people write them down like you man, that would help :) and for talking about the phony tournament report Dom wrote with my name and being all confused.<br />
+-My opponent from Austria who, when I said &quot;What I would give for a Sting right now&quot; showed me one from his hand and said &quot;How much for a foil one?&quot;<br />
+-All those canadians that cheered us on the internet.<br />
+-The Witch King Shirt with Erbitert on it.<br />
+-That new trailer for the Two Towers.<br />
+-Europeans in general for showing the North Americans how the game is played.<br />
+<br />
+Slops:<br />
+-Us for not making the top 4 like I said I would.<br />
+-My gosh darnit cold for affecting my game play and killing my voice as early as day 2.<br />
+-Lufthanza for turning a 35 minutes flight into a 2 hours one and making me loose my connecting flight.<br />
+-That retailer at the convention for buying every single rare card from fellowship 1 euro and then changing it to .20 cents when I came with my legion of crapness (that would have been the easiest 400 euro of my life).<br />
+<br />
+If people are interested, I&#39;ll post my deck for day 1-2 and day 3 separatly.<br />
+<br />
+See ya.<br />
+<br />
+Patrick Malboeuf <br></font></blockquote><BR><font class="bfont"> <A HREF='/lotr/treports/treports.php?id=4042&view=1&PHPSESSID=71cd6057f09b34426d1aced53249d173'>Read the Reviews</a><font class="bfont"> | <A HREF='/lotr/treports/treports.php?PHPSESSID=71cd6057f09b34426d1aced53249d173'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/lotr/main/join.php?PHPSESSID=71cd6057f09b34426d1aced53249d173'> become a registered member</a></font></font></td><td background="/lotr/gfx/mom/whi_09.gif"></td></tr>
+<tr><td><img src="/lotr/gfx/mom/whi_10.gif" width=6 height=18></td>
+<td background="/lotr/gfx/mom/whi_11.gif"></td>
+<td><img src="/lotr/gfx/mom/whi_12.gif" width=6 height=18></td></tr>
+</table>
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr align="center" valign="bottom" > 
+      <td height="100"><font class="lfont">This site is maintained and updated 
+        by fans of The Lord of the Rings TCG, and is in no way affiliated with 
+        New Line Cinema or Decipher Inc. We in no way claim the artwork displayed 
+        to be our own. Copyrights and trademarks for the films and other promotional 
+        materials are held by their respective owners and their use is allowed 
+        under the fair use clause of the Copyright Law.<a href="/global/terms.php?PHPSESSID=71cd6057f09b34426d1aced53249d173" class="level1nav"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

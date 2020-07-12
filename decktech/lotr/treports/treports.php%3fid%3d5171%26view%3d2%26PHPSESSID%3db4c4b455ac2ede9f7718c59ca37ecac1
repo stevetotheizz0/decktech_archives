@@ -1,0 +1,676 @@
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Lord of the Rings Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Lord of the Rings, Gandalf, Frodo, Ring, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #111188;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; color: #111111; font-size: 8pt; font-style: normal; text-decoration: none; background-color: #FFFFFF; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.headerbg {  color: #E2DED3}
+TD.headerbg A {  color: #E2DED3}
+
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.r2body {  color: #EDE9DE}
+TD.r2body A:link {color: #A17D2D}
+TD.r2body A:active {color: #A17D2D}
+TD.r2body A:visited {color: #A17D2D}
+TD.r2body A:hover {color: #FFFFFF}
+
+TD.r2body .level1nav:link {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:active {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:visited {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:hover {  font-family: Verdana, Arial, sans-serif; color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 8pt;}
+
+input {font-family: Verdana, Arial, sans-serif; font-size: 8pt }
+select {font-family: Arial, sans-serif; font-size: 8pt }
+
+-->
+</style>
+ 
+</head>
+<body link="#111155" vlink="#CF4300" alink="#0000FF" text="#111111" margin="0" marginwidth="0" marginheight="0" background="/lotr/gfx/mom/bg.jpg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=186 hspace=0 vspace=0
+src="/lotr/gfx/mom/logoleft.gif" width=1 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=186 hspace=0 src="/lotr/gfx/mom/logoright.jpg" width=195 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action=""><input type="hidden" name="PHPSESSID" value="b4c4b455ac2ede9f7718c59ca37ecac1" />
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">LotR TCG ======</option>
+<option value="/lotr/index.php">Home</option>
+<option value="/lotr/main/about.php">About</option>
+<option value="/lotr/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+<option value="#"></option>
+<option value="#">Themes =======</option>
+<option value="/lotr/treports/treports.php?setheme=fellowship">Fellowship</option>
+<option value="/lotr/treports/treports.php?setheme=moria">Balrog&Gandalf</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Lord of the Rings</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#3C402E" class="r2body" width=88%><font class="bfont">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><a href="/lotr/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Home</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/articles/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Articles</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/decks/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Decks</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/treports/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Tournament 
+      Reports</a><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%"><img src="../../global/images/home/trans.gif" width="10" height="5"></td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=constructed&PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1">Constructed</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=sealed&PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1">Sealed 
+            Deck</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=league&PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1">League 
+            Play</a></font></td>
+        </tr>
+      </table>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/outfitters/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">M.E. 
+      Outfitters</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/trade/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Trade</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/resources/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Resources</a><br>
+      <br><a href="/premium/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1"                    
+class="level1nav">Premium Memberships</a><br>
+
+    </td>
+  </tr>
+</table>
+
+</font></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Auction</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#421D21" class="r2body" width=88%><font class="bfont"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1'>List Your Item!</a> 
+
+</font></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">DeckTech Writers</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#421D21" class="r2body" width=88%><font class="bfont"><font size='1'><b>Star Wars CCG</b><br><a href='/starwarsccg/featured/taylor.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1'>2006-05-26 Scott Lingrell</a><br></font> 
+
+</font></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Site Sponsor</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#3C402E" class="r2body" width=88%><font class="bfont"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><BR><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Top Articles</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#152A43" class="r2body" width=88%><font class="bfont"><ol><li><font class="bfont"><A HREF="/lotr/articles/articles.php?id=6369&view=2&PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1">European Championship LOTR</A></font></li><BR></ol> 
+</font></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> <table cellspacing=0 cellpadding=0 width="100%" border=0>
+<tr valign="top">      
+<td background="/lotr/gfx/mom/header_back.gif" height="150" valign="middle" align="center"><br>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript></td></tr></table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="" valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr><td width=1><img src="/lotr/gfx/mom/red_01.gif" width=6 height=6></td><td width=100% background="/lotr/gfx/mom/red_02.gif"></td>
+<td width=1><img src="/lotr/gfx/mom/red_03.gif" width=6 height=6></td></tr>
+<tr><td background="/lotr/gfx/mom/red_04.gif"><img src="/lotr/gfx/mom/clear.gif" height=35 width=1></td>
+<td background="/lotr/gfx/mom/red_05.gif" class="headerbg"><font class="h1font"><font color="#FFFFFF"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Tournament Reports</td><form method='post' action=''><input type="hidden" name="PHPSESSID" value="b4c4b455ac2ede9f7718c59ca37ecac1" /><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Tournament Reports</option><option value='#'> </option><option value='/starwarsccg/treports/index.php3'>Star Wars: CCG</option><option value='/heroclix/treports/treports.php'>HeroClix</option><option value='/vs/treports/treports.php'>Marvel VS</option><option value='/lotr/treports/treports.php'>Lord of the Rings</option><option value='/magic/treports/treports.php'>Video Games and Movies</option><option value='/wars/treports/treports.php'>Wizards Minis</option></select></td></form></tr></table></font></B></td><td background="/lotr/gfx/mom/red_06.gif"></td></tr>
+	<tr><td background="/lotr/gfx/mom/whi_07.gif"></td>
+		<td bgcolor="#FFFFFF" background="/lotr/gfx/mom/whi_08.gif"><font class="bfont"><font class="h1font"> Wilbur Wonka and the Carboard Factory<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><font size='1'>(5.00)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/lotr/main/mpage.php?member=14074'>Chris "Mental Warg" Tubman</A></font><font class="afont"> <a href='http://www.decktech.net/lotr/main/mpage.php?member=14074&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> August 27, 2004</font><p align='justify'><blockquote><font class="bfont"> Man where to start.  I guess I&#39;ll start with leaving Lansing.  I go and pick up Shawn at like 7:45 am on Thursday.  I&#39;m running a little bit late but I don&#39;t have to play until tommorrow so whatever.  The drive down is pretty uneventful.  We get down there at like 11:00 am since we gained an hour.  It takes 5 minutes to get a gen con badge, after it took me 3 hours last year...WTF!!?!?!  The line for the generic event tickets would have taken like 4 hours, but Shawn gets pissed and says screw it.  Later on Kim lets him pay cash to play fellowship block.  He scrubs out in fellowship block.  <br />
+<br />
+I spend most of Thursday watching a couple of games and bullshyting with some peeps.  I play a couple of games towards the evening most of which I lose, and start to wig since I am still unsure on a deck.  I meet some new peeps that I know from the internet like Heldarion and Blaz Kuder.  I also really meet Geoff Smith and Kenneth Elligsen for the first time.  Both are cool.  Kenneth lets me in on some secret tech for Southrons.  Geoff smokes me in a pickup games with Easterlings.  Brad and Chris Thompson (CT) come back sporting M. Bison pins which really rolls me.  I let Brochu in on my plan to bust out, &quot;your mom gives good head&quot; in French if there is any French talk during one of my games... He laughs at my pityful attempt to say it and tells me how to say it properly... I of course forget after having practiced my inept French phase multiple times in my head on the way down.... <br />
+<br />
+Worst... Attempt at Comedy...Ever!<br />
+<br />
+At some point I remember that I made no plans for lodging... oops, guess I gotta hit it Cruse style.  So I start to ask around, I know I can stay with Dan Clark and crew, but seriously... There is already like 6 of them and staying in the same room as Jon Murphy is a very frightening prospect.  So at some point Chris Keel and Marty (british guy from my previous tr) offer up their place to stay.  We&#39;d have to sleep on the floor, but whatever.  <br />
+<br />
+So in exchange for the place to stay I have to wait around for Chris to finish playing in the last Day 1 standard heat.  He makes it in and we leave at like almost 2 am.  So we stroll around trying to find the right parking garage.  I know we parked kind of far away near some giant phallus of a statue and in an avis lot.... That information was less helpful then you&#39;d think... WE finally find the lot and I&#39;m getting ready to leave and the gates are closed...WTF!?!?!?  It says something about another exit after hours.... I drive around the parking gargage for like 25 minutes trying to find this fabled &#39;other exit&#39;... At this point I am getting pissed off, it&#39;s like after 3 am now and I have to be back at the con at like 9 anyway and I still need to make a deck.  So I&#39;m like, &quot;well I guess we sleep in the car then&quot;  This doesn&#39;t go over very well, so we drive around one more time... We come across these two guys cleaning the place and I roll down my window to ask a question:<br />
+<br />
+Me:  &quot;Yeah, so I know you&#39;re just the cleaning guy, but can you tell me how to get out of here&quot;<br />
+<br />
+Him: &quot;blah, blah, blah, blah....take a left, blah, blah blah...etc&quot;<br />
+<br />
+Shawn and Chris think it&#39;s hilarious that I said, &quot;Just the Cleaning guy&quot;, etc... which after I think about it for a second it does become pretty funny.  What I meant to convey was that I knew he didn&#39;t work for the garage and came in on contract and probably cleaned a hundred parking garages a night so it was ok if he didn&#39;t know, etc... <br />
+<br />
+Of course it probably was more reminiscent of Jim Carrey in Dumb and Dumber when he asks the old lady to watch his stuff, I&#39;m surprised he didn&#39;t jack us and steal our foils.<br />
+<br />
+So we finally hit the road and my navigator shawn keeps falling asleep on the way to the hotel.. Thanks.  We get there at like 4am and I decide to go to work on a deck.  I take a deck I had together and make some ingenious mods to it and ask Chris to stay up and play me a game with his qualifying melf easterling deck.  I own him and go to bed at like 5:30 am deciding on &#39;Coitus Interuptus&#39; as my deck title.<br />
+<br />
+For those of you that don&#39;t know what that means.... It&#39;s the latin or scientific term for a certain method of birth control known in leyman&#39;s terms as &quot;the pull and pray&quot; method.<br />
+<br />
+In the morning I get up just in time to take a shower and make it to the con.  No time for breakfast and barely time to fill out my decklist...doh!  It&#39;s gonna be a long foodless day.<br />
+<br />
+Game 1 vs. Random Dude I saw at the Day 1 evening qualifier.  Sorry I have no idea what your name was... Wait, wait it was something MacNamara.  Yes Stephen MacNamara... Mirror Match.<br />
+<br />
+Well this game I bid 3 to go first and double every turn to site 9.  he was also playing hobtookoke and southrons... How weird?!?<br />
+<br />
+I don&#39;t remember much about this game other than it was not very close although he was using make haste and I always had one kitted-out Southron and only 1 pool left so he also got a lot of free doubles.<br />
+<br />
+FW +3/ 3<br />
+<br />
+Game 2 vs. Chad Baumgardt  (somehow placed higher than me overall)  Uruk/Southron archery with Elves and Men<br />
+<br />
+Well I think Chad and I both bid 2 but I won the die roll. Not too sure I may of straight up outbid him.  This game was kind of funny.  Well funny for me anyway.  I got the hobbit hospital out kind of early and his archery didn&#39;t do too much.  The ambushers were kind of annoying, although I&#39;m sure that paying 2 for captured by the ring was equally as annoying.  He did eventually drop Lurtz on me at site 8, but thrarin did his duty like a champ.  Site 9 wasn&#39;t really that close.  After healing I took some wounds in archery and then used Chance Observation to keep Pippin around so the 3 threats didn&#39;t trigger.  Frodo and Sam won their skirmishes also.<br />
+<br />
+FW +3/ 6<br />
+<br />
+Chad went on to recover nicely making his way back up to the top table and ultimately finishing somewhere between 5-8 on Day 3 loosing to Emir&#39;s Spider.<br />
+<br />
+Game 3 vs. Mike French (MadMaia) Dwarves/Corsairs<br />
+<br />
+Well here was my chance at a little revenge from Origins.  And I got it.  Ummm what to say about this game.  Mostly what I remember is the corsairs making me really nervous, but not really doing much of anything.  Even after he powered me down at site 4 with grima (lost 2 promise and TABA) I moved into 5.  I double most of the way stopping at 3, 5, 6, 8 and 9.  His fellowship has a lot of trouble with the southrons since Durin was usually exhausted and he was the only comp that could stand up to seasoned leaders/Field of the fallen.<br />
+Moving into eight I lose everyone but Frodo and Sam.  At 9 he tossess a couple of Milk Chocolate Numenoreans out and I take some hits on Frodo and Sam and shake his hand.<br />
+<br />
+FW +3/ 9<br />
+<br />
+Mike would go on to get gyped out of playing in Day 3 based upon a sketchy FW awarded to Max when Will Cruse had a decklist error.<br />
+<br />
+Game 4 vs. Matt Ward (RageRacer) Noble Trippler with Elrond/Galadriel and 17 str. Elendil (booo) with Besiegers<br />
+<br />
+Well here my lack of sleep caught up with me.  This was a hell of a game.  Could of went either way but Matt just outplayed me.<br />
+<br />
+Basically I double into 3 no problem.  He moves into 2 and I drop ships of gd, field of the fallen and a company of haradhrim.  He takes a wound and ditches ships in regroup with a sentinels and moves again.  I get the bomb diggity reconcile with Seasoned Curlies and a Mumak. So I&#39;m thinking I have 2 deadies, but he plays another Sentinels this time in the manuever phase to shatter my dreams and takes two on Faramir.<br />
+So I play some junk... Sam and such and move into 4.  Well without talent there is a bit of pool.  He reconciles playing nothing.  I think about it for a while and just can&#39;t bring myself to double into 5 where his minions would be non-roaming and there would be like 25 pool.  This ends up costing me the game. At three he drops like 6 fellowship cards and uses Denethor thrice with a heal from Gorn, ET.  He also pulls Citadel and Stone Tower.  32 pool at 4 I spend it all and do some damage but he still manages to eliminate all of my minions, even after a mistake by assigning the marksman to boromir and the banks and adding 3 burdens... but he pulled out of it with NL and proceeded to move into site 6 for a successful triple.  So I double into 6.  He singles into 7 after I stop him with the site tech.  I also make another mistake here he is up to 8 comps that are still kind of wounded up from his tripple into 6, and I have a chance to do 5 archery with the southron archer legion and calculate leaving the extra 3 pool, then at the end of my shadow phase I wonder why there is 3 pool there and drop bold men and grim to clear it from my hand.... Then we go to archery and I suddenly remember why the 3 pool was left there.... 2 1/2 hours of sleep kids = dumb mistakes.  Anyway, I double into 8.  He then doubles into 9. Well actually time was called at 8, but I looked at what I had and conceded, it would of been close... Had I given him 4 extra wounds at site 7, it may of been game, but who knows... I think he had me any way you slice it... I should of doubled into 5 (I got bluffed ... hard).<br />
+<br />
+Fl +1/10<br />
+<br />
+Matt Ward would go on to place somewhere between 5th -8th on day 3.<br />
+<br />
+Game 5  vs. Mitch Kimmes   (Made day 3 last year) Crazy Rainbow fellows/ Ninja Gollum & Threat Guls<br />
+<br />
+Well we get started and I outbid Mitch.  At site 2 he drops 2 x they stole it... I look shocked and sit there for a minute sighing .... I move into 3 he drops Promise Keeping and Gollum I think.  I think this is where I use Escape with merry to keep gollum from slaying someone.<br />
+<br />
+Anyway, my shadow is kind of wrecking his fellowship.  I guess at site 2 he doesn&#39;t know what field of the fallen does.... I usually explain it to my opponents, but I&#39;m facing NINJA GOLLUM and he will take full advantage of they stole it I&#39;m sure....  Anyway, a guy with seasoned curlies exerts a couple of times to overwhelm glorfindel and he stops at 2.  Since my shadow is wrecking his fellows pretty good I have the option of moving slowly, but I decide to just do what I&#39;ve been doing all day and run.  I double into 5 loosing Thrarin and DH to They Stole it/Gollum.  On the move into 6 I lose pippin.  ON the move into 7 I lose Merry.  I should mention that the hobbits continue to party despite gollum keeping his promise and when I leave 7 frodo and sam are completely healed.  At 8 I pray for no gollum.... I get no gollum, he plays a witchking/pale blade  WTF!!!  So I use chance observation to beat the king the first time boosting sam up to like a 19 (+7 with the five allies) in the fierce sam takes 2 wounds mitch ditches 2 x promise and talent and I discard the king with Bot8L... I move into 9 he drops another morgul king and pale blade....  Frodo turns out to be a 9 with hobbit sword, 2 x a promise, and ATAR So frodo takes him twice dying in the fierce (after he eliminates 2x Promise) and giving the ring to sam...gg<br />
+<br />
+FW +3/ 13<br />
+<br />
+So after this game I am feeling sort of invincable since I should never beat a ninja gollum deck with this fellowship....WTF!?!?!?<br />
+<br />
+Game 6  vs. Emir (world champ) Delic... Ninja Gollum/Rohan<br />
+<br />
+O M G!!!!  I am feeling a little tookeated at this point, when I settled on this deck I figured maybe 3 people out of both heats would play the gollum wounding deck... Maybe... So apparently I got the two people that played it in my heat... And somehow got matched up with them two games in a row at the top tables... WTF!?!?!?!<br />
+<br />
+So I made the best of this game.  My only chance to win was at site 8 when Emir played Shelob he took a really long time to decide who to exclude.... I kept on playing with the phial on Sam, hoping he would say sam and I would say, &quot;good game&quot; as I strolled into 9 with a ringbearer who could not fight... Emir must of realized this cus he excluded Pippin... Poor pippin... Every other game he gets killed and now no one wants to play with him...;-(<br />
+<br />
+Anyway, Sam is corrupted at site 8 by fierce stinker/They Stole it...<br />
+<br />
+Fl +1/ 14<br />
+<br />
+Emir would go on to lead the revolution against the Quay.  Just kidding he went on to win the championship... as if you didn&#39;t know this.<br />
+<br />
+So after this game I am a little bit concerned I basically need to win out now to qualify... I am really looking back on the Matt Ward game as something I needed to win after playing two unwinnables in a row.<br />
+<br />
+Game 7 vs. Alex Kurlyiak (Continental Champ) Dwarves and Dunland<br />
+<br />
+Well this game was interesting... It&#39;s the only game I didn&#39;t draw into Sam right away.  My southrons were really giving the shaft to his dwarves though so we both singled a lot early.  This game I actually got to use the Ithilien Wilderness/Seasoned Curliaks tech pulling Ithilien wilderness like 4 times from my discard pile to make my minion like a 30.  It was sweet.  Anyway, I don&#39;t remember a ton about this game except that he ended up getting the inevitable site with freca and over the isen out, but it wasn&#39;t that bad.  I had to face only 1 eldar from discard at site 8, so I discarded a minion with Narrow escape and the eldar with Sting and mosey&#39;d into 9, where phial of galadriel and 2 beefy ringbearers saw me through the 3 eldars+ that he dropped, using the phial on an eldar was fun even though sam was a 14 to his eldars 12...;-(<br />
+<br />
+FW +3/ 17<br />
+<br />
+Alex played well.  I got kind of lucky on fellowship and just ran with it.  Well one more win and I&#39;m in.  <br />
+<br />
+Game 8 vs. Tim Fornier known to some as &#39;doctorofstyle2&#39; playing Strange Rohan and moria<br />
+<br />
+Not too much to this game.  My shadow was doing enough to make him single for most of it... Although doubling vs. moria when you run a total of 5 comps is a bit tough... Somehow I managed to save tale of the great ring #1 until site 8, which used in conjuntion with T&BA allowed me to keep Sam, pippin, and merry... He stacks his 14 minions on swarms and I stop.  He singles into 7 and stops.  I play a few cards and then dramatically drop the 2nd tale of the great ring that had been in my hand for a few turns... I say, &quot;good game&quot; as I move into 9.<br />
+He just shakes his head and says, you got me ... no pumps...;-(<br />
+<br />
+FW +3/ 20<br />
+<br />
+What a cheap win... I&#39;ll take it.  Tim was a pretty cool guy and I liked his deck... It was a very interesting version of rohan using Restless Maiden and merry&#39;s sword/cliffs, etc...<br />
+<br />
+So 6-2 and I&#39;m in.  <br />
+<br />
+So after all of this we go to eat at Champions and there is like an hour wait since there are 14 of us including Master Eire, The Big Boss Man (B. Fred), Shawn, Vince, Emir and his nephew, Chris Keel, Chris Thompson and some other randomlings whom I cannot remember.  They give us the little communicatior thingy and we head into the hotel lobby/lounge to wait.<br />
+<br />
+Brad and Vince sit at one table on the fringe of the lounge with B. Fred and Emir and others at the other table.  So I get up to get myself a chair from the table behind us which features two random old dudes with extra chair.  The conversation that occurred was as follows:<br />
+<br />
+Me:  &quot;Is anyone sitting here?&quot;<br />
+<br />
+RandomOldGuy#1: &quot;Someone is now.&quot;<br />
+<br />
+RandomOldGuy#2: &quot;No you can&#39;t sit here!&quot;<br />
+<br />
+Me:  &quot;????&quot;<br />
+<br />
+Me: &quot;I just want to take the chair&quot;<br />
+<br />
+RandomOldGuy#2: &quot;Yeah...Sure...Whatever.&quot;<br />
+<br />
+So I grab the chair and turn around setting it at our table and Brad is like, &quot;Dude do you know who that is?&quot;<br />
+<br />
+And I&#39;m like, &quot;NO&quot;<br />
+<br />
+Turns out RandomOldGuy#1 was David Carridine from Kill Bill, Vol 2. And I suppose that RandomOldGuy#2 was his agent.<br />
+<br />
+At the time I hadn&#39;t seen it yet and since he isn&#39;t in the first one I had no idea what the guy looked like... Of course now a lot of the guys I came with are trying to get someone to give him a Bill Ferny card to sign which I think is rediculous, but whatever.<br />
+<br />
+During my conversation with David and his associate I was just thinking what the hell is going on I just want a chair why are these clowns acting so strange... For a minute I thought they were a gay couple and that the guy was hitting on me and pissed off his partner or something... I mean he invited me to sit down and the other guy got pissed... WTF!?!?!<br />
+<br />
+Anyway, that was my brush with fame for the weekend, well other than my chat with Dalton about the movie &quot;Roadhouse&quot;<br />
+<br />
+SO we finally get seated and I spend like $35 on dinner after not eating for 29 hours... I got a couple of Guini (plural of guiness) and even got desert...It was during this particular dinner that I busted out my ID for the waitress and the Big Boss Man asks to see it.  He is very amused by the picture and passes it around.  When it comes to Emir, he looks at it for a second and then utters, &quot;Wait a minute!&quot;  I sigh and prepare myself for the slaughter to follow.... &quot;Wilbur!&quot;... Your name is &quot;Wilbur&quot;... So a series of &quot;Mr. Ed&quot; and &quot;Charlottes Web&quot; references commence.  Eventually it dies down and we pay the check and leave.  But I have a sneaking suspicion I haven&#39;t heard the last of the &quot;Wilbur&quot; comments.  Just like being back in the 2nd grade.<br />
+<br />
+For anyone that cares my name is actually Wilbur C. Tubman, III.<br />
+<br />
+So after dinner we head back to the gaming hall so I can see who I am playing against.  Turns out it&#39;s Michael Perruca.<br />
+<br />
+So we leave to go back to Chris Keel&#39;s room (thanks again guys) and have a series of issues.  We can&#39;t find the right parking garage again. Finally after about an hour of mindless wandering we happen upon my car.  Next time I am leaving my car parked all weekend and bummin rides.<br />
+<br />
+So we get back to the room about 12:45am and I am so tired at this point that I say, &quot;guess I&#39;m playing the same thing&quot; and hit the hay.<br />
+<br />
+So Day 3 I wake up kind of late and grab my junk and head to the con.  We get there just in time actually 15 minutes early, but of course the decipher guys are hastling me to get my decklist turned in as I&#39;m scrambling for anything I can find to swap out as help for Knights and Besiegers which I am pretty certain Michael is playing.  In retropect I should of just grabbed my Morc shadow and threw it in with the hobbs since my southrons did absolutely nothing.<br />
+<br />
+I get kind of annoyed with the decipher guys... I mean it wasn&#39;t even 10:00 am yet and how often do their tournaments actually start on time?<br />
+I mean they were ready to give my spot to Mike French... WTF!?!?!<br />
+<br />
+So I think I&#39;ll skip on the game details for my match with Perruca.  Needless to say both games I thought I played pretty well, but when Great Peril of Fire comes out semi-early in both games there is nothing to be done.  In case you don&#39;t know what the card does its a sauron condition that says manuever: discard an engine to discard a FP&#39;s condition.  So both games I had to play without Promises or T&BA or Tale of the Great Ring.  Oh well.  Both games I bid to go first and doubled every turn until game 1 where I died at site 9 with solo sam, who I pumped to 13, but he had 40 strength on him...;-(  Game 2 I stopped at 8, since it was certain death if I moved... So I force him to double into 9 with only 5 comps and I use ships to stack my deck.  At 9 I drop Mumak Cheiftan with Mumak x 4, a desert lord, an elite archer, and a curlies.... He survives easily by using a couple of forts on Isildur...Knights = NPE without mass condition removal.<br />
+<br />
+Anyway, that&#39;s my story and I&#39;m stickin to it.  So Michael goes on to lose to Josh and take 4th I believe... Nice Job man.  You and your dad are pretty cool even though everyone gives you shimmer.  It&#39;s tough to be the new guy and even tougher when you are the young guy.<br />
+<br />
+So I hang out like a loser the rest of the day watching games.  I guess I could of played in the team tourney, but I had no team... and I think I got eliminated just a bit too late.  Wars I decided I didn&#39;t want to play, but then did a demo (cause I wanted a shirt) and actually kind of liked it.<br />
+<br />
+Emir finally defeats Maximillian in what I can only describe as three of the ugliest games ever.  I am very appreciative for these games, however, as the word &#39;tech&#39; was defined and redefined several times and by the end I felt as if I REALLY knew what &#39;TECH&#39; was.  At one point I telld Max that he wasn&#39;t gonna be on my fantasy team anymore after he drops Cantea, FTW with gollum and tries to take Firefoot and of course Emir calls him on it. I must say although the games were really ugly the guys looked like they were having fun as opposed to the match opposite them where Josh called the Judge a lot and Michael didn&#39;t say peep while Josh was doin business.<br />
+<br />
+So after the games everyone heads back to Champions...Again.<br />
+<br />
+No David Carradine this time, but at least we got Seth Mazer.<br />
+<br />
+Which reminds me there needs to be an easy way to denote sarcasm online so that people don&#39;t get confused and I can go on expressing myself in a way that comes most naturally to me.<br />
+<br />
+We watch some olympics while people coach Emir as to what to play tommorrow.  I make some decent Nihlist impressions and Seth drinks a couple of Caucasians.  More Wilbur comments are volunteered much to my chagrin.  We get out of there bringing Chris Keel back to his room and heading downtown to meet up with the Lotr greats at the Cladaugh.<br />
+<br />
+The Cadaugh is somewhat dissappointing since Patrick, Patrick, and Dominic are getting ready to scoot as we show up.  But we go out and achieve anyway grabbing a seat and ordering some brews.  Our waitress is sort of cute even though she tries to charge me twice for a beer.<br />
+<br />
+After Sully and crew leave we start bs&#39;in with Eric Cabanero, Garret Noda, Jake Denley, and this guy Mark from Worlds apart.  Finally the rest of the team cuse crew comes back from the bar across the street and I am relieved since Mike Noonan is with them and I love that guy since he has no shame whatsoever and hits on anything that moves.  When he gets drunk it&#39;s like Quagmire meets Larry from three&#39;s company.  Steve informs me that Noonan has a GF, but I guess old habits die hard.<br />
+<br />
+Eventually Steve and crew take off and we bs with worlds apart guy as he lets us in on this ingenious idea for a TCG called, &quot;Bums Rush&quot; featuring Bums fighting each other, bumming change for liquor, preaching, getting sick in gutters, wetting themselves, etc... He is really stoked about it and tells us that the bums in Boston own all! <br />
+<br />
+So eventually everyone bails and we head back to Marty and Chris Keel&#39;s room for a third nights stay on the floor.  Thanks again guys.<br />
+<br />
+The next day we watch as Emir takes out Josh with a fellowship teched to beat his shadow.  I really figured that Josh would switch up his deck for some reason.  During this time I get to know some of the players a little bit better, I get Patrick Malbleouf to finally sign my foil Pippin&#39;s armor, and I ask Dalton if he now considers Ninja Gollum to be a competitive deck (after Emir wins game 1 with his shadow) and he stands firm with a solid &quot;NO&quot;.  Hmmm, so a couple of minutes later I ask him if he&#39;s ever seen Roadhouse.  He says, &quot;No&quot; and I tell him it is the bomb, and he should check it out if he wants to be bad ass. <br />
+<br />
+Anyway awards are passed out.  I sign the board with a huge &quot;WILBUR&quot; and that&#39;s that.  We say our goodbyes and get the F out.  This time I head directly to my car since I wasn&#39;t distracted when I parked that morning and payed very close attention to which garage I parked in... It was Moon garage, 1G.<br />
+<br />
+propa&#39;s:  	Oh Jesus, where to start.<br />
+<br />
+Chris Keel and Marty for offering their room, oh and I guess drew and ben and the other random bed-dweller I didn&#39;t meet.<br />
+<br />
+Emir for taking it all.  I still can&#39;t beleive it man. You rocked everyones socks off man.<br />
+<br />
+Emir for using the expression, &quot;the greatest thing since pockets and pants&quot; at Champions on Sat. night... Hadn&#39;t heard that one before.<br />
+<br />
+Fred, Thompson, Eire, and everyone for the company at dinner on Friday and Saturday.  Look out for TEAM BISON BUCKS!!!  All your Bison Bucks are belong to us!!<br />
+<br />
+Shawn for the company on the drive and being one of the only remaining rings players in Lansing... booo		<br />
+<br />
+Maximillian and Christian... I love you guys man... Coolest French Canadians ever.  Sorry Sullivan.<br />
+<br />
+Brochu... thanks for trying to teach me the proper ways to insult someome&#39;s mother in French.<br />
+<br />
+Sully for still being Le Embassador of Goodwill for LOTR.<br />
+<br />
+Reed Mascola (George)... For actually getting people to think you were Heldarion.. Classic, total classic.<br />
+<br />
+Seth for the &#39;Shomer Shabbos&quot; routine and the &quot;Blaz Kuder&#39; debacle...Funny schtuff!<br />
+<br />
+Dr. Jones for the convo on the deck at Cladaugh... Some day I&#39;ll get to know you better man.<br />
+<br />
+Noonan for trying real hard to get other people laid.. 	I guess someone has to do it.<br />
+<br />
+Bryce Stevenson... Awesome job man.  You seem like a cool cat.<br />
+<br />
+Matt Ward... next time I&#39;ll get you.  Top notch performance man.  It was my pleasure to sign the anchor.<br />
+	<br />
+Steve Miller... always a pleasure man.<br />
+<br />
+Geoff Smith... I lost your email man... I suck.  D-mail me sometime.  It was cool to meet you.<br />
+<br />
+Will Cruse for teaching me how to bum a place to sleep 	and being a solid rings player... I bet that decklist error was a heartbreaker.<br />
+		<br />
+The Carny for giving me yet another launching platform 	for a deck.  Inspirado man, Inpirado.  <br />
+<br />
+Mike French for the chance at revenge...<br />
+<br />
+Kurliak for also not knowing what deck he was playing on Thursday night... And bearing the weight of being on people&#39;s stupid fantasy team.  Somehow I felt not as alone.<br />
+<br />
+Many others I forgot I&#39;m sure.  I had a great time and it sucks that I have to retire....<br />
+		<br />
+sloppy joes:	Hmmmmm, I can&#39;t really think of many...<br />
+<br />
+Shawn and myself for never really knowing where the hell we parked until Sunday... Yeah...<br />
+<br />
+Dalton for not defending his title.<br />
+                <br />
+I guess anyone that referred to the top 16 as a scrubfest deserves a slop.  I mean granted some of the top rings players have retired or went and played a shimmerty game for a chance at more money, but whatever.  Some excellent players played and didn&#39;t make top 16 like French, Cruse, and Brochu so S.T.F.U.<br />
+<br />
+My parents for naming me &#39;Wilbur&#39;... I thought hippies named their children like Forest or something ...WTF!?!?!?  It&#39;s a family name I guess. <br />
+<br />
+Ok that&#39;s it for slops.<br />
+				<br />
+Peace<br />
+<br />
+Tubman<br />
+ <br></font></blockquote><BR><font class="bfont"> <A HREF='/lotr/treports/treports.php?id=5171&view=1&PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1'>Read the Reviews</a><font class="bfont"> | <A HREF='/lotr/treports/treports.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/lotr/main/join.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1'> become a registered member</a></font></font></td><td background="/lotr/gfx/mom/whi_09.gif"></td></tr>
+<tr><td><img src="/lotr/gfx/mom/whi_10.gif" width=6 height=18></td>
+<td background="/lotr/gfx/mom/whi_11.gif"></td>
+<td><img src="/lotr/gfx/mom/whi_12.gif" width=6 height=18></td></tr>
+</table>
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr align="center" valign="bottom" > 
+      <td height="100"><font class="lfont">This site is maintained and updated 
+        by fans of The Lord of the Rings TCG, and is in no way affiliated with 
+        New Line Cinema or Decipher Inc. We in no way claim the artwork displayed 
+        to be our own. Copyrights and trademarks for the films and other promotional 
+        materials are held by their respective owners and their use is allowed 
+        under the fair use clause of the Copyright Law.<a href="/global/terms.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

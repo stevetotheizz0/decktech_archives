@@ -1,0 +1,1 @@
+<html><head><title>decktech.net</title></head><body><h1>decktech.net</h1><p>Coming soon.</p></body></html>

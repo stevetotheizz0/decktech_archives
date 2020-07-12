@@ -1,0 +1,952 @@
+
+<html><!-- #BeginTemplate "/Templates/new_format_main.dwt" --><!-- DW6 -->
+<head>
+<title>Welcome VS Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="VS, Marvel VS, Upper Deck,
+cards, tcg, ccg, Marvel, DC, Marvel Heroclix, DC VS, comics
+"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #000099;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #CCCCCC; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none; background-image: url(/heroclix/gfx/theme1/background.gif); }
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #FFFFFF;
+		margin: 5px 5px; 		
+}		
+
+.cbody A:link {  
+		color: #4078CF;
+}
+.nav2 {  
+	color: #FFFFFF;
+	font-weight: bold; 
+	font-size: 7pt; 
+	text-decoration: none;	
+}
+.nav2 A {  
+		color: #FFFFFF;
+		text-decoration: none;		
+}
+.nav2 A:hover {  
+		color: #FF0000;
+		text-decoration: none;		
+}
+
+#auction .main { 
+	width: 100%;
+	height: 98px;
+	text-align: right;
+	font-size: 9pt;
+	font-weight: bold;	
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000; 
+	border: 1px;
+	border-style: solid;
+	border-color: #AAAAAA;
+	background: url(/heroclix/gfx/theme1/v_lightbar.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#auction .headline { 
+	font-size: 10pt;
+	text-align: left;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 15px;
+	padding-top: 4px;	
+	padding-bottom: 4px;	
+}
+
+#auction .content { 
+	text-align: center;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000; 
+	padding-left: 10px;
+	padding-top: 4px;	
+	padding-bottom: 4px;	
+}
+
+
+
+
+
+#news .main { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;		
+}
+
+#news .header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px; 
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_large.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+#news .story { 
+	width: 100%;
+	text-align: left;
+	background-color: EFEFEF;
+}
+#news .whowhen { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	color: #000000; 
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 4px;
+	background-color: #DDDDDD;	
+}
+#news .link { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: right;
+	padding-right: 4px;
+}
+#news .friend { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: right;
+	border: 0px;
+	border-bottom: 1px;
+	border-style: dotted;
+	border-color: #666666;	
+	padding-right: 4px;
+	padding-bottom: 4px;	
+}
+#news .text { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	padding-right: 4px;
+	padding-left: 8px;				
+}
+#news .comment { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: left;
+	text-decoration: normal;
+	padding: 4px;
+	padding-left: 10px;	
+}
+#news .poster { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: left;
+	text-decoration: normal;
+	padding: 4px;
+	padding-left: 10px;	
+	color: #990000; 
+	font-weight: bold;	
+	border: 0px;
+	border-bottom: 2px;
+	border-style: dotted;
+	border-color: #666666;
+}
+#news .date { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: right;
+	text-decoration: normal;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+#news .more { 
+	text-align: right;
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;	
+	padding-right: 4px;	
+}
+#news .headline { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: left;
+	color: #000099; 
+	font-weight: bold;
+	padding-left: 8px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	border: 0px;	
+}
+
+
+#features .main { 
+	width: 100%;
+	text-align: left;
+	margin-bottom: 6px;	
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;		
+}
+
+#features .header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px; 
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_large.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+
+
+#mygroups .column { 
+	width: 159px;
+	background-color: #EAEAEA;
+	text-align: left;
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;	
+	border-style: solid;
+	border-color: #666666;		
+}
+
+
+#mygroups .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_blue.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+#mygroups .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_red.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+
+.column { 
+	width: 159px;
+	background-color: #FFFFFF;
+	text-align: left;	
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;	
+	border-style: solid;
+	border-color: #666666;
+}
+
+
+
+
+.r2header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px;
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_total.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+
+.sectionhead {
+padding-top: 2px;
+padding-left: 8px;
+padding-bottom: 1px;
+border: 0px;
+border-bottom: 1px;
+border-style: solid;
+border-color: #666666;
+background-color: #CCCCCC;
+}
+
+.more a {
+	font-size: 7pt;
+	color:#888888;
+	padding-right: 4px;
+}
+
+ .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_blue.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+
+.r2td A:link {
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+}
+.r2td A:active {			
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+			}
+.r2td A:visited {	
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+
+.footerOne {
+			font-size: 8pt;
+			text-align: left;
+			font-weight: bold;									
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #AAAAAA; 
+			border: 0px;
+			background: url(/heroclix/gfx/theme1/footer1_back.gif);
+			background-color: transparent;
+}
+
+.footerOne A {
+			color: #EAEAEA; 
+}
+
+.footerOne A:hover {
+			color: #FFFFFF; 
+}
+
+.footerTwo {
+			font-size: 7pt;
+			text-align: left;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #999999; 
+			border: 0px;
+			background: url(/heroclix/gfx/theme1/footer2_back.gif);
+			background-color: transparent;
+}
+
+.footerTwo A {
+			color: #666666; 
+}
+
+.footerTwo A:hover {
+			color: #EAEAEA; 
+}
+
+
+
+.footerThree {
+			font-size: 7pt;
+			text-align: center;			
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #EEEEEE; 
+			border: 0px;
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;			
+}
+
+.footerFour {
+			font-size: 7pt;
+			text-align: center;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #888888; 
+			border: 0px;
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;			
+}
+
+.mainheader { 
+			height: 51px;
+			width: 549px;
+			font-size: 11pt;
+			font-weight: bold;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #990000; 
+			padding-left: 35px;
+			padding-right: 12px;			
+			padding-bottom: 8px;
+			padding-top: 8px;
+			margin-top: 10px;
+			background: url(/heroclix/gfx/theme1/main_layout_header1.gif);
+			background-color: transparent;
+			background-repeat: no-repeat;			
+}
+.maincontent { 
+			width: 536px;
+			font-size: 8pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			padding-left: 4px;
+			padding-right: 4px;			
+			padding-bottom: 4px;
+			padding-top: 4px;
+			margin-left: 10px;
+			margin-bottom: 10px;			
+			border: 1px;
+			border-style: solid;
+			border-color: #CCCCCC;
+			background-color: #FFFFFF;			
+}
+
+#Last24Hours .header {
+			font-size: 12pt;
+			font-weight: bold;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			border: 0px;
+			border-bottom: 1px;			
+			border-style: solid;
+			border-color: #666666;
+     		color: #FFFFFF; 
+			padding: 4px;
+			margin: 0px;
+			background: url(/heroclix/gfx/24back.gif);			
+}
+
+#Last24Hours .content {
+			background-color: #000000;			
+			padding: 5px;
+			margin: 0px;
+}
+
+#captain .main {
+	padding: 3px;
+	border: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #CCCCCC;
+	margin-bottom: 6px;	
+}
+
+#captain .headline A {
+	width: 100%;
+	font-size: 9pt;
+	font-weight: bold;			
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;	
+	padding-left: 8px;
+	padding-right: 4px;			
+	padding-bottom: 4px;
+	padding-top: 4px;	
+	color: #FFFFFF; 
+	background-color: #990000;
+	border: 1px;	
+	border-style: solid;
+	border-color: #FFFFFF;
+}
+
+#captain .content {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #666666;
+	padding-left: 0px;	
+	padding-top: 4px;		
+	padding-bottom: 4px;
+}
+
+#teams .main {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #ffffff;
+	margin-bottom: 6px;	
+	padding: 2px;		
+	border: 0px;
+	background-color: #000099;		
+}
+
+#teams .header {
+	font-size: 8pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #FFFFFF;
+	padding-left: 4px;	
+	padding-top: 2px;		
+	padding-bottom: 2px;
+	margin: 0px;
+}
+
+#teams .team {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #666666;
+	padding-top: 4px;		
+	padding-bottom: 4px;
+	border: 0px;
+	border-bottom: 1px;			
+	border-style: solid;
+	border-color: #666666;
+	background-color: #CCCCCC;		
+}
+#teams .title A {
+	font-size: 7pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000;
+	padding-left: 4px;	
+	padding-top: 4px;		
+	padding-bottom: 4px;
+	margin: 0px;
+}
+
+#teams .content {
+	font-size: 6pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000000;
+	padding-left: 4px;	
+	padding-top: 2px;		
+	padding-bottom: 4px;
+}
+
+#features .article { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;
+}
+
+#features .report { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;
+	background-color: #EAEAEA;	
+}
+
+
+
+#features .title { 
+	font-size: 7pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000;
+	padding-left: 4px;	
+	padding-top: 6px;		
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+#features .content {
+	font-size: 6pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000000;
+	padding-left: 4px;	
+	padding-top: 0px;		
+	padding-bottom: 4px;
+}
+
+-->
+</style>
+</head>
+<body 0><center>
+<table  cellspacing='0' cellpadding='0' border=0>
+  <tr> 
+    <td width="1" height="9" valign="top">
+<table width="764" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td colspan="3"><img src="/vs/gfx/clear.gif" width="2" height="11"></td>
+  </tr>
+  <tr> 
+    <td colspan="3"><img src="/vs/gfx/theme1/header_top.jpg" width="764" height="64" border="0" usemap="#Map2"></td>
+  </tr>
+  <!-- This is the Non Member Row -->
+  <tr> 
+    <td background="/vs/gfx/theme1/header_mid_back.jpg" width="118"><img src="/vs/gfx/theme1/header_mid_1.jpg" width="118" height="30" hspace="0" vspace="0" border="0" usemap="#Map3"></td>
+    <td background="/vs/gfx/theme1/header_mid_back.jpg" width="438"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <form name="login" method="post" action="/vs/resources/buzz.php"><input type="hidden" name="PHPSESSID" value="58cc866db00d4bfcce426e13e6e0a1a8" />
+          <tr> 
+            <td align="left" valign="middle" width="15"><input name="sname" type="text" id="name" maxlength="22" size="7">&nbsp;</td>
+            <td width="67"><img src="/vs/gfx/theme1/header_mid_2.jpg" width="67" height="30" hspace="0" vspace="0" border="0"></td>
+            <td align="left" valign="middle" width="15"><input name="password" type="password" id="password" maxlength="14" size="7">&nbsp;</td>
+            <td><input type="hidden" name="mlogin" value="true"> <input name="submit" type="image" id="submit" src="/vs/gfx/theme1/header_mid_go.jpg?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8"></td>
+            <td width="20" align="center"><img src="/vs/gfx/theme1/header_mid_spacer.jpg" hspace="0" vspace="0" border="0"></td>
+            <td width="92" align="center"><a href="/global/forgot.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8"><img src="/vs/gfx/theme1/header_mid_forget.jpg" width="62" height="30" hspace="0" vspace="0" border="0"></a></td>
+            <td><a href="/vs/main/join.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8"><img src="/vs/gfx/theme1/header_mid_sign.jpg" hspace="0" vspace="0" border="0"></a></td>
+          </tr>
+        </form>
+      </table></td>
+    <td align="right" background="/vs/gfx/theme1/header_mid_back.jpg" width="208"><img src="/vs/gfx/theme1/header_mid_3.jpg" width="208" height="30" hspace="0" vspace="0" border="0"></td>
+  </tr>
+  <!-- End Non Member Row -->
+  <tr> 
+    <td colspan="3" align="right"><img src="/vs/gfx/theme1/header_navbar.gif" width="744" height="19" hspace="0" vspace="0" border="0" usemap="#Map"></td>
+  </tr>
+  <tr> 
+    <td colspan="3" background="/vs/gfx/theme1/nav2_back.jpg" class="nav2">
+	<img src="/heroclix/gfx/clear.gif" width="200" height="15" align="left">
+	<img src="/heroclix/gfx/theme1/nav2_concector.gif" height="15" align="left">	
+ 
+<a href="/vs/resources/rules.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Current Rules</a> |
+<a href="/vs/resources/buzz.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Buzz Board</a> | 
+<a href="/vs/resources/links.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Related Sites</a> 
+ 
+</td>
+  </tr>
+</table>
+
+<map name="Map">
+  <area shape="rect" coords="3,2,40,17" href="/vs/index.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">
+  <area shape="rect" coords="50,2,85,17" href="/vs/decks/index.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">
+  <area shape="rect" coords="95,2,145,17" href="/vs/articles/index.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">
+  <area shape="rect" coords="160,2,285,17" href="/vs/treports/index.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">
+  <area shape="rect" coords="300,2,350,17" href="/vs/resources/buzz.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">
+  <area shape="rect" coords="364,2,428,17" href="/vs/resources/index.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">
+</map>
+<map name="Map2">
+  <area shape="rect" coords="30,14,102,63" href="/index.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">
+</map>
+<map name="Map3">
+  <area shape="rect" coords="29,1,103,18" href="/index.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">
+</map>
+<map name="Map4">
+  <area shape="rect" coords="31,2,85,18" href="/index.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">
+</map>
+</td></tr></table>
+<table width='764' cellspacing='0' cellpadding='0' border=0>
+ <tr> 
+<td valign="top"  width='20'> 
+ <img height=3 hspace=0 vspace=0 src="/vs/gfx/clear.gif" width=20 border=0></td>
+<td valign="top" valign="top" bgcolor="#FFFFFF"> 
+ <img height=3 hspace=0 vspace=0 src="/vs/gfx/clear.gif" width=10 border=0></td>
+<td width="80%" valign="top"  bgcolor='#FFFFFF'> 
+ <!-- #BeginEditable "Body" --> 
+
+            <BR><center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript></center>
+<div class='main'><div class='mainheader'>who among you has played Xmen Legends?</div><div class='maincontent'><font class="bfont"> From: <a href="http://www.decktech.net/heroclix/main/mpage.php?member=17">neal </a></font><BR><font class="bfont"><A HREF='/vs/resources/buzz.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8'>Back to Topics List</A></font><BR><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font><BR><font class="bfont"><A HREF='/vs/resources/buzz.php?id=6413&PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8'><b>REFRESH THIS TOPIC</b></A></font><TABLE WIDTH=100% border="0" cellpadding="6"><tr><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#FFFFFF><font class="h2font"> Comment</td></tr><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">See, the energy resistant morlocks are the wimpy ones, usually a good baabbb will knock them out.<br />
+<br />
+Now using ROGUE the phsyically resistant ones were next to impossible. I did it, but i pretty much swore off rogue after that. <br><BR><font size=1>11:20 03-23-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">The only thing that has been remotely hard was the first levels of the arbiter, but Hammer of Nimrod changes that quickly. <br><BR><font size=1>11:19 03-23-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=106">Nitsuj™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">I&#39;m surprised you got through the Morlock levels so easily, they can swarm you and those energy resistant guys must have been a pain. <br><BR><font size=1>11:11 03-23-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Oh that&#39;s gotta hurt!<br />
+<br />
+Get those defensive powers up, storm and jean grey.<br />
+<br />
+I&#39;m in the sentinel factory for &#39;star of the show&#39; by the way. Don&#39;t envision any problems. <br><BR><font size=1>11:04 03-23-2005</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>BigPun</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">mastermaold was a pain in the butt afteri found out about the power coils i still couldn&#39;t beat him and i had only jubilee and wolverine left alive i just kept dying (i saved with out thinking that i only had those two left and no bits )so i had to start over wich sucked  <br><BR><font size=1>10:41 03-23-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">I cant wait to take my blob up against Torch&#39;s Sentinel!<br />
+<br />
+Twy and thtop me cweampuff <br><BR><font size=1>09:58 03-18-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">By the way: the &#39;star of the show&#39; challenge is still ongoing. Storm continues to breeze through things. Iceman is doing the same, although he&#39;ll get stymied at the nuclear plant (or newcular as Dubya would say). Only storm can do that level. Rogue was just irritating, but managed to get through what i had thrown at her, even the arbiter. I&#39;ll keep you all posted.<br />
+<br />
+Oh, cyclops can weld too, btw. Torch, when are we all playing this? <br><BR><font size=1>09:57 03-18-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Zach: sure it&#39;s not too bad at all when you get used to.<br />
+<br />
+1) Remember, you dont have to fight peeps. You can just &#39;evade&#39;<br />
+2) Weld the hull - although this is not necessary. Each weld gives you a 1 or 2 minute bonus. I&#39;ve done it several times with no welding whatsoever.<br />
+3) Fly! This speeds you up a lot. Alternately, bampf around.<br />
+4) Don&#39;t save! Heh, that&#39;s a mistake. Only save when you complete it. <br><BR><font size=1>09:55 03-18-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/heroclix/main/mpage.php?member=17490">magerunner™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Weild the ship back together, it gives you loads of time.  You need Magma or Storm to do this and storm is best due to flight and group blasting.  <br />
+<br />
+You know, I never understood why a crew on a sinking ship is trying to kill you and not get out. <br><BR><font size=1>07:22 03-18-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=18468">Torch™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">uss arbiter is a suck level.  the time limit is a bear.  you have to make sure to have the right people on the team from the start, or you could find yourself too far behind on time halfway through it.<br />
+<br />
+neal has a few tricks for the level.<br />
+<br />
+the standard is to run through, find the crew, and weld anything/everything you can for time boosts.  good luck! <br><BR><font size=1>07:21 03-18-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/wars/main/mpage.php?member=1584">yodamuppet™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">NEAL:  i just bought xmen a couple days ago (cause my wife finally decided she might like it -- she does, btw). anyhoo, i&#39;m friggin pissed off with the arbiter mission. am i just stupid, or is it damn near impossible to get through that ship? any help, dood? <br><BR><font size=1>22:45 03-17-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Agreed! I rate it at 100 suckitude. The best thing about it is you dont have to waste points on it.<br />
+<br />
+Sabertooth has the same thing if you try him in the danger room. <br><BR><font size=1>21:12 03-07-2005</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>Deck</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">i said that i didnt boost their shields, but i definitely did wolverines bezerker rage. that&#39;s nto exactly a shield as much as it is just sweet. wolverines other attack though, where he kinda goes crazy for like 2 seconds and then flexes... that one sucks. <br><BR><font size=1>17:16 03-07-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/heroclix/main/mpage.php?member=17490">magerunner™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Neal on Wolverine:<br />
+<br />
+Little story, we were playing and my friend was getting on our nerves as Wolverine because he would not get into the fight fast enough and was always wining about how little damage he did (early game).  We then found out a very interesting thing, you could play keep away with Wolverine.  So Collosus and Rogue sat there tossing Wolverine at each other and into Sentinels until we were crying from laughing so hard. <br><BR><font size=1>16:24 03-07-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/heroclix/main/mpage.php?member=13532">The Lord™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">I agree that the defensive powers of Storm and Jean are wicked, combined that&#39;s a -100 damage to all allies! <br />
+<br />
+Tk is by far the most fun power out there! I just love to wreak a room by tking boxes and things everywhere crasing walls and soldiers!<br />
+<br />
+We had a team of Storm, Cyke, Jean and Collosus with all maxed leaderships we could land some Electric Smash with combo damage bonnuses in the 5000! That&#39;s huge!<br />
+<br />
+ <br><BR><font size=1>16:20 03-07-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">"never powerd up one defensive trait for any character. i just think theyre all lame"<br />
+<br />
+Oy Vey!!!! OMG, buddy, Storm Shield and Psychic Shield are by far the best powers in the game. YOUR ENTIRE TEAM TAKES NO DAMAGE. EVER! And they stack!<br />
+<br />
+You never used Wolvies berzerker rage? My god man, and you call yourself an xman fan ;-)  It rules dude, try it. Put a ultra muscle enhancer on him, use the rage and have gambit use his team speed enhancer. Wolverine moves at Superman speeds. There&#39;s speed, there&#39;s super speed and then there&#39;s wolverine<br />
+<br />
+Here is my super wolverine team - this is so fun.<br />
+<br />
+Wolverine - Berzerk rage to the max. Muscle Enhancer. Good strike.<br />
+Gambit - defensive power maxes. This ups speed and damage on everyone.<br />
+Iceman (or jubilee) - Defensive power maxed. adds more damage to the team<br />
+Cyclops - tactics maxed. Adds MONSTER strike.<br />
+<br />
+Wolverine hits about 10 times a second in the 200&#39;s each and runs faster than a speeding bullet. You kill sentinels before they even turn around from landing.<br />
+<br />
+I finished the second morlok level in something like 10 minutes like that, it was the best rush since Wolfenstein on the Jaguar. <br><BR><font size=1>11:11 03-07-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=18468">Torch™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">i remember finishing some type of astral plane danger room mission where you had to protect these statues.  emma was awesome using her &#39;mind control ability&#39; or whatever she has to change your enemies to friendly for a time.  i just ran around and made the astral monsters happy little campers until time ran out... <br><BR><font size=1>11:04 03-07-2005</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Deck</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">TK is sick to just futz around with in the danger room for a good half hour. but her shout is so much better. the only way i could beat the astral plane danger rooms on the hardest levels is if i just use jeannie and her shout the whole time, and that&#39;s what my bot&#39;s main attack.<br />
+<br />
+neal, i know you mentioned the defensive thing for rogue sucks, i have to tell you,  never powerd up one defensive trait for any character. i just think theyre all lame. i relaly thought the game was pretty easy just controlling cyke the whole time with a super dna enhancer and i figured with sheilds it might be easier, even though i&#39;ve read that some are a must, i&#39;ve played solely without them.<br />
+<br />
+i think i mightve powered emmas just to see what it looked like. cause shes a favorite of mine <br><BR><font size=1>10:57 03-07-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Whirlwind is really fun, I agree. The first game i played I maxed it out. It&#39;s hilarious to watch guys and boxes go flying and it does big damage.<br />
+<br />
+The drawback to it is it &#39;fizzles&#39; a lot. Like it hits a wall and dies, and it takes a long time to come out, she has to do that little spin move. And it&#39;s really expensive.<br />
+<br />
+Another SUPER fun power is TK. That to me is the most fun thing ever. I&#39;ll use it for all sorts of craziness. Like a sniper will be camping, i&#39;ll pick him up and throw him into my wolf pack from long distance. It&#39;s beautiful, here&#39;s this guy saying "come here uties" next thing he knows he&#39;s looking up into Wolverine and colussus and storms face.<br />
+<br />
+Using it smartly to throw enemies into each other or over ledges is just way cool.<br />
+<br />
+Also, dont know if you know, but TK on the higher levels is nuts. You can just sit there holding a guy while everyone pounds him to death - talk about &#39;incapacitate&#39;. <br><BR><font size=1>10:33 03-07-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=18468">Torch™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">this is such a great game - why didn&#39;t they let us import our characters into an extreme mode??<br />
+<br />
+:(( <br><BR><font size=1>10:30 03-07-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/heroclix/main/mpage.php?member=17490">magerunner™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Hey Neal you should try and take Wirlwind up to max.  I did, not only does it get just down right huge, it does some fun things like keep 4-8 peons tossed around.  Fun factoid, if you Wirlwind some boxes or other junk they do extra damage to the nut cases.  You can also just blast them with lightning like crazy as they can&#39;t fight back. <br><BR><font size=1>10:15 03-07-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">I just put the weakest three with whomever i want to keep and kill them at the beginning.<br />
+<br />
+Ok, the OFFICIAL word is in on the pivotal level. The Colussus level is a piece of cake HOWEVER no one can do this but Storm.  As I stated and was contradicted on, you cannot move the regulator arm via attacks. Only powers that move objects, specifically Jean Grey&#39;s TK (no weld) and fortunately Storm&#39;s tornado. So make sure you have just at least a level one Whirlwind (i dont care too much for this attack and those 2 points are painful to lose) <br><BR><font size=1>10:05 03-07-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=106">Nitsuj™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Neal, how are you getting down to one X-Man?  Does the game allow you to switch off team members, or do you start a level with four dudes and let 3 of them die quickly? <br><BR><font size=1>07:51 03-07-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/heroclix/main/mpage.php?member=17490">magerunner™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">X-Treme attacks are fun, but not nessary.  I just used them to begin a fight with a boss that has peons, that usualy clears up everyone.<br />
+ <br><BR><font size=1>06:09 03-07-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Why does rogue suck? SLOOOOOOOWWWWWWWWW. She is too damn slow. Colussus at least has a pretty decent ranged attack, it&#39;s a good "crowd clearer" and his version of &#39;super punch&#39; does more damage than rogue&#39;s (but is actually even HARDER to connect with).  Furthermore, i hate her defensive power, the word &#39;crap&#39; comes to mind compared with everyone elses (except Emma Frost). Plus half the time the bad guys actually dodge rogue&#39;s attacks, i believe it&#39;s based on her agility. The only character I dislike more is probably beast.<br />
+<br />
+Cyclops is awesome, I&#39;d never flame him. Top 5 for cyke. His leadership alone makes him good, his optic beam is great too, and I really like his Tactics. The optic knockdown thing sux though.<br />
+<br />
+Does anyone else never use the Xtreme Attacks?<br />
+<br />
+SO - i finished the arbiter with rogue. I had to really race, but i had 3 minutes to spare at the end. You know those comic scenes where say Spidey get piled on then busts out of the pile? I&#39;d basically do that. I&#39;d fly and run as fast as i could till i had a ton of guys trailing me, then turn around and southern strike a pile, and those guys would knockback into the other guys. Pretty funny actually.<br />
+<br />
+Is the solo thing fun? Eh, it&#39;s pretty cool. It&#39;s a new way to play and there&#39;s some thrill in it. The team attacks though make the game a blast in my opin. <br><BR><font size=1>01:09 03-07-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/heroclix/main/mpage.php?member=17490">magerunner™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Dude, I like Rogue but as compared to other character Jublie is better.  Rouge is very one sided.  She hits hard, that&#39;s nice but she has no range and even if she absorbs somebody, it&#39;s not going to be good for long.  <br />
+<br />
+Now on multiplayer throwdown, Rogue kicks it because of her Stunning from Kiss.  You go in and Kiss them taking thier best power and the wail on them. Kinda fun. <br><BR><font size=1>21:39 03-06-2005</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>Deck</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">You guys think rogue is bad? She&#39;s stronger than colossus if you start using her right at the beginning. when i was finally convinced of storms importance (combo points) i was sad to let rogue go, but with storm and cyke the game is way too easy. But i cant beleive you guys are flaming rogue. if you start flaming cyclops im gonna start showing up at houses.<br />
+<br />
+is playing the game mono cahracter any fun? i just finished it with my four guys, and i kinda wanna go back and do it with different teams and stuff, but not necessarily one guy, unless you guys strongly recommend it <br><BR><font size=1>19:16 03-06-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/heroclix/main/mpage.php?member=13532">The Lord™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">I like Storm flying with the Canonball item. +80-100 to melee flying melee attacks! Sweet. 3 Buddies of mine did a Flying team with Storm, Jean and sadly Rogue and it holds up pretty well, and realy fun to play.<br />
+<br />
+ <br><BR><font size=1>14:41 03-06-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Oh and for fun (or lack of it) i try the levels solo with the incredibly bad rogue too. She truly sux, but might make it under extreme difficulty. The arbiter will be the real test, since she cant weld things. It&#39;ll be a squeaker if at all. <br><BR><font size=1>20:13 03-04-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">By the way, solo storm breezed through the arbiter. I thought that would be the toughest challenge, as I thought it was the hardest level. I thought the sents might be a bit of a challenge. However, hammer of nimrod really evened the score - see, once you have lightning fury added to your melee attacks they count as &#39;mutant attacks&#39;.  So i&#39;d use my favorite storm tactic, when you see a sentinel, go into flying and hit them right in the head with flying punches. Each one was hitting for 100<br />
+<br />
+Then storm hit level 15 (chain lightning) and it was a piece of cake. Finished with almost 11 minutes remaining. <br><BR><font size=1>20:11 03-04-2005</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/vs/resources/buzz.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/vs/resources/buzz.php'><input type="hidden" name="PHPSESSID" value="58cc866db00d4bfcce426e13e6e0a1a8" /><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value="6413"><input type='Submit'  value=' Show all Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/vs/main/join.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8'> become a registered member</a></font></div></div><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script> 			
+<!-- rumors board code end --><BR>
+
+            <!-- #EndEditable -->
+</td>
+<td valign="top" valign="top" bgcolor="#FFFFFF"> 
+<img height=3 hspace=0 vspace=0 src="/vs/gfx/clear.gif" width=10 border=0></td>
+<td width='167' bgcolor='#E5E5E5' valign='top'>
+<center>
+  <!--  <a href="/promo/index.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8"><img src="/heroclix/gfx/theme1/contest.gif" width="160" height="20" hspace="4" vspace="4" border="0"></a>  -->
+<BR>  <div class='column'><div class='r2header'>Top Decks</div><ol><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34516&PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Xavier&#39;s Demon 10th @ Orlando 10k</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34558&PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Deacon Frost, Vampire Master</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34522&PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Sentinel Domination</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34615&PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">The Brotherhood of Spiders</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34553&PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Balls of Steel</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34547&PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">X-Statix Solo Show</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34564&PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Ezekiel&#39;s Dark Embrace</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34559&PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Mystic Burrito Booth</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34584&PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Conceal and Carry</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34514&PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Crime Syndicate</A></font></li></ol><A href="http://www.decktech.net/swtcg/decks/decks.php">All</A></div> 
+<img src="/heroclix/gfx/clear.gif" width="160" height="1" hspace="4" vspace="4" border="0">
+</div><div class='column'><div class='r2header'>Auction</div><A href="http://www.decktech.net/auction/index.php">Currently 2 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8'>List Your Item!</a> 
+<BR><BR><img src="/heroclix/gfx/clear.gif" width="160" height="1" hspace="4" vspace="4" border="0"><P><div class='column'><div class='r2header'>Top Articles in last 30 days</div><div class='r2td'><A HREF='/vs/articles/articles.php?id=6038&view=2&PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8'>The power of the Gravesite</A></div><div class='r2td'><A HREF='/vs/articles/articles.php?id=6045&view=2&PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8'>Modern Marvel Primer!</A></div><div class='r2td'><A HREF='/vs/articles/articles.php?id=6044&view=2&PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8'>Neal&#39;s Nutty Combo of the Day</A></div><div class='sectionhead' align='right'><div class='more'><A href='/vs/articles/articles.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8'>All</A></div></div></div><p><a href='http://www.decktech.net/adserver/click.php?mgr=aspcode.net&id=43'><img border='0' src='/banner/themebanner1.gif'  ></a></center>
+<BR></td>
+<td valign="top" width="0"> 
+  </td>
+ </tr>
+</table>
+  <table  width='764' cellspacing='0' cellpadding='0' border=0>
+    <tr> 
+    <td valign="top">
+      <div align="right">
+<table width="744" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+      <td width="114"><img src="/heroclix/gfx/theme1/footer1.gif" width="114" height="21" hspace="0" vspace="0" border="0" align="left"></td>
+      <td width="630" background="/heroclix/gfx/theme1/footer1_back.gif" class="footerOne"> 
+        &nbsp; &nbsp;<a href="/heroclix/index.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Home</a> | <a href="/heroclix/teams/index.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Teams</a> 
+        | <a href="/heroclix/articles/index.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Articles</a> | <a href="/heroclix/treports/index.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Reports</a> 
+        | <a href="/heroclix/resources/index.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Player Resources</a>  </td>
+  </tr>
+  <tr>
+    <td width="114"><img src="/heroclix/gfx/theme1/footer2.gif" width="114" height="24" hspace="0" vspace="0" border="0" align="left"></td>
+      <td width="630" background="/heroclix/gfx/theme1/footer2_back.gif" class="footerTwo">&nbsp;&nbsp; 
+        <a href="/heroclix/main/about.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">About HeroClix</a> | <a href="/heroclix/main/decktech.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">About 
+        DeckTech</a> | <a href="/heroclix/main/join.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Become a Member</a> | 
+        <a href="mailto:%20info@decktech.net">Contact Us</a></td>
+  </tr>
+    <tr> 
+      <td colspan="2" width="744" background="/heroclix/gfx/theme1/footer3_back.gif" class="footerThree">
+	  <a href="/global/terms.php?PHPSESSID=58cc866db00d4bfcce426e13e6e0a1a8">Terms of Service</a> TM & © 2003 www.decktech.net. All Rights Reserved.
+</td>
+  </tr>
+    <tr> 
+      <td colspan="2" width="744" class="footerFour">
+ 	  This site is maintained and updated by fans of 
+          HeroClix, and is in no way affiliated with WizKids the makers of HeroClix 
+          and other fine games. We in no way claim the artwork displayed to be 
+          our own. Copyrights and trademarks for the promotional materials are 
+          held by their respective owners and their use is allowed under the fair 
+          use clause of the Copyright Law.
+<p>WizKids, LLC has sole ownership of the names, logos, artwork, marks, 
+photographs, sounds, audio, video and/or any other proprietary material 
+used in connection with the game of HeroClix. WizKids, LLC has granted 
+DeckTech.net permission to use such names, logos, and/or marks for 
+promotional and informational purposes on the DeckTech.net website, but it 
+does not endorse and is not affiliated with the DeckTech.net website in 
+any official capacity whatsoever. All WizKids characters, names, logos, 
+and distinctive likenesses are property of WizKids, LLC. 
+
+<p>©2003 WizKids, LLC. All rights reserved. MechWarrior, BattleTech, 
+BattleMech, ’Mech, MW, Mage Knight, MK, Shadowrun, HeroClix, SportsClix, 
+Creepy Freaks, Freak Out, and WizKids are trademarks of WizKids, LLC.  
+</td>
+  </tr>
+</table>
+</div><BR>
+
+</td></tr></table>	  
+</center></body><!-- #EndTemplate --></html>
+

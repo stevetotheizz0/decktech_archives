@@ -1,0 +1,387 @@
+
+<html><!-- #BeginTemplate "/Templates/freedom.dwt" -->
+<head>
+<title>FreedomCon - United We Stand</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {  margin: 0px 0px; border: none; font: 10pt Verdana, Arial, Helvetica, sans-serif; color: #000000}
+.legal {  font: 6pt Verdana, Arial, Helvetica, sans-serif; color: #CCCCCC}
+td {  font: 9pt Verdana, Arial, Helvetica, sans-serif}
+.nav {  font-size: 8pt; color: #FFFFFF; text-decoration: none}
+-->
+</style>
+</head>
+
+<body bgcolor="#000E58" margin="0" marginwidth="0" marginheight="0">
+<table width="93%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td colspan="2" height="97"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+        <tr>
+          <td><img src="/freedomcon/gfx/freeblue.gif" width="266" height="123" border="0"> 
+          </td>
+          <td valign="middle" align="center">&nbsp; </td>
+        </tr>
+      </table>
+      
+    </td>
+    <td width="42" height="97">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td height="149"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <tr> 
+                <td class="legal"><a href="/freedomcon/index.php" class="nav">Home</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/about.php" class="nav">About FreedomCon</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/sponsors.php" class="nav">Our Sponsors</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/contact.php" class="nav">Contact Us</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/attend.php" class="nav">Players Attending</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/donate.php" class="nav">Donations and Charity</a></td>
+              </tr>
+              <tr>
+                <td><a href="/freedomcon/buzz.php" class="nav">Discuss FreedomCon 2!</a></td>
+              </tr>				  
+			  
+            </table>
+            
+          </td>
+        </tr>
+      </table>
+
+      <!-- #BeginEditable "nav" --> <!-- #EndEditable --><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><br>
+      </font>
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b><br>
+            What:<br>
+            FreedomCon</b> <br>
+            Philadelphia 2002<br>
+            <br>
+            <b>When:</b> <br>
+            October 4-6 <br>
+            <br>
+            <b>Where:</b> <br>
+            NeoQuest Games<br>
+            Gary's Plaza<br>
+            531 South Broad Street<br>
+            Lansdale, PA 19446<br>
+            </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">215 
+            855 7035</font></td>
+        </tr>
+      </table>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"></font></td>
+    <td width="541" bgcolor="#FFFFFF" valign="top" background="/freedomcon/gfx/Vegasxflcam.jpg"><!-- #BeginEditable "body" --> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td valign="top" height="461" width="57%"> <br>
+
+<script language="javascript">
+
+echo "test";
+
+// This makes certain pages private, for members only. Neal 10-2013
+if ($access == "" )
+{
+echo "<table bgcolor='#ffffff' width=500><tr><td><P>This area of DeckTech is now restricted to members only. You must be logged in to view this page.
+Go to <a href='http://www.decktech.net/'> DeckTech.net </a> to log in";
+echo "<P>If you are not a member, and would like to spy on a member, you are cordially invited to kiss off.</td></tr></table>";
+exit;
+}
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+prev1.document.writeln(texttoshow);
+}
+
+function changetobold()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetospoiler()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "(drag mouse to see spoiler)<div style=background-color:red;color:red;foreground-color:red>"+newtext+"</div>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+linkyaddress = document.buzzboardform.texttoconvert.value;
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function oldchangetobold()
+{
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+
+
+
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5<br />
+<b>Warning</b>:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in <b>/home/decktech/public_html/global/includes/com/buzzboard.php</b> on line <b>1719</b><br />
+<table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font class="h1font">Micro$oft says &#39;We and Nintendo are frimbazeling Sony over hardcore&#39;</B></font></td></tr><tr valign="top"><td><font class="bfont"><font class="bfont"> From: Serpent</font><BR><table><TR><TD><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='/freedomcon/buzz.php?id=8069'><b>REFRESH THIS TOPIC</b></A></font></td><td width=40>&nbsp;</td></tr></table><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#EFF1FF><font class="h2font"> Comment</td></tr><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">last console i bought was the wii, we own a ps3 as well, both are only for a few games, we hardly play video games anymore. <br><BR><font size=1>13:02 12-09-2013</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">So...<br />
+<br />
+Anyone get ps4? The young guys at work love it. <br><BR><font size=1>09:03 11-19-2013</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>sithborg279</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=sithborg279'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Looking at it, it was apparently 1 million in Japan.   <br><BR><font size=1>11:21 07-19-2007</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Patrick M. S</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">lol, brandon ftw <br><BR><font size=1>09:42 07-19-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Jedi Genius</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Jedi Genius'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Maybe some owners bought 2 copies of the same game to show their loyalty? <br><BR><font size=1>09:36 07-19-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=2021">Serpent™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=2021">Serpent™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">considering the ps3 has two games which have sold over a million...<br />
+<br />
+no <br><BR><font size=1>09:28 07-19-2007</font><BR><BR>merisman: The Axis (Germany, Italy and Russia)...</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>sithborg279</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=sithborg279'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Yup, that is a great announcement.  Wonder what PS3 failure rates are.  Not enough people have bought them to answer.  LOL<br />
+<br />
+Though I thought I saw that the PS3 JUST hit the 1 million mark.   <br><BR><font size=1>09:12 07-19-2007</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>_Armaedes_</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=_Armaedes_'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Please D-mail me your vote for the Best PS2 Game of All Time (see <a href="http://www.decktech.net/magic/resources/buzz.php?id=7704">this thread</a> for details) <br><BR><font size=1>08:20 07-19-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Whiplash</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Whiplash'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">wow that is truly amazing, I had seen the headline that MS had put aside 1.2 billions for something about the xbox but was too lazy to read it out :) <br><BR><font size=1>09:27 07-06-2007</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Patrick M. S</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">you guys see the microsoft announcement? <br />
+<br />
+All 360s will now have a 3-yr full hardware warranty and this warranty will be RETROACTIVE. Meaning, all 360&#39;s purchased since November 2005, and going forward, have a 3-yr warranty. So if your 360 has crapped out, you can send it in for free repairs. If you PAID to have it repaired, you will get reimbursed. <br />
+<br />
+The rumours is that Microsoft has decided that the defect rate on Core and Premium 360&#39;s is completely unacceptable (one source says it could be as high as a 40% defect rate). This actually doesn&#39;t sound unreasonable because I know a few people who have 360&#39;s and 2-3 of them have had the 3 rings of red deaths. <br />
+<br />
+Microsoft has put aside around 1.1 billion US$ to pay for this. YOUCH. <br />
+<br />
+Anyway, it&#39;s good news. They say that have isolated the problem and 360s made going forward will have a much smaller defect rate. Already, they are more comfortable with their Elites.  <br><BR><font size=1>09:08 07-06-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>sithborg279</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=sithborg279'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Of course, how many Blue rays vs PS3 is currently being sold?  Still, the number surprises me, just because I thought it would be a lot closer between the Wii and PS3 in Japan. <br><BR><font size=1>13:56 07-05-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=2021">Serpent™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=2021">Serpent™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">a different point of view would see that blu-ray discs are outselling hd-dvds pretty decently, apparently.<br />
+<br />
+and sony collects a royalty on every blu-ray sold<br />
+<br />
+&#39;So you see, what I told you was true... from a certain point of view&#39;<br />
+ <br><BR><font size=1>21:12 07-03-2007</font><BR><BR>merisman: The Axis (Germany, Italy and Russia)...</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>sithborg279</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=sithborg279'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">When the Wii is beating you nearly 6-1 in JAPAN, I think Sony should rethink their strategy.  Granted, 41,000 units is still close to 4x how many 360s sell in Japan. <br><BR><font size=1>20:42 07-03-2007</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Patrick M. S</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">That&#39;s cool, Neal. I totally respect that viewpoint. Like I said, my mom is the same way with her portfolio. I can buy sin stocks for her. <br />
+<br />
+If you&#39;re looking into socially responsible investing, have a peek into those NorthWest Fund Units or one of my other top ten Socially Responsible companies that are very much worth investing in (excellent prospects)<br />
+<br />
+NORTHWEST FUND UNITS <br />
+ENCANA CORP <br />
+BANK OF NOVA SCOTIA <br />
+CDN NAT&#39;L RESOURCES <br />
+PETRO CANADA <br />
+TECK COMINCO CL B <br />
+NATIONAL BK <br />
+GILDAN ACTIVEWEAR <br />
+BROOKFIELD ASSET MGMT <br />
+CDN NATIONAL RAILWAY<br />
+<br />
+I own 4-5 of those myself and they are all doing well. All are considered highly socially responsible companies.  <br><BR><font size=1>13:02 06-22-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Actually, I think I will roll the dice on what Jake says. I am going to invest in some kind of green company. If it hits big, it will be big bucks. If not, the 10k is just the aggressive part of my portfolio anyways. I still have mutual funds (which do invest partly in oil, mine does Chevron) <br><BR><font size=1>08:53 06-22-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">This is just for me, I&#39;m not putting anyone down.  I like to make money in the stock market, but for me, a company like Exxon-Mobil that is so completely socially irresponsible is just someone I dont want to be associated with. I feel they are a blight on society and contribute nothing positive, esp to my lifestyle.  If they were to be exterminated today, there would be a party at my house tomorrow.<br />
+<br />
+That&#39;s just how *i* feel. I think there are other stocks that probably perform just as well that dont damage the envt so severly. I hope to find something like that<br />
+<br />
+Again, I am *not* putting down anyone, esp my good friend Pat, for making money off them. Make money away! It&#39;s up to everyone to determine their own comfort zone. <br><BR><font size=1>08:51 06-22-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">the problem with those is that North American ones really aren&#39;t leading the way. You gotta look to Europe and invest in something like Vestas Wind Systems and such.  <br><BR><font size=1>08:42 06-22-2007</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>_Armaedes_</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=_Armaedes_'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">You need to invest in those energy-saving companies.  You know, the ones that make the energy-efficient refrigerators and washers, or those eco-friendly lightbulbs.  With the celebrity and big-business push about to come for being environmentally friendly, those stocks are about to skyrocket. <br><BR><font size=1>08:20 06-22-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">btw, let me say that socially responsible investing is perfect if your first priority isn&#39;t to make money. <br />
+<br />
+If you are investing to make money, it serves you no purpose to limit your investments. You&#39;re only hurting yourself. <br />
+<br />
+So like Alan saying, "i&#39;m not telling you to buy stock in them. I wouldn&#39;t." is coming from someone who&#39;s first priority isn&#39;t to make money in the stock market. That&#39;s important. There&#39;s actually a few professional analysts out there that are like that too. It&#39;s key to set their advice apart and to take it in an entirely different context (one that is right for many people, maybe like Neal. But that is not right for most) <br><BR><font size=1>12:26 06-21-2007</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Patrick M. S</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">agreed. Anyway, I&#39;m just looking at this from an investment perspective. I respect that Neal wouldn&#39;t want to own stock in a company he dislikes. That&#39;s very Warren Buffet. That dude HATES airlines and vowed to never own an airline stock (I&#39;m pretty sure he ended up buying his own private jet company instead). <br />
+<br />
+Neal, you said you had some money you wanted to invest so I gave you a list of good choices. That last batch were all socially responsible companies. I&#39;d be happy to give you more of those if you want. <br />
+<br />
+I&#39;m glad I own Exxon cuz not only does it make me lots of money but it totally hedges my fuel costs. My mom doesn&#39;t want me buying Exxon in her portfolio, that drives me nuts but I respect it and find other suitable investments. There&#39;s a frickin&#39; sea of money out there. You just park somewhere else.  <br><BR><font size=1>12:24 06-21-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=2021">Serpent™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=2021">Serpent™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">i&#39;m not telling you to buy stock in them.<br />
+<br />
+I wouldn&#39;t.<br />
+<br />
+I&#39;m just telling you how it is -- you can try to deny it but actually it&#39;s not the western world that&#39;s based on Exxon and oil and whatnot, it&#39;s the entire world.  This is something to accept and work with and try to change, but the elimination of such a company is not the way to go.   <br><BR><font size=1>12:04 06-21-2007</font><BR><BR>merisman: The Axis (Germany, Italy and Russia)...</TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=2021">Serpent™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=2021">Serpent™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Exxon, and companies like them, enable 99% of the western lifestyle.  Food, transportation, clothes, tv, EVERYTHING. <br><BR><font size=1>12:02 06-21-2007</font><BR><BR>merisman: The Axis (Germany, Italy and Russia)...</TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">exxon doesnt do a goddamn thing for my lifestyle  serpent. And even if it did, I still wouldnt condone what they do.  They suck completely, and I would currently like to BEAT THE shimmer out of the republican senators who stopped that tax on oil companies to finance renewable energy research.<br />
+<br />
+My lifestyle and creature are not that important to me... nowhere near as important as the pretty likely outcome of getting my entire city flooded in the next 20 years. <br><BR><font size=1>12:00 06-21-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>_Armaedes_</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=_Armaedes_'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Well, that&#39;s the best argument for not making a lifestyle change that I&#39;VE ever heard. <br><BR><font size=1>11:24 06-21-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=2021">Serpent™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=2021">Serpent™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">yah that&#39;s a good idea.  it&#39;s not like Exxon helps to enable most of your current lifestyle or anything<br />
+<br />
+oh wait<br />
+<br />
+! <br><BR><font size=1>11:13 06-21-2007</font><BR><BR>merisman: The Axis (Germany, Italy and Russia)...</TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">nah, thanks anyways, I wouldnt even want to pollute myself with any association with that company. I would be more interested in helping bring about their downfall. <br><BR><font size=1>10:29 06-21-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">You buying stock in Exxon isn&#39;t like you giving money to Exxon. You&#39;re just buying someone else&#39;s shares that he/she wants to sell. Exxon is completely out of the equation. All you get to do is take your part (as small owner of Exxon) of the corporation&#39;s profits (thru dividends) and the growth of the company and industry (through share price appreciation). <br />
+<br />
+You buying gas from an Exxon-Mobil gas station is directly giving money to Exxon. You buying shares is directly taking money from Exxon. <br />
+<br />
+Either way, it&#39;s a great way to hedge against the rising prices of gas and it&#39;s a terrific investment. Oil industry has a declining supply yet the companies still exhibit growth, very few competitors (compared to other industries), massive barriers to entry, plus Exxon-Mobil is clearly a market leader. <br />
+<br />
+Good investment. <br />
+<br />
+but yeah, socially responsible the company is not. Get Hewlett Packard over that. Or if you really want to only invest in socially responsible companies, get some Northwest Fund units... or Encana.  <br><BR><font size=1>13:37 06-20-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I could never buy stock in Exxon. No way. My conscience wouldnt let me. They always covertly fund those orgs like "Initiative for a cleaner envt" that proceed to stifle every envt cause or like "Progessive Climate Commission" that tries to prove that Global Warming is part of some ridiculous pattern <br><BR><font size=1>12:04 06-20-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">lol, Burger ftw <br><BR><font size=1>08:14 06-20-2007</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>BURGER</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=BURGER'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">This is what rich people look like in Canadaland:<br />
+<br />
+<img src=http://dollfamily.org/C1233511078/E879273016/Media/100_2068.jpg> <br><BR><font size=1>16:13 06-19-2007</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=8069><input type='Submit'  value=' Show all Posts '></form><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=8069><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/swtcg/main/join.php'> become a registered member</a></font></font></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script>
+<!-- advertising code -->
+<!-- Kontera ContentLink(TM);-->
+<!--
+<script type='text/javascript'>
+var dc_AdLinkColor = 'blue' ; 
+var dc_PublisherID = 157626 ; 
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'>
+</script>
+-->
+<!-- rumors board code end -->
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+      </table>
+      <!-- #EndEditable --></td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"> 
+      <p align="center" class="legal"><span class="legal"><span class="legal"><span class="legal"><br>
+        Legal- TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and related 
+        marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher Inc. Decipher, 
+        Customizable Card Game, The Art of Great Games and associated marks and 
+        intellectual property are exclusively owned by Decipher Inc. All Rights 
+        Reserved. THIS Web Site IS NOT PRODUCED OR ENDORSED BY DECIPHER, INC OR 
+        LUCASFILM LTD OR PARAMOUNT PICTURES. STAR TREK. </span></span></span> 
+        <span class="legal"><span class="legal"><br>
+        <span class="legal"> TM & © 2002 www.decktech.net. All Rights Reserved. 
+        </span></span></span><br>
+        <br>
+      </p>
+      </td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+</body>
+<!-- #EndTemplate --></html>

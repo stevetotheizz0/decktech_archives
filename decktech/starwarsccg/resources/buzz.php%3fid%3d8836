@@ -1,0 +1,761 @@
+
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title> 
+Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"> 
+      <img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0>    </td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"> 
+            <img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0>            </a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> 
+            <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+          </td>
+        </tr>
+        <tr valign="top"> 
+          <td> 
+            <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php" class="level1nav">Articles</a><br>
+
+
+<a href="/starwarsccg/decks/index.php" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php" class="level1nav">Reports</a><br>
+
+  <a href="/starwarsccg/academy/index.php" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php" class="level1nav">Resources</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/resources/rules.php">Current Rules</a> &nbsp;<br>
+
+<a href="/starwarsccg/resources/buzz.php">Buzz Board</a> &nbsp;<br>
+
+<a href="/starwarsccg/resources/links.php">Related Sites</a> &nbsp;<br>
+</div>
+<br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center>          </td>
+        </tr>
+                <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>                <tr valign="top"> 
+          <td> 
+            
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6554&view=2">Creating a tournament scene from scratch - part 6</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6555&view=2">Achieving Excellence</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6553&view=2">Court with Abyssin Ornament V</A></font></li><BR></ol> 
+<p><script language="JavaScript">
+
+<!-- /* © 1997-2002 BURST! Media, LLC. All Rights Reserved.*/ 
+
+var TheAdcode = 'sk8702a'; 
+
+var bN = navigator.appName; 
+
+var bV = parseInt(navigator.appVersion); 
+
+var base='http://www.burstnet.com/'; 
+
+var Tv=''; 
+
+var backColor='000000';
+
+var fontColor='FFFFFF';
+
+var agt=navigator.userAgent.toLowerCase(); 
+
+if (bV>=4) 
+
+  {
+
+  	ts=window.location.pathname+window.location.search; 
+
+  	i=0; 
+
+  	Tv=0; 
+
+  	while (i< ts.length) 
+
+      { 
+
+	  	Tv=Tv+ts.charCodeAt(i); i=i+1; } 
+
+		Tv="/"+Tv;} 
+
+else {
+
+	Tv=escape(window.location.pathname); 
+
+   	if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+
+    else if (Tv.charAt(1)=="/") Tv=""; 
+
+  	if( Tv.charAt(Tv.length-1) == "/") Tv = Tv + "_";
+
+} 
+
+  document.write('<ifr'+'ame id=BURST src="'+base+'cgi-bin/ads/' + TheAdcode + '.cgi' + Tv +  '/zg' + backColor + 'x' + fontColor + 'l' + fontColor +    'v' + fontColor + 'k' + fontColor + '/RETURN-CODE" width=160 height=600' +   ' marginwidth=0 marginheight=0 hspace=0 vspace=0 ' +  'frameborder=0 scrolling=no>');
+
+  document.write('</ifr'+'ame>');    
+
+// --> 
+
+</script></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center>          </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+      
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td valign="top" width="1"> 
+            <img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0">          </td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <script language="javascript">
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+
+prev1.document.writeln(texttoshow);
+
+}
+
+function changetobold()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+linkyaddress = document.buzzboardform.texttoconvert.value;
+
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+
+function oldchangetobold()
+{
+
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader">TOMMY ASHTON A FRAUD!</td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="bfont"> From: Gen</font><BR><font class="bfont"><A HREF='/starwarsccg/resources/buzz.php'>Back to Topics List</A></font><BR><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font><BR><font class="bfont"><A HREF='/starwarsccg/resources/buzz.php?id=8836'><b>REFRESH THIS TOPIC</b></A></font><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#333333><font class="h2font"> Comment</td></tr><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=5142">imrahil327™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">LOL, that&#39;s the way to go out on top. <br><BR><font size=1>17:13 09-11-2007</font><BR><BR><b>Patrick M.S.</b> "ok, I&#39;m going to reinforce Dr Doom with..zzzzzzzzzzzz"</TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>Treeplanter</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">No, UDE screwed up because the way it was it was 100% percent sure who was the winner.<br />
+<br />
+Personnaly I don&#39;t think exchanging the check beetween 1st and 2nd place was a big deal.<br />
+<br />
+Anyway, I didn&#39;t really care conceding to save taxes, I was just really mad at upper deck giving us crap for what we did, especially since I told them unless they do something it&#39;s 100% sure I concede.<br />
+<br />
+And this 30% cut is total mess. UDE is the only compagny doing this. Wizard is not doing that. Even sucky Decipher did not to that. WTF!?!?<br />
+<br />
+BTW just to show how much respect I&#39;ve for VS after the final I went to a booth and sold all my card for some more bucks. YONZA!!!<br />
+<br />
+LOL thanks for cheering me up Brad :) <br><BR><font size=1>15:52 09-11-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=5142">imrahil327™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Not me. <br><BR><font size=1>15:35 09-11-2007</font><BR><BR><b>Patrick M.S.</b> "ok, I&#39;m going to reinforce Dr Doom with..zzzzzzzzzzzz"</TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/magination/main/mpage.php?member=617">Max of Tat™</a></B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Oh well, one more memory I can start to forget.<br />
+<br />
+- Enrique <br><BR><font size=1>15:21 09-11-2007</font><BR><BR><a href="http://www.decktech.net/vs/decks/chesslobbyframe.html">DeckTech Chess Player</a><br>My job is to bring pictures of semi-naked women to DeckTech. I love my job.</TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Okay, but you have to slip &#39;em off me. <br><BR><font size=1>14:56 09-11-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=5142">imrahil327™</a></B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Pat, I&#39;ll buy yours.  <br><BR><font size=1>14:50 09-11-2007</font><BR><BR><b>Patrick M.S.</b> "ok, I&#39;m going to reinforce Dr Doom with..zzzzzzzzzzzz"</TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">it&#39;s not worth keeping <br><BR><font size=1>14:39 09-11-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/magination/main/mpage.php?member=617">Max of Tat™</a></B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Remember those big form boards Decipher used to have for its LOTR PSE. I still have the one from the very first PSE signed by the 16 players that made Day 2. (=<br />
+<br />
+I can&#39;t decide if it&#39;s worth keeping anymore... does anyone still have their big checks?<br />
+<br />
+- Enrique <br><BR><font size=1>12:14 09-11-2007</font><BR><BR><a href="http://www.decktech.net/vs/decks/chesslobbyframe.html">DeckTech Chess Player</a><br>My job is to bring pictures of semi-naked women to DeckTech. I love my job.</TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>swccguy</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">i shoulda put a lol in that last post, i sounded more serious than brian fred trying to trade me joseph addai in fantasy fb <br><BR><font size=1>11:32 09-11-2007</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>mikefrench</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">true.  i dont think brochu ever made a day 2 in a premiere series that he didn&#39;t win.<br />
+<br />
+and yes, the fact that the WORST teams in vs were superman, batman, xmen etc made it really dumb. <br><BR><font size=1>11:20 09-11-2007</font></TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>swccguy</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">to be fair mike french, you got to play vs cornwell mott, the canadien that couldnt win a final, while i was paired against borchu, the canadien (quebecer?) that couldnt lose a final<br />
+<br />
+and no, vs was dumb cause it took less skill and was more rules lawyerish that lotr.<br />
+<br />
+even if you could convince me vs is/was a good game, you cannot reasonably argue that the cards looked good.  i always thought it was bootleg, like, if i ran a comic book ccg, id use images from the comics.  seems logical?<br />
+<br />
+vs also was kinda bootleg cause you had to use crap cards to win, like who are the teen titans or half of the cheap brother hood guys?  i guess i suck cause i think every game should of involved spider man, super man, bat man, or the x men.<br />
+<br />
+so that really was why i got out of vs.  well that and booker told me to play swccg cause some random won worlds in 2004.  and hd and trm were the best decks, and i got to use vaders and lukes by the handful<br />
+<br />
+ <br><BR><font size=1>10:47 09-11-2007</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>mikefrench</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">ps brad the big check on my wall looks funny too <br><BR><font size=1>23:23 09-10-2007</font></TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>mikefrench</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">brad says vs is dumb cause he sucked at it<br />
+<br />
+pwned <br><BR><font size=1>23:23 09-10-2007</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>swccguy</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">hi matt brochu its brad eier<br />
+<br />
+congrats on your accomplishment<br />
+<br />
+i would have split cash with you at origins 2004 for lotr, all i really wanted was the big check, just cause it looks funny<br />
+<br />
+so this summer i bought a box of lotr for like 5 dollars and my foil rare was bold men and grim i can never escape that card<br />
+<br />
+between the origins debacle and that black stripper in windsor who rubbed her bare ghetto booty all over my cardinals hat, canadiens have ruined a lot of the last 3-4 years of my life<br />
+<br />
+anyway dude just wanted to say congrats and anyone giving u crap is dumb VS was all about money it was an awful game with PISS POOR ART WORK and stuff so u won some $$$$$ good job <br><BR><font size=1>21:51 09-10-2007</font></TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Gen</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">I do not agree with your decision, and I sympathize that you need <br />
+money (we all do) but I do not, and will never, respect what you <br />
+did. <br><BR><font size=1>19:26 09-10-2007</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>mikefrench</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">he&#39;s saying ude was trying to screw them over by only allowing one form of split. <br><BR><font size=1>10:15 09-10-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=3300">Shadow 13™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">its not like UDE was trying to screw you over, i believe that 30 percent cut is mandatory for any non-US resident in any legal gaming venue.  US taxes FTL <br><BR><font size=1>03:44 09-10-2007</font><BR><BR><hr><img align="right" src="http://www.decktech.net/memberimages/3300rst.jpg"><br>Ryan French<br>Rebel Strike Team founder<br><i>"Jesus will ban you from life."</i> - Dominic Gaudreault</TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>mikefrench</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">thats not the point.  i can&#39;t spit on 3 grand either.  but you had choices, either play it out for the big bucks, or split the "legal" way.  other non-americans have won pc&#39;s before, and they got 30% taken out too, so don&#39;t act like you should be treated special.<br />
+<br />
+honestly, this really doesn&#39;t bother me that much.  like you said, anyone who needed the money would&#39;ve done what you did, they just might not have won the game first (i know i would&#39;ve at least made it look like i lost to avoid all the controversy).  but i think you should&#39;ve just played it out though, your constructed deck was undefeated the whole weekend anyway.  =) <br><BR><font size=1>16:31 09-09-2007</font></TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Treeplanter</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">The prize split was our decison to make and it was legal, and we made it before the match.<br />
+<br />
+The winner was decided by the fact UDE cut 30% money from non-US resident and didn&#39;t do anything to accomodate us. You guy can cry all the tears you want about principle of competition or whatever, but the reality is that I just bought a condominium, and a Trophy is&#39;nt gonna pay that. neither a picture of me on internet. However 3000 bucks is gonna help do that.<br />
+<br />
+It&#39;s your right to not agree with me. But you have to respect my decision, because you&#39;re not in my situation. <br />
+<br />
+I&#39;m sorry i&#39;m not lucky enough to spit on 3 grand. <br><BR><font size=1>12:03 09-09-2007</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>mikefrench</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">btw there&#39;s no rule that said you guys had to prize split.  but there is a rule saying that you can&#39;t decide the winner before the game is played. <br><BR><font size=1>08:03 09-09-2007</font></TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Gen</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Tree, we just have different values when it comes to honorable <br />
+competition. A lousy 3 grand. You have a lifetime to make money, <br />
+that was probably the last PC ever. Enoy your money. <br><BR><font size=1>07:32 09-09-2007</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>Treeplanter</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">BTW Keith, I&#39;m sure you&#39;re a communist <br><BR><font size=1>19:01 09-07-2007</font></TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Treeplanter</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">For you guy not aware of the story, here the REAL story.<br />
+<br />
+UDE cut 30% cash if you&#39;re a non-US resident.<br />
+<br />
+Me and Ashton aggreed for a one game match (he had a plane to catch, I was working on monday morning and we had a 14 hours drive) and for a prize split, since it&#39;s the only legal thing allowed and Judges where watching us all the time.<br />
+<br />
+So here&#39;s the thing. <br />
+<br />
+We prize split: so 15k each.  That mean the winner give five grand to the loser. <br />
+<br />
+I&#39;m a non US resident (French canadian if you don&#39;t remember). So if I win, That 20 000$ - 30% so 14 000. I give 5000$ to Ashton, so I&#39;ve 9000$.<br />
+<br />
+If I loose, i have 10000 - 30%, so 7000$. Ashton give me 5000$, that 12 000$.<br />
+<br />
+<br />
+Tommy Ashton DID NOT wanted the trophy if he lose, so he went to the UDE assh0le and ask him if they could change prize if I won (so second place would get the 20 000 and first the 10 000). They said no. After I ask them if they could just split the check 15 000/15 0000. They said no.<br />
+<br />
+So we did play the game as it should be played and obviously smart poeple saw in fact I won the game.<br />
+<br />
+But unless you&#39;re:<br />
+<br />
+1. Millionnaire<br />
+2. Really Dumb<br />
+3. a mathematic scrub<br />
+<br />
+you should understand that in fact conceding was not a bad choice: It was the ONLY choice.<br />
+<br />
+IMHO a bigger trophy and a picture of me on a site web doesn&#39;t worth 3000$ bucks.<br />
+<br />
+So if you wanna blame someone for this, blame UDE not me nor Ashton, because everything was legit. UDE did NOTHING to accomodate us. Worst, they were upset, so the hell with them.<br />
+<br />
+cya guy <br><BR><font size=1>18:40 09-07-2007</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">and it&#39;s KEITH, not Ken, who&#39;s in that movie.  <br><BR><font size=1>12:53 09-04-2007</font></TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">no fock that, if I had to sit through the ENTIRE thing, then so do you. <br />
+<br />
+there&#39;s three scenes worth watching:<br />
+<br />
+1) Keith&#39;s scene cuz he&#39;s devilishly handsome although Lohan&#39;s performance in that scene is AWFUL. The worst part for Keith is that he doesn&#39;t share any shots as her so I betcha she was filmed separately and he never saw her :(<br />
+<br />
+2) Lohan&#39;s sex scene. Actually pretty decent. <br />
+<br />
+3) The scene where the dry ice is removed from her hand (after being on it for hours) and the flesh just peels right off. GROSS. Then the fingers get sawed off with what looks like a plastic pie server. CRUNCH CRUNCH CRUNCH<br />
+<br />
+...oh, um.... *spoiler* <br><BR><font size=1>12:52 09-04-2007</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>boothwah</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Ken&#39;s in that movie?  I want to see it for his part but it would be the first Lohan movie I&#39;d ecer sat through......Can you give us the like milepost marker and i;ll just fast forward my dvd to that point? <br><BR><font size=1>12:02 09-04-2007</font></TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Meto</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Which means it isn&#39;t worth seeing. <br><BR><font size=1>21:54 09-02-2007</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>Gen</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Lol. Yes, I AM the best part of "I Know Who Killed Me" <br><BR><font size=1>10:23 09-02-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=5142">imrahil327™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont"><blockquote><i>Tommy Ashton.....<br />
+<br />
+Would ya tap?<br />
+Would ya finish?<br />
+<br />
+HELL YA I WOULD BRO </i></blockquote><br />
+<br />
+/wouldnt be surprised if this was really Patchell. <br><BR><font size=1>22:50 09-01-2007</font><BR><BR><b>Patrick M.S.</b> "ok, I&#39;m going to reinforce Dr Doom with..zzzzzzzzzzzz"</TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Yeah, it&#39;s him. Dom has been giving his side of the story in the WoW thread (crosspost).  <br><BR><font size=1>14:19 08-31-2007</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/starwarsccg/resources/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/starwarsccg/resources/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=8836><input type='Submit'  value=' Show all Posts '></form><form action='/starwarsccg/resources/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=8836><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/starwarsccg/main/join.php'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script> 			
+<!-- rumors board code end -->            <!-- #EndEditable --></td>
+          <td width="1" valign="top"> 
+            <img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0">          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4"> 
+      
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+    </td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

@@ -1,0 +1,936 @@
+
+<html><!-- #BeginTemplate "/Templates/new_format_main.dwt" --><!-- DW6 -->
+<head>
+<title>Welcome HeroClix Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="HeroClix, Wizkids,
+miniatures, Marvel, DC, Marvel Heroclix, DC Heroclix, comic figures
+"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #000099;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #CCCCCC; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none; background-image: url(/heroclix/gfx/theme1/background.gif); }
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #FFFFFF;
+		margin: 5px 5px; 		
+}		
+
+.cbody A:link {  
+		color: #4078CF;
+}
+.nav2 {  
+	color: #FFFFFF;
+	font-weight: bold; 
+	font-size: 7pt; 
+	text-decoration: none;	
+}
+.nav2 A {  
+		color: #FFFFFF;
+		text-decoration: none;		
+}
+.nav2 A:hover {  
+		color: #FF0000;
+		text-decoration: none;		
+}
+
+#auction .main { 
+	width: 100%;
+	height: 98px;
+	text-align: right;
+	font-size: 9pt;
+	font-weight: bold;	
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000; 
+	border: 1px;
+	border-style: solid;
+	border-color: #AAAAAA;
+	background: url(/heroclix/gfx/theme1/v_lightbar.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#auction .headline { 
+	font-size: 10pt;
+	text-align: left;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 15px;
+	padding-top: 4px;	
+	padding-bottom: 4px;	
+}
+
+#auction .content { 
+	text-align: center;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000; 
+	padding-left: 10px;
+	padding-top: 4px;	
+	padding-bottom: 4px;	
+}
+
+
+
+
+
+#news .main { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;		
+}
+
+#news .header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px; 
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_large.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+#news .story { 
+	width: 100%;
+	text-align: left;
+	background-color: EFEFEF;
+}
+#news .whowhen { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	color: #000000; 
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 4px;
+	background-color: #DDDDDD;	
+}
+#news .link { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: right;
+	padding-right: 4px;
+}
+#news .friend { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: right;
+	border: 0px;
+	border-bottom: 1px;
+	border-style: dotted;
+	border-color: #666666;	
+	padding-right: 4px;
+	padding-bottom: 4px;	
+}
+#news .text { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	padding-right: 4px;
+	padding-left: 8px;				
+}
+#news .comment { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: left;
+	text-decoration: normal;
+	padding: 4px;
+	padding-left: 10px;	
+}
+#news .poster { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: left;
+	text-decoration: normal;
+	padding: 4px;
+	padding-left: 10px;	
+	color: #990000; 
+	font-weight: bold;	
+	border: 0px;
+	border-bottom: 2px;
+	border-style: dotted;
+	border-color: #666666;
+}
+#news .date { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: right;
+	text-decoration: normal;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+#news .more { 
+	text-align: right;
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;	
+	padding-right: 4px;	
+}
+#news .headline { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: left;
+	color: #000099; 
+	font-weight: bold;
+	padding-left: 8px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	border: 0px;	
+}
+
+
+#features .main { 
+	width: 100%;
+	text-align: left;
+	margin-bottom: 6px;	
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;		
+}
+
+#features .header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px; 
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_large.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+
+
+#mygroups .column { 
+	width: 159px;
+	background-color: #EAEAEA;
+	text-align: left;
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;	
+	border-style: solid;
+	border-color: #666666;		
+}
+
+
+#mygroups .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_blue.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+#mygroups .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_red.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+
+.column { 
+	width: 159px;
+	background-color: #FFFFFF;
+	text-align: left;	
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;	
+	border-style: solid;
+	border-color: #666666;
+}
+
+
+
+
+.r2header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px;
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_total.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+
+.sectionhead {
+padding-top: 2px;
+padding-left: 8px;
+padding-bottom: 1px;
+border: 0px;
+border-bottom: 1px;
+border-style: solid;
+border-color: #666666;
+background-color: #CCCCCC;
+}
+
+.more a {
+	font-size: 7pt;
+	color:#888888;
+	padding-right: 4px;
+}
+
+ .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_blue.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+
+.r2td A:link {
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+}
+.r2td A:active {			
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+			}
+.r2td A:visited {	
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+
+.footerOne {
+			font-size: 8pt;
+			text-align: left;
+			font-weight: bold;									
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #AAAAAA; 
+			border: 0px;
+			background: url(/heroclix/gfx/theme1/footer1_back.gif);
+			background-color: transparent;
+}
+
+.footerOne A {
+			color: #EAEAEA; 
+}
+
+.footerOne A:hover {
+			color: #FFFFFF; 
+}
+
+.footerTwo {
+			font-size: 7pt;
+			text-align: left;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #999999; 
+			border: 0px;
+			background: url(/heroclix/gfx/theme1/footer2_back.gif);
+			background-color: transparent;
+}
+
+.footerTwo A {
+			color: #666666; 
+}
+
+.footerTwo A:hover {
+			color: #EAEAEA; 
+}
+
+
+
+.footerThree {
+			font-size: 7pt;
+			text-align: center;			
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #EEEEEE; 
+			border: 0px;
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;			
+}
+
+.footerFour {
+			font-size: 7pt;
+			text-align: center;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #888888; 
+			border: 0px;
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;			
+}
+
+.mainheader { 
+			height: 51px;
+			width: 549px;
+			font-size: 11pt;
+			font-weight: bold;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #990000; 
+			padding-left: 35px;
+			padding-right: 12px;			
+			padding-bottom: 8px;
+			padding-top: 8px;
+			margin-top: 10px;
+			background: url(/heroclix/gfx/theme1/main_layout_header1.gif);
+			background-color: transparent;
+			background-repeat: no-repeat;			
+}
+.maincontent { 
+			width: 536px;
+			font-size: 8pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			padding-left: 4px;
+			padding-right: 4px;			
+			padding-bottom: 4px;
+			padding-top: 4px;
+			margin-left: 10px;
+			margin-bottom: 10px;			
+			border: 1px;
+			border-style: solid;
+			border-color: #CCCCCC;
+			background-color: #FFFFFF;			
+}
+
+#Last24Hours .header {
+			font-size: 12pt;
+			font-weight: bold;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			border: 0px;
+			border-bottom: 1px;			
+			border-style: solid;
+			border-color: #666666;
+     		color: #FFFFFF; 
+			padding: 4px;
+			margin: 0px;
+			background: url(/heroclix/gfx/24back.gif);			
+}
+
+#Last24Hours .content {
+			background-color: #000000;			
+			padding: 5px;
+			margin: 0px;
+}
+
+#captain .main {
+	padding: 3px;
+	border: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #CCCCCC;
+	margin-bottom: 6px;	
+}
+
+#captain .headline A {
+	width: 100%;
+	font-size: 9pt;
+	font-weight: bold;			
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;	
+	padding-left: 8px;
+	padding-right: 4px;			
+	padding-bottom: 4px;
+	padding-top: 4px;	
+	color: #FFFFFF; 
+	background-color: #990000;
+	border: 1px;	
+	border-style: solid;
+	border-color: #FFFFFF;
+}
+
+#captain .content {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #666666;
+	padding-left: 0px;	
+	padding-top: 4px;		
+	padding-bottom: 4px;
+}
+
+#teams .main {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #ffffff;
+	margin-bottom: 6px;	
+	padding: 2px;		
+	border: 0px;
+	background-color: #000099;		
+}
+
+#teams .header {
+	font-size: 8pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #FFFFFF;
+	padding-left: 4px;	
+	padding-top: 2px;		
+	padding-bottom: 2px;
+	margin: 0px;
+}
+
+#teams .team {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #666666;
+	padding-top: 4px;		
+	padding-bottom: 4px;
+	border: 0px;
+	border-bottom: 1px;			
+	border-style: solid;
+	border-color: #666666;
+	background-color: #CCCCCC;		
+}
+#teams .title A {
+	font-size: 7pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000;
+	padding-left: 4px;	
+	padding-top: 4px;		
+	padding-bottom: 4px;
+	margin: 0px;
+}
+
+#teams .content {
+	font-size: 6pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000000;
+	padding-left: 4px;	
+	padding-top: 2px;		
+	padding-bottom: 4px;
+}
+
+#features .article { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;
+}
+
+#features .report { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;
+	background-color: #EAEAEA;	
+}
+
+
+
+#features .title { 
+	font-size: 7pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000;
+	padding-left: 4px;	
+	padding-top: 6px;		
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+#features .content {
+	font-size: 6pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000000;
+	padding-left: 4px;	
+	padding-top: 0px;		
+	padding-bottom: 4px;
+}
+
+-->
+</style>
+</head>
+<body 0><center>
+<table  cellspacing='0' cellpadding='0' border=0>
+  <tr> 
+    <td width="1" height="9" valign="top">
+<table width="764" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td colspan="3"><img src="/heroclix/gfx/clear.gif" width="2" height="11"></td>
+  </tr>
+  <tr> 
+    <td colspan="3"><img src="/heroclix/gfx/theme1/header_top.jpg" width="764" height="64" border="0" usemap="#Map2"></td>
+  </tr>
+  <!-- This is the Non Member Row -->
+  <tr> 
+    <td background="/heroclix/gfx/theme1/header_mid_back.jpg" width="118"><img src="/heroclix/gfx/theme1/header_mid_1.jpg" width="118" height="30" hspace="0" vspace="0" border="0" usemap="#Map3"></td>
+    <td background="/heroclix/gfx/theme1/header_mid_back.jpg" width="438"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <form name="login" method="post" action="/heroclix/resources/buzz.php"><input type="hidden" name="PHPSESSID" value="30f449f2c9235544c90c3b46446b98fb" />
+          <tr> 
+            <td align="left" valign="middle" width="15"><input name="sname" type="text" id="name" maxlength="22" size="7">&nbsp;</td>
+            <td width="67"><img src="/heroclix/gfx/theme1/header_mid_2.jpg" width="67" height="30" hspace="0" vspace="0" border="0"></td>
+            <td align="left" valign="middle" width="15"><input name="password" type="password" id="password" maxlength="14" size="7">&nbsp;</td>
+            <td><input type="hidden" name="mlogin" value="true"> <input name="submit" type="image" id="submit" src="/heroclix/gfx/theme1/header_mid_go.jpg?PHPSESSID=30f449f2c9235544c90c3b46446b98fb"></td>
+            <td width="20" align="center"><img src="/heroclix/gfx/theme1/header_mid_spacer.jpg" hspace="0" vspace="0" border="0"></td>
+            <td width="92" align="center"><a href="/global/forgot.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb"><img src="/heroclix/gfx/theme1/header_mid_forget.jpg" width="62" height="30" hspace="0" vspace="0" border="0"></a></td>
+            <td><a href="/heroclix/main/join.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb"><img src="/heroclix/gfx/theme1/header_mid_sign.jpg" hspace="0" vspace="0" border="0"></a></td>
+          </tr>
+        </form>
+      </table></td>
+    <td align="right" background="/heroclix/gfx/theme1/header_mid_back.jpg" width="208"><img src="/heroclix/gfx/theme1/header_mid_3.jpg" width="208" height="30" hspace="0" vspace="0" border="0"></td>
+  </tr>
+  <!-- End Non Member Row -->
+  <tr> 
+    <td colspan="3" align="right"><img src="/heroclix/gfx/theme1/header_navbar.gif" width="744" height="19" hspace="0" vspace="0" border="0" usemap="#Map"></td>
+  </tr>
+  <tr> 
+    <td colspan="3" background="/heroclix/gfx/theme1/nav2_back.jpg" class="nav2">
+	<img src="/heroclix/gfx/clear.gif" width="200" height="15" align="left">
+	<img src="/heroclix/gfx/theme1/nav2_concector.gif" height="15" align="left">	
+ 
+<a href="/heroclix/resources/rules.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">Current Rules</a> |
+<a href="/heroclix/resources/buzz.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">Buzz Board</a> | 
+<a href="/heroclix/resources/links.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">Related Sites</a> 
+ 
+</td>
+  </tr>
+</table>
+
+<map name="Map">
+  <area shape="rect" coords="3,2,35,17" href="/heroclix/index.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">
+  <area shape="rect" coords="39,2,80,17" href="/heroclix/teams/index.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">
+  <area shape="rect" coords="82,2,130,17" href="/heroclix/articles/index.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">
+  <area shape="rect" coords="132,2,181,17" href="/heroclix/treports/index.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">
+  <area shape="rect" coords="184,2,283,17" href="/heroclix/resources/index.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">
+</map>
+<map name="Map2">
+  <area shape="rect" coords="30,14,102,63" href="/index.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">
+</map>
+<map name="Map3">
+  <area shape="rect" coords="29,1,103,18" href="/index.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">
+</map>
+<map name="Map4">
+  <area shape="rect" coords="31,2,85,18" href="/index.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">
+</map>
+</td></tr></table>
+<table width='764' cellspacing='0' cellpadding='0' border=0>
+ <tr> 
+<td valign="top"  width='20'> 
+ <img height=3 hspace=0 vspace=0 src="/heroclix/gfx/clear.gif" width=20 border=0></td>
+<td valign="top" valign="top" bgcolor="#FFFFFF"> 
+ <img height=3 hspace=0 vspace=0 src="/heroclix/gfx/clear.gif" width=10 border=0></td>
+<td width="80%" valign="top"  bgcolor='#FFFFFF'> 
+ <!-- #BeginEditable "Body" --> 
+
+            
+<div class='main'><div class='mainheader'>Troy? Surprisingly boring</div><div class='maincontent'><font class="bfont"> From: <a href="http://www.decktech.net/lotr/main/mpage.php?member=17">neal </a></font><BR><font class="bfont"><A HREF='/heroclix/resources/buzz.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>Back to Topics List</A></font><TABLE WIDTH=100% border="0" cellpadding="6"><tr><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#FFFFFF><font class="h2font"> Comment</td></tr><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=11045">Patrick M. S™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">yeah, I was really hoping that kid wouldn&#39;t make it. Or the woman, for that matter.<br />
+<br />
+Oh man, that vice-president was so cliché too, come to think of it <br><BR><font size=1>14:11 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Knives</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">I think the audience really started to hate me when I laughed out loud at that clichéd cancer boy. And then when the rescue workers come, and Jake Gyllenhal&#39;s mom just sighs and says "I&#39;m so glad you came," and you get that close up of the happy cancer kid - oh man. I couldn&#39;t breathe I was laughing so much.<br />
+<br />
+It&#39;s weird how bad acting, if used in the right way, can salvage a bad movie. <br><BR><font size=1>14:08 06-03-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=11045">Patrick M. S™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">O&#39;Shea, man those are good points about DAT. I totally forgot about them outrunning cold air. What about when they closed the double doors in a panic to keep the AIR out of the room? OMG<br />
+<br />
+Worst part of the movie for me:<br />
+<br />
+&#39;&#39;..Just tell her how you feel.&#39;&#39;    remember? I groaned so loud in the theatre... <br><BR><font size=1>13:59 06-03-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/heroclix/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Favorite Kurosawa. Wow!<br />
+<br />
+Probably sanjuro. That&#39;s a tough tough pick. Ikiru, Yojimbo, Seven Samurai and Rashomon are all absolutely incredible, I don&#39;t even know where to begin.<br />
+<br />
+Of course Hidden Fortress is a must see. That&#39;s probably the most entertaining. Funny, action packed, countless dilemmas and narrow escapes. The princess is a babe too.<br />
+<br />
+I&#39;ve seen quite a few. Dreams is definitely one that sticks with you for years, nothing to do with samurai, just very artsy. Very disturbing in parts.  If you&#39;ve seen it, there&#39;s this part where the ghosts of a persons dead WW2 platoon appear to him... check this out. My old girlfriend Mika said that those rumors where very common in post ww2. Apparently there were many ghost sitings of soldiers who wanted to make it home.<br />
+<br />
+Stray Dog is probably the most tension filled, check that out. Mifune T just is amazing in that.<br />
+<br />
+Red Beard and the Bad Sleep Well are also really intense.<br />
+<br />
+Of the more modern ones, Kagemusha is a total keeper. Brilliant movie. Ran is interesting too, but just a bit too shakespearean for my tastes.<br />
+<br />
+They are just all so friggin good.  <br><BR><font size=1>12:52 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>Knives</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">No, no, I ENJOYED Troy, and I ENJOYED laughing at DAT... but they were terrible.<br />
+<br />
+Troy was a cool movie that I had fun watching, but on reflection, it wasn&#39;t written very well, and was also counter to the Iliad (as I recall) in that in Troy, if the trojans hadn&#39;t put so much of their faith in the gods, that plainly didn&#39;t exist in the movie, they would have been fine - whereas in the Iliad the gods play a very important role.<br />
+<br />
+DAT was just stoopid (and yes, so much so that it deserved the poor spelling of stupid). Bilbo was the only good character, and you just know that those guys he was with when they got snowed in were thinking "we&#39;re eatin&#39; you first, old man."<br />
+<br />
+Also, you can&#39;t OUTRUN cold air. Doesn&#39;t work.<br />
+<br />
+Also, what did finding his kid in the library accomplish? He got there, and was like, "Hi!" and then they all got picked up by a helicopter.<br />
+<br />
+Also - worst presidential death ever. He left the White House in his CAR?!<br />
+<br />
+Also, I think that was the first time CGI was used for BREATH.<br />
+<br />
+Still, I don&#39;t regret forking over my ten bucks at either of them. My friends and I were laughing so hard after DAT that my almost went off the QEW. <br><BR><font size=1>12:22 06-03-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=11045">Patrick M. S™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">really O&#39;Shea? I liked both movies alot (especially Troy). That sucks that you didn&#39;t like them :(<br />
+<br />
+they were so much fun.  <br><BR><font size=1>11:54 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>Knives</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Ajax was that huge guy with the hammer... the guy that pulled a Lurtz (got impaled, and shoved the spear further into himself just to get closer to his enemy).<br />
+<br />
+Both Troy and Day After Tomorrow were TERRIBLE. But Troy had some cool moments. DAT just had plot holes. <br><BR><font size=1>11:51 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">the fighting was terrible.  that stupid move brad pitt did was so annoying, this movie is suppose to historical not STREET FIGHTER!!!<br />
+<br />
+the acting was subpar and brad pitt was worse then he was in oceans 11.  man such anmovie. <br><BR><font size=1>02:38 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>Mister</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">One of the few movies I walked out of. Total time wasted: 42 minutes. <br><BR><font size=1>20:42 06-02-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=11045">Patrick M. S™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">that&#39;s true. I should prolly see it again...<br />
+<br />
+who was Ajax? <br><BR><font size=1>20:24 06-02-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>Shadow 13</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">ok, finally saw troy, and it was frimbazzeling AMAZING.  best movie i&#39;ve seen since return of the king.  the fighting was awesome, the story was better than anyone had made it out to be, the pace was right...it was just awesome.  orlando bloom did come off as a hafling, but that was to be expected (he is half woman, after all).  the fights between hector and ajax and then hector and achilles with the spears were just beyond words of coolness.  it was all i could do not to shout BAM! at hector when achilles finally did him in...definitely worth another trip to the theater. <br><BR><font size=1>18:25 06-02-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>mapleman</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">day after tomorrow had some great effects in it that you have to see in the theater, or on a plasma tv.  it had some good, tense moments in it, too.  and as long as you can laugh off the global warming & free immigration messages it tries to push on you, it can be an enjoyable movie. <br><BR><font size=1>18:08 06-02-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=11045">Patrick M. S™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">just got back from Day After Tomorrow.<br />
+<br />
+surprisingly good. Best disaster movie I&#39;ve seen in a hell of a long time <br><BR><font size=1>17:51 06-02-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">with all this film talk i have a good link for all of you.<br />
+<br />
+couple years ago BMW teamed up with some kickdirectors to make some short movies with BMW products with the likes of WOO, LEE and RITCHIE.<br />
+<br />
+check out bmwfilms.com and you can download them. <br><BR><font size=1>17:04 06-02-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">KUROSOWA is beyond any words i can think of.<br />
+<br />
+whats your favourite movie neal?  i am trying to get all of his works on criterion, but bloody expensive.  my fave is either ikiru or seven samurai or even rashomon.  bah love them all.<br />
+<br />
+when i was about 14 there was a marathon of his movies on tv.  i watched every single one they played.<br />
+ <br><BR><font size=1>16:34 06-02-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/heroclix/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">See, Top Gun was one movie i just couldn&#39;t stand. It didn&#39;t make a lick of sense to me. Just a bunch of dudes fighting and screwing.<br />
+<br />
+To each his own I guess<br />
+<br />
+Does the Day After Tomorrow not look like the most boring movie ever made? Ugh! Independence Day, Godzilla and this from the same guys. No thanks! <br><BR><font size=1>16:28 06-02-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">keep reading dude.  in england around the same time arthur is supposed to exist there was a combination of celtic and romans to form what would be one day british. <br><BR><font size=1>16:28 06-02-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/heroclix/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Jeff, thanks for the headsup on HERO. I&#39;d love to see that.<br />
+<br />
+I didn&#39;t know you were such a Kurosawa fan, buddy? I love kurosawa. <br><BR><font size=1>16:27 06-02-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>mapleman</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">"but at least there is some historical truth to it, if arthur did ever exist"<br />
+<br />
+if you don&#39;t know if king arthur even existed, how can you know if there&#39;s historical truth in the movie made about him?  could be he did exist and this movie is totally off base.  could be he didn&#39;t exist and so this movie is pure fiction. <br><BR><font size=1>16:13 06-02-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=10879">Celebrian™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Eh, it was ok... I was just bummed Legolas... I mean Paris was such a wimp. :( He should have been owning way sooner with his bow. :) <br><BR><font size=1>16:09 06-02-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">too each his own apples.<br />
+<br />
+i have never met a person to be over critical of every movie.  i do look at movies for their substance over style.  i do pay attention to lighting, cinematography, acting and script.  but the first time i watch a movie that does not come into play, of course you will notice things.  but to pick apart a film you must see it a million times.  with SW most of us have seen it many many times.  with other movies like Troy, i have seen it once and it was enjoyable to watch once.  did i notice a lot of problems with the movie? yes.  but i would need to see it again to talk more about it.  when i first saw Two Towers i hated it.  after watching my brothers dvd of it, i now own the extended dvd and it is one of my favourite movies.<br />
+<br />
+another thing is that most people mix up what others say.  people sometimes talk about what is GOOD and other times its what they LIKE.  for me i have lots of movies i LIKE but i do not consider them to be GREAT or even WELL MADE movies.  and it goes for the opposite as well.<br />
+<br />
+if you guys are looking for an epic war or fighting movie i have a couple suggestions.<br />
+<br />
+first off is a movie called Musa: The warrior.  this is like the korean version of Braveheart.  not only does the movie have a great story and acting.  but the characters are really cool, they remind me of final fantasy.  plus they all have their own unique weapons and armor.<br />
+<br />
+another movie is soon to be released in NA with the help of Quentin Tarantino, and it is HERO with Jet Li.  I saw this movie 2 years ago when it first came out, OMG it is visually stunning.  If you want to see it now, you can find all region dvds over ebay, or if you live in an urban center that has a china town, check that area out.  also  if there are any good indy rental stores you may want to check them out.<br />
+<br />
+here are another couple suggestions:<br />
+<br />
+The Emperor and Assassin<br />
+Emperor&#39;s Shadow<br />
+Romance of the Three Kingdoms TV SERIES<br />
+<br />
+but the best epic movie of all time is The Seven Samurai.  It has been copied a million times, from Braveheart to Gladiator to Sparticus.  And for a movie almost 50 years old, you cant go wrong if you are a fan of either huge epic movies or samurai movies. <br><BR><font size=1>13:57 06-01-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=11045">Patrick M. S™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">This is a cool discussion. I&#39;m a bit of both worlds. I really enjoy movies like Troy, Gladiator and Armaggedon (i&#39;m going to see Day After Tomorrow tonite and I&#39;m sure I&#39;ll like it). But I&#39;m usually feeling pretty flat after movies like Shrek 2 that everyone seems to love but I&#39;m all like, &#39;what&#39;s the big deal? This is just like the first one.&#39;<br />
+<br />
+Yet, I really really enjoy the smaller pictures. My favourite 4 movies in the last couple years are Lost in Translation, Spirited Away, Rabbit-Proof Fence and Far from Heaven.<br />
+<br />
+And then I still really enjoy the fun movies like Dawn of the Dead. (and of course all the LOTR movies). I agree that it&#39;s really important to take your thinking cap off before going to see movies like the Day After Tomorrow if you want to enjoy the movie alot more. And then other movies, like Spirited Away and Rabbit-Proof Fence, it&#39;s much more fun to really get into the movie. <br />
+<br />
+Then there are the movies that make you think TOO much (like Memento), where it&#39;s just not fun cuz I&#39;m all mentally exhausted after the film. <br><BR><font size=1>12:47 06-01-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>Joz</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">I always got irritated in English classes at high school when I thought they over-analysed books and stuff.<br />
+<br />
+If I go to a movie, I&#39;m pleased if my $A10 gets me two and a bit hours of entertainment.  I don&#39;t want to have to analyse the movie afterwards Which is why Top Gun is my favourite movie I guess - it&#39;s got some action, some stuff happens, some people fall in love, some people die, and the good guys win in the end.  I could watch that movie over and over anytime.<br />
+<br />
+The only other thing that comes close to Top Gun for repeat watching excitement is the 1989 VFL Grand Final between Hawthorn and Geelong.  Great match, with all the superstars of footy like Dunstall, Brereton (and his heroic goals), Platten, Ayres, Tuck, Dipierdomenico (played the game with one lung), Collins, Dear, Mew, Schwab, Langford and so on.... not even 8 goals from Abblett could save Geelong.<br />
+<br />
+15 years later, and socialism in the AFL has ruined it.  It&#39;s just not right for St Kilda to be undefeated after 10 rounds. <br><BR><font size=1>01:19 06-01-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=12897">No Wounds™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">I don&#39;t know what type of people you hang around with but me and my friends don&#39;t go to the movies to analyze the directors style or the cast choices. We usually go see people get killed or laugh our asses off. But thats the difference between people I guess. I look foward to movies like Troy, Gladiator, etc... while you probably go more after the stepford wives. <br><BR><font size=1>23:36 05-31-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=371">Terron™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">I would have to disagree.  Take a film class, learn analysis (which is not the same as criticism), and you will enjoy a lot of movies in a much more rewarding sense.  Of course, then a lot of movies become really pale in comparison. <br><BR><font size=1>23:26 05-31-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=12897">No Wounds™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Too many people go to the movies and think they are a critic. Just go for a couple hours of entertainment and you will enjoy alot more films. <br><BR><font size=1>22:50 05-31-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">alexander looks like complete ASSSSSS!!!!!<br />
+<br />
+king arthur is shortly.  bah, i love how they say its the true story of king arthur.  LOL.  but at least there is some historical truth to it, if arthur did ever exist.  Arthur is a symbol of unity, he is the reason for the joining of Roman culture and Celtic culture. <br><BR><font size=1>02:52 05-31-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=1361">swccguy™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">when does king arthur come out , that movie looks interesting <br><BR><font size=1>22:07 05-30-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>TheGun</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Hopefully the Alexander the Great movie will be good.  Its not really related to Troy but Alexander saw himself as Achillies.  It should be out around Christmas I think.  Its directed by Oliver Stone, which is questionable but it does have Dale Dye doing the military consulting. <br><BR><font size=1>15:05 05-30-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">yah, in the return of the king viggo is suckass.  pippin and merry where 10x better then sam and frodo.<br />
+<br />
+and about troy.  if you like greek myth, you can watch the movie once.  if you dont like it, dont bother.  this movie wanted to be too many other movies.<br />
+<br />
+if eric bana is the best actor in the movie you have a problem. <br><BR><font size=1>01:16 05-29-2004</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/heroclix/resources/buzz.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/heroclix/resources/buzz.php'><input type="hidden" name="PHPSESSID" value="30f449f2c9235544c90c3b46446b98fb" /><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value="5535"><input type='Submit'  value=' Show all Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/heroclix/main/join.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb'> become a registered member</a></font></div></div> 			
+<!-- rumors board code end --><BR>
+
+            <!-- #EndEditable -->
+</td>
+<td valign="top" valign="top" bgcolor="#FFFFFF"> 
+<img height=3 hspace=0 vspace=0 src="/heroclix/gfx/clear.gif" width=10 border=0></td>
+<td width='167' bgcolor='#E5E5E5' valign='top'>
+<center>
+  <!--  <a href="/promo/index.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb"><img src="/heroclix/gfx/theme1/contest.gif" width="160" height="20" hspace="4" vspace="4" border="0"></a>  -->
+<BR>  <div class='column'><div class='r2header'>Top Teams in last 30 days</div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1125&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>Team #153: Titans Go!</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1126&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>300 DPC Winner</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1128&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>DPC Bruiser Brawl runner-up</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1159&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>Showing off the LE&#39;s</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1182&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>Updated Cheese (Samson/ NCrawler)</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1130&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>400 DPC Master Series - 3rd Place</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1134&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>DPC IL 1st Place - KO Kings</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1129&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>700 Point DPC team</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1157&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>LE Surfer 300</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1169&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>Thundercats: 300pt Tourney</A></div><div class='sectionhead' align='right'><div class='more'><A href='/heroclix/teams/decks.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>All</A></div></div></div><img src="/heroclix/gfx/clear.gif" width="160" height="1" hspace="4" vspace="4" border="0">
+<div id="mygroups">
+<div class='column'>
+<div class='r2header'>DeckTech for Groups</div>
+DeckTech for Groups enables group leaders to develope their own online presence which helps to promote their local 
+gaming community. <br>
+<br>For more information about DeckTech for Groups or to find a specific group go <a href="../../../groups/index.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">here</a>.
+</div>
+</div></div> 
+
+
+
+
+
+
+
+
+
+
+<P><div class='column'><div class='r2header'>Top Articles in last 30 days</div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5628&view=2&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>Heroclix Artifacts!!!</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5589&view=2&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>Meta Update</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5621&view=2&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>Meta Trends...</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5591&view=2&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>Universe Starter Review - 5/7/04</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5612&view=2&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>What Meta?</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5635&view=2&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>Consider Dice Roll Percentages (with PC)</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5590&view=2&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>Building the Team: Fantastic Four</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5584&view=2&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>Why Range Doesn&#39;t Matter</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5634&view=2&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>Consider Dice Roll Percentages</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5641&view=2&PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>Review: Magog</A></div><div class='sectionhead' align='right'><div class='more'><A href='/heroclix/articles/articles.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb'>All</A></div></div></div></center>
+<BR></td>
+<td valign="top" width="0"> 
+  </td>
+ </tr>
+</table>
+  <table  width='764' cellspacing='0' cellpadding='0' border=0>
+    <tr> 
+    <td valign="top">
+      <div align="right">
+<table width="744" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+      <td width="114"><img src="/heroclix/gfx/theme1/footer1.gif" width="114" height="21" hspace="0" vspace="0" border="0" align="left"></td>
+      <td width="630" background="/heroclix/gfx/theme1/footer1_back.gif" class="footerOne"> 
+        &nbsp; &nbsp;<a href="/heroclix/index.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">Home</a> | <a href="/heroclix/teams/index.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">Teams</a> 
+        | <a href="/heroclix/articles/index.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">Articles</a> | <a href="/heroclix/treports/index.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">Reports</a> 
+        | <a href="/heroclix/resources/index.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">Player Resources</a>  </td>
+  </tr>
+  <tr>
+    <td width="114"><img src="/heroclix/gfx/theme1/footer2.gif" width="114" height="24" hspace="0" vspace="0" border="0" align="left"></td>
+      <td width="630" background="/heroclix/gfx/theme1/footer2_back.gif" class="footerTwo">&nbsp;&nbsp; 
+        <a href="/heroclix/main/about.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">About HeroClix</a> | <a href="/heroclix/main/decktech.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">About 
+        DeckTech</a> | <a href="/heroclix/main/join.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">Become a Member</a> | 
+        <a href="mailto:%20info@decktech.net">Contact Us</a></td>
+  </tr>
+    <tr> 
+      <td colspan="2" width="744" background="/heroclix/gfx/theme1/footer3_back.gif" class="footerThree">
+	  <a href="/global/terms.php?PHPSESSID=30f449f2c9235544c90c3b46446b98fb">Terms of Service</a> TM & © 2003 www.decktech.net. All Rights Reserved.
+</td>
+  </tr>
+    <tr> 
+      <td colspan="2" width="744" class="footerFour">
+ 	  This site is maintained and updated by fans of 
+          HeroClix, and is in no way affiliated with WizKids the makers of HeroClix 
+          and other fine games. We in no way claim the artwork displayed to be 
+          our own. Copyrights and trademarks for the promotional materials are 
+          held by their respective owners and their use is allowed under the fair 
+          use clause of the Copyright Law.
+<p>WizKids, LLC has sole ownership of the names, logos, artwork, marks, 
+photographs, sounds, audio, video and/or any other proprietary material 
+used in connection with the game of HeroClix. WizKids, LLC has granted 
+DeckTech.net permission to use such names, logos, and/or marks for 
+promotional and informational purposes on the DeckTech.net website, but it 
+does not endorse and is not affiliated with the DeckTech.net website in 
+any official capacity whatsoever. All WizKids characters, names, logos, 
+and distinctive likenesses are property of WizKids, LLC. 
+
+<p>©2003 WizKids, LLC. All rights reserved. MechWarrior, BattleTech, 
+BattleMech, ’Mech, MW, Mage Knight, MK, Shadowrun, HeroClix, SportsClix, 
+Creepy Freaks, Freak Out, and WizKids are trademarks of WizKids, LLC.  
+</td>
+  </tr>
+</table>
+</div><BR>
+
+</td></tr></table>	  
+</center></body><!-- #EndTemplate --></html>
+

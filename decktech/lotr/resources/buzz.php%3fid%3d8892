@@ -1,0 +1,805 @@
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Lord of the Rings Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Lord of the Rings, Gandalf, Frodo, Ring, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #111188;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; color: #111111; font-size: 8pt; font-style: normal; text-decoration: none; background-color: #FFFFFF; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.headerbg {  color: #E2DED3}
+TD.headerbg A {  color: #E2DED3}
+
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.r2body {  color: #EDE9DE}
+TD.r2body A:link {color: #A17D2D}
+TD.r2body A:active {color: #A17D2D}
+TD.r2body A:visited {color: #A17D2D}
+TD.r2body A:hover {color: #FFFFFF}
+
+TD.r2body .level1nav:link {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:active {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:visited {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:hover {  font-family: Verdana, Arial, sans-serif; color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 8pt;}
+
+input {font-family: Verdana, Arial, sans-serif; font-size: 8pt }
+select {font-family: Arial, sans-serif; font-size: 8pt }
+
+-->
+</style>
+ 
+</head>
+<body link="#111155" vlink="#CF4300" alink="#0000FF" text="#111111" margin="0" marginwidth="0" marginheight="0" background="/lotr/gfx/mom/bg.jpg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=186 hspace=0 vspace=0
+src="/lotr/gfx/mom/logoleft.gif" width=1 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=186 hspace=0 src="/lotr/gfx/mom/logoright.jpg" width=195 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">LotR TCG ======</option>
+<option value="/lotr/index.php">Home</option>
+<option value="/lotr/main/about.php">About</option>
+<option value="/lotr/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+<option value="#"></option>
+<option value="#">Themes =======</option>
+<option value="/lotr/resources/buzz.php?setheme=fellowship">Fellowship</option>
+<option value="/lotr/resources/buzz.php?setheme=moria">Balrog&Gandalf</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Lord of the Rings</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#3C402E" class="r2body" width=88%><font class="bfont">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><a href="/lotr/index.php" class="level1nav">Home</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/articles/index.php" class="level1nav">Articles</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/decks/index.php" class="level1nav">Decks</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/treports/index.php" class="level1nav">Tournament 
+      Reports</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/outfitters/index.php" class="level1nav">M.E. 
+      Outfitters</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/trade/index.php" class="level1nav">Trade</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/resources/index.php" class="level1nav">Resources</a><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%"><img src="../../global/images/home/trans.gif" width="10" height="5"></td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/rules.php">Current Rules</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/buzz.php">Buzz Board</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/cardlist.php">Card List</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/play.php">Play Online</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/download.php">Downloads</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/links.php">Related Sites</a></font></td>
+        </tr>
+      </table>
+      <br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+    </td>
+  </tr>
+</table>
+
+</font></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Auction</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#421D21" class="r2body" width=88%><font class="bfont"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">DeckTech Writers</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#152A43" class="r2body" width=88%><font class="bfont"><font size='1'></font> 
+
+</font></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Site Sponsor</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#063926" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#063926" class="r2body" width=88%><font class="bfont"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td>
+      <td bgcolor="#063926" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><BR><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Top Articles</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#421D21" class="r2body" width=88%><font class="bfont"><ol></ol> 
+</font></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> <table cellspacing=0 cellpadding=0 width="100%" border=0>
+<tr valign="top">      
+<td background="/lotr/gfx/mom/header_back.gif" height="150" valign="middle" align="center"><br>
+<a href='http://www.decktech.net/adserver/click.php?mgr=aspcode.net&id=37'><img border='0' src='http://www.decktech.net/banner/dtauctions.gif'  ></a></td></tr></table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="" valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="" valign="top"><!-- #BeginEditable "Body" --> 
+            <script language="javascript">
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+
+prev1.document.writeln(texttoshow);
+
+}
+
+function changetobold()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+linkyaddress = document.buzzboardform.texttoconvert.value;
+
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+
+function oldchangetobold()
+{
+
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+<table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr><td width=1><img src="/lotr/gfx/mom/blu_01.gif" width=6 height=6></td><td width=100% background="/lotr/gfx/mom/blu_02.gif"></td>
+<td width=1><img src="/lotr/gfx/mom/blu_03.gif" width=6 height=6></td></tr>
+<tr><td background="/lotr/gfx/mom/blu_04.gif"><img src="/lotr/gfx/mom/clear.gif" height=35 width=1></td>
+<td background="/lotr/gfx/mom/blu_05.gif" class="headerbg"><font class="h1font"><font color="#FFFFFF">General Video Game Talk</font></B></td><td background="/lotr/gfx/mom/blu_06.gif"></td></tr>
+	<tr><td background="/lotr/gfx/mom/whi_07.gif"></td>
+		<td bgcolor="#FFFFFF" background="/lotr/gfx/mom/whi_08.gif"><font class="bfont"><font class="bfont"> From: <a href="http://www.decktech.net/magic/main/mpage.php?member=2021">Cross Posting Man </a></font><BR><font class="bfont"><A HREF='/lotr/resources/buzz.php'>Back to Topics List</A></font><BR><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font><BR><font class="bfont"><A HREF='/lotr/resources/buzz.php?id=8892'><b>REFRESH THIS TOPIC</b></A></font><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#A2B1C1><font class="h2font"> Comment</td></tr><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Jedi Genius</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I didn&#39;t say it wasn&#39;t fair, I simply said it&#39;s just not a good basis for skill-based competition. <br />
+<br />
+And in Smash Bros I wasn&#39;t talking about number of kills, I was talking about beating you one on one. Which will happen. A lot.  <br><BR><font size=1>12:00 11-12-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>_Armaedes_</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Well, score has almost always been about time more than skill.  If I can play Halo 3 online for 10 hours a day, but you only have 30 minutes to play, you could get a kill every 10 seconds and to match your score I can totally suck and get a kill every . . . okay, well I can&#39;t do the math, but I don&#39;t have to be as good at the game as you to get a higher "score" if I&#39;m willing to invest more time.<br />
+<br />
+In Super Mario World, I can get a higher score than you if I&#39;m willing to, I don&#39;t know, go through that hidden level where you just get power-ups and 1-ups.  I can do that same level for 43 hours straight and have an unbeatable high score just because I spent time with the game.<br />
+<br />
+On a more specific note, if I&#39;m willing to spend more time on a game than someone else that can <i>usually</i> be equated to skill.  Luckily, even if that&#39;s not the case, there are usually achievements for doing things that only a very skilled player could do.  Like the "beat this guy without taking damage" kinds of achievements.  No amount of time is going to make a crappy player get that achievement - if you suck too bad at the game, you just can&#39;t get it.<br />
+<br />
+Smash Bros. is a place where you can kick tons of hiney for being good, but I can also kick tons of hiney even if I&#39;m bad by simply playing more mathces than you.  Statistically speaking, I will have more kills than you if I put in more time even if I&#39;m really awful at the game.<br />
+<br />
+Saying "but you can play for so much longer than me it&#39;s not faaaaaaaairrrrrrrrr!" isn&#39;t a good reason to knock achievements.  Playing longer has always rewarded players with a higher score and, hopefully, a higher skill (though the latter is definitely not always the case). <br><BR><font size=1>11:57 11-12-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Jedi Genius</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Ugh, but it&#39;s totally based on spending a lot of time with a game, not necessarily how good you are.<br />
+<br />
+Like when Ninja Gaiden 2 comes out, anyone can sit there and try and try and eventually get through the game and get the achievement for completing the game. And then I tear through the game dying only once or twice, but definitely superior at playing through the game. I&#39;m obviously better at the game, but we get the same achievements in the end. So how does that prove or show anything?<br />
+<br />
+I guess this is why I enjoy Smash Bros so much: I can actually exert my obvious dominance upon people without having to point to abstract gamerscores and crap. <br><BR><font size=1>10:54 11-12-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>_Armaedes_</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">I&#39;m so excited about Mass Effect but for some reason can&#39;t really get hyped up about Assassin&#39;s Creed.  Maybe I will get excited about it after I play a demo or something.<br />
+<br />
+As for people knocking getting achievements . . . wanting to get achievements is such a natural thing for a gamer to want to do.  In a game, you are (usually) competing for the high score.  Most points, most kills, most damage, whatever.  Achievements are exactly like that, only for ALL of your games.  You&#39;re trying to get the high score, and you&#39;re competing with EVERYONE.  I would think that would be appealing to most gamers, to see that your score is higher than someone else&#39;s.  How can a person who likes competitive online gaming not be interested in gamerscore?  It&#39;s the ultimate gaming competition. <br><BR><font size=1>10:41 11-12-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Jedi Genius</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">OXM gave Mass Effect a...<br />
+<br />
+10/10<br />
+<br />
+The Verdict<br />
++Best story ever told in a video game, period.<br />
++Innovative dialogue and gorgeous graphics combine to mesmerising effect.<br />
++Gripping action/RPG gameplay.<br />
+?Will your character really carry over to the next game? <br><BR><font size=1>07:58 11-12-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Jedi Genius</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Oh, Medal Of Honor Heroes 2 is supposed to be pretty solid too.<br />
+<br />
+But since I have a 360 with tons of shooters, I will avoid that as well. <br><BR><font size=1>07:43 11-12-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Jedi Genius</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Contra 4, Super Mario Galaxy, and likely Assassin&#39;s Creed for me. <br />
+<br />
+But if you&#39;re a Wii-only gamer, you&#39;ve at least got more options this week, with RE:Umbrella Chronicles and Raving Rabbids 2. <br />
+<br />
+I&#39;m interested to see how many games on that list get good reviews. <br><BR><font size=1>07:39 11-12-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Jedi Genius</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Games released this week:<br />
+<br />
+Xbox 360:<br />
+<br />
+    * Assasin&#39;s Creed<br />
+    * BlackSite: Area 51<br />
+    * Beowulf: The Game<br />
+    * Kane & Lynch: Dead Men<br />
+    * Need for Speed Pro Street<br />
+    * Monster Jam<br />
+    * Soldier of Fortune: Pay Back<br />
+    * America&#39;s Army: True Soldiers<br />
+    * WWE Smackdown Vs. RAW 2008<br />
+<br />
+Xbox Live Arcade:<br />
+<br />
+    * Screwjumper<br />
+<br />
+PS3:<br />
+<br />
+    * Assasin&#39;s Creed<br />
+    * Need for Speed Pro Street<br />
+    * Beowulf: The Game<br />
+    * WWE Smackdown Vs. RAW 2008<br />
+    * Uncharted Drake&#39;s Fortune<br />
+<br />
+Nintendo Wii:<br />
+<br />
+    * Super Mario Galaxy<br />
+    * Geometry Wars: Galaxies<br />
+    * Cars: Mater National<br />
+    * Spongebob: Atlantis Squarepantis<br />
+    * Medal of Honor Heroes 2<br />
+    * Need for Speed Pro Street<br />
+    * Petz Catz 2<br />
+    * Petz Horsez 2<br />
+    * Petz Dogz 2<br />
+    * Rayman Raving Rabbids 2<br />
+    * Resident Evil Umbrella Chronicles<br />
+    * Tomb Raider Anniversary<br />
+    * Smarty Pants<br />
+    * WWE Smackdown Vs. RAW 2008<br />
+<br />
+Virtual Console:<br />
+<br />
+    * Volleyball<br />
+    * Axelay<br />
+    * Blue&#39;s Journey<br />
+<br />
+PS2:<br />
+<br />
+    * Dragon Ball Z: Bodokai Tenkaichi 3<br />
+    * Fire Pro Wrestling Returns<br />
+    * Boogie<br />
+    * Dancing with the Stars<br />
+    * King of Fighters XI<br />
+    * Monster Jam<br />
+    * Petz Catz 2<br />
+    * Petz Horsez 2<br />
+    * Petz Dogz 2<br />
+    * Need for Speed Pro Street<br />
+    * Puzzle Quest: Challenge of the Warlords<br />
+    * WWE Smackdown Vs. RAW 2008<br />
+<br />
+PSP:<br />
+<br />
+    * Metal Gear Solid: Portable Ops Plus<br />
+    * Sonic Rivals 2<br />
+    * Medal of Honor Heroes 2<br />
+    * Alien vs. Predator: Requiem<br />
+    * Warhammer 40,000 Squad Command<br />
+    * WWE Smackdown Vs. RAW 2008<br />
+<br />
+Nintendo DS:<br />
+<br />
+    * Mortal Kombat<br />
+    * Are You Smarter Than a 5th Grader<br />
+    * Contra 4<br />
+    * Baby Pals<br />
+    * Foster&#39;s Home for Imaginary Friends: Imaginary Invaders<br />
+    * Cooking Mama 2: Dinner with Friends<br />
+    * Monster Jam<br />
+    * Jenga<br />
+    * Petz Catz 2<br />
+    * Petz Horsez 2<br />
+    * Petz Dogz 2<br />
+    * Need for Speed Pro Street<br />
+    * Orcs & Elves<br />
+    * Petz Hamsterz Life 2<br />
+    * Impossible Mission<br />
+    * Rayman Raving Rabbids 2<br />
+    * WWE Smackdown Vs. RAW 2008<br />
+    * Strawberry Shortcake: 4 Seasons Cake<br />
+    * Word Jong<br />
+    * Super Fruit Fall<br />
+<br />
+PC Games:<br />
+<br />
+    * Crysis<br />
+    * Beowulf: The Game<br />
+    * BlackSite: Area 51<br />
+    * EA Sports 07 Collection<br />
+    * Everquest: Secrets of Faydwer<br />
+    * Everquest II: Rise of Kunark<br />
+    * Kane & Lynch: Dead Men<br />
+    * Need for Speed Pro Street<br />
+    * Imagine: Fashion Designer<br />
+    * Petz Catz 2<br />
+    * Petz Horsez 2<br />
+    * Petz Dogz 2<br />
+    * Next Life<br />
+    * Sim City Societies<br />
+    * Soldier of Fortune: Pay Back<br />
+ <br><BR><font size=1>07:37 11-12-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Jedi Genius</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Ryan French - NO ONE CARES ABOUT DIABLO 2<br />
+<br />
+... you know, in case you thought otherwise. <br><BR><font size=1>07:34 11-12-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#A2B1C1><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=3300">Shadow 13™</a></B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">being achievement hound = collecting all unique/set items in diablo 2.  so i feel your guys&#39; pain. <br><BR><font size=1>07:25 11-12-2007</font><BR><BR><hr><img align="right" src="http://www.decktech.net/memberimages/3300rst.jpg"><br>Ryan French<br>Rebel Strike Team founder<br><i>"I&#39;m a total whore for torture porn."</i> - Patrick Sullivan</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>TacoBill</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">So out of curiosity I was reading the GH3 achievements. You two (PMS and Taylor) better hope you never get that game because some of the stuff was ridiculous.<br />
+<br />
+Examples: <br />
+-Complete all difficulties in Career, buy everything from the shop and complete 100 online matches<br />
+-5 Star all Co-op songs on Expert (which you two will likely have to do together)<br />
+-Win 500 Online Ranked matches<br />
+-Beat one of the creators of Guitar Hero 3 at their own game<br />
+-Score 1,000,000 on any song in a Co-op match (FAGS! lol)<br />
+-Play through a career on the Hard or Expert difficulty using a standard controller<br />
+-Use the Whammy Bar on every held note on Number of the Beast<br />
+-Complete Career Lefty and Righty<br />
+<br />
+Yeah, good luck. <br><BR><font size=1>00:42 11-12-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>40 Year Old Man</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Game achievements are the same as buying a sports car.  It makes your pipeweed feel bigger and gets you hafling. <br><BR><font size=1>23:04 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Jedi Genius</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I really don&#39;t understand it much either. I guess some people get enjoyment out of seeing "achievement unlocked"? <br><BR><font size=1>22:55 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>mikefrench</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">wth is up with everyone being an achievement hound?  seriously, i just dont get it. <br><BR><font size=1>22:37 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>_Armaedes_</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I just don&#39;t see how any rational human being could play Puzzle Quest for more than an hour and not realize that it is heavily luck-based.  I am a solid puzzle game player - I have what many people refer to as natural puzzle-game talent - but PQ is not a puzzle game.<br />
+<br />
+Luckily, my wife is totally addicted to it (and is actually playing it right now) so I will still get all the achievements for it.  Hooray! <br><BR><font size=1>22:13 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Douche of the Universe</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Jacob Taylor u rock my c0ck <br><BR><font size=1>21:18 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Meto</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">lol <br><BR><font size=1>20:55 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>_Armaedes_</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Well you don&#39;t have any achievements for those either so you must be a liar! <br><BR><font size=1>17:46 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Serpent</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">uh<br />
+<br />
+you know the game has been out on DS and PC for like, a year or two <br><BR><font size=1>15:35 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>_Armaedes_</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Okay, I had a strong suspicion this was just more of Serp being argumentative just for the sake of arguing, as usual, but I went ahead and checked out his gamer profile to see exactly how far he had played Puzzle Quest before quitting because it was "too easy."  Looks like he hasn&#39;t even played the game demo, much less the rest of the game.  I bet you sucked at SWCCG, too, hobbit hole. <br><BR><font size=1>15:27 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Serpent</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">i just have a hard time saying its luck based cause i never lose, i quit cause the game was way too easy.<br />
+<br />
+my comparison to swccg was more along the lines that a beginning player sees it as luck, while an experienced player doesn&#39;t. <br><BR><font size=1>10:53 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Serpent</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">sure, that&#39;s some luck, but your description is a rare event and really isn&#39;t going to swing a battle either way.<br />
+<br />
+In addition, you can pick which gems you destroy and how many new ones will fall -- I often avoid certain areas of the board if random gems will cause a certain effect.<br />
+<br />
+The game really isn&#39;t won with a couple gems here or there -- it&#39;s very spell based. <br><BR><font size=1>10:47 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>_Armaedes_</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Oh, I see - you&#39;re misunderstanding what I&#39;m saying.<br />
+<br />
+Let&#39;s say I come up with a great combo that denis my opponen the mana he needs for his spells, and also damages him, and whatever else kind of crazy crap you want to pretend is helping me in this situation.  So a bunch of gems disappear, and some brand new ones fall down, and those brand new gems are, say, three of the +5 skulls that drop around another +5 skull so that my opponent&#39;s move is to line of 4 of the +5 skulls and destroy me.<br />
+<br />
+That&#39;s luck.  If something else had fallen down, instead of the +5 skulls, it would be a different game.  And, as far as I know, neither player has control over which new gems fall down.  That - unless I&#39;m misunderstanding the definition - is what luck means. <br><BR><font size=1>10:29 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Serpent</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">you&#39;re attributing &#39;opponents choices&#39; to luck. <br><BR><font size=1>10:08 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Serpent</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">you get to pick your spells<br />
+<br />
+and which gems you destroy which can affect which mana your opponent gets<br />
+<br />
+and you can look at his spells<br />
+<br />
+and so on <br><BR><font size=1>10:07 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>_Armaedes_</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">I don&#39;t think Puzzle Quest can be related to SWCCG at all.  In SWCCG, I pick what goes into my deck.  In Puzzle Quest, it&#39;s 100% random and I have no control over it.  Therefore, Puzzle Quest involves luck, while SWCCG does not (or at least not as much). <br><BR><font size=1>08:50 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Meto</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Um, link?  Because I&#39;m not seeing anything about it other than a general, "there will be a Civ 5 at some point."  Which was said way back in March. <br><BR><font size=1>04:56 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Meto</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">drools <br><BR><font size=1>04:39 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Civilization</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Civilization 5 has been announced. Firaxis has announced that it will most likely feature a revamped system. <br><BR><font size=1>20:22 11-10-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>XjedeyeX</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">idunno for whatever reason fps games seem harder to get right on console.  <br />
+<br />
+halo series, original goldeneye, and maybe GOW are the only ones i really have liked on console <br><BR><font size=1>17:57 11-10-2007</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/lotr/resources/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/lotr/resources/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=8892><input type='Submit'  value=' Show all Posts '></form><form action='/lotr/resources/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=8892><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/lotr/main/join.php'> become a registered member</a></font></font></td><td background="/lotr/gfx/mom/whi_09.gif"></td></tr>
+<tr><td><img src="/lotr/gfx/mom/whi_10.gif" width=6 height=18></td>
+<td background="/lotr/gfx/mom/whi_11.gif"></td>
+<td><img src="/lotr/gfx/mom/whi_12.gif" width=6 height=18></td></tr>
+</table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script> 			
+<!-- rumors board code end -->
+<!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr align="center" valign="bottom" > 
+      <td height="100"><font class="lfont">This site is maintained and updated 
+        by fans of The Lord of the Rings TCG, and is in no way affiliated with 
+        New Line Cinema or Decipher Inc. We in no way claim the artwork displayed 
+        to be our own. Copyrights and trademarks for the films and other promotional 
+        materials are held by their respective owners and their use is allowed 
+        under the fair use clause of the Copyright Law.<a href="/global/terms.php" class="level1nav"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

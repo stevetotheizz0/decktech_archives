@@ -1,0 +1,793 @@
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Lord of the Rings Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Lord of the Rings, Gandalf, Frodo, Ring, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #111188;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; color: #111111; font-size: 8pt; font-style: normal; text-decoration: none; background-color: #FFFFFF; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.headerbg {  color: #E2DED3}
+TD.headerbg A {  color: #E2DED3}
+
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.r2body {  color: #EDE9DE}
+TD.r2body A:link {color: #A17D2D}
+TD.r2body A:active {color: #A17D2D}
+TD.r2body A:visited {color: #A17D2D}
+TD.r2body A:hover {color: #FFFFFF}
+
+TD.r2body .level1nav:link {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:active {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:visited {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:hover {  font-family: Verdana, Arial, sans-serif; color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 8pt;}
+
+input {font-family: Verdana, Arial, sans-serif; font-size: 8pt }
+select {font-family: Arial, sans-serif; font-size: 8pt }
+
+-->
+</style>
+ 
+</head>
+<body link="#111155" vlink="#CF4300" alink="#0000FF" text="#111111" margin="0" marginwidth="0" marginheight="0" background="/lotr/gfx/mom/bg.jpg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=186 hspace=0 vspace=0
+src="/lotr/gfx/mom/logoleft.gif" width=1 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=186 hspace=0 src="/lotr/gfx/mom/logoright.jpg" width=195 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">LotR TCG ======</option>
+<option value="/lotr/index.php">Home</option>
+<option value="/lotr/main/about.php">About</option>
+<option value="/lotr/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+<option value="#"></option>
+<option value="#">Themes =======</option>
+<option value="/lotr/articles/articles.php?setheme=fellowship">Fellowship</option>
+<option value="/lotr/articles/articles.php?setheme=moria">Balrog&Gandalf</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Lord of the Rings</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#063926" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#063926" class="r2body" width=88%><font class="bfont">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><a href="/lotr/index.php" class="level1nav">Home</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/articles/index.php" class="level1nav">Articles</a><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%"><img src="../../global/images/home/trans.gif" width="10" height="5"></td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/articles/articles.php">All</a></font></td>
+        </tr>
+      </table>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/decks/index.php" class="level1nav">Decks</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/treports/index.php" class="level1nav">Tournament 
+      Reports</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/outfitters/index.php" class="level1nav">M.E. 
+      Outfitters</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/trade/index.php" class="level1nav">Trade</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/resources/index.php" class="level1nav">Resources</a><br>
+          </td>
+  </tr>
+</table>
+</font></td>
+      <td bgcolor="#063926" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Site Sponsor</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#423210" class="r2body" width=88%><font class="bfont"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><BR><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Top Articles</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#423210" class="r2body" width=88%><font class="bfont"><ol><li><font class="bfont"><A HREF="/lotr/articles/articles.php?id=4189&view=2">TTT - Many Riddles   Pt.2</A></font></li><BR><li><font class="bfont"><A HREF="/lotr/articles/articles.php?id=4205&view=2">In the Deep End: The Raiders of Middle Earth</A></font></li><BR><li><font class="bfont"><A HREF="/lotr/articles/articles.php?id=4211&view=2">In the Deep End: Running with Isengard Trackers.</A></font></li><BR><li><font class="bfont"><A HREF="/lotr/articles/articles.php?id=4223&view=2">In The Deep End: The Anger and Fury of the Dunlendings</A></font></li><BR><li><font class="bfont"><A HREF="/lotr/articles/articles.php?id=4225&view=2">TTT: Combining Cultures/ Isengard</A></font></li><BR><li><font class="bfont"><A HREF="/lotr/articles/articles.php?id=4227&view=2">TTT: Combining Culture/ Free Peoples</A></font></li><BR><li><font class="bfont"><A HREF="/lotr/articles/articles.php?id=4175&view=2">Examining The Two Towers</A></font></li><BR><li><font class="bfont"><A HREF="/lotr/articles/articles.php?id=4181&view=2">In the Deep End: Two Towers First Impressions</A></font></li><BR><li><font class="bfont"><A HREF="/lotr/articles/articles.php?id=4186&view=2">TTT - Many Riddles   Pt.1</A></font></li><BR><li><font class="bfont"><A HREF="/lotr/articles/articles.php?id=4183&view=2">In the Deep End: Site Control!</A></font></li><BR></ol> 
+</font></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> <table cellspacing=0 cellpadding=0 width="100%" border=0>
+<tr valign="top">      
+<td background="/lotr/gfx/mom/header_back.gif" height="150" valign="middle" align="center"><br>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript></td></tr></table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="" valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr><td width=1><img src="/lotr/gfx/mom/red_01.gif" width=6 height=6></td><td width=100% background="/lotr/gfx/mom/red_02.gif"></td>
+<td width=1><img src="/lotr/gfx/mom/red_03.gif" width=6 height=6></td></tr>
+<tr><td background="/lotr/gfx/mom/red_04.gif"><img src="/lotr/gfx/mom/clear.gif" height=35 width=1></td>
+<td background="/lotr/gfx/mom/red_05.gif" class="headerbg"><font class="h1font"><font color="#FFFFFF"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Articles</td><form method='post' action=''><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Articles</option><option value='#'> </option><option value='/starwarsccg/articles/index.php3'>Star Wars: CCG</option><option value='/lotr/articles/articles.php'>Lord of the Rings</option><option value='/magination/articles/articles.php'>Magi-Nation Duel</option><option value='/swtcg/articles/articles.php'>Star Wars TCG</option></select></td></form></tr></table></font></B></td><td background="/lotr/gfx/mom/red_06.gif"></td></tr>
+	<tr><td background="/lotr/gfx/mom/whi_07.gif"></td>
+		<td bgcolor="#FFFFFF" background="/lotr/gfx/mom/whi_08.gif"><font class="bfont"><font class="h1font"> Nobody tosses an Ally<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><font size='1'>(4.33)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/lotr/main/mpage.php?member=3367'>Nathan "Bib Fortuna" Russell</A></font><font class="afont"> <a href='http://www.decktech.net/lotr/main/mpage.php?member=3367&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> August 18, 2002</font><p align='justify'><font class="bfont"> Allies. Many people love them. Others truly despise them. Whether you&#39;re in one camp or the other, you have to admit that the strategies involving allies can be quite exhilirating and fun.<br>
+<br>
+I must admit, though, when I was first starting out in the game, I simply could not see the point of Site 1 allies. The primary reason for my thinking this was because they had no way to fight; at least Site 3 and 6 allies could support your Fellowship if the minions were starting to get out of hand.<br>
+<br>
+However, once I got past that initial confusion, I have come to realize the awesome power of allies, no matter what type of Fellowship you may be using.<br>
+<br>
+Let&#39;s have a look at the list of allies currently in the game:<br>
+<br>
+Grimir, Dwarven Elder [Dwarf] Home 3 1U17----gets your Dwarven events back.<br>
+Thrarin, Dwarven Smith [Dwarf] Home 3 1U27----Mr. Speedbump!<br>
+Calaglin, Elf Of Lórien [Elf] Home 6 3U10----Pick off minions so they can&#39;t follow you.<br>
+Celeborn, Lord Of Lórien [Elf] Home 6 1R34----Keeps your Elf allies healthy.<br>
+Dínendal, Silent Scout [Elf] Home 6 3U12----Makes it so your opponent has less twilight to work with on a double move.<br>
+Elrond, Herald To Gil-galad [Elf] Home 3 3R13----Heal your companions so they can survive later.<br>
+Elrond, Lord Of Rivendell [Elf] Home 3 1R40----Draws you cards!<br>
+Erestor, Chief Advisor To Elrond [Elf] Home 3 3C14----Slows down the Sauron direct damage engine.<br>
+Galadriel, Lady Of Light [Elf] Home 6 1R45----Works well with the Mirror, plus gives you free Elves.<br>
+Galadriel, Lady Of The Golden Wood [Elf] Home 6 3R17----Heals your Elves.<br>
+Galdor, Councilor From The West [Elf] Home 3 3U18----Gets rid of tough minions so they can&#39;t follow you.<br>
+Golradir, Councilor Of Imladris [Elf] Home 3 3U20----Lets you defeat Orcs easier.<br>
+Orophin, Lórien Bowman [Elf] Home 6 1U56----Picks off Uruks!<br>
+Rúmil, Elven Protector [Elf] Home 6 1U57----Picks off Orcs!<br>
+Saelbeth, Elven Councilor [Elf] Home 3 3U25----Lets you defeat Uruks easier.<br>
+Silinde, Elf Of Mirkwood [Elf] Home 3 1U60----Copies your Site 3 text. <br>
+Uruviel, Maid Of Lórien [Elf] Home 6 1C67----Copies your Site 6 text.<br>
+Albert Dreary, Entertainer From Bree [Gandalf] Home 1 1R69----Slows down Moria and Isengard conditions.<br>
+Barliman Butterbur, Prancing Pony Proprietor [Gandalf] Home 1 1U70----Gets your Gandalf events back.<br>
+Erland, Advisor To Brand [Gandalf] Home 3 2C21----Stops, um, the Palantir and Goblin Man.<br>
+Hugin, Emissary From Laketown [Gandalf] Home 3 2C24----Gets Free Peoples cards back.<br>
+Járnsmid, Merchant From Dale [Gandalf] Home 3 2R25----Makes your equipment cheap.<br>
+Ottar, Man Of Laketown [Gandalf] Home 3 1R80----Gets useless cards out of your hand.<br>
+Bilbo Baggins, Retired Adventurer [Shire] Home 3 1R284---Gets Shire tales back.<br>
+Bilbo Baggins, Well-spoken Gentlehobbit [Shire] Home 1 2U96----Throws tales to get rid of Shadow conditions.<br>
+Bounder [Shire] Home 2 1C286----Helps keep your Hobbits alive.<br>
+Farmer Maggot, Chaser Of Rascals [Shire] Home 1 1R288----Heals Merry or Pippin.<br>
+Filibert Bolger, Wily Rascal [Shire] Home 1 2C101----Stops fierce skirmishes.<br>
+The Gaffer, Sam&#39;s Father [Shire] Home 1 1R291----Heals Frodo or Sam.<br>
+Hobbit Farmer [Shire] Home 1 1C295----Copies your Site 1 text.<br>
+Hobbit Party Guest [Shire] Home 1 1C297----Heals your Hobbit allies.<br>
+Master Proudfoot, Distant Relative Of Bilbo [Shire] Home 1 1U301----More hand manipulation.<br>
+Melilot Brandybuck, Merry Dancer [Shire] Home 1 3R110----Reduces burdens.<br>
+Old Noakes, Purveyor Of Wisdoms [Shire] Home 1 3C111----Hurts discard decks.<br>
+Rosie Cotton, Hobbiton Lass [Shire] Home 1 1U309----Heals Sam and makes him stronger.<br>
+<br>
+There you have it, all of the allies currently in the game. Quite a large selection, ain&#39;t it? <br>
+<br>
+As I see it, there are four main strategies with allies:<br>
+<br>
+1) Healing<br>
+2) Speedbumps<br>
+3) Manipulation<br>
+4) No allies for you!<br>
+<br>
+Healing decks generally have boundless Hobbit allies, and possibly the new Elrond and Galadriel. They use Party Guests to take wounds off each other, and the main forces of Farmer Maggot, The Gaffer and Rosie help keep your Hobbits nice and healthy. This decktype is often called Hobbit Hospital.<br>
+<br>
+Speedbump decks will include cards that let your allies fight, in the place of your vital companions who may perish in the fighting. Thrarin is a must in this decktype (and in any other, for that matter). The Horn of Boromir is a common card to use, as are some of the other random Events in the game.<br>
+<br>
+Manipulation decks generally mess with the gaming table. The original Elrond gives you card-drawing power, Galadriel demolishes your opponent&#39;s hand with the Mirror, and your Elven snipers decimate the minions in play. The second Bilbo, Járnsmid and even Barliman let you do some other fun things.<br>
+<br>
+No allies for you! means basically that: you don&#39;t use any allies at all, and you use cards that punish any opponents who do. There is a nifty little Site 7 that is absolutely brutal when used against any ally-heavy deck.<br>
+<br>
+Now that we&#39;ve seen some of the decktypes involving allies, let&#39;s have a look at some of the cards that help or hinder allies:<br>
+<br>
+(2) A Royal Welcome [Dwarf] 3U4<br>
+<br>
+Condition<br>
+<br>
+Plays to your support area. Regroup: Exert a Dwarf ally to heal a Dwarf companion.<br>
+<br>
+This card generally ranks high on the &quot;meh&quot; scale for me. As there are only two Dwarven allies in the game right now, one of whom is a designated speedbump, this card isn&#39;t that great.<br>
+<br>
+(0) Hand Axe [Dwarf] 2C10<br>
+<br>
+Possession*Hand Weapon STR +1<br>
+<br>
+Bearer must be a Dwarf. <br>
+This weapon may be borne in addition to 1 other hand weapon.<br>
+Archery: Discard this weapon to make the fellowship archery total +1.<br>
+<br>
+While this is not technically an ally-specific card, it can still work well. Since the card doesn&#39;t say it has to be borne by a Dwarf companion, you can still put it on an ally and discard it to add to the archery total. This may be useful if your Dwarves in play are already loaded up with weapons, or you don&#39;t have any other Dwarves in play.<br>
+<br>
+(2) Arwen, Lady Undómiel [Elf] 3R8<br>
+<br>
+Companion*Elf STR 6, VIT 3<br>
+<br>
+While you can spot 3 [Elf] allies whose home site is 3, each minion skirmishing Arwen is strength -3.<br>
+<br>
+Ai yai yai! In any heavy-ally deck, this Arwen rocks! Elrond, Silinde, Erestor, Galdor, Golradir and Saelbeth will all work for Arwen&#39;s text, and make her into the ultimate minion-killing machine. Give her Gwemigil, and she can overwhelm many minions.<br>
+<br>
+(1) Beren And Lúthien [Elf] 3U9<br>
+<br>
+Condition<br>
+<br>
+Tale. Plays to your support area. <br>
+Skirmish: Exert an [Elf] ally to discard the bottom card of your draw deck. If that card is an [Elf] card, make a minion skirmishing an Elf strength -1.<br>
+<br>
+Well, this card might be good if most of your deck is Elvish stuff, but the cost of exerting an Ally until you can find an Elvish card merely to get a -1 strength isn&#39;t worth it IMO. I prefer Gwemigil.<br>
+<br>
+(1) Forests Of Lothlórien [Elf] 3R15<br>
+<br>
+Condition<br>
+<br>
+Plays to your support area.<br>
+Each time the fellowship moves, you may spot 3 [Elf] allies to wound a minion.<br>
+<br>
+Not bad, not bad at all. Get 4 of these babies out and you will almost never have minions following you.<br>
+<br>
+(1) Friends Of Old [Elf] 3C16<br>
+<br>
+Event<br>
+<br>
+Fellowship: Reveal a card at random from an opponent&#39;s hand. Heal X [Elf] allies, where X is the twilight cost of the card revealed.<br>
+<br>
+Could be useful for making sure that Elrond can draw more cards, or that Galadriel is healthy enough to utilize the Mirror more effectively, but I don&#39;t think this card is worth it. Galadriel and Elrond can heal themselves (along with every other ally at that site) each turn, so this card loses its effectiveness.<br>
+<br>
+(1) Gift Of Boats [Elf] 1U46<br>
+<br>
+Condition<br>
+<br>
+To play, exert an Elf ally. Plays to your support area.<br>
+When the fellowship moves from a river during the fellowship phase, the move limit for this turn is +1.<br>
+<br>
+Well, considering that there are only two sites (Ford of Bruinen and Valley Of The Silverlode) in the game where this extra movement limit will be of any use, I&#39;m not sure how effective this might be. It would be nice to triple move from Site 6 for the win, but how often can you do that without your opponent&#39;s minions killing you off?<br>
+<br>
+(1) Master Of Healing [Elf] 3C22<br>
+<br>
+Event<br>
+<br>
+Fellowship or Regroup: Spot Elrond (or 2 [Elf] allies) to heal a companion or ally.<br>
+<br>
+This basically rolls the abilities of the new Elrond into a 1-cost event card, except exerting Elrond is no longer a requirement. Could be useful for making sure your guys are healthy enough to survive another turn.<br>
+<br>
+(2) The Mirror Of Galadriel [Elf] 1R55<br>
+<br>
+Possession<br>
+<br>
+Plays to your support area. Each Elf ally whose home site is 6 is strength +1. <br>
+Fellowship: If opponent has at least 7 cards in hand, exert Galadriel to reveal two of those cards at random. Discard one and replace the other.<br>
+<br>
+Ah, the cornerstone of any ally manipulation deck. This card is probably the most complained about card that exists in the game, even with the errata (there is a rumor of yet another errata being attached to this card come tomorrow, this time with the Mirror working its magic during the maneuver phase). This card has allowed numerous players to avoid big nasties like the Cave Troll, Nazgûl and other ugly Shadow cards. There are a few cards that can stop it, however: Isengard Smith, No Business Of Ours, Tower Assassin, Anduin Confluence, Memory Of Many Things and of course Terrible As The Dawn.<br>
+<br>
+(0) Nenya [Elf] 3R23<br>
+<br>
+Artifact*Ring VIT +1<br>
+<br>
+Bearer must be Galadriel.<br>
+At the start of each regroup phase, you may discard up to 2 cards from hand to draw the same number of cards.<br>
+<br>
+Well, this gives Galadriel an extra point of vitality for her nasty Mirror, and it lets you hopefully draw some good cards for your double move.<br>
+<br>
+(2) Secret Sentinels [Elf] 2R20<br>
+<br>
+Event<br>
+<br>
+Maneuver: Exert an Elf ally to discard a condition (or 2 conditions if you spot an Orc).<br>
+<br>
+This is probably the most-used condition removal card in the game. It can let you get rid of so many nasty Shadow conditions, most notably Goblin Armories, They Are Coming, Saruman&#39;s Ambition, Blade Tips and countless others.<br>
+<br>
+(1) Support Of The Last Homely House [Elf] 1U64<br>
+<br>
+Maneuver: Exert an Elf ally whose home site is 3. Until the regroup phase, that ally is strength +3 and participates in archery fire and skirmishes.<br>
+<br>
+Although this card has lost its use recently with the release of Boromir&#39;s Horn, it is still useful to call those Site 3 allies out to do your fighting for you. Also, Realms has given us many more Site 3 Elf allies, which makes this card much more useful than it was in the past.<br>
+<br>
+(1) Swan-ship Of The Galadhrim [Elf] 1U65<br>
+<br>
+Maneuver: Exert an Elf ally whose home site is 6. Until the regroup phase, that ally is strength +3 and participates in archery fire and skirmishes.<br>
+<br>
+Same as above, only it works on Site 6 allies.<br>
+<br>
+(0) Vilya [Elf] 3R27<br>
+<br>
+Artifact*Ring VIT +1<br>
+<br>
+Bearer must be Elrond.<br>
+Maneuver: Exert Elrond twice and spot a Shadow condition to return that condition to its owner&#39;s hand.<br>
+<br>
+With the ring&#39;s extra point of vitality, that means a healthy Elrond can knock off two conditions. Not the most useful of the 3 Elven rings, because Elrond&#39;s vitality is much more useful in doing other things, but temporarily removing some annoying conditions can be worth it.<br>
+<br>
+(1) A Wizard Is Never Late [Gandalf] 1R87<br>
+<br>
+Event<br>
+<br>
+Fellowship: Play a [Gandalf] character from your draw deck.<br>
+<br>
+Obviously, this card can grab you Gandalf, but it can also get some of his buddies: Albert, Barliman, Erland, Hugin, Járnsmid and Ottar. If your deck uses many Gandalf allies, this card is for you!<br>
+<br>
+(0) Horn Of Boromir [Gondor] 3R42<br>
+<br>
+Possession<br>
+<br>
+Bearer must be Boromir.<br>
+Maneuver: Exert Boromir and spot an ally. Until the regroup phase, that ally is strength +3 and participates in archery fire and skirmishes.<br>
+<br>
+So now we have a permanent ally caller, whereas in the past, all other ally callers were one-shot events. At the cost of hurting Boromir once, you can let your allies do your fighting for you. Sometimes you may want to call in Elrond or Celeborn, if you have no high-strength companions available to fight some big minions. Or you may call in some weeny Hobbit allies to throw in front of the Cave Troll or Balrog. Regardless, all this ally calling can leave Boromir a bit winded, so you need to find some ways of keeping him alive. The Saga of Elendil is great, as it gives him an extra point of vitality. If you use Lord of Gondor, Aragorn can heal him each turn. Or you can use Defender of Minas Tirith to let him heal himself. The extra vitality is of no importance, since you can throw allies in front of the extra minions that that bit of twilight can mean. The new Elrond is also quite useful for healing Boromir. If all else fails, Might of Númenor will heal him up just fine.<br>
+<br>
+(0) One Whom Men Would Follow [Gondor] 1U109<br>
+<br>
+Event<br>
+<br>
+Maneuver: Exert Aragorn and spot an ally. Until the regroup phase, that ally is strength +2 and participates in archery fire and skirmishes.<br>
+<br>
+Blah blah blah, yet another ally-calling event, this one requiring Aragorn to be exerted. This one is a tad more useful than the two Elf-calling events, as he can also bring in Hobbit and Gandalf allies.<br>
+<br>
+(1) Demands Of The Sackville-Bagginses [Isengard] 2C40<br>
+<br>
+Condition<br>
+<br>
+To play, spot an [Isengard] minion. Plays to your support area.<br>
+Each time a [Shire] ally exerts, add 1.<br>
+<br>
+This is a useful card for stopping those annoying healing allies such as Party Guests, the Gaffer, Rosie and Maggot. Heck, even Bilbo will have a tough time with this card around.<br>
+<br>
+(4) Isengard Smith [Isengard] 3U60<br>
+<br>
+Minion*Orc STR 8 VIT 3<br>
+<br>
+Regroup: Exert this minion to discard a weapon (or all Free Peoples possessions if you can spot 5 companions).<br>
+<br>
+This minion is awfully expensive, but if you can keep him alive, he&#39;s well worth it. If he survives to the Regroup phase and there&#39;s 5 companions out, you can get rid of the Mirror, which can be quite fun.<br>
+<br>
+(0) No Business Of Ours [Isengard] 2C44<br>
+<br>
+Condition<br>
+<br>
+To play, spot an [Isengard] minion. Plays to your support area. The Free Peoples player may not look at or reveal cards in any Shadow player&#39;s hand.<br>
+<br>
+Yet another Mirror-halting card. Yay!<br>
+<br>
+(1) No Ordinary Storm [Isengard] 1U130<br>
+<br>
+Condition<br>
+<br>
+Plays to your support area.<br>
+Each time you play a weather condition, exert a [Gandalf] companion or [Gandalf] ally.<br>
+<br>
+Yet another &quot;meh&quot; card. Merely exerting them won&#39;t do to much. Now, if this *wounded* a Gandalf character, this could see some play.<br>
+<br>
+(2) Uruk Raider [Isengard] 3C74<br>
+<br>
+Minion*Uruk-hai STR 6 VIT 2<br>
+<br>
+Damage +1.<br>
+While an ally is in the dead pile, this minion is strength +3 and fierce.<br>
+<br>
+So, kill an ally and you get a fierce, 9-strength minion. Very nasty when used against Horn decks, or if your Tower Assassin has had a little fun.<br>
+<br>
+(1) Bitter Hatred [Moria] 1U164<br>
+<br>
+Event<br>
+<br>
+Archery: Spot a [Moria] archer to wound an Elf.<br>
+<br>
+This could be useful in picking off an exhausted Elrond or Galadriel. But don&#39;t forget that it can also work against Legolas or Arwen. ;)<br>
+<br>
+(2) Goblin Warrior [Moria] 1C185<br>
+<br>
+Minion*Orc STR 6 VIT 1<br>
+<br>
+When you play this minion, you may discard a [Dwarf] ally or [Dwarf] condition.<br>
+<br>
+This will get rid of Thrarin and Grimir, removing Thrarin&#39;s annoying speed-bump ability.<br>
+<br>
+(5) Beauty Is Fading [Ringwraith] 1R205<br>
+<br>
+Event<br>
+<br>
+Maneuver: Exert a Nazgûl to discard a Free Peoples possession or Free Peoples condition. If you can spot no such card, discard an ally or companion (except the Ring-bearer) instead.<br>
+<br>
+This card costs as much as most Nazgûl, but it can sometimes be worth it to get a chance to eliminate annoying guys. <br>
+<br>
+(1) Fear [Ringwraith] 1R212<br>
+<br>
+Event<br>
+<br>
+Search.<br>
+Maneuver: Exert your Nazgûl to discard an ally.<br>
+<br>
+If you&#39;re looking to get rid of allies, this basically does the same thing as Beauty Is Fading, although at a much cheaper cost.<br>
+<br>
+(0) Their Power Is In Terror [Ringwraith] 1U226<br>
+<br>
+Event<br>
+<br>
+Maneuver: Exert a Nazgûl to wound every ally.<br>
+<br>
+In terms of getting rid of allies, this is probably the king among all Ringwraith cards. You can eliminate Elrond, Galadriel and all of those lovely Hobbit allies in one fel swoop. Yay!<br>
+<br>
+(6) Ulairë Attëa, The Easterling [Ringwraith] 2U82<br>
+<br>
+Minion*Nazgûl STR 12, VIT 3<br>
+<br>
+Twilight.<br>
+When you play Ulairë Attëa, you may wound an ally.<br>
+<br>
+This guy&#39;s got a permanent, albeit reduced, Their Power Is In Terror built into him. He is also very useful in eliminating Elrond, as he&#39;ll almost always be exhausted when it comes time for minions to be played.<br>
+<br>
+(2) Memory Of Many Things [Sauron] 2C88<br>
+<br>
+Event<br>
+<br>
+Maneuver: Exert a [Sauron] Orc to discard an ally (or 2 [Elf] allies).<br>
+<br>
+Since this card doesn&#39;t kill the allies outright, this will only temporarily get rid of some, since they can be played again later. But it&#39;s a nice little reprieve from all the rampant allies.<br>
+<br>
+(1) Our List Of Allies Grows Thin [Sauron] 3R102<br>
+<br>
+Condition<br>
+<br>
+To play, exert a [Sauron] minion. Plays to your support area.<br>
+Each time the fellowship moves, add 1 for each ally you can spot.<br>
+<br>
+Suddenly, all of those allies act like extra members of your opponent&#39;s fellowship, giving you lots more twilight, and we all know how strapped for twilight Sauron can be.<br>
+<br>
+(0) Terrible As The Dawn [Sauron] 3R103<br>
+<br>
+Event<br>
+<br>
+Maneuver: Spot a [Sauron] minion to wound Galadriel 3 times. The Free Peoples player may discard 2 Elves to prevent this.<br>
+<br>
+Bye-bye Galadriel! Of course, a smart Mirror player will simply discard 2 Elves (like Elrond and Galadriel) and simply play another copy of them later. But it&#39;s a fun surprise to kill her off if there aren&#39;t enough expendable Elves in play yet.<br>
+<br>
+(4) Tower Assassin [Sauron] 2R93<br>
+<br>
+Minion*Orc STR 11, VIT 3<br>
+<br>
+Maneuver: Exert Tower Assassin to wound an ally.<br>
+<br>
+This is a must in any anti-ally deck, no matter which Shadow culture you&#39;re running. He can eliminate so many annoying allies for you it&#39;s not even funny. Combine him with Uruk Raiders for even more fun.<br>
+<br>
+(0) Why Shouldn&#39;t I Keep It? [Sauron] 3R105<br>
+<br>
+Event<br>
+<br>
+Maneuver: Spot a [Sauron] minion to discard Bilbo. The Free Peoples player may discard 2 Free Peoples conditions to prevent this.<br>
+<br>
+Sure, it may be fun to get rid of Bilbo, but there are other cards that are more efficient. If you&#39;re that interested in getting rid of him, why not make it permanent with a Tower Assassin?<br>
+<br>
+(0) Consorting With Wizards [Shire] 2R97<br>
+<br>
+Condition<br>
+<br>
+Tale. Bearer must be Bilbo. <br>
+Bilbo may not take wounds (except during the archery phase).<br>
+Fellowship or Regroup: Exert Bilbo or discard this condition to remove 1.<br>
+<br>
+This is a fun card to put into a Horn deck. If you can call Bilbo in with the Horn, he will survive the fight, providing he is not overwhelmed.<br>
+<br>
+(0) Frodo, Old Bilbo&#39;s Heir [Shire] 1R289<br>
+<br>
+Companion*Hobbit STR 3, VIT 4<br>
+<br>
+Ring-bearer (resistance 10).<br>
+At the start of each of your turns, you may heal a Hobbit ally.<br>
+<br>
+He&#39;s a must in any Hobbit deck. He can keep those healing Hobbits (you know who they are) nice and healthy. And Frodo can also heal Bounders, who can&#39;t be touched by Party Guests.<br>
+<br>
+(1) Merry, Horticulturist [Shire] 2C104<br>
+<br>
+Companion*Hobbit STR 3, VIT 4<br>
+<br>
+Fellowship: Exert Merry to play Farmer Maggot from your draw deck.<br>
+<br>
+Well, you can hurt Merry once and bring out the Farmer, who can in turn heal Merry, so this is well worth it if you need the Farmer out ASAP.<br>
+<br>
+(2) Red Book Of Westmarch [Shire] 2R113<br>
+<br>
+Possession<br>
+<br>
+Tale. Plays to your support area. <br>
+Each time you play a tale, you may spot Bilbo to draw a card.<br>
+<br>
+Notice how this is not limited to Shire tales, so you can play your Elf or Gondor tales and draw cards at will. Just beware of the Rule of 4.<br>
+<br>
+(2) Stone Trolls [Shire] 1R314<br>
+<br>
+Condition<br>
+<br>
+Tale. To play, spot Bilbo. Plays on any character. Limit 1 per character.<br>
+Each time bearer skirmishes a Troll or Uruk-hai, bearer is strength +3.<br>
+<br>
+I&#39;m not sure why the Uruk-hai clause is in here, as they have nothing to do with a trio of frozen trolls sitting in the middle of a forest. Oh well. This gives a companion a much needed strength bonus when fighting those nasty Uruks or the Cave Troll.<br>
+<br>
+(0) Three Monstrous Trolls [Shire] 3C114<br>
+<br>
+Condition<br>
+<br>
+Tale. Plays to your support area.<br>
+Response: If a Shadow card is about to add any number of twilight tokens, exert a Hobbit ally to prevent this.<br>
+<br>
+This card is absolutely brutal against Moria, but it is also helpful against Sauron and Isengard too. Hobbit Hospital decks should have plenty of vitality available among the Hobbit allies, so you can stop twilight addition at will.<br>
+<br>
+(Site 1) Bag End 1U319<br>
+<br>
+Fellowship: Exert a Hobbit to play The Gaffer from your draw deck.<br>
+<br>
+As with Merry above, if the Hobbit you exert is Frodo or Sam, The Gaffer can heal that right up.<br>
+<br>
+(Site 1) Hobbiton Party Field 2U115<br>
+<br>
+Fellowship: exert a Hobbit to play Bilbo from your draw deck.<br>
+<br>
+If your deck depends on getting Bilbo out early (like for Red Book or Stone Trolls), this site is for you.<br>
+<br>
+(Site 1) Town Center 2C117<br>
+<br>
+Fellowship: Play a [Shire] ally to draw a card.<br>
+<br>
+Card drawing power is always good. If you want to keep this site&#39;s text around for later on in the game, Hobbit Farmer will switch it from your opponent&#39;s site, and copy the site&#39;s text so you can play-and-draw for as long as the Farmer lives.<br>
+<br>
+(Site 6) Lothlórien Woods (3) 1U352<br>
+<br>
+Forest. Sanctuary. Each ally whose home site is 6 is strength +3.<br>
+<br>
+If you need your allies to fight and survive, this is a fantastic choice. a Strength-9 Celeborn is nothing to sneer at. Plus, you can even use the Horn while you&#39;re at Site 6 to make them +3.<br>
+<br>
+(Site 7) Anduin Confluence (6) 1U353<br>
+<br>
+River. When the fellowship moves to Anduin Confluence, discard every ally.<br>
+<br>
+The bane of all ally-intensive decks, and the choice Site 7 for any deck that doesn&#39;t use allies. Fortunately, the allies can be played again later.<br>
+<br>
+Well, there you have it. I have gone through the entire library of cards searching for anything that relates to allies. I&#39;d say the most commonly-used ally is Thrarin, since he is such a fantastic speed bump. He simply costs 1 and he sits off to the side, ready to sacrifice himself to the Cave Troll, Balrog, Witch-king or Lurtz. So when you watch the movie and Gimli says &quot;Nobody tosses a Dwarf!&quot;, you can then shout &quot;Except for Thrarin!&quot;<br>
+<br>
+Whether you stock your deck almost entirely of allies, or you despise them so much that you devote half of your Shadow deck towards defeating them, you have to admit that many of them can be quite powerful and devastating. If they weren&#39;t, then there wouldn&#39;t be so many Shadow cards designed to hurt them. Each ally has his or her own specific use, and nearly all of them are worthy of putting in the appropriate deck. They may not do a lot of fighting for your Fellowship (unless of course that&#39;s what your deck is designed to do), but they can make it so the Fellowship you do have is perfectly oiled so that you can pull off the win. <br></font><BR><font class="bfont"> <A HREF='/lotr/articles/articles.php?id=3982&view=1'>Read the Reviews</a><font class="bfont"> | <A HREF='/lotr/articles/articles.php'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/lotr/main/join.php'> become a registered member</a></font></font></td><td background="/lotr/gfx/mom/whi_09.gif"></td></tr>
+<tr><td><img src="/lotr/gfx/mom/whi_10.gif" width=6 height=18></td>
+<td background="/lotr/gfx/mom/whi_11.gif"></td>
+<td><img src="/lotr/gfx/mom/whi_12.gif" width=6 height=18></td></tr>
+</table>
+<!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr align="center" valign="bottom" > 
+      <td height="100"><font class="lfont">This site is maintained and updated 
+        by fans of The Lord of the Rings TCG, and is in no way affiliated with 
+        New Line Cinema or Decipher Inc. We in no way claim the artwork displayed 
+        to be our own. Copyrights and trademarks for the films and other promotional 
+        materials are held by their respective owners and their use is allowed 
+        under the fair use clause of the Copyright Law.<a href="/global/terms.php" class="level1nav"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

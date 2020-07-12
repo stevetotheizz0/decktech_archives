@@ -1,0 +1,632 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action=""><input type="hidden" name="PHPSESSID" value="0a7a0cfb81258bb057790461d5e3ad7e" />
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php?PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php?PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e" class="level1nav">Articles</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/articles/articles.php?PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e">All</a> &nbsp;<br>
+
+</div>
+
+
+<a href="/starwarsccg/decks/index.php?PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php?PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e" class="level1nav">Reports</a><br>
+
+  <a href="/starwarsccg/academy/index.php?PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php?PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php?PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 2 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'><b>Star Wars CCG</b><br><a href='/starwarsccg/featured/taylor.php?PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e'>2007-01-23 Scott Lingrell</a><br></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6461&view=2&PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e">Plastoid Armor (v)</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6467&view=2&PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e">Mr. Pistone Interviews Brian Fred</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6468&view=2&PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e">Mr. Pistone Interviews Brian Hunter</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6470&view=2&PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e">Top 10 Things To Know About Virtual Set 12</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6465&view=2&PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e">February Top 20</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6455&view=2&PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e">What the Trade Federation Did Right</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6459&view=2&PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e">Are there any SWCCG players in the Virginia area?</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6462&view=2&PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e">Subway is good aka I like Pizza done RIGHT</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6469&view=2&PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e">Who wants to be a star war millionaire?</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6460&view=2&PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e">notes from Thaddeus Chenoweth...</A></font></li><BR></ol> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<a href='http://www.decktech.net/adserver/click.php?mgr=aspcode.net&id=26'><img border='0' src='/banner/3.gif'  ></a>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Articles</td><form method='post' action=''><input type="hidden" name="PHPSESSID" value="0a7a0cfb81258bb057790461d5e3ad7e" /><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Articles</option><option value='#'> </option><option value='/starwarsccg/articles/index.php3'>Star Wars: CCG</option><option value='/vs/articles/index.php'>Marvel VS</option><option value='/heroclix/articles/articles.php'>HeroClix</option><option value='/lotr/articles/articles.php'>Lord of the Rings</option><option value='/magic/articles/articles.php'>Video Games and Movies</option><option value='/wars/articles/articles.php'>Wizards Minis</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> Mr. Pistone Interviews Brian Hunter<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(5.00)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=2349'>Michael "Pistone" Pistone</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=2349&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> February 1, 2007</font><p align='justify'><font class="bfont"> 1. First, I want to thank you for your time Brian. Your success at SWCCG has been well documented, but can you give us a brief overview of some of your most major accomplishments?<br />
+<br />
+Well, I&#39;ve won nearly every type of major event the<br />
+game offers (Regional Championship, Grand Slam, State<br />
+Championship, Open, etc.) In my 5 trips to the World<br />
+Championships, I posted a winning record all 5 times<br />
+and placed in the Top 4 three times. In 10 DPC<br />
+appearances, I cashed in all 10, and took 1st place in<br />
+seven of them. But more important than any of that<br />
+stuff, I held the #1 rank in the World, uninterrupted,<br />
+for over 4 years, and all the way up until the Ratings<br />
+System was replaced with a new one.<br />
+<br />
+2. Of all of your major tournament finishes, which is the one you are most proud of, either because of the competition, or because of your own personal success?<br />
+<br />
+Probably the first DPC I won, in Las Vegas. At that<br />
+time, TJ Holman and I were the only two players to<br />
+have won a DPC yet, and it was considered a pretty big<br />
+deal. The final 4 of that event was pretty solid too,<br />
+as it included myself, Kyle Craft, and Jonny Chu, and<br />
+all 3 of us were ranked in the Top 5 at the time.<br />
+<br />
+3. You recently wrote a series of articles about the most influential players in the game&#39;s history, and this certainly sparked some interest in the game by former players. What was your motivation for writing this?<br />
+<br />
+Popular demand. On a message board, people were<br />
+discussing a certain player (I don&#39;t recall who) and I<br />
+made a comment about how the guy was good, but<br />
+&quot;wouldn&#39;t make my all time Top 25&quot;. The comment<br />
+wasn&#39;t intended to mean that I&#39;d ever actually sat<br />
+down and decided exactly who would and would not be in<br />
+my all time Top 25, but apparently that&#39;s what people<br />
+THOUGHT I had meant. 3 people quickly posted to the<br />
+thread that they would be interested in seeing that<br />
+Top 25. I then received emails from a few other<br />
+players saying that they too would be curious to see<br />
+what my Top 25 would look like. So, because of all<br />
+that, I decided to compose the articles (though it<br />
+ended up being a Top 20 list instead of 25.)<br />
+<br />
+4. Your articles sparked significant debate. Some of the more popular arguments were that Yannick Lapointe was not rated highly enough, and that Kyle Craft was rated too high. To your credit, you said that your own personal bias would influence your ratings very significantly. Do you think the opinion that Yannick deserves a higher placing than Kyle Craft has any merit?<br />
+<br />
+Sure, why not? Any number of opinions could &quot;have<br />
+merit&quot;, but they&#39;d still be opinions, and nothing<br />
+more. The opinion that Yannick deserves a higher<br />
+placing than Kyle &quot;has merit&quot;, but it is not my<br />
+opinion, and like you say, I warned people that while<br />
+the list would factor in certain things that are<br />
+unquestionably true (major event finishes, and<br />
+ratings,) it would also be, in part, based on my<br />
+personal views. Just as ANY such list would be based<br />
+in part on the author&#39;s views. There is no other way<br />
+to do it. I&#39;ve had occasion to watch ALL the players<br />
+in my Top 10 play the game, and there&#39;s no way that I<br />
+could NOT have drawn conclusions about who played it<br />
+better. Fact: Yannick had more major tournament<br />
+success than Kyle did. Fact: Kyle consistently had a<br />
+higher rating than Yannick did. Opinion: I believe<br />
+Kyle built better decks than Yannick did. Opinion: I<br />
+believe Kyle was a stronger player at the table than<br />
+Yannick was. Based on those factors, I gave Kyle the<br />
+(narrow) edge on the list. But I have no problem<br />
+admitting that the two things I listed as &quot;opinion&quot;<br />
+are exactly that, opinions. But I promise you that<br />
+ANY person who has a differing opinion on either of<br />
+those issues, could never PROVE my opinion to be<br />
+wrong.<br />
+<br />
+5. I was very surprised when you referred to Jonny Chu as one of the luckier players in SWCCG. What did you mean by that?<br />
+<br />
+It wasn&#39;t something I had said myself, so there was<br />
+nothing I could have &quot;meant&quot; by it. I was repeating<br />
+information I had received from other sources. The<br />
+article doesn&#39;t say that Chu is lucky. It says that<br />
+one or more players who competed against him when he<br />
+was in New York have described him as lucky. And it<br />
+says that one or more of the players who competed<br />
+against him while he was in Tennessee said the same<br />
+thing. I&#39;ve never played him in NY or TN, so the<br />
+comments were not my own. I don&#39;t think the article<br />
+leads the reader to believe that I am calling him<br />
+lucky, nor do I think the article attempts to<br />
+substantiate the claims that Chu is &quot;lucky&quot; (not that<br />
+such a thing could be easily proven anyway.)<br />
+<br />
+6. You took some time off from SWCCG, but came back and had strong finishes on all three days of the world championships this year. Were you following the game during your hiatus, or did you have a &quot;crash-course&quot; with all of the new cards?<br />
+<br />
+I was not following the game during my hiatus, so in<br />
+the weeks leading up to the world championships, I<br />
+read up on the message boards to see what the &quot;hot&quot;<br />
+decks were that people were discussing, and checked<br />
+out a few of the tournament reports and decklists from<br />
+events that had taken place recently. Certainly I<br />
+could have put a LOT MORE effort into all that stuff,<br />
+but I felt like the little bit of looking around I&#39;d<br />
+done, had let me put my finger on the pulse of the<br />
+meta well enough to squeak by.<br />
+<br />
+7. You lost to Nate Meeker in the World Championship final this year, what are your thoughts about him as a player?<br />
+<br />
+Tough to say. I don&#39;t think I&#39;ve ever watched him<br />
+play outside of the 2006 World Championship, so it<br />
+would be difficult to try and sum the guy up from just<br />
+one event. We played once on Day 2 and three times on<br />
+Day 3, and we split the games 2-2, but I didn&#39;t get a<br />
+chance to observe any of his other matches. Certainly<br />
+anyone who saw the Final Confronation knows that he<br />
+didn&#39;t play very well during it, particularly in the<br />
+2nd game, and he took quite a LOT of flak from his<br />
+Team Ohio comrades immediately after that game, for<br />
+taking what should have been a relatively comfortable<br />
+win, and turning it into a true nail-biter due to all<br />
+his errors. What those people didn&#39;t know is that he<br />
+had made some of those same errors when we&#39;d played<br />
+the matchup during the swiss style. But that surely<br />
+doesn&#39;t guarantee that Nate Meeker is a weak player.<br />
+Every player makes mistakes, I&#39;ve made some at key<br />
+moments myself before. Maybe the pressure of the<br />
+moment was getting to him (I don&#39;t know if he really<br />
+has much Final Confrontation experience) or maybe he<br />
+wasn&#39;t familiar enough with the decks he used that day<br />
+to be aware of all the relevant gametext, or maybe he<br />
+just came into the Event cold/rusty, having not<br />
+playtested in a while. Any number of things could<br />
+have contributed to him playing poorly, and he may be<br />
+a GREAT player most of the time. In fact, I think his<br />
+playing skills are regarded very highly by his<br />
+teammates. If I&#39;m not mistaken, I&#39;d heard at least<br />
+two of them say he was the best player of their 4<br />
+members, BEFORE worlds went down.<br />
+<br />
+8. On that note, who do you think are the top 5 players currently playing SWCCG, either in order, or not?<br />
+<br />
+I&#39;d only be guessing, since there are several people that I haven&#39;t observed at all in over 3 years. But if I were going to guess, then I suppose I&#39;d say (in no order) myself, Bastian, Chu, Steven Lewis, and Reid Smith.<br />
+<br />
+9. Alright, once and for all are we going to beseeing you in Philly for the Match Play?<br />
+<br />
+No.<br />
+<br />
+10. As you are aware, the past few virtual sets before V-12 underwent a major overhaul through errata, the redux, and finally the re-edit. What are your thoughts about V-12 and the direction of design by the player&#39;s committee?<br />
+<br />
+I think that the new direction of design is going to<br />
+do an excellent job of keeping the number of &quot;broken<br />
+cards&quot; that ever see the light of day very LOW. From<br />
+what I understand, there are a great deal of<br />
+restrictions placed on the &quot;player creators&quot;, and a<br />
+lot of checks and balances in place to make sure that<br />
+overpowered cards will not slip through unnoticed.<br />
+This &quot;better safe than sorry&quot; approach might make a<br />
+large portion of the vcards somewhat lackluster (I<br />
+don&#39;t personally feel that there is a lot in v12 that<br />
+will make people just jump out of their seats to try<br />
+it as soon as possible) but it also gives the game a<br />
+more relaxed feel, which is something I think a game<br />
+that is officially out of print SHOULD have. I don&#39;t<br />
+think most players will feel pressured to take all the<br />
+new super-strong cards and playtest them in every<br />
+possible combination, in order to find the super hot<br />
+broken-ness that will help them crush their opponents<br />
+who were unfortunate enough to have only discovered<br />
+the super lukewarm broken-ness. Everyone can calm<br />
+down. It is the same game after v12 that it was<br />
+before v12, only with a few new options and a few new<br />
+counter-options. No &quot;OMG WTF they killed SWCCG!&quot;<br />
+cards like Drop(v) or Thrown Back(v) which make you<br />
+feel like you are doing something completely<br />
+unfamiliar to you, even if you had played the game for<br />
+half a dozen years already.<br />
+<br />
+11. Okay, so when you go to the Match Play, are you going to be rocking a &quot;Huntawarya&quot; Tony Romo jersey?<br />
+<br />
+Still not expecting to go to the Match Play. And I&#39;ve never owned a Tony Romo jersey.<br />
+<br />
+12. You have had a few feuds with some of the more notable players in SWCCG, including Hayes Hunter and most recently Brandon Schele. What was the source of these disagreements?<br />
+<br />
+They were exhaust pipees.<br />
+<br />
+13. I make jokes about your experiences with brown recluses. Can you summarize the story for our readers, and have you had any recent encounters?<br />
+<br />
+That&#39;s a long story. Let&#39;s see, this would have<br />
+been about 3 days before the VS Pro Circuit in SoCal.<br />
+I wake up and see that I have a red mark on my face,<br />
+left of my nose. Looks kinda like a spider bite, so I<br />
+figure I must have been bitten in my sleep (which is<br />
+when most spider bites occur, as people turn over in<br />
+their sleep and the spider thinks it needs to bite in<br />
+self-defense before it gets crushed.) I&#39;d had my<br />
+share of spider bites before so I don&#39;t think too much<br />
+of it. The next day, I see a spider running along the<br />
+floor of my bedroom, and I grab a hardcover book to<br />
+smash him with. I get a pretty good look at the thing<br />
+before I destroy it, and disturbingly it appears to<br />
+have the classic markings of a Brown Recluse Spider.<br />
+Not good, as the Brown Recluse is one of the deadliest<br />
+spiders found in North America. And while Colorado is<br />
+not a place where you *commonly* find a Brown Recluse,<br />
+it IS one of the states where they are known to show<br />
+up from time to time. They say that if you&#39;re bitten<br />
+by a spider and then find the spider, you are supposed<br />
+to take it (or its corpse) to a doctor so it can be<br />
+identified. But the book I used has turned the<br />
+spider&#39;s remains into something that couldn&#39;t even be<br />
+identified as a spider, much less a Brown Recluse.<br />
+Well, I just won&#39;t worry about it. I already have my<br />
+(non-refundable) ticket to Cali, I don&#39;t need some<br />
+doctor telling me that it would be better for me to<br />
+cancel my trip, &quot;just in case&quot;. Besides, the mark on<br />
+my face doesn&#39;t look that bad, so maybe it wasn&#39;t a<br />
+Brown Recluse. Or maybe he just bit me but didn&#39;t<br />
+inject any venom. Or not enough venom to be a<br />
+problem, anyway. After all, it didn&#39;t really hurt<br />
+that bad, how big a deal could it be, right?...Right?<br />
+<br />
+<br />
+Flash forward to the 2nd day of my trip. The &quot;mark&quot;<br />
+from the spider bite has opened up, creating (I don&#39;t<br />
+know how else to put it) a HOLE in my FACE. Some kind<br />
+of weird greasy fluid is welling up out of the wound.<br />
+It is almost clear, but has a slight yellowish-orange<br />
+tint to it. Don&#39;t know what the hell it is, but when<br />
+it gets on the skin that surrounds the hole, the skin<br />
+DIES. And the destruction of that skin causes the<br />
+hole in my face to slowly but continuously expand, as<br />
+the fluid seems to act like some kind of flesh-eating<br />
+acid that just won&#39;t stop spreading. I&#39;ve got<br />
+absolutely searing pain in the whole area. It feels<br />
+like there is a fire burning inside my face. I&#39;m<br />
+feverish, I&#39;m having dizzy spells, and I throw up a<br />
+time or two. The wound looks like...nothing I&#39;ve seen<br />
+before. The flesh underneath where my skin SHOULD be<br />
+is colors that you&#39;d hope your flesh would never be,<br />
+and there&#39;s all kinds of blood and pus in there. It&#39;s<br />
+the most disgusting thing I&#39;ve ever seen first-hand on<br />
+a human being. Now I&#39;ve seen some revolting things on<br />
+Forensic Files, or in Medical Books, or in horror<br />
+movies, but as far as anything I&#39;ve ever seen IN<br />
+PERSON, this takes the cake.<br />
+<br />
+Anyway, I strongly consider heading home early, or<br />
+hitting up a local emergency room, but I gut it out,<br />
+and survive the trip without treatment. Treatment I<br />
+seek as soon as I&#39;m home. It takes nearly 4 months<br />
+before my face heals to the point that I am again able<br />
+to walk around without something to cover the wound.<br />
+About 2 months after THAT, the whole thing seems to be<br />
+starting up all over again. Hole opens up in my face,<br />
+fluid wells out of the wound, fluid gets on the skin<br />
+around the wound, that skin dies, and the wound gets<br />
+wider. So I head back to the medical professionals,<br />
+and they say &quot;yeah, that happens sometimes&quot;.<br />
+Apparently there will sometimes be a pocket of venom<br />
+that gets hidden away underneath your skin. And then<br />
+if something happens that disturbs the pocket, then<br />
+the little bubble of venom bursts open inside of you<br />
+and Round 2 begins. With the help of those medical<br />
+professionals, I am able to conquer Round 2 of the<br />
+flesh-eating acid in only 6 weeks. I do have<br />
+permanent scarring damage on my face from my run-in<br />
+with the Brown Recluse, but &quot;you oughta see the other<br />
+guy!&quot; I&#39;m still here today, and I reduced him to a<br />
+little puddle of goo. Score one for humanity. And<br />
+no, there have been no recent encounters. But I AM<br />
+glad that this little story about one of the most<br />
+horrible things to have ever happened to me in life,<br />
+is so amusing for you Mike!<br />
+<br />
+14. The player&#39;s committee has banned clear sleeves, which were widely abused in the game for a long time. I overheard you making a comment after winning your last game of worlds, to make the top two, along the lines of it does not matter what sleeves you use to win with, and that you have silenced your doubters. Do you care to elaborate on this any?<br />
+<br />
+I don&#39;t remember having said something like that.<br />
+And I don&#39;t find it to sound like anything I would<br />
+have said. I don&#39;t think people genuinely expected a<br />
+&quot;no clear sleeves&quot; environment to have any effect on<br />
+my ability to win games. If they did, that&#39;s their<br />
+problem, not mine, and I sure wasn&#39;t going to go into<br />
+Worlds having the mentality that &quot;I&#39;ll show them!<br />
+I&#39;ll prove that I am still a great player with or<br />
+without clear sleeves!&quot;, because I honestly don&#39;t care<br />
+what they think about me, about clear sleeves, or<br />
+about the combination of the two. I don&#39;t have<br />
+anything to prove to anyone. I was there to have fun,<br />
+not to silence doubters. As a side note, I think you<br />
+are mistaken about the PC having banned clear sleeves.<br />
+I think they are only banned for &quot;Championship Level<br />
+Events&quot;, and are still perfectly legal at all other<br />
+times (when they continue to be &quot;used&quot;, and not<br />
+&quot;abused&quot;.)<br />
+<br />
+15. You have also said that one of your favorite things to do is smack talking. Do you have any smack you wish to<br />
+deliver here?<br />
+<br />
+Nah, I said one of my favorite things to do is<br />
+argue, not talk smack. I can be perfectly happy<br />
+arguing with someone about something that has nothing<br />
+to do with them personally. I don&#39;t have to be<br />
+insulting them or their character, I just enjoy being<br />
+in disagreements. I like the challenge of seeing<br />
+whether or not I can convince someone that my point of<br />
+view is correct, once they&#39;ve already told me they<br />
+don&#39;t think it is. And the more strongly they are<br />
+attached to their opinion, the more interesting it is<br />
+to try and change their mind. But to address your<br />
+question, no, I have no smack I wish to deliver here.<br />
+I have never been one to hold grudges unless the other<br />
+person was VERY insistent that I do so.<br />
+<br />
+Thanks Brian.<br />
+<br />
+You&#39;re welcome. <br></font><BR><font class="bfont"> <A HREF='/starwarsccg/articles/articles.php?id=6468&view=1&PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e'>Read the Reviews</a><font class="bfont"> | <A HREF='/starwarsccg/articles/articles.php?PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php?PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+<!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php?PHPSESSID=0a7a0cfb81258bb057790461d5e3ad7e"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

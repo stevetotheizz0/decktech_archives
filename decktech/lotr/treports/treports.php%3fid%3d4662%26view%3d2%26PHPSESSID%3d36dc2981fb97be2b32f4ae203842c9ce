@@ -1,0 +1,592 @@
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Lord of the Rings Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Lord of the Rings, Gandalf, Frodo, Ring, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #111188;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; color: #111111; font-size: 8pt; font-style: normal; text-decoration: none; background-color: #FFFFFF; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.headerbg {  color: #E2DED3}
+TD.headerbg A {  color: #E2DED3}
+
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.r2body {  color: #EDE9DE}
+TD.r2body A:link {color: #A17D2D}
+TD.r2body A:active {color: #A17D2D}
+TD.r2body A:visited {color: #A17D2D}
+TD.r2body A:hover {color: #FFFFFF}
+
+TD.r2body .level1nav:link {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:active {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:visited {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:hover {  font-family: Verdana, Arial, sans-serif; color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 8pt;}
+
+input {font-family: Verdana, Arial, sans-serif; font-size: 8pt }
+select {font-family: Arial, sans-serif; font-size: 8pt }
+
+-->
+</style>
+ 
+</head>
+<body link="#111155" vlink="#CF4300" alink="#0000FF" text="#111111" margin="0" marginwidth="0" marginheight="0" background="/lotr/gfx/mom/bg.jpg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=186 hspace=0 vspace=0
+src="/lotr/gfx/mom/logoleft.gif" width=1 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=186 hspace=0 src="/lotr/gfx/mom/logoright.jpg" width=195 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action=""><input type="hidden" name="PHPSESSID" value="36dc2981fb97be2b32f4ae203842c9ce" />
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">LotR TCG ======</option>
+<option value="/lotr/index.php">Home</option>
+<option value="/lotr/main/about.php">About</option>
+<option value="/lotr/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+<option value="#"></option>
+<option value="#">Themes =======</option>
+<option value="/lotr/treports/treports.php?setheme=fellowship">Fellowship</option>
+<option value="/lotr/treports/treports.php?setheme=moria">Balrog&Gandalf</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Lord of the Rings</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#3C402E" class="r2body" width=88%><font class="bfont">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><a href="/lotr/index.php?PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce" class="level1nav">Home</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/articles/index.php?PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce" class="level1nav">Articles</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/decks/index.php?PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce" class="level1nav">Decks</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/treports/index.php?PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce" class="level1nav">Tournament 
+      Reports</a><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%"><img src="../../global/images/home/trans.gif" width="10" height="5"></td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=constructed&PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce">Constructed</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=sealed&PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce">Sealed 
+            Deck</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=league&PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce">League 
+            Play</a></font></td>
+        </tr>
+      </table>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/outfitters/index.php?PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce" class="level1nav">M.E. 
+      Outfitters</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/trade/index.php?PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce" class="level1nav">Trade</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/resources/index.php?PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce" class="level1nav">Resources</a><br>
+      <br><a href="/premium/index.php?PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce"                    
+class="level1nav">Premium Memberships</a><br>
+
+    </td>
+  </tr>
+</table>
+
+</font></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Auction</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#421D21" class="r2body" width=88%><font class="bfont"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce'>List Your Item!</a> 
+
+</font></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">DeckTech Writers</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#421D21" class="r2body" width=88%><font class="bfont"><font size='1'><b>Star Wars CCG</b><br><a href='/starwarsccg/featured/taylor.php?PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce'>2006-05-18 Scott Lingrell</a><br></font> 
+
+</font></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Site Sponsor</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#3C402E" class="r2body" width=88%><font class="bfont"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><BR><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Top Articles</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#152A43" class="r2body" width=88%><font class="bfont"><ol><li><font class="bfont"><A HREF="/lotr/articles/articles.php?id=6369&view=2&PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce">European Championship LOTR</A></font></li><BR></ol> 
+</font></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> <table cellspacing=0 cellpadding=0 width="100%" border=0>
+<tr valign="top">      
+<td background="/lotr/gfx/mom/header_back.gif" height="150" valign="middle" align="center"><br>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript></td></tr></table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="" valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr><td width=1><img src="/lotr/gfx/mom/red_01.gif" width=6 height=6></td><td width=100% background="/lotr/gfx/mom/red_02.gif"></td>
+<td width=1><img src="/lotr/gfx/mom/red_03.gif" width=6 height=6></td></tr>
+<tr><td background="/lotr/gfx/mom/red_04.gif"><img src="/lotr/gfx/mom/clear.gif" height=35 width=1></td>
+<td background="/lotr/gfx/mom/red_05.gif" class="headerbg"><font class="h1font"><font color="#FFFFFF"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Tournament Reports</td><form method='post' action=''><input type="hidden" name="PHPSESSID" value="36dc2981fb97be2b32f4ae203842c9ce" /><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Tournament Reports</option><option value='#'> </option><option value='/starwarsccg/treports/index.php3'>Star Wars: CCG</option><option value='/heroclix/treports/treports.php'>HeroClix</option><option value='/vs/treports/treports.php'>Marvel VS</option><option value='/lotr/treports/treports.php'>Lord of the Rings</option><option value='/magic/treports/treports.php'>Video Games and Movies</option><option value='/wars/treports/treports.php'>Wizards Minis</option></select></td></form></tr></table></font></B></td><td background="/lotr/gfx/mom/red_06.gif"></td></tr>
+	<tr><td background="/lotr/gfx/mom/whi_07.gif"></td>
+		<td bgcolor="#FFFFFF" background="/lotr/gfx/mom/whi_08.gif"><font class="bfont"><font class="h1font"> More Toronto Mayhem 09/22<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><font size='1'>(5.00)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/lotr/main/mpage.php?member=15189'>Mike "Capt T.O." Nykoluk</A></font><font class="afont"> <a href='http://www.decktech.net/lotr/main/mpage.php?member=15189&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> September 23, 2003</font><p align='justify'><blockquote><font class="bfont"> Hey Peeps !!!<br />
+<br />
+I am making this two weeks in a row for a TR and this week was especially good. Alex has already posted <br />
+a TR and he and I agree it was one of the best in terms of fun games and weird stuff happening. Just a <br />
+little background on my playing style. I always play decks built to run. I have never been a Moria player, <br />
+preferring to tech against than to use ...<br />
+Well last night I tried something new (for me). A Dalton-esque minion kill deck with Frodo/Sam/Gimli choke <br />
+fellowship, using Moria Archery for minions. I had also never used an &quot;archery&quot; minion strategy. I was ready <br />
+for Moria with all kinds of MAD TECH. We have had a big Moria wave lately with Underdeeps and of course I <br />
+don`t end up facing Moria even once. Without further ado, here goes:<br />
+<br />
+Round 1<br />
+vs. Steve (Dauntless + Dirties (Dunland))<br />
+<br />
+Steve is an extremely new player. He had only played 1 GAME before this tournament. That being said this <br />
+game was bloody close. I won the bid 7-2 and chose to go 2nd. I had a terrible opening draw so went to the <br />
+milligan and EVEN WORSE. 6 freeps cards. He loads up the pool a bt and moves. I play nothing and reconcile. <br />
+He doubles to 3 and I play a couple conditions. I played a bunch of stuff for no pool, removerd 3 burdens, <br />
+and slid into site 2. No minions, I stop. He moves to site 4 and I am able to play an Archer troop and a <br />
+Marksman. 5 wounds including 2 from site 4. He kills the Marksman and beats the Moria Archer Troop, but <br />
+doesn`t kill it. He has the &quot;fearless new player&quot; thing going and doubles to site 5. I drop a couple of archers <br />
+and manage to stack the Patrol Troop on the swarms. He is wounded but far from exhausted. I heal Sam x3 <br />
+with the site 2 text and go down to 1 burden. I play my hand and he gets 1 dirty dude out, allowing me to <br />
+cycle a Stealth. I stop. He moves into 6 and I get an archer Commander and Archer Troop out. Exhausted him <br />
+and dropped both on the Swarms. He tried to double but I recommended strongly against skipping a <br />
+sanctuary against Archery with everyone exhausted. He stopped. My fellowship was the same as 1st 2 turns. <br />
+Drop some free stuff, draw some cards, move to site 4 and Stealth (can`t let him cycle pumps !!!). I stop. <br />
+I remind him to heal 5 and he moves to site 7. King`s Room hits everyone except Frodo, and a couple Archers <br />
+exhaust the rest with Pippin dying. He stops. I single into Site 5, with Stealth and Soak. At site 7 he was able <br />
+to heal with a few copies (%?&) and move to site 8. I played out a few guys and managed to kill Legolas. He <br />
+stopped. I singled to site 6 against 1 minion and soaked, stopping. He went into site 9 and the remaining 3 <br />
+companions (Aragorn/Merry/Frodo) all died in the Archery phaze. PHEW. His reckless doubles early on got him <br />
+to site 5 with few wounds. It was a fun game as Steve was still learning rules and timing, but he WILL be a <br />
+good player. He makes good game play choices, and he is a nice guy. After the game he thanked me for <br />
+teaching him so much in one game. That was cool.<br />
+<br />
+FW +3/3<br />
+<br />
+Props: Steve for coming out for his first tourney. Moria Archery for finally coming around at the late sights. <br />
+          Freeps choke for clogging Dirties in his hand. <br />
+Slops: None. Just a tip for Steve if he`s reading this. If you are way ahead you can single to the end. <br />
+<br />
+Round 2<br />
+vs Imshan (Dauntless + Dirties) (again ... boooo)<br />
+<br />
+This was an excellent game. Imshan and I usually have very tight games and this was no exception. I won <br />
+the bid 6-3, choosing 2nd. Imshan had some great early draws, getting out healing Elrond site 1. I knew <br />
+this would cause major problems. My Moria didn`t flow too well early on and he took out Swarms and <br />
+They Are Coming. I managed to have some wounds stick past the site 6 sanctuary. King`s Room was <br />
+great again, and I did some decent damage, but Elrond now had Vilya and that was trouble. He managed <br />
+to take a site at Site 6 with the Wulf trick, playing him during the Skirmish phaze after the first guy won. <br />
+It didn`t matter much as his fellowship would determine the game. He moves to 8 and discards his ally <br />
+Elrond (yeah !!!). With Relics I was recycling 4 scimitars and played out a bunch of Archers I was able <br />
+to exhaust everyone and kill Pippin, forcing a stop. I stumbled into 7, staying alive easily, and stopped. <br />
+He played the back breaking Defender Sam (%?$&) and moved into site 9. I used Relics for 4 more <br />
+scimitars on 4 guys, played a bunch of guys, and dealt enough archery to exhaust everyone, put Frodo <br />
+to 7 burdens, and killing Merry. I now had 8 guys for 4 companions (Aragorn, Sam, Frodo, Legolas). He had <br />
+made Aragorn Defender +1 and he took the 2 biggest guys. In the end 3 guys were on Frodo and 2 on Sam <br />
+but he had 2 Severed His Bonds in his hand and I couldn`t triple both ! It was a great game but Elrond <br />
+forced me to come up a bit short. Even one more point of archery could have been the difference. <br />
+<br />
+FL +1/4<br />
+<br />
+Props: Imshan for playing a perfect game. My Fellowship choked him down, but he managed to draw 1 of <br />
+          everything he needed when he needed it (Secret Sentinels). <br />
+Slops: Me for pitching a They Are Coming with one on the table, only to lose that one and not draw another. <br />
+<br />
+Round 3<br />
+vs Phil O`Shea (Ents + Corruption Nazgul/Easterlings)<br />
+<br />
+Phil is one of the best players in Toronto, but has been away for a few months. I won the bid 6-? ... chosing <br />
+to go 2nd. He manages to get out 9 COMPANIONS at site 1. Starting Frodo, Merry, Pippin, Quickbeam, he <br />
+added Ent Horde, Skinbark, Aragorn (Riddermark), Treebeard, and Lindenroot. I counted 37 total vitality <br />
+and shuddered at the task at hand. He moved to site 2 with god knows how much pool. I drop They Are <br />
+Coming, Armory, Relics, and an Goblin Bowman. He mops up the Bowman and moves. I end up dropping <br />
+two Southron archers, exerting Merry twice. My fellowship did it`s usual, and moved to site 2, no minions, stop. <br />
+He had 6 wounds and healed 5 at the Sanctuary. Moving to site 4 with a pile of pool, I managed 5 archery plus <br />
+the two exertions from the site. He mopped up all my guys except an Archer Troop with 1 wound. He decides <br />
+to double, which surprised me, and tries to hit my Archer Troop twice with Wingfoot. I pitch my only Armory to <br />
+keep him alive, and get out 5 archery again. Beads are starting to pile up on the mighty Ents. I singled <br />
+into site 3 with no minions again. Stop. Phil is not getting hand clogged with minions because Lindenroot is <br />
+fighting all over the place. Phil moves to 6 and I was able to get 4 more archery points, adding more beads. <br />
+He stops. I slide into site 4 and face an Easterling, who gets stealthed. I am cycling out all Freeps cards <br />
+and my minion hand is looking incredible. He heals up and moves to the King`s Room. Causeway would <br />
+have been game, but the Room is better more often. I get out a pile of guys, and exhaust pretty much <br />
+everyone in archery and combat. He stops. I move to site 5 with 2 Stealths saved up and Phil passes, so I <br />
+pitch one and stop. I FINALLY draw into an Enquea and drop him with 6 or 7 Moria Archers & Runners. Enqua <br />
+kills the Horde, Aragorn, and Lindenroot. Isildur`s bane soaked some archery but in the end 5 guys were on <br />
+Frodo. He plays Power According to His Stature, and I have a big decision to make. Do I sack my Armories <br />
+and pray he doesn`t have another PATHS waiting, or save them for another swarm at site 9 ? I realize <br />
+all I need is 3 archers at site 9 to win, and sack the Armories. Phil extends his hand and thanks me for <br />
+the unique game. I agree, and can`t believe I was able to do all those wounds. It was an excellent game <br />
+and it was nice to kill with the Archers. <br />
+<br />
+FW +3/7<br />
+<br />
+Props: My Moria condition set up was incredible, allowing me to recycle Archer Troops. Enquea for showing up <br />
+          (better late than never :). Phil for being a good sport, especially since he was the first Moria Archery <br />
+          player in Toronto summer 2002. Yes you killed me at the Brown Lands back in the day ...<br />
+<br />
+Slops: Not much. Very sound game all around. My only critique would be the lack of Gandalf in Phil`s deck. <br />
+          With all that pool going around Deep In Thought would be good to avoid smoking the Ent Moots. <br />
+<br />
+Round 4<br />
+vs Miguel (Rohan/Gimli + Easterling corruption)<br />
+<br />
+Miguel and I seem to play in every tournament these days and have had some great matches. This was <br />
+yet another great game. I bid 5 to his 3 and chose 2nd as usual. My archery flow was good from the <br />
+start and Golden Hall took out Frying Pan and Eowyn`s Sword (sweet). Fortress Never Fallen took out <br />
+2 Armories and a They Are Coming. At the time he joked how I would never get anyone on the Swarms <br />
+so he didn`t have to discard it. Skip ahead to site 5 and I get a pile of Archers and others out, inflicting <br />
+a good pile of wounds. He puts 2 guys on Eomer, one on the rest. He kills one with Skilled Defender, then <br />
+tries to kill one on Eomer. I burn my only Armory on the table, making Eomer lose, Stacking 2 archers on <br />
+the swarms. My Fellowship really had him choked well, as he wasn`t drawing into much Freeps support. He <br />
+made it into site 6 keeping everyone alive (barely). I move once, Stealth, stop. He heals 5 and moves to <br />
+site 7, useless King`s Room. I manage to play a pile of archers including a Troop, fully exhausting everyone <br />
+except one wound on Eowyn. I slide into site 6 and stop. I had been holding Enquea since site 3 hoping <br />
+he would go over 5 companions and he does at site 7, dropping Hama and loading him up. I play 8 <br />
+minions including the two that I had stacked on the Swarms. Enquea wounded Hama, Eowyn, and killing <br />
+Eomer ! He conceded, as 5+ archery was coming in on top of the 8 minions. Site 8 Archery kill !!! <br />
+As a weird twist to the game Miguel did something never seen before. He used my site 6 game text of <br />
+Hornburg Hall, spotting 3 Theoden signet guys to pitch his hand and draw 4 !!! <br />
+<br />
+FW +3/10<br />
+<br />
+Props: Miguel for hanging in despite geting choked and not drawing Freeps equipment. <br />
+          My deck for flowing well, despite the early Fortress Never Fallen. Great minion kill.<br />
+<br />
+Slops: None. The game was very well played, fun, and a unique experience.<br />
+<br />
+<br />
+So in the end I was 3-1 for 10 points. Good enough for a tie for second. Here are the final standings:<br />
+<br />
+Josh Cornwell-Mott 12 pts<br />
+Imshan Poolar 10 pts<br />
+Mike Nykoluk (me) 10 pts<br />
+Saul Rothman 10 pts<br />
+<br />
+Congrats to Saul, who was playing Pat Malbeouf`s 2nd place Dragon Con deck, on your 3-1 finish. <br />
+Well done !!! All in all it was a great tourney, and everyone had a good time. I was disappointed that I <br />
+didn`t get to play a single Moria deck (we would have had a good match, Josh) as I was running Golden <br />
+Lights and Song of Durins. We had 2 new players, Steve and Kiyan, and another who will join next week. <br />
+With three new players the vets will have to step up or get owned! <br />
+LOOKS LIKE MEAT`S BACK ON THE MENU, BOYZ !!!<br />
+Hey Dave, Will, Steph, Kristy !!! Where have you guys been ? You guys have been missed, so hope <br />
+to see you all soon on a Monday at 401 ... <br />
+<br />
+Final Prop is to Nathan for driving my sorry hiney home after the tourney.<br />
+<br />
+That`s it for this week. I hope you guys enjoyed !!! <br></font></blockquote><BR><font class="bfont"> <A HREF='/lotr/treports/treports.php?id=4662&view=1&PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce'>Read the Reviews</a><font class="bfont"> | <A HREF='/lotr/treports/treports.php?PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/lotr/main/join.php?PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce'> become a registered member</a></font></font></td><td background="/lotr/gfx/mom/whi_09.gif"></td></tr>
+<tr><td><img src="/lotr/gfx/mom/whi_10.gif" width=6 height=18></td>
+<td background="/lotr/gfx/mom/whi_11.gif"></td>
+<td><img src="/lotr/gfx/mom/whi_12.gif" width=6 height=18></td></tr>
+</table>
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr align="center" valign="bottom" > 
+      <td height="100"><font class="lfont">This site is maintained and updated 
+        by fans of The Lord of the Rings TCG, and is in no way affiliated with 
+        New Line Cinema or Decipher Inc. We in no way claim the artwork displayed 
+        to be our own. Copyrights and trademarks for the films and other promotional 
+        materials are held by their respective owners and their use is allowed 
+        under the fair use clause of the Copyright Law.<a href="/global/terms.php?PHPSESSID=36dc2981fb97be2b32f4ae203842c9ce" class="level1nav"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

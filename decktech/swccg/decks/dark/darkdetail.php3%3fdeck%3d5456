@@ -1,0 +1,922 @@
+<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
+<head>
+<title>DeckTech - for the players, by the players.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/swccg/global/css/white.css">
+<!-- #BeginEditable "Style" --> 
+<style type="text/css">
+<!--
+.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
+.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
+.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
+.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
+.centercolor {  background-color: #313063}
+-->
+</style>
+<!-- #EndEditable -->
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE -->
+<script language="JavaScript">
+<!-- /* © 1997-1999 BURST! Media, LLC. All Rights Reserved.*/
+var TheAdcode = 'ad8702a';
+var bN = navigator.appName;
+var bV = parseInt(navigator.appVersion);
+var base='http://www.burstnet.com/';
+var Tv='';
+var agt=navigator.userAgent.toLowerCase();
+if (bV>=4)
+  {ts=window.location.pathname+window.location.search;
+   i=0; Tv=0; while (i< ts.length)
+      { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+   if( Tv.charAt(0)!='/' ) Tv="/"+Tv;
+          else if (Tv.charAt(1)=="/")Tv="";
+  if( Tv.charAt(Tv.length-1) == "/")
+    Tv = Tv + "_";}
+if (bN=='Netscape'){ 
+     if ((bV>=4)&&(agt.indexOf("mac")==-1))
+{  document.write('<s'+'cript src="'+ 
+      base+'cgi-bin/ads/'+TheAdcode+'.cgi/RETURN-CODE/JS' 
+      +Tv+'">'); 
+     document.write('</'+'script>');    } 
+     else if (bV>=3) {document.write('<'+'a href="'+base+'ads/'+ 
+        TheAdcode+'-map.cgi'+Tv+'"target=_top>'); 
+        document.write('<img src="' + base + 'cgi-bin/ads/' + 
+        TheAdcode + '.cgi' + Tv + '" ismap width="468" height="60"' + 
+        ' border="0" alt="Click Here"></a>');} 
+ } 
+if (bN=='Microsoft Internet Explorer') 
+ document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'+ 
+  TheAdcode + '.cgi' + Tv + '/RETURN-CODE" width="468" height="60"' + 
+  'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' + 
+  'frameborder="0" scrolling="no"></ifr'+'ame>'); 
+// --> 
+</script> 
+<noscript><a href="http://www.burstnet.com/ads/ad8702a-map.cgi" target="_top"> 
+<img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi" 
+ width="468" height="60" border="0" alt="Click Here"></a> 
+</noscript> 
+<!-- END BURST CODE -->
+<!-- #EndLibraryItem --></td>
+    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
+      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
+    <td valign="top" class="centercolor" rowspan="2" > 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
+          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
+          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
+        </tr>
+        <tr> 
+          <td colspan="2"><!-- #BeginEditable "Body" --> 
+            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
+              <tr> 
+                <td bgcolor="#333366" height="12" valign="top" width="44%"><img src="/swccg/global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
+                <td bgcolor="#333366" align="right" valign="top" height="12" width="48%"><img src="/swccg/global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr> 
+                <td height="622" valign="top" colspan="2" bgcolor="#333366"><table width="100%" border="0" cellpadding="4"><tr bgcolor="#000000"><td><font color="#FFFFFF"><font face="Haettenschweiler, Tahoma, Arial" size="6">The DS whole package.</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC="../images/dd8.GIF" BORDER=0><A HREF="darkread.php3?deck=5456"><IMG SRC="../images/ldread.GIF" BORDER=0></A><A HREF="darkreview.php3?deck=5456"><IMG SRC="../images/ldreview.GIF" BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="../../membercenter/directory/memberpage.php3?member=1886">Kyle "Jedi.02" Craft</A></FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Description</Font></TD><TD><font face="Arial, sans-serif" size="2">Once again this is a package of all of the decks i have made over the past year.  I only post them to give ideas.</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Date Created</Font></TD><TD><font face="Arial, sans-serif" size='2'>April 14, 2000</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Cards</Font></TD><TD><font face="Arial, sans-serif" size="2">Starting stuff-<br>
+<br>
+Endor ops<br>
+Endor<br>
+Landing platform<br>
+Bunker<br>
+<br>
+Characters-<br>
+<br>
+-2<br>
+-3<br>
+-4<br>
+DVDLOTS<br>
+Darth Vader<br>
+U-3po<br>
+Motti<br>
+Ozzel<br>
+Jade x2<br>
+Ephont mon<br>
+tarkin<br>
+<br>
+Starships / vahicles-<br>
+<br>
+Avenger<br>
+Dreadnaught x5<br>
+Conquest<br>
+zucass in MH<br>
+vaders personal<br>
+ig-88 in 2000<br>
+Boba In S1<br>
+bossk in bus<br>
+Thunderflare<br>
+Tyrant<br>
+Devistator<br>
+Denger in P1<br>
+Tmap 1<br>
+Blizz 2<br>
+<br>
+Locations-<br>
+<br>
+Kiffex<br>
+Death *<br>
+Yavin 4<br>
+Kassyk<br>
+Besbin<br>
+Kessel<br>
+Tatooine<br>
+Coruscant<br>
+Hoth<br>
+Nal hutta<br>
+<br>
+Interrupts-<br>
+<br>
+Monnok x2<br>
+Twilek x2<br>
+Torture x2<br>
+Those rebels won&#8217;t escape us x2<br>
+Ghhk<br>
+Unexpected interruption<br>
+<br>
+Effects-<br>
+<br>
+Lateral damage<br>
+Presence x2<br>
+Omnious rumors<br>
+Battle order<br>
+Imp decree<br>
+(I usually star imp decree or battle order depending on deck I am against)<br>
+Pure Evil-<br>
+Note the deck is all BB that makes it evil.<br>
+** denotes important stuff, vital to winning<br>
+<br>
+Starting stuff-<br>
+<br>
+Executor: holotheater<br>
+Med chamber<br>
+Visage<br>
+HDADTJ/TFHGOOTU<br>
+Epic duel<br>
+(possible starting interrupt)<br>
+**all starting stuff signed by Shannon Baska<br>
+<br>
+Characters-<br>
+<br>
+3x Premere vader BB<br>
+3x vader w/saber<br>
+2x tarkin **1 foil, BB<br>
+2x Boba fett w/blaster<br>
+2x Jodo Cast<br>
+2x Mara<br>
+Dejas<br>
+Ephont mon<br>
+Bane<br>
+<br>
+Weapons-<br>
+<br>
+Mara&#8217;s saber<br>
+Vaders saber **Blue<br>
+<br>
+Starships-<br>
+<br>
+Iggy in ship<br>
+Dengar in ship<br>
+Devistator<br>
+Zuckass in ship<br>
+Bossk in ship<br>
+4x Dreadnaught<br>
+<br>
+Interrupts-<br>
+<br>
+2x Elis<br>
+3x Hidden weapons<br>
+Unexpected interruption<br>
+2x Torture<br>
+Twilek (possible starting)<br>
+Hutt smooch<br>
+You are beaten<br>
+<br>
+Effects-<br>
+<br>
+Bad feeling have I (possible starting)<br>
+2x Visage **1 foil<br>
+Reactor terminal<br>
+2x presence **1 foil<br>
+Lateral damage<br>
+<br>
+Locations-<br>
+<br>
+Kiffex<br>
+Death star **very important note the word death<br>
+Kashhyk<br>
+Endor<br>
+Hoth 3rd marker **Japanese<br>
+Cantina **Japanese<br>
+Downtown plaza<br>
+Back door<br>
+Forest clearing<br>
+<br>
+<br>
+Starting stuff-<br>
+<br>
+Great pit<br>
+Twilek<br>
+Dungeon<br>
+Scum and villany<br>
+Aud chamber<br>
+Court of vile ganster/ I shall enjoy<br>
+<br>
+Characters-<br>
+<br>
+EPP fett<br>
+Mara jade x3<br>
+Jodo cast<br>
+Bossk w gun<br>
+Dengar w gun<br>
+Gallid<br>
+EPP vader x2<br>
+Ree-yees<br>
+Jabba x2<br>
+Ephone mon<br>
+Beolo<br>
+Brangus<br>
+Djas<br>
+Chall<br>
+4-lom w gun<br>
+bane<br>
+<br>
+Starships-<br>
+<br>
+Zuckass in<br>
+Ig88 in<br>
+Jabba&#8217;s cruzer<br>
+Bossk in<br>
+Boba in<br>
+Dengar in<br>
+<br>
+Sites-<br>
+<br>
+Droid workshop<br>
+Cantina<br>
+Moisture farm<br>
+Jabba&#8217;s palace<br>
+Jud wastes<br>
+<br>
+Effects-<br>
+<br>
+PTOF x2<br>
+Broken con<br>
+Reactor terminal<br>
+He is not ready (very afffective against undercover pilot spise they have to move during their move phase wich they can&#8217;t so they lose a force or the spy but it is mainly used vs MWYHL)<br>
+<br>
+Interrupts-<br>
+<br>
+Torture x2<br>
+Sense x 6<br>
+Elis x3<br>
+Hutt smooch x 2<br>
+Alter x2 for the new ls order to engage strategy)<br>
+Unexpected interruption<br>
+<br>
+Weapons-<br>
+<br>
+Mara&#8217;s saber x2<br>
+<br>
+<br>
+<br>
+OBJECTIVES: (1)<br>
+<br>
+Endor Operations / Imperial Outpost<br>
+<br>
+LOCATIONS: (11)<br>
+<br>
+Endor (STARTING)<br>
+End: Landing Platform (STARTING)<br>
+End: Bunker (STARTING)<br>
+End: Ancient Forest<br>
+End: Dense Forest<br>
+End: Dark Forest<br>
+End: Forest Clearing<br>
+End: Ewok Village<br>
+End: Back Door<br>
+&#61608; Swamp<br>
+&#61608; Jungle<br>
+<br>
+CHARACTERS: (14)<br>
+<br>
+5x Biker Scout Trooper<br>
+Corporal Oberk<br>
+Sergent Barich<br>
+Admiral Ozzel<br>
+Colonel Dyer<br>
+3x Darth Vader w/ saber<br>
+Boba Fett w/ Blaster<br>
+Commander Igar<br>
+<br>
+STARSHIPS / VEHICLES: (14)<br>
+<br>
+Blizzard Scout 1<br>
+Tempest Scout 3<br>
+Tempest Scout 4<br>
+Tempest Scout 6<br>
+2x Tempest Scout<br>
+2x Dreadnaught<br>
+Thunderflare<br>
+2x Bossk In Bus<br>
+Tyrant<br>
+Executor<br>
+Devistator<br>
+<br>
+INTERRUPTS: (12)<br>
+<br>
+2x Sense<br>
+2x Alter<br>
+2x Always Thinking with you&#8217;re stomach<br>
+2x Evader<br>
+2x Imperial Barrier<br>
+Hutt Smooch<br>
+Twe&#8217;lik Advisor<br>
+<br>
+EFFECTS: (8)<br>
+<br>
+2x Presence of the force<br>
+Oppresive Enforcement<br>
+There is no try<br>
+Perimeter Patrol<br>
+Omnous Rumors<br>
+Establih Secret Base<br>
+Come here you big coward<br>
+<br>
+<br>
+The idea behind this deck is to not give you're opponet any force.  You pull off ralliter 0ps very fast like 3-4 turns and put a sleen at every site so they can't deplay there.  after that with all the sites in the deck you should have planty of froce and you go to you're opponet where ever they are and the attack them with the ability to add 3 to total battle destinies and get one card from you're deck every turn.<br>
+<br>
+OBJECTIVES: (1)<br>
+<br>
+Ralliter Operations / In the hands of the Empire (STARTING)<br>
+<br>
+LOCATIONS: (13)<br>
+<br>
+Hoth: Ice Plans<br>
+Coru: Emp Square<br>
+DS: War Room<br>
+Hoth: Wompa Cave<br>
+Coruscant<br>
+Death star<br>
+EXE: Med chamber<br>
+DAG: cave<br>
+<> Docking bay (get this with arrest order)<br>
+<> Jungle<br>
+<> Swamp (Get this first use it to get sleens)<br>
+Rallitir (STARTING)<br>
+Kashyyk<br>
+<br>
+CHARACTERS: (17)<br>
+<br>
+2x Vader w/ sabre<br>
+2x Fett w/ blaster<br>
+GMT<br>
+DS-61-2<br>
+DS-61-3<br>
+DS-61-4<br>
+Jabba the hutt<br>
+3x sleen<br>
+3x biker scout trooper (No i don't use them for bikes i just put 1 at each <> site to flip OPS they are low deploy non-unique imperials with a descent destiny)<br>
+Commander Igar<br>
+Dr. E (If you notice the EPP's can get any extra destiny without han so you hit him with a blaster or sabre and then operate with DR. E to prevent extra EPP destiny)<br>
+<br>
+STARSHIPS / VEHICLES: (11)<br>
+<br>
+Executor<br>
+Thunderflare<br>
+Bossk in bus<br>
+Devistator<br>
+4x Dreadnaught<br>
+Tempist 1<br>
+Blizz 2<br>
+Tyrant<br>
+<br>
+EFFECTS: (4)<br>
+<br>
+Imperial arrest order (STARTING)<br>
+<br>
+Lateral Damage<br>
+Come here you big coward<br>
+Reactor terminal<br>
+<br>
+INTERRUPTS: (14)<br>
+<br>
+2x Alter<br>
+7x Sense<br>
+Twelik (STARTING)<br>
+Elis helrot<br>
+You are beaten<br>
+The circle is now complete<br>
+ghhk<br>
+<br>
+Rember you can get any card you want every turn<br>
+<br>
+<br>
+The idea is not to really get a big drain but to go to my opponet. What will kill them is The visage and Search and destroy (believe me i know from a personal beatdown)<br>
+<br>
+Starting Cards- (5)<br>
+<br>
+Hunt Down And Destroy The Jedi<br>
+Epic Duel<br>
+Visage<br>
+Holotheater<br>
+Med Chamber<br>
+<br>
+Characters- (17)<br>
+<br>
+4x Darth Vader<br>
+DVDLOTS<br>
+Commander Igar<br>
+2x Boba fett w/ blaster<br>
+2x tarkin<br>
+Ozzel<br>
+2x Ephont Mon<br>
+DS-61-2<br>
+DS-61-3<br>
+DS-61-4<br>
+Jabba (SE)<br>
+<br>
+Sites- (9)<br>
+<br>
+END: Back Door<br>
+END: Forest Clearing<br>
+END: ewok village<br>
+END: ancient forest<br>
+END: dark forest<br>
+End: dense forest<br>
+Hoth: Ice Plains<br>
+Hoth: Def Perimeter<br>
+Coruscant<br>
+<br>
+Interrupts- (10)<br>
+<br>
+2x Elis Helrot<br>
+Twe'lik Advisor<br>
+Monnok<br>
+Focused Attack<br>
+Vader's Obsession<br>
+2x Circle<br>
+2x Evader<br>
+<br>
+Effects- (7)<br>
+<br>
+Imp Decree (I know there are no rebel sites in here but EBO is popular here and they give me the sites)<br>
+2x Presence of the force<br>
+Security precautions<br>
+Search and destroy<br>
+Reactor terminal<br>
+<br>
+Weapons- (2)<br>
+<br>
+2x Vader's Lightsaber<br>
+<br>
+Starships / vehicles- (10)<br>
+<br>
+Bossk in hound's tooth<br>
+Devistator<br>
+Executor<br>
+Avenger<br>
+tyrant<br>
+conquest<br>
+thunderflare<br>
+Blizz 2<br>
+Tempist 1<br>
+Tempist scout 6<br>
+<br>
+<br>
+<br>
+Dark Side:<br>
+The idea is to try to counter most decks.  Operatives, stops force drain bonuses, come down if i have to.  Hidden base I will hit with concentrated star destroyer power and monnok the heck out of them.<br>
+<br>
+STARTING CARDS:<br>
+Yavin 4<br>
+Twelek Advisor<br>
+Imperial Decree<br>
+<br>
+LOCATIONS: (In my opinion force activation wins the game.<br>
+Hoth x2(decree)<br>
+Kessel<br>
+Kiffex<br>
+Courscant<br>
+Fondor<br>
+Raithal<br>
+Kashyyk x2<br>
+Corulag<br>
+Besbin<br>
+Death Star x2<br>
+Nal Hutta<br>
+Tatooine<br>
+Dagobah Cave<br>
+<br>
+EFFECTS:<br>
+There'll Be hell to pay<br>
+Undercover x2<br>
+Presence of the force<br>
+Lateral Damage<br>
+Reactor Terminal<br>
+<br>
+INTERRUPTS:<br>
+Monnok x3<br>
+Those Rebels won't escape us<br>
+<br>
+STARSHIPS AND VEHICLES:<br>
+Blizz walker x2<br>
+Imp destroyer x4<br>
+Avenger<br>
+Death squad destroy x2<br>
+Vengance<br>
+Stalker<br>
+Dreadnaught<br>
+Bossk in Hounds tooth<br>
+Executor<br>
+Devistator<br>
+Thunderflare<br>
+<br>
+CHARACTERS:<br>
+Darth Vader x2<br>
+Grand Moff Tarkin<br>
+-2<br>
+-3<br>
+-4<br>
+Danz borin<br>
+Septoid droid<br>
+labria<br>
+ozzel<br>
+Garuindan<br>
+Dr. E<br>
+Officer Evax<br>
+U-3po<br>
+Amril Motti<br>
+<br>
+<br>
+<br>
+OBJECTIVES: (1)<br>
+<br>
+ISB Operations / Empire's sinister agents (STARTING)<br>
+<br>
+LOCATIONS: (12)<br>
+<br>
+Coruscant: Imp Square (STARTING)<br>
+All of my other sites are a 2 and a 3 with isb flipped<br>
+End: Ewok Village<br>
+End: Back Door<br>
+End: dark forest<br>
+End: forest clearing<br>
+Tat: tusken canyon<br>
+Tat: jud wastes<br>
+Tat: lar's moisture farm<br>
+Tat: cantina<br>
+CC: Downtown Plaza<br>
+CC: Port town district<br>
+Hoth: Def perimeter<br>
+<br>
+CHARACTERS: (17)<br>
+<br>
+Darth vader<br>
+DVDLOTS<br>
+All of the rest are ISB agents<br>
+Lieutenant renz<br>
+Chall Bekan<br>
+Corporal Oberk<br>
+outer rim scout<br>
+3x probe droid<br>
+Chyler<br>
+Colonel Wulf Yarlen<br>
+Corporal Derdram<br>
+Officer evax<br>
+Navy trooper vesden<br>
+fozec<br>
+admiral ozzel<br>
+sergent torent<br>
+<br>
+EFFECTS: (6)<br>
+<br>
+Security precautions (STARTING if they start hidden base)<br>
+There is no try (STARTING if they star what look to be a hard ground deck)<br>
+Come here you big coward (STARTING if they do something dagobah)<br>
+ Reactor terminal<br>
+ther'll be hell to pay x2<br>
+<br>
+SHIPS: (8)<br>
+<br>
+3x lambada class shuttle<br>
+3x sentinal class landing craft<br>
+2x tie scout<br>
+These are used to probe the hidden base and they all have hyper speed to later bunch them and let them die after probing<br>
+<br>
+INTERRUPTS: (16)<br>
+<br>
+Ghhhk<br>
+2x Twe'lik advisor (1 STARTING)<br>
+13x scanning crew<br>
+<br>
+originally iwas running this deck as a dark deal deck but my opponet would play the planet it's farthest from and kill my drain but now i am on 4 different planets so it isn't so easy<br>
+<br>
+<br>
+<br>
+DARK SIDE<br>
+<br>
+--CHARACTERS {15}<br>
+<br>
+-Darth Vader with Lightsaber<br>
+-DVDLOTS<br>
+-2x Darth Vader<br>
+-2x Grand Moff Tarkin<br>
+-1x Admiral Ozzel<br>
+-General Veers<br>
+-Commander Igar<br>
+-Jabba du Hut<br>
+-Ephont Man<br>
+-Boba Fett with Blaster<br>
+-Admiral motti<br>
+-ds-2<br>
+-ds-3<br>
+<br>
+<br>
+--SITES {14}<br>
+<br>
+-End: landing platfrom<br>
+-2x End: dense forest<br>
+-2x End: back door<br>
+-2x End: ancient forest<br>
+-2x Ewok village<br>
+-End: forest clearing (STARTING)<br>
+-Hoth: Ice Plains<br>
+-Hoth: Wompa cave<br>
+-Dagobah: Cave<br>
+-Exec: Med Chamber<br>
+<br>
+--INTERRUPTS  EFFECTS {23}<br>
+<br>
+-7x Sense<br>
+-3x Alter<br>
+-Control<br>
+-1x You are Beaten<br>
+-3x Elis Helrot<br>
+-1x Circle<br>
+-Expand the Empire<br>
+-Presence of the Force<br>
+-Reactor Terminal<br>
+-Twi&#8217;lek Adv.<br>
+-sniper<br>
+-Battle Order<br>
+-Security Precautions (I HATE Hidden Base)<br>
+<br>
+--STARSHIPS {7}<br>
+<br>
+-(Don&#8217;t Laugh) 4x Tie Scout<br>
+(I just play these to probe and cancel Hidden base also with an ability 3 pilot they get destiny in the clouds.)<br>
+-Tempest 1<br>
+-Temp scout 3<br>
+-Temp Scout 2<br>
+<br>
+--Weapons {1}<br>
+<br>
+-Vader&#8217;s Sabre<br>
+<br>
+<br>
+I refuse to play with objective I hate the idea.  But I still have managed to win quite a few tournaments since special edition.<br>
+<br>
+<br>
+Man this one was a while ago.  This is when i hated objectives.<br>
+<br>
+<br>
+CHARACTERS: {18}<br>
+<br>
+-5x Death Star Gunner<br>
+-DVDLOTS<br>
+-Darth Vader<br>
+-DS-61-2<br>
+-Admiral Ozzel<br>
+-Needa<br>
+-DS-61-4<br>
+-Admiral Motti<br>
+-DS-61-3<br>
+-Piett<br>
+-2x r3-t6<br>
+-danz borin<br>
+-tarkin<br>
+<br>
+EPIC EVENTS: {2}<br>
+<br>
+-2x Commence Primary Ignition<br>
+<br>
+SITES: {17}<br>
+<br>
+-Death Star (STARTING)<br>
+-3x Yavin 4 (I really need to blow this up)<br>
+-Kiffex<br>
+-Kashyyk<br>
+-Besbin<br>
+-Tatooine<br>
+-Hoth<br>
+-DS: Detention Block Control Room<br>
+-2x DS: War Room<br>
+-DS: Level 4 Military Corridor<br>
+-DS: Docking By Control Room 327<br>
+-DS: Conference Room<br>
+-DS: Central Core<br>
+-DS: Detention Block Corridor<br>
+<br>
+INTERRUPTS / EFFECTS: {6}<br>
+<br>
+-Reactor Terminal<br>
+-2x A day Long Remembered (The Basis of the deck)<br>
+-2x Twelik Advisor (1 STARTING)<br>
+-Imperial arrest order (STARTING)<br>
+<br>
+WEAPONS: {2}<br>
+<br>
+-2x Superlaser<br>
+<br>
+SHIPS: {15}<br>
+<br>
+-Tyrant<br>
+-2x Victory-class Star Destroyer<br>
+-Conquest<br>
+-Vengance<br>
+-Avenger<br>
+-Thunderflare<br>
+-2x Bossk in hounds tooth<br>
+-Stalker<br>
+-4x Dreadnaught<br>
+-Devastator<br>
+<br>
+The deck has 2 plans.  If they are playing a space deck then you want to blow up yavin 4 and make all their ships deploy +8.  The idea is that they won&#8217;t have obi in the space deck.  If they are playing a ground deck then you want to destroy the planet that they are doing their thing on.	Most decks are now giving the related system due to objectives dagobah or celebration decks if no I am playing with the systems a ground deck will typically be at.<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Strategy</Font></TD><TD><font face="Arial, sans-serif" size="2">Some have strategey notes included. </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="darkdecks.php3"><img src="../images/ldback.GIF" border="0"></a><A HREF="darkread.php3?deck=5456"><IMG SRC="../images/ldread.GIF" BORDER=0></A><A HREF="darkreview.php3?deck=5456"><IMG SRC="../images/ldreview.GIF" BORDER=0></A><a href="deckprint.php3?deck=5456" TARGET="BLANK_"><img src="../images/ldprint.GIF"  border="0"></a></FONT></TD></TR></TABLE> </td>
+              </tr>
+            </table>
+            <!-- #EndEditable --></td>
+        </tr>
+      </table>
+    </td>
+    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
+      <table border="0" cellspacing="0" cellpadding="0" width="150">
+        <tr align="right" valign="top"> 
+          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
+          <td width="154" valign="top" align="right"> 
+            <table width="154" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF">&nbsp; </td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF"> 
+                  <script language="JavaScript">
+
+function logout() {
+var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
+document.cookie = cookie;
+window.location = "../index.php3";
+	}
+
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+
+</script>
+                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
+<select name="select1" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="/swccg/resources/rulings.php3">Current Rulings</option>
+<option value="/swccg/main/decktech.php3">About DeckTech</option>
+<option value="/swccg/membercenter/directory.php3">Member Directory</option>
+</select>
+</form><BR>
+<!-- #EndLibraryItem --> </td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
+                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
+                  Center</a></font> <br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
+                  Reports </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
+                  Resources</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
+          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/decks.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/index.php3" class="level2nav">Decks 
+      Home</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/dark/darkdecks.php3" class="level2nav">Dark 
+      Decks</a><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/light/lightdecks.php3" class="level2nav">Light 
+      Decks</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
+          <td width="155" valign="top" height="13"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr align="left" valign="top" bgcolor="#630063"> 
+                <td width="154">
+ 
+
+<!-- BEGIN BURST! CODE -->
+<center>
+<a href="http://signup.postmasterdirect.com/affiliates?owner=BachSystems&affili
+ate=dawiyhd"><img src="http://gfx.postmasterdirect.com/gfx/banners/list125x125.gif"
+height="125" width="125" border=0></a></center>
+<!-- END BURST! CODE --> 
+
+<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
+                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" --><table width="100%" border="0" cellspacing="0" cellpadding="4">
+  <tr bgcolor="#000000"> 
+    <td><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Latest News 
+      </font></b></font></td>
+  </tr>
+  <tr> 
+    <td> <p><font face="Arial, Helvetica, sans-serif" size="2"><a href=/dpc/news/fantasy_winners.php>Announcing: The Fantasy DeckTech Players&#146; Challenge Winners</a></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Thu, March 1, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR><p><font face="Arial, Helvetica, sans-serif" size="2"><a href=/dpc/news/coverage.php>Round by Round Web Coverage of the first DPC Open</a></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Wed, February 21, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR><p><font face="Arial, Helvetica, sans-serif" size="2"><A href=/dpc/news/normal_schedule.php>The DPC Normal: Schedule of Events</A></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Tue, February 20, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR> <a href="/swccg/main/news.php3"><font face="Arial, Helvetica, sans-serif" size="1"><br>
+      more news</font></a> </td>
+  </tr>
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
+      Updates</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><a href='/swccg/resources/tjpage.php3'><font face='Arial, sans-serif' size='2'>Tj Holman</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-30</font><BR><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-25</font><BR><a href='  /swccg/resources/terwilligerpage.php3'><font face='Arial, sans-serif' size='2'>Brian Terwilliger</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-03</font><BR></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
+      Tips</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><p><font face='arial' size='2' color='#ffffff'>Remember, when viewing submissions like decks, articles, or tournament reports, by clicking the appropriate title, you can sort by title, date, and rating. Use the arrow to reverse the order!</font></td>
+  </tr>
+</table><!-- #EndLibraryItem --></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

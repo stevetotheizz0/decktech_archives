@@ -1,0 +1,718 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action=""><input type="hidden" name="PHPSESSID" value="29818f8b6da266174ddd746571e9b090" />
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php?PHPSESSID=29818f8b6da266174ddd746571e9b090" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php?PHPSESSID=29818f8b6da266174ddd746571e9b090" class="level1nav">Articles</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/articles/articles.php?PHPSESSID=29818f8b6da266174ddd746571e9b090">All</a> &nbsp;<br>
+
+</div>
+
+
+<a href="/starwarsccg/decks/index.php?PHPSESSID=29818f8b6da266174ddd746571e9b090" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php?PHPSESSID=29818f8b6da266174ddd746571e9b090" class="level1nav">Reports</a><br>
+
+  <a href="/starwarsccg/academy/index.php?PHPSESSID=29818f8b6da266174ddd746571e9b090" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php?PHPSESSID=29818f8b6da266174ddd746571e9b090" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php?PHPSESSID=29818f8b6da266174ddd746571e9b090"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 2 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=29818f8b6da266174ddd746571e9b090'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'><b>Axis and Allies</b><br><a href='/wars/featured/kissling.php?PHPSESSID=29818f8b6da266174ddd746571e9b090'>2006-10-11 Ben Kissling</a><br><b>Star Wars CCG</b><br><a href='/starwarsccg/featured/hunter.php?PHPSESSID=29818f8b6da266174ddd746571e9b090'>2006-10-16 Brian Hunter</a><br><a href='/starwarsccg/featured/taylor.php?PHPSESSID=29818f8b6da266174ddd746571e9b090'>2006-11-05 Scott Lingrell</a><br></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6417&view=2&PHPSESSID=29818f8b6da266174ddd746571e9b090">Ten Questions with Nate Meeker</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6423&view=2&PHPSESSID=29818f8b6da266174ddd746571e9b090">Re-edit Spoiler (Cell 2187)</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6418&view=2&PHPSESSID=29818f8b6da266174ddd746571e9b090">An Analysis of (V) Wipe Them Out, All Of Them</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6416&view=2&PHPSESSID=29818f8b6da266174ddd746571e9b090">Team Ohio&#39;s Top 20 2007 pre-season</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6425&view=2&PHPSESSID=29818f8b6da266174ddd746571e9b090">Polarized Negative Power Coupling (V), 2006</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6413&view=2&PHPSESSID=29818f8b6da266174ddd746571e9b090">The 20 Greatest and Most Influential Players in SWCCG History - Part 3</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6419&view=2&PHPSESSID=29818f8b6da266174ddd746571e9b090">Flash of Insight</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6414&view=2&PHPSESSID=29818f8b6da266174ddd746571e9b090">Getting back into the game after five years.</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6415&view=2&PHPSESSID=29818f8b6da266174ddd746571e9b090">The 20 Greatest and Most Influential Players in SWCCG History - Part 4</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6422&view=2&PHPSESSID=29818f8b6da266174ddd746571e9b090">Swordfish&#39;s Top 20 SWCCG Players</A></font></li><BR></ol> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<a href='http://www.decktech.net/adserver/click.php?mgr=aspcode.net&id=44'><img border='0' src='/banner/cat1bannerwolverine1.gif'  ></a>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Articles</td><form method='post' action=''><input type="hidden" name="PHPSESSID" value="29818f8b6da266174ddd746571e9b090" /><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Articles</option><option value='#'> </option><option value='/starwarsccg/articles/index.php3'>Star Wars: CCG</option><option value='/vs/articles/index.php'>Marvel VS</option><option value='/heroclix/articles/articles.php'>HeroClix</option><option value='/lotr/articles/articles.php'>Lord of the Rings</option><option value='/magic/articles/articles.php'>Video Games and Movies</option><option value='/wars/articles/articles.php'>Wizards Minis</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> The Judicator - Part 2 of 3<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(4.90)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=10058'>David "Lirkas 'DDM'" Destefanis</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=10058&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> March 4, 2004</font><p align='justify'><font class="bfont"> <i>Writer&#39;s note: due to heavy html coding, i hope this article to be readable, but mistakes can happen. I apologize in advance if it is the case.<br />
+Also note that this second part is LONG.<br />
+The intent is indeed a full 3 part article, that will help players getting all the information they want if they think to analyse deck types with this ship.<br />
+On to the article, now.<br />
+</i><br />
+<br />
+<br />
+<b><u>PART 3: Support Cards Analysis</b></u><br />
+<br />
+There are many support cards existing. Here is a list of cards you can use to support the Judicator, classed by set and by overall utility (personal opinion), from A (the best) to C (the worst):<br />
+<br />
+<br />
+<br />
+<br />
+A	V1 Darth Vader (V)<br />
+A	SE They&#39;ve Shut Down The Main Reactor<br />
+A	CC Weapon Levitation<br />
+A	V4 Deflector Shield Generators (V) + V6 Levitation Attack (V) <br />
+<br />
+B 	EN Crossfire<br />
+B	V3 Besieged (V)<br />
+B	V6 Kuat Drive Yards (V)<br />
+ <br />
+B	V5 Defensive Fire (V)<br />
+B	V5 Precision Targeting (V)<br />
+B	V5 Alert My Star Destroyer! (V)<br />
+B	V3 Motti (V)<br />
+B	V2 Emergency Deployment (V)<br />
+B	V1 Fusion Generator Supply Tanks (V)<br />
+B	TH Nothing Can Get Through Our Shield!<br />
+B	R3 Colo Claw Fish<br />
+B	R3 Crossfire (Shield version)<br />
+B	CO Imperial Artillery<br />
+B	DS We&#39;re In Attack Position Now<br />
+B	DS Inconsequential Losses<br />
+B	SE Alert My Star Destroyer!<br />
+B	SE Flawless Marksmanship<br />
+B	SE Rendili Stardrive <br />
+B	SE Heavy Fire Zone<br />
+B 	SE Relentless Pursuit<br />
+<br />
+<br />
+C	V6 Firepower (V)<br />
+C	V5 Flagship (V)<br />
+C	V4 Death Squadron (V)<br />
+C	R2 Guri<br />
+C	DS Grand Admiral Thrawn<br />
+C	DS Intensify The Forward Batteries<br />
+C	SE Coordinated Attack<br />
+C	SE Firepower<br />
+C	SE I Can&#39;t Shake Him<br />
+C	SE Kuat Drive Yards<br />
+C	SE Overwhelmed<br />
+C	SE They&#39;re Coming In Too Fast!<br />
+C	DA I Want That Ship<br />
+C	DA Precision Targeting<br />
+C	DA Mynock<br />
+C	HO Deflector Shield Generators<br />
+C	ANH R3-T6<br />
+<br />
+<br />
+<b><u>Category A:</b></u><br />
+<br />
+<b>Darth Vader (V)</b><br />
+One of the better support cards for the Judicator is of course Darth Vader (V).<br />
+The virtualised version of Darth Vader is plainly put what the Judicator badly needs: immunity to attrition and the ability to draw Battle Destiny.<br />
+With Darth Vader (V) aboard, you have really a little Executor: power 12, immunity <5 (<8 against drawn Battle Destinies), and 7 ability (thus protecting also against the not-so-often-played First Officer Thaneespi). Note also that the deploy cost of both together is 14, one less than the Executor, but of course there are drawbacks (you need both cards in hand, while the Executor has some puller cards). <br />
+Still, playing this card gives a tremendous help to the Judicator.<br />
+<i>Combo</i>: Grand Moff Tarkin (non-virtual).<br />
+With the Moff aboard with Vader, you&#39;ll get both weapon protection and a boost in immunity to attrition, since you will be able to cancel any destiny just drawn in battle (your choice: weapon destiny, battle destiny, sense destiny, etc.).<br />
+<br />
+<br />
+<b>They&#39;ve Shut Down The Main Reactor</b><br />
+This interrupt is really good in any capital decks that run weapons. Since no top decks is using capital weapons, this interrupt is not seeing much play. However, it is surely too big to ignore.<br />
+If you have a capital armed with a weapon or a tractor beam, you can use 2 force to target any starship there. This starship, until the end of the Dark Side next turn, is prevented from moving and from using the ability of its pilots to draw battle destiny.<br />
+This is usually a game ender, since if you move a good fleet (or just a full optional Judicator) towards the opponent&#39;s fleet, he will likely run away from you. Well, just wait until only one starship remains in front of you (since each ship movement is a single action) and then play They&#39;ve Shut Down The Main Reactor. The opponent will be stuck with a lone ship against yours, and will be killed next turn without pity, without even possibly using Hyper Escape or Hit And Run. Only Houjix will save him.<br />
+Note that you can also play it just before a battle, to prevent these same 2 cards to be played.<br />
+<br />
+<br />
+<b>Weapon Levitation</b><br />
+This card gets into the top 5 simply because it is just beautiful with the Laser Cannon Batteries. Else it would be with Heavy Fire Zone in category B.<br />
+Why the card is better ? simply because you do not need Heavy Fire Zone to deploy as a react a Laser Cannon Battery, you just need it into your hand. And to have it into your hand, you have to draw it, which Weapon Levitation does perfectly well.<br />
+The reason is the following: it helps drawing any weapon (good to get various lightsabers or else), it has a good destiny (4), it is a Used Interrupt, and it is also one of those great cards to steal away weapons from LS Mains (not permanent weapons, though).<br />
+Also, when you are paying to deploy a ISD (huge cost) and support pilots, you have a lot of Force remaining in the Used Pile, so the chance to get a weapon there is pretty much the same as in the reserve deck. <br />
+And at last, since in the game you are bound to draw destiny (battle, S/A, racing, or other), chances are that sometimes you will draw a weapon for destiny. Well, Weapon Levitation allows you to take it into hand right afterwards.<br />
+<i>combo</i>: Inconsequential Losses.<br />
+If you&#39;re using Inconsequential Losses, forfeited weapons go to the Used Pile. Which means that after a battle you just need to play Weapon Levitation and you get right back your just-forfeited weapon into hand.<br />
+<br />
+<br />
+<b>Deflector Shield Generators (V) and Levitation Attack (V)</b><br />
+This Deflector Shield Generators (V) is good, but not so damned good to justify category A.<br />
+It is in category A because of V6, where the card Levitation Attack (V) gives it full potential.<br />
+The Deflector Shield Generators (V) is a non-unique card, that gives your Star Destroyer immunity to attrition <3, power +2, but especially immunity to any non-artillery weapon (which means immunity to anything but the big LS Ion Cannon of hoth, that no one plays anyway), and immunity to opponent&#39;s interrupts (no Power Pivot for example). This alone is big, but it does not stop there. You have an additional +1 Force generation, and you may deploy from reserve deck a Tie once a turn. Last, your Star Destroyers are all destiny +1 when drawn for weapon or battle destiny.<br />
+This card wasn&#39;t so good before because they were no way to draw them but with Emergency Deployment (V), and both cards did take space in your Life Force.<br />
+Now, with Levitation Attack(V), you deploy up to two devices (for free) from under your Starting Effect, which means that one of those Deflector Shield Generators (V) could be put there, without taking precious cards slots in your Life Force. Of course, to play them, you would need to draw a Levitation Attack(V), but this last card is a Used Interrupt, which means it wouldn&#39;t take up any Life Force space, since it would be recirculated as soon as played. Being a destiny 4, it is not too shabby either. <br />
+Of course, you have to draw Levitation Attack (V). Well, one solution would be to pack Unexpected Interruption, which is not to bad (especially in Wakeelmui T/I deck) and has overall purposes. Or else you use some other means of Force Manipulation, like IG-88(V) in a CCT deck (Janus is not a bad card either) or you just pack 2 or 3.<br />
+<i>Combo</i>: any other device under starting effect<br />
+Since you can get 2 devices with Levitation Attack (V), why not use it to full potential ?<br />
+Get the Deflector Shield Generator (non-virtual) for an added 2 immunity and 2 armor.<br />
+Or get Homing Beacon, to cancel annoying Landing Claws and to spread out with your fleet while the Judicator follows the opponent&#39;s ships.<br />
+Or get any other device to help you out.<br />
+<i>Combo</i>: Black 2 (V), any starship weapon and Crossfire (Shield or Effect)<br />
+The Deflector Shield Generator (V) gets you Black 2 (V). X-Wing Swarm ??? X-Wings lose their main 2 strengths in battle vs. the Judicator (Organized Attack and S-Foils).<br />
+<i>Combo</i> (deck): Big Blue with Oppressive Enforcement and ISD (V).<br />
+All your ISD (V) are destiny 5 when drawn for weapon and battle destiny. Can you say ISD (V) swarm ??? In this kind of deck, play for sure Fusion Generator Supply Tanks (V).<br />
+<br />
+<br />
+<br />
+<b><u>Category B:</b></u><br />
+<br />
+<b>Crossfire</b><br />
+The Endor version is a good card, in any deck where you use the Judicator just not for disruption.<br />
+This is the case of “holding one system” decks (like TDIGWATT), or Big Blue.<br />
+Since the Judicator will always have often at least 2 weapons aboard, you will always get the +5 to power bonus in battle. <br />
+But the other part of the game text is what makes it nice: you&#39;re basically immune to S-Foils at the same location where you have a weapon present. This means that the Judicator can hold its own even against X-Wing swarm (without wasting a Shield Slot), since the most they will be able to play would be Organized Attack.<br />
+Crossfire also helps vs. Maneuvring Flaps (beware, only the non-Virtual version) the same way, which is an added bonus when you are playing Mains and Matching weapons vs. those annoying speeders-<br />
+Crossfire can be started with Prepared Defenses, which is nice, but really besides some really Big Blue weapon focusing decks, no one start with Crossfire if they have the combo You Cannot Hide Forever / Mobilization Points, since it can be discarded to take it from Reserve.<br />
+<i>Combo</i>: Weapon Levitation and Mains with Weapon cards.<br />
+Having Crossfire allows to protect your mains with weapons (not permanent weapons) on the ground from Maneuvring Flaps. What about using Weapon Levitation, then, to draw your lightsabers or your Judicator weapons when in need, to speed up the deck ???<br />
+<br />
+<br />
+<b>Besieged (V)</b><br />
+Besieged (V) is a good card. It allows you to prevent any Bacta Tank madness at your same system, since it can capture any characters forfeited from any system as your Imperial Capital starship. You may also capture unpiloted ships forfeited, which can help vs. decks that can just retrieve their lost ships via retrieval, I&#39;ll Take The Leader, etc. and deploy them back again in the following turns. However, it is not a great card, even if you can start with it with Prepared Defenses.<br />
+Why ? Simply because it does not capture capitals (even if the game text does not mention it) simply because all capitals have permanent pilots, and thus are not eligible to be captured by Beseiged (V), nor non-unique starfighters, like X-Wings. The non virtual version of Besieged could capture all of them.<br />
+Also, the ability to capture characters forfeited from the same ship is moot if the opponent forfeits the ship first: all the characters aboard are then lost, and not forfeited. Still, the card can see some use.<br />
+<br />
+<br />
+<b>Kuat Drive Yards (V)</b><br />
+This card, that can be started with Prepared Defenses. It allows the quick deployment of a system (good if you play CCT to get Bespin and put the Judicator there).<br />
+However, this cards gives also a welcome boost to the Judicator: immunity <4, deploy-1, and ability 3. All in all, you gain what you&#39;re missing: immunity to attrition (that can be then increased with other cards) and better ability (thus requiring any pilot to draw battle destiny, and not anymore at least ability 3 more).<br />
+<i>Combo</i>: We&#39;re Into Attack Position Now<br />
+Boosts the immunity to attrition to <6, gives bonus to the deploy of pilots, and is a nice admiral order if coupled with General or Commanders on the ground.<br />
+Add some Imperial Command, and you get everything that you needed.<br />
+<br />
+<br />
+<b>Defensive Fire (V)</b><br />
+Defensive Fire (V) is a card that nearly goes to category A, if you&#39;re using Turbo Laser Battery to shoot with the Judicator: it lets you shoot FIRST for free in a battle, adding 2 to each weapon destiny draw. With the Judicator, it means a +4 to each draw. It means that with a Heavy Turbo Laser Battery, you will have 2 destiny +7 > armor against capitals, and vs. starfighters 2 destiny +2 > maneuver. It is a very efficient combination vs. anything, especially nasty starfighters like Outrider (that will get their power down to 0 before possibly dropping yours).. However, this interrupt still has a not so good destiny (3), is not immune to Sense, and does not work very well with Laser Cannon Battery.<br />
+<i>Combo</i>: Relentless Targeting<br />
+Play Defensive Fire (V) and hit an opposing starship. Now make it immediately lost thanks to Relentless Targeting. <br />
+Add You Overstimates Their Chances and you have a pretty bad picture for the LS.<br />
+<br />
+<br />
+<b>Precision Targeting (V)</b><br />
+Precision Targeting (V) is not a bad card either, but has the huge drawback that it&#39;s not immune to Alter (so you cannot start with it, and you always risk an Alter on it). The card&#39;s game text allows you to deploy for 1 Force from Reserve a starship weapon (for free) on your capital.<br />
+This is not bad, but it means that you should be using a deck full of starships weapons (else the probabilities of finding one are not so high), and if you are, you will be packing for sure Inconsequential Losses, and if it&#39;s the case, cards like Weapon Levitation or Heavy Fire Zone are just plainly better (they also don&#39;t use a “life force slot” since they are used interrupts). Also, even if you&#39;re deploying the weapon for free, it still costs you 1 Force to use the effect, which is higher than the cost of a Laser Cannon Battery, and slightly less than a Ion Cannon. The only good points are when you are deploying Turbo Lasers. But really, these weapons require so much force even to shoot (and are not guaranteed to hit without support cards) that any player using them should (imho) play Rendili and Rendili Stardrive (great support card for Turbo Laser), thus making useless the deploy for 1 Force of Turbo Lasers, since they will deploy and fire for free with Rendili Stardrive.<br />
+However, nothing is lost: Precision Targeting (V) has other cards to help it: plainly put, it adds 1 to each weapon destiny draw. This is like Rendili Stardrive, but not limited to Turbo Lasers, which is not bad, especially if you start to play combo (the Judicator, with both Rendili Stardrive, Precision Targeting (V) and Defensive Fire (V) would shoot first in battle for free at +12!!!).<br />
+The part of the text that makes this card a category B card is “may lose this Effect to make any just ‘hit&#39; starship forfeit=0”. Coupled with the “any ‘hit&#39; starfighter is power=0” of the Judicator, this is like Lateral Damage.<br />
+This card however might be used efficiently to inspire fear in most starfigthers decks, where an armed Judicator is akin to a “flying Lateral Damage”.<br />
+<br />
+<br />
+<b>Motti (V)</b><br />
+Motti (V) is not bad. Playing it in a deck with the Judicator would mean nearly everytime +5 (+7 if he pilots, so like a little ISD in itself!) to power since the Judicator should be armed with a weapon. This Imperial costs only 1 and forfeits for 5 (7 with Imperial Arrest Order), so he is also resistant and very cheap. However, there is no way to get him into hand besides some trick like Commander Praji (V), since he&#39;s the Motti from the Jedi Pack.  I mean, he&#39;s no admiral, so you&#39;re not getting him via Imperial Command. <br />
+And last but not least, he is ability 2. This means that on the Judicator, alone, you won&#39;t be drawing Battle Destiny (not without KDY(V) anyway).<br />
+All in all, does not justify it&#39;s use but in a big blue deck.<br />
+<i>Combo</i>: Alert Your Star Destroyer! (V) + Devastator + Commander Praji (V)<br />
+Allows you to get Praji (V) who will get in turn Motti (V). You still have to find out a way to get the Judicator, however. This combo is perfect for a Big Blue deck with weapons.<br />
+<br />
+<br />
+<b>Emergency Deployment (V)</b><br />
+A destiny 3 card, that has some overall use. It gets you a device or non-ligthsaber weapon from Reserve at any time, which is another way to get your weapons or devices (like Deflector Shield Generators) from your deck. Of course, other cards like Weapon Levitation and Heavy Fire Zone are better, both for destiny and game text, but this one is immune to Sense. So it is a safe way to get what you are looking for.<br />
+It also works nice with decks packing some matching Ties with pilots, since you can play it to react by deploying a pair from Reserve. Still, it won&#39;t happen very often, but some very nasty combo could be made there.<br />
+<i>Combo</i>: Scythe 1, Scythe 3, Major Mianda, Lieutenant Hebsly, SFS L-s 7.2 Tie Cannon<br />
+Emergency Deployment (V) does not get only your Judicator weapons, but also the T/F Cannons, or allow a react with these 2 matching T/F and pilots.<br />
+While not great, these 2 allows for some shooting during the move phase (also 2 movement possible each move phase), which can be a good way to pursue and destroy the opponent&#39;s fleet if they run away from you to spread and drain (highly possible against a lone Judicator).<br />
+<i>Combo</i>: Scimitar 2 and Captain Jonus.<br />
+The opponent is putting at risk the Judicator with his 2-4 Battle Destinies ? React with Jonus. You will be able to shoot the opponent&#39;s ships, and then to forfeit Jonus to satisfy all battle damage and attrition. If the opponent has some X-W cannons, just react your Tie Bomber and pilot inside the Judicator.<br />
+<br />
+<br />
+<b>Fusion Generator Supply Tanks (V)</b><br />
+One of the first virtualised card, it is much weaker than its LS counterpart. The immunity to attrition is only <3 (not much), but goes to both unique Ties and ALL Star Destroyer (which can be nice when playing non-unique ISD or any Victory). Cancelling Hyper Escape and Power Pivot is good too, since these cards are often played in a LS space deck. But considering Deflector Shield Generators (V), one would ask himself why to play this card… especially considering all the anti-hyper escape cards out there. <br />
+Still the card cancels them everytime, not only once, so it is a virtual protection for all the fleet, and considering that this card goes to Used if opponent controls the location it&#39;s on, if you play it at a Docking Bay, it will be back in your life force if the opponent controls it. <br />
+<i>Combo</i>: Big Blue and We&#39;re Into Attack Position Now<br />
+Get all your ships immune <5, and gain immunity to Power Pivot, while helping beatdowns by cancelling Hyper Escape.<br />
+<i>Combo</i>: Levitation Attack (V), any Docking Bay, and many Fusion Generator Supply Tanks (V).<br />
+One could play more than a couple under Fear Is My Ally, get them through Levitation Attack (V), and have a free “+2 Life Force” by deploying them at the same docking bay the LS player controls. Not that bad, and the cards are destiny 4.<br />
+Works nice if you can play SYCFA Big Blue: hold the Death Star docking bay to satisfy Battle Plan / Order. If they kick you out, you gain a boost in life force because of  all the Fusion Generator Supply Tanks (V) there. Of course, deploy one of them to a ship, so that you don&#39;t lose in one go your bonuses.<br />
+<br />
+<br />
+<b>Nothing Can Get Through Our Shield!</b><br />
+Admiral Order from Theed Palace, this one works nice in any weapon heavy deck for starships: any ‘hit&#39; you make will make the opponent lose 1 Force. <br />
+With the Laser Cannon Battery, it means “lose 1+1 with a successful hit”. Not shabby at all. <br />
+This loss is of course not prevented with LU(V), since the force loss is not a pool, but different losses of 1.<br />
+<i>Combo</i>: Imperial Artillery<br />
+Add Imperial Artillery, and the loss jumps to 3 (or 4 if played twice).<br />
+<br />
+<br />
+<b>Colo Claw Fish</b><br />
+This card is well know. With the Judicator, a 7 on the Fish, and a Laser Cannon Battery, it means that you will ‘hit&#39; maneuver 9 or less. Like a T/I cannon with the fish. But you will also be able to hit capitals that way blindfolded.<br />
+This car alone, with a Laser Cannon Battery, means pain for the LS.<br />
+A new version of KtoD Senate will be born ??? Maybe not, but definitively worth a thought. <br />
+<i>Combo</i>: Precision Targeting (V) or Defensive Fire (V)<br />
+Any card that helps more the shooting is a step more towards total control (and psychological fear) of space.<br />
+<br />
+<br />
+<b>Crossfire (Shield version)</b><br />
+The Shield version is not as good as the Effect, since it does not give you +5 to power, but still does not take place in your deck. Any space deck with weapons should pack this shield, saving them precious battles vs. X-Wing swarms.<br />
+<i>Combo</i>: see Crossfire non Shield.<br />
+<br />
+<br />
+<b>Imperial Artillery</b><br />
+Destiny 7, Used Interrupt, this is the typical card that does not make it into final decklist due to overall average use, not immunity to Sense, and lack of real damage.<br />
+Still, in a heavy weapon deck, especially one where you play Colo Claw Fiexhausts potential is greatly enhanced. <br />
+Good, as already said, with Nothing Can Get Through Our Shield and Laser Cannon Battery.<br />
+<br />
+<br />
+<b>We&#39;re In Attack Position Now</b><br />
+Another Admiral Order. This one gives the Judicator immunity to attrition, or adds some to one already existing. <br />
+<i>Combo</i>: Darth Vader (V) + Deflector Shield Generator (non-virtual)<br />
+Now you have immunity <9 (-12 vs. drawn destiny), ability 7, and armor 8. Not bad at all, especially in a “control planet deck” where you can abuse commanders and generals on the ground for added force loss.<br />
+<br />
+<br />
+<b>Inconsequential Losses</b><br />
+Forfeits weapons for 3. Can be pulled with YCHF. Or can be started with Prepared Defenses. A good overall effect for Big Blue Weapons decks, but lacks efficiency to be played in any Judicator deck.<br />
+<i>Combo</i>: Laser Cannon Battery + Weapon Levitation<br />
+Forfeit your weapon for 3 (basically it is like having immunity <4) after a battle. Get it right back with Weapon Levitation. Since it is a Laser Cannon Battery, you can deploy it back both during LS and DS turns, since it deploys as a react. <br />
+<br />
+<br />
+<b>Alert My Star Destroyer!</b><br />
+The non-virtual version of this card is not that crappy.<br />
+Basically, you just need to play an Admiral (with Imperial Command, it is easily done), Moff, or Dark Jedi, and shuttle him to the Judicator, and play this Immediate Effect. Now you have a problem solved: the Judicator is immune to attrition. Which means that not even Life Debt will punch through it (which is a bane for the Executor), even though you might risk overpowering, but with weaponexhaustting starfighters for power=0, you have better chances than with an Executor.<br />
+The only drawback is that this Immediate Effect is not immune to Control.<br />
+But to base a tactic upon it, you just need the Fanfare Shield to get it quickly into hand.<br />
+<i>Combo</i>: Imperial Command<br />
+As already said, get your admirals via Imperial Command, and shuttle one up. Now you are immune to attrition, and can draw 2 battle destiny thanks to Imperial Command in future battles.<br />
+<br />
+<br />
+<b>Flawless Marksmanship</b><br />
+Without Colo Claw Fish, or against very painful LS decks who play Super-Red 5 or Super Falcon with maneuver 10 or more, this card will help you punch your starship weapons through.<br />
+Still not very useful in other occasions, but the card is on category B just for the tech value of taking out a key ship with it (it will win you a game).<br />
+<br />
+<br />
+<b>Rendili Stardrive </b><br />
+As already said, this card is a good support card when using Turbo Laser Battery. You have to deploy it on Rendili, but Rendili is easily pulled with Mobilization Points or KDY(V).<br />
+Rendili Stardrive has the added bonus of being immune to Alter while you occupy Rendili, which is not bad.<br />
+It lets your Turbo Laser deploy AND fire for FREE, which is huge, especially with the Judicator, since it also adds 1 to each weapon destiny, going from 2 destiny-6 to 2 destiny+0 to hit any starfighter.<br />
+However, this effect does not work with Laser Cannon Battery, so it is not an all-around choice.<br />
+<i>Combo</i>: Precision Targeting (V)<br />
+Add pain to injury. The Judicator shoots for free at +4 for each weapon destiny, and threaten the LS with a “forfeit=0” whenever you wish.<br />
+<br />
+<br />
+<b>Heavy Fire Zone</b><br />
+A good all around interrupt, Used, and destiny 5. Allows you to deploy for sure (barring Sense) a weapon to shoot into the just initiated battle, either from hand, either from Reserve. The weapon deploys for free, so it is a good solution if you&#39;re not playing Precision Targeting (V) or Rendili Stardrive with Turbo Laser Batteries. It has also the advantage of keeping the starship weapons in your life force or hand, thus not deploying them for nothing on table, but only when needed. All in all, a good card, but that lacks utility with the Laser Cannon Battery, since the weapon deploys also as a react on its own.<br />
+<i>Combo</i>: Defensive Fire (V) + Relentless Pursuit<br />
+You react with a weapon and you shoot first. If you hit, you put the opponent&#39;s ship into the lost pile.<br />
+Question: how much pain the opponent will suffer if playing also You Overstimate Their Chances ?<br />
+<br />
+<br />
+<b>Relentless Pursuit</b><br />
+While Relentless Pursuit is a good interrupt (it is, really, the counterpart of Power Pivot), it is not so great as to take number one spot. Indeed, while Power Pivot is popular, Relentless Pursuit is not. This is because there are no really big ships in LS, and especially because players like more Lateral Damage. Here Relentless Pursuit is not so bad with the Judicator, but not for the reason you might think. <br />
+The card can be indeed used as “you have power=0”, but the Judicator does already that when hitting starfighters, and, as we already know, Capitals are not a threat against our beloved ship.<br />
+It is the other part of the text “place one opponent&#39;s starship just hit in Lost Pile” which is golden. Basically it allows you to wipe out capitals like Home One out of the sky, leaving petty starfighters to be hit for power=0 afterwards. Big beatdown.<br />
+<i>Combo</i>: You Overstimate Their Chances + more than one weapon<br />
+You shoot starfighters making them power=0, and you take out of the sky the opponent&#39;s capital. Triple battle damage. Game Over.<br />
+<br />
+<br />
+<br />
+<b><u>Category C:</b></u><br />
+<br />
+<br />
+<b>Firepower (V)</b><br />
+While Firepower (V) is a good overall card, this is not especially thanks to the Judicator. But since the Judicator will be a flying beast around, this shield can let them pay if they Hyper Escape or Hit And Run.<br />
+The problem is that you will surely be deploying and attacking only once with the Judicator, afterwards the opponent, is he get beaten, will just run from you, so Firepower Shield becomes useless.<br />
+<i>Combo</i>: any control planet deck<br />
+Judicator in orbit, and control of battleground sites. The opponent comes to you or gives you cards thanks to Firepower Shield. If he comes, he will pay if he tries to Hyper Escape out.<br />
+<br />
+<br />
+<b>Flagship (V)</b><br />
+Good card, however pretty limited on the Judicator, since it will allow you to draw one battle destiny, but won&#39;t give you immunity to attrition or anything else.<br />
+Flagship (V), however, allows you to pull other cards, so it can be used if your strategy bases itself on this, but for anything else, this card should be forgotten.<br />
+<i>Combo</i>: Admiral Piett + We&#39;re Into Attack Position Now<br />
+Flagship (V) gets you Piett which can get you the Admiral order for some immunity to attrition.<br />
+<br />
+<br />
+<b>Death Squadron (V)</b><br />
+Death Squadron (V) deserves a mention since it can be pulled with IO/IC(V), is immune to Alter and even to non-virtual Rieekan. This card cancels Haven there (Sullust trick, anyone ?), prevents Power Pivot and Outrider (reducing of power) so it&#39;s good. It also gives –1 to deploy for both Judicator and pilots, so it&#39;s ok.<br />
+Still, would work only in a IO/IC(V) deck, so it does not deserve more than category C.<br />
+<i>Combo</i>: IO/IC(V), Blizzard 4, Darth Vader (V)<br />
+Get the Judicator to hold Hoth, while protecting him from the Outrider. Before that, get Blizzard 4 to get Vader (V) that will help you, on another AT-AT, to blow up the main generators. Once done, deploy the Judicator and shuttle Vader (V) up for immunity to attrition.<br />
+<br />
+<br />
+<b>Guri</b><br />
+Honorable mention to our beloved assassin droid. Prevents the opponent from drawing more than 1 battle destiny at same location, but alas only if Vader is not present. So no combo with Virtual Vader… oh well… it still can work with other cards…<br />
+<i>Combo</i>: We&#39;re Into Attack Position, Deflector Shield Generators, and Kuat Drive Yards (V) or Fusion Generator Supply Tanks (V)<br />
+Get immunity <7 or <8. And Guri blocks opponent to only 1 battle destiny. Power Pivot and Hyper Escape is blocked also.<br />
+<br />
+<br />
+<b>Grand Admiral Thrawn</b><br />
+Another good support card, since you will draw 2 battle destinies with him, but isn&#39;t he good with any Star Destroyer ???<br />
+So Category C it is.<br />
+<i>Combo</i>: Alert My Star Destroyer!<br />
+Shuttle up the Grand Admiral Thrawn to the Judicator. Now it is immune to attrition and draws 2 battle destinies.<br />
+Add Imperial Command and the job is done.<br />
+<br />
+<br />
+<b>Intensify The Forward Batteries</b><br />
+Another Admiral Order. This one works only when played with mainly weapons and ships, to allow you to draw battle destiny if not able to otherwise, and subtract 4 from opponent&#39;s capital defense value.<br />
+However, its use is somewhat limited, since the Judicator has no problem anyway to hit capitals, so the card is not overall useful with this ship.<br />
+<i>Combo</i>: control planet decks + non-pilot warrior swarm.<br />
+Possible ideas are TDIGWATT with Royal Guards, or simply trooper swarm.<br />
+<br />
+<br />
+<b>Coordinated Attack</b><br />
+Has anyone played this card before ??? I do not think so. Destiny 2 is already crappy. The card is good only in remote situations, which is when you face someone you do not have the force to shoot at (possible) or that you know you will miss. In this case you can add a whooping 4 to power. Yeeehaaaa !!!<br />
+That&#39;s all ? More or less. You can also play this card as lost interrupt to cancel a battle destiny just draw, which is good, but it costs 3 Force.<br />
+Oh, and the interrupt is not even immune to Sense.<br />
+<i>Combo</i> (joke): not having enough force<br />
+Lol. Simply put, but true. When you do not have enough force to shoot, play this interrupt to get a +4 to power.<br />
+<br />
+<br />
+<b>Firepower</b><br />
+Mmmhhh… The non virtual version was never played. And shouldn&#39;t be still. It is, however, still a support card, since it allows you to deploy your starship weapons from the Lost Pile. Still, this effect is not immune to Alter, and it costs 2 Force to do it. So it has some uses if you&#39;re relying on the Judicator alone (in the case your ship goes to the lost with the weapons aboard in a battle) and you want to deploy another copy, but you have no more weapons. And the fact that you can deploy also Artillery or Vehicle weapons from the Lost does not change much… <br />
+<br />
+<br />
+<b>I Can&#39;t Shake Him<br />
+Quite crappy. Half of the game text is useless for the Judicator, since it works only with starfighters. The other parts lets you deploy a starship weapon on your starship from your Reserve deck. Not immune to Sense, but at least a Used Destiny 5 Interrupt.<br />
+<br />
+<br />
+<b>Kuat Drive Yards</b><br />
+This card allows the deployment of ISD from Reserve. This card, for a Judicator deck, would be good and category B for the following reasons:<br />
+-	It is the only card that allows you to pull the Judicator from Reserve.<br />
+-	It gives the Judicator immunity <4.<br />
+However, you need Kuat. To have Kuat, you need to play Mobilization Points to draw it, and then you need an effect puller to get KDY. THEN, when you deploy the Judicator, it has to deploy to Kuat, which, let&#39;s say it, is not really nice, since it is far away from everything (Kuat is parsec 1). So while this card could see some use in a “planet control” deck, like Ddeal, the distance is just too great to be usable. Old Yavin 4 Occupation decks could use it, though.<br />
+<i>Combo</i>: Kuat + planet control deck with parsec <5, Imperial Decree<br />
+Basically the idea is to deploy the Judicator and to move it to the system related to the system you want to control. Some Operative decks are in this category, and also Ralltiir Operations.<br />
+With Imperial Decree on table, you cancel all drain bonuses of your opponent with just another ship on Kuat (that Kuat Drive Yards can get for you) and opponent&#39;s drains are –1. Basically, a good lockdown. <br />
+It won&#39;t work against everything, true, but still, it is an option.<br />
+<br />
+<br />
+<b>Overwhelmed</b><br />
+The card did see some use, and it is not that bad, albeit it is a lost interrupt (but destiny 5). It allows you to put into the Used pile all of the opponent&#39;s ships and cards on them at same location where you have more than double total power of the opponent. Good vs. Landing Claws and stupid Falcon before playing Punch It, I Know, etc… You still have to get a good amount of power there, so it is not that easy.<br />
+Plus, it does not work if they have a Jedi or a starship weapon…<br />
+<br />
+<br />
+<b>They&#39;re Coming In Too Fast!</b><br />
+Used Interrupt with destiny 4. Not really great. However, with a starship weapon, you can cancel an opponent&#39;s ship immunity to attrition. It might seem good, but really, if you&#39;re hitting ships, immunity to attrition or not, it&#39;s not going to matter. So this card is good only as support card when you know you won&#39;t hit the opponent&#39;s ship… but then, you could as well stop playing the Judicator, no ? I mean, what&#39;s the use of packing this card (which means “I think I won&#39;t be able to hit everything”) and the Judicator in the same deck ??? Just dump the Judicator and play something else, then!!!<br />
+Oh, this interrupt cancels also A Few Maneuvers, by the way. And no, it doesn&#39;t make it any better.<br />
+<i>Combo</i>: You recycle a 4 ???<br />
+Really, no Judicator combo but an assured “the opponent will forfeit something, even if I miss my shot”.<br />
+<br />
+<br />
+<b>I Want That Ship</b><br />
+This card might seem quite useless, but it&#39;s not. Of course, the Judicator won&#39;t gain bonus to weapon destiny unless you start using a Ion Cannon, but you can use this card as major force loss for the opponent. Play it on the Falcon, and when it goes lost, booom, 5 force, please. It works also on any other unique ship, in which case it is even more easy to make it lost, but the force loss is only 3.<br />
+<i>Combo</i>: Breached Defenses (V)<br />
+If the opponent is stubborn enough not to put his Han & Chewie And The Falcon out of play after you played Breached Defenses (V), you can make them pay for it with I Want That Ship. Now you&#39;ll want him badly. As soon as it will go away, the opponent will lose 5.<br />
+No trick to reach this goal is amoral. Broken Concentration, Jawas, or just plain battling or force choke…<br />
+<br />
+<br />
+<b>Precision Targeting</b><br />
+The non virtual version is not really useful, even it might seem not so.<br />
+It allows any hit ships not be forfeited for attrition, apparently declaring that the opponent will have to forfeit something else than the ships you just hit. However, while this can be nice when facing a fleet of LS ships, it does not prevent the opponent from forfeiting his characters aboard to satisfy attrition, so it is really not often worth it.<br />
+It costs also 3 Force, and has a bad destiny.<br />
+<i>Combo</i>: threatening.<br />
+Threaten (verbally and physically) your opponent into not deploying any characters aboard his ships, so that Precision Targeting will eventually (maybe) help you somewhat.<br />
+<br />
+<br />
+<b>Mynock</b><br />
+This nice little creature can suck hyperspeed and power, leaving a possible beatdown on the opponent (if hyperspeed value is not high enough, an opponent&#39;s starfighter might get stranded on the system forever), and since it attacks only starfighters, you do not risk anything with your Judicator.<br />
+If the CRD didn&#39;t write it so, you could drop them with KDB(V)… and indeed, a lot of players would be packing them then. It is not the case (else it would be broken), so forget about it. The Mynock costs a lot (3), has a low destiny (3), and goes lost with the ship when you destroy it, so all in all, I wouldn&#39;t recommend it but in the most crazy fun decks, just to see the face of your opponent.<br />
+<i>Combo</i>: Mynock, Mynock ???<br />
+Play more than a few. Try to get them into hand. Pay 3 for each of them, and watch them reduce the opponent&#39;s ship power and hyperspeed.<br />
+Now battle. Congratulations, you managed to kill a ship and a whole lot of your life force with it.<br />
+Smart ? Of course not, but why are you playing Mynocks, huh ?<br />
+<br />
+<br />
+<b>Deflector Shield Generators</b><br />
+The non-virtual version is not that bad, since it adds 2 to armor and immunity to attrition. Coupled with We&#39;re Into Attack Position, the Executor can jump to <16, and the Judicator (if adding Vader (V)) to <9. Not bad, and while it is not cumulative, it is not unique either, so you can play both virtual and non-virtual version on the Judicator.<br />
+It can be hidden under Fear Is My Ally to be pulled with Levitation Attack (V), of course.<br />
+Category C because without some way to add immunity to attrition to the Judicator, this card is useless.<br />
+<i>Combo</i>: any immunity to attrition card.<br />
+Increase your immunity to attrition by 2.<br />
+<br />
+<br />
+<b>R3-T6</b><br />
+This little A New Hope droid is the one that makes the Death Star move faster… Still, it can also give the Judicator some immunity to attrition, like the other Premiere Droid, R3-G4. Should you play it ?<br />
+No, but still, you have the option to do it.<br />
+Oh, you get also hyperspeed +2. Wow!<br />
+<i>Combo</i>: …<br />
+You should first find a way to get this droid on the Judicator before it is too late (i.e. losing the game).<br />
+<br />
+<br />
+<b>Fusion Generator Supply Tanks</b><br />
+Gives the Judicator power and hyperspeed +1. Incredible.<br />
+Now you can feel safe (sarcasm).<br />
+<i>Combo</i>: I&#39;m a scrub.<br />
+Fool your opponent. Play this card. Add to the fact that you are playing the Judicator and he will think that you are definitively a scrub. Now kick his butt with your other 58 cards.<br />
+<br />
+<br />
+<b><u>Last Note:</b><U><br />
+<i>A particular honorable mention goes to Alert My Star Destroyer! (V), a card that could have brough many unused ISD back to the playing area, but…<br />
+It is a pity that there are NO matching pilots for the Judicator (read the rules). Brandei is not. So the Judicator cannot be pulled with it. The day it will be possible, this ISD will see some more action, trust me.<br />
+So all in all, that card is pretty useless for the Judicator. Unless you just want to make fun of it (the ship) by playing this effect anyway and looking for the Judicator, which could be a tactic in itself (maybe your opponent will laugh to death while you win the game ???).<br />
+</i><br />
+ <br></font><BR><font class="bfont"> <A HREF='/starwarsccg/articles/articles.php?id=5411&view=1&PHPSESSID=29818f8b6da266174ddd746571e9b090'>Read the Reviews</a><font class="bfont"> | <A HREF='/starwarsccg/articles/articles.php?PHPSESSID=29818f8b6da266174ddd746571e9b090'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php?PHPSESSID=29818f8b6da266174ddd746571e9b090'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+<!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php?PHPSESSID=29818f8b6da266174ddd746571e9b090"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

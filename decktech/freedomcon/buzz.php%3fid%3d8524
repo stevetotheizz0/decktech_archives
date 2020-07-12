@@ -1,0 +1,363 @@
+
+<html><!-- #BeginTemplate "/Templates/freedom.dwt" -->
+<head>
+<title>FreedomCon - United We Stand</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {  margin: 0px 0px; border: none; font: 10pt Verdana, Arial, Helvetica, sans-serif; color: #000000}
+.legal {  font: 6pt Verdana, Arial, Helvetica, sans-serif; color: #CCCCCC}
+td {  font: 9pt Verdana, Arial, Helvetica, sans-serif}
+.nav {  font-size: 8pt; color: #FFFFFF; text-decoration: none}
+-->
+</style>
+</head>
+
+<body bgcolor="#000E58" margin="0" marginwidth="0" marginheight="0">
+<table width="93%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td colspan="2" height="97"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+        <tr>
+          <td><img src="/freedomcon/gfx/freeblue.gif" width="266" height="123" border="0"> 
+          </td>
+          <td valign="middle" align="center">&nbsp; </td>
+        </tr>
+      </table>
+      
+    </td>
+    <td width="42" height="97">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td height="149"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <tr> 
+                <td class="legal"><a href="/freedomcon/index.php" class="nav">Home</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/about.php" class="nav">About FreedomCon</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/sponsors.php" class="nav">Our Sponsors</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/contact.php" class="nav">Contact Us</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/attend.php" class="nav">Players Attending</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/donate.php" class="nav">Donations and Charity</a></td>
+              </tr>
+              <tr>
+                <td><a href="/freedomcon/buzz.php" class="nav">Discuss FreedomCon 2!</a></td>
+              </tr>				  
+			  
+            </table>
+            
+          </td>
+        </tr>
+      </table>
+
+      <!-- #BeginEditable "nav" --> <!-- #EndEditable --><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><br>
+      </font>
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b><br>
+            What:<br>
+            FreedomCon</b> <br>
+            Philadelphia 2002<br>
+            <br>
+            <b>When:</b> <br>
+            October 4-6 <br>
+            <br>
+            <b>Where:</b> <br>
+            NeoQuest Games<br>
+            Gary's Plaza<br>
+            531 South Broad Street<br>
+            Lansdale, PA 19446<br>
+            </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">215 
+            855 7035</font></td>
+        </tr>
+      </table>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"></font></td>
+    <td width="541" bgcolor="#FFFFFF" valign="top" background="/freedomcon/gfx/Vegasxflcam.jpg"><!-- #BeginEditable "body" --> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td valign="top" height="461" width="57%"> <br>
+
+<script language="javascript">
+
+echo "test";
+
+// This makes certain pages private, for members only. Neal 10-2013
+if ($access == "" )
+{
+echo "<table bgcolor='#ffffff' width=500><tr><td><P>This area of DeckTech is now restricted to members only. You must be logged in to view this page.
+Go to <a href='http://www.decktech.net/'> DeckTech.net </a> to log in";
+echo "<P>If you are not a member, and would like to spy on a member, you are cordially invited to kiss off.</td></tr></table>";
+exit;
+}
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+prev1.document.writeln(texttoshow);
+}
+
+function changetobold()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetospoiler()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "(drag mouse to see spoiler)<div style=background-color:red;color:red;foreground-color:red>"+newtext+"</div>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+linkyaddress = document.buzzboardform.texttoconvert.value;
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function oldchangetobold()
+{
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+
+
+
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5<br />
+<b>Warning</b>:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in <b>/home/decktech/public_html/global/includes/com/buzzboard.php</b> on line <b>1719</b><br />
+<table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font class="h1font">Board games - tell me some good ones</B></font></td></tr><tr valign="top"><td><font class="bfont"><font class="bfont"> From: Lt. Cabbage</font><BR><table><TR><TD><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='/freedomcon/buzz.php?id=8524'><b>REFRESH THIS TOPIC</b></A></font></td><td width=40>&nbsp;</td></tr></table><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#EFF1FF><font class="h2font"> Comment</td></tr><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>imrahil327 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=imrahil327 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I think that depends on the group you play with, both size and personalities.  I play 3-player pretty often, so at that size everyone is pretty cognizant of what everyone else is going for.  The bigger the group and the more casual, the more tunnel vision there is with "This is my strategy" and less thought to hate drafting, etc.  I really enjoy 7 Wonders myself, looking forward to your thoughts on it Booth. <br><BR><font size=1>03:35 09-15-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Nitsuj </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Nitsuj '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">7 Wonders is fun, but I find it a tough game to play well.  What I mean by that, is that as the game is going, everyone is just looking at their hands, picking what is best for them, and not pausing to take a minute to see that the guy across from you really wants that science cog that you don&#39;t really want.<br />
+<br />
+It is a game that has potential to be pretty deep, but it plays at a light / quick pace. <br><BR><font size=1>12:02 09-12-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Just got 7 Wonders - played our first game - looks like fun <br><BR><font size=1>16:49 09-11-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Ken B </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Ken B '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">No way that is actually Hannah!  I think someone in the cult would have otherwise notified me. <br><BR><font size=1>10:14 09-06-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>HannahGrimm </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=HannahGrimm '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">You have to try Battlestar Galactica.  I know what you&#39;re thinking: "a Battlestar Gallactica tie-in game?  SOMEONE is trying to milk that franchise for all it&#39;s worth!"  Well, that&#39;s probably true, but by some strange coincidence, they managed to put together an absolutely amazing game in the process.  It&#39;s a semi-collaborative game in which you try to save humanity from certain destruction...all while some of your own are secretely cylons trying to kill you all.  <br><BR><font size=1>17:08 08-31-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>hag </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=hag '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Ah, Citadels. They should really add a subtitle to it. Something along the lines of &#39;how to ruin friendships and marriages in an evening&#39;s time&#39; <br><BR><font size=1>16:39 04-09-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">i only know of MtG drafts :( <br />
+<br />
+that&#39;s all the malbeoufs and I do when we get together once a quarter <br><BR><font size=1>16:05 02-23-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">So for my 40th B-day we did Boothcon 2013 - 24 hours of board and card gaming.  Stuff we played:<br />
+<br />
+MtG drafts<br />
+Bang! <br />
+Quarriors<br />
+Core WOrlds<br />
+Waterdeep<br />
+Citadels<br />
+Castle Ravenloft<br />
+Runebound<br />
+Flashpoint<br />
+SEntinels of the Multiverse <br><BR><font size=1>12:03 02-23-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">fortressat.com <br><BR><font size=1>07:46 01-01-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Shadow 13 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Shadow 13 '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">what board is it you guys talk about board games? <br><BR><font size=1>21:23 12-30-2012</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I strongly dislike Pandemic. It&#39;s super stressful to play (which is actually cool) but these co-op games are ONLY good if everyone is around the same level of experience with the game. Otherwise the ones that knows the most just tells everyone what to do and everyone listens. And if they don&#39;t listen, everyone loses. It&#39;s a cool concept but I don&#39;t think it works.  <br><BR><font size=1>09:50 11-10-2012</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>imrahil327 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=imrahil327 '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I like Seasons a lot.  You can try it out online here:<br />
+http://en.boardgamearena.com/<br />
+<br />
+it&#39;s pretty tough to explain simply or quickly, unfortunately. <br><BR><font size=1>22:55 11-07-2012</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">haven&#39;t heard of those two. Any good?<br />
+<br />
+Hey, anyone try the new Lego Hobbit game? I like the lego games.  I heard about another game, uh, Pandemic. Anyone play that? <br><BR><font size=1>15:55 11-07-2012</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>imrahil327 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=imrahil327 '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Anyone try Seasons yet? It seems pretty awesome. <br><BR><font size=1>13:13 09-11-2012</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">just scored ECLIPSE as an early b-day present. Trying to get through rule book now. I&#39;ll prolly do 1st game with Wife and take it from there. Looks cool so far.  <br><BR><font size=1>16:38 08-25-2012</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=5142">imrahil327™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/lotr/main/mpage.php?member=5142">imrahil327™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Heh, I see both sides.  I&#39;m not SCARED to post about it, I just don&#39;t think the subject will get much traction or interest, esp with it apparently being an oldish game.  Booth, I don&#39;t have any issues with Barnes, but I can see how he could come off that way. <br><BR><font size=1>16:04 06-23-2012</font><BR><BR><b>Patrick M.S.</b> "ok, I&#39;m going to reinforce Dr Doom with..zzzzzzzzzzzz"</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">disagree 100%. I&#39;ve been in some real tirades with Barnes over the last couple years and they&#39;ve all been enjoyable. He&#39;s smart and a fun writer. I have complete opposite tastes in just about everything that he likes but it&#39;s ok, it&#39;s fun to discuss. <br />
+<br />
+Barnes&#39; isn&#39;t a bully or anything, Chris. You will find allies probably for your discussion but it will be a good discussion anyway. My 7 Wonders discussion over there was hilariuos a year ago.  <br><BR><font size=1>15:17 06-22-2012</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Incidentally it cracks me up - because for all of Ken&#39;s bemoaning B Fred and his asshattery back in the day - Barnes is the poster child for Internet Asperger&#39;s Syndrome. <br><BR><font size=1>15:05 06-22-2012</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Michael Barnes isn&#39;t the guy at the games shop to tell you what game is fun to play.  He&#39;s the guy that you wince when he sits down to play because he can make any game unfun. <br><BR><font size=1>15:01 06-22-2012</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=5142">imrahil327™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/lotr/main/mpage.php?member=5142">imrahil327™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">On second thought I might not bring the Troyes discussion over to FAT- this is what I found when I searched for it, it&#39;s a quote from one of Barnes&#39; articles about it:<br />
+<blockquote><i>wow, that’s an overwrought, overdesigned game. I’m not sure it’s even _supposed_ to be fun.</i></blockquote> <br><BR><font size=1>14:36 06-22-2012</font><BR><BR><b>Patrick M.S.</b> "ok, I&#39;m going to reinforce Dr Doom with..zzzzzzzzzzzz"</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">yeah the german guy schweig who is always on my grammar and spelling sounds like he left which is sad I think (not sure). Too funny what YOU started up <br><BR><font size=1>13:34 06-22-2012</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=5142">imrahil327™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/lotr/main/mpage.php?member=5142">imrahil327™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Yeah, I&#39;d planned to F:AT about it too when I had a chance.  That tentacle thread got weird (heh), because it was basically over and then those guys started up again, and now I think some guy left completely. <br><BR><font size=1>12:35 06-22-2012</font><BR><BR><b>Patrick M.S.</b> "ok, I&#39;m going to reinforce Dr Doom with..zzzzzzzzzzzz"</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">hadn&#39;t heard of it. You should post on F:AT this stuff, everyone will talk to you. Did you see what your tentacle forum has caused? I missed it for 3-4 days and now it looks like a warzone. <br />
+<br />
+Man, I&#39;ll always love Puerto Rico. So much fun.  <br><BR><font size=1>08:10 06-22-2012</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=5142">imrahil327™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/lotr/main/mpage.php?member=5142">imrahil327™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Hey, just in time for the stimulating discussion in this thread, I played my first game of Puerto Rico tonight!  Ehhhh...  I might like it if I played again, but didn&#39;t seem super great.<br />
+<br />
+I did play one I think you&#39;d enjoy, Pat, called Troyes.  Have you heard of it? <br><BR><font size=1>07:11 06-22-2012</font><BR><BR><b>Patrick M.S.</b> "ok, I&#39;m going to reinforce Dr Doom with..zzzzzzzzzzzz"</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">ooooo! evasion of the DT censor! how skeksi<br />
+<br />
+yay ken spotting <br><BR><font size=1>14:36 04-04-2012</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Ken B </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Ken B '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">FRIMBAZELKING...lol.<br />
+<br />
+Something else I thought I missed...censorship?  Heh.  I&#39;ve been on the Fortress boards for too long.<br />
+<br />
+FU<m></m>CKING LOTR, MAN. <br><BR><font size=1>13:52 04-04-2012</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Ken B </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Ken B '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">REBUKETH ME NOT, PECKERHEAD<br />
+<br />
+<br />
+The LOTR LCG starts off feeling awesome, then you realize how frimbazel<t></t>king constrained you are, and they continually release packs month..after month...after month.<br />
+<br />
+Turns out I only <i>thought</i> I missed buying booster packs.  I traded my LOTR LCG away with the first two chapter packs relatively quickly. <br><BR><font size=1>13:51 04-04-2012</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Of course, then I think of Ken B.<br />
+<br />
+He is always looking for an excuse to play with himself. <br><BR><font size=1>21:18 03-06-2012</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">oh, and you could play solo vs the decks as well.  But who wants to play with themselves? <br><BR><font size=1>21:17 03-06-2012</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Yah - 2 player co-op - great artwork - Living game system is what they termed it - in that there is the starter that had 12 heroes, 4 30 card decks, 3 scenarios and 4 (or5 can&#39;t remember) monster decks and tokens and trackers.  pretty sweet deal for < $30 bucks.<br />
+<br />
+then each monthish (sometimes longer by watching their release schedule) they release a booster that run 9-15$ on Amazon that has 3 of each new cards for the 4 spheres and 3 of a neutral card, new monsters, quests and a new hero.  Pretty decent cost for like 10 to 15 bucks for new game sessions. <br><BR><font size=1>21:16 03-06-2012</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=8524><input type='Submit'  value=' Show all Posts '></form><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=8524><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/swtcg/main/join.php'> become a registered member</a></font></font></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script>
+<!-- advertising code -->
+<!-- Kontera ContentLink(TM);-->
+<!--
+<script type='text/javascript'>
+var dc_AdLinkColor = 'blue' ; 
+var dc_PublisherID = 157626 ; 
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'>
+</script>
+-->
+<!-- rumors board code end -->
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+      </table>
+      <!-- #EndEditable --></td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"> 
+      <p align="center" class="legal"><span class="legal"><span class="legal"><span class="legal"><br>
+        Legal- TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and related 
+        marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher Inc. Decipher, 
+        Customizable Card Game, The Art of Great Games and associated marks and 
+        intellectual property are exclusively owned by Decipher Inc. All Rights 
+        Reserved. THIS Web Site IS NOT PRODUCED OR ENDORSED BY DECIPHER, INC OR 
+        LUCASFILM LTD OR PARAMOUNT PICTURES. STAR TREK. </span></span></span> 
+        <span class="legal"><span class="legal"><br>
+        <span class="legal"> TM & © 2002 www.decktech.net. All Rights Reserved. 
+        </span></span></span><br>
+        <br>
+      </p>
+      </td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+</body>
+<!-- #EndTemplate --></html>

@@ -1,0 +1,776 @@
+
+<html>
+
+<!-- CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming --> 
+
+<head>
+<title>Welcome CCG Players</title>
+<meta name="keywords" content="CCG, TCG, Collectible card games, Trading card game, SW:CCG, Customizable Card Game, CCG, Star Wars CCG, Card Gaming">
+<meta name="description" content="DeckTech has one mission: To build a self sustaining community that adds entertainment value to the CCGs we all enjoy. All CCG players welcome.">
+<!-- <link rel="stylesheet" href="/swccg/global/css/white.css"> -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="shortcut icon" href="http://i.flhurricane.com/favicon.ico" />
+<style type="text/css">
+
+<!--
+
+.border {  border: thin #001F90 solid}
+
+.matrix {
+	background-image: url(/global/images/features/matrix_back.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+-->
+
+</style>
+</head>
+
+<body link="#ff0000" vlink="#aa3333" alink="#ff0000" text="#000000"
+ margin="0" marginwidth="0" marginheight="0" bgcolor="#ffffff" background="/layout2006/background1.gif" >
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan=12><img
+src="layout2006/headline1.jpg" width=765 height=95 border=0 alt="" align='absbottom'>
+</td>
+</tr>
+<tr>
+<td colspan=12 valign='top' align='center'>
+
+	<table width="745" border="0" cellspacing="0" cellpadding="0" bgcolor="#001F90">
+	<tr><form name="form1" method="post" action="">
+	<td width="128" bgcolor="#001F90"><img
+	 src="global/images/choose.gif" width="128" height="25" align='abstop'></td>
+	<td width="71%" bgcolor="#001F90"> 
+	<select name="select" onChange="go(this)">
+	<option value="#" selected>From This List</option>
+	<option value="/starwarsccg/index.php">Star Wars the Customizable 
+	Card Game</option>
+	<option value="/wars/index.php">Wizards of the Coast Miniatures</option>		
+	<option value="/vs/index.php">Marvel VS</option>
+	<option value="/heroclix/index.php">HeroClix</option>
+	<option value="/lotr/index.php">Lord of the Rings</option>
+	<option value="/magic/index.php">Video Games and Movies</option>
+	</select>
+	</td>
+	</tr>
+    </form>
+	<tr>
+	<td colspan=2 align='center' height=60>
+	<!-- table for each game -->
+		<table cellspacing=0 cellpadding=0 border=0 width="100%">
+		<tr>
+		<td valign="top" align="center">
+		<a href="starwarsccg/index.php" class="level1nav"><img src="layout2006/swlogosmall.gif" width=81 height=54 alt="Star Wars Customizable Card Game" border=0></a>
+		</td>
+		<td valign="top" align="center">
+		<a href="lotr/index.php"><img src="layout2006/lotrlogosmall.gif" width=80 height=54 border=0 alt=""></a>
+		</td>
+		<td valign="top" align="center">
+		<a href="/vs/index.php"><img src="layout2006/vslogosmall.gif" width=61 height=54 border=0 alt=""></a>
+		</td>
+		<td valign="top" align="center">
+		<a href="heroclix/index.php"><img src="layout2006/heroclixlogosmall.gif" width=85 height=54 border=0 alt=""></a>		
+		</td>
+		<td valign="top" align="center">
+		<a href="wars/index.php"><img src="layout2006/wizardsminilogosmall.gif" width=105 height=54 border=0 alt=""></a>		
+		</td>
+		<td valign="top" align="center">
+		<a href="magic/index.php"><img src="layout2006/vgmlogosmall.jpg" width=120 height=54 border=0 alt=""></a>		
+		</td>				
+		</tr>
+		</table>
+	</td>
+	</tr>
+	</table>
+
+</td>
+</tr>	
+
+<tr>
+<td colspan=12 height='3'></td>
+</tr>
+
+
+<tr> 
+<td height="18" width="150" rowspan="2" valign="top"> 
+
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+        <tr valign="top"> 
+
+          <td height="146"> 
+
+            <table width="95%" border="0" cellspacing="0" cellpadding="0" class="border">
+
+              <tr bgcolor="#001F90"> 
+
+                <td>
+				<font face="Arial, Helvetica, sans-serif" size="2" color="#ffffff">
+				<b> &nbsp;DeckTech.net </b></font>
+				</td>
+
+              </tr>
+
+              <tr align="center" valign="top"> 
+
+                <td height="55" bgcolor="#ffffff"> 
+
+                  <table width="98%" border="0" cellspacing="0" cellpadding="2">
+
+                    <tr> 
+
+                      <td colspan="2"><font color="#00FF00"><b><font face="Arial, Helvetica, sans-serif" size="2"><a href="index.php">Home</a></font></b></font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td height="13">&nbsp;</td>
+
+                      <td height="13" >
+					  <font color="#00FF00">
+					  <font face="Arial, Helvetica, sans-serif" size="2">
+					  
+					  <a href="global/ccg.php" class="level1nav">Card 
+
+                        Games?</a></font><br>
+
+                        <font color="#00FF00"><font face="Arial, Helvetica, sans-serif" size="2"><a href="global/decktech.php" class="level1nav">About 
+
+                        DeckTech</a></font><br>
+
+                        <font color="#00FF00"><font face="Arial, Helvetica, sans-serif" size="2"><a href="global/join.php" class="level1nav">Sign 
+
+                        Me Up!</a></font><br>
+
+                        <font color="#00FF00"><font color="#00FF00"><font face="Arial, Helvetica, sans-serif" size="2"><a href="global/faq.php" class="level1nav">FAQ</a></font></font></font></font></font></font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td colspan="2"><font color="#00FF00"><b><font face="Arial, Helvetica, sans-serif" size="2"><a href="dpc/index.php">DPC</a></font></b></font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td colspan="2" height="2"><font color="#00FF00"><b><font face="Arial, Helvetica, sans-serif" size="2"><a href="groups/index.php">DeckTech 
+
+                        Groups</a></font></b></font></td>
+
+                    </tr>
+
+                    
+                  </table>
+
+                </td>
+
+              </tr>
+
+            </table>
+
+          </td>
+
+        </tr>
+
+        <tr> 
+
+          <td height="5"><img src="global/images/home/trans.gif" width="6" height="5"></td>
+
+        </tr>
+
+        <tr valign="top"> 
+
+          <td height="140"> 
+
+     <table width="95%" border="0" cellspacing="0" cellpadding="0" class="border">
+	 <tr bgcolor="#001F90"> 
+	 <td>
+	 <font face="Arial, Helvetica, sans-serif" size="2" color="#ffffff">
+	 <b> &nbsp;Features</b></font>
+	 </td>
+	 </tr>
+	 
+	 <tr align="center" valign="top"> 
+	 <td valign="middle" height="139"> 
+	 <!-- featured decks -->
+	 <div align="left">
+	 </div>
+	 </td>
+	 </tr>
+	 </table>
+	 
+     <table width="95%" border="0" cellspacing="0" cellpadding="0" class="border">
+	 <tr bgcolor="#001F90"> 
+	 <td>
+	  <table width="100%" cellspacing="0" cellpadding="0" class="border">
+
+<tr valign="top"><td height="170"> 
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+<tr class="header_bg"> 
+
+<td><font face="Arial, Helvetica, sans-serif" size="2" color=#FFFFFF><b>&nbsp;Speak Your Mind</b></font></td>
+
+</tr>
+
+<tr align="center" valign="top"> 
+
+<td bgcolor='#ffffff'>
+
+<table width="98%" border="0" cellpadding="0" cellspacing="" align="center">
+
+<tr><td bgcolor=""><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#000000"><form method="post" action="/index.php"><p align="center"><BR><b>DeckTechers: Should DT keep the buzzboard or replace it?
+</b></p><input type="radio" name="answer" value="1"> Yes, we need a PHP forum<br><input type="radio" name="answer" value="2"> No, just keep modernizing this<br><input type="radio" name="answer" value="3"> No changes, it is a classic!<br><input type="hidden" name="save" value="yes"><p align="center"><input type="submit" name="Submit" value="Submit"></form></font><BR><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+<a href="/index.php?action=results" class="level1nav">Show me the results</font></p></td></tr></table></td></tr></table></td></tr></table>
+	 </td>
+	 </tr>
+	 </table>	 
+	 
+	
+
+          </td>
+
+        </tr>
+
+        <tr> 
+
+          <td height="5"><img src="global/images/home/trans.gif" width="6" height="5"></td>
+
+        </tr>
+
+        <tr valign="top"> 
+
+          <td height="80"> 
+
+
+          </td>
+
+        </tr>
+
+      </table>
+
+      <table vspace="0" hspace="0" cellpadding="0" cellspacing="0" border="0">
+
+        <tr> 
+
+          <td><img src="global/images/home/trans.gif" width="8" height="6"></td>
+
+        </tr>
+
+      </table>
+
+
+
+</td>
+
+<td width='5'>
+</td>
+
+<td rowspan="2" valign="top"> 
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+    <td valign="top"> 
+
+
+
+
+
+
+            
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="center">
+
+                
+<!--           <td align="left" bgcolor="#000000" class="matrix">  -->
+          <td align="left" bgcolor="#000000"> 		  
+<!--             <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="382" height="222">
+              <param name="movie" value="/global/images/features/dt_matrix.swf">
+                    <param name="quality" value="high">
+                    <embed src="/global/images/features/dt_matrix.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="382" height="222"></embed></object>
+
+<center>
+<a href="http://www.decktech.net/index.php?artc=448">
+<img src="/ultimategiveaway.gif" border=0 height=200 width=400>
+</a></center>
+
+ -->
+ 
+<!-- banner ad -->
+<table width="100%" border="0" cellspacing="0" cellpadding="6">
+<tr> 
+<td> 
+
+<a href='http://www.decktech.net/adserver/click.php?mgr=aspcode.net&id=25'><img border='0' src='/banner/1.gif'  ></a>
+<script>
+
+function go(x) {
+
+value = "";
+
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+
+if (value != "") window.location = value;
+
+}
+
+</script>
+
+</td>
+</tr>
+</table>
+
+
+ 
+ <center>
+<a href="http://www.decktech.net/index.php?artc=541">
+
+
+</a></center>
+
+		</td>
+
+              </tr>
+
+              <tr valign="top" align="center"> 
+
+                <td>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="3" bordercolorlight="#001F90" bordercolordark="#001F90" class="border">
+
+                    <tr bgcolor="#001F90"> 
+
+                      <td bgcolor="#001F90">
+					  <font face="verdana" size="4" color="#ffffff">
+					  <b>Latest News</b> </font>
+					  </td>
+
+                    </tr>
+
+                    <tr valign="top"> 
+
+                    <td bgcolor="#444444">
+
+
+                        
+<a name=513></a>
+<table width=100%>
+<tr><td colspan=2><font color=#FFFFFF size="5" face="Haettenschweiler, Tahoma, Arial, sans-serif">Very Important Lotr Charity Event - All DeckTechers need to read this</font></td></tr>
+<tr><td><font color=#FFFFFF face="arial" size="2">DeckTech reports on Mon Mar 21 2005 </font></td><td align=right><font face="arial" size="2" color=#FFFFFF>Lord of the Rings</font></td></tr>
+<tr><td colspan=2><font color=#FFFFFF face="arial" size="2">I can hardly announce this I'm stunned.<br />
+<br />
+It appears that my old friend Mike Carr, one of the finest gentleman I have met through cards and such, has had some rotten luck. His wife, a lovely person I met at FreedomCon 2, has had a stroke, and well, just read on.<br />
+<br />
+Please read this and think about coming out to help raise money for these fine folks. It'll be a great tournament I'm sure, and the cause will be more than worth your money. I always think it's better to give money to a friend in need than to a charity where you dont even know where the money goes.<br />
+<br />
+Anyways, here is the announcement. If you have any questions email Jeff Gardner at <a href="mailto:Jeff.Gardner@montgomerycountymd.gov">Jeff.Gardner@montgomerycountymd.gov</a><br />
+<br />
+- Neal<br />
+<br />
+----------------------------------<br />
+If you've attended a Rings event in the D.C. area, you most likely<br />
+know the Interdonatos.  Mike, his father (Peter) and sister (Danielle) ALL have played since the game began.  You also probably know that Mike hasn't been in a tournament for several months.  Unfortunately, he's been battling a disease -  mitochondrial neurogastrointestinal<br />
+encephalomyopathy - that affects his ability to do many things that the rest of us take for granted ... including just the simple act of holding LOTR cards.  Peter has been fighting his insurance company - who is refusing to cover a bone marrow transplant for Mike - for a while.<br />
+Also - a fellow dAgent and Tournament Director from southern<br />
+Pennsylvania - Shannon Carr, suffered a stroke two nights ago.  She's 26.  Shannon and her husband (also named Mike) have run  Rings, .hack, Megaman and WARS tournaments in Lancaster and York for a long time. Shannon is still in critical condition in the hospital; the doctors are<br />
+assessing her status and planning her rehab and recovery.   <br />
+<br />
+It's time to step up and help these good people get out of their bad situations.<br />
+<br />
+I will be running a major LOTR Charity Event to benefit both Mike<br />
+Interdonato and Shannon Carr.  All proceeds from the Entry Fees will be split between Mike and Shannon, and sent directly to their families for assistance with their medical bills.  Here's the scoop:<br />
+<br />
+<b>Saturday, April 9, 2005</b><br />
+Noon<br />
+<br />
+6-Round, Standard Format<br />
+Other Realms - 18226 Flower Hill Way, Gaithersburg, MD  20879.  <br />
+<br />
+<b>Store Phone:</b>  (301) 990-0019  <br />
+<br />
+<b>Website:</b> <a href="http://www.other-realms.com"> www.other-realms.com</a><br />
+<br />
+<b>3 Options for the Entry Fee: </b><br />
+<br />
+$30 Entry Fee - All players will receive 3 booster packs and one random rare or foil.<br />
+<br />
+$40 Entry Fee - As above, plus 3 additional booster packs.<br />
+<br />
+$50 Entry Fee - As above, plus becomes eligible for "Double Prizes".<br />
+<br />
+Each round, there will be random giveaways and, probably a bounty or<br />
+two.  People who have "Double Prize" eligibility will receive twice the amount of prizes (packs, foils, rares, promos, or store<br />
+credit/merchandise) for this.<br />
+<br />
+Decipher has indicated they will provide some extra support for this<br />
+event - will be in some combo of uncut sheets, foils, or promos.  The store owner, Rob Kaminsky, has pledged significant support as well, and I will be supplying SEVERAL boxes of boosters to augment the prize support.  So, pretty much everyone will walk away with some goodies.  I<br />
+have also applied to have this event given PSQ status, but that has NOT, at this point, been approved. <br />
+<br />
+I will also give prizes to both the player, and the dAgent, who travels the farthest to come to this event ... and it will be more than just a booster pack.  ;-)<br />
+<br />
+If you are planning on attending, please send me a brief email in<br />
+advance, as I want to have a general idea of how many people will show up.  If you have any questions about this event, please email me directly (OFF-list !!)<br />
+<br />
+Thanks for your help and support<br />
+<br />
+<a href="mailto:Jeff.Gardner@montgomerycountymd.gov">Jeff Gardner</a><p><small>edited by DeckTech on Mon Mar 21 2005 </small></font></td></tr>
+<tr><td align=right colspan=2><font face=arial size=1> <a href=send.php?di=/index.php&id=513 target="_blank">send to friend</a> | <a href=print.php?513 target="_blank">printer friendly</a></font></td></tr>
+</table><table width=100%><tr><td><HR><font face=arial size=2 color=#FFFFFF>Hey all, there is a local player who wants to pledge matching funds ... Up to at LEAST $1,000, he'll match what the event raises ... So we're talking about getting some serious money to Mike Interdonato and Shannon Carr.<br />
+<br />
+Please show up and help these two great people!<br />
+</font></td></tr><tr><td><font face=arial size=2 color=#FFFFFF><a href="mailto:devans@myrook.com">David Evans</a></font><font face=arial size=2 color=#FFFFFF> - Mon Mar 21 2005  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2 color=#FFFFFF>I will offer 2 DT premium memberships to be distributed as the orgs see fit</font></td></tr><tr><td><font face=arial size=2 color=#FFFFFF>neal</font><font face=arial size=2 color=#FFFFFF> - Mon Mar 21 2005  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2 color=#FFFFFF>I sadly won't be able to go, but is there somewhere I could send some money to help?</font></td></tr><tr><td><font face=arial size=2 color=#FFFFFF>Jason Gillespie</font><font face=arial size=2 color=#FFFFFF> - Thu Mar 24 2005  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2 color=#FFFFFF>I can't go ether, but would still like to help.</font></td></tr><tr><td><font face=arial size=2 color=#FFFFFF>PATRICK MOORE</font><font face=arial size=2 color=#FFFFFF> - Fri Mar 25 2005  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2 color=#FFFFFF>Your best bet is to contact Jeff Gardner at Jeff.Gardner@montgomerycountymd.gov </font></td></tr><tr><td><font face=arial size=2 color=#FFFFFF><a href="mailto:mbc9457@yahoo.com">Michael Carr</a></font><font face=arial size=2 color=#FFFFFF> - Fri Mar 25 2005  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2 color=#FFFFFF>Just wanted to give everyone the latest on the LOTR Charity Event in Maryland (benefitting both a local player and dAgent Shannon Carr, who have each had some recent and significant medical issues).<br />
+<br />
+ O - A second tournament was created for the same date / time / place. This new section will be EXPANDED Format (the original is Standard), and was created as a response to a large number of "retired" players who indicated they want to play to help support the cause.  While it will run concurrently with the Standard section, it will only be four rounds (to facilitate my sanity level at the end of the day) - but WILL have the same, full level of prize support.<br />
+<br />
+<br />
+ O - The original (Standard) section has been UPGRADED to a PSQ (THANKS,<br />
+Decipher!) - so, the top 8 finishers will now get some extra goodies. Please pass the word on to your local players who are looking for some Premier Point opportunities.<br />
+<br />
+<br />
+ O - Decipher has also weighed in with some HEAVY prize support for the day.  Included in the ever-growing list of event treasure:  Starter decks and boosters from Black Rider, MANY uncut sheets, some nifty limited release foils, and a host of tournament foils.  Again, thanks for coming through, BigD!<br />
+<br />
+<br />
+ 0 - Many folks have indicated they would like to support the cause, but are unable to attend.  Donations ARE being accepted by the store directly.  Please mail checks to:  Other Realms, 18226 Flower Hill Way, Gaithersburg, MD  20879, attn:  Rob Kaminsky.  Rob's the store owner, and you can also contact him directly at (301) 990-0019.  <br />
+<br />
+<br />
+ o - Please email me (OFF-LIST) if you are planning on attending - I need to get an approximate idea of how much space in the store to reserve. <br />
+<br />
+<br />
+Please talk these events up with your players.  Any and all support is VERY much appreciated.<br />
+<br />
+<br />
+Jeff Gardner<br />
+Charity Event TD<br />
+</font></td></tr><tr><td><font face=arial size=2 color=#FFFFFF><a href="mailto:devans@myrook.com">David Evans</a></font><font face=arial size=2 color=#FFFFFF> - Mon Mar 28 2005  </font></td></tr></table><p><font color=#FFFFFF face=arial size=2><p>&nbsp;<a href="javascript:history.back(-1)">back</a></font><P>You must be a registered member to comment on the news. <a href="/global/join.php">Sign up here!</a> 
+                        </font></td>
+
+                    </tr>
+
+                  </table>
+
+                </td>
+
+              </tr>
+
+            </table>
+
+          </td>
+
+          <td height="136" align="right" valign="top">&nbsp; </td>
+
+          <td height="136" align="left" valign="top" width="180"> 
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+
+              <tr valign="top"> 
+
+                <td>
+				<table bgcolor="#ffffff">
+				<tr>
+				<td>
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" class="border">
+                          <tr class="header_bg"> 
+                            <td><font face="Arial, Helvetica, sans-serif" size="2"><b>&nbsp;Member 
+                              Login </b></font></td>
+                          </tr>
+                          <tr align="center" valign="top" class="table_bg"> 
+                            <td> 
+                              <form name="form1" method="post" action="/index.php">
+                                
+        <table width="98%" border="0" cellspacing="0" cellpadding="3">
+          <tr valign="middle"> 
+            <td> 
+              <div align="center"><font color="#00FF00"><font face="Arial, Helvetica, sans-serif" size="2"><a href="/global/join.php" class="level1nav">Register 
+                for Membership!</a></font></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td height="2"> 
+              <div align="center"><font size="1">Name</font></div>
+            </td>
+          </tr>
+          <tr valign="top" align="center"> 
+            <td height="20"> 
+              <div align="center"> 
+                <input type="text" name="sname" maxlength="22" size="15">
+              </div>
+            </td>
+          </tr>
+          <tr> 
+            <td> 
+              <div align="center"><font size="1">Password</font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td> 
+              <div align="center"><font color="#00FF00"><b> 
+                <input type="password" name="password" maxlength="14" size="15">
+                </b></font></div>
+				 <input type="hidden" name="mlogin" value="true">
+            </td>
+          </tr>
+          <tr> 
+            <td> 
+              <div align="center"><font color="#00FF00"><b> 
+                <input type="submit" name="Submit" value="Login">
+                </b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td> 
+              <div align="center"><font color="#00FF00"><font face="Arial, Helvetica, sans-serif" size="2"><a href="/global/forgot.php" class="level1nav">forget 
+                your password?</a></font></font></div>
+            </td>
+          </tr>
+        </table>
+                              </form>
+                            </td>
+                          </tr>
+                        </table>
+ 				</td>
+				</tr>
+				</table> 
+
+                  <table vspace="0" hspace="0" cellpadding="0" cellspacing="0" border="0">
+
+                    <tr> 
+
+                      <td><img src="global/images/home/trans.gif" width="8" height="6"></td>
+
+                    </tr>
+
+                  </table>
+
+<!-- tower ads table -->				  
+<table width="100%" border="0" cellspacing="0" cellpadding="2" class="border">
+<tr bgcolor="#001F90"> 
+<td  ><font face="Arial, Helvetica, sans-serif" size="2" color="#ffffff">
+<b>Site Sponsor!</b></font>
+</td>
+</tr>
+
+<tr align="right" valign="top"> 
+<td align="center" valign="top" bgcolor="#ffffff">
+
+<script language="JavaScript">
+
+<!-- /* © 1997-2002 BURST! Media, LLC. All Rights Reserved.*/ 
+
+var TheAdcode = 'sk8702a'; 
+
+var bN = navigator.appName; 
+
+var bV = parseInt(navigator.appVersion); 
+
+var base='http://www.burstnet.com/'; 
+
+var Tv=''; 
+
+var backColor='000000';
+
+var fontColor='FFFFFF';
+
+var agt=navigator.userAgent.toLowerCase(); 
+
+if (bV>=4) 
+
+  {
+
+  	ts=window.location.pathname+window.location.search; 
+
+  	i=0; 
+
+  	Tv=0; 
+
+  	while (i< ts.length) 
+
+      { 
+
+	  	Tv=Tv+ts.charCodeAt(i); i=i+1; } 
+
+		Tv="/"+Tv;} 
+
+else {
+
+	Tv=escape(window.location.pathname); 
+
+   	if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+
+    else if (Tv.charAt(1)=="/") Tv=""; 
+
+  	if( Tv.charAt(Tv.length-1) == "/") Tv = Tv + "_";
+
+} 
+
+  document.write('<ifr'+'ame id=BURST src="'+base+'cgi-bin/ads/' + TheAdcode + '.cgi' + Tv +  '/zg' + backColor + 'x' + fontColor + 'l' + fontColor +    'v' + fontColor + 'k' + fontColor + '/RETURN-CODE" width=160 height=600' +   ' marginwidth=0 marginheight=0 hspace=0 vspace=0 ' +  'frameborder=0 scrolling=no>');
+
+  document.write('</ifr'+'ame>');    
+
+// --> 
+
+</script>
+
+</td>
+</tr>
+</table>
+
+
+                  
+				  <table width="100%" border="0" cellspacing="0" cellpadding="2" class="border">
+
+                    <tr bgcolor="#001F90"> 
+
+                      <td>
+					  <font face="Arial, Helvetica, sans-serif" size="2" color="#ffffff">
+					  <b>DeckTech Stats </b>&nbsp;
+					  </font>
+
+					  </td>
+
+                    </tr>
+
+                    <tr align="right" valign="top"> 
+
+                      <td height="146" width="51%" bgcolor="#ffffff"> 
+
+                        <table width="90%" border="0" cellspacing="2" cellpadding="2">
+
+                          <tr valign="top"> 
+
+                            <td colspan="2"><font face="Arial, Helvetica, sans-serif" size="2" color="#000000">Members:</font> 
+
+                              <font face="Arial, Helvetica, sans-serif" size="2" color="#000000">
+20,972: 
+ <br>
+<font face="Arial, Helvetica, sans-serif" size="2" color="#000000">
+                              Joined Today: 0 </font></font></td>
+
+                          </tr>
+
+                          <tr> 
+
+                            <td width="43%" bgcolor="#003399">
+							<b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"  color="#000000">&nbsp;Decks:</font></b></td>
+
+                            <td width="57%"><font face="Arial, Helvetica, sans-serif" size="2" color="#000000">0 / 27,760</font></td>
+
+                          </tr>
+
+                          <tr> 
+
+                            <td width="43%" bgcolor="#003399"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">&nbsp;Articles:</font></b></td>
+
+                            <td width="57%" color="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><font face="Arial, Helvetica, sans-serif" size="2" color="#000000">0 / 4,057</font></td>
+
+                          </tr>
+
+                          <tr> 
+
+                            <td width="43%" bgcolor="#003399"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">&nbsp;Reports:</font></b></td>
+
+                            <td width="57%">
+							<font face="Arial, Helvetica, sans-serif" size="2" color="#000000">1 / 4,842</font></td>
+
+                          </tr>
+
+                          <tr> 
+
+                            <td width="43%"><b></b></td>
+
+                            <td width="57%">
+							<font face="Arial, Helvetica, sans-serif" size="1" color="#000000">Today 
+
+                              / Total</font></td>
+
+                          </tr>
+
+                        </table>
+
+                      </td>
+
+                    </tr>
+
+                  </table>
+
+      
+
+				  
+<table vspace="0" hspace="0" cellpadding="0" cellspacing="0" border="0">
+<tr> 
+<td><img src="global/images/home/trans.gif" width="8" height="6"></td>
+</tr>
+</table>
+
+
+
+
+
+<table vspace="0" hspace="0" cellpadding="0" cellspacing="0" border="0">
+<tr> 
+<td><img src="global/images/home/trans.gif" width="8" height="6"></td>
+</tr>
+</table>
+
+
+
+                </td>
+
+              </tr>
+
+            </table>
+
+          </td>
+
+        </tr>
+
+      </table>
+
+    </td>
+
+  </tr>
+
+  <tr> </tr>
+
+  <tr> 
+
+    <td colspan="12" height="67"> 
+
+      <p align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF" class="legal">This 
+
+        site is maintained and updated by fans of the card games represented and 
+
+        is in no way affiliated with the respective game manufacurers or liscense 
+
+        holders. We in no way claim the artwork displayed to be our own. Copyrights 
+
+        and trademarks for the promotional materials are held by their respective 
+
+        owners and their use is allowed under the fair use clause of the Copyright 
+
+        Law. <br>
+
+        </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF" class="legal"><a href="/global/terms.php">Terms 
+
+        of Service</a> TM & © 2000 www.decktech.net. All Rights Reserved. </font></p>
+
+    </td>
+
+  </tr>
+
+  <tr> 
+
+    <td colspan="2">&nbsp;</td>
+
+  </tr>
+
+</table>
+
+</body>
+
+</html>
+

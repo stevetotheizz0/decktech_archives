@@ -1,0 +1,642 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action=""><input type="hidden" name="PHPSESSID" value="...328fedb22570524062aeb1303" />
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Articles</a><br>
+
+
+<a href="/starwarsccg/decks/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Reports</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/treports/treports.php?cat=constructed&PHPSESSID=...328fedb22570524062aeb1303">Constructed</a> &nbsp;<br>
+
+<a href="/starwarsccg/treports/treports.php?cat=sealed&PHPSESSID=...328fedb22570524062aeb1303">Sealed Deck</a> &nbsp;<br>
+
+</div>
+
+  <a href="/starwarsccg/academy/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php?PHPSESSID=...328fedb22570524062aeb1303"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 2 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=...328fedb22570524062aeb1303'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><b>Star Wars CCG</b><br><a href='/starwarsccg/featured/taylor.php?PHPSESSID=...328fedb22570524062aeb1303'>2005-05-02 Scott Lingrell</a><br> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6099&view=2&PHPSESSID=...328fedb22570524062aeb1303">Easiest Way to Teach a New Player</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6107&view=2&PHPSESSID=...328fedb22570524062aeb1303">Luke Skywalker, Rebel Scout</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6108&view=2&PHPSESSID=...328fedb22570524062aeb1303">Brian Hollingworth - Player Created V9 Card</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6110&view=2&PHPSESSID=...328fedb22570524062aeb1303">Zane Thorp - Player Created V9 Card</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6102&view=2&PHPSESSID=...328fedb22570524062aeb1303">Michael Pistone - Player Created V9 Card</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6105&view=2&PHPSESSID=...328fedb22570524062aeb1303">Brandon Ruck - Player Created V9</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6100&view=2&PHPSESSID=...328fedb22570524062aeb1303">Michael Raveling - Player Created V9 Card</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6097&view=2&PHPSESSID=...328fedb22570524062aeb1303">Brandon Schele - Player Created V9 Card</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6095&view=2&PHPSESSID=...328fedb22570524062aeb1303">What are you doing here</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6090&view=2&PHPSESSID=...328fedb22570524062aeb1303">TN STATES</A></font></li><BR></ol> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<a href='http://www.decktech.net/adserver/click.php?mgr=aspcode.net&id=29'><img border='0' src='http://www.decktech.net/banner/5.gif'  ></a>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Tournament Reports</td><form method='post' action=''><input type="hidden" name="PHPSESSID" value="...328fedb22570524062aeb1303" /><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Tournament Reports</option><option value='#'> </option><option value='/starwarsccg/treports/index.php3'>Star Wars: CCG</option><option value='/heroclix/treports/treports.php'>HeroClix</option><option value='/vs/treports/treports.php'>Marvel VS</option><option value='/lotr/treports/treports.php'>Lord of the Rings</option><option value='/magination/treports/treports.php'>Magi-Nation Duel</option><option value='/swtcg/treports/treports.php'>Ophidian 2350</option><option value='/magic/treports/treports.php'>The Wastelands</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> Kalamazoo, MI March 12, 2005<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(5.00)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=14472'>Brandon "Mr. blp" Pahl</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=14472&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> March 31, 2005</font><p align='justify'><blockquote><font class="bfont"> It has been almost two weeks since the tournament and I may not have remembered every single detail so I am apologizing ahead of time if any of the facts that I present are different from what other people remember. Also, this thing is damn long and I am lazy so after writing it, I didn’t bother going through it to check the grammar, spelling and punctuation. But feel free to do so if you want to!<br />
+<br />
+At about 5:30 am the alarm breaks through my peaceful slumber, rudely waking me up and forcing me to confront the cold reality that is my wife’s hardwood floor. Not pleasant. So after dragging my sorry butt into the shower then waking up Adam, we head out to Tim Hortons to meet Spencer and Andy. They don’t show up until 7:30ish which gives me and Adam plenty of time to properly caffeinate ourselves to the point of giddiness. Finally after parking Andy’s car we all pile into my piece of junk and start out on a 4 hour 21 minute driver to Kalamzoo, Michigan from London, Ontario in Canada, for the sole purpose of playing a collectible card game. Yeah my wife thought we were crazy too.<br />
+<br />
+Of course I forget to get gas in town and it is not until we are cruising on the 401 West in the middle of nowhere does Spencer point out that we are in fact doing our cruising on an empty tank. Now, when I say the middle of nowhere, I mean that on one side of us is trees and fields and on the other side of us is…trees and fields and the last sign we passed said “Next Town 62 km”. At this point I’m kinda glad that I have CAA and a cellphone. But wait! What’s this! It would seem that Spencer has a third Grandma from a second marriage involving a twice removed Uncle or something to that extent who used to, or still does, live in the area (it’s been two weeks now so my facts may be a little hazy). At any rate, Spencer tells me to get off at the next exit and go north. So we end up in some quant town called Forrest or something Robinhoodish. Either way, we fill up and set our course for Kalamazoo. <br />
+<br />
+We arrive at the border at about 9:20ish and proceed to meet one of the laziest border security agents I have ever met. This guy didn’t even bother looking at our id or anything. He just asks us, “Where are you going?” I answer” “Kalamazoo for a convention.” “What kind of convention?” “A Star Wars convention. You know, nerd stuff.” With that, he smirks and lets us go. Maybe he felt that a carload of nerds were not worth investigating. Hell, we coulda been 4 pot smoking gay guys on our honeymoons, heading to the States in an attempt to subvert the morals and ethics of Americans everywhere with our left wing free thinking Canadian propaganda! Lucky for that guy though we were just there to play cards. At this point we start out on the I-69. As for the rest of the drive:<br />
+<br />
+9:38 - By now we are feeling a bit hungry and Adam  <br />
+       recommends that we try the <br />
+       breakfast burritos at McDonalds. According to him <br />
+       they are quite tasty. With much hesitation,we <br />
+       pull over at the nearest McDs and decide to go in <br />
+       for the food to stretch our legs. To our surprise <br />
+       we are told that only the drive through is open at <br />
+       this hour, so we are forced to sit in our car and <br />
+       further pollute the environment as we wait for our <br />
+       food.<br />
+<br />
+9:45 – We pass an accident involving two cars in the <br />
+       middle of the road. The breakfast <br />
+       burritos turn out to be a lot better then anything <br />
+       from Mcds deserves to be.<br />
+<br />
+10:26 – We pass another accident on the side of the road. <br />
+        We notice at this point that <br />
+        there are a large number of pylons scattered <br />
+        everywhere on the side. Probably because it would <br />
+        seem that every road we pass seems to be under <br />
+        construction. <br />
+<br />
+11:00 – We pass a car that is just sitting on the side of <br />
+        the road. The breakfast burritos from McDs do not <br />
+        seem to be such a good idea anymore. More pylons.<br />
+<br />
+11:10 - At this point the highway we are on just <br />
+        inexplicably ends in a huge row of <br />
+        pylons and  we are forced on to some side road <br />
+        that leads to some place where we don’t want to <br />
+        go. Our tour of the state of Michigan begins.<br />
+<br />
+11:20 – We pass a car in a ditch. I almost hit a pylon. At <br />
+        this point I am getting a little <br />
+        worried about where we are and where we are going. <br />
+        also notice that there are gas stations everywhere <br />
+        called BP everywhere. I find this amusing since my <br />
+        initials are BLP! LOLOLololollolooll……sigh…..<br />
+<br />
+11:36 – We pass yet another accident on the road. It looks <br />
+        like they hit some of those pylons. By this time <br />
+        we have no idea where we are in Michigan. <br />
+<br />
+12:00 – By this point we have now circumnavigated our way <br />
+        through most of Michigan and somehow ended up on <br />
+        the I-94. Map Quest has utterly failed us as we <br />
+        continue to hurtle towards the unknown. We also <br />
+        pass a car in the ditch with its windows blown <br />
+        out. I am starting to be concerned about the <br />
+        driving abilities of people who live in Michigan. <br />
+        More Pylons.<br />
+<br />
+12:15 – We stop for gas and directions. A guy at the BP <br />
+        gas station tells us that Kalamazoo is another <br />
+        hour and a half away and that’s going 70 miles per <br />
+        hour the whole way. Realizing that the tournament <br />
+        starts in less than an hour, I get back in the car <br />
+        and start doing 90 miles per hour, or about 145 <br />
+        kilometers an hour for everyone else who is metric.<br />
+<br />
+12:46 – We pass another car in the ditch, but this one is <br />
+        backwards, which stumped me for a while until I <br />
+        realize that he probably spun out of control and <br />
+        ended up backwards in the ditch trying to avoid a <br />
+        pylon.<br />
+<br />
+We finally arrive in Kalamazoo right before 1:00 pm, breathing a sigh of relief. Unfortunately though, Kalamazoo has one of the most ridiculous street layouts that I have ever experienced, and it takes us forever to find the place. In fact, the place is on the Michigan University campus. “No problem.” I say, “We can just park and find the properly numbered building.” Little do we know though, is that the WHOLE campus is 1903 Michigan Av. W, which is the address of the tournament. So we get out and start wandering around looking for any people who may be here for a nerd convention. At one point, Andy and Spencer wander into a building and we lose them. So me and Adam end up wandering around the campus, hoping that fate will somehow intervene and guide us to the tournament…or barring that, we would meet some hot university chicks. Lucky for us though, I overhear a guy standing outside a building talking with two other guys about how his level 13th thief can kick the crap outa his friends level 9th ultra paladin and how his vorpal sword of geek slaying +18 makes him undefeatable or some such crap….so I figure we are on the right track. We head inside the building to find a really big room filled with hundreds of ill adjusted people similar to the three standing out front. We meet up with Andy and Spencer, turn in our deck lists and get ready for game 1.<br />
+<br />
+My weapons of choice for the day were My Kind of Scum with Greedo as my rep and the Big Disco Party, otherwise known as Profit. I had been playing both decks for a while and felt very comfortable with them. I wont go into details concerning my two decks here (god knows this is already long enough), but if you want to see them, check em out on Decktech. The light side deck is called “Big Disco Party” and the dark side is “Gardulla Goes to the Disco.&quot; <br />
+<br />
+Game 1: Kevin the CubsFan’s MBO vs. my Scum<br />
+This is what is so great about traveling around and playing in all these tournaments. I get to meet the people behind the decks and nicknames I see on Decktech and the PC site. <br />
+I start Twi’lek V and grab Power of the Hutt, Jabba’s Influence V, Ket Maliss V and Hutt Bounty V, Tatooine: Desert Heart and Tatooine: Jabba’s Palace. He starts Squassin and some other stuff that I can’t remember. <br />
+<br />
+On my first turn I drop Jabba’s Barge with Power of the Hutt, the lower deck, a rodian, URRURrururURRuruRuRuURruURuRuR, his Bantha all at the desert heart, a JP site from reserve and pull Greedo into my hand with Ket Maliss. <br />
+<br />
+On his first turn he drops three guys onto Yavin 4 along with a bunch of sites, flipping his objective, pulls out the Battle Order shield, consolidates his forces on Yavin and draws into his hand. I pay to drain for 3 at the desert, and proceed to drop Jabba V, Reflections 3 Bib, Lando and some other junk on Tatooine, along with Scum and Villainy. I also drop J’Quille V on Yavin 4, causing him to lose 3 or 4 force and use my last force to move him away, letting him chill at the Massassi Headquarters. <br />
+<br />
+On his second turn, he drops down a Rebel Tech V, some systems, the Death Star, the trench, LT. Blount, Tala 2 and Luke aboard R5 with some torpedoes. He goes in to blow up the happy funball of death while I cringe at the prospect of losing 14 force on only my third turn. Lucky for me he draws Kiffex and a 1 for his destiny. He then moves over his guys on Yavin to block my J’Quille drain. <br />
+<br />
+My third turn, I am holding ZiMH and BiHT in my hand while he has Luke and Blount loitering at the Death Star. I figure that its do or die at this point so I drop them both at the Death Star and go in for the kill. For destiny I draw a 4 and a 5. Because of ZiMH he gets a big fat zero for destiny, allowing me to keep both my ships there. He loses Luke and Blount and I breathe a big sigh of relief. <br />
+<br />
+On his third turn, he deploys Entrenchment and initiates battle against the all powerful J’Quille , causing me to lose 2 force from overflow. After he draws into his hand it is my fourth turn. I drain a whole bunch on the ground while he cancels one of them with Entrenchment. I go digging for Jabba’s Cruiser via Power of the Hutt and drop it with Xizor to Tatooine. While I am in there I go looking for Bane Malar V and use Bib’s game text (read it, it rocks) to place my force pile on my used pile to activate the rest of my reserve deck, allowing me to draw him onto my hand.<br />
+<br />
+At this point in the game, I am draining for on average 7-8 force a turn for free, while he draws into his hand in hopes of setting up a second attack run. Somewhere around the 6th turn he drops Luke back down and successfully blows up the happy funball of death, causing me to finally lose my 14 force. By then though it was too late for him. He managed to retrieve a couple force from deploying some ships and got in a few drains that I simply canceled with Greedo on my objective but he could not compete with the steady force loss I was causing through my drains.<br />
+<br />
+FW +13<br />
+<br />
+Highs:<br />
+Beating Kevin’s MBO. I felt kinda bad since he was such a nice guy about it.<br />
+<br />
+Lows:<br />
+The look on Kevin’s face when he drew the zero and 1 for his first attempt at blowing up the Death Star.<br />
+<br />
+<br />
+Game 2: My Profit vs. Andy’s new age Hoth Walker deck.<br />
+So I drove 5 hours to play the same guy who I almost always play at every tournament in Toronto. I would say that I am the favourite going into this match up. Andy hasn’t beaten me in a while, although as soon as I see the Hoth stuff, I have a bad feeling in the pit of my stomach. He starts Combat Readiness V which gets him, Hoth, the Ice Plains, the Docking Bay, You May Start Your Landing, Prepare for a Surface Attack and Combat Response. I start Civil Disorder V, Seeking an Audience V and Colo Claw Fish. <br />
+<br />
+His first turn, he goes and grabs the 3rd marker and a Walker Garrison. He drops Blizzard 4 and grabs Captain Bewil V to the 3rd marker and draws the last couple of cards up into his hand. On my turn, I deploy the Coruscant Jedi Chamber, Naked Threepio to Tatooine, drop a six on the fish and go in like a mad man against Blizzard 4 with EPP Luke. I clear the site but lose Luke in the process. <br />
+<br />
+The next turn he drops an Ice Storm to the Ice Plains and No Escape, making the Honor of the Jedi I just drew into my hand useless. He deploys Woof and Jabba’s Cruiser to the Hoth system and a walker to the 5th marker. On my turn, I do the Threepio thing and end up drawing into my hand in the hopes that I will get something I can use. <br />
+<br />
+His third turn, he drains at the system and I lose one force from You May Start Your Landing. He moves the Ice Storm to the 3rd marker, deploys a few more guys to space and some foil Japanese Hoth 2 player set walkers to the 3rd marker and docking bay, letting him deploy Rebel Base Occupation. He moves all his walkers over to the 3rd marker, pulls the Firepower shield and lets me go. At this point I have an epiphany; “Holy Crap!!” I realize that he is about to start stomping all over me and I have barely touched him. Not wanting to walk into his Ice Storm, I drop the Naboo: Battle plains with EPP Obi-wan along with Chewbacca Protector V in the hopes that I can get some drains in. <br />
+<br />
+I lose 5 force on his next turn and he gets to retrieve a card with Firepower because I didn’t battle him. He continues to throw down walkers onto Hoth and more guys in space and moves the Ice Storm back onto the Ice Plains. I pay to drain at the Battle Plains, drop EPP Qui-Gon to JP: Audience Chamber, free Han V and retrieve much needed force. On his next turn, he causes all sorts of gross force loss from drains, Rebel Base Occupation and You May Start Your Landing. <br />
+<br />
+At this point I am sick and tired of him draining me, causing direct damage and me having to pay for all my drains while he can do it for free. So I clear my head and almost start to play smart. I say almost because while I was pinging him for a 1 force lose from my Profit objective as a result of Han being at the JP: Audience Chamber, I had forgotten that Chewie was also at a battleground. Because of this little over sight of mine, I could’ve probably caused him to lose another 6 or 7 force. Either way, I eventually get Home One, Bright Hope and broken Artoo up to space and Boushh down to block some drains, but by then the damage was just too much. My one glimmer of hope was the six I was tracking to use with On the Edge for some more force retrieval. The how and the why of it I don’t know, but I miss tracked and ended up drawing a 2 or something silly causing me to lose Chewie. But the straw that broke the camels back was Keder the Black being deployed to the Battle Plains after I had lost Sorry About the Mess & Blaster Proficiency from the op of my deck. Ugly…just ugly….<br />
+<br />
+FL – 11<br />
+<br />
+Highs:<br />
+Uummm…Andy was pretty happy to have finally beaten me…<br />
+<br />
+Lows:<br />
+Mis-tracking that 6 and forgetting about Chewie all game.<br />
+<br />
+<br />
+Game 3: My Scum vs. Brad’s Hidden Base<br />
+Well, I have never lost against Hidden Base yet with this Scum deck so I am feeling pretty confident. I start the same as game 1 and he starts Rycar Ryjerd V, Squassin and something else. <br />
+<br />
+I set up lightning fast at the Audience chamber with Scum and Villainy, Jabba V, Bib, and a couple other aliens. He drops Endor, another system and some guys to Rendezvous Point. I get a drain in at the Audience chamber and set up UruRURURURURuRuRURUURuRURURururUrUrURURrUrURuRUURUrURuRUrU<br />
+at the Desert with his bantha, Jabba’s Cruiser and some other Aliens. He responds with Kiffex, more guys at the Rendezvous Point and Tanus to the Audience Chamber, causing me to lose about 4 force, followed by an undercover going on the little turd. He moves his mini fleet out to some system and lets me go. I Hutt Smooch Tanus into next week and proceed to drain for 3 force at the Desert and for 2 force at the Audience chamber thanks to Galid. I also deploy Jabba’s Cruiser via Power of the Hutt to Kiffex with Xizor and Gela Yeens aboard. On his turn he deploys another system, Boushh and Vanden Willard!?!?!?!? to Tatooine along with an undercover. He spreads out his ships and flips his objective.<br />
+<br />
+Luckily for me I knew exactly were a Hutt Smooch was in my deck so I use URuRUURuRuRURUrurRUURUr to pull it into my hand. All my drains get canceled even though I have now captured Boushh as well with Hutt Smooch, which he finally grabs. At this point I unleash my secret weapon…Gardulla! Wait!? Gardulla you say? Yes, indeed Gardulla! Go check her out. Combine her with Lando and you have a wicked force retrieval mechanism. For even better efficiency, try her with Prophetess v! I didn’t use her against Kevin’s MBO because he had too many ones in his reserve deck to risk it but she was coming out to play now! I deploy ZiMH and BiHT to space and start probing everywhere I can. I also spread out on the ground in the hopes of getting a drain in somewhere. He drains me at Kessel and another system. If I remember correctly, he had Kiffex, Bothawui, Kessel, Aquaris, Endor and another system down. At this point, I am spreading out on the ground trying to get drains in wherever I can while flying my three ships around, trying to find his base. I am also retrieving force every turn with Gardulla and Lando, which just makes me wet with excitement. He on the other hand is throwing every spy and kitchen sink in the game at me trying to block those drains that he can’t cancel using his objective. He even throws EPP Obi-Wan down with Mercenary armour and an undercover!! I am telling you, this is some wicked stuff here! He is also avoiding my ships in space, going for the drains while retrieving force with Luke and pinging me off with virtual Leebo. More on Leebo later. Of course his hidden base was the last system I probed, Aquaris. <br />
+<br />
+We only had one big battle which pretty much decimated most of our forces in space. He had Corran Horn, Tycho, Wedge RSL and Ric Olie all aboard a bunch of ships. I initiated the battle and he played Houjix & Out of Nowhere, All Wings Report In & Darklighter Spin and probably something else that I can’t remember. This guy had more tricks than Houdini. He drew 3 battle destinies for a total of 10. I had ZiMH, BiHT, some bounty hunter pilots and Boba Fett, BH. I drew 4 destinies, he canceled one with Wedge, and I got a total of 12. He ended up with Luke on R5 with built in R2, someone else onboard anther ship and Leebo on board the Outrider loitering around another system. I lost just about everything except for maybe the ZiMH and I had Jabba’s Cruiser with Xizor and Gela aboard at another system. <br />
+<br />
+From then on it was a cat and mouse game as we moved our ships around trying to get in some drains wherever we could. He had spies at every site so I wasn’t doing any damage there. At the end of his turn he had four cards left in his life force while I had 2. Neither of us had any cards in hand. I occupied a battle ground site and system but he only occupied systems, so I knew that if I could just get that drain in at Kiffex for the two, he wouldn’t be able to pay to drain and I would win. Remember that Leebo, this is where he comes back to haunt me. During his draw phase, he loses the top card from his reserve deck to make me lose mine. I am now down to 1 card left as it dawns on me what he is about to do. I activate my 1 force and he Leebos me to death. He now has 2 cards left to my none.<br />
+<br />
+As I write this I realize that he could not have done that because Leebo does it to the top card of your reserve deck, but I had activated my one force. Therefore Leebo could not have done his little trick. That would have allowed me to drain for 2, leaving him with 1 card left and I wouldn’t have had any cards left in my reserve deck. The following turn I would have drained him again and won the game by 1. All well, I’ll get you next time Brad!<br />
+<br />
+FL -2<br />
+<br />
+Highs:<br />
+Brad for playing a great game.<br />
+I love Gardulla.<br />
+Even though I lost, I got a huge kick out of seeing Commander Vanden Willard in a     <br />
+deck…and Obi-Wan with Merc. Armour and Undercover…classic! <br />
+<br />
+Lows: <br />
+Getting Leebo’d to death!! Who gets Leebo’d to death!!<br />
+<br />
+<br />
+At this point in the day, I had gone 1-2 and I was feeling pretty bad about my record, but I wasn’t about to let that deter me.<br />
+<br />
+<br />
+Game 4: My Profit versus David’s Court <br />
+In all my play testing, the hardest match up for Profit was always My Kind of Scum so I assumed that going into the match I was in for a hard time. I thought wrong. David started almost the exact same effects as me as well as putting Jabba and Chall Bekan to the Audience Chamber. I start my usual effects hope for the best.<br />
+<br />
+First turn, he deploys to the Audience Chamber: Lando, Mara Jade, a virtual rodian and 4-Lom via the rodian. He also deploys Jabba’s Sale Barge. I on the other hand drop the Naboo: Battle plains with EPP Qui-Gon and Chewie Protector V from hand with naked Threepio to Tatooine. I also lose one force to his objective.<br />
+<br />
+On his second turn, he deploys Snoova with his vibro-ax to the plains and plays a virtual Twi’lek advisor, which I promptly sense. Instead he pays for Boba Fett, BH and initiates the battle. In response, I play Impressive, Most Impressive V and cut up Boba with Quiggy. I immediately play SATM & BP to send him to the lost pile. He targets Qui-Gon with the vibro ax and draws higher then me, sending Quiggy to my used pile instead of taking him into custody. This leaves Chewie vs. Snoova…the Rumble in the Nabooian Jungle…the Fur vs. the Fang, the…well you get the picture. Snoova has 3 more power then Chewie due to the vibro ax and Jabba’s Influence V, so I lose a couple cards to the lost pile and leave Chewie there. <br />
+<br />
+My turn, I come down hard with EPP Luke and EPP Ob-Wan. I initiate battle and slice up Snoova like there is no tomorrow while he draws low on his ax destiny. Thanks to the Colo Claw Fish, my battle destiny is a six, giving me a total power of 23 to his 9. I don’t get too excited cause I figure he has a Ghhhk up his sleeve. Well, I practically yell out in joy when he forfeits Snoova and proceeds to count out a 14 force loss from the overflow. At this point I have won the game, all I have to do is keep up the pressure. I put A Gift on Broken Artoo and deploy Boushh and Honor of the Jedi to stop the force loss to his objective and drains. He eventually puts down No Escape to negate Honor but that just leads me to deploying some guys to Tatooine in order to smack around Mara Jade and her friends. At this point, the game is over and we both know it so we quickly finish up with me coming out on top by a large margin. I think I managed to play Flash v about 5 or 6 times by tracking it around. He must of thought my deck was stacked with them.<br />
+<br />
+Since the game only takes about 25 minutes to play, David and I sit around comparing decks and strategies. David seems like a really nice guy, someone I would sit around and have a beer with, which makes me feel kinda guilty for beating him so completely. But, c’est le vie!<br />
+<br />
+FW + 29<br />
+<br />
+Hi: Hitting Snoova for 14 overflow! <br />
+<br />
+Low: None from my perspective!<br />
+<br />
+<br />
+Game 5: My Scum vs. Spencer’s WYS<br />
+Oh my! I know right away that this is gonna be a good game. You see, Spencer is consistently one of the best players at the tournaments I run in Toronto and he is currently the #1 player in Ontario. Far too often it has come down to the two of us competing for first place and the last few times he has beaten me. In fact, we played these two decks against each other at the last Toronto tournament and he won, though I felt that it was a game I could have just as easily won. On top of all that, we are both very competitive and we both like to win, especially against each other!<br />
+<br />
+So I start my usual and he starts Squassin, Wokling v, and Civil Disorder v. My first turn I get Scum and Villainy, Jabba, Bib and Lando all down to the Audience chamber, giving him lots of force from Drop! V. He starts extremely strong and puts Nightfall on Tatooine via Wokling, Corran for free to the Cantina, Luke aboard R5 with built in R2 to Kessel and pulls the Weapons Display shield. On my second turn, I am activating a billion force thanks to Hutt Bounty. I play Ghhk (which he grabs) to cancel the Nightfall and go after Corran hard. I drop Gardulla, 4-Lom and two other guys. I initiate battle and beat the crap outa Corran until he is bleeding all over Wuhr’s bar. I draw some cards, clean up the spilt blood and end my turn. He responds with a drain at Kessel, where I slap Enter the Bureaucrat to fix that problem. He backs up Luke with another ship and matching pilot. Wedge and Red 2 I think. He draws a couple cards into his hand then declares that he is finished. <br />
+<br />
+Come turn 3, I am activating more force than I will ever need and all my cards deploy for dirt cheap thanks to Hutt Bounty and Scum & Villainy. So my first order of business is to use Gardulla’s game text and retrieve force, followed by me then dropping some more guys to the Cantina and throw Jabba’s Cruiser, ZiMH and some alien pilots on the cruiser and initiate battle. Of course I forgot to occupy a third Tatooine site so my objective isn’t flipped yet, meaning that my draws are still normal. Thanks to ZiMH he doesn’t get a battle destiny. His Wedge and Red 2 go down in flames while my ships are still nice and sparkling clean.  On his turn he plays friggin Effective Repairs to get back his Nightfall, which gets redeployed, allowing him to drop Tanus for free, causing me to lose a small handful of force while he moves Luke in Red 5 over to Tatooine. <br />
+<br />
+Naturally, on my fourth turn I send some guys after Tanus, but not before retrieving some more force with Gardulla! But this time I remembered to occupy that third Tatooine site, which means my destiny against Tanus was +3. He responds with EPP Han and Chewbacca v to an unoccupied Tatooine: Jabba’s Palace, grabbing Life Debt with Chewie in the process. So after retrieving some more force with Gardulla, I do what this deck does best, battle. I come down with Dengar v (which cancels Han’s game text), Greedo (which I use to cancel Chewie’s game text) and a rodian. I draw some ridiculously high destiny, killing off his two characters and I think I lose Dengar and Greedo to his multiple destinies, canceling one in the process with another Greedo to the objective. <br />
+<br />
+Now, it may seem like I was just kicking the crap out of Spencer but it was a lot closer than it would seem. I couldn’t get out URURUrUrURURUruURURURururur for the big drains and Galid was sitting at the bottom of my lost pile which meant I was only draining for one at Kessel, two at the Cantina and another one at the Audience Chamber. He had Luke retrieving force for him all game and was continuously paying to drain for one at Tatooine. <br />
+<br />
+He eventually moves Dash and Luke over to Kessel along with some forfeit on his turn in hopes of blocking my drain. I do the Gardulla, Lateral Damage the Outrider and deploy Boba Fett BH to Jabba’s Cruiser along with another bounty hunter, initiate battle and practically win the game. He loses everything except Luke on board R5 and I lose some forfeit fodder. At this point he moves Luke over to Tatooine and all but dies. I continue to apply some drains but wait! He deploys Leebo!! Leebo!! I hate friggin Leebo! So he decides to commit seppuku by losing cards from his reserve deck to whittle down the differential. I look on in horror as he manages to take off another 3 or 4 cards from my life force before he dies. It is official…I hate Leebo. Oh and when I get back to Toronto I am seriously thinking about investing in some American Pylon manufacturing companies.<br />
+<br />
+FW +17 ish<br />
+<br />
+Hi: Gardulla baby! Gardulla! <br />
+      Lateral Damage. Winning games since 1995!<br />
+      Canceling Han and Chewie’s game text with Dengar and Greedo. Classic.<br />
+<br />
+Low: Nothing. This whole game was one big high!<br />
+<br />
+<br />
+Game 6: My Profit vs. Matt’s AOBS<br />
+Forget Stella! By now I am riding my own groove! Sure I lost two games earlier but I had come back strong so I felt good coming into this match up and I had the utmost confidence in my Big Disco Party that is Profit.<br />
+<br />
+Surprise, surprise! I start my usual while Matt uses Twi’lek v which gets him Desilijic Tatoo v, Ket Maliss v, Info Exchange v and Scum & Villainy. He is also the only person who decides to start any aliens at my Audience Chamber all day. He drops EPP Denger and the good Dr. E and his buddy P.B.<br />
+<br />
+To start, he pulls some guys and the Coruscant: docking bay with Ket Maliss. He also grabs unexpected interruption and something else from reserve. Thanks to him grabbing four cards on his first turn I get to activate three force courtesy of Thrown Back. So anyway, he deploys Bane Malar v to the Cor: docking bay and moves Xizor over to hang out together. <br />
+<br />
+In my hand I am holding a Qui-Gon, Chewie Protector, and OOC&TT. So I decide to try and end it right there. I activate six force from icons and myself and thanks to those 3 force I got from Thrown Back, I have enough to deploy Threepio from reserve deck to Tatooine for free, Chewie for free to the docking bay, EPP Qui-Gon for 7 force with Chewie and initiate battle. I toss a 6 on the fish to guarantee the hit and slice up Xizor. He draws a 6, causing me to lose 8 from attrition thanks to his objective so I forfeit Chewie first, not wanting to leave him alone. He unfortunately forfeits Bane first then Xizor, with those being the only two cards in his lost pile. After I lose Qui-Gon to satisfy the remaining attrition, I use my last force to play OOC & TT. There is a 50% chance that I will nail Xizor, effectively killing his objective on my first turn. Unfortunately, the Norse gods weren’t with me this day and I picked Bane. <br />
+<br />
+After changing into a fresh pair of drawers, Matt deploys No Escape on his second turn to get Xizor back into his hand and just loads up the docking bay with a whole bunch of guys. Now I run into a little problem. I am only activating 6 force and I am only holding 8 cards in my hand, few of which are currently useful. One of those cards happens to be Speak With the Jedi Council, which I would be crazy to play since he could move his entire deck to it the Council with ease and drain for 3 all game. So I Threepio it out of my hand and get…the Jedi Council in exchange. Just great! So I draw a bunch of cards into my hand in the hopes of getting what I need.<br />
+<br />
+He drains me at the docking bay and causes some direct damage with his objective. He also tosses more guys down to back up Xizor and draws into his hand. Meanwhile I am Threepio-ing like a mad man. I start chucking around used interrupts trying to get my hand size down while digging for useful things. I deploy Boushh to Coruscant to block the drain and draw some more cards. By this point I have all sorts of useful things in my hand but by only activating 6 force, it’s hard to get an offensive going. On his turn he causes more direct damage and drops some more docking bays. He also draws a couple cards into hand. On my turn I activate more force and deploy Artoo with A Gift to the Audience Chamber. He notices that I have been stockpiling force for the last couple turns and figures that I am about to make a huge assault on him, so he backs up Xizor at the docking bay and Dengar / Dr. E. at the Audience Chamber even more. <br />
+<br />
+On my turn, I surprise him by completely ignoring him and deploying Savrip, the Naboo: Battle Plains with Corran, Wedge RSL, EPP Obi and Epp Luke there. Those four characters hold the Battle Plains the whole game by themselves and because Luke is at a battleground his objective is flipped to the zero side and it never flips back again. I Alter his Scum & Villainy, grin and end my turn. He has no way of damaging me anywhere so he decided to throw his aliens against me at the Battle Plain. He comes down with 4-Lom, and every other alien in his deck. Whenever he initiates battle I just concentrate on slicing up his character and I refuse to draw battle destiny, causing him to leave at least one or two guys there after he forfeits. Any overflow from power and battle destinies that get past Corran and Wedge is covered by Savrip. On my turn I would initiate battle against whoever he had left at the Battle Plains, slice up someone, draw destiny, cancel his destinies and cause lots of overflow. I would clear the site, get some drains in for a bit until he had regrouped his forces and we would do that all over again. <br />
+<br />
+At one point he Snipers Artoo with A Gift but I got it back with Flash v, tracked it back into my hand with Threepio and redeployed it on my favourite droid. I also re-tracked Flash back into my hand and started tracking some sixes to use with my Edge’s. He had also deployed Sando, canceling my Colo. At this point we were one of the only games that was still going. Someone, I think Spencer, mentions to me that I have a good chance at getting in the final confrontation as long as my differential is high enough. So I pretend that I am Gandalf and pull some crafty wizardry out my hat. I draw two sixes for my two Edges and retrieve 10 force. One Edge gets me back the other and Flash gets me back the second. He pulls out the Do They Have a Code Clearance at this point and I decide to try to free Han before I play my Edges and Flash again, which I might point out I had tracked back into my hand. Sometime while all this is going on, the TD walks over and tells us we have 15 minutes left. I figure it’s not a problem. I deploy Qui-Gon and Chewie down to the Audience Chamber with the intention of freeing Han. It would turn out this was more difficult than it would have seemed. <br />
+<br />
+I am holding a SATM & BP in my hand I take a look at his characters at the site. He has the Dr. E combo, EPP Dengar and Greedo. I figure if I initiate battle, slice up Dr. E and make him go missing, then he wouldn’t be able to draw battle destiny. Dengar only has ability 2 and Greedo has 1. The plan goes off without a hitch except that Xizor v allows your Black Sun agents everywhere to draw battle destiny if unable to otherwise! Stupid Xizor. So I end up losing Chewie and he comes back at me and initiates battle. I figure, no problem, I’ll just slice up Dengar and be done with it. Except that Dengar is defense value + 2 because of Desilijic Tatoo and Ket Maliss, so I miss! He draws his battle destiny and I choose not to draw anything because I don’t want to lose Qui-Gon to attrition. At this point the TD tells us that there are only 5 minutes left. I realize that if I time out I won’t get the two points and I won’t be ably to play in the final confrontation. So I look at Matt and say to him, “I really don’t want to time out.” Now, I have to give Matt big props here. He could have slowed right down the last 5 minutes and forced the timed win but instead he showed a lot of class and obliged me by speeding up his game play. So I have just about my whole deck activated except for about 6 cards. I play Flash and initiate a battle against Dengar, taking the top most character into hand from reserve deck. I finally slice up Dengar and he draws battle destiny while I choose not too, resulting in me losing the battle and the character from my hand via Savrip to satisfy attrition. At this point I control the Audience Chamber so I free Han and retrieve 5 force. Thanks to Flash, I also notice that there is a 6 sitting on the top of my reserve deck during my draw phase, so I use one of my Edges and retrieve anther five force and he snags it with Do They Have a Code Clearance. But wait, what’s this? Underneath that 6 was a 5! So play my other Edge and retrieve 3 force (-1 because of Code Clearance). I then retrieve another force with Flash and I now have only 2 cards left in my lost pile! I will point out that I was paying for all the force I retrieved this game after the first Edge because he did pull Secret Plans. Just in case you weren’t keeping track, I retrieved a total of 26 force during this game. 18 from the Edges, 3 from the Flash and another 5 from my objective. I am feeling pretty invincible right now.<br />
+<br />
+FW + 36<br />
+<br />
+Hi: The amount of class Matt showed by not being cheap and timing out. Thanks a lot!<br />
+      Me retrieving 26 force! Edge is my friend!<br />
+<br />
+Low: Only activating 6 force at the start. Ouch.<br />
+<br />
+<br />
+So at this point the standings look like this: <br />
+<br />
+1. James Booker 12 (+97) <br />
+2. Brandon Pahl 8 (+91) <br />
+3. Brad Eier 8 (+20) <br />
+4. Nate Meeker 8 (-10)<br />
+5. Adam Hawke 6 (+9) <br />
+6. Andrew Hill 6(+18 <br />
+7. Matt Sherrington 6 (-22) <br />
+8. Kevin Brownell 6 (-29) <br />
+9. Matt Pietrangelo 5 (-20) <br />
+10. Spencer Ball 4 (-7) <br />
+11. David McCure 2 (-127)<br />
+<br />
+If you were really paying attention you would notice that the sum of my FW/FL reported at the end of each match up is not equal to the supposed +97 that I ended with. This my fault because I never bothered to write them down so I could only guess based on my memory. Sorry if any of them are way off.<br />
+<br />
+So, I first check with the TD to make sure that a final confrontation is in the plans and he says as long as Booker and I agree to it then it’s on. So I ask Booker and he says it’s up to me. I tell him that I drove all the way from Toronto to play in the tournament and I wouldn’t mind playing the final matches. Well, Booker could have just said, “I clearly beat you in the Swiss portion so I see no reason for a final confrontation.” but instead he shows a lot of class and agrees to take me on and for that I appreciate it. So we settle in for the final two games.<br />
+<br />
+<br />
+My Scum vs. Bookers TRM<br />
+This being the final confrontation, people are crowding around the table and talking to me. Because of this, I am not paying attention to the game and I pay for that early. I start with my usual and just in case you forgot what that was, Twi&#39;Lek v gets me Power of the Hutt, Ket Maliss v, Jabba’s Influence v and Hutt Bounty v to hand. Booker starts the Yavin 4: TR,  Insurrection combo, Colo and Civil Disorder V I think. I may be wrong on that last one.<br />
+<br />
+So my first turn I deploy the Audience chamber with Jabba’s Palace, Jabba v with the Audience Chamber, Scum & Villainy with Jabba, Bib with Power of the Hutt and Lando with Jabba’s Influence. He gets to activate a ton of force and take some cards into his hand. During my whole turn I am having multiple conversations with different people, not really paying attention to what I am doing, simply going through the motions. On his turn I continue to have my conversations while he announces that his activating force. My response is “yeah, yeah” while I continue my conversation. He then declares he is deploying a docking bay fro reserve deck. “Yeah, yeah.” He then announces that he is deploying EPP Quiggy to Tat: Jabba’s Palace. Naturally, being engrossed in conversations with others around the table, I respond “Yeah yeah.” He then declares that he is Altering Scum & Villainy and that is about the point in time where I realize that I just made the biggest mistake of the tournament. You see, my Scum deck has very little SAC protection, so my first response to him deploying anyone with respectable ability is to always pull the Oppressive Enforcement shield, so that if my opponent does Alter my Scum & Villainy, then it just gets re-cycled. Well, because of all my conversations that were going on, I failed to do this, resulting in Scum & Villainy being the first card that is lost in the game. I feel like I just got kicked in the stomach. Scum & Villainy is such an integral card to the deck. It is the cornerstone to all my force retrieval and now that it is forever gone I can feel the panic starting to well up inside me. So I do the first thing that comes to mind. I start talking smack. I start making fun of cards that are on the table, saying uRuRUrUrUr’s name over and over again in funny ways, asking Booker all sorts of questions and just being a plain old pest. Of course Booker doesn’t respond to my ramblings but that is ok since I am only trying to throw him off his game. I was really panicking at this point. <br />
+<br />
+On my turn I pull the Oppressive Enforcement and There is No Try shields for good measure. I Then drop Xizor, Boelo and uruRURuRuRURURRURURururUrururururuuurUrURURUrURuRURUrUuRuRururUrUruRuRururUrURurUUrururUruRuruRUruRurururUruRurrUur to initiate battle. I use Hutt Bounty and Xizor to reduce Quiggy’s power to zero and he swings at Xizor, drawing a 1 and a 3. He lets out a little congratulatory “Yes!” but I point out to him that uRuuRUrurrURUruRuRururUrUurURuRurUrURurUrURuRuRuUR makes all his weapon destinies -2 there! He looks at the card to verify then moves on to his battle destiny, but not before I cancel his previously deployed Savrip with my Masterful Move. He draws battle destiny which I promptly cancel with Boelo! You see, boys and girls, URURrurURU is an alien leader, and works well with Boelo. So he loses Qui-Gon and Houjixes away the rest of the overflow. I grab the Houjix and draw into my hand. Perhaps my saving grace was the fact that I drew Ability x 3 into my hand. I am still rambling on with funny sounds and statements that have no bearing whatsoever to the game and cards in play. I wasn’t talking every second by any means but I was surprised that he didn’t reach over the table and try to strangle me.<br />
+<br />
+By the end of his second turn, he had a ton of twixs down and Naked Threepio was cycling away at the Throne Room. He comes back at me with EPP Luke (or maybe it was EPP Obi-Wan) and a couple other guys, shooting RURuRurururUrUruRuU and taking out another one of my guys. On my turn, I throw down some more annoying smack along with Ability x 3, Gardulla and some other guys to clear out his characters from Tatooine. I would just like to point out that Hutt Bounty is a beast with your Gangsters. Anyway, this goes on for a couple of turns. He throws down some characters to try and clear a Tatooine site but I keep reducing the power of his characters to zero and canceling his battle destinies with Greedo. I retaliate, retrieving a character into hand with Ability x 3 every time. At some point during all this, I use Gardulla’s game text and he ends up drawing a one. Even with Lando there is no way I can make it greater than two. So I lose a card from hand, which isn’t all that bad because I am holding a lot of ships and there are no systems on the table. Gardulla catches him completely off guard which makes me very happy even though I lost a force. On my next turn I tried Gardulla again but he drew another one. So I lose one of my two Lateral Damages I am holding in my hand. I pay attention to where that one goes and I realize that he is tracking his low destiny to the top. Well, not being a compete idiot (just a partial), I decide to pass on Gardulla for a while. <br />
+<br />
+So we go at this back and forth battle on Tatooine for quite some time. He never gets a site cleared and I manage to keep a character present every turn. Both of our life forces are getting low. He is starting to look a little concerned but I don’t know if it was because my rambling was starting to finally get to him or if it was because he was running out of characters. Either way, he decides to change strategies. I only have about 4 cards in my hand and a Greedo on my objective so he throws Phylo for free to the Coruscant: Docking Bay that he had previously deployed. As soon as I see Phylo hit the table I announce that “She will die next turn.” I don’t know if he believed me or was even remotely taking me serious at this point but either way he backs her up with Corran. Well, of those 4 cards I was holding in my hand, 1 of them was a Boba Fett BH and another was a Twi’Lek v. So I deploy Boba from hand for 1 force thanks to Twi’Lek and Greedo for 1 force from the objective. I initiate battle and draw 3 battle destinies, each one is + 2 thanks to my objective which means my total battle destiny was something ridiculously gross. I can’t remember what he drew but it didn’t matter. I had a 17 power + whatever the three cards where that I drew for destiny compared to his 6 power plus destiny. That pretty much ended the game right there. I also got to successfully use Gardulla one more time before the game ended and that was that.<br />
+<br />
+FW + 12 ish…I can’t remember. I forgot to write it down.<br />
+<br />
+Hi: Losing Scum & Villainy right off the bat but still managing to pull out the win.<br />
+<br />
+Low: Losing Scum & Villainy right off the bat.<br />
+<br />
+Final game….<br />
+<br />
+<br />
+My Disco Party vs. Booker’s Hunt Down<br />
+As soon as I saw this I had to smile. I built my Profit deck with the intent to defeat HD every time. I am so teched out against HD that it shouldn’t even be a contest.<br />
+<br />
+He starts the Imperial Arrest Order combo, Mob. Points combo and his own Colo Claw Fish. At least I think that’s what he started. I started Seeking an Audience v, Civil Disorder v and my Sando Aqua Monster to eat his Colo! Victory is mine! I feel good about this match already! <br />
+<br />
+To be honest, most of this match up is pretty hazy but I will try to recall what I can. I do remember that he invaded Tatooine pretty fast. He got Darth Maul and the Dr. Evazan combo at Tat: Jabba’s Palace lightning quick but I threw Boushh down to block the drain. He then threw Sidious with some droid, IG-88 or P-59, to the Audience Chamber. Naturally he couldn’t drain there because of my objective so I wasn’t worried. He even threw Emperor v down with Maul. During this time I had deployed the Jedi Council Chamber and Threepio. I had been cycling through my hand getting what I needed, letting him stockpile all his guys on Tatooine. Vader did not come down until later in the game but neither one of us lost much force to Visage. In fact, the only time we ever lost any force to it was when I forced the issue, which wasn’t very often. He obviously did not want to lose force from it and I wanted to get an Edge in my hand before I started losing to it, so we both kind of “forgot about it” and played dumb. In fact, about mid I made it a non-issue by killing it with an OOC & TT. <br />
+<br />
+Once I was ready, I deployed the Naboo: Battle Plains and dropped EPP Luke along with EPP Obi-Wan. Practically ever character in his deck was stuck over on Tatooine at this point so I knew he couldn’t hurt me. He eventually tracked a destiny high enough to zap Boushh with the V Emperor but I just simply gifted Artoo and he was stuck draining me for 1. Finally, Lord Vader hits the Battle Plains with Vader’s Lightsaber and goes to town against Obi and Luke. He swings and hits one of them…can’t remember which one (lets just say Obi-Wan) and I miss both my attempts. He then plays I Have You Now and draws 3 battle destinies. I draw my 1 but I don’t break his immunity to attrition. I lose the battle, Obi-Wan and a forfeit nine Yoda from my hand thanks to Savrip! My next turn I deploy EPP Qui-Gon and lay the proverbial ‘smack down’ on Lord Vader. I cut him up good but I don’t win the battle so I end up losing Luke, leaving Quiggy to hold the plains on his own, which worries me somewhat. But he ends up leaving Qui-Gon alone for the rest of the game. Also about this time, I pull my “retrieve force with a destiny of 6 and On the Edge” trick to get back some cards, topped off with a Flash of Insight for good measure. <br />
+<br />
+On his next turn he deploys Rendili with ZiMH there. I respond with Tantive 4, Bright Hope and Wedge RSL. After I finish up with Zuckuss, it takes me about 2 turns to drain him out. Hunt Down against my Profit…he never had a chance.<br />
+<br />
+FW + uummm….it had to be somewhere around twenty.<br />
+<br />
+Hi: I dominated this whole game right from the beginning. Oh, and I won the tournament!<br />
+<br />
+Low:  Hahahahaha!<br />
+<br />
+<br />
+So there you have it! That is how I got to Kalamazoo, Michigan and won myself the chance to design my very own virtual card. Truth be told, now that I have that chance, I have no idea what I am going to do….<br />
+<br />
+Decks that were played: <br />
+<br />
+Dark: MKOS, 3 Hunt Down, 2 AOBS, IO (non-v) Yavin, Old School Walkers, Court, Maul deck, SYCFA. <br />
+Light: 1 Disco Party, 2 Profit, 2 TRM, Endor Start, WYS, Hyperdrive, QMC, HB, MB<br />
+<br />
+Now I know your all wondering when this TR report will end but I just wanted to say that since the directions we got from Map Quest had proven to be useless, we had to guess at how to get back to London, so we picked a direction and drove. I am not sure how this happened but we ended up in lost in downtown Detroit. That place has got to be the scariest place ever. I mean it. At 3:00 in the morning, Detroit is absolutely terrifying. We were expecting to get shot at any minute by any number of shady looking people that were prowling the street. Even the cop cars were all beat up and run down. I would also like to point out that Detroit has the worst streets in the world. The road conditions there are awful. I know that the American economy has slowed down over the last couple of years but this is ridiculous. How much could some asphalt cost? <br />
+<br />
+As far as the whole trip went…<br />
+<br />
+Highs: <br />
+Winning the tournament!<br />
+Meeting a lot of cool people.<br />
+Seeing new places.<br />
+BP gas stations…love it.<br />
+Gardulla…loving her too! She probably retrieved me about 12 force the whole tournament while only giving away 3!<br />
+Andy, Spencer and Adam for being great traveling companions.<br />
+Michigan’s motto: “Great Lakes, Great Times” Classic.<br />
+Thanks for running the whole thing Scott!<br />
+<br />
+<br />
+Lows:<br />
+Downtown Detroit…scary.<br />
+Gas for being so expensive.<br />
+Turns out that Subway in Michigan serves unsweetened Ice Tea, which tastes just like water with ice cubes!<br />
+Having to dodge pylons the whole way there.<br />
+What is up with the I-94 being closed?!<br />
+Map Quest for proving to be absolutely useless.<br />
+<br />
+Thanks for the read!<br />
+<br />
+Later<br />
+ <br></font></blockquote><BR><font class="bfont"> <A HREF='/starwarsccg/treports/treports.php?id=5323&view=1&PHPSESSID=...328fedb22570524062aeb1303'>Read the Reviews</a><font class="bfont"> | <A HREF='/starwarsccg/treports/treports.php?PHPSESSID=...328fedb22570524062aeb1303'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php?PHPSESSID=...328fedb22570524062aeb1303'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php?PHPSESSID=...328fedb22570524062aeb1303"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>
+<br>
+<b>Warning</b>:  Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in <b>Unknown</b> on line <b>0</b><br

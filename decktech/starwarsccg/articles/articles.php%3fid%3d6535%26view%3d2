@@ -1,0 +1,552 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php" class="level1nav">Articles</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/articles/articles.php">All</a> &nbsp;<br>
+
+</div>
+
+
+<a href="/starwarsccg/decks/index.php" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php" class="level1nav">Reports</a><br>
+
+  <a href="/starwarsccg/academy/index.php" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'><b>Star Wars CCG</b><br><a href='/starwarsccg/featured/taylor.php'>2008-01-17 Scott Lingrell</a><br></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol></ol> 
+<p><script language="JavaScript">
+
+<!-- /* © 1997-2002 BURST! Media, LLC. All Rights Reserved.*/ 
+
+var TheAdcode = 'sk8702a'; 
+
+var bN = navigator.appName; 
+
+var bV = parseInt(navigator.appVersion); 
+
+var base='http://www.burstnet.com/'; 
+
+var Tv=''; 
+
+var backColor='000000';
+
+var fontColor='FFFFFF';
+
+var agt=navigator.userAgent.toLowerCase(); 
+
+if (bV>=4) 
+
+  {
+
+  	ts=window.location.pathname+window.location.search; 
+
+  	i=0; 
+
+  	Tv=0; 
+
+  	while (i< ts.length) 
+
+      { 
+
+	  	Tv=Tv+ts.charCodeAt(i); i=i+1; } 
+
+		Tv="/"+Tv;} 
+
+else {
+
+	Tv=escape(window.location.pathname); 
+
+   	if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+
+    else if (Tv.charAt(1)=="/") Tv=""; 
+
+  	if( Tv.charAt(Tv.length-1) == "/") Tv = Tv + "_";
+
+} 
+
+  document.write('<ifr'+'ame id=BURST src="'+base+'cgi-bin/ads/' + TheAdcode + '.cgi' + Tv +  '/zg' + backColor + 'x' + fontColor + 'l' + fontColor +    'v' + fontColor + 'k' + fontColor + '/RETURN-CODE" width=160 height=600' +   ' marginwidth=0 marginheight=0 hspace=0 vspace=0 ' +  'frameborder=0 scrolling=no>');
+
+  document.write('</ifr'+'ame>');    
+
+// --> 
+
+</script></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Articles</td><form method='post' action=''><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Articles</option><option value='#'> </option><option value='/starwarsccg/articles/index.php3'>Star Wars: CCG</option><option value='/vs/articles/index.php'>Marvel VS</option><option value='/heroclix/articles/articles.php'>HeroClix</option><option value='/lotr/articles/articles.php'>Lord of the Rings</option><option value='/magic/articles/articles.php'>Video Games and Movies</option><option value='/wars/articles/articles.php'>Wizards Minis</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> A Shot and SWCCG Immortality - Building a &#39;Tier 1&#39; Rescue the Princess Deck<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(3.89)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=21065'>Adam "MasterJediAdam" Howland</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=21065&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> December 6, 2007</font><p align='justify'><font class="bfont"> Before you read any further, this article looks suspiciously like a deck.  That is because it is!!  I have been trying to post this deck for weeks, and haven&#39;t been able to, so am posting it here and will make updates in strategy and deck list in future &#39;installments&#39;.  So, without further ado, here it goes.<br />
+<br />
+**Locations(7)**<br />
+Death Star: Detention Block Corridor<br />
+Death Star: Docking Bay<br />
+Yavin 4: Docking Bay<br />
+Yavin 4: War Room<br />
+Yavin 4: Massassi Headquarters<br />
+<> Forest<br />
+Yavin 4<br />
+ <br />
+**Characters(18)**<br />
+Prisoner 2187<br />
+R2-D2(v2) x2<br />
+Luke with Lightsaber x2<br />
+Obi-Wan with Lightsaber x2<br />
+Han Solo<br />
+Chewie (v10)<br />
+Mon Mothma (v9)<br />
+Corran Horn<br />
+Tigran Jamiro (v4)<br />
+Major Panno<br />
+Lieutenant Greeve<br />
+Corporal Beezer<br />
+Corporal Janse<br />
+Corporal Kensaric<br />
+Corporal Midge<br />
+ <br />
+**Weapons/Devices(3)**<br />
+A280 Sharpshooter Rifle (v9) x3<br />
+ <br />
+**Starships(2)**<br />
+Red Squadron 7 (v12)<br />
+Millennium Falcon<br />
+ <br />
+**Objectives/Epic Events/Adm Orders/Jedi Tests(2)**<br />
+Rescue The Princess/Sometimes I Amaze Even Myself<br />
+I&#39;ll Take the Leader<br />
+ <br />
+**Effects(10)**<br />
+Ineffective Maneuver<br />
+Cell 2187 (v3)<br />
+Faithful Service (v12)<br />
+Wokling (v3)<br />
+Lightsaber Proficiency<br />
+Undercover<br />
+Goo Nee Tay<br />
+Special Modifications<br />
+Death Star Plans<br />
+Honor of the Jedi<br />
+ <br />
+**Interrupts(18)**<br />
+The Signal x2<br />
+Heading for the Medical Frigate<br />
+All Wings Report In & Darklighter Spin x2<br />
+Rebel Artillery x3<br />
+Rapid Reinforcements x2<br />
+A Jedi&#39;s Resilience<br />
+Leia&#39;s Back (v2)<br />
+Out of Nowhere<br />
+Insertion Planning x2<br />
+I Don&#39;t Need Their Scum Either (v11) x2<br />
+Control & Tunnel Vision<br />
+ <br />
+**Under Starting Effect(5)**<br />
+What Are You Trying To Push On Us? x2<br />
+Wise Advise<br />
+Battle Plan<br />
+Weapons Display (v6)<br />
+<br />
+Strategy<br />
+Many of us Star Wars fans had one of our first crushes on the feisty Princess Leia; her wit, her beauty, her honey bun hair, her apparent lack of bra ... We all enjoyed her strength against the Lord Vader, her audacity and &#39;charm&#39; in the face of the Grand Moff Tarkin, sarcasm to the feeble yet effective rescue efforts of the inexperienced Luke and the sly smuggler Han Solo. We wept with her as she watched the destruction of her home planet. A New Hope was a roller coaster ride for us all. This objective is designed to do just that - rescue the fair princess from the belly of the &#39;technological terror&#39; created by the Emperor and his minions.<br />
+ <br />
+SHORTFALLS<br />
+Admittedly, there are a ton of holes in this deck. The first and foremost is that the only way to rescue the princess is to free her with R2-D2 (v3). There has been a lot of discussion among many of us on the forums about how to free her, and I decided to keep it simple. In the beginning I had Rycar Ryjeld (v2) and Strike Planning as starting effects, pulling Mon Mothma (v9) and Mercenary Armor (v7) to use I&#39;m Here to Rescue You to free the princess as a backup plan. This proved to further add to the already dense list of cards required to free her: in the end I decided to just use R2-D2 (v3) - it is *more* movie-like and way more suspenseful.  This is not always true however.  I played against a Scum deck that decided to use her as bait and I stomped their pitiful little band of bounty hunters and saved the princess from becoming the slave of slimy Jabba.  (On second thought, maybe that was a bad idea; for without that we would have no metal bikini Leia!)<br />
+ <br />
+The second major problem is that it has no real way to protect the princess other that to battle away your opponent, or if she is lost, to draw into Leia&#39;s Back (v2) to deploy her to the DB and move to the War Room. There are many ways to do this that weren&#39;t included, like using Don&#39;t Forget the Droids (v8) and keeping R2-D2 with Leia, which will be included in the updated version of this deck I am currently working on.<br />
+ <br />
+The third &#39;hang-up&#39; (I wouldn&#39;t define it as a problem, but a limiting factor) is that I REALLY like the card Faithful Service (v12). I will be posting my Rebel Strike Team deck soon that is built around the same card with the Rapid Reinforcement combo to deploy an instant army. This does not alleviate the card intensive nature of this deck but rather compounds it; but I just think that the concept is so clever that I have built 2 decks around it. BTW, virtual A280 Sharpshooter rifles really add some punch to this combo, making protecting the princess easier to do (the built in Sorry about the Mess is terrific, and many of the troopers employed add an additional +1 to weapon destiny, making them fire +3).<br />
+ <br />
+Lastly, I really enjoy playing in a classic - and by that I mean no EpI cards - environment. The people I play with most in person enjoy this style of playing as do I. So if you wish to mark this deck down because there are obvious EpI inclusions, please wait until I post the non-classic version of this deck and red line it instead.<br />
+ <br />
+CARD CHOICES<br />
+All of that being said a few words on card choices that will make the strategy section a little bit lighter:<br />
+ <br />
+Rebel Artillery - It is a recyclable destiny 7 interrupt that has 2 ways to do damage. It has been my experience that this card generally serves 2 purposes, first it acts as a &#39;grabber&#39; magnet, and the second is that if you are any good at tracking it rocks the socks off of any Dark Jedi (and if you have managed to flip your objective it absolutely decimates your opponent as a battle destiny).<br />
+ <br />
+A280 Sharpshooter Rifle (v9) - This may be my new favorite weapon. It has a built in Sorry About the Mess, with the characters I&#39;ve included it generally fires +3 (a third of this deck is 5 or higher) and adds to attrition against your opponent. This card was meant to be played in a similarly themed deck. It is just terrific in the truest sense of the word.<br />
+ <br />
+Insertion Planning x2? - Yes, by 2. There are not a ton of scouts in this deck, but this card has saved me so many times I included it. These would however be the first cards I would look to take out to supplant some more princess protection or freeing power.<br />
+ <br />
+Goo Nee Tay - If you want to slow down a DS deck that is not a vehicle or starship deck, this card does the trick. It does not discriminate if the DS character is republic, alien, jedi or imperial just if their ability is greater than 2. Coupled with Tigran Jamiro (v4) and Cpl Kensaric they add a total of 4 to the deploy of characters to related Yavin 4 sites! This just about makes up for the fact that you give them 3 force icons from the get-go.<br />
+ <br />
+Luke and Obi w/stick - They have built in weapons but bring drop-and-pop power to an already powerful flip side of the objective, not to mention that they give back some card savings.<br />
+ <br />
+Chewie (v10) - It is my opinion that this is he best pilot Chewie. The space package is VERY light in this deck, so the right pilots were needed. This Chewie gets around ZiMH and adds power and maneuver to the Super Falcon you will build. Again, given this deck, a Life Debt should be included, but there was no space.<br />
+ <br />
+Faithful Service (v12) - As mentioned earlier, I really like this card. I think that it is fun, and I have always enjoyed the supporting cast of the Star Wars Universe that added novel powers to the battle space but all too often don&#39;t make the final mobility line. Faithful Service (v12) puts many of these characters back in the fight and makes the card Rapid Reinforcement really have some bite. Any deck running on a rebel base should consider using this combo as an engine to deploy a ground element that is not easily reckoned with en masse.<br />
+ <br />
+No Nabrun Leids? - This is unfortunately true. It is probably one of the most important cards left out of this build. Fortunately, hitherto fore this has not been an issue, because most DS ground builds are docking bay builds and I have 2 docking bays. It is more expensive to hire transport from Nabrun, so ultimately my ability to get there without dedicating another card to it trumped the relative safety and ease of Nabrun Leids.<br />
+ <br />
+DECK MATCH-UPS<br />
+I will start with the match-ups that are the most evil, and include a few possible winning scenarios for others. I will only be including strategy against &#39;classic&#39; decks.<br />
+ <br />
+SYCFA/ISD (v2) - You will lose this one. If you fear this deck, then include Advance Preparation (v3) and blow up the D*. You will most likely need to add a starship or 2 more as well.<br />
+ <br />
+RalOps - I have very little experience with this deck, but I would say the current &#39;react&#39; builds are tough for your deck. Unfortunately you will most likely lose this one because their force generation is just so high and they have a relatively low deploy cost for their dark forces. Your optimal scenario (however unlikely) would be to get Cpl Beezer with 1 or 2 others to one of their sites with a weapon or 2. The destiny of RalOps decks is generally not too terribly high, so Insertion Planning becomes prime. You wouldn&#39;t be able to hold it forever, but getting a foothold there may buy you enough time to make a difference. Also, getting your AO into play is a must to hinder their combat vehicle madness.<br />
+ <br />
+Carbon Chamber Testing - Another tough match-up for you, but I think it is winnable. You must pull off Rapid Deployment to flip and win. A number of their evasion/beat squad won&#39;t be played b/c of the classic environment, which may make it a heavy capture deck. That is ok, just keep firing at them. If they expend their resources to capture your guys you will get them back, you just have more firepower than them. After flipping, IG-88 is bantha fodder.<br />
+ <br />
+Imperial Conference Room/TINT&OE - a difficult one because the most popular versions will be built similarly to SYCFA decks and will bury the detention block behind the War Room and a Laser Gate (v12) or 2. Your salvation is that you can get your characters there. Take the fight to them, their destiny is generally low (like in SYCFA) and will generally only include enough Council members to get their force generation engine going.<br />
+<br />
+Scum - This is a fun game. You have characters to capture, they have characters to remove from the game. You have weapons, they have weapons. You have high destiny, they have average but not shabby destiny. If you fear this deck in your classic environment, then some evasion or Weapon Levitation action would be in order.<br />
+ <br />
+Hunt Down - Irregardless of if this is a duel version or not, they will generally set themselves up and wait for you. Their deck is designed knowing that you will only have Obi-wan and Luke as real power players (Leia, Orrimaarko and Chewie may also be included here) and will allow you to get pinged by Visage all game. If they leave you alone (which they probably won&#39;t) then suck up the damage until you flip. You can then take the fight to them. Your destinies are just as high as theirs, so be smart and employ prudence when choosing when to tackle their squad. They will most likely do their best to keep you from flipping because they know they are toast if you flip, so be mindful of that. I really feel this one is winnable at least 50% of the time, especially if they are not playing The Emperor (v6) or don&#39;t get him to play until you can free Leia.<br />
+ <br />
+Bring Him Before Me - Give them Luke. Let them lose the 2 force a turn. They will need to battle you to win. Your destinies are high enough that you should win the duels. If you can flip then you will win, every time. Most of the classic builds play heavy characters but you have characters too. It has been said over and over about this objective - you must flip in order to win.<br />
+ <br />
+SUMMARY<br />
+This is a deck that will probably never be &#39;tier 1&#39;. It has many weaknesses, no matter how it is built. In a game that has become quicker and more economical, this stands as an antique - not really able to be either. It&#39;s salvation is that it truly brings a real movie-like feel back to the game. It is so much fun that I think serious players who really just want to win may steer clear, leaving it in the hands of more purists like me who ultimately seeking that wonderful prize of rescuing the princess.  It is my opinion that they  would really enjoy a throw back to a &#39;much simpler time&#39;. This deck is properly named - the face that launched a 1000 Starships. Leia has raised the sails of many a Luke Skywalker or Han Solo want to be and will continue to do so for years to come! <br></font><BR><font class="bfont"> <A HREF='/starwarsccg/articles/articles.php?id=6535&view=1'>Read the Reviews</a><font class="bfont"> | <A HREF='/starwarsccg/articles/articles.php'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+<!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

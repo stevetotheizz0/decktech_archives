@@ -1,0 +1,330 @@
+<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
+<head>
+<title>DeckTech - for the players, by the players.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/swccg/global/css/white.css">
+<!-- #BeginEditable "Style" --> 
+<style type="text/css">
+<!--
+.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
+.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
+.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
+.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
+.centercolor {  background-color: #313063}
+-->
+</style>
+<!-- #EndEditable -->
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE -->
+<script language="JavaScript">
+<!-- /* © 1997-1999 BURST! Media, LLC. All Rights Reserved.*/
+var TheAdcode = 'ad8702a';
+var bN = navigator.appName;
+var bV = parseInt(navigator.appVersion);
+var base='http://www.burstnet.com/';
+var Tv='';
+var agt=navigator.userAgent.toLowerCase();
+if (bV>=4)
+  {ts=window.location.pathname+window.location.search;
+   i=0; Tv=0; while (i< ts.length)
+      { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+   if( Tv.charAt(0)!='/' ) Tv="/"+Tv;
+          else if (Tv.charAt(1)=="/")Tv="";
+  if( Tv.charAt(Tv.length-1) == "/")
+    Tv = Tv + "_";}
+if (bN=='Netscape'){ 
+     if ((bV>=4)&&(agt.indexOf("mac")==-1))
+{  document.write('<s'+'cript src="'+ 
+      base+'cgi-bin/ads/'+TheAdcode+'.cgi/RETURN-CODE/JS' 
+      +Tv+'">'); 
+     document.write('</'+'script>');    } 
+     else if (bV>=3) {document.write('<'+'a href="'+base+'ads/'+ 
+        TheAdcode+'-map.cgi'+Tv+'"target=_top>'); 
+        document.write('<img src="' + base + 'cgi-bin/ads/' + 
+        TheAdcode + '.cgi' + Tv + '" ismap width="468" height="60"' + 
+        ' border="0" alt="Click Here"></a>');} 
+ } 
+if (bN=='Microsoft Internet Explorer') 
+ document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'+ 
+  TheAdcode + '.cgi' + Tv + '/RETURN-CODE" width="468" height="60"' + 
+  'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' + 
+  'frameborder="0" scrolling="no"></ifr'+'ame>'); 
+// --> 
+</script> 
+<noscript><a href="http://www.burstnet.com/ads/ad8702a-map.cgi" target="_top"> 
+<img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi" 
+ width="468" height="60" border="0" alt="Click Here"></a> 
+</noscript> 
+<!-- END BURST CODE -->
+<!-- #EndLibraryItem --></td>
+    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
+      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
+    <td valign="top" class="centercolor" rowspan="2" > 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
+          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
+          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
+        </tr>
+        <tr> 
+          <td colspan="2"><!-- #BeginEditable "Body" --> 
+            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
+              <tr> 
+                <td bgcolor="#333366" height="12" valign="top" width="44%"><img src="/swccg/global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
+                <td bgcolor="#333366" align="right" valign="top" height="12" width="48%"><img src="/swccg/global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr> 
+                <td height="622" valign="top" colspan="2" bgcolor="#333366"><table width="100%" border="0" cellpadding="4"><tr bgcolor="#000000"><td><font color="#FFFFFF"><font face="Haettenschweiler, Tahoma, Arial" size="6">Lockbox</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC="../images/dd6.GIF" BORDER=0><A HREF="darkread.php3?deck=12117"><IMG SRC="../images/ldread.GIF" BORDER=0></A><A HREF="darkreview.php3?deck=12117"><IMG SRC="../images/ldreview.GIF" BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="../../membercenter/directory/memberpage.php3?member=68">Paul "Vollerian" Motz</A></FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Description</Font></TD><TD><font face="Arial, sans-serif" size="2">High Destiny Destruction</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Date Created</Font></TD><TD><font face="Arial, sans-serif" size='2'>November 30, 2000</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Cards</Font></TD><TD><font face="Arial, sans-serif" size="2">Starting (9)<br>
+Hunt Down And Destroy The Jedi<br>
+Epic Duel<br>
+Executor: Holotheatre<br>
+Executor: Meditation Chamber<br>
+Visage of the Emperor<br>
+Prepared Defenses<br>
+Imperial Arrest Order<br>
+Crush The Rebellion<br>
+Moblization Points<br>
+<br>
+Sites (3)<br>
+Death Star: Docking Bay<br>
+Cloud City: East Platform<br>
+Cloud City: Downtown Plaza<br>
+<br>
+Weapons (2)<br>
+Vader&#146;s Lightsaber x2<br>
+<br>
+Characters (9)<br>
+Emperor Palpitine x2<br>
+Darth Vader with Lightsaber x2<br>
+Darth Vader, Dark Lord of the Sith x3<br>
+Darth Vader x2<br>
+<br>
+Effects (3)<br>
+Reactor Terminal x2<br>
+No Escape<br>
+<br>
+Interrupts (21)<br>
+The Circle Is Now Complete<br>
+Vader&#146;s Obsession<br>
+Vader&#146;s Eye x3<br>
+Twi&#146;lek Advisor x3<br>
+Operational As Planned x4<br>
+I Have You Now x4<br>
+Imperial Barrier x2<br>
+Counter Assault x3<br>
+<br>
+Destiny 7&#146;s (13)<br>
+Visage Of The Emperor x2<br>
+Hunting Party<br>
+We&#146;re The Bait x2<br>
+Closed Door x2<br>
+Double Laser Cannon x2<br>
+Intruder Missile x3 </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Strategy</Font></TD><TD><font face="Arial, sans-serif" size="2">Ok, the simple idea behind this deck is to destroy your opponent by catching him off guard to a high destiny deck.<br>
+<br>
+Normal hands start off with you activating 5 force of your own and whatever your opponent gives you.  You are looking to get Vader down ASAP and thus flipping the objective.  However, if you do not get Vader in your opening hand, do not fret, deploy your docking bay from the reserve deck and see what is in your reserve deck.	If there are no Vaders in your force pile, then your best bet would be not drawing the force, but you need to find either Reactor Terminal or TwiLek Advisor to get the terminal.  Those cards are essential to making sure that your destiny 7s stay in the deck.  So if Vader is not in your force pile, but one of those other two (or both) are there then it would be wise to draw and get the recycling engine going.<br>
+<br>
+There are several ways to punch a hole into your opponent: Force Drain and Visage, Battle, or Counter Assault.	The first is pretty self explanatory: Drop Vader and Emperor at the two docking bays respectively and start draining, find the Plaza as soon as possible and move Vader over and start the drain process.  If you cant get the Plaza drop a Saber on Vader and just accentuate the pain.  The Visage can put a darn big hole in your opponents deck and that can only help with the force drain.  If you are not content with just that, then battle your opponent.  This deck works well with either Offensive or Defensive attacks.  The ideal situation is having him initiate a battle while you have a I Have You Now in your hand with Vaders Eye and you get at least 3 battle destiny.	That should come as a surprise to most opponents as they are cringing from seeing the 7s come off the top in successive order for the destiny. That can be painful (and game ending) for your opponent.  However, there is always that annoying card of Houjix, that can be a problem but nothing of much consideration because you can always get them at another junction.  That junction is the Counter Assault.  Wait until they drop 3-4 (even 2) characters at a site or ships at a system and then drop the hammer of the Counter Assault.  This can end a game right there.  This trick works best when you deplete your force pile and then you play Operational As Planned to get your one force and then play the Counter Assault.  It is all about the mental aspect of the game and making the opponent think what is about to occur, doesnt actually stand a chance of happening.<br>
+<br>
+Ok, now for the matchups<br>
+<br>
+Vs. Hidden Base<br>
+Since the majority of these decks feature the swarm aspect of the a plurality of ships in space, the counter assault comes key into this picture, wait and act appropriately and do not tip your hand as soon as you get the chance, wait until the time is right and then strike with the assault.  When he is draining, try to lose cards that are not the 7 destinys and thus alert your opponent to what could happen to him.  Drain and battle if the opportunity presents itself.<br>
+<br>
+Vs. Profit<br>
+Start the Alien Vader (Just Kidding), well this decision is up to you.	You could either drop Vader down on the Death Star or Cloud City and have him drain there.  Or, you could place him down on Tatooine and wait for him to attack you.  That would most likely be your best bet since you have massive destiny adders.<br>
+<br>
+Vs. Speeders/Agents<br>
+Wait until he fortifies a location and then drop a Counter Assault on him, battle if necessary.  Use the pick up function on the Hunt Down Side of the Objective if you want to get at him.  Just be patient and strike when the opportunity presents itself.<br>
+<br>
+Vs. EBO/Deadbolt<br>
+Deadbolt tends to get beat like red headed stepchild versus this deck, just get Vader and Emperor out quick to the Docking Bays or the Plaza.  Make him come to you, if he drops Obi or Luke at the North Ridge, use the pick up feature on the Objective and Come to him and personally deliver the beating.<br>
+<br>
+Vs. Training<br>
+Training tends to get hurt against this deck big time and quickly.  They have two choices, try to speed through testing and then come out after you or go after you immediately.  If they try to do both it will fail miserably.  They might drop Honor of the Jedi against you and then you find No Escape to make sure that the Visage damage gets through to them and then start the drains.  If them come after you, just battle as normal with the destiny adders and you will be fine.<br>
+<br>
+Vs. There Is Good In Him<br>
+You can capture Luke and duel him to death, the destiny should be good enough to destroy your opponent, just be careful about the dueling interrupts.  This is your call, if you dont like that Drain and Assault.<br>
+<br>
+Vs. Rebel Strike Team<br>
+Most of these decks deploy en masse to the Rebel Landing Site, let that occur and then drop and assault.  Drain and Battle when needed.<br>
+<br>
+Other playing notes...<br>
+Be careful when losing cards.  Out of Commission can be the bane of this deck; dont give them a Vader to exclude until the end game.  Grimtaash can also play a hindering role against this deck, just dont let that happen: Operational As Planned and Reactor Terminal are key to making sure that this doesnt hurt you. Also, try not to lose those high destiny cards early in the game.  They might notice that something is up and then you could be in for a wild ride.<br>
+<br>
+Otherwise, this deck tends to work quite well against most everything.	The concept behind this deck is response after your opponent does something.  Those who are saying where are Janus or Sim?  They are not needed!!!  You only need Vader because it is Vader only the deck revolves around! Let your opponent come to your with the EPP hit squad, you will destroy them!  They can only draw two battle destinies at the most thanks to Crush The Rebellion and then you can choke, slice, and kill whoever is remaining!  Other notes, some say that transmission terminated will be a big problem: not so.  There are 2 other Visages in the deck that can be used to kill your opponent.  If that doesn&#146;t work, who cares?  Draim like a madman and go from there.  Be patient and lure him into a trap, and then pounce on him like a tiger.  Always make sure to get either your Docking Bay from Imperial Arrest Order or your I Have You Now from Crush The Rebellion.  On that note, happy playing and I cant wait until you see the look of your opponents eyes when the hammer falls on them.<br>
+<br>
+Happy Hunting,<br>
+<br>
+Paul &#148;Vollerian&#148; Motz<br>
+  </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="darkdecks.php3"><img src="../images/ldback.GIF" border="0"></a><A HREF="darkread.php3?deck=12117"><IMG SRC="../images/ldread.GIF" BORDER=0></A><A HREF="darkreview.php3?deck=12117"><IMG SRC="../images/ldreview.GIF" BORDER=0></A><a href="deckprint.php3?deck=12117" TARGET="BLANK_"><img src="../images/ldprint.GIF"  border="0"></a></FONT></TD></TR></TABLE> </td>
+              </tr>
+            </table>
+            <!-- #EndEditable --></td>
+        </tr>
+      </table>
+    </td>
+    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
+      <table border="0" cellspacing="0" cellpadding="0" width="150">
+        <tr align="right" valign="top"> 
+          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
+          <td width="154" valign="top" align="right"> 
+            <table width="154" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF">&nbsp; </td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF"> 
+                  <script language="JavaScript">
+
+function logout() {
+var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
+document.cookie = cookie;
+window.location = "../index.php3";
+	}
+
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+
+</script>
+                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
+<select name="select1" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="/swccg/resources/rulings.php3">Current Rulings</option>
+<option value="/swccg/main/decktech.php3">About DeckTech</option>
+<option value="/swccg/membercenter/directory.php3">Member Directory</option>
+</select>
+</form><BR>
+<!-- #EndLibraryItem --> </td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
+                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
+                  Center</a></font> <br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
+                  Reports </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
+                  Resources</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
+          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/decks.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/index.php3" class="level2nav">Decks 
+      Home</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/dark/darkdecks.php3" class="level2nav">Dark 
+      Decks</a><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/light/lightdecks.php3" class="level2nav">Light 
+      Decks</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
+          <td width="155" valign="top" height="13"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr align="left" valign="top" bgcolor="#630063"> 
+                <td width="154">
+ 
+
+<!-- BEGIN BURST! CODE -->
+<center>
+<a href="http://signup.postmasterdirect.com/affiliates?owner=BachSystems&affili
+ate=dawiyhd"><img src="http://gfx.postmasterdirect.com/gfx/banners/list125x125.gif"
+height="125" width="125" border=0></a></center>
+<!-- END BURST! CODE --> 
+
+<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
+                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" --><table width="100%" border="0" cellspacing="0" cellpadding="4">
+  <tr bgcolor="#000000"> 
+    <td><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Latest News 
+      </font></b></font></td>
+  </tr>
+  <tr> 
+    <td> <p><font face="Arial, Helvetica, sans-serif" size="2"><a href=/dpc/news/fantasy_winners.php>Announcing: The Fantasy DeckTech Players&#146; Challenge Winners</a></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Thu, March 1, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR><p><font face="Arial, Helvetica, sans-serif" size="2"><a href=/dpc/news/coverage.php>Round by Round Web Coverage of the first DPC Open</a></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Wed, February 21, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR><p><font face="Arial, Helvetica, sans-serif" size="2"><A href=/dpc/news/normal_schedule.php>The DPC Normal: Schedule of Events</A></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Tue, February 20, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR> <a href="/swccg/main/news.php3"><font face="Arial, Helvetica, sans-serif" size="1"><br>
+      more news</font></a> </td>
+  </tr>
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
+      Updates</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><a href='/swccg/resources/tjpage.php3'><font face='Arial, sans-serif' size='2'>Tj Holman</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-30</font><BR><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-25</font><BR><a href='  /swccg/resources/terwilligerpage.php3'><font face='Arial, sans-serif' size='2'>Brian Terwilliger</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-03</font><BR></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
+      Tips</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><p><font face='arial' size='2' color='#ffffff'>Remember, when viewing submissions like decks, articles, or tournament reports, by clicking the appropriate title, you can sort by title, date, and rating. Use the arrow to reverse the order!</font></td>
+  </tr>
+</table><!-- #EndLibraryItem --></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

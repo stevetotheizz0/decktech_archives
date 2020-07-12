@@ -1,0 +1,525 @@
+ 
+<html><!-- #BeginTemplate "/Templates/decktech_2.dwt" -->
+<head>
+<title>Welcome CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<meta name="keywords" content="CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming">
+<meta name="description" content="DeckTech has one mission: To build a self sustaining community that adds entertainment value to the CCGs we all enjoy. All CCG players welcome.">
+
+<style type="text/css">
+<!--
+Body { font-family: Arial, Helvetica, sans-serif; color: #FFFFFF; font-size: 10pt; font-style: normal; text-decoration: none; background-color: #000000; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+.level1nav {  color: #00FF00; text-decoration: none; font-weight: bold; font-size: 10pt;}
+a {  color: #00FF00; text-decoration: none}
+.header_bg {  background: #001F90}
+a:hover { color: #FFFFFF; text-decoration: none }
+.border {  border: thin #001F90 solid}
+input {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; border: 1px solid black}   
+-->
+</style>
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000" background="/global/images/home/background.jpg"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="1" height="1" vspace="0" hspace="0" border="0"></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img src='/global/membercenter/gfx/dt_2logo.gif' border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+
+function go(x) {
+
+value = "";
+
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+
+if (value != "") window.location = value;
+
+}
+
+</script>
+
+<form method="post" action=""><input type="hidden" name="PHPSESSID" value="5b0ff6e7c1d54328fbff5c82b6c881b6" />
+
+<div align="center">
+
+<select name="select" onChange="go(this)">
+
+<option selected>Quick Jump</option>
+
+<option value="/groups/index.php">Groups</option>
+
+<option value="#"> </option>
+
+<option value="#">CCGs ======</option>
+
+<option value="/magination/index.php">Magi-Nation Duel</option>
+
+<option value="/lotr/index.php">Lord of the Rings</option>
+
+<option value="/swccg/index.php3">Star Wars CCG</option>
+
+<option value="/swtcg/index.php">Star Wars TCG</option>
+
+<option value="#"></option>
+
+<option value="/index.php">decktech.net</option>
+
+</select>
+
+</div>
+
+</form> </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font face="Arial, Helvetica, sans-serif" size="2"><B>Member Center</B></font></td></tr><tr valign="top"><td><font face="Arial, Helvetica, sans-serif" size="2">
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+  <tr>
+    <td><a href="/index.php?PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6" class="level1nav">Home</a></td>
+  </tr>
+  <tr> 
+    <td><a href="/membercenter/inbox.php?PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6" class="level1nav">Inbox</a></td>
+  </tr>
+  <tr> 
+    <td><a href="/membercenter/directory.php?PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6" class="level1nav">Member Directory</a></td>
+  </tr>
+   
+  <tr> 
+    <td><a href="/membercenter/update.php?PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6" class="level1nav">Update My Info</a></td>
+  </tr>
+  <tr> 
+    <td><a href="/index.php?mlogout=true&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6" class="level1nav">Log Out...</a></td>
+  </tr>
+</table>
+</font></td></tr></table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr> <tr valign="top"><td><table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font face="Arial, Helvetica, sans-serif" size="2"><B>CCGs</B></font></td></tr><tr valign="top"><td><font face="Arial, Helvetica, sans-serif" size="2">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="6">
+  <tr align="center" valign="middle"> 
+    <td><a href="/magination/index.php?PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6"><img src="/groups/global/images/magi.jpg" width="110" height="99" border="0"></a></td>
+  </tr>
+  <tr align="center"> 
+    <td><a href="/lotr/index.php?PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6" class="level1nav"><img src="/groups/global/images/lotr.gif" width="110" height="96" border="0"></a></td>
+  </tr>
+  <tr align="center"> 
+    <td><a href="/swccg/index.php3?PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6" class="level1nav"><img src="/groups/global/images/sw.gif" width="108" height="72" alt="Star Wars Customizable Card Game" border="0"></a></td>
+  </tr>
+  <tr align="center"> 
+    <td><a href="/swtcg/index.php?PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6"><img src="/groups/global/images/swt.gif" width="108" height="73" border="0"></a></td>
+  </tr>
+</table>
+
+</font></td></tr></table></td></tr><tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr> 
+        <tr valign="top"> 
+          <td> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="top"> 
+    <td height="75" rowspan="3"><img src="/lotr/gfx/trans_header1.gif" width="22" height="2" vspace="0" hspace="0" border="0"></td>
+    <td height="75"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="6">
+        <tr> 
+          <td><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td><img src="../global/images/home/trans.gif" width="6" height="8"></td>
+  </tr>
+  <tr valign="bottom"> 
+    <td><img src="/global/membercenter/gfx/header.gif" width="339" height="16" vspace="0" hspace="0" usemap="#header" border="0"><map name="header"><area shape="rect" coords="95,2,171,18" href="/index.php?PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6"></map></td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="22" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#001F90" valign="top"><!-- #BeginEditable "Body" -->
+
+<script language="Javascript" src="http://www.decktech.net/global/dynapi/src/dynapi.js"></script>
+<script language="Javascript">
+DynAPI.setLibraryPath('http://www.decktech.net/global/dynapi/src/lib/');
+DynAPI.include('dynapi.api.*');
+DynAPI.include('dynapi.event.*')
+DynAPI.include('dynapi.gui.loadpanel.js');
+</script>
+<script language="Javascript">
+function adminLoad() {
+	if(DynAPI.document.all['form_adminPanel']){
+		form_adminPanel.setVisible(true);
+	}else{
+  form_adminPanel = new DynLayer('form_adminPanel',200,200,400,421,'#000066');
+  var html = '<TABLE width="100%" border=1 bordercolor="#000066" cellpading="0" cellspacing="0"><TR><TD><a href="javascript:form_adminPanel.setVisible(false)"><IMG SRC="http://www.decktech.net/global/images/x.gif" WIDTH="18" HEIGHT="15" BORDER=0 hspace="2" align="right"></a><font face="Arial, Helvetica, sans-serif" size="2"><B>Member Admin Panel</font></TD></TR></TABLE>';		
+  form_adminPanel.setHTML(html);
+  DynAPI.document.addChild(form_adminPanel);
+
+
+  lp = new LoadPanel();
+  lp.setHTML("no file loaded");
+	
+  lp.setSize(398,400); // height will be overwritten by default
+  lp.moveTo(1,20);
+  lp.setBgColor('#001F90');
+	
+  form_adminPanel.addChild(lp);
+
+
+  DragEvent.setDragBoundary(form_adminPanel,0,DynAPI.document.getWidth(),10000,0);
+  DragEvent.enableDragEvents(form_adminPanel);
+
+	adminOpen('admin.php?member=10818');
+	}
+}
+
+function adminOpen(page) {
+lp.setHTML("Loading...");
+lp.setURL(page);
+}
+
+function submitAdmin() {
+//Put all the values in a query string
+
+qstring = "admin.php?member=" + lp.doc.admfrm.member.value;
+qstring = qstring + "&delete_decks=" + lp.doc.admfrm.delete_decks.checked;
+qstring = qstring + "&delete_treports=" + lp.doc.admfrm.delete_treports.checked;
+qstring = qstring + "&delete_articles=" + lp.doc.admfrm.delete_articles.checked;
+qstring = qstring + "&delete_reviews=" + lp.doc.admfrm.delete_reviews.checked;
+qstring = qstring + "&delete_dmail=" + lp.doc.admfrm.delete_dmail.checked;
+qstring = qstring + "&delete_page=" + lp.doc.admfrm.delete_page.checked;
+qstring = qstring + "&ban=" + lp.doc.admfrm.ban.checked;
+qstring = qstring + "&set_techpoints=" + lp.doc.admfrm.set_techpoints.checked;
+qstring = qstring + "&techpoints=" + lp.doc.admfrm.techpoints.value;
+qstring = qstring + "&comments=" + lp.doc.admfrm.comments.value;
+//alert(qstring);
+adminOpen(qstring);
+}
+
+
+//-->
+</script>
+
+<TABLE BORDER=0 CELLPADDING="5" CELLSPACING="0" WIDTH="100%"><TR><TD><table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font face="Haettenschweiler, Impact, Arial Black" size="5">John &quot;King Aragorn&quot; Curran<BR><br><font size='2'>* DeckTech Premium Member since 2003-05-01 * - DeckTech thanks you</font></B></font></td></tr><tr valign="top"><td bgcolor="#000066"><font face="Arial, Helvetica, sans-serif" size="2"><TABLE ALIGN=RIGHT><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"><B> Tech Points: 8,279 (8279 total)</font></TD></TR></TABLE><BR CLEAR='left'><br clear='right'><img src='/memberimages/10818princess arwen.jpg' HSPACE=10 VSPACE=10 ><BR CLEAR='left'><br clear='right'><font face="Haettenschweiler, Impact, Arial Black" size="5"><b>Selling some LOTR sets and some dot hack foils on ebay check out the first link</b></font><p><font face="Arial, Helvetica, sans-serif" size="2"> <img src="http://images.quizilla.com/S/SuperCurlz/1059390205_erRangeres.jpg" border="0" alt="CWINDOWSDesktopPowerRangeres.jpg"><br>Power Rangers Movie!
+<br><br><a href="http://quizilla.com/users/SuperCurlz/quizzes/What%20movie%20Do%20you%20Belong%20in%3F(many%20different%20outcomes!)/"> <font size="-1">What movie Do you Belong in?(many different outcomes!)</font></a><BR> <font size="-3">brought to you by <a href="http://quizilla.com">Quizilla</a></font>
+<br>
+<br>
+<img src="http://images.quizilla.com/T/trinitykills/1055020378_erovingian.jpg" border="0" alt="You are The Merovingian-"><br>You are The Merovingian, from "The<br>Matrix." Wit and danger, with a French<br>twist. You are adamant about the slightly<br>materialistic things- power, wealth, posession.<br>Dominating, aren&#39;t we?
+<br><br><a href="http://quizilla.com/users/trinitykills/quizzes/What%20Matrix%20Persona%20Are%20You%3F/"> <font size="-1">What Matrix Persona Are You?</font></a><BR> <font size="-3">brought to you by <a href="http://quizilla.com">Quizilla</a></font>
+
+<br>
+<br>
+<img src="http://images.quizilla.com/U/Urthanz/1069283693_aireCantea.JPG" border="0" alt="Ulaire Cantea"><br>You are Ulaire Cantea. You take weapons from<br>others. You are a Nazgul, and a very strong one<br>at that.
+<br><br><a href="http://quizilla.com/users/Urthanz/quizzes/Which%20Lord%20of%20the%20Rings%20Minion%20Are%20You%3F/"> <font size="-1">Which Lord of the Rings Minion Are You?</font></a><BR> <font size="-3">brought to you by <a href="http://quizilla.com">Quizilla</a></font>
+<br>
+<br>
+Updated 9/6/2003...i won my 2nd PSQ of the year.  It was Open but now I have 5 Premier Points.  Dalton here I come.  Decklist and TR comming soon.
+<br>
+<br>
+Updated 9/4/2003...This whole thing about Mike bribing Bastian is really dumb.  Everyone needs to let it go.  Why cant we be talking about him winning 3 High Level events in a row, isnt that more impressive?
+<br>
+<br>
+Updated 8/30/2003...I was watching the Two Towers DVD and just remembered how hot Arwen was.  She is HOT!!
+<br>
+<br>
+Updated 8/23/2003...Well I might be able to go to Essen this year.  I would need a team though.  If you want to, D or E mail me.
+<br>
+<br>
+Updated 7/17/2003...The DPC in Spokane is less than a month away and we got some huge prizes for every event.  This event should not be missed by anyone who can possible come.
+<br>
+<br>
+Updated 7/14/2003...WOW going down 100+ rating points would probally hurt someone who hasnt gone through that experience 3 times now.
+<br>
+<br>
+Updated 7/2/2003...Well Origins was the greatest weekend of gaming for me so far even though I went 1-5 in Contentials and 3-5 in the Premier Series.  I am thinking of changing my DT name to King of Scrubs.  Pat Sullivan has given me that name.  What do you think?
+<br>
+<br>
+Updated 6/24/2003...I leave for Origins tommorow.  I get in at 11pm :(  I will see everyone on friday.  
+<br>
+<br>
+Updated 6/22/2003...I just posted my Standard deck.  Its called Standard uruks Hurt More.  Check it out.  I think its really good.
+<br>
+<br>
+Updated 6/20/2003...I am Boromir.  I took that quiz on my LOTR personality and Im Boromir.
+<br>
+<br>
+Updated 6/18/2003...I got my ticket to Origins today.  I hope to see everyone I know there, cause this will probally be my only Premier series this summer.  it sucks starting a new job.  I will maybe go to Gen-Con if i win one of the events.  LOL.  Like that would happen.
+<br>
+<br>
+Updated 6/12/2003...The DPC Spokane is planned.  August 8th-10th.  In Spokane, WA.  There are message boards and the news feature on the DT news board.  If you need any info please E-mail or D-mail me.  Hope to see many of you there.  
+<br>
+<br>
+Updated 5/29/2003...I am putting together a HUGE weekend of gaming for SWCCG and LOTR in Spokane, Washington on the weekend of 8/8/2003-8/10/2003.  There will be plent to do for eveyone.  You can get information by emailing me at <a href="mailto:FrodotheBurdened@aol.com">John Curran</a>, or follow the links on my page for the Rebel Strike Team or Spokane Gamers.  Also, you can go to the home page for the event at <a target="_top" href="http://www.oriongames.net/bohd/home.htm">Battle of Helms Deep Weekend Home Page</a>.  Any questions or if you are planning on attending please email me.  Some of the people planning on attending:  Patrick Sullivan(thanks for the plug on your page), Mathieu Brochu, David Malbouf(I always think I spell that wrong, and maybe I am), Alan Sagan and many more to come.  I hope to see some of my fellow DT people there.
+<br>
+<br>
+Updated 5/11/2003...After my terrible showing at the Washington State TOC(3-3) there is some good news this weekend.  After the final sealed deck tourney was updated I was the highest rated player for the sprint.  Also, I am now Washington&#39;s highest rated sealed deck player normally.  So a bunch of good news.  See ya at Origins.
+<br>
+<br>
+Updated 5/6/2003...<a target="_top" href="http://www.decktech.net/groups/n.php?g=43&gcw_story=1755">Rebel Strike Team Interview</a> I got interviewed for the top website on the Deck Tech Groups page.  What an honor.  Its a good interview in my opinion.  Check it out.
+<br>
+<br>
+Updated 4/20/2003...I won the Spokane PSQ yesterday.  Now I have 3 Premier Points and a crapload of T-Shirts from Decipher.  Im going to post a TR and put the deck since it was open format and I dont think I will playing much of that anymore.  Look for it on Sunday or Monday.
+<br>
+<br>
+Updated 4/14/2003...I started writing a new series of articles on <a target="_top" href="http://www.cardshark.com/lotr/">CardShark</a>, its about the Nazgul Culture in standard format and how to counter it.  Its also on DT if you wanna take a look.
+<br>
+<br>
+Updated 4/12/2003...I dont know how so many people complain about this game.  Its a fun game but people get WAY to serious abot it.  People like that need to loosen up about things and let the card fall where they are supposed to.
+<br>
+<br>
+Updated 4/8/2003...Its been a while since I updated so I decided to.  I won my local Black Rider event and ended up with 4 signed Black Rider Cards.  Kendrick is the man even though he never beat me.  Im hoping to get the Origins Bye by being the top rated Sealed Deck player in Washington.  I went 5-0 and 3-1 at the Black Rider events and I have 2 events comming.  I want to get people to join my Web Page no matter where they are from. <a target="_top" href="http://www.decktech.net/groups/h.php?g=376">Spokane Gamers</a>.  Hope to talk to some players about the August event so if you are planning on comming or are interested in comming please E-Mail me <a href="mailto:FrodotheBurdened@aol.com">John Curran</a>.  Hope to talk to you soon.
+<br>
+<br>
+Updated 3/24/2003...In August of this year Im looking to set-up a Big Cash Tourney for Lord of the Rings and Star Wars CCG in Spokane, Washington.  All of the details will be either on the Buzz Board, <a target="_top" href="http://www.decktech.net/groups/h.php?g=376">Spokane Gamers</a>, or <a target="_top" href="http://www.decktech.net/groups/h.php?g=43">Rebel Strike Team</a>.  Both sites will have full details of the event.  Also, if you are planning to attend or want some info about Spokane or anything that is not on the Boards just D-Mail me, leave a board message or Email me at <a href="mailto:FrodotheBurdened@aol.com">John Curran</a>. 
+<br>
+<br>
+Updated 3/18/2003...Man Vegas was great.  I sucked but it was a blast.  I just want to say that Team Card Shark are some of the coolest people I have met and Sullivan is one of the Funniest.  I cant wait to see them in Origins.  Ill even bring more Gummi Bears for Brochu.  
+<br>
+<br>
+Updated 3/7/2003...After Towers came out I kept getting my A$$ handed to me by everyone.  But ever since I became a Prdouct Champion I have been on a tear.  I went 5-1 at a PSQ then went 4-0, 6-0, 6-0.  Now Im on my way to Vegas to show everyone that Washington state should be known as a Powerhouse for Lord of the Rings(well maybe its not but it sounds cool).  See you at Vegas and good luck to everyone whos going.
+<br>
+<br>
+Im making a Groups page for the locals in My area.  I wanted people from outside my area to join and give them some insights to whats going on outsde of Spokane, Washington.  So if you would like to help just go to <a target="_top" href="http://www.decktech.net/groups/h.php?g=376">Spokane Gamers</a>.
+<br>
+<br>
+Updated 2/19/2003...This past weekend I was Rad-Con for the PSQ and other stuff and it was really fun.  There was so many people dressed up that I felt like the weird one for being normal.  I went 5-1 in the PSQ and lost in the Semis of a top 8 final.  It was a real blast and congrats to Ryan French for winning the title of "Tech Master of Rad-Con" even though I whooped you in wars.
+<br>
+<br>
+Updated 1/10/03...At the Spokane PSQ I went 3-3 but it was one game where I made a mistake and lost then I had to go against the deck that I knew would kill me so thats what happened.  Dont you hate that?  There is a PSQ in Richland, WA on 2/15/03 hope I can see some more of the people I met at the Spokane PSQ again.
+<br>
+<br>
+<br>
+D-Mail Me or you can E-mail me at <a href="mailto:FrodotheBurdened@aol.com">John Curran</a>.  I also have AOL Instant Mesenger  FrodotheBurdened.
+<BR>
+<br>
+<br>
+Here are My stats.
+<BR>
+<b><u>Ratings:</b></u> 
+<br>
+<b>LOTR:</B> 1934
+<BR>
+<b>LOTR Sealed Deck:</b> 1730
+<br>
+<b>Star Wars:</b> 1731
+<BR>
+<b>Young Jedi:</b> 1700(I own Mike Dalton in this Game)
+<br>
+<b>Star Trek 2E:</b> 1603
+<br>
+<br>
+<b><u>My Accomplishments:</u></b>
+<br>
+Number 1 in Washington State 9/2002 - 12/2002
+<br>
+3rd Place Pasco PSQ 2/15/03
+<br>
+Black Rider Bounty and Tournament Winner for Spokane, Washington 3/31/03
+<br>
+1st Place Spokane PSQ 4/19/03
+<br>
+12-0 at the DPC Spokane Weekend
+<br>
+1st Place Spokane PSQ 9/06/2003
+<br>
+<br>
+<u><b>Premier Points</b></u>:
+<br>
+5
+<br>
+<br>
+<b><u>Race to Mount Doom Points:</b></u>
+<br>
+51--I won the Race!!!
+<br>
+<br>
+<b><u>2003 Lord of the Rings Season</B></u>
+<br>
+<br>
+<b>Events:    Wins</b>  -     <b>Loses</b>
+<br>
+<br>
+<b>Locals Tourneys (Lv.1)</b>: 
+<br>
+121       -         12-----.900%
+<br>
+<b>Sealed Deck Tourneys (Lv.1)</b>: 
+<br>
+27        -         7-----.790%
+<br>
+<b>Premier Series Qualifers (Lv.2)</b>:
+<br>
+18         -        6-----.720%
+<br>
+<b>   
+Territorial Open Championships (Lv.2)</b>
+<br>
+3         -        3-----.500%
+<br>
+<b>Premier Series (Lv.3)</b>:
+<br>
+4       -        9-----.310%
+<br>
+<b>Continental Championship (Lv.3)</b>:
+<br>
+1         -        5-----.170%
+<br>
+<b>World Championship (Lv.4)</b>: 
+<br>
+0        -         0-----.000%
+<br>
+<br>
+<b>Total</b>: 
+<br>
+174       -        42-----.790%
+<br>
+<br>
+<br>
+<b>Thanks for reading,</b>
+<br>
+<b>John Curran(King of Scrubs)
+<br>
+Spokane Area Product Champion
+<br>
+Founder of Team Bring It
+<br>
+LOTR Writer for <a target="_top" href="http://www.cardshark.com/lotr/">CardShark</a></b>
+<br>
+<br>
+<b><u>Members:</u></b>
+<br>
+John Curran - Rating: 1934
+<br>
+Dan Curran - Rating: 1821
+<br>
+Jimmy Mergel - Rating: 1878                                                                                                                                                                                                                                                 </FONT> <BR></font></td></tr></table><table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font face="Haettenschweiler, Impact, Arial Black" size="5">My Links</B></font></td></tr><tr valign="top"><td bgcolor="#000066"><font face="Arial, Helvetica, sans-serif" size="2"><ul><li><a href="http://cgi6.ebay.com/ws/eBayISAPI.dll?ViewSellersOtherItems&include=0&userid=cannonballcards&sort=3&rows=25&since=-1&rd=1" target="newwindow">http://cgi6.ebay.com/ws/eBayISAPI.dll?ViewSellersOtherItems&include=0&userid=cannonballcards&sort=3&rows=25&since=-1&rd=1</a><li><a href="www.dgma.com?PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6" target="newwindow">www.dgma.com</a><li><a href="http://www.decktech.net/groups/h.php?g=43" target="newwindow">http://www.decktech.net/groups/h.php?g=43</a></ul></font></td></tr></table><table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font face="Haettenschweiler, Impact, Arial Black" size="5">
+<script language="JavaScript">
+
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+
+</script>
+  <table border="0" cellspacing="0" cellpadding="0" width="100%" vspace="0" hspace="0">
+    <tr>
+      <td><font face="Haettenschweiler, Impact, Arial Black" size="5">Lord of the Rings TCG</FONT></td>
+	  <form action="/membercenter/mpage.php"><input type="hidden" name="PHPSESSID" value="5b0ff6e7c1d54328fbff5c82b6c881b6" /> 
+      <td valign="middle" align="right">
+        <select name="select" onChange="go(this)">
+          <option value="#" selected>My Games</option>
+          <option value="/membercenter/mpage.php?member=10818&dspgame=SW">Star Wars CCG</option><option value="/membercenter/mpage.php?member=10818&dspgame=LR" selected>Lord of the Rings TCG</option><option value="/membercenter/mpage.php?member=10818&dspgame=S2">Ophidian 2350</option> 
+        </select>
+      </td></form>
+    </tr>
+  </table>
+</B></font></td></tr><tr valign="top"><td bgcolor="#000066"><font face="Arial, Helvetica, sans-serif" size="2">
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr> 
+    <td valign="top" bgcolor="#001F90"><font face="Arial, Helvetica, sans-serif" size="2"><B>My 
+      Decks</b></font></td>
+  </tr>
+  <tr> 
+    <td  valign="top"> <a href='/membercenter/mpage.php?member=10818&teamsortorder=rating&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6'>Sort by rating</a> | <a href='/membercenter/mpage.php?member=10818&teamsortorder=created&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6'>Sort by date</a> | <a href='/membercenter/mpage.php?member=10818&viewdes=1&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6'>View Descriptions</a> | <a href='/membercenter/mpage.php?member=10818&viewdes=0&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6'>No Descriptions</a><p><TABLE width="100%"><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"><A HREF="/lotr/decks/decks.php?deck=26181&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">Day One Undefeated 6-0 Gandalf Rocks</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 11/9/02</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 4.83</A></FONT></TD></TR><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"><A HREF="/lotr/decks/decks.php?deck=25827&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">Trust Aragorn(DPC Seattle 5-2)</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 10/4/02</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 4.77</A></FONT></TD></TR><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"><A HREF="/lotr/decks/decks.php?deck=30120&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">The King Tries Ents</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 08/24/03</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 4.69</A></FONT></TD></TR><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"><A HREF="/lotr/decks/decks.php?deck=28500&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">Spokane PSQ Winner</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 04/21/03</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 4.68</A></FONT></TD></TR><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"><A HREF="/lotr/decks/decks.php?deck=24982&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">Trust Gandalf? Why?</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 08/11/02</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 4.63</A></FONT></TD></TR><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"><A HREF="/lotr/decks/decks.php?deck=29364&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">Standard Uruks Hurt More</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 06/22/03</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 4.63</A></FONT></TD></TR><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"><A HREF="/lotr/decks/decks.php?deck=23253&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">Lurtz has Joined the Fellowship</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 05/9/02</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 4.6</A></FONT></TD></TR><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"><A HREF="/lotr/decks/decks.php?deck=25528&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">Time to Leave...Be Quiet</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 09/11/02</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 4.6</A></FONT></TD></TR><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"><A HREF="/lotr/decks/decks.php?deck=25291&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">Hide and Swarm!</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 08/29/02</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 4.45</A></FONT></TD></TR><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"><A HREF="/lotr/decks/decks.php?deck=25362&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">MY HODGEPODGE MEAL</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 09/3/02</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 4.4</A></FONT></TD></TR><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"><A HREF="/lotr/decks/decks.php?deck=26630&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">Washington State Chase the Can 2nd Place</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 01/1/03</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 4.2</A></FONT></TD></TR><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"><A HREF="/lotr/decks/decks.php?deck=25664&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">Deny, Deny Deny...You must learn Denial</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 09/20/02</A></FONT></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 3.75</A></FONT></TD></TR></TABLE> </td>
+  </tr>
+  <tr> 
+    <td valign="top" bgcolor="#001F90"><font face="Arial, Helvetica, sans-serif" size="2"><B>My 
+      Articles</b></font></td>
+  </tr>
+  <tr> 
+    <td valign="top"><TABLE width="100%"><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"> <A HREF="/lotr/articles/articles.php?id=4648&view=2&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">How to deal with Nazgul in Standard Format (Rohan Culture)</A></FONT></TD></TR><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"> <A HREF="/lotr/articles/articles.php?id=4683&view=2&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">How to Deal with Nazgul in Standard Format (Elvish and Gondor Cultures)</A></FONT></TD></TR></TABLE> </td>
+  </tr>
+  <tr> 
+    <td valign="top" bgcolor="#001F90"><font face="Arial, Helvetica, sans-serif" size="2"><B>My 
+      Tournament Reports</b></font></td>
+  </tr>
+  <tr> 
+    <td valign="top"><TABLE width="100%"><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"> <A HREF="/lotr/treports/treports.php?id=4360&view=2&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">Spokane, Washington PSQ 4/19/2003</A></FONT></TD></TR><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"> <A HREF="/lotr/treports/treports.php?id=4163&view=2&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">Richland, Washington 1/18/2003</A></FONT></TD></TR><TR><TD><font face="Arial, Helvetica, sans-serif" size="2"> <A HREF="/lotr/treports/treports.php?id=3996&view=2&PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">Spokane, Washington 09/14/2002</A></FONT></TD></TR></TABLE> </td>
+  </tr>
+</table>
+
+</font></td></tr></table></TD></TR></TABLE> 
+                  <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="16" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="1">
+  <tr align="center"> 
+    <td><font face="Arial, Helvetica, sans-serif" size="2"><p><a href="/global/terms.php?PHPSESSID=5b0ff6e7c1d54328fbff5c82b6c881b6">Terms of Service</a> TM & © 2002 www.decktech.net. 
+      All Rights Reserved.</font></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

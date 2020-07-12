@@ -1,0 +1,354 @@
+
+<html><!-- #BeginTemplate "/Templates/freedom.dwt" -->
+<head>
+<title>FreedomCon - United We Stand</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {  margin: 0px 0px; border: none; font: 10pt Verdana, Arial, Helvetica, sans-serif; color: #000000}
+.legal {  font: 6pt Verdana, Arial, Helvetica, sans-serif; color: #CCCCCC}
+td {  font: 9pt Verdana, Arial, Helvetica, sans-serif}
+.nav {  font-size: 8pt; color: #FFFFFF; text-decoration: none}
+-->
+</style>
+</head>
+
+<body bgcolor="#000E58" margin="0" marginwidth="0" marginheight="0">
+<table width="93%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td colspan="2" height="97"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+        <tr>
+          <td><img src="/freedomcon/gfx/freeblue.gif" width="266" height="123" border="0"> 
+          </td>
+          <td valign="middle" align="center">&nbsp; </td>
+        </tr>
+      </table>
+      
+    </td>
+    <td width="42" height="97">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td height="149"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <tr> 
+                <td class="legal"><a href="/freedomcon/index.php" class="nav">Home</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/about.php" class="nav">About FreedomCon</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/sponsors.php" class="nav">Our Sponsors</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/contact.php" class="nav">Contact Us</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/attend.php" class="nav">Players Attending</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/donate.php" class="nav">Donations and Charity</a></td>
+              </tr>
+              <tr>
+                <td><a href="/freedomcon/buzz.php" class="nav">Discuss FreedomCon 2!</a></td>
+              </tr>				  
+			  
+            </table>
+            
+          </td>
+        </tr>
+      </table>
+
+      <!-- #BeginEditable "nav" --> <!-- #EndEditable --><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><br>
+      </font>
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b><br>
+            What:<br>
+            FreedomCon</b> <br>
+            Philadelphia 2002<br>
+            <br>
+            <b>When:</b> <br>
+            October 4-6 <br>
+            <br>
+            <b>Where:</b> <br>
+            NeoQuest Games<br>
+            Gary's Plaza<br>
+            531 South Broad Street<br>
+            Lansdale, PA 19446<br>
+            </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">215 
+            855 7035</font></td>
+        </tr>
+      </table>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"></font></td>
+    <td width="541" bgcolor="#FFFFFF" valign="top" background="/freedomcon/gfx/Vegasxflcam.jpg"><!-- #BeginEditable "body" --> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td valign="top" height="461" width="57%"> <br>
+
+<script language="javascript">
+
+echo "test";
+
+// This makes certain pages private, for members only. Neal 10-2013
+if ($access == "" )
+{
+echo "<table bgcolor='#ffffff' width=500><tr><td><P>This area of DeckTech is now restricted to members only. You must be logged in to view this page.
+Go to <a href='http://www.decktech.net/'> DeckTech.net </a> to log in";
+echo "<P>If you are not a member, and would like to spy on a member, you are cordially invited to kiss off.</td></tr></table>";
+exit;
+}
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+prev1.document.writeln(texttoshow);
+}
+
+function changetobold()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetospoiler()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "(drag mouse to see spoiler)<div style=background-color:red;color:red;foreground-color:red>"+newtext+"</div>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+linkyaddress = document.buzzboardform.texttoconvert.value;
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function oldchangetobold()
+{
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+
+
+
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5<br />
+<b>Warning</b>:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in <b>/home/decktech/public_html/global/includes/com/buzzboard.php</b> on line <b>1719</b><br />
+<table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font class="h1font">Some random pictures</B></font></td></tr><tr valign="top"><td><font class="bfont"><font class="bfont"> From: Serpent</font><BR><table><TR><TD><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='/freedomcon/buzz.php?id=8116'><b>REFRESH THIS TOPIC</b></A></font></td><td width=40>&nbsp;</td></tr></table><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#EFF1FF><font class="h2font"> Comment</td></tr><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src=https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash4/424863_345166268867447_313092028741538_1073848_1999604933_n.jpg> <br><BR><font size=1>17:14 04-28-2012</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Patrick M. S </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I&#39;d tap that <br><BR><font size=1>18:42 12-30-2010</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=3300">Shadow 13™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=3300">Shadow 13™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src="http://chzallnighter.files.wordpress.com/2010/12/party-fails-nerds-party-too.jpg"><br />
+<br />
+amazing <br><BR><font size=1>12:45 12-30-2010</font><BR><BR><hr><img align="right" src="http://www.decktech.net/memberimages/3300rst.jpg"><br>Ryan French<br>Rebel Strike Team founder<br><br><i>I&#39;d rather ... point out ignorance than BE ignorant <br>and rant about sh1t I had no idea about.</i> - Schele</TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=3300">Shadow 13™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=3300">Shadow 13™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><img src="http://verydemotivational.files.wordpress.com/2010/12/demotivational-posters-no-mr-bond.jpg"><br />
+<br />
+i want this poster <br><BR><font size=1>15:34 12-29-2010</font><BR><BR><hr><img align="right" src="http://www.decktech.net/memberimages/3300rst.jpg"><br>Ryan French<br>Rebel Strike Team founder<br><br><i>I&#39;d rather ... point out ignorance than BE ignorant <br>and rant about sh1t I had no idea about.</i> - Schele</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src=http://i758.photobucket.com/albums/xx228/eas81/340x.jpg> <br><BR><font size=1>15:02 07-20-2010</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><img src=http://www.greeksky.gr/files/photos/atmospheric/20100628Thunders.jpg> <br><BR><font size=1>14:22 07-20-2010</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src=http://farm4.static.flickr.com/3163/2886215166_f54f01bb73.jpg> <br><BR><font size=1>13:59 03-09-2010</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Voice of Law </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Voice of Law '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Heh here&#39;s the fullsize of that "awesome" pic from 2 yrs ago. Actually makes a sweet wallpaper:<br />
+<br />
+<br />
+<br />
+<img src=http://img198.imageshack.us/img198/6910/1254638190622.jpg> <br><BR><font size=1>23:52 03-05-2010</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Max of Tat </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Max of Tat '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I&#39;m glad SOMEONE remembers!<br />
+<br />
+- Enrique <br><BR><font size=1>13:44 03-05-2010</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=3300">Shadow 13™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=3300">Shadow 13™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><img src="http://i49.photobucket.com/albums/f270/2muchg/SteakandaBlowjobDay.jpg"><br />
+<br />
+it&#39;s coming up! <br><BR><font size=1>03:07 03-05-2010</font><BR><BR><hr><img align="right" src="http://www.decktech.net/memberimages/3300rst.jpg"><br>Ryan French<br>Rebel Strike Team founder<br><br><i>I&#39;d rather ... point out ignorance than BE ignorant <br>and rant about sh1t I had no idea about.</i> - Schele</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src=http://themcode.files.wordpress.com/2008/12/professor_badass.jpg> <br><BR><font size=1>15:51 03-04-2010</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><img src=http://themcode.files.wordpress.com/2008/12/professor_badass.jpg> <br><BR><font size=1>15:51 03-04-2010</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src=http://themcode.files.wordpress.com/2008/12/professor_badass.jpg"> <br><BR><font size=1>15:51 03-04-2010</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">DANGNABBIT I BROKED IT <br />
+<br />
+<img src=http://www.jillandleigh.net/image/view/2111/preview> <br><BR><font size=1>15:05 04-07-2009</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src="http://www.jillandleigh.net/image/view/2111/preview><br />
+<br />
+<br />
+ <br><BR><font size=1>15:04 04-07-2009</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/swtcg/main/mpage.php?member=617">Max of Tat™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/swtcg/main/mpage.php?member=617">Max of Tat™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Practice, practice, practice...<br />
+<br />
+<img src="http://cdn.wwtdd.com//ul/20501-101.jpg"><br />
+<br />
+- Enrique <br><BR><font size=1>14:04 03-03-2009</font><BR><BR>My job is to bring pictures of semi-naked women to DeckTech. I love my job. <br><br><i>But Enrique, you&#39;re totally right. </i> - Patrick M. Sullivan<br><i>Kiki is the BEST...</i> - Patrick M. Sullivan</TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/premium/main/mpage.php?member=617">Max of Tat™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/premium/main/mpage.php?member=617">Max of Tat™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Is it REALLY stalking if she poses like this?<br />
+<br />
+<img src="http://cdn.wwtdd.com//ul/15411-HeidiMontagInMexicoJan2008120_122_1184lo.jpg"><br />
+<br />
+- Enrique <br><BR><font size=1>14:22 11-24-2008</font><BR><BR>My job is to bring pictures of semi-naked women to DeckTech. I love my job. <br><br><i>But Enrique, you&#39;re totally right. </i> - Patrick M. Sullivan<br><i>Kiki is the BEST...</i> - Patrick M. Sullivan</TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/swtcg/main/mpage.php?member=617">Max of Tat™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/swtcg/main/mpage.php?member=617">Max of Tat™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><img src="http://img.photobucket.com/albums/v304/Spurious_logic/LJpics/2008_November/2i95w1f.jpg"><br />
+<br />
+<img src="http://img.photobucket.com/albums/v304/Spurious_logic/LJpics/2008_November/wingman.jpg"> <br><BR><font size=1>12:52 11-19-2008</font><BR><BR>My job is to bring pictures of semi-naked women to DeckTech. I love my job. <br><br><i>But Enrique, you&#39;re totally right. </i> - Patrick M. Sullivan<br><i>Kiki is the BEST...</i> - Patrick M. Sullivan</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src="http://www.lifelounge.com/resources/gallimage/funny-employment.jpg"> <br><BR><font size=1>13:21 09-30-2008</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><img src="http://www.lifelounge.com/resources/GALLIMAGE/Funny%20Motivational%20Posters%2043.jpg"> <br><BR><font size=1>13:17 09-30-2008</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/premium/main/mpage.php?member=617">Max of Tat™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/premium/main/mpage.php?member=617">Max of Tat™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src="http://mattdanger.net/images/motivation/1/motivator6400396.jpg" width="600"> <br><BR><font size=1>12:28 09-30-2008</font><BR><BR>My job is to bring pictures of semi-naked women to DeckTech. I love my job. <br><br><i>But Enrique, you&#39;re totally right. </i> - Patrick M. Sullivan<br><i>Kiki is the BEST...</i> - Patrick M. Sullivan</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><img src="http://n3t.net/humor/motivation/gothapotamus.jpg"> <br><BR><font size=1>14:44 09-29-2008</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Nitsuj </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Nitsuj '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src=http://www.jeffiscool.com/pictures/SmokingMother.jpg><br />
+<br />
+goddamn it <br><BR><font size=1>12:24 09-26-2008</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Nitsuj </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Nitsuj '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><img <br />
+src=http://www.jeffiscool.com/pictures/SmokingMot<br />
+her.jpg> <br><BR><font size=1>12:24 09-26-2008</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Nitsuj </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Nitsuj '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src=http://www.jeffiscool.com/pictures/SmokingMother.jpg"> <br><BR><font size=1>12:23 09-26-2008</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><img src="http://thegreatgeekmanual.com/images/humor/motivational/november/motivational-poster-cosplay"> <br><BR><font size=1>11:39 09-17-2008</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src="http://thegreatgeekmanual.com/images/humor/motivational/november/motivational-poster-cosplay"> <br><BR><font size=1>11:39 09-17-2008</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Cookie Hunter </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Cookie Hunter '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I think I&#39;m in love.<br />
+<br />
+<img src="http://pics.livejournal.com/dwaleberry/pic/000376z4"> <br><BR><font size=1>10:13 09-17-2008</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src="http://i249.photobucket.com/albums/gg211/xanadian9/164488db-1.jpg"> <br><BR><font size=1>14:10 09-16-2008</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magination/main/mpage.php?member=617">Max of Tat™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magination/main/mpage.php?member=617">Max of Tat™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><img src="http://img.photobucket.com/albums/v304/Spurious_logic/LJpics/2008_August/Dirtymind.jpg"> <br><BR><font size=1>13:08 08-08-2008</font><BR><BR>My job is to bring pictures of semi-naked women to DeckTech. I love my job. <br><br><i>But Enrique, you&#39;re totally right. </i> - Patrick M. Sullivan<br><i>Kiki is the BEST...</i> - Patrick M. Sullivan</TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=8116><input type='Submit'  value=' Show all Posts '></form><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=8116><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/swtcg/main/join.php'> become a registered member</a></font></font></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script>
+<!-- advertising code -->
+<!-- Kontera ContentLink(TM);-->
+<!--
+<script type='text/javascript'>
+var dc_AdLinkColor = 'blue' ; 
+var dc_PublisherID = 157626 ; 
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'>
+</script>
+-->
+<!-- rumors board code end -->
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+      </table>
+      <!-- #EndEditable --></td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"> 
+      <p align="center" class="legal"><span class="legal"><span class="legal"><span class="legal"><br>
+        Legal- TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and related 
+        marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher Inc. Decipher, 
+        Customizable Card Game, The Art of Great Games and associated marks and 
+        intellectual property are exclusively owned by Decipher Inc. All Rights 
+        Reserved. THIS Web Site IS NOT PRODUCED OR ENDORSED BY DECIPHER, INC OR 
+        LUCASFILM LTD OR PARAMOUNT PICTURES. STAR TREK. </span></span></span> 
+        <span class="legal"><span class="legal"><br>
+        <span class="legal"> TM & © 2002 www.decktech.net. All Rights Reserved. 
+        </span></span></span><br>
+        <br>
+      </p>
+      </td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+</body>
+<!-- #EndTemplate --></html>

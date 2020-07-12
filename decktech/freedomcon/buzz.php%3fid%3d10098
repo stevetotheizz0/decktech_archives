@@ -1,0 +1,491 @@
+
+<html><!-- #BeginTemplate "/Templates/freedom.dwt" -->
+<head>
+<title>FreedomCon - United We Stand</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {  margin: 0px 0px; border: none; font: 10pt Verdana, Arial, Helvetica, sans-serif; color: #000000}
+.legal {  font: 6pt Verdana, Arial, Helvetica, sans-serif; color: #CCCCCC}
+td {  font: 9pt Verdana, Arial, Helvetica, sans-serif}
+.nav {  font-size: 8pt; color: #FFFFFF; text-decoration: none}
+-->
+</style>
+</head>
+
+<body bgcolor="#000E58" margin="0" marginwidth="0" marginheight="0">
+<table width="93%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td colspan="2" height="97"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+        <tr>
+          <td><img src="/freedomcon/gfx/freeblue.gif" width="266" height="123" border="0"> 
+          </td>
+          <td valign="middle" align="center">&nbsp; </td>
+        </tr>
+      </table>
+      
+    </td>
+    <td width="42" height="97">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td height="149"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <tr> 
+                <td class="legal"><a href="/freedomcon/index.php" class="nav">Home</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/about.php" class="nav">About FreedomCon</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/sponsors.php" class="nav">Our Sponsors</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/contact.php" class="nav">Contact Us</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/attend.php" class="nav">Players Attending</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/donate.php" class="nav">Donations and Charity</a></td>
+              </tr>
+              <tr>
+                <td><a href="/freedomcon/buzz.php" class="nav">Discuss FreedomCon 2!</a></td>
+              </tr>				  
+			  
+            </table>
+            
+          </td>
+        </tr>
+      </table>
+
+      <!-- #BeginEditable "nav" --> <!-- #EndEditable --><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><br>
+      </font>
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b><br>
+            What:<br>
+            FreedomCon</b> <br>
+            Philadelphia 2002<br>
+            <br>
+            <b>When:</b> <br>
+            October 4-6 <br>
+            <br>
+            <b>Where:</b> <br>
+            NeoQuest Games<br>
+            Gary's Plaza<br>
+            531 South Broad Street<br>
+            Lansdale, PA 19446<br>
+            </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">215 
+            855 7035</font></td>
+        </tr>
+      </table>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"></font></td>
+    <td width="541" bgcolor="#FFFFFF" valign="top" background="/freedomcon/gfx/Vegasxflcam.jpg"><!-- #BeginEditable "body" --> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td valign="top" height="461" width="57%"> <br>
+
+<script language="javascript">
+
+echo "test";
+
+// This makes certain pages private, for members only. Neal 10-2013
+if ($access == "" )
+{
+echo "<table bgcolor='#ffffff' width=500><tr><td><P>This area of DeckTech is now restricted to members only. You must be logged in to view this page.
+Go to <a href='http://www.decktech.net/'> DeckTech.net </a> to log in";
+echo "<P>If you are not a member, and would like to spy on a member, you are cordially invited to kiss off.</td></tr></table>";
+exit;
+}
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+prev1.document.writeln(texttoshow);
+}
+
+function changetobold()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetospoiler()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "(drag mouse to see spoiler)<div style=background-color:red;color:red;foreground-color:red>"+newtext+"</div>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+linkyaddress = document.buzzboardform.texttoconvert.value;
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function oldchangetobold()
+{
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+
+
+
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5<br />
+<b>Warning</b>:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in <b>/home/decktech/public_html/global/includes/com/buzzboard.php</b> on line <b>1719</b><br />
+<table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font class="h1font">Gun Control, executive actions and the POTUS. </B></font></td></tr><tr valign="top"><td><font class="bfont"><font class="bfont"> From: <a href="http://www.decktech.net/magic/main/mpage.php?member=17">neal </a></font><BR><table><TR><TD><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='/freedomcon/buzz.php?id=10098'><b>REFRESH THIS TOPIC</b></A></font></td><td width=40>&nbsp;</td></tr></table><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#EFF1FF><font class="h2font"> Comment</td></tr><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src=https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash4/t1.0-9/p403x403/10154386_263539643807407_1263063979_n.jpg> <br><BR><font size=1>10:45 03-25-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">There have been a couple studies lately showing that gun owners and ESP concealed weapon carriers are substantially more law abiding than non gun owners <br><BR><font size=1>18:13 02-02-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">chalk one up to the good guy with the gun :D<br />
+get it? chalk one... chalk line... around the dead body?!<br />
+hahahahaha... (silence)... (crickets).... oh well.<br />
+<br />
+http://www.theblaze.com/stories/2014/01/17/gunman-bursts-into-dollar-store-and-threatens-to-kill-everyone-before-police-could-even-respond-he-was-dead/#<br />
+ <br><BR><font size=1>17:41 02-02-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Judge </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Judge '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">OMG<br />
+<br />
+I&#39;m trying to sweep things under a rug?<br />
+<br />
+Wow.<br />
+<br />
+Last I checked, the topic was GUN CONTROL.<br />
+<br />
+Nevermind, I&#39;m over it. All those things are bad in their own way, I&#39;ve said it a billion times, I just wanted to know why America accepts so many thousands of deaths every year from an item that has no real use at all other than to hurt and kill people. <br />
+<br />
+Oh well, time for me to move on, it&#39;s all pretty much irrelevant, we&#39;re not going to mature and grow as a species until we realize how stupid we are and stop killing each other. I have better odds of winning the powerball than that happening.  <br><BR><font size=1>08:48 12-18-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>HuntaWarya </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=HuntaWarya '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">The Judge wrote:  "This is the gun control thread and comparing guns to anything else is unreasonable and has no bearing on the subject."<br />
+<br />
+**Wrong.  You just don&#39;t understand how corollaries work.  There is a reason why people keep bringing up alcohol and cigarettes.  They&#39;re damaging to a lot more people than guns are, yet people are allowed to own and use them.  So it would follow that people would have the freedom to own and use guns as well.  And as we know, ownership and usage of guns is restricted to a much greater extent than in the other two cases, even though those other two cases pose tremendously greater danger.  <br />
+<br />
+"What exactly has owning guns accomplished in our 237.5 years?"<br />
+<br />
+**What exactly has getting drunk and smoking ACCOMPLISHED for us?  This question is perfectly relevant to the discussion, which is why your repeated attempts to sweep it under the rug have consistently failed.   <br><BR><font size=1>02:36 12-18-2013</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">>>how many deaths are you willing to accept?<br />
+<br />
+There is always some price to a freedom. That&#39;s the reason everyone keeps bringing up these other topics, because there is a price for the freedom in having them. You want the freedom to choose to smoke, but honestly, your child is more likely to be injured by your smoking than a gun you (or anyone) would own.<br />
+<br />
+It&#39;s hard to put a number on it, because it sounds so callous, but to most people it would take a lot more than the occasional gun death (often due to irresponsibility on the part of the gun owner, and I think Newtown falls into that category) to cause people to give up their entire freedom to carry a gun.<br />
+<br />
+Basically people feel you are striking at their ability to protect themselves. I understand that you feel the only thing that can protect a person is the government or police, but many if not most people do not feel that way. They want some control over their protection.<br />
+<br />
+No one wants even 1 child to be killed, but sadly, it&#39;s the best of the two alternatives to most, since those deaths are very very few and far between.<br />
+<br />
+You feel that there is absolutely no benefit to owning a gun, so you can&#39;t make the comparison to those other more dangerous activities.  But most people do see some benefit. These comparisons can continue, like even with snowmobiles or scooters or something. <br />
+<br />
+The sad fact is, sometimes people die. They&#39;ll die regardless of 100X the current level of laws if they behave unsafely. Most of us don&#39;t want to give up our lives because of the bad choices of a handful of unwise people. <br><BR><font size=1>12:09 12-17-2013</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">oh and what im with aglets about is simply that i believe in psych tests before having gun licenses, and other ideas he put forth. should psycho&#39;s have guns? no.. simple answer.. <br />
+<br />
+instead of talking about the kids mike look at my above statement and think "they have a point!" if you simply regular the right to bare arms more thoroughly..  (although again big brother.. evil f0cker) but.. it simply would stop a lot of those deaths. <br><BR><font size=1>10:05 12-17-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Aglets </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Aglets '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">It&#39;s true that the mental health restriction may not have prevented Newtown but it would&#39;ve prevented almost every other publicized &#39;mass shooting&#39; we&#39;ve read about these last few years.<br />
+<br />
+Bear brings up a really good point, one that Hunter has mentioned a few times.<br />
+<br />
+The most effective (read - common sense and logical) way to curb gun violence is to stop the people that do it on a more consistent basis.....at least when it comes to homicides.<br />
+<br />
+Most deaths due to guns in this country are suicides, and that is a much more complicated problem to solve. <br><BR><font size=1>10:04 12-17-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I am with aglets to some degree here mike.<br />
+<br />
+i really believe you&#39;re trying to cure a symptom, kids not being raised properly by ignorant stupid parents is the root cause of most of our society&#39;s problems, most likely stupid wookie drunk drivers are always children of stupid parents and most likely when kids have "accidental" deaths, the parents were terrible parents.<br />
+<br />
+that said, you cant take away rights of someone else (this isn&#39;t about freedom to bare arms, its about big brother not being in control of everyone and everything)<br />
+<br />
+for what? for terrible parents?  maybe a few of those kids were truly accidental but in my opinion most are a result of bad parents. i realize this will affect your sensibilities and if we had feminists they would cry havok on my "rape culture attitude"... because im blaming the parents HOWEVER have you looked at our society lately?!??? im right about it. <br><BR><font size=1>10:03 12-17-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Aglets </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Aglets '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">How many children have to die to justify your ability to drive a car and drink alcohol?<br />
+<br />
+If a child dies in a car crash, is that more or less tragic than one that dies with a firearm accident?   How do you quantify that?  <br />
+<br />
+Again, I&#39;m for common sense gun control regulation, and I&#39;ve read that there is some technology in the works for things like child-proof safeties and "loaded" indicators on guns.  No doubt the gun lobbyists will fight stuff like that but I think those things should really satisfy everyone. <br><BR><font size=1>10:00 12-17-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Darth Bear </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Darth Bear '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">"Again, I think it is worth reiterating that I am for stricter gun control regulation. There are nutters out there that should NOT have access to firearms. There should be detailed background checks done at a minimum, with mental health history included imo.<br />
+<br />
+Any conservative-leaning folk on here disagree?"<br />
+<br />
+I would disagree to this extent...rarely do I hear of stricter gun control measures that could really work.  Most of the time its just window dressing to make people in Washington feel like they are doing something.  In theory...yes, we don&#39;t want mentally ill people with guns and our laws should seek to prevent that.  However, as in the Newtown episode, having such a measure in place would not have prevented that massacre.<br />
+<br />
+In addition to that I would strongly support measures that keep stronger tabs on the mentally ill.  I believe we are becoming too PC as a society and we tend to down play the issues with mental illnesses for fear of offending people that have it.<br />
+<br />
+I also would strongly support much harsher measures for those that use a gun in a crime.  Too often, those that advocate for stricter gun control measures are the same ones who advocate for more lenient sentences against criminals.  You don&#39;t want people using guns in a violent way?  Punish them harshly when they do. <br><BR><font size=1>10:00 12-17-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Judge </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Judge '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Still trying to compare guns to other things so I give up if you guys can&#39;t stay on the topic.<br />
+<br />
+I&#39;ve asked how many times? How many deaths are people willing to accept to have their "freedom"?<br />
+<br />
+And still, no one answers, they bring up booze, smoking, or something retarded like bath tubs should be banned.<br />
+<br />
+Just answer the question, it should be pretty simple. <br />
+<br />
+Your freedom to target shoot or protect yourself is worth how many children&#39;s lives?  <br><BR><font size=1>09:47 12-17-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Aglets </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Aglets '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Link to CDC customizable, searchable database:<br />
+<br />
+<br />
+<a href="http://webappa.cdc.gov/sasweb/ncipc/leadcaus10_us.html">HERE</a> <br><BR><font size=1>09:41 12-17-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Aglets </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Aglets '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">And just because the CDC is an amazing resource.....like literally the versatility in their databases on topics like this is pretty amazing.  I just spent like 20 minutes messing around with it.<br />
+<br />
+Let&#39;s do an apples-to-apples comparison to investigate Judge&#39;s claim about how drunk driving and gun deaths &#39;aren&#39;t even in the same ballpark.&#39;<br />
+<br />
+NOTE - the CDC seems to define a child as someone who is 14 years old or younger.<br />
+<br />
+NOTE - 2010 is the most recent year that the full data is available.<br />
+<br />
+In 2010 there were 211 kids killed in car accidents where alcohol was a factor in the crash.<br />
+<br />
+In 2010 there were 62 accidental (or &#39;unintentional&#39;) children deaths due to firearms.<br />
+<br />
+Both are incredibly tragic and awful, and we should be trying to prevent them, but to imply that the latter happens all the time probably reflects the way the news is reported.<br />
+<br />
+I&#39;ll link to this database in the next post.....it is a pretty darn powerful tool and fairly easy to use actually. <br><BR><font size=1>09:39 12-17-2013</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I still find more beneficial value in a gun than a cigarette or booze. There are times when a gun can save your life. Shooting targets is fun.  There&#39;s few health risks involved in using a gun if you use them properly (wear PPE, keep them locked up).<br />
+<br />
+The other two are just recreational drugs with proven serious side effects to both yourself and others. <br><BR><font size=1>09:21 12-17-2013</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Aglets </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Aglets '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">OK, now Blumberg seems to be arguing for a repeal of the 2nd Amendment, and to take all the guns away.<br />
+<br />
+Honestly I don&#39;t think that&#39;s worthy of a response, but if I&#39;m mistating your position Mike, please correct me.<br />
+<br />
+ <br><BR><font size=1>08:53 12-17-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Judge </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Judge '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">How many dead people does it take to see that it doesn&#39;t work?<br />
+<br />
+Why do we accept kids getting killed almost daily as the price for our freedom? <br />
+<br />
+It&#39;s monumentally stupid to make that argument.<br />
+<br />
+Yes, the bad apples have ruined it for the rest of us. How many of those bad apples were "responsible gun owners"? It happens all the time, RGO(responsible gun owner)has his or her gun locked up somewhere, kid finds box, finds key, opens box, removes gun, shoots friend or sibling by accident.<br />
+<br />
+It happens ALL THE TIME. And that was a RGO. Alledgedly.<br />
+<br />
+I&#39;ve said it plenty, we are not worthy of gun ownership, we prove it every single day in this country. How many deaths does it take? <br />
+<br />
+Drunk driving is pure stupidity, I agree, but it&#39;s not even close to the same thing, it&#39;s not even the same sport so please don&#39;t compare it. There is nothing that compares to going out and buying a weapon designed to kill, it is the ONLY purpose it is made for, to kill. <br />
+<br />
+If people feel the urgent need to own a gun for their own protection, I agree that we have bigger problems but more people buying more guns is just making it worse. <br><BR><font size=1>08:38 12-17-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Aglets </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Aglets '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Again, I think it is worth reiterating that I am for stricter gun control regulation.  There are nutters out there that should NOT have access to firearms.  There should be detailed background checks done at a minimum, with mental health history included imo.<br />
+<br />
+Any conservative-leaning folk on here disagree?<br />
+<br />
+But if the Judge is talking about changing laws to be stricter than that (not really sure, I haven&#39;t seem him propose anything specific on here) then I may disagree. <br><BR><font size=1>08:32 12-17-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Darth Bear </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Darth Bear '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">"It doesn&#39;t work, the system is broken, people are broken. Not a good combination."<br />
+<br />
+So you want to pass laws that affect everybody because of a few (relatively speaking) bad apples?  Yes, children are hurt by guns and its tragic.  But for every shooting, there are thousands (tens of thousands?) of responsible gun owners who didn&#39;t go out and shoot somebody.  Why do those who are obey the law the ones punished? <br><BR><font size=1>08:15 12-17-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><3 aglets<br />
+<br />
+<br />
+smoking is the worst by far! <br><BR><font size=1>16:47 12-16-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Judge </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Judge '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">When did I say booze wasn&#39;t bad? I KNOW it&#39;s bad. I know cigarettes are bad.<br />
+<br />
+I also know that booze and cigarettes are a choice that an individual makes.<br />
+<br />
+They&#39;ve done everything short of permanently banning smoking. <br />
+<br />
+The laws against drunk driving are pretty damn strict and you could advocate for making them even stricter such as one DUI= lose license forever. <br />
+<br />
+I get all that and that&#39;s a great conversation for another thread, they have NOTHING to do with guns and gun control laws that are lame as fock.<br />
+<br />
+Booze and cigarettes aren&#39;t used to kill people. They kill people because people are stupid and they abuse them.<br />
+<br />
+I can go to at least 5 different stores in less than a 3 mile drive, right now, and buy a shotgun and ammo and go on a shooting spree, rob a bank, whatever. With no background check into my past history to see that I&#39;ve been in drug rehab and take prescription medication for depression and anxiety.<br />
+<br />
+I should not have ANY access to a gun. Ever. <br />
+<br />
+The LAW, as it stands today, does nothing to prevent that and that is terrifying because there are far worse people out there than me who can go buy a gun. I have no desire to kill anyone or rob anyone but desparate people resort to desparate measures, it happens every single day in this country and it&#39;s far too easy to get a gun, legally or not, it&#39;s a lot easier to legally get one, actually, unless you know a criminal who has a bunch of guns for sale.<br />
+<br />
+It doesn&#39;t work, the system is broken, people are broken. Not a good combination. <br><BR><font size=1>14:12 12-16-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Aglets </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Aglets '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Here&#39;s the way I see the argument.<br />
+<br />
+Cigarettes are responsible for the deaths of roughly 440,000 Americans every year (this includes second hand smoke).<br />
+<br />
+Alcohol abuse is responsible for the deaths of 75,000 Americans each year.<br />
+<br />
+There are somewhere around 32,000 Americans killed by firearms every year (mostly suicides).<br />
+<br />
+Which seems the most egregious to you?   To me, it&#39;s not the firearms...but of course I am for &#39;common sense&#39; gun control laws that work to keep them out of the hands of the nutters. <br><BR><font size=1>13:57 12-16-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I&#39;m just stating for the record that I would feel a heck of a lot safer if the legislature spent what little time they spend actually writing legislation tackling problems like drunk driving or mental health than feel good measures that effect such a minuscule (in the big picture of things) number of deaths by grandstanding about guns.<br />
+<br />
+Do I think the events are tragic.  Yes.  Do I feel for the kids involved, yep.  The same way my heart breaks when I read another good-luck Charlie left the nudie bar loaded up on rum and cokes and smashed into a family.<br />
+<br />
+Just like you don&#39;t buy into the booze=bad argument, i find the guns=bad argument just as silly and asinine. <br><BR><font size=1>13:54 12-16-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Judge </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Judge '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">And just for the record, I don&#39;t blame the actual GUN for the shootings, I blame stupid people having such easy access to get guns.<br />
+<br />
+My god, if history has taught us anything, we, as people, have absolutely no right to own guns.<br />
+<br />
+What exactly has owning guns accomplished in our 237.5 years? We beat the British. Cool. We killed a bunch of Indians. Awesome. We have killed each other in a war. Then we killed a bunch more Indians.<br />
+<br />
+After that, it pretty much degenerated into killing each other for revenge, money, food, fun, and drugs in no general order. Anyone care to explain why we still have guns? <br />
+<br />
+Is it because the government is oppressive or might be oppressive? Is that the best reason gun people can come up with? So you need a Bushmaster with a 30 round clip? <br />
+<br />
+Sorry, I just don&#39;t get it. But please, enjoy, my opinion isn&#39;t going to change anything, I&#39;m outnumbered, outmanned, and outgunned. I think I&#39;m the one who should be worried. <br><BR><font size=1>13:50 12-16-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Judge </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Judge '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Why do people do that?<br />
+<br />
+No one is talking about booze, they are talking about GUNS. <br />
+<br />
+It&#39;s such a ridiculous argument. Those who like guns use that argument but it doesn&#39;t make them any safer, it&#39;s just a way for gun supporters to try and deflect the criticism at something THEY like. Come on booth, you&#39;re smarter than that. <br />
+<br />
+If you want to make a booze is bad thread, please, feel free. This is the gun control thread and comparing guns to anything else is unreasonable and has no bearing on the subject.  <br><BR><font size=1>13:40 12-16-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Over 10,000 people have died due in alcohol related accidents since Newton.<br />
+<br />
+It&#39;s obvious whatever laws we have are not effective.  We should have never repealed prohibition.<br />
+ <br><BR><font size=1>10:33 12-16-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Judge </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Judge '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Nah, just the laws and the stupid people in Colorado and Florida and Texas and so on and so on and so on. <br />
+<br />
+Stupid laws and stupid people is a really bad combination.<br />
+<br />
+194 CHILDREN have been killed with guns since Newtown. There have been numerous mass shootings since Newtown.<br />
+<br />
+It&#39;s quite clear that whatever new laws or enforcement of old laws, isn&#39;t working.  <br><BR><font size=1>09:04 12-16-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>HuntaWarya </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=HuntaWarya '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">At this point, they should probably just start blaming Colorado!   <br><BR><font size=1>10:45 12-15-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">thought hunter would like that photo.<br />
+<br />
+my browser still wont let me link things better than that..not sure why <br><BR><font size=1>07:26 12-15-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-prn2/1476204_585005301569686_1195714352_n.jpg <br><BR><font size=1>07:26 12-15-2013</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=10098><input type='Submit'  value=' Show all Posts '></form><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=10098><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/swtcg/main/join.php'> become a registered member</a></font></font></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script>
+<!-- advertising code -->
+<!-- Kontera ContentLink(TM);-->
+<!--
+<script type='text/javascript'>
+var dc_AdLinkColor = 'blue' ; 
+var dc_PublisherID = 157626 ; 
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'>
+</script>
+-->
+<!-- rumors board code end -->
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+      </table>
+      <!-- #EndEditable --></td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"> 
+      <p align="center" class="legal"><span class="legal"><span class="legal"><span class="legal"><br>
+        Legal- TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and related 
+        marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher Inc. Decipher, 
+        Customizable Card Game, The Art of Great Games and associated marks and 
+        intellectual property are exclusively owned by Decipher Inc. All Rights 
+        Reserved. THIS Web Site IS NOT PRODUCED OR ENDORSED BY DECIPHER, INC OR 
+        LUCASFILM LTD OR PARAMOUNT PICTURES. STAR TREK. </span></span></span> 
+        <span class="legal"><span class="legal"><br>
+        <span class="legal"> TM & © 2002 www.decktech.net. All Rights Reserved. 
+        </span></span></span><br>
+        <br>
+      </p>
+      </td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+</body>
+<!-- #EndTemplate --></html>

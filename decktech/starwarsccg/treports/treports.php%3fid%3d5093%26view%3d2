@@ -1,0 +1,545 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php" class="level1nav">Articles</a><br>
+
+
+<a href="/starwarsccg/decks/index.php" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php" class="level1nav">Reports</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/treports/treports.php?cat=constructed">Constructed</a> &nbsp;<br>
+
+<a href="/starwarsccg/treports/treports.php?cat=sealed">Sealed Deck</a> &nbsp;<br>
+
+</div>
+
+  <a href="/starwarsccg/academy/index.php" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6540&view=2">Creating a tournament scene from scratch - part 4</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6542&view=2">A Decade Away / My 1st Tournament</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6536&view=2">Activation Statistics</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6533&view=2">A suggestion for getting more players</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6535&view=2">A Shot and SWCCG Immortality - Building a &#39;Tier 1&#39; Rescue the Princess Deck</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6537&view=2">You May Start Your Landing</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6534&view=2">Well, I fold.</A></font></li><BR></ol> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<a href='http://www.decktech.net/adserver/click.php?mgr=aspcode.net&id=46'><img border='0' src='http://www.decktech.net/banner/premiumemailani.gif'  ></a>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Tournament Reports</td><form method='post' action=''><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Tournament Reports</option><option value='#'> </option><option value='/starwarsccg/treports/index.php3'>Star Wars: CCG</option><option value='/heroclix/treports/treports.php'>HeroClix</option><option value='/vs/treports/treports.php'>Marvel VS</option><option value='/lotr/treports/treports.php'>Lord of the Rings</option><option value='/magic/treports/treports.php'>Video Games and Movies</option><option value='/wars/treports/treports.php'>Wizards Minis</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> Origins 2004<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(4.59)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=400'>R. "Voice of Law" Smith</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=400&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> July 1, 2004</font><p align='justify'><blockquote><font class="bfont"> <br />
+<br />
+<br />
+<br />
++++Pre-Tourney+++<br />
+<br />
+It all started  when Dan Tartaglione (to be known henceforth as Tortellini) told me he wanted to run PA states on June 26th. I told him he was nuts, origins was that day. He tried to argue that origins was in July, but I promptly directed him to the origins website, and then to the PC website, and he wisely decided to abort the ridiculous notion of holding PA states the same day, and to instead attend origins with me. Next was the matter of Brian Hunter, who would be flying in for his second annual trip to Pittsburgh (to be known henceforth as putzburgh) the week before origins, and leaving the week after. Hunter too was brainwashed by the cult of origins-in-july, but by instructing him through the same simple two-step process, i was able to make him see the light as well. He made plans to participate in the swccg tournament on saturday along with potentially the marvel vs tournament for the #1 issue comic book.<br />
+Last and certainly least was Drew Ferguson (to be known henceforth as uh.... Drew), who was providing housing accomodations for Hunter during his stay, and who also had plans to attend origins and provide Hunter with his ride there. Tortellini would ride with me, Brian would ride with Drew (and Drew&#39;s girlfriend Julie), and we&#39;d be cool.<br />
+Well not unexpectedly, Drew decided at the last moment not to attend. So Brian was left with the two options of: ride to origins with me; or bum around putzburgh for the weekend with drew. Needless to say i found myself at the front door of Drew&#39;s house (to be known henceforth as Ferg Manor) at 5 am saturday in order to pick up Brian. Drew answered the door in his pajamas, and Brian, Dan, and I all made a last-ditch effort to convince him to attend, but to no avail. He claimed to have no money; i offered to help him out in return for some extra cards. He claimed to have had no sleep; but neither did any of us (i was going on 45 minutes from the night before), and he could sleep in the car on the way there. He claimed he had no decks; but put me and Brian in a car for 3 hours and i&#39;m pretty sure we can come up with something. So finally we gave up on him, piled into my car (to be known henceforth as the RSmith One), and hit the road.<br />
+On the way we chatted about dis n dat and Brian impressed us with his extensive knowledge of Guns n Roses lyrics (and horrified us with his singing voice). I raced for about 50 miles with this chick in a blue toyota and before we knew it we were in columbus, ohio, with time to spare before registration. So we went to Tim Horton&#39;s and Hunter and I both got egg salad sandwiches for breakfast, which I figured would come in handy later during our games.<br />
+Nothing else good happened that i can remember so let&#39;s move on to...<br />
+<br />
++++ACTUAL SWCCG-RELATED CONTENT+++<br />
+Well i had putzed around with lots of different decks for both sides, but I hadnt found anything i liked better than TRM for light and CCT space for dark. The TRM starts Insurrection combo, Colo Claw Fish, and usually Civil Disorder v. The dark deck starts Special Delivery v, and usually YCHF combo and Kuat Drive Yards v. I titled my decks the following:<br />
+LS - BIG CL0CK&#39;s Savage Beatdown<br />
+DS - Effect Warz Vol. II<br />
+<br />
+Anyway there were 30 playerz. first round pairings are announced and it&#39;s like this:<br />
+<br />
+GAME ONE<br />
+My ds vs Joe Gianetti&#39;s LUv speederz n trooperz<br />
+So this is like the exact same deck he played last year at origins, and i heard somethin about him having 142 power in a battle with his troopers, so i decided not to visit him on hoth at all unless A i absolutely have to and B i have a ghhhk and a control to cancel recoil.<br />
+I went first and got the executor to bespin and lando to the security tower, then moved the ex to hoth. also deployed the blockade flagship bridge (signed by Tom McGee) from hand and the audience chamber from deck.<br />
+<br />
+his turn he put down some speederz and a trooper and entrenchment. he had the flipping requirements for his objective satisfied first turn but he did not flip and then he drew a card. Then he tried to flip but i was like &quot;too late&quot; and he cried some.<br />
+<br />
+I drained and put flagship v on the ex and started to set up at bespin too. i got imperial decree v (signed by Chris Fanchi) out pretty early, either first or second turn, to help with the direct damage from his objective. He put some more crap on hoth, rieekan and luke in his speeder, and had all the sites out. then he said he was going to search with rieekan, and he got a snowspeeder. then he said &quot;while i&#39;m here i&#39;ll get this with my objective&quot; and showed me echo base trooper officer v. then i turned my head for like one second and when i look back he put down like two defensive shields and i see the snowspeeder he got with rieekan but i&#39;m like &quot;where&#39;s the non-unique you got with the objective, you have to deploy him?&quot; and he&#39;s like &quot;whoops, i took him into hand. but look, i&#39;ve already played two defensive shields so it&#39;s too late to go back.&quot; and i&#39;m like this is star wars, not speed wars, let&#39;s call the judge. so eric came over and told joe to deploy the trooper. and joe cried some more. that time he didnt forget to flip though.<br />
+<br />
+i continued to reinforce in space and got presence of the force on the bespin system. some turns he canceled a drain with entrenchment, some turns he didn&#39;t. i got despair out and was draining for 2 at the prison and joe did not want to pull battle plan so it&#39;s free. but it was only a matter of time before i was able to put another guy at the carbonite chamber and move lando there so i not only fulfilled battle plan, but resistance as well.<br />
+<br />
+so joe got t-47 battle formation set up and lowered the shield and i pulled battle order to make him pay 3 for his drains. each drain was capped at 2 thanks to resistance, and i lost one to the objective for a total of 7. i return damage on my turn with drains of 3 at hoth and bespin (thanks to admiral chiraneau and presence of the force), and a drain of 3 at the carbonite chamber courtesy of despair. unfortunately he had ultimatum shield out so my drains are capped at 2 also.<br />
+<br />
+he got the second t47 BF off and also played an on the edge to retrieve a decent amount. i did not have to pay for battle order however, so i was able to use my activated force to spread out to other locations to drain for even more. first i got darth sidious down to the audience chamber, then i deployed the devastator to my sullust system. put all that together and factor in ultimatum and i drain for 2,2,2,2, and 1. his damage potential decreased greatly after he played his second t47 BF and i was able to put him up against the ropes. in a dying attempt to block a drain and satisfy battle order, joe deployed the non-virtual redemption to hoth (where i had executor with flagship and chiraneau) and attempted to shuttle up a speeder and some guys. i pointed out to him that the redemption cannot hold vehicles, and he only had 1 force remaining so he could only shuttle characters up from one site. he did as much as he could but i drained him and then came down with some extra pilots and a death squadron star destroyer and some tracked destiny to beat on him for game-ending overflow battle damage.<br />
+<br />
+FW by 10ish<br />
+<br />
+SMILEZ: off to a good start<br />
+FROWNZ: had to think a lot that game, dont want to get too tired early<br />
+<br />
+<br />
+next i play:<br />
+GAME TWO<br />
+my ls vs Rory D&#39;s dark deal starting ychf/mp, we&#39;re the bait, and im sorry<br />
+Rory is from eastern PA, he had ridden in with Drew Scott. Time for me to show him how we play on the WEST SIDE<br />
+<br />
+anyway there&#39;s not much to say about this game except OUCH. he started mob points and so i used first action of the game to pull ddta shield and suspend it. i got off to a huge start with opening hand jedi council chamber AND opening hand recoil. so i deployed the jcc and he&#39;s like &quot;i&#39;ll search with i&#39;m sorry&quot; and he went to get his sites and i was like &quot;ok i recoil.&quot; and then when i drew my new hand it had goo nee tay in it so i threw that down too.<br />
+<br />
+for a couple turns we each just drew, i dont remember getting yoda, master of the force (signed by brian hunter) out but i might have. i think that card might have got stuck in my force pile or something. i did get a TON of sites out though and was activating approximately 349 a turn. rory played twilek advisor for ability ability ability v and i guess he meant to get decree v cuz the next turn he&#39;s like &quot;i&#39;ll lose one to activate off your icons&quot; and i&#39;m like &quot;with what card?&quot; and he&#39;s like uhhh uhhhh<br />
+<br />
+so i start putting random guys down, yoda did eventually turn up on coruscant at my coruscant docking bay, and corran horn (signed by chris wod&#105;cka) at some cloud city site. rory had been able to deploy one other site (carbonite chamber) besides his starter and i put qui-gon with stick there as well.<br />
+<br />
+he spent like his entire force pile one turn to put vader in front of quigon, and tried to all too easy him but missed the lightsaber swing. so qui beat the stuffing out of vader and got resilienced and re-deployed next turn.<br />
+<br />
+then he put some cheap obsidian tie to the system to reinstate mob points, and searched for the executor and deployed it for free. that didnt last either cuz i activated nearly my entire deck and deployed flash of insight and searched for a docking bay and saw 1 card out of about 5 was a destiny 6. so i shuffled again with boss nass chambers and didnt get the 6 then either. shuffled a third time with something (maybe wesa gotta grand army?) and this time the 6 was the card he cut to. I also had a 6 on colo claw fish, so i dropped some ships with lando scoundrel and put the executor in the lost pile.<br />
+<br />
+he came down and kept trying to all too easy whoever i had at the carbonite chamber, he succeeded some turn but i promptly returned fire and freed the frozen character. basically i kicked him off all his sites, force choked him, and drained the life out of him. he was only activating 9ish each turn and with goo nee tay out there was nothing he could do to combat my mains. i also got savrip out with the grabber and sense to back it up, and after that card hit the table i didnt lose anybody from table for the rest of the game.<br />
+<br />
+FW by a lot<br />
+<br />
+SMILEZ: trm dominating dark deal like i know it can<br />
+FROWNZ: none<br />
+<br />
+<br />
+<br />
+wow i&#39;m in like second place after two games. time for<br />
+GAME THREE<br />
+my ds vs danny pack&#39;s profit starting seeking an audience, saitorkalfas v, and something else<br />
+i started despair v in place of kuat drive yards because i do not want to put my objective out of play. i also deployed arica with his objective.<br />
+<br />
+so i am guaranteed to retrieve one force on each of my turns all game. sweet. i was fortunate enough this game to draw bespin system in my hand, so i was able to get the executor there first turn for free via they must never again leave this city (signed by brian fred), and lando v pilots. i was expecting a first turn 3p0 --> a gift to make that drain -1, but that didn&#39;t happen. danny deployed 3p0 to tatooine: jabba&#39;s palace and left him there.<br />
+<br />
+i wanted to get set up in space so i got kuat drive yards out, but two turns in a row i couldn&#39;t find my sullust, so it must be the one card i had been saving each turn in order to potentially move arica. oh well, i have to draw it. he spent his early turns drawing, mostly, and using 3p0.<br />
+<br />
+i set up with the bare minimum in space: executor with flagship at bespin with a presence of the force, and death squadron star destroyer with chiraneau and lando at sullust. this gave me two drains of 3. he deployed some guys to tatooine (quigon with saber and master luke with luke&#39;s lightsaber) and freed han and we exchanged drainage for a turn, then he played nabrun leids to transport his guys all over to the carbonite chamber in hopes of draining me for more.<br />
+<br />
+so i&#39;ve got maul, lord vader, all kind of good stuff in my hand, but i dont really want to deploy to ground because i&#39;m afraid of getting wrekt by nabrun. after trading damage for a couple turns, though, i got antsy and decided that, even though i am leading the damage race rather solidly, i will deploy lord vader and maul with stick to the audience chamber, and pull battle order.<br />
+<br />
+sure enough, danny nabruned all his guys over to the audience chamber, and attempted to deploy lando scoundrel there as well, but i reminded him that lando is busy piloting a star destroyer at the moment. so danny deployed obi-wan with lightsaber instead. we battle, and he played courage of a skywalker to add luke&#39;s ability (5) to his power (4). i played i have you now to add two battle destiny. then he played jedi presence, targeting quigon as his jedi, to double the power of all rebels present. this makes luke (9) an 18, obiwan (5) a 10, and han (4) an 8. i fired maul&#39;s saber and cut han. he swung some sabers but only succeeded in slicing arica. i fired maul at a second character, dont remember who, but hit it. then we drew battle destiny, and after the smoke clears, we determined that all characters at the site are lost but no battle damage overflows. had lord vader or maul been hit and made forfeit = 0, i might have been in trouble. but that is not the case, and everyone died, danny&#39;s objective flipped back, and it was my turn.<br />
+<br />
+i drained for 6 more and put sidious at the audience chamber to attempt to drain for even more. danny put master luke at the carbonite chamber and i remark that 8 force (deploy +1 because i control bespin system) was a lot to pay for master luke. and danny agrees. i drained for 8 and, not content to simply leave luke be on bespin, dropped p-59 to dispatch of him. after that i simply drained my way to victory on this one, while retrieving one every turn with my objective<br />
+<br />
+FW by 20+<br />
+<br />
+SMILEZ: great matchup for me<br />
+FROWNZ: i asked danny to sign a card of mine and he refused!<br />
+<br />
+looking down the table i see that brian, greg shaw, and i were all the same side. so i wont have to play either of those guys in:<br />
+GAME FOUR<br />
+my ls vs ryan french&#39;s cct starting any methods necessary and jabba&#39;s prize<br />
+he used his starting interrupt to pull ig88 v and ig88&#39;s neural inhibitor<br />
+<br />
+this is one of my favorite matchups because if i draw recoil in my opening hand i virtually auto-win. if not recoil, however, there are 5 or 6 other cards that are really good if drawn opening hand against this deck. this game i did not get recoil, but one of the other good cards: corran horn.<br />
+<br />
+i went first and deployed home one dockbay as always, and i think i might have had a twix or the jedi council chamber. the force pile i just drew. he had the balls to drop ig-88 first turn to the prison, take the prize into custody, use ig-88&#39;s game text, and then save a force. i dropped corran horn right in his grill and battled, but he had the stunning leader to cancel that. his turn he initiated against me, and captured corran horn and immediately imprisoned him. grr<br />
+<br />
+so i decided to leave ig alone for the time being, and the game turns into one big young jedi-like battle over the carbonite chamber. i started off by putting epp obiwan (signed by Brian Sabotta) down there, he paid 8 (had goo nee tay out again) to put vader there to square off. i put qui-gon down and the same thing happens again two turns later. he didn&#39;t always have a guy to fight me with but he was taking cards into hand with ig-88 so he was usually able to come up with something. on the turns that he did not deploy and battle me i drained him, so i was at least doing a little bit of damage. i also got yoda out at the coruscant dockbay as usual.<br />
+<br />
+unfortunately for him he was unable to get ahold of any cards that reward him for initiating battle until later on in the game when he drops first strike. but by that point he was running low on characters and my grip on the carbonite chamber was too tight for him to pry loose. i do a little bit of retrieval and drain him out.<br />
+<br />
+FW by upper teens<br />
+<br />
+SMILEZ: lots and lots o&#39; battlez<br />
+FROWNZ: ryan is a slow player, that game took too long for my tastes<br />
+<br />
+so now we are 4 games into the tournament and i am in ... first place! you know what that means<br />
+GAME FIVE<br />
+my ls vs brian hunter&#39;s hunt down and destroy the jedi starting sando aqua monster, no escape, and arrest order combo<br />
+i switch civil dis out of my start in favor of your insight serves you well<br />
+<br />
+well i didnt get such a hot draw this game, if this was marvel i probly would have mulliganed. i got like 2 ships and bith shuffle and some more crap. the best card in my hand was corran horn again.<br />
+<br />
+so i got homeone dockbay and maybe i got a twix opening hand, dont remember. brian got going with the executor dockbay and the flagship bridge, and we each take a turn or two to draw while losing to visage. he also pulled the blockade flagship dockbay and somewhere in there deployed molator v. i lost yoda off the top to visage early which makes me very sad. he drew up to like 15 cards and i dont like that much so i played grimtaash used, which he grabbed.<br />
+<br />
+i tried to get something going by putting corran horn at the meditation chamber. he comes down with none other than vader himself and also deployed aaa v. i knew there was a guy in his lost pile that he could get back and i didnt want him to so i played on the edge to kill off corran. i also had a houjix in my hand and i could have let him initiate and seen where the battle went, but i did not want him retrieving anything, at all, ever. so the med chamber was two sites away from the dockbay and vader started walking over. boy i&#39;m glad this isnt wars tcg with unlimited movement.<br />
+<br />
+meantime i set up another drain threat with phylo gandish at the blockade flagship dbay, and epp obiwan at the coruscant dbay. we had some battles and i kill some guys and some of my guys die but the real problem is this: ig-88 ended up capturing quigon with a 7 destiny. then ig moved to coruscant in front of obiwan and i had to run him away to homeone dbay.<br />
+<br />
+brian put out rendili to get more force. i deployed lando piloting the spiral (signed by matt scott) there to try and set up battle plan (which wasnt out yet) but he came down with zuckuss in mist hunter and took care of that. unfortunately i was unable to secure one of my bright hopes, if i had had that card i likely would have pwned the system. somewhere in here on one of the turns i did not have a guy in space, i neglected to force drain at the coruscant docking bay because i believed battle order to be out. but it wasnt, and i could have drained once, for one. so i tell brian, &quot;if i lose this game by one i&#39;m gonna be pissed!&quot;<br />
+<br />
+well the following things happened, but not necessarily in this order: i deployed another corran horn somewhere and battled and got the first corran horn back into hand with civil dis, and brian was amazed and dismayed at my seemingly endless supply of corran horns. one of my epps (quigon?) battled against lord vader with saber and i drew a 6 and a 3 for weapon destiny and brian was amazed and dismayed at my ability to hit defense value 7 (6 + 2 for lv&#39;s text, -1 for insight) lord vader with a blind saber draw. and i was like whatever. i got goo nee tay out so he was paying lots of forces for his cards. i enforced visage on every turn of the game, and towards the endgame got flash of insight working for me, even though 3p0 was nowhere to be found. he parked ig-88 (still with quigon on him) at the blockade flagship dbay and darth sidious at the coruscant dockbay. we were each tracking a 7 through his deck and i knew i could not hope to contend with ig-88 and a tracked 7. but between visage and my drains at executor sites with corran horn, i was able to make him lose it. then he went looking through his deck with something random and i noticed no card above destiny 4. so i deployed leia v (signed by drew&#39;s girlfriend julie) in front of ig-88.<br />
+<br />
+he was down to 6 or 7 cards and i was down to a little more, plus i was using flash of insight periodically to retrieve some. he however was on a site (sidious at coruscant dbay) and a system (zuckuss at rendili) and he<br />
+actually had battle order out now so i had to pay for drains and he didnt. i had 2 cards in my hand and one of them was wesa gotta grand army. he initiated against my leia with ig-88, and fired at her and drew a 4 for weapon destiny. i was like &quot;subtract one from it&quot; and showed him wesa gotta grand army, and he&#39;s like &quot;yeah right&quot; and picked up my leia and put her in the used pile. i was like &quot;no dude im serious, this interrupt subtracts one from a just drawn weapon destiny&quot; and he was amazed and dismayed at this seldom-used text. so we each drew battle destiny and leia died and iggy died and quigon was freed! we each lost one to visage and i had enough to pay to drain him once with quigon. then we each lost to visage and he drained me for one and one. then we each lost to visage and that took me down to one card left in life force, and took him down to two. so it was my turn and i told him to lose to visage first, and i lost the game....by ONE<br />
+<br />
+FL by 1<br />
+<br />
+SMILEZ: unstoppable corran hornz!!<br />
+FROWNZ: guess. if i had drained him that one turn i would have won the game.<br />
+<br />
+<br />
+i still have the tournament&#39;s biggest differential going into:<br />
+GAME SIX<br />
+my ds vs Ryan French&#39;s There Is Good In Him starting some stuff i dont even remember but it wasnt merc sunlet or rycar ryjerd<br />
+time for me to show him how CCT is DONE<br />
+<br />
+what can i say, the cct space pwnz tigih. you just set up in space with the bare minimum and drain for 6 a turn and the opponent is powerless to stop you. no tigih space package ive ever seen can compete with the power of flagship v, especially with jabba&#39;s prize prohibiting deployment of the han chewy falcon.<br />
+<br />
+i&#39;ll certainly give ryan credit for trying this game though. he was incessantly deploying guys to my audience chamber, while draining me with luke at the landing platform. i dropped random guys like maul, dr evazan, etc to combat the characters he put at the ac, but he only won a battle once (and did not make me stack a card). i think he also put quigon to the carbonite chamber for a while. luke sat at the landing platform all game patiently draining for 2, which ryan paid for thanks to battle order. flagship v of course allows me to take lord vader into hand so i had the option of capturing him, but that&#39;s not necessary and i think i used lv in battle elsewhere. i also could have deployed a random.imperial to capture luke and then imperial decree v to half his objective&#39;s direct damage, but really it didnt matter. all that mattered this game was the BIG drains in space, and ryan&#39;s inability to do anything about them.<br />
+<br />
+FW by who cares in a quick game this time<br />
+<br />
+SMILEZ: another good matchup for the cct machine<br />
+FROWNZ: beating on the same guy twice<br />
+<br />
+we got done pretty early and i was able to watch some of the other games going on but i honestly dont remember who was playing who. i do know that i finished with the highest differential, so if brian&#39;s final opponent had been able to dispatch of him i would have finished first. but that was not the case, and brian went undefeated on the day. there were a good 4 or 5 guys who were in striking distance of top 4 spots, but when it was all said and done the top 4 looked like this:<br />
+<br />
+B Hunter 6-0<br />
+R Smith 5-1 with HUUUUUUUUUGE diff<br />
+Greg Shaw 5-1<br />
+Drew Scott (9th place at worlds like woah) 5-1 or maybe he was a big 4-2 i really dont know<br />
+<br />
+so brian gets to work on drew scott and i have to decide which deck to use against greg. all i knew about his decks was this: his dark deck was some goof walker deck with a bunch of crazy stuff in it that i would not be expecting, and his light was a fairly standard hidden base deck that started with rycar ryjerd to pull undercover to put on bothan spies. so my decision was rather simple, especially since A my dark deck was built to beat hidden base and B it was still undefeated in tournament play up to that point.<br />
+<br />
+so here goes:<br />
+SEMIFINAL<br />
+my cct vs greg shaw&#39;s hidden base starting rebel planners v, squadron assignments, and rycar ryjerd v<br />
+<br />
+well i know there&#39;s one card in my deck i&#39;m going to need badly this game, and that is the emperor v (to be known henceforth as the gemmeperor). cuz he sure does know how to cook a good bothan spy. Somebody upstairs must like me cuz when i looked in my opening hand, there he was. sweet<br />
+so first turn i got the executor out as alwayz to my bespin system. also pulled the audience chamber. greg went and deployed bothawui and some other 2/1 system but no ships. played nar shadaa wind chimes to pull a spy and all wings combo to get a ship. i got gemmeperor down to the security tower with despair and put lando v on the executor. greg pulled some more systems, aquaris and kessel, and got mirax out and wedge in his ship too. i put presence of the force on the prison to make it a battleground because gemmeperor is not a warrior so he couldnt pick up the prize and carry him to the carbonite chamber.<br />
+<br />
+greg flipped rather early with bothawui, aquaris, kessel, kashyyyk, and sullust. i put security precautions on the audience chamber and started probing. he got out luke in r2ir5 and i chased his ships around some. i lateral damaged red 5 and dropped some star destroyer in front of it but he just reacted with the spiral to survive the battle. then he flew luke away to cancel lat damage.<br />
+<br />
+i continued to drain with gemmeperor and in space when i could. greg damaged me by draining here and there in space, but he had to pay for battle order. then he came down on one of my ships with something and was able to get legendary in play, but not on the falcon or red 5. so i lost one a turn to that for the rest of the game.<br />
+<br />
+i probed his base (aquaris it was) on the fourth try and he lost 8 force to security precautions. i continued to drain him for 3 at the security tower and 2 or 3 a turn in space with chiraneau adding to drains, while chasing his ships all over the place. unfortunately for him he was not playing with the ultimatum shield so he was unable to cap my drains.<br />
+<br />
+he tried to take out my gemmeperor with an epp quigon but before he could initiate battle i lost a force to use gemmeperor&#39;s text and fry quigon. i knew i had a 5 on top and i used lando to add one to it and ychf combo was out so qui&#39;s defense value was 6. that was a pretty decent turn because he had to use 8 force on quigon (+1 for despair) so he was unable to pay to drain me or do much of anything else that turn.<br />
+<br />
+greg missed a couple things here and there, one turn i did not lose to legendary, another turn i drew a card without paying for it when he was flipped. but it really did not matter much because my constant drains were taking their toll on greg&#39;s life force. i think he got an on the edge or some sort of retrieval off, plus he was retrieving one a turn with luke skywalker v. plus he was draining me for anywhere from 1 to 3 a turn. so he hung in there for a while, but after a while he just ran out of life.<br />
+<br />
+FW by not much, less than 10<br />
+<br />
+so then i was supposed to play brian in the finals, but i was so ridiculously tired i didnt think my brain could make it through 2 intense games of swccg. so i just conceded the title of origins champ to brian, and we agreed to split the 1st place and 2nd place prize money evenly.<br />
+<br />
+<br />
++++WRAP-UP+++<br />
+after this tournament i improved to 25-3 lifetime in tournament play in the state of ohio. my dark deck took its 10th, 11th, 12th, and 13th consecutive wins, stayed undefeated lifetime, and raised its cash winnings total to over $350.<br />
+ <br />
+so last year i played cct and trm at origins and took 5th, this year i played the same and took 2nd. i&#39;m pretty happy with that finish. brian and i did play a goof game with his light deck (qmc) against my dark, he won it but i really wasn&#39;t trying and i dont think he was either. it was crazy though cuz i set up super fast at bespin with executor, and kept reinforcing with more and more stuff. but brian stacked a bunch of ships at the cloud sector and, once he had amassed his fleet, flew them out to the system to challenge me. amazingly enough he was able over the course of several battles to take down the following:<br />
+executor with flagship v and 3 pilots that each add 3 to power<br />
+death squadron star destroyer with thrawn<br />
+death squadron star destroyer with random.pilot<br />
+i even threw lord vader up there and played i have you now to draw 4 battle destiny in one battle. his power pivot + outrider was just too much though. combine that with him canceling 2 battle destinies a battle with bright hope and wedge rsl and i could only hold on to the system for so long.<br />
+<br />
+after that i was starved, so hunter and i went looking for a place to eat. little did we know it was gay pride weekend and the homos were out in full effect. holding hands, hanging on each other, etc. it didnt bother me much but brian couldnt stop snickering and commenting. we ended up at this burger place/bar that i had eaten at last year and really enjoyed, called mac&#39;s. i ordered the mac burger &quot;bloody as hell&quot; and when i bit into it i said &quot;now THAT is a tasty burger!&quot; and we started talking about quentin tarantino movies.<br />
+<br />
+we headed back to the con, being careful to maintain a reasonable distance so onlookers wouldnt think we were together or anything. then we got into this poker tournament at midnight and i got hosed like i always do. i went for a walk with drew scott and rory and tortellini and we started throwing lotr cards all over the place and some random dude threatened to throw us out of the con even though he was just a scrub with no authority whatsoever. so we stopped throwing cards there and walked to the food court and started throwing cards onto the roof of this one restaurant. next year when we go back we&#39;ll see if the cards are still up there.<br />
+<br />
+after getting some drinks at the food court we rolled back to the con area where brian was hanging around in the poker tournament still. drew scott went to get his stratego game and we played some of that. by this time it was like 3 or 4 am but i didnt really care cuz we didnt even have a hotel room. somewhere in here i laid down on an empty table and napped, then i woke up and beat some dude for 5 dollars in a game of heads up hold em. then i went back to sleep and when i woke back up brian had won the poker tournament for like 270 dollars or something. we sat around and chatted about all kinda randomness and then i went back to sleep and then some dude came up and told me to stop sleeping on the table so i went back to sleep on some chairs again. still i only got like 90 minutes total over the entire night. it was so cold in the con room. sux0r<br />
+<br />
+morning rolled around and the dealer room opened back up so brian, tortellini, and i ganked badges off of drew, rory, and dansbury and hit that up to buy some marvel boxes at 55 a pop. then we hit the road and stopped by subway for some lunch. there was this gameroom attached to the dining room and there was a sign on it of a man playing a pinball game, like the kind of sign you see on a men&#39;s room door only the guy was playing pinball. and brian was like, &quot;if you look at that sign just right, it kind of looks like a man humping some sort of livestock&quot; and tortellini and i started cracking up. &quot;and it looks like the livestock is looking over it&#39;s shoulder saying &#39;what are you doing?? youre not my species!!&#39;&quot; it was hilarious, guess you had to be there<br />
+<br />
+the rest of the way home i amazed brian and tortellini with my extensive knowledge of eminem lyrics, and brian tried to tell me that driving without shoes on is illegal. i dont believe it. i dropped tortellini off and then brought hunter back to Ferg Manor where we used our unopened marvel packs to draft. by the time i left there it was like 5 am and i got home just in time to sleep for 2 hours before going to work the next morning.<br />
+<br />
+<br />
+pr0ps to:<br />
+God<br />
+the RSmith One<br />
+brian for winning 2 tournaments for almost $500<br />
+eric for directing<br />
+my dark deck for being sooooo good<br />
+my HUUUUUGE differential<br />
+all 30 playerz who showed up to make this the biggest swccg event of the year so far<br />
+you, if your name is in this report for having signed a card<br />
+mike gemme for the emperor v<br />
+mac&#39;s<br />
+stratego<br />
+cheap ohio gas prices<br />
+<br />
+<br />
+s10pz 2:<br />
+drew ferguson for staying home<br />
+gianetti for crying so much<br />
+danny pack for not signing a card<br />
+matt sokol for looking at me sideways<br />
+sucky ohio driverz<br />
+<br />
+THE END <br></font></blockquote><BR><font class="bfont"> <A HREF='/starwarsccg/treports/treports.php?id=5093&view=1'>Read the Reviews</a><font class="bfont"> | <A HREF='/starwarsccg/treports/treports.php'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

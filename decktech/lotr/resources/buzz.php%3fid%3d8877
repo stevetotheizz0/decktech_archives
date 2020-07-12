@@ -1,0 +1,802 @@
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Lord of the Rings Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Lord of the Rings, Gandalf, Frodo, Ring, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #111188;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; color: #111111; font-size: 8pt; font-style: normal; text-decoration: none; background-color: #FFFFFF; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.headerbg {  color: #E2DED3}
+TD.headerbg A {  color: #E2DED3}
+
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.r2body {  color: #EDE9DE}
+TD.r2body A:link {color: #A17D2D}
+TD.r2body A:active {color: #A17D2D}
+TD.r2body A:visited {color: #A17D2D}
+TD.r2body A:hover {color: #FFFFFF}
+
+TD.r2body .level1nav:link {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:active {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:visited {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:hover {  font-family: Verdana, Arial, sans-serif; color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 8pt;}
+
+input {font-family: Verdana, Arial, sans-serif; font-size: 8pt }
+select {font-family: Arial, sans-serif; font-size: 8pt }
+
+-->
+</style>
+ 
+</head>
+<body link="#111155" vlink="#CF4300" alink="#0000FF" text="#111111" margin="0" marginwidth="0" marginheight="0" background="/lotr/gfx/mom/bg.jpg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=186 hspace=0 vspace=0
+src="/lotr/gfx/mom/logoleft.gif" width=1 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=186 hspace=0 src="/lotr/gfx/mom/logoright.jpg" width=195 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">LotR TCG ======</option>
+<option value="/lotr/index.php">Home</option>
+<option value="/lotr/main/about.php">About</option>
+<option value="/lotr/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+<option value="#"></option>
+<option value="#">Themes =======</option>
+<option value="/lotr/resources/buzz.php?setheme=fellowship">Fellowship</option>
+<option value="/lotr/resources/buzz.php?setheme=moria">Balrog&Gandalf</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Lord of the Rings</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#423210" class="r2body" width=88%><font class="bfont">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><a href="/lotr/index.php" class="level1nav">Home</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/articles/index.php" class="level1nav">Articles</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/decks/index.php" class="level1nav">Decks</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/treports/index.php" class="level1nav">Tournament 
+      Reports</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/outfitters/index.php" class="level1nav">M.E. 
+      Outfitters</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/trade/index.php" class="level1nav">Trade</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/resources/index.php" class="level1nav">Resources</a><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%"><img src="../../global/images/home/trans.gif" width="10" height="5"></td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/rules.php">Current Rules</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/buzz.php">Buzz Board</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/cardlist.php">Card List</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/play.php">Play Online</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/download.php">Downloads</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/links.php">Related Sites</a></font></td>
+        </tr>
+      </table>
+      <br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+    </td>
+  </tr>
+</table>
+
+</font></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Auction</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#3C402E" class="r2body" width=88%><font class="bfont"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">DeckTech Writers</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#152A43" class="r2body" width=88%><font class="bfont"><font size='1'></font> 
+
+</font></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Site Sponsor</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#152A43" class="r2body" width=88%><font class="bfont"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><BR><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Top Articles</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#152A43" class="r2body" width=88%><font class="bfont"><ol></ol> 
+</font></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> <table cellspacing=0 cellpadding=0 width="100%" border=0>
+<tr valign="top">      
+<td background="/lotr/gfx/mom/header_back.gif" height="150" valign="middle" align="center"><br>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript></td></tr></table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="" valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="" valign="top"><!-- #BeginEditable "Body" --> 
+            <script language="javascript">
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+
+prev1.document.writeln(texttoshow);
+
+}
+
+function changetobold()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+linkyaddress = document.buzzboardform.texttoconvert.value;
+
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+
+function oldchangetobold()
+{
+
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+<table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr><td width=1><img src="/lotr/gfx/mom/blu_01.gif" width=6 height=6></td><td width=100% background="/lotr/gfx/mom/blu_02.gif"></td>
+<td width=1><img src="/lotr/gfx/mom/blu_03.gif" width=6 height=6></td></tr>
+<tr><td background="/lotr/gfx/mom/blu_04.gif"><img src="/lotr/gfx/mom/clear.gif" height=35 width=1></td>
+<td background="/lotr/gfx/mom/blu_05.gif" class="headerbg"><font class="h1font"><font color="#FFFFFF">Lord boothwah selling mucho comics and cards, including lotr</font></B></td><td background="/lotr/gfx/mom/blu_06.gif"></td></tr>
+	<tr><td background="/lotr/gfx/mom/whi_07.gif"></td>
+		<td bgcolor="#FFFFFF" background="/lotr/gfx/mom/whi_08.gif"><font class="bfont"><font class="bfont"> From: <a href="http://www.decktech.net/magic/main/mpage.php?member=17">neal </a></font><BR><font class="bfont"><A HREF='/lotr/resources/buzz.php'>Back to Topics List</A></font><BR><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font><BR><font class="bfont"><A HREF='/lotr/resources/buzz.php?id=8877'><b>REFRESH THIS TOPIC</b></A></font><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#A2B1C1><font class="h2font"> Comment</td></tr><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>CategoryOneGame</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Just a heads up usually on pricing.  When I buy collections locally I pay .07 a book.  This is because most of it is from the mid 90&#39;s and is mostly crap.<br />
+<br />
+When I buy on eBay, as long as their is good new and older things, I pay usually .275 a book, so if there is 1000 books, I&#39;ll place my bid of of the .275 minus the shipping and that&#39;s my high bid.<br />
+<br />
+If there are items in the collection that I really want or some really good items like newer hot books or older ones, I&#39;ll go as high as .35 a book.  <br />
+<br />
+That&#39;s for big collections,<br />
+<br />
+I would think your better off doing smaller runs like the guys like I posted earlier though if you have mostly new books and runs.   <br><BR><font size=1>17:04 10-05-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>ANIMALVADER1</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Shipping: <br />
+<br />
+You could always try to sell the whole collection on e-bay or to a  dealer. E-bay will probably sell everything for under ¼  of it’s market value, and you can arrange to have it picked up, or shipped as freight at buyers expense. If you go get an Overstreet price guide, it has several adds for dealers who will come to your house and make you offers on you collection. Most promise to pay top dollar as well.<br />
+<br />
+you can usually ship a packed long box in the continental US for under $30 buy using standard or media mail. Let your customers know that it may take a week or two to get their books, but any faster (1st class/ priority) would cost at least twice as much.<br />
+<br />
+Smaller lots of 30 bagged and boarded books or less can be shipped for less than $9 in flat rate priority shipping boxes regardless of weight or destination. <br />
+<br />
+If you have a paypal account, you can print your own shipping labels with free Delivery Confirmation right at home. Fill out your info at www.usps.com/pickup to have your mailman pick up your packages right off your doorstep at no charge.<br />
+<br />
+You can also order boxes and other supplies from usps.com. Just about everything is free, even shipping, and you&#39;ll get everything in 3-4 days.<br />
+ <br><BR><font size=1>15:57 10-05-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>CategoryOneGame</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Hey Neal - I think I should be blue, I&#39;ll send you an email here really soon.  I&#39;m behind 100% on things right now and I&#39;m out of town for the weekend, only pushing my load back even more, so once I catch up, I&#39;ll hook up with you. <br><BR><font size=1>12:52 10-05-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>CategoryOneGame</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont"><a href=http://search.ebay.com/_W0QQsassZjmd285 target=x>http://search.ebay.com/_W0QQsassZjmd285</a><br />
+<br />
+Here&#39;s an example of a guy that&#39;s doing a good job with smaller runs.<br />
+<br />
+He also posted this and I found it on Newsarama.com and that&#39;s where if you are doing anything comic books, post it there. <br><BR><font size=1>12:51 10-05-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>ANIMALVADER1</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">For the comics, your best bet to sell those would be as full or near complete runs by title on e-bay. Title the action "huge (book title) lot (oldest issue# - newest #)" and then use the remaining space for the issue #s for what ever key books you may have. You may also want the extra descrition line. Example:<br />
+<br />
+Huge Amazing Spiderman lot 176-401 238 252<br />
+-----------------------------------------<br />
+275 298 300 317 344 345 361 all VF-NM!!!!<br />
+<br />
+Use photos, cramming as many issues as you can in them while still keeping them detailed. a great way to do this is to fan the books out so the upper left portion of the books (issue numbers) can be seen. One shot like that for the key books, and one for all of them would be best. <br />
+<br />
+Give as detailed a discription as you can. List every issue included with a general grade for the lot, but specific grades for the key books: Example:<br />
+<br />
+This ia a lot of Amazing Spiderman comics (roughly 200 books) all books are indivigually bagged and boarded and are in the Fine + to Near-Mint range unless otherwise stated. The books included are:<br />
+<br />
+<br />
+176-189<br />
+198-211<br />
+223-235<br />
+<b>238</b> 1st Hobgoblin App. (no Tatoos)NM guide price: $105<br />
+239-245<br />
+247-251<br />
+<b>252</b> 1st black costume. VF price $26<br />
+253-267<br />
+etc<br />
+etc<br />
+<br />
+<br />
+I gotta go. I&#39;ll add to this latter about shipping and such.<br />
+<br />
+ <br><BR><font size=1>11:51 10-05-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#A2B1C1><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont"><B>Dredlox™</b><br />
+<br />
+Booth, the demolition comics guy is always buying. Want me to put you in touch with him?<br />
+<br />
+10:10 10-05-2007<br />
+<br />
+<B>LCJKM</b><br />
+<br />
+i&#39;m interested in your LotR stuff - drop me a line at<br />
+leeclarkejk@gmail.com and we can start talking<br />
+<br />
+18:16 10-04-2007<br />
+<br />
+<B>CategoryOneGame</b><br />
+http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&rd=1&item=130148978374&ssPageName=STRK:MEWA:IT&ih=003<br />
+<br />
+Hey Booth, check out this auction, this guy is a top seller at comics and this is one of his and how he sells off three boxes at a time. This is really common and most of these lots will end somewhere between 300-600 dollars.<br />
+<br />
+A lot of sellers do what he does, another guy&#39;s that I buy from all the time<br />
+http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&rd=1&item=120168457492&ssPageName=STRK:MEWA:IT&ih=002<br />
+<br />
+Fed Ex is the best way to go with these long boxes if you plan on shipping, they are about 22 dollars for a full box bagged and boarded, which is usually about 210-240 comics. Charge the buyer if you want or offer free shipping.<br />
+<br />
+If you want to sell them all at once, it might be best to say local picup only, but you&#39;ll limit the number of buyers this way and might not get what you want.<br />
+<br />
+I would say list off 3 boxes at a time like this, maybe pare up your X-Men into a lot like this, and so on with different groups.<br />
+<br />
+If you have newer hot things. List something like.<br />
+<br />
+1000 New Hot issues from the past 6 months and subtitle names of titles in it.<br />
+<br />
+Newer issues like this I&#39;ve seen go for up to $800.<br />
+<br />
+As far as shipping. If your selling off 1-30 or so at a time, USPS flat Rate boxes and envelopes work best with thik cardboard packed in to keep them safe.<br />
+<br />
+If you charge something like 3.50-4.50 for 1 comic, this is normal. Shipping one in a flat buble mailer with a carboard on each side usually will run you about 2 bucks and if you find a cheap packaging place, the mailer should cost .75 cents or less.<br />
+<br />
+<br />
+Your best bet to make money is the comics.<br />
+<br />
+LOTR isn&#39;t really worth listing, if you still love those cards, hold onto them, because the return wont be that much.<br />
+<br />
+Doomtown and MLB same thing, not much money in it.<br />
+<br />
+I&#39;d guess you&#39;d get less than 300 for your full collections of those combined. I&#39;m not 100%, but that&#39;s my guess, I do watch the LOTR and Doomtown markets and it&#39;s not all that great, MLB, I&#39;m guessing the same.<br />
+<br />
+LOTR newer sets are worth a little more, so if you have some of the last few sets, you&#39;ll get more for it, and you better sellit now while boxes are around 60-70 dollars still and not in the 10 dollar range like the rest of them.<br />
+<br />
+WOW singles is smart although time consuming.<br />
+<br />
+<br />
+If you want more advice or help, please ask.<br />
+<br />
+13:46 10-04-2007<br />
+<br />
+<b>boothwah</b><br />
+<br />
+K - so to liquidate some debt as I move to a new employer that may less...I need to part with some of my stuff. I&#39;m looking for advice from some of you that do this all the time (Scott, AVader) or have had experiences having to blow a bunch of stuff out to make bills especially (M CArr comes to mind a few years back)<br />
+<br />
+I have approximately 40 longboxes of comics - mostly marvel - mostly 80&#39;s forward - all in fine to nm condition bagged and boarded - full runs of lots of titles - and near full runs of others<br />
+<br />
+I also have a LOTR collection that is pretty much 4 + = every rare through EoF and all the good stuff to make decks (with the exception of missing a couple of brutes/nazgul) through the last movie set and then some shadows. Thousands of foils.<br />
+<br />
+I have full sets of some of the early MLB showdown.<br />
+<br />
+I have a 5 row box of Doomtown including to of the last box set.<br />
+<br />
+I have a lot of Wow cards that i plan on listing individually for the rares and lotting the c/uc&#39;s as the game is still played -<br />
+<br />
+What is hte best way to get this stuff sold - in 2 to 3 weeks time fo rhte maximum return - I am an Ebay n00b so any advice would be greatly appreciated - Especially looking for advice on the comic boks - like what to charge for S&H and what size lots sell and how to post etc.<br />
+<br />
+Man, this is scary.<br />
+<br />
+If any of you want to Xpost this as Help Boothwah sell his Stuff that would be cool.<br />
+<br />
+13:17 10-04-2007 <br><BR><font size=1>10:15 10-05-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/lotr/resources/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/lotr/resources/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=8877><input type='Submit'  value=' Show all Posts '></form><form action='/lotr/resources/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=8877><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/lotr/main/join.php'> become a registered member</a></font></font></td><td background="/lotr/gfx/mom/whi_09.gif"></td></tr>
+<tr><td><img src="/lotr/gfx/mom/whi_10.gif" width=6 height=18></td>
+<td background="/lotr/gfx/mom/whi_11.gif"></td>
+<td><img src="/lotr/gfx/mom/whi_12.gif" width=6 height=18></td></tr>
+</table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script> 			
+<!-- rumors board code end -->
+<!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr align="center" valign="bottom" > 
+      <td height="100"><font class="lfont">This site is maintained and updated 
+        by fans of The Lord of the Rings TCG, and is in no way affiliated with 
+        New Line Cinema or Decipher Inc. We in no way claim the artwork displayed 
+        to be our own. Copyrights and trademarks for the films and other promotional 
+        materials are held by their respective owners and their use is allowed 
+        under the fair use clause of the Copyright Law.<a href="/global/terms.php" class="level1nav"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

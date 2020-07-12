@@ -1,0 +1,951 @@
+  
+
+<html><!-- #BeginTemplate "/Templates/new_format_main.dwt" --><!-- DW6 -->
+<head>
+<title>Welcome VS Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="VS, Marvel VS, Upper Deck,
+cards, tcg, ccg, Marvel, DC, Marvel Heroclix, DC VS, comics
+"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #000099;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #CCCCCC; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none; background-image: url(/heroclix/gfx/theme1/background.gif); }
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #FFFFFF;
+		margin: 5px 5px; 		
+}		
+
+.cbody A:link {  
+		color: #4078CF;
+}
+.nav2 {  
+	color: #FFFFFF;
+	font-weight: bold; 
+	font-size: 7pt; 
+	text-decoration: none;	
+}
+.nav2 A {  
+		color: #FFFFFF;
+		text-decoration: none;		
+}
+.nav2 A:hover {  
+		color: #FF0000;
+		text-decoration: none;		
+}
+
+#auction .main { 
+	width: 100%;
+	height: 98px;
+	text-align: right;
+	font-size: 9pt;
+	font-weight: bold;	
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000; 
+	border: 1px;
+	border-style: solid;
+	border-color: #AAAAAA;
+	background: url(/heroclix/gfx/theme1/v_lightbar.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#auction .headline { 
+	font-size: 10pt;
+	text-align: left;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 15px;
+	padding-top: 4px;	
+	padding-bottom: 4px;	
+}
+
+#auction .content { 
+	text-align: center;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000; 
+	padding-left: 10px;
+	padding-top: 4px;	
+	padding-bottom: 4px;	
+}
+
+
+
+
+
+#news .main { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;		
+}
+
+#news .header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px; 
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_large.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+#news .story { 
+	width: 100%;
+	text-align: left;
+	background-color: EFEFEF;
+}
+#news .whowhen { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	color: #000000; 
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 4px;
+	background-color: #DDDDDD;	
+}
+#news .link { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: right;
+	padding-right: 4px;
+}
+#news .friend { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: right;
+	border: 0px;
+	border-bottom: 1px;
+	border-style: dotted;
+	border-color: #666666;	
+	padding-right: 4px;
+	padding-bottom: 4px;	
+}
+#news .text { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	padding-right: 4px;
+	padding-left: 8px;				
+}
+#news .comment { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: left;
+	text-decoration: normal;
+	padding: 4px;
+	padding-left: 10px;	
+}
+#news .poster { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: left;
+	text-decoration: normal;
+	padding: 4px;
+	padding-left: 10px;	
+	color: #990000; 
+	font-weight: bold;	
+	border: 0px;
+	border-bottom: 2px;
+	border-style: dotted;
+	border-color: #666666;
+}
+#news .date { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: right;
+	text-decoration: normal;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+#news .more { 
+	text-align: right;
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;	
+	padding-right: 4px;	
+}
+#news .headline { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: left;
+	color: #000099; 
+	font-weight: bold;
+	padding-left: 8px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	border: 0px;	
+}
+
+
+#features .main { 
+	width: 100%;
+	text-align: left;
+	margin-bottom: 6px;	
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;		
+}
+
+#features .header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px; 
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_large.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+
+
+#mygroups .column { 
+	width: 159px;
+	background-color: #EAEAEA;
+	text-align: left;
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;	
+	border-style: solid;
+	border-color: #666666;		
+}
+
+
+#mygroups .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_blue.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+#mygroups .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_red.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+
+.column { 
+	width: 159px;
+	background-color: #FFFFFF;
+	text-align: left;	
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;	
+	border-style: solid;
+	border-color: #666666;
+}
+
+
+
+
+.r2header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px;
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_total.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+
+.sectionhead {
+padding-top: 2px;
+padding-left: 8px;
+padding-bottom: 1px;
+border: 0px;
+border-bottom: 1px;
+border-style: solid;
+border-color: #666666;
+background-color: #CCCCCC;
+}
+
+.more a {
+	font-size: 7pt;
+	color:#888888;
+	padding-right: 4px;
+}
+
+ .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_blue.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+
+.r2td A:link {
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+}
+.r2td A:active {			
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+			}
+.r2td A:visited {	
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+
+.footerOne {
+			font-size: 8pt;
+			text-align: left;
+			font-weight: bold;									
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #AAAAAA; 
+			border: 0px;
+			background: url(/heroclix/gfx/theme1/footer1_back.gif);
+			background-color: transparent;
+}
+
+.footerOne A {
+			color: #EAEAEA; 
+}
+
+.footerOne A:hover {
+			color: #FFFFFF; 
+}
+
+.footerTwo {
+			font-size: 7pt;
+			text-align: left;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #999999; 
+			border: 0px;
+			background: url(/heroclix/gfx/theme1/footer2_back.gif);
+			background-color: transparent;
+}
+
+.footerTwo A {
+			color: #666666; 
+}
+
+.footerTwo A:hover {
+			color: #EAEAEA; 
+}
+
+
+
+.footerThree {
+			font-size: 7pt;
+			text-align: center;			
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #EEEEEE; 
+			border: 0px;
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;			
+}
+
+.footerFour {
+			font-size: 7pt;
+			text-align: center;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #888888; 
+			border: 0px;
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;			
+}
+
+.mainheader { 
+			height: 51px;
+			width: 549px;
+			font-size: 11pt;
+			font-weight: bold;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #990000; 
+			padding-left: 35px;
+			padding-right: 12px;			
+			padding-bottom: 8px;
+			padding-top: 8px;
+			margin-top: 10px;
+			background: url(/heroclix/gfx/theme1/main_layout_header1.gif);
+			background-color: transparent;
+			background-repeat: no-repeat;			
+}
+.maincontent { 
+			width: 536px;
+			font-size: 8pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			padding-left: 4px;
+			padding-right: 4px;			
+			padding-bottom: 4px;
+			padding-top: 4px;
+			margin-left: 10px;
+			margin-bottom: 10px;			
+			border: 1px;
+			border-style: solid;
+			border-color: #CCCCCC;
+			background-color: #FFFFFF;			
+}
+
+#Last24Hours .header {
+			font-size: 12pt;
+			font-weight: bold;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			border: 0px;
+			border-bottom: 1px;			
+			border-style: solid;
+			border-color: #666666;
+     		color: #FFFFFF; 
+			padding: 4px;
+			margin: 0px;
+			background: url(/heroclix/gfx/24back.gif);			
+}
+
+#Last24Hours .content {
+			background-color: #000000;			
+			padding: 5px;
+			margin: 0px;
+}
+
+#captain .main {
+	padding: 3px;
+	border: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #CCCCCC;
+	margin-bottom: 6px;	
+}
+
+#captain .headline A {
+	width: 100%;
+	font-size: 9pt;
+	font-weight: bold;			
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;	
+	padding-left: 8px;
+	padding-right: 4px;			
+	padding-bottom: 4px;
+	padding-top: 4px;	
+	color: #FFFFFF; 
+	background-color: #990000;
+	border: 1px;	
+	border-style: solid;
+	border-color: #FFFFFF;
+}
+
+#captain .content {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #666666;
+	padding-left: 0px;	
+	padding-top: 4px;		
+	padding-bottom: 4px;
+}
+
+#teams .main {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #ffffff;
+	margin-bottom: 6px;	
+	padding: 2px;		
+	border: 0px;
+	background-color: #000099;		
+}
+
+#teams .header {
+	font-size: 8pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #FFFFFF;
+	padding-left: 4px;	
+	padding-top: 2px;		
+	padding-bottom: 2px;
+	margin: 0px;
+}
+
+#teams .team {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #666666;
+	padding-top: 4px;		
+	padding-bottom: 4px;
+	border: 0px;
+	border-bottom: 1px;			
+	border-style: solid;
+	border-color: #666666;
+	background-color: #CCCCCC;		
+}
+#teams .title A {
+	font-size: 7pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000;
+	padding-left: 4px;	
+	padding-top: 4px;		
+	padding-bottom: 4px;
+	margin: 0px;
+}
+
+#teams .content {
+	font-size: 6pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000000;
+	padding-left: 4px;	
+	padding-top: 2px;		
+	padding-bottom: 4px;
+}
+
+#features .article { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;
+}
+
+#features .report { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;
+	background-color: #EAEAEA;	
+}
+
+
+
+#features .title { 
+	font-size: 7pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000;
+	padding-left: 4px;	
+	padding-top: 6px;		
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+#features .content {
+	font-size: 6pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000000;
+	padding-left: 4px;	
+	padding-top: 0px;		
+	padding-bottom: 4px;
+}
+
+-->
+</style>
+</head>
+<body 0><center>
+<table  cellspacing='0' cellpadding='0' border=0>
+  <tr> 
+    <td width="1" height="9" valign="top">
+<table width="764" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td colspan="3"><img src="/vs/gfx/clear.gif" width="2" height="11"></td>
+  </tr>
+  <tr> 
+    <td colspan="3"><img src="/vs/gfx/theme1/header_top.jpg" width="764" height="64" border="0" usemap="#Map2"></td>
+  </tr>
+  <!-- This is the Non Member Row -->
+  <tr> 
+    <td background="/vs/gfx/theme1/header_mid_back.jpg" width="118"><img src="/vs/gfx/theme1/header_mid_1.jpg" width="118" height="30" hspace="0" vspace="0" border="0" usemap="#Map3"></td>
+    <td background="/vs/gfx/theme1/header_mid_back.jpg" width="438"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <form name="login" method="post" action="/vs/main/mpage.php">
+          <tr> 
+            <td align="left" valign="middle" width="15"><input name="sname" type="text" id="name" maxlength="22" size="7">&nbsp;</td>
+            <td width="67"><img src="/vs/gfx/theme1/header_mid_2.jpg" width="67" height="30" hspace="0" vspace="0" border="0"></td>
+            <td align="left" valign="middle" width="15"><input name="password" type="password" id="password" maxlength="14" size="7">&nbsp;</td>
+            <td><input type="hidden" name="mlogin" value="true"> <input name="submit" type="image" id="submit" src="/vs/gfx/theme1/header_mid_go.jpg"></td>
+            <td width="20" align="center"><img src="/vs/gfx/theme1/header_mid_spacer.jpg" hspace="0" vspace="0" border="0"></td>
+            <td width="92" align="center"><a href="/global/forgot.php"><img src="/vs/gfx/theme1/header_mid_forget.jpg" width="62" height="30" hspace="0" vspace="0" border="0"></a></td>
+            <td><a href="/vs/main/join.php"><img src="/vs/gfx/theme1/header_mid_sign.jpg" hspace="0" vspace="0" border="0"></a></td>
+          </tr>
+        </form>
+      </table></td>
+    <td align="right" background="/vs/gfx/theme1/header_mid_back.jpg" width="208"><img src="/vs/gfx/theme1/header_mid_3.jpg" width="208" height="30" hspace="0" vspace="0" border="0"></td>
+  </tr>
+  <!-- End Non Member Row -->
+  <tr> 
+    <td colspan="3" align="right"><img src="/vs/gfx/theme1/header_navbar.gif" width="744" height="19" hspace="0" vspace="0" border="0" usemap="#Map"></td>
+  </tr>
+  <tr> 
+    <td colspan="3" background="/vs/gfx/theme1/nav2_back.jpg" class="nav2">
+	<img src="/heroclix/gfx/clear.gif" width="22" height="15" align="left">
+	<img src="/heroclix/gfx/theme1/nav2_concector.gif" height="15" align="left">	
+ 
+<a href="/vs/main/about.php">About the Game</a> | 
+<a href="/vs/main/decktech.php">About DeckTech</a> |
+<a href="/vs/main/directory.php">Member Directory</a> |
+<a href="/vs/main/join.php">Sign Up Now!</a> |
+ 
+</td>
+  </tr>
+</table>
+
+<map name="Map">
+  <area shape="rect" coords="3,2,40,17" href="/vs/index.php">
+  <area shape="rect" coords="50,2,85,17" href="/vs/decks/index.php">
+  <area shape="rect" coords="95,2,145,17" href="/vs/articles/index.php">
+  <area shape="rect" coords="160,2,285,17" href="/vs/treports/index.php">
+  <area shape="rect" coords="300,2,350,17" href="/vs/resources/buzz.php">
+  <area shape="rect" coords="364,2,428,17" href="/vs/resources/index.php">
+  <area shape="rect" coords="444,2,578,17" href="/vs/teams/index.php">
+</map>
+<map name="Map2">
+  <area shape="rect" coords="30,14,102,63" href="/index.php">
+</map>
+<map name="Map3">
+  <area shape="rect" coords="29,1,103,18" href="/index.php">
+</map>
+<map name="Map4">
+  <area shape="rect" coords="31,2,85,18" href="/index.php">
+</map>
+</td></tr></table>
+<table width='764' cellspacing='0' cellpadding='0' border=0>
+ <tr> 
+<td valign="top"  width='20'> 
+ <img height=3 hspace=0 vspace=0 src="/vs/gfx/clear.gif" width=20 border=0></td>
+<td valign="top" valign="top" bgcolor="#FFFFFF"> 
+ <img height=3 hspace=0 vspace=0 src="/vs/gfx/clear.gif" width=10 border=0></td>
+<td width="80%" valign="top"  bgcolor='#FFFFFF'> 
+ <!-- #BeginEditable "Body" --> 
+
+                  <TABLE BORDER=0 CELLPADDING="5" CELLSPACING="0" WIDTH="100%"><TR><TD><div class='main'><div class='mainheader'>Ryan &quot;Shadow 13&quot; French<BR><br><font size='2'>* DeckTech Premium Member since 2003-06-01 * - DeckTech thanks you</font></div><div class='maincontent'><TABLE ALIGN=RIGHT><TR><TD><font class="h2font"> Tech Points: 6,036 (6036 total)</font></TD></TR></TABLE><BR CLEAR='left'><br clear='right'><img src='/memberimages/3300rst.jpg' HSPACE=10 VSPACE=10 ><BR CLEAR='left'><br clear='right'><font class="h1font">Ryan French <> Captain Obvious</font><p><font class="bfont"> name: <a href="http://www.myspace.com/ryan_freedom13">ryan french</a><br>
+occupation: ude VS/swccg player and front desk clerk at Best Western Olympic Lodge<br>
+email: <a href="mailto:ryan_frenchie6901@hotmail.com">ryan_frenchie6901@hotmail.com</a><br> 
+AIM: frenchie6901WA<br>
+site: <a href=http://www.decktech.net/groups/h.php?g=540>The Rebel Strike Team</a><br>
+graduation countdown: over and done.  BA in English, summa cum laude (whoopie-doo)<br>
+favorite band: third eye blind (all-time), green day, my chemical romance (recent)<br>
+favorite tv show: seinfeld, south park, 24 (all-time), lost (recent)<br>
+favorite movie: Matrix, Empire Strikes Back, Fellowship of the Ring, Troy<br>
+
+<br><b>update 2/8/7: </b>so after a long string of barely making top 10 at PCQ&#39;s, and consistently missing (just barely) the cutoff to the playoffs in all those tournaments, i wasn&#39;t too hopeful about the upcoming Golden Age PCQ in seattle.  i just knew that i needed to get a PC point anyway that i could, that&#39;s why i keep going to these things (plus they&#39;re very fun).  but i pushed for practice time with mike, made him play VS with me when he just wanted to play WOW all the time.  i worked up a great X-Mental deck (i&#39;ve posted two versions of it, <a href="http://www.decktech.net/vs/decks/decks.php?deck=35874">here</a>), and it was great vs everything.  it had answers to moloids, it could hold its own vs TNB (most of the time), but then it came time to test it vs Crisis Doom....and it fell flat.  VERY flat.  so i reluctantly shelved it, and moved on to testing out the crisis doom deck, posted <a href="http://www.decktech.net/vs/decks/decks.php?deck=35866">here</a>, and i really made some strides on it.  i decided to play Magneto, because in my testing with the X-mental deck he was just so huge.  also thought about playing 1x Nasty Surprise actually...but never actually put it in.  anyway, we went, we played, mike got a first round bye while i lost to a mirror match where he got carnage out on his turn 7 init and thus had 3 turns of initiative in a row....then i beat a mirror match, beat a heralds/shadowpact stall deck, lost to a TNB, beat a Quickfate deck, and beat....something else, to find myself in 5th place, easily making the top 8 cut.  my first match was vs the TNB player who earlier beat me (but not until turn 8, and not until he&#39;d drawn all 4 TNB&#39;s!), so i was able to beat him usually by turn 6 in two straight.  then i watched the X-Mental player at the tournament get extremely lucky vs the Crisis Doom player who had beaten me, but i knew i could take him....and i did, again in two straight games.  meanwhile, mike won both his matches, and for the first time ever in a VS tournament, we found ourselves in 1st and 2nd place!  we split the prizes and went home happy, with $250 and a box of legions, plus two playmats, two deckboxes, and two sets of EA promos for the tourney experience.  and i&#39;m back on top of my VS game!<br>
+
+<br><b>update 11/12/6: </b>haven&#39;t updated this in a while....anyway i deleted most of my blog here to move it over to myspace.  unfortunately the allowed space for decktech member pages must have changed or something, because i used to have a huge compilation of accomplishments in CCGs (none of them very good, obv) including all time high ratings for the games i&#39;ve played and stuff.  anyway, that&#39;s all gone now and i doubt i can reconstruct it.  oh well.  flying out to PCLA at GenCon SoCal on thursday, i&#39;m super excited!!  don&#39;t even know what i&#39;m gonna play yet, but got 3 options so it&#39;s all good.  also have 6 swccg decks built to mess around with over the weekend, plus 2 more that are classic non-virtual decks so i can entice some of the older players into a match or two.  gonna be awesome.<br>
+<br><b>update 4/28: </b>for posterity, i&#39;m posting the following exchange which recently occured on the PC forums, concerning the decision to close the Rules Forum so only moderators may reply to questions. First off, here&#39;s my post:<br><br>
+Mike Carr wrote:<br>
+We did it because some of the responses of players to "noob" questions were getting heated. The last thing we need to do is chase off potential new players and returning players as a result of someone flying off the handle at a "noob" because of a basic rules question that the "noob" may be trying to figure out that everyone else already knows.<br><br>
+
+So no, this is not a power play by the mods or the PAs or anyone. This was a decision that was reached as a result of what was becoming some very nasty flaming on the rules board.<br>
+[end quote]<br><br>
+
+bluethrawn wrote:<br>
+[implies that the reason replies were banned is due to the following url:]http://www.swccgpc.com/forums/viewtopic.php?t=9610
+[end quote]<br><br>
+
+
+First off, please don&#39;t anyone reply before they lock this thread by saying something stupid like "The man dont&#39; like it when you question him" or whatever. i want to start a dialogue with the rules forum moderators, not tick them off.<br><br>
+
+these two quotes don&#39;t seem to matchup. Mr Carr alleges that the Rules Forum was closed to discussion because new players were being abused, but what we actually find is that a new player was quickly given an answer to his question, and the moderators took offense because they thought the rules forum was their job, and people weren&#39;t respecting that.<br><br>
+
+Obviously we don&#39;t want anyone berating people for posting questions, even easy questions. but if you look at the thread that bluethrawn links to, it appears that the moderaters are doing more berating than the users who now can&#39;t reply.<br><br>
+
+We dont&#39; want the rules forum to be your job. we want it to be available for anyone who has a question. if people have a serious rules question that is unanswerable by the common people, then yes we&#39;d like to have a moderator&#39;s answer (like the recent houjix ruling debate). otherwise, let the other players who happen to enjoy cruising the forum and helping out new players (like i do) answer the questions.<br><br>
+
+Let me remind you that discussions on the Rules Forum have greatly contributed to the rules of the game. Due to discussions we had about automatic actions and canceling game text, the rules on inserts were clarified to make more sense. Due to the discussion on houjix and getting around it, the card itself was strengthened to match it&#39;s intent. All these arose out of lively discussions where players were forced to look for other examples to back their viewpoints, and those examples revealed inconsistencies in the rules. Without discussions on the forum, this kind of thing won&#39;t happen again.<br><br>
+
+Not only that, but players now are unable to ask follow up questions in the off-chance that the answer they&#39;re given isn&#39;t quite clear enough for them to follow. Instead they ahve to make a completely new post, quoting the gametext all over again lest the moderators refuse to answer, taking up space on a board that often sees a full page of new questions in just a few days. If they happen to word the question wrong the first time (as often happens to international players), they have to start all over again, wasting everyone&#39;s time.<br><br>
+
+Please, bring back discussion on the Rules Forum. it doesn&#39;t hurt anybody.<br><br>------end quote-----<br>now after that reasonable call for a dialogue on the moderator&#39;s unilateral decision, here&#39;s the replies i got from bluethrawn:<br><br>You are a complete idiot. How you can possibly put those words in my mouth is beyond my comprehension.<br><br>
+
+To be clear, and I don&#39;t really care if you believe this or not, the suggestion to "lock down" the Rules Forum was made months ago. A single incident was not the least bit responsible for this decision being made.<br><br>
+
+Frankly, Ryan, your conduct (and conduct like yours) on the Rules Forum was one of our bigger problems. If the PC had a nickel for every time you came on the forum at some odd [h]our of the night and tossed in your meaningless two cents on six or eight different (and long-since settled) threads, we&#39;d be giving away a 10k grand prize at Worlds this year.<br><br>
+
+Do NOT post on the subject again.<br><br>
+
+Oh, and posting on a subject that has already been locked four or five times is, in fact, a good way to tick off the moderators. It&#39;s also a violation of forum rules.<br><br>-----end quote-----<br>a little heated, don&#39;t you think?  especially since my debates with moderators and rules staff have led to at least two errata/rules changes in this game.  yet i&#39;ve never heard that my conduct was a problem before...anyway, i just thought i&#39;d record these here just in case he actually gets mod edited on their forums, i kind of wanted to preserve the debate =).<br>
+
+
+
+<br><b>update 2/10: </b><br><img src="http://images.quizilla.com/M/MP/MPA/MPAC/1139442267_ladrielLOL.JPG" border="0" alt="HASH(0x8cf64c8)"><br>You are Galadriel, Lady of Light. You have your own
+<br />choke engine which makes it possible to play
+<br />Elves for free. You&#39;re 1 of 3 banned
+<br />Galadriels. Banned for sexiness.
+<br><br><a title="Take this quiz at Quizilla" href="http://www.quizilla.com/redirect.php?statsid=57&url=http://quizilla.com/users/MPAC/quizzes/Which%20Banned%20LOTR%20Card%20are%20you%3F%20(With%2030%20pictures)"> Which Banned LOTR Card are you? (With 30 pictures)</a><BR> <font size="-2">brought to you by <a title="Quiz, Horoscope, Flash Games, Poems - Quizilla!" href="http://www.quizilla.com/redirect.php?statsid=56&url=http://www.quizilla.com">Quizilla</a></font>
+<br>
+<br><b>update 2/6: </b>"Leavy wiped out the play by calling a holding penalty on Locklear. Replays revealed that Locklear had used a popular technique called "blocking" to keep the Steeler pass rusher off his quarterback." that pretty much says it all.  superbowl 40 = teh suxx0rz.<br>
+<br><b>update 2/1:</b><br><table border="0" cellpadding="0" cellspacing="0" width="250"><tr><td>
+<script language="javascript" type="text/javascript" src = "http://bunnyherolabs.com/adopt/embed-js.php?b=bWM9Y2F0LnN3ZiZjbHI9MHg3NTYzMzImY249ZGV1Y2UmYW49cnlhbg==">
+</script></td></tr><tr><td align="center"><small><a href="http://bunnyherolabs.com/adopt/">adopt your own virtual pet!</a></small></td></tr></table><br>
+<br><b>update 12/25:</b> coolest christmas present i got: from a coworker who randomly drew my name in the gift exchange and knows i like star wars ccg....a pack of star wars Tcg!  it was actually pretty funny, it had common Luke, common and uncommon Han, uncommon Piett, and rare Executor, so i guess that&#39;s pretty good.  i&#39;ll probably use them as AI&#39;s for the virtual versions of those cards or something.  merry christmas to everybody out there, and happy hannukah and all that too.<br>
+<br><b>update 12/23:</b><br>Your results:<BR><B>You are <FONT SIZE=6>Superman</FONT></B><TABLE><TR><TD><TABLE><TR><TD>Superman<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=90><TD> 90%</TR><TR><TD>Spider-Man<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=80><TD> 80%</TR><TR><TD>The Flash<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=75><TD> 75%</TR><TR><TD>Robin<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=67><TD> 67%</TR><TR><TD>Iron Man<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=55><TD> 55%</TR><TR><TD>Supergirl<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=52><TD> 52%</TR><TR><TD>Catwoman<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=45><TD> 45%</TR><TR><TD>Green Lantern<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=45><TD> 45%</TR><TR><TD>Batman<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=45><TD> 45%</TR><TR><TD>Wonder Woman<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=37><TD> 37%</TR><TR><TD>Hulk<TD><HR ALIGN=LEFT NOSHADE SIZE=4 WIDTH=25><TD> 25%</TR></TABLE><TD>You are mild-mannered, good, <BR>strong and you love to help others.<BR><IMG SRC="http://www.seabreezecomputers.com/superhero/pics/superman.jpg"></TD></TR></TABLE><A HREF="http://www.seabreezecomputers.com/superhero">Click here to take the "Which Superhero are you?" quiz...</A><BR><br>
+<br><b>update 12/18:</b> i won the swccg tournament i ran yesterday. it was kind of a surprise, even to me, because going into the last game i had a loss and one other guy was still undefeated.  my brother knocked him off in a timed win, i won my last game by 22 (should have been more but I played the last few turns stupid), and lo and behold i have the highest differential out of the players with a loss!  thanks to my loss being by 1 Force....the closest game of the tournament.  here&#39;s the final standings: <br>
+Ryan French 6(+57)<br>
+Matt Hilderman 6(+19)<br>
+Mike French 5(+60)<br>
+Noah Franke 5(+35)<br>
+Jacob Vawter 4(+36) (3 wins)<br>
+Zack Carter 4(+8)<br>
+Kyle Krueger 4(-7)<br>
+Jon Greer 2(-8)<br>
+Mark Sebring 2(-57)<br>
+Michael Erisman 2(-58)<br>
+Buddy Walters 1(-25)<br>
+Andrew Taylor 1(-60) <br>
+andrew is PA Doug Taylor&#39;s 12?-yr-old son. he was playing AITC and was a little worried about so many of us saying "I hate AITC" and "AITC is gay" before the tournament.  the kid is a true gamer, he takes more than his share of losses but comes out with a big smile on his face and has a blast.  always fun having him show up to a tournament.  i also managed to do a lot of trading before the tournament, helping two collectors come within just a few cards of R3 collections they were working on.  Erisman in particular came with a two page trading list and left with all but 6 cards he needed.  not to mention he won the random uncut sheet, a WB premier commons sheet (thanks again to Jim Colson for providing them).  since the top 3 finishers were all Rebel Strike Team members, people in my close playgroup, we passed the first place uncut sheet down to Noah Franke, who left with a nice lookin&#39; DS Special Edition sheet.  meanwhile i get to design a dark side card for the Player Created Virtual Set...and he&#39;s gonna kick a<b></b>ss.  in a non-Macelike way, of course.  that guy is ridiculous.  so is docking bay wars (rolls eyes at that stupid card, establish control V).  peace out.<br>
+<br><b>update 12/3:</b> i&#39;m running a star wars ccg tournament in seattle on december 17th, two weeks from today, at dreamstrands games.  it starts at 11am SHARP, entry fee is $5-10 to cover the cost of making it a V-lite tournament (application is in process right now), and there are also uncut sheets up for grabs as well as packs of Reflections and whatever else I happen to have with me at the time (but no sexual favors, sorry guys).  get directions to dreamstrands <a href="http://www.dreamstrands.com/map.htm">here</a>.  bring your game face.<br>
+<br><b>update 11/27:</b> finished 86th at PCLA, a far sight better than last year&#39;s failed attempt to even qualify.  feeling much better about my game now than i was then, too....although still need help with drafting since i went 3-5 plus a bye on day 2.  i still blame cabanero, he snapped up 3 faces of evil sitting to my right in the first pod.  in other news, the seahawks kick as<b></b>s!<br>
+<br><b>update 8/21:</b> wow that&#39;s a long time between updates.  one of my friends has ball cancer, my brother just got married, and my coworkers (a couple anyway) are irritating as hell.  i don&#39;t know what else is going on, i just try to get by.<br>
+   </FONT> <BR></div></div><div class='main'><div class='mainheader'>My Links</div><div class='maincontent'><ul><li><a href="<a href=http://www.decktech.net/groups/h.php?g=540>The Rebel Strike Team</a>" target="newwindow"><a href=http://www.decktech.net/groups/h.php?g=540>The Rebel Strike Team</a></a><li><a href="<a href=http://www.frappr.com/starwarsccg>SWCCG Player Map</a><br><a href=http://www.potomacdist.com/>Potomac Distributing</a>" target="newwindow"><a href=http://www.frappr.com/starwarsccg>SWCCG Player Map</a><br><a href=http://www.potomacdist.com/>Potomac Distributing</a></a><li><a href="<a href=http://www.swccgpc.com>Players Committee</a><br><a href=http://www.realultimatepower.net>Real Ultimate Power</a>" target="newwindow"><a href=http://www.swccgpc.com>Players Committee</a><br><a href=http://www.realultimatepower.net>Real Ultimate Power</a></a></ul></div></div><div class='main'><div class='mainheader'>
+<script language="JavaScript">
+
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+
+</script>
+  <table border="0" cellspacing="0" cellpadding="0" width="100%" vspace="0" hspace="0">
+    <tr>
+      <td><font class="h1font">Marvel VS</FONT></td>
+	  <form action="/vs/main/mpage.php"> 
+      <td valign="middle" align="right">
+        <select name="select" onChange="go(this)">
+          <option value="#" selected>My Games</option>
+          <option value="/vs/main/mpage.php?member=3300&dspgame=SW">Star Wars CCG</option><option value="/vs/main/mpage.php?member=3300&dspgame=LR">Lord of the Rings TCG</option><option value="/vs/main/mpage.php?member=3300&dspgame=VS" selected>Marvel VS</option> 
+        </select>
+      </td></form>
+    </tr>
+  </table>
+</div><div class='maincontent'>
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr> 
+    <td valign="top" bgcolor="#C3E3FF"><font class="h2font">My 
+      Decks</b></font></td>
+  </tr>
+  <tr> 
+    <td  valign="top"> <a href='/vs/main/mpage.php?member=3300&teamsortorder=rating'>Sort by rating</a> | <a href='/vs/main/mpage.php?member=3300&teamsortorder=created'>Sort by date</a> | <a href='/vs/main/mpage.php?member=3300&viewdes=1'>View Descriptions</a> | <a href='/vs/main/mpage.php?member=3300&viewdes=0'>No Descriptions</a><p><TABLE width="100%"><TR><TD><font class="bfont"><A HREF="/vs/decks/decks.php?deck=35874">Mentally Challenged, take 2</A></FONT></TD><TD><font class="bfont"> 02/6/07</A></FONT></TD></TR><TR><TD><font class="bfont"><A HREF="/vs/decks/decks.php?deck=35866">Crisis Management</A></FONT></TD><TD><font class="bfont"> 01/30/07</A></FONT></TD><TD><font class="bfont"> 5</A></FONT></TD></TR><TR><TD><font class="bfont"><A HREF="/vs/decks/decks.php?deck=35865">Mentally Challenging</A></FONT></TD><TD><font class="bfont"> 01/30/07</A></FONT></TD><TD><font class="bfont"> 5</A></FONT></TD></TR><TR><TD><font class="bfont"><A HREF="/vs/decks/decks.php?deck=35825">PCLA 2006: Devil&#39;s Due</A></FONT></TD><TD><font class="bfont"> 12/21/06</A></FONT></TD></TR><TR><TD><font class="bfont"><A HREF="/vs/decks/decks.php?deck=35707">Fantastic Checkmate</A></FONT></TD><TD><font class="bfont"> 09/16/06</A></FONT></TD><TD><font class="bfont"> 5</A></FONT></TD></TR><TR><TD><font class="bfont"><A HREF="/vs/decks/decks.php?deck=35573">Society United</A></FONT></TD><TD><font class="bfont"> 05/23/06</A></FONT></TD><TD><font class="bfont"> 5</A></FONT></TD></TR><TR><TD><font class="bfont"><A HREF="/vs/decks/decks.php?deck=35267">X-Titans</A></FONT></TD><TD><font class="bfont"> 11/28/05</A></FONT></TD><TD><font class="bfont"> 4.38</A></FONT></TD></TR><TR><TD><font class="bfont"><A HREF="/vs/decks/decks.php?deck=35263">PCLA 2005 Curve Sentinels</A></FONT></TD><TD><font class="bfont"> 11/26/05</A></FONT></TD><TD><font class="bfont"> 5</A></FONT></TD></TR><TR><TD><font class="bfont"><A HREF="/vs/decks/decks.php?deck=33932">I <3 YOUR MOM</A></FONT></TD><TD><font class="bfont"> 10/25/04</A></FONT></TD><TD><font class="bfont"> 4</A></FONT></TD></TR></TABLE> </td>
+  </tr>
+  <tr> 
+    <td valign="top" bgcolor="#C3E3FF"><font class="h2font">My 
+      Articles</b></font></td>
+  </tr>
+  <tr> 
+    <td valign="top"><font class="bfont"> None</FONT> </td>
+  </tr>
+  <tr> 
+    <td valign="top" bgcolor="#C3E3FF"><font class="h2font">My 
+      Tournament Reports</b></font></td>
+  </tr>
+  <tr> 
+    <td valign="top"><font class="bfont"> None</FONT> </td>
+  </tr>
+</table>
+
+</div></div></TD></TR></TABLE><!-- #EndEditable -->
+</td>
+<td valign="top" valign="top" bgcolor="#FFFFFF"> 
+<img height=3 hspace=0 vspace=0 src="/vs/gfx/clear.gif" width=10 border=0></td>
+<td width='167' bgcolor='#E5E5E5' valign='top'>
+<center>
+  <!--  <a href="/promo/index.php"><img src="/heroclix/gfx/theme1/contest.gif" width="160" height="20" hspace="4" vspace="4" border="0"></a>  -->
+<BR>  <div class='column'><div class='r2header'>Top Decks</div><ol></ol><A href="http://www.decktech.net/vs/decks/decks.php">All</A></div> 
+<img src="/heroclix/gfx/clear.gif" width="160" height="1" hspace="4" vspace="4" border="0">
+
+<BR>
+</div><div class='column'><div class='r2header'>DeckTech Writers</div><font size='1'></font> 
+<br>
+
+</div><div class='column'><div class='r2header'>Auction</div><A href="http://www.decktech.net/auction/index.php">Currently 1 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+<BR><BR><img src="/heroclix/gfx/clear.gif" width="160" height="1" hspace="4" vspace="4" border="0"><P><div class='column'><div class='r2header'>Top Articles in last 30 days</div><div class='sectionhead' align='right'><div class='more'><A href='/vs/articles/articles.php'>All</A></div></div></div><p><a href='http://www.decktech.net/adserver/click.php?mgr=aspcode.net&id=43'><img border='0' src='/banner/themebanner1.gif'  ></a></center>
+<BR>
+</td>
+<td valign="top" width="0"> 
+  </td>
+ </tr>
+</table>
+  <table  width='764' cellspacing='0' cellpadding='0' border=0>
+    <tr> 
+    <td valign="top">
+      <div align="right">
+<table width="744" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+      <td width="114"><img src="/heroclix/gfx/theme1/footer1.gif" width="114" height="21" hspace="0" vspace="0" border="0" align="left"></td>
+      <td width="630" background="/heroclix/gfx/theme1/footer1_back.gif" class="footerOne"> 
+        &nbsp; &nbsp;<a href="/heroclix/index.php">Home</a> | <a href="/heroclix/teams/index.php">Teams</a> 
+        | <a href="/heroclix/articles/index.php">Articles</a> | <a href="/heroclix/treports/index.php">Reports</a> 
+        | <a href="/heroclix/resources/index.php">Player Resources</a>  </td>
+  </tr>
+  <tr>
+    <td width="114"><img src="/heroclix/gfx/theme1/footer2.gif" width="114" height="24" hspace="0" vspace="0" border="0" align="left"></td>
+      <td width="630" background="/heroclix/gfx/theme1/footer2_back.gif" class="footerTwo">&nbsp;&nbsp; 
+        <a href="/heroclix/main/about.php">About HeroClix</a> | <a href="/heroclix/main/decktech.php">About 
+        DeckTech</a> | <a href="/heroclix/main/join.php">Become a Member</a> | 
+        <a href="mailto:%20info@decktech.net">Contact Us</a></td>
+  </tr>
+    <tr> 
+      <td colspan="2" width="744" background="/heroclix/gfx/theme1/footer3_back.gif" class="footerThree">
+	  <a href="/global/terms.php">Terms of Service</a> TM & © 2003 www.decktech.net. All Rights Reserved.
+</td>
+  </tr>
+    <tr> 
+      <td colspan="2" width="744" class="footerFour">
+ 	  This site is maintained and updated by fans of 
+          HeroClix, and is in no way affiliated with WizKids the makers of HeroClix 
+          and other fine games. We in no way claim the artwork displayed to be 
+          our own. Copyrights and trademarks for the promotional materials are 
+          held by their respective owners and their use is allowed under the fair 
+          use clause of the Copyright Law.
+<p>WizKids, LLC has sole ownership of the names, logos, artwork, marks, 
+photographs, sounds, audio, video and/or any other proprietary material 
+used in connection with the game of HeroClix. WizKids, LLC has granted 
+DeckTech.net permission to use such names, logos, and/or marks for 
+promotional and informational purposes on the DeckTech.net website, but it 
+does not endorse and is not affiliated with the DeckTech.net website in 
+any official capacity whatsoever. All WizKids characters, names, logos, 
+and distinctive likenesses are property of WizKids, LLC. 
+
+<p>©2003 WizKids, LLC. All rights reserved. MechWarrior, BattleTech, 
+BattleMech, ’Mech, MW, Mage Knight, MK, Shadowrun, HeroClix, SportsClix, 
+Creepy Freaks, Freak Out, and WizKids are trademarks of WizKids, LLC.  
+</td>
+  </tr>
+</table>
+</div><BR>
+
+</td></tr></table>	  
+</center></body><!-- #EndTemplate --></html>

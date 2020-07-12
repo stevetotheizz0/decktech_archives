@@ -1,0 +1,420 @@
+<html>
+<head>
+<title>DeckTech - for the players, by the players.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/swccg/global/css/white.css">
+<style type="text/css">
+<!--
+.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
+.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
+.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
+.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
+.centercolor {  background-color: #2900FF}
+-->
+</style>
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"> <!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE -->
+<script language="JavaScript">
+<!-- /* © 1997-1999 BURST! Media, LLC. All Rights Reserved.*/
+var TheAdcode = 'ad8702a';
+var bN = navigator.appName;
+var bV = parseInt(navigator.appVersion);
+var base='http://www.burstnet.com/';
+var Tv='';
+var agt=navigator.userAgent.toLowerCase();
+if (bV>=4)
+  {ts=window.location.pathname+window.location.search;
+   i=0; Tv=0; while (i< ts.length)
+      { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+   if( Tv.charAt(0)!='/' ) Tv="/"+Tv;
+          else if (Tv.charAt(1)=="/")Tv="";
+  if( Tv.charAt(Tv.length-1) == "/")
+    Tv = Tv + "_";}
+if (bN=='Netscape'){ 
+     if ((bV>=4)&&(agt.indexOf("mac")==-1))
+{  document.write('<s'+'cript src="'+ 
+      base+'cgi-bin/ads/'+TheAdcode+'.cgi/RETURN-CODE/JS' 
+      +Tv+'">'); 
+     document.write('</'+'script>');    } 
+     else if (bV>=3) {document.write('<'+'a href="'+base+'ads/'+ 
+        TheAdcode+'-map.cgi'+Tv+'"target=_top>'); 
+        document.write('<img src="' + base + 'cgi-bin/ads/' + 
+        TheAdcode + '.cgi' + Tv + '" ismap width="468" height="60"' + 
+        ' border="0" alt="Click Here"></a>');} 
+ } 
+if (bN=='Microsoft Internet Explorer') 
+ document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'+ 
+  TheAdcode + '.cgi' + Tv + '/RETURN-CODE" width="468" height="60"' + 
+  'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' + 
+  'frameborder="0" scrolling="no"></ifr'+'ame>'); 
+// --> 
+</script> 
+<noscript><a href="http://www.burstnet.com/ads/ad8702a-map.cgi" target="_top"> 
+<img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi" 
+ width="468" height="60" border="0" alt="Click Here"></a> 
+</noscript> 
+<!-- END BURST CODE -->
+<!-- #EndLibraryItem --></td>
+    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="171" valign="top" bgcolor="#000000" height="949"> 
+      <table width="172" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="156" rowspan="2" bgcolor="#000000" align="center" valign="top" height="100"><br>
+            <!-- #BeginLibraryItem "/Library/Login_Box.lbi" -->
+ 
+<form method="post" action="/login.php3" name="">
+  <table width="134" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom"> 
+                  
+      <td><img src="/swccg/global/images/logintop.gif" width="134" height="8"></td>
+                </tr>
+                <tr bgcolor="#630063"> 
+                  <td><font face="Haettenschweiler, Impact, Arial Black" size="4" color="#FFFFFF">&nbsp;<font size="5">&nbsp;&nbsp;Members</font></font></td>
+                </tr>
+                <tr bgcolor="#630063"> 
+                  <td> &nbsp; 
+                    
+        <input type="text" name="sname" size="12" maxlength="22">
+                  </td>
+                </tr>
+                <tr bgcolor="#630063"> 
+                  <td>&nbsp;&nbsp;&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><font size="1">name</font></font></td>
+                </tr>
+                <tr bgcolor="#630063"> 
+                  <td> &nbsp; 
+                    
+        <input type="password" name="password" size="12" maxlength="14">
+                  </td>
+                </tr>
+                <tr bgcolor="#630063"> 
+                  <td>&nbsp;&nbsp;&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><font size="1">password</font></font></td>
+                </tr>
+                <tr bgcolor="#630063" align="right"> 
+                  
+      <td><font face="Haettenschweiler, Impact, Arial Black" size="4" color="#FFFFFF"> 
+        <input type="hidden" name="remember" value="yes">
+        <input type="submit" name="Submit" value="Login">
+        &nbsp;&nbsp;</font> </td>
+                </tr>
+                <tr valign="top"> 
+                  
+      <td><img src="/swccg/global/images/loginbottom.gif" width="134" height="8"></td>
+                </tr>
+              </table>
+            </form>
+
+
+
+
+
+<!-- #EndLibraryItem --><br>
+ <!-- #BeginLibraryItem "/Library/swccg_logo.lbi" --><a href="http://www.decipher.com/starwars/index.html" target="_blank"><img src="/swccg/global/images/swccglogo.jpg" width="135" height="90" border="0" vspace="0" hspace="0"></a><!-- #EndLibraryItem --></td>
+          <td width="31" height="57" align="left" valign="top" background="/swccg/global/images/circuit/left_background.gif" class="left_background"> 
+            <img src="/swccg/global/images/circuit/leftca.gif" width="30" height="57" border="0" vspace="0" hspace="0"></td>
+        </tr>
+        <tr> 
+          <td width="31" height="100" background="/swccg/global/images/circuit/left_background.gif" class="left_background"><img src="/swccg/global/images/trans.gif" width="30" height="1" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td colspan="2" class="orange" background="/swccg/global/images/circuit/background.gif"><img src="/swccg/global/images/circuit/lcspacer.gif" width="185" height="65" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="156" bgcolor="#2900FF" valign="top" height="396"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tr valign="top" bgcolor="#000000"> 
+                <td><font face="Haettenschweiler, Impact, Arial Black" size="5" color="#FFFFFF">What 
+                  is SW:CCG?</font></td>
+              </tr>
+              <tr valign="top"> 
+                <td height="354"> <font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><br>
+                  &quot;Imagine playing a game of chess where each player could 
+                  select from 1000 pieces, each of which moved differently. You 
+                  would select your 16 pieces in secret, and so would your opponent. 
+                  Sitting opposite him, surveying the board, you would make your 
+                  attacks based on the pieces you selected, and form your defenses 
+                  based on the pieces your opponent selected.&quot; -Decipher<br>
+                  <br>
+                  For more information about SW:CCG check out our <a href="/main/swccg.php3">About 
+                  SW:CCG </a>page!</font> </td>
+              </tr>
+              <tr> 
+                <td>&nbsp;</td>
+              </tr>
+            </table>
+            </td>
+          <td width="31" rowspan="2" bgcolor="#000000" valign="top"><img src="/swccg/global/images/circuit/lftcolterm.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="156" bgcolor="#2900FF" valign="bottom"><img src="/swccg/global/images/circuit/left_term.GIF" width="156" height="15"></td>
+        </tr>
+      </table>
+    </td>
+    <td valign="top" class="centercolor" height="949" > 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
+          <td height="4" class="top_bg" width="100%" align="left"><img src="/swccg/global/images/circuit/leftcb.gif" width="12" height="57" vspace="0" hspace="0" border="0"></td>
+          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
+        </tr>
+        <tr> 
+          <td colspan="2"> 
+            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
+              <tr> 
+                <td bgcolor="#2900FF" height="12" valign="top" width="44%"><img src="global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
+                <td bgcolor="#2900FF" align="right" valign="top" height="12" width="48%"><img src="global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr> 
+                <td height="684" valign="top" colspan="2" bgcolor="#2900FF"> 
+                  <table width="100%" border="0" cellpadding="4">
+                    <tr valign="top"> 
+                      <td bgcolor="#2900FF" height="203"><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"> 
+                        </font> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td height="142"><a href="/dpc/index.php3"><img src="/swccg/global/images/dpc_cash1.gif" width="368" height="145" border="0"></a></td>
+                          </tr>
+                          <tr> 
+                            <td bgcolor="#000000"><a href="/dpc/index.php3"><img src="/swccg/global/images/dpc_cash2.gif" width="383" height="41" vspace="0" hspace="0" border="0"></a></td>
+                          </tr>
+                          <tr> 
+                            <td height="2"><img src="/swccg/global/images/dpc_cash3.gif" width="317" height="19" vspace="0" hspace="0" border="0"></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr valign="top"> 
+                      <td height="236">
+                        <font face="Arial, Helvetica, sans-serif" size="2"> 
+<a name=16></a>
+<table width=100%>
+<tr><td colspan=2><font color=#00FF00 size="5" face="Haettenschweiler, Tahoma, Arial, sans-serif">Tatooine Expansion - Cards Revealed</font></td></tr>
+<tr><td><font face="arial" size="2">Jordan announces on Sat Mar 24 2001 </font></td><td align=right><font face="arial" size="2">Decipher: Star Wars</font></td></tr>
+<tr><td colspan=2><font face="arial" size="2">Decipher released 10 card images today on their <a href=http://www.decipher.com/starwars/expansions/tatooine/index.html>website</a>.  Many of the cards are deck enhancers.  They include Hoth Walker decks, Rebel Strike Team, and constructing the Death Star II decks.  The first Light Side dueling card has also been released.</font></td></tr>
+<tr><td align=right colspan=2><font face=arial size=1> <a href=send.php?di=/swccg/index.php3&id=16 target="_blank">send to friend</a> | <a href=print.php?16 target="_blank">printer friendly</a></font></td></tr>
+</table><table width=100%><tr><td><HR><font face=arial size=2>http://www.mucking-fagic.com/cgi-bin/ultimatebb.cgi  <br>
+<br>
+wow.</font></td></tr><tr><td><font face=arial size=2>Hayes</font><font face=arial size=2> - Sat Mar 24 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Goddamn I love dueling. This stuff rules! I am soooo dueling Vader's shiny arse!</font></td></tr><tr><td><br><font face=arial size=2><a href="http://www.decktech.net/swccg/membercenter/directory/memberpage.php3?member=2392" target=gfds>http://www.decktech.net/swccg/membercenter/directory/memberpage.php3?member=2392</a></font><BR><font face=arial size=2><a href="mailto:phobosmjb@hotmail.com">Matt Berta</a></font><font face=arial size=2> - Sat Mar 24 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Just let me at the RST enhancer and watch your Bunker go boom! =) It's finally worth attempting now that you get something -- a bit of retrieval -- out of it.  The DS2 helper is sweet, and at first glance, a Garrison deck looks eeeeevil. =)  Great cards, all!</font></td></tr><tr><td><font face=arial size=2><a href="mailto:searaptor@mindspring.com">Wes Brown</a></font><font face=arial size=2> - Sat Mar 24 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Isit just me or did D*2 building get screwed again? I still don't see it being tournament viable. But the Walker Garrison and RST ones look totally awesome.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:danieln@nelsontech.net">super-scrub</a></font><font face=arial size=2> - Sat Mar 24 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I agree w/super-scrub...the TTO enhancer sucks...you probably won't even start w/it if you use Operational As Planned...the maneuver bonus is ok, but it still makes you take us space with Desperate Counter and TIEs so nothing special about it.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:yodarth@hotmail.com">Yodarth</a></font><font face=arial size=2> - Sat Mar 24 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>The cards are quite good, but there are two not very usefull: You May Start Your Landing and You'll Find I'm Full Of Surprises.</font></td></tr><tr><td><font face=arial size=2>garion</font><font face=arial size=2> - Sat Mar 24 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I LOVE everything about these cards. One problem: I WANT MORE!!!</font></td></tr><tr><td><font face=arial size=2>wedgea</font><font face=arial size=2> - Sat Mar 24 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Yeah, the TTO - card is<br>
+probably not that useful,<br>
+as it will take lots of<br>
+time to set the whole<br>
+stuff up - the Walker<br>
+Garrison card is actually<br>
+decent - you get an<br>
+alternate damage source,<br>
+once Menace kicks in and<br>
+kill your drains - add<br>
+this up on top of S&D and<br>
+Battle Deployment and<br>
+youre in !</font></td></tr><tr><td><font face=arial size=2><a href="mailto:Estralbauschwarz@aol.com">Black Leader</a></font><font face=arial size=2> - Sat Mar 24 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>landing start and supriseful not being useful? what? They are both great cards. </font></td></tr><tr><td><font face=arial size=2><a href="mailto:danieln@nelsontech.net">super-scrub</a></font><font face=arial size=2> - Sat Mar 24 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Qui gon kicks a$$!!!<br>
+Finally an ability 7 character who can fight, he'll whoop down on vader in a half-second.  Darth Maul is pretty good too.</font></td></tr><tr><td><br><font face=arial size=2><a href="www.swdbz.com" target=gfds>www.swdbz.com</a></font><BR><font face=arial size=2><a href="mailto:bobafett_@rocketmail.com">Gogetenks</a></font><font face=arial size=2> - Sun Mar 25 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Darth Maul only being good?  The opponent has to have a character of ability  3 at his site or their ability is reduced to 0.  I'd say that's pretty damn powerful.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:louis@lsd.every1.net">Dark Jawa</a></font><font face=arial size=2> - Sun Mar 25 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Garion: are you nuts?  You May Start Your Landing and You'll Find I'm Full Of Surprises are awesome.  The disadvantage in destiny on YFIFOS is only to balance it out, otherwise all you need is Jedi Luke and stick and you have a win...and it still is a great card for the light side to take advantage of...YMSYL single handedly revives Walker Garrison.  The direct damage makes sure if you have No Escape Honor can't completely shut down Walker Garrison, it pulls your key interrupt for early use and also gets out your big drain site.  It can be started and everything, what more do you want?  </font></td></tr><tr><td><font face=arial size=2>Your Father's Lightsaber</font><font face=arial size=2> - Sun Mar 25 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>oh my god!  Qui-Gon and Maul kick A$$ into next week!  and rebel strike team will be beating even more now too.</font></td></tr><tr><td><font face=arial size=2>galvatron</font><font face=arial size=2> - Sun Mar 25 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Can't wait to blow the F*** out of EBO decks with Igar in Temp 1 with Veers in Blizz 1.</font></td></tr><tr><td><br><font face=arial size=2><a href="http://www.geocities.com/ggredv/index.html" target=gfds>http://www.geocities.com/ggredv/index.html</a></font><BR><font face=arial size=2>RedV</font><font face=arial size=2> - Sun Mar 25 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>RST is gonna win in Tournies now and that YFIFOS is out, Lightside Dueling decks might come into play soon. Think about it: Jedi Luke+Lukes Lightsaber+Courage of a Skywalker+YFIFOS+Obi-Wan's Journal=Dead Vader</font></td></tr><tr><td><font face=arial size=2>Fisher</font><font face=arial size=2> - Sun Mar 25 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Fisher, you forgot Lightsaber Proficiency</font></td></tr><tr><td><font face=arial size=2><a href="mailto:phobosmjb@hotmail.com">Matt</a></font><font face=arial size=2> - Sun Mar 25 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>These cards rock besides for the TTO inhanser</font></td></tr><tr><td><font face=arial size=2>PUTZ</font><font face=arial size=2> - Sun Mar 25 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I know as soon as the set is released, I'm going to be dueling Vader's pasty a$$.  I may even use Tat Utility Belts if need be.  <img src=/news/smileys/smile.gif></font></td></tr><tr><td><font face=arial size=2><a href="mailto:louis@lsd.every1.net">Dark Jawa</a></font><font face=arial size=2> - Sun Mar 25 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>You may start your landing.....i smell the Scrye price of EBO dropping</font></td></tr><tr><td><font face=arial size=2>Robertson</font><font face=arial size=2> - Sun Mar 25 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Yay. Now Ewok decks will be a little more powerfull when even more Jedi masters come out. Just think. 3 Jedi masters like qui-gon and Yoda and some other guy and a bunch of ewoks. Not only will that be retarded it might just work.</font></td></tr><tr><td><br><font face=arial size=2><a href="N/A" target=gfds>N/A</a></font><BR><font face=arial size=2><a href="mailto:jkh@istar.ca">Nicoramus</a></font><font face=arial size=2> - Mon Mar 26 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Hey you guys forgot one of Light Side's dueling cards: Glancing Blow!!!</font></td></tr><tr><td><font face=arial size=2>5D6-RA7</font><font face=arial size=2> - Mon Mar 26 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>In response towards the TTO enhancer, you guys will be surprised how <b> fast </b> TTO decks can setup in space when you do it right. I'm not saying it's worthy for big tourneys, it's too card intensive for that, but it sure packs alot of surprise towards local tourneys. Speed wins, and the new card does really help out these decks killing it's main weakness: those who try to blow it up. So the TTO enhancer doesn't suck, no it's alot of fun playing sucha deck. Just my 2 cents...  </font></td></tr><tr><td><font face=arial size=2>Sullust</font><font face=arial size=2> - Mon Mar 26 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>this set is going to send the tournament scene into chaos...which is cool. i just hope it wont be followed by a lot of errtas.</font></td></tr><tr><td><font face=arial size=2>edmund</font><font face=arial size=2> - Mon Mar 26 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Can't wait to see the podracing rules!</font></td></tr><tr><td><font face=arial size=2>Wedge</font><font face=arial size=2> - Mon Mar 26 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I can already see huntdown being done away with.  I can't wait to lay down Qui-Gon at a battleground.  I won't even play with Obi-Wan anymore, and I'll put Luke in the deck just in case they play bring him before me.  If they duel Qui-Gon (a non epic duel) their objective goes out of play.  OHHHH did I just crap your objective.  Sorry!  <br>
+<br>
+While Qui-Gon is at a battleground we both lose force.  I guess we can kiss goodbye to Hunt Down and welcome in "Kick Vader's Ass".</font></td></tr><tr><td><font face=arial size=2><a href="mailto:cdaulepp@yahoo.com">Wazzzzzzzup</a></font><font face=arial size=2> - Mon Mar 26 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Why do people call the D*2 enhancer for TTO??. well besides, the build D*2 enhancer is awesome, it makes it almost impossible to blow it up, which helps you lessen the number of protection cards you need, which again gives more space for good stuff!!<br>
+</font></td></tr><tr><td><font face=arial size=2>Casper</font><font face=arial size=2> - Mon Mar 26 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>the TTO enhancer is awful.  It doesn't really lessen protection cards, it still makes you play Desperate Counter, TIEs, weapons and what not.  TTO is way too card intensive, and protection of D*II isn't what it lacked.  The damage adder helps slightly, but not quite enough.</font></td></tr><tr><td><font face=arial size=2>Your Father's Lightsaber</font><font face=arial size=2> - Mon Mar 26 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Actually you now don't have to play with Ties and weapons and whatnot. I now think that this enhancer can go a long way. For opponent to blow it up, they'd have to have ability 4 pilot AND draw a 7. So now you do the normal start of first turn desperate counter, IAO, Jerj to the D*DB, and a sector, now your activation is pretty sweet, and you have this extra damage of 3 a turn. I think it'll be a new platform for Imp Command decks. anyways.....</font></td></tr><tr><td><font face=arial size=2>super-scrub</font><font face=arial size=2> - Tue Mar 27 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Well it looks like RST is going to be the mains deck, BHBM with three Jedi's? dust of that force field and kick some ass. Well as the dueler for the light side ouch whatch out Vader!!!!!!!!!</font></td></tr><tr><td><font face=arial size=2><a href="mailto:RenauK@expertm.com">Valek</a></font><font face=arial size=2> - Tue Mar 27 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Yeah, you have to have TIEs and weapons to make the movement destiny lower with Desperate Counter.  We'll have to see what can be made of it though, it might be able to win a few but I doubt it'll be as reliable as Hunt Down and Scum are now.</font></td></tr><tr><td><font face=arial size=2>Your Father's Lightsaber</font><font face=arial size=2> - Tue Mar 27 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>YFLightsaber: Walker Garrison has only one problem: The planet That Is Farthest From.</font></td></tr><tr><td><font face=arial size=2>garion</font><font face=arial size=2> - Tue Mar 27 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Garion: Got that right.  That, Menace Fades, and Honor all hurt it.  It's not too card intensive, so a lot of Garrison decks better be using the extra space for No Escape to keep that great DD potential alive, and some Big Blue and Imp commands or soemthing in space.</font></td></tr><tr><td><font face=arial size=2>Your Father's Lightsaber</font><font face=arial size=2> - Tue Mar 27 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>as cool as the ep 1 cards look, you forget jar-jar. jar-jar the rare card is coming!. jar-jar the  useless rare card you get every other frickin' pack is comming.... </font></td></tr><tr><td><font face=arial size=2>bmonk</font><font face=arial size=2> - Tue Mar 27 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>If I get more than 1 Jar-Jar, I will eat him.  I have eaten operatives for less than what Jar-Jar has done to me. <img src=/news/smileys/smile.gif></font></td></tr><tr><td><font face=arial size=2><a href="mailto:louis@lsd.every1.net">Dark Jawa</a></font><font face=arial size=2> - Wed Mar 28 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>it's true. i was there when he [Dark Jawa] at the operative.</font></td></tr><tr><td><font face=arial size=2>kurly-q</font><font face=arial size=2> - Wed Mar 28 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>So, is Jar-jar so bad?. I haven´t see him yet.</font></td></tr><tr><td><font face=arial size=2>garion</font><font face=arial size=2> - Wed Mar 28 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>It's not the card that's so bad, hey, the card may even be useful (yeah, like Hunchback).  I was just annoyed beyond belief by him in the movie.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:louis@lsd.every1.net">Dark Jawa</a></font><font face=arial size=2> - Wed Mar 28 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Yes, Jar-Jar SUCKS!!.</font></td></tr><tr><td><font face=arial size=2>Garion</font><font face=arial size=2> - Thu Mar 29 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Great, now I'm forced with a moral dilemma.  As much as I hate him, he's actually very useful. . this means he might actually find a place in my deck. . grrr. .</font></td></tr><tr><td><font face=arial size=2><a href="mailto:louis@lsd.every1.net">Dark Jawa</a></font><font face=arial size=2> - Thu Mar 29 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Now I've read jar jars text.. I take it back. this card is groovy.. deploy at any site regardless of restrictions or prescence.  very nice</font></td></tr><tr><td><font face=arial size=2>bmonk</font><font face=arial size=2> - Thu Mar 29 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Jar Jar is actually pretty good coupled with his tank... deploy 2 ability 3 power 3???? wtf???  his kamikazee text is phat</font></td></tr><tr><td><font face=arial size=2><a href="mailto:Deck104@aol.com">Deck</a></font><font face=arial size=2> - Thu Mar 29 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I have mixed feelings about JarJar.  I can't decide, is he an idiot or just a moron?  Does he make me sick, or just kind of light-headed?  Do I want to hit him in the face with a sock of sand, or in the groin with a wiffle bat?<br>
+<br><br>
+This card is just so wrong.  Stack a 7 on MWYHL and JarJar becomes invincible.  Deploy, attack, kill somebody, go back to his damn hole, come out, kill again.  You know how annoying he's going to be with Draw Their Fire out?!!  I can only be thankful that he can't pick a fight with Darth Maul.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:sonn@sfdebris.com">Sonn</a></font><font face=arial size=2> - Fri Mar 30 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Jar Jar is awesome! send him out, track a 7 or 6, kill any one you please, battle ends, no damage, they lose their character, Jar Jar goes to Brisky Mornin Munchen, take him back to hand, and repeat the process till opponent only has a few characters. he is like an Assassin!</font></td></tr><tr><td><font face=arial size=2>Fisher</font><font face=arial size=2> - Fri Mar 30 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I refuse to play Jar Jar based on the movie.  The only reason they made his card so awesome is that since everyone hates him that's the only way he'll ever appear in anyone's deck.  </font></td></tr><tr><td><font face=arial size=2>General Yoda</font><font face=arial size=2> - Fri Mar 30 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>As many I now have a great dilema. Jar-jar as a film character SUCKS and I HATE HIM. But as card is BIG. Dechipher is very bad for this.</font></td></tr><tr><td><font face=arial size=2>garion</font><font face=arial size=2> - Fri Mar 30 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I´m with you General Yoda.</font></td></tr><tr><td><font face=arial size=2>garion</font><font face=arial size=2> - Fri Mar 30 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>THREE light jedi masters</font></td></tr><tr><td><br><font face=arial size=2><a href="www.swccg1.com" target=gfds>www.swccg1.com</a></font><BR><font face=arial size=2><a href="mailto:jeremy@swccg1.com">Dudleyville,USA</a></font><font face=arial size=2> - Fri Mar 30 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I refuse to play Jar Jar based on the movie and I don't have to because it doesn't fit in a WYS deck. YIPEE!!!!</font></td></tr><tr><td><br><font face=arial size=2><a href="http://members.nbci.com/swfanpage" target=gfds>http://members.nbci.com/swfanpage</a></font><BR><font face=arial size=2><a href="mailto:kokken66@hotmail.com">kokken</a></font><font face=arial size=2> - Fri Mar 30 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Oh yeah, Decipher made him awesome because we all hate him.  That's hilarious.  I hate him, but that card is just too good not to play with.</font></td></tr><tr><td><font face=arial size=2>Wiedzmin</font><font face=arial size=2> - Fri Mar 30 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Jar Jar has decent text, so he may be in some decks...so we should Sharpie marker his pic out at least.</font></td></tr><tr><td><font face=arial size=2>Your Father's Lightsaber</font><font face=arial size=2> - Fri Mar 30 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>You are all right, Jar-jar is a very good card.<br>
+I hate the idea of playing Epissode 1 in SWCCG. How can you explain Qui-Gon dueling against Mara Jade?. All this sucks.</font></td></tr><tr><td><font face=arial size=2>Garion</font><font face=arial size=2> - Fri Mar 30 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I agree with General Yoda.  <br>
+<br>
+On another note, if anyone would like to reserve an un-opened box or case of the *NEW* SWCCG: Tatooine set ready for release in May, drop me an email at cdaulepp@yahoo.com  If you order 1 box the price is $105.00 ; 2 boxes $100 per box, 3 boxes or more $95 per box and I'll pay for shipping and handling.  Get them while you can.  Each box contains 36 packs and will be retailing in stores around $150.00  Come take advantage while my supplies last.  I have 8 cases on reserve now and can order more if the orders go high enough. I accept check/money order.  Shipping is yet to be determined.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:cdaulepp@yahoo.com">Wazzzzzzzup</a></font><font face=arial size=2> - Fri Mar 30 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Actually, even if you track a 6 or 7, you still won't kill Vader or Mara or Maul or the emperor. Well, I guess you could if they don't have good destiny. But yes I think they made him so good cause it'll get more people talking about the set and getting excited for it.</font></td></tr><tr><td><font face=arial size=2>super-scrub</font><font face=arial size=2> - Fri Mar 30 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>those bastards killed Hunt Down.How to kill Qui-Gon without placing the objective out of play???<br>
+</font></td></tr><tr><td><font face=arial size=2>#&!% decipher</font><font face=arial size=2> - Sun Apr 1 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I find it to be a contradiction that Decipher is trying to help DSII decks with the Tatooine expansion, but at the same time, Decipher is releasing Jar-Jar.  Most DSII decks deploy Jerjerrod to the DSII: DB to prevent him suffering a spy beatdown, but with Jar-Jar in the mix, this is no longer possible.  In fact, any deck that needs any sort of spy protection is going to be hurt.  Ephant Mon just can't do the job anymore.  No longer will he be able to protect the Bunker in an Endor Ops deck, or the Visage in a Hunt Down deck.  I'm hoping Decipher will give the DS a card to deal with this threat.<br>
+<br>
+Also on my hope list is a card to make flipping SYCFA a possibility.</font></td></tr><tr><td><font face=arial size=2>Marmoset X</font><font face=arial size=2> - Sun Apr 1 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I really like The Sheild Is Down.  RST is going to be quite powerful.  Just making sure, can you deploy Back Door with the effect on the first turn?  Or do you have to wait till your deploy phase?</font></td></tr><tr><td><font face=arial size=2><a href="mailto:Chanudel@Aol.com">Admrial Thrawn</a></font><font face=arial size=2> - Mon Apr 2 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>There's no problem with Jar Jar, why should the darkside be able to have a character that prevents deployment of spies?  The lightside doesn't.  No counter card is needed, just play ghhhk, It can Wait, 5 imp barriers.. etc. etc.<br>
+And it's not like he was safe anyways, Revolution and Choke wrecked Ephant Mon.  </font></td></tr><tr><td><font face=arial size=2>Serpent</font><font face=arial size=2> - Mon Apr 2 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>There's quite a bit of stuff to help stop Jar Jar, but not all of it is the best, which kind of sucks...to protector Jerry you can use Endor Shield, but you have to control the Bunker then...with this Rumors decks are hurt, maybe they'll make an enhancer for Endor Ops sicne they did RST?  </font></td></tr><tr><td><font face=arial size=2>Your Father's Lightsaber</font><font face=arial size=2> - Tue Apr 3 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>"I refuse to play Jar Jar based on the movie"...this is pure stupidity people. <br>
+<br>
+So if I didnt like the Duel in ANH between Obi and Vader (since it was lame, seriously..I know that technology wasnt as good, but it stunk.), does that mean I'm not gonna use Hunt Down, cause the image on the card is of that duel? NO! <br>
+</font></td></tr><tr><td><font face=arial size=2>Jar-Jar Will Kill You All</font><font face=arial size=2> - Tue Apr 3 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>the best duel strategy verse vader is jedi luke and stick + battle +glancing blow make vader power 0 = my 8 + destiny to your -3 +2 destiny.  ok vader has to get 2 sixes and i have to get a zero to win</font></td></tr><tr><td><font face=arial size=2>rogue nine</font><font face=arial size=2> - Tue Apr 3 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>You could even use the new 3PO to plant that destiny.  His text is just sick.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:louis@lsd.every1.net">Dark Jawa</a></font><font face=arial size=2> - Wed Apr 4 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I'm ust waiting for a Dark side main power generators to blow up <img src=/news/smileys/smile.gif></font></td></tr><tr><td><font face=arial size=2><a href="mailto:Andrews_dj@Hotmail.com">Djedi</a></font><font face=arial size=2> - Wed Apr 4 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>The new C3PO really rocks!!!!!.<br>
+You can have a destiny 6 (A Few Maneuvers for example) for only 1 force. GREAT!!!!!!!!.</font></td></tr><tr><td><font face=arial size=2>Garion</font><font face=arial size=2> - Wed Apr 4 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Threepio With Parts Showing is an awesome card. Check out Decipher's home page!</font></td></tr><tr><td><br><font face=arial size=2><a href="www.decipher.com" target=gfds>www.decipher.com</a></font><BR><font face=arial size=2>5D6-RA7</font><font face=arial size=2> - Thu Apr 5 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Good stuff so far!</font></td></tr><tr><td><font face=arial size=2>Figgiedan</font><font face=arial size=2> - Thu Apr 5 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I just got an evil idea.  Use YMSYL and Rebel Base Occupation.  2 Damage everyturn per Rebel base site you occupy, and then you could throw this in an ISB deck, split this between space and ground, control Hoth with both massive drains and HUGE direct damage</font></td></tr><tr><td><font face=arial size=2>BlackDemon4</font><font face=arial size=2> - Fri Apr 6 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>BlackDemon4: The direct damage potential of YMSYL is sick.  The card itself, you can acccomplish S&D against space easy, Rebel Base Occupation, We're In Attack Position Now...have No Escape in so Honor doesn't wreck you and Decree to stop their drains and there's not much they can do (except Menace Fades, but the DD can still overwhelm)</font></td></tr><tr><td><font face=arial size=2>Your Father's Lightsaber</font><font face=arial size=2> - Fri Apr 6 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Wazzzzzzzup,<br>
+Too bad my HD is only placed OOP if I initiate, which is IMPOSSIBLE for Vader to do against Qui-Gonn.  So you flip my objective, whoopee.  It allows me to take vader up into hand.  Meanwhile next turn I re-deploy him with Saber with Grand Moff Tarkin, 4-Lom w/ Gun and Ponda Buba and Dr. E. if i fear him.  And there are plenty of support cards in case the LS has more than just him.  Hunt Down is just as good or better than it always was, and I will continue to wreck with it.<br>
+</font></td></tr><tr><td><br><font face=arial size=2><a href="www.lord-x.cityslide.com" target=gfds>www.lord-x.cityslide.com</a></font><BR><font face=arial size=2><a href="mailto:lordx@tir.net">Lord X</a></font><font face=arial size=2> - Fri Apr 6 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Lord X, with The Camp now, DB's will be forced to be battle grounds, or then you get a max of 1 force for either player. I dont know about you, but most HD decks I've seen use non-BG DB's to get enough force to hit them hard. it also hurts BHBM and MKOS with the alien disadvantage.</font></td></tr><tr><td><font face=arial size=2>Fisher</font><font face=arial size=2> - Sun Apr 8 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>No one has even mentioned the card "Either Way, You Win."  This card is huge.  Imagine it in a Harvest deck Mains beat down.  Start Aim High.  On opponents turn play it, he has no force to pay for retrieval so he'll let you activate, then on your turn, do it again.  If he let's you retrieve, bonus.  If not, you activate again.  Now you have 8 force plus whatever you activated and you opponent has 4 available.  Pack you deck with Beru Stew, play one on his turn and again on yours after the EWYW and that's mad activation for both of you.  Now you have 12-16 force plus whatever you activated. Your opponent has 8 force available.  I smell one of two things comming, Frozen assets or a beggar beatdown.  Tunnel vision for the mains, beat down with extreme prejudice. Harvest the lost interrupts, lather, rinse, repeat.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:Jawa Tosser @ decktech.net">Jawa Tosser</a></font><font face=arial size=2> - Mon Apr 9 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Good idea, Magro.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:phobosmjb@hotmail.com">Matt Berta</a></font><font face=arial size=2> - Fri Apr 13 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Let's hear it for some broke-ass objective helpers!</font></td></tr><tr><td><font face=arial size=2>Ah, yes.</font><font face=arial size=2> - Fri Apr 13 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>what's whit Keeping The Empire Out Forever? May be with Sabbac? There are many ways to play this Objective! I'd prefer drain him away with this Force-Drain-Enhancer-Guy<br>
+Path Of Least Resistance and CC Celebration.<br>
+</font></td></tr><tr><td><font face=arial size=2><a href="mailto:alexsk8ter@gmx.de">boba</a></font><font face=arial size=2> - Tue Apr 17 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I don't know if it is true but any way an Episod I card is at the end of this link: <br>
+<br>
+http://www.draddog.com/obiwan.jpg</font></td></tr><tr><td><font face=arial size=2>TanDjo</font><font face=arial size=2> - Tue Apr 17 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I like the gamorean for my JP deck!<br>
+</font></td></tr><tr><td><font face=arial size=2><a href="mailto:259080aw@student.eur.nl">Jozsef</a></font><font face=arial size=2> - Sun Apr 22 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Um, You Guys are all talkin' some mad smack on Vader and how Luke will beat the sh*t out of him, Uhh, were talkin Darth Vader the guy who was killin Jedi when Luke was still Sh*ting his Diapers.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:Sk8erPunk4ever5">Jedi IG-88</a></font><font face=arial size=2> - Wed Apr 25 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>#&!% SWCCG</font></td></tr><tr><td><br><font face=arial size=2><a href="www.böhm.de" target=gfds>www.böhm.de</a></font><BR><font face=arial size=2>daniel böhm</font><font face=arial size=2> - Mon Apr 30 2001  </font></td></tr></table><p><font face=arial size=2><p>&nbsp;<a href="javascript:history.back(-1)">back</a></font><table><tr><td><font size=2 face=arial>*required fields<BR>only html tags <b>&lt;b&gt;,&lt;a&gt;,&lt;br&gt;</b> are allowed in your comment.</font></td></tr></table><br><form method=post action=/swccg/index.php3?artc=16><table><tr><td><font size=2 face=arial>*name</font></td><td><input type=text maxlength=150 name=name></td></tr><tr><td><font size=2 face=arial>email</font></td><td><input type=text maxlength=150 name=e_mail></td></tr><tr><td><font size=2 face=arial>url</font></td><td><input type=text maxlength=150 name=url></td></tr><tr><td valign=top><font size=2 face=arial>*comment</font></td><td><textarea rows=5 cols=25 wrap=soft name=comment></textarea></td></tr><tr><td>&nbsp;</td><td align=center><input type=hidden name=what value=post><input type=submit value="add comment"></td></tr></table></form>                         </font> </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <div align="center"> 
+              <p align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF" class="legal">Legal- 
+                TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and 
+                related marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher 
+                Inc. Decipher, Customizable Card Game, The Art of Great Games 
+                and associated marks and intellectual property are exclusively 
+                owned by Decipher Inc. All Rights Reserved. THIS Web Site IS NOT 
+                PRODUCED OR ENDORSED BY DECIPHER, INC OR LUCASFILM LTD. </font></p>
+              <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF" class="legal"> 
+                <br>
+                <a href="/swccg/main/terms.php3">Terms of Service</a> TM & © 2000 
+                www.decktech.net. All Rights Reserved. </font></p>
+            </div>
+            </td>
+        </tr>
+      </table>
+    </td>
+    <td width="180" valign="top" bgcolor="#000000" height="949"> 
+      <table border="0" cellspacing="0" cellpadding="0" width="150">
+        <tr align="right" valign="top"> 
+          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
+          <td width="154" valign="top" align="right"> 
+            <table width="154" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF">&nbsp; </td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF"> 
+                  <script language="JavaScript">
+
+function logout() {
+var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
+document.cookie = cookie;
+window.location = "../index.php3";
+	}
+
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+
+</script>
+                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
+<select name="select1" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="/swccg/resources/rulings.php3">Current Rulings</option>
+<option value="/swccg/main/decktech.php3">About DeckTech</option>
+<option value="/swccg/membercenter/directory.php3">Member Directory</option>
+</select>
+</form><BR>
+<!-- #EndLibraryItem --> </td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
+                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
+                  Center</a></font> <br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
+                  Reports </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
+                  Resources</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
+          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
+            <!-- #BeginLibraryItem "/Library/main.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td>&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/main/swccg.php3" class="level2nav">About 
+      SW:CCG</a><a href="/www/articles/strategy.php3" class="level2nav"> </a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/main/decktech.php3" class="level2nav">&nbsp;About 
+      DeckTech</a> <br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr>
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/main/join.php3" class="level2nav"> 
+      &nbsp;Sign Me Up!</a> <br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/main/projects.php3" class="level2nav">&nbsp;Community 
+      Projects </a> <br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/main/faq.php3" class="level2nav">FAQ 
+      </a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+  <tr> 
+    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/main/terms.php3" class="level2nav">&nbsp;Terms 
+      of Service</a><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --> </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
+          <td width="155" valign="top" height="13"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr align="left" valign="top" bgcolor="#630063"> 
+                <td width="154"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                    <tr bgcolor="#000000"> 
+                      <td height="34"><font face="Haettenschweiler, Impact, Arial Black" size="5">Community 
+                        Projects</font></td>
+                    </tr>
+                    <tr> 
+                      <td> 
+                        <p><font face="Arial, Helvetica, sans-serif" size="2">Are 
+                          you interested in helping to promote SW:CCG or grow 
+                          our community? Check out the current list of community 
+                          projects. From helping with technical skills or helping 
+                          organize events or publications. There is always something 
+                          that you can do. For more information.. <a href="/swccg/main/projects.php3"><br>
+                          <br>
+                          Read our Project List</a></font></p>
+                        </td>
+                    </tr>
+                    <tr> 
+                      <td>&nbsp;</td>
+                    </tr>
+                  </table>
+                  <BR>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

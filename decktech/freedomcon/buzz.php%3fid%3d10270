@@ -1,0 +1,425 @@
+
+<html><!-- #BeginTemplate "/Templates/freedom.dwt" -->
+<head>
+<title>FreedomCon - United We Stand</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {  margin: 0px 0px; border: none; font: 10pt Verdana, Arial, Helvetica, sans-serif; color: #000000}
+.legal {  font: 6pt Verdana, Arial, Helvetica, sans-serif; color: #CCCCCC}
+td {  font: 9pt Verdana, Arial, Helvetica, sans-serif}
+.nav {  font-size: 8pt; color: #FFFFFF; text-decoration: none}
+-->
+</style>
+</head>
+
+<body bgcolor="#000E58" margin="0" marginwidth="0" marginheight="0">
+<table width="93%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td colspan="2" height="97"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+        <tr>
+          <td><img src="/freedomcon/gfx/freeblue.gif" width="266" height="123" border="0"> 
+          </td>
+          <td valign="middle" align="center">&nbsp; </td>
+        </tr>
+      </table>
+      
+    </td>
+    <td width="42" height="97">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td height="149"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <tr> 
+                <td class="legal"><a href="/freedomcon/index.php" class="nav">Home</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/about.php" class="nav">About FreedomCon</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/sponsors.php" class="nav">Our Sponsors</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/contact.php" class="nav">Contact Us</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/attend.php" class="nav">Players Attending</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/donate.php" class="nav">Donations and Charity</a></td>
+              </tr>
+              <tr>
+                <td><a href="/freedomcon/buzz.php" class="nav">Discuss FreedomCon 2!</a></td>
+              </tr>				  
+			  
+            </table>
+            
+          </td>
+        </tr>
+      </table>
+
+      <!-- #BeginEditable "nav" --> <!-- #EndEditable --><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><br>
+      </font>
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b><br>
+            What:<br>
+            FreedomCon</b> <br>
+            Philadelphia 2002<br>
+            <br>
+            <b>When:</b> <br>
+            October 4-6 <br>
+            <br>
+            <b>Where:</b> <br>
+            NeoQuest Games<br>
+            Gary's Plaza<br>
+            531 South Broad Street<br>
+            Lansdale, PA 19446<br>
+            </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">215 
+            855 7035</font></td>
+        </tr>
+      </table>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"></font></td>
+    <td width="541" bgcolor="#FFFFFF" valign="top" background="/freedomcon/gfx/Vegasxflcam.jpg"><!-- #BeginEditable "body" --> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td valign="top" height="461" width="57%"> <br>
+
+<script language="javascript">
+
+echo "test";
+
+// This makes certain pages private, for members only. Neal 10-2013
+if ($access == "" )
+{
+echo "<table bgcolor='#ffffff' width=500><tr><td><P>This area of DeckTech is now restricted to members only. You must be logged in to view this page.
+Go to <a href='http://www.decktech.net/'> DeckTech.net </a> to log in";
+echo "<P>If you are not a member, and would like to spy on a member, you are cordially invited to kiss off.</td></tr></table>";
+exit;
+}
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+prev1.document.writeln(texttoshow);
+}
+
+function changetobold()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetospoiler()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "(drag mouse to see spoiler)<div style=background-color:red;color:red;foreground-color:red>"+newtext+"</div>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+linkyaddress = document.buzzboardform.texttoconvert.value;
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function oldchangetobold()
+{
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+
+
+
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5<br />
+<b>Warning</b>:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in <b>/home/decktech/public_html/global/includes/com/buzzboard.php</b> on line <b>1719</b><br />
+<table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font class="h1font">Defining types of "work". And which do you prefer? </B></font></td></tr><tr valign="top"><td><font class="bfont"><font class="bfont"> From: <a href="http://www.decktech.net/magic/main/mpage.php?member=17">neal </a></font><BR><table><TR><TD><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='/freedomcon/buzz.php?id=10270'><b>REFRESH THIS TOPIC</b></A></font></td><td width=40>&nbsp;</td></tr></table><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#EFF1FF><font class="h2font"> Comment</td></tr><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>BartmanMLV </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=BartmanMLV '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I think your explanation of marginal utility Neal, makes sense and can apply to folks who don&#39;t have a satisfactory amount of either one. <br />
+<br />
+I went on a scuba dive trip to cross off my bucket list a couple years ago to Fiji. After being accepted by the tribal chief to visit a tiny village in the middle of a valley I encountered some of the happiest friendliest non-materialistic people I&#39;ve ever met in my life. After each day&#39;s laboring, they gather in what looks like an outdoor longhouse and spend the afternoon singing together as a village, young a old. Children go from elementary through high in the village so they don&#39;t get exposed to Western influences. There&#39;s hardly any crime, everyone helps each other out and shares if someone has a need. It&#39;s not socialism, its just a genuine concern and comraderie. I found it refreshingly unique. <br />
+<br />
+They did say, as high school students asked to go to school into towns outside the village, then desires for materialistic things, the concept of stealing, pervaded the village in the past. <br />
+<br />
+They have lots of free time  but little material goods. So their marginal utility would be quite high say of they got a new desktop, or a radio. <br />
+<br />
+My marginal utility if I made an extra $20000 a year would be nice, but it would it would not exceed the utility I would get if I had an extra 2 months a year I didn&#39;t have to work and still pay my bills. <br />
+<br />
+My best friend asked "what price would you place on being able to do what you want when you want it?" Putting it that way put my tuition for doctoral school in perspective, tens of thousands doesn&#39;t seem so bad if it means I get to spend the rest of my life after my degree traveling the world. One of my mental roadblocks was "damn, that&#39;s a big chunk of my savings," or "that&#39;s a big student loan to take out" or "there goes my free time for bowling and games." Once I looked at it from his perspective, I found the investment in time & money small compared to the return.   <br><BR><font size=1>00:01 03-25-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Bartman, that wasn&#39;t a long answer, that was a good answer. <br><BR><font size=1>08:09 03-21-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">The more I ponder this, I think the question is all about the law of diminishing marginal utility (defined: the first unit of consumption of a good or service yields more utility than the second and subsequent units, with a continuing reduction for greater amounts).<br />
+<br />
+In other words, the less money you have, the higher marginal utility there is on increasing amounts.  Example. Making 10,000/year is not enough, so a 10,000 increase has a huge effect on utility (happiness). Making 1,000,000 a year and getting a raise of 10,000 means some happiness, but nowhere near the amount in case 1.<br />
+<br />
+Likewise, if you have little free time, you get much more marginal utility out of the free time whereas someone with plenty of free time doesn&#39;t really need more.<br />
+<br />
+SO it&#39;s just a matter of finding the equilibrium for you. Basic economics applied, just find your needs and balance them.  Does that make any sense? <br><BR><font size=1>08:09 03-21-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>BartmanMLV </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=BartmanMLV '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Phil, Based on how I value "non work time" job # 2 seems more attractive due to that long commute, without knowing any more information. For me these days, a criteria for job selection is "how much does it impinge on my free time?" <br />
+<br />
+It&#39;s funny I still have a Jeff Spicoli attitude about work as the character had about school. What is the most money I can make with the least hours of work each week? :) If you guys don&#39;t know who Jeff Spicoli is, watch the classic Fast Times at Ridgemont High.  <br><BR><font size=1>07:59 03-21-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">YoU are totally right neal.and everyone  has different allowances for happiness versus money<br />
+<br />
+But its more complicated than that.<br />
+<br />
+Job #1 26$ an hour drive 45minutes to work and random overtime. Government pension & great benefits<br />
+<br />
+Job#2 22$ an hour (buts lots of moving up fast to 30$ and more even) paid for driving. Average 256$ a week tax free) decent benefits and no pension<br />
+<br />
+Without knowing which job is a job I enjoy which would you take?  <br><BR><font size=1>07:36 03-21-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>BartmanMLV </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=BartmanMLV '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Interesting. I don&#39;t think I&#39;m familiar with the actual term "psychic income." As for your question, I am assuming "work utility" refers to how much you enjoy your job, vs striving to maximize income for its sake. <br />
+<br />
+I was teaching a personal finance class to a group of 8th graders and showed a CNBC video on lives of the super rich. In one segment a noted hedge fund manager was asked if he thought he had "enough," considering he had the homes, the dozens of supercars, the yacht that he may ride once a year, etc. He replied to the effect that sometimes it&#39;s not about enough, it&#39;s about "keeping score." There&#39;s always another level of attainment that drives him. I used to have that attitude in my undergrad corporate years. <br />
+<br />
+Then I did a 180 degree turn and went into teaching due to how enjoyable the profession was, despite taking a significant pay cut from doing government finance. It was all about the "psychic income."<br />
+<br />
+Then, after my best bud finished his Phd and turned his life around by making significantly more and working significantly less hours, I slowly came to the realization I could merge psychic income with income maximization, albeit via the hardship of going back to school myself. <br />
+<br />
+Right now, I have more psychic income since I&#39;m working part time as a professor for one college and 2 other universities. But I have a lot more free time to enjoy myself during the day since I teach at night and online and only sometimes during the day. <br />
+<br />
+It&#39;s going to get even more "psychic" since I&#39;ve been applying to doctoral schools and if I get accepted to one, I&#39;ll start this year on a 3 year (hopefully not longer) indebtedness to finish my DBA. BUT the payoff is being able to maximize my psychic income by commanding a much larger paycheck per class I teach as well as having unlimited potential for utility income. <br />
+<br />
+Sorry for the long post but I wanted to explain how I&#39;m trying to have my cake and eat it too :) <br><BR><font size=1>07:35 03-21-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Iceman </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Iceman '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I&#39;m currently working but I&#39;m excited for the off season. I&#39;ve been saving up my $ and will actually be able to enjoy it this time. which will make a world of difference. <br><BR><font size=1>20:47 03-20-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I always liked that, I heard Matt Lush say it first.<br />
+<br />
+Well, if we want to continue the discussion on work, let&#39;s talk about "psychic income".  All familiar with this?<br />
+<br />
+Let&#39;s say I have a job that pays me $30,000/year but makes me miserable. I take a job that pays me 29,0000 but I enjoy it a great deal.  I don&#39;t think any of us would argue over which to take. Job 2 offers at least 1,000 in "psychic income"<br />
+<br />
+Likewise, if one had a job that was incredibly enjoyable and paid 10,000, and was offered a job that was quite enjoyable that paid 100,000 we&#39;d all agree that job 2 was better. The psychic income of job 1 is nowhere near 90,000<br />
+<br />
+Obviously this psychic income multiplier varies from person to person (depends on your personal makeup, as well as your financial position at least) and job to job, but it&#39;s an important concept.<br />
+<br />
+how&#39;s about you? Place a higher value on money or work utility? <br><BR><font size=1>09:25 03-20-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>BartmanMLV </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=BartmanMLV '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I still find this an intriguing topic, with no wrong answer. I&#39;m interested in the diversity of perspectives on how folks define "work." Reminds me of the old adage "do a job you love & you&#39;ll never work a day in your life." <br><BR><font size=1>08:43 03-20-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>BartmanMLV </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=BartmanMLV '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I&#39;m interviewing to 3 different doctoral programs now, so "work" is going to include research and classes for about 20 hrs a week on top of my multiple jobs, over the next 3 years, assuming my finish my dissertation (knock on wood). If I finish, however, it will radically change my work schedule as a professor.  <br><BR><font size=1>16:58 03-10-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Drew Peapipeweed </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Drew Peapipeweed '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Wakkin&#39; = Fun day<br />
+<br />
+or did that mean something else <br><BR><font size=1>16:46 03-06-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Serpent </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Serpent '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">W = Fd <br><BR><font size=1>14:56 03-04-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>BartmanMLV </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=BartmanMLV '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">curiosity bump <br><BR><font size=1>00:37 03-03-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>BartmanMLV </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=BartmanMLV '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Oh, forgot!  I prefer # 3 because I&#39;m not a type of guy who wants to work outdoors and I like a flexible work schedule. <br />
+ <br><BR><font size=1>10:05 02-13-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>BartmanMLV </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=BartmanMLV '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I guess for my job, # 3 is a requirement, but # 2 is essential if you want to do the job successfully. I&#39;ve heard from students that professors have lots of #3 but lack #2 to make the concepts understandable. I, fortunately, am gifted in both #3 and # 2. <br />
+<br />
+By the way, I&#39;m a college finance professor :)  <br><BR><font size=1>10:04 02-13-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">iceman brings up a huge point.<br />
+<br />
+i work outdoors most days, have an office waiting on the rainy days, but even in those i prefer the outdoors.<br />
+<br />
+for me being happy at work is very close to = being outdoors. <br><BR><font size=1>12:33 01-14-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Just remember; advertising isn&#39;t dead.  Just print advertising.  Advertising is probably reaching more people than ever before, esp because of mobile.<br />
+<br />
+If you know advertising biz, and not just print, you can still make a lot of money. <br><BR><font size=1>09:45 01-14-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Judge </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Judge '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I knew it back then too, just didn&#39;t want to accept it. It actually still does work really well in some markets. We use tracking numbers for ads and some of them get great response and others not so much.<br />
+<br />
+What kills me is when the advertiser cuts back to a little bitty ad and then says it&#39;s not working while his competitors have big display ads and renew them!<br />
+<br />
+Whatever, it&#39;s a dying industry, no doubt, so we have been trying to get the slice of the internet pie and it&#39;s difficult, it&#39;s always changing, it&#39;s really hard to know what the best source is to use for the advertiser but it&#39;s easier to track than print so if it&#39;s working, they usually keep it. <br />
+<br />
+Advertisers wanted this bullsh1t, they never knew how easy they had it when all they did was a yellow page ad and it was done for a year, now they have to be on top of the internet stuff almost daily, it&#39;s not cheap, and there are a ton of black hats out there ripping people off. Personally, I hate it but I have to embrace it or find something else to do that I would probably like even less and not have the freedom I have here.<br />
+<br />
+It&#39;s getting better though and my attitude is improving and that&#39;s really the key. If you say "I hate my job", it&#39;s going to suck and I&#39;ve been doing that for 5 years and I&#39;ve been miserable. Now I&#39;m telling myself it&#39;s getting better and I feel better. <br />
+<br />
+Anyway, back to work. ;) <br><BR><font size=1>09:17 01-14-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Iceman </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Iceman '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Maybe become a personal trainer Neal ?<br />
+<br />
+I&#39;d also add :<br />
+Work Indoor/Outdoor.<br />
+By yourself/With a Group. <br><BR><font size=1>22:11 01-13-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I was very close to certain had to move to the internet for probably 7 years. Print ads were dying a slow death. I wanted and tried to tell you, but didn&#39;t want to be a jerk. Plus I don&#39;t know everything, it&#39;s just what I thought.<br />
+<br />
+If you do end up having to get a new career, it isn&#39;t a bad thing. I don&#39;t make as much money at home depot as I did in the early days of web design, but it&#39;s like 1000X more fun.<br />
+<br />
+I really actually like most of the people I work, and some I like a lot. The customers are cool too, mostly.  You learn a lot.  I&#39;m all for a new career in your 40s, not necessarily retail, but something new. <br><BR><font size=1>10:44 01-13-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Judge </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Judge '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Yeah, that&#39;s basically what i mean. You show up, do your job, and go home and don&#39;t give fock all about the company xmas party or who gets paid what or who is kissing a$$ the most, you just do your job, keep your mouth shut and go home. Easy, peasy, lemon squeezy.<br />
+<br />
+Doesn&#39;t work for me at my job because I have 2 parents and 2 sisters all around, all the time in a small office, you can&#39;t hide here! lol<br />
+<br />
+It&#39;s ok, it could be a lot worse. <br />
+<br />
+We have some new things happening that just may save us too. Things have not been looking good the last 5 years but we are more or less merging with another company that has direct access as a vendor to 10,000 hospitals and they belong to what&#39;s called a GPO, group purchasing organization, so they can use vendors and save money. The future for us is internet ads and most of these places don&#39;t have much so it could be a gold mine. <br><BR><font size=1>10:23 01-13-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">"There is a lot to be said for just doing a physical job and not having to interact with people very much. If you know what you have to do, you just do it and your only worry is making a mistake like breaking something or putting something together that doesn&#39;t work properly."<br />
+<br />
+The guy who suggested to me my job at Home Depot loves that.  I&#39;ve known him for almost 20 years from the library (before I knew any of you).<br />
+<br />
+He works overnights in lumber. He grabs a forklift and stocks, moves and straightens wood all night with his arms and machines. 8 hours later he goes home. He doesn&#39;t say anything to anyone. Nice guy but doesn&#39;t like people and frankly he sucks with them. He has an accounting degree but couldn&#39;t balance a checkbook. Worked there 15 years, but has no aspirations of moving up.<br />
+<br />
+He&#39;s happier than a rooting pig. No one bothers him, he saves money on day care and stays out of the limelight. And honestly, for being in his 40s he is in good shape. Drinks as much sugary soda as he ever desires. <br><BR><font size=1>09:50 01-13-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Judge </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Judge '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I work mostly with people via phone and email and I&#39;ve gotten pretty burned out on it.<br />
+<br />
+There is a lot to be said for just doing a physical job and not having to interact with people very much. If you know what you have to do, you just do it and your only worry is making a mistake like breaking something or putting something together that doesn&#39;t work properly.<br />
+<br />
+I&#39;ve been in sales for about 25 years, shoes and advertising, and I&#39;m pretty fried. I&#39;d hate to have to find a new career at 44 years old because it will likely not pay that well and I&#39;ll probably hate working for some sh1theel boss who also hates his life and job. I work for family and despite the obvious drawbacks, the pluses are enormous.<br />
+<br />
+I can&#39;t even wrap my brain around having to go learn something new, I&#39;ve become so set in my ways and maybe that&#39;s not such a good thing. Stability is good but it can also be BORING. I&#39;m not set financially so I have to continue to earn and pay bills so I can&#39;t just quit and do whatever I want especially when I don&#39;t even know what that is !<br />
+<br />
+It&#39;s a quandry, for sure.  <br><BR><font size=1>09:12 01-13-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">yeah artists fall under skill. creativity is basically a myth, all art is skill based (or lack of skill based) <br><BR><font size=1>08:34 01-12-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Serpent </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Serpent '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Booth,<br />
+<br />
+It&#39;s a good thing you like jobs working with people.  I&#39;m pretty sure most of the jobs working with trees and rocks only are taken.<br />
+<br />
+When I hire engineers and programmers, if they can&#39;t work with people, I don&#39;t hire em <br><BR><font size=1>01:49 01-12-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>mikefrench </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=mikefrench '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">yah that prob falls under skill.   <br><BR><font size=1>21:46 01-10-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">That is a good point. Yes. Say an artist or musician. Would that be under working with a skill though? <br><BR><font size=1>20:59 01-10-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>mikefrench </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=mikefrench '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">what about creativity? <br><BR><font size=1>16:14 01-10-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">2 and 3, some people who do my work would claim it&#39;s all 3, but then they suck at their job and don&#39;t realize that 2 is a huge factor.<br />
+<br />
+every job has some level of 2 i think. or any job ive ever had anyways. i tend to flourish more in jobs that are heavily #2. but .. i get bored i grew up on a farm and i also like neal prefer #1 be mixed in, my job gives me that luxury where i walk around all day and also can pick up a shovel and help the guys if i want..it&#39;s generally frowned upon but i still do it. <br><BR><font size=1>13:02 01-10-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>boothwah </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=boothwah '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">2 and 3.  But mostly 2.  I would not like a job where I didn&#39;t deal with people.<br />
+ <br><BR><font size=1>12:22 01-10-2014</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=10270><input type='Submit'  value=' Show all Posts '></form><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=10270><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/swtcg/main/join.php'> become a registered member</a></font></font></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script>
+<!-- advertising code -->
+<!-- Kontera ContentLink(TM);-->
+<!--
+<script type='text/javascript'>
+var dc_AdLinkColor = 'blue' ; 
+var dc_PublisherID = 157626 ; 
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'>
+</script>
+-->
+<!-- rumors board code end -->
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+      </table>
+      <!-- #EndEditable --></td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"> 
+      <p align="center" class="legal"><span class="legal"><span class="legal"><span class="legal"><br>
+        Legal- TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and related 
+        marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher Inc. Decipher, 
+        Customizable Card Game, The Art of Great Games and associated marks and 
+        intellectual property are exclusively owned by Decipher Inc. All Rights 
+        Reserved. THIS Web Site IS NOT PRODUCED OR ENDORSED BY DECIPHER, INC OR 
+        LUCASFILM LTD OR PARAMOUNT PICTURES. STAR TREK. </span></span></span> 
+        <span class="legal"><span class="legal"><br>
+        <span class="legal"> TM & © 2002 www.decktech.net. All Rights Reserved. 
+        </span></span></span><br>
+        <br>
+      </p>
+      </td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+</body>
+<!-- #EndTemplate --></html>

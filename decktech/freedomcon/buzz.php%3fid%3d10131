@@ -1,0 +1,418 @@
+
+<html><!-- #BeginTemplate "/Templates/freedom.dwt" -->
+<head>
+<title>FreedomCon - United We Stand</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {  margin: 0px 0px; border: none; font: 10pt Verdana, Arial, Helvetica, sans-serif; color: #000000}
+.legal {  font: 6pt Verdana, Arial, Helvetica, sans-serif; color: #CCCCCC}
+td {  font: 9pt Verdana, Arial, Helvetica, sans-serif}
+.nav {  font-size: 8pt; color: #FFFFFF; text-decoration: none}
+-->
+</style>
+</head>
+
+<body bgcolor="#000E58" margin="0" marginwidth="0" marginheight="0">
+<table width="93%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td colspan="2" height="97"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+        <tr>
+          <td><img src="/freedomcon/gfx/freeblue.gif" width="266" height="123" border="0"> 
+          </td>
+          <td valign="middle" align="center">&nbsp; </td>
+        </tr>
+      </table>
+      
+    </td>
+    <td width="42" height="97">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td height="149"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <tr> 
+                <td class="legal"><a href="/freedomcon/index.php" class="nav">Home</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/about.php" class="nav">About FreedomCon</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/sponsors.php" class="nav">Our Sponsors</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/contact.php" class="nav">Contact Us</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/attend.php" class="nav">Players Attending</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/donate.php" class="nav">Donations and Charity</a></td>
+              </tr>
+              <tr>
+                <td><a href="/freedomcon/buzz.php" class="nav">Discuss FreedomCon 2!</a></td>
+              </tr>				  
+			  
+            </table>
+            
+          </td>
+        </tr>
+      </table>
+
+      <!-- #BeginEditable "nav" --> <!-- #EndEditable --><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><br>
+      </font>
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b><br>
+            What:<br>
+            FreedomCon</b> <br>
+            Philadelphia 2002<br>
+            <br>
+            <b>When:</b> <br>
+            October 4-6 <br>
+            <br>
+            <b>Where:</b> <br>
+            NeoQuest Games<br>
+            Gary's Plaza<br>
+            531 South Broad Street<br>
+            Lansdale, PA 19446<br>
+            </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">215 
+            855 7035</font></td>
+        </tr>
+      </table>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"></font></td>
+    <td width="541" bgcolor="#FFFFFF" valign="top" background="/freedomcon/gfx/Vegasxflcam.jpg"><!-- #BeginEditable "body" --> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td valign="top" height="461" width="57%"> <br>
+
+<script language="javascript">
+
+echo "test";
+
+// This makes certain pages private, for members only. Neal 10-2013
+if ($access == "" )
+{
+echo "<table bgcolor='#ffffff' width=500><tr><td><P>This area of DeckTech is now restricted to members only. You must be logged in to view this page.
+Go to <a href='http://www.decktech.net/'> DeckTech.net </a> to log in";
+echo "<P>If you are not a member, and would like to spy on a member, you are cordially invited to kiss off.</td></tr></table>";
+exit;
+}
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+prev1.document.writeln(texttoshow);
+}
+
+function changetobold()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetospoiler()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "(drag mouse to see spoiler)<div style=background-color:red;color:red;foreground-color:red>"+newtext+"</div>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+linkyaddress = document.buzzboardform.texttoconvert.value;
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function oldchangetobold()
+{
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+
+
+
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5<br />
+<b>Warning</b>:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in <b>/home/decktech/public_html/global/includes/com/buzzboard.php</b> on line <b>1719</b><br />
+<table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font class="h1font">Introducing WWII: The Card Game </B></font></td></tr><tr valign="top"><td><font class="bfont"><font class="bfont"> From: Hunter </font><BR><table><TR><TD><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='/freedomcon/buzz.php?id=10131'><b>REFRESH THIS TOPIC</b></A></font></td><td width=40>&nbsp;</td></tr></table><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#EFF1FF><font class="h2font"> Comment</td></tr><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">lol i pretty much agree with the fake post.  <br><BR><font size=1>07:28 12-14-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>HuntaWarya </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=HuntaWarya '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">It won&#39;t let you print anything you&#39;re supposed to have to pay for.  Enjoy!  :)   <br><BR><font size=1>17:02 12-11-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Judge </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Judge '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Was I supposed to pay for that? I don&#39;t quite get the whole kickstarter thing and haven&#39;t played games in forever so this is new to me.<br />
+<br />
+Will gladly pay some money if I need to but the link took me right to the pdf and I&#39;m printing them now. <br><BR><font size=1>12:43 12-11-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Judge </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Judge '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Hey Brian, this looks really interesting. Will try the print and play and see what happens. <br><BR><font size=1>12:22 12-11-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">ti dont play the game anymore bcuz its stupid, but i heard v9 was gcming out so i took a look<br />
+<br />
+•Foul Moudama [Talz] (2)<br />
+[Virtual Set 9.1 - Premiere - C]<br />
+Lore: Talz.<br />
+CHARACTER - ALIEN<br />
+POWER 5 ABILITY 6 JEDI KNIGHT<br />
+DEPLOY 6 FORFEIT 6<br />
+<br />
+Text: Deploys -2 to Coruscant or to mobile sites. If at <br />
+your prison, Light Side goes first. Guardian Lightsaber <br />
+may deploy on Foul. May &#39;carry&#39; a character with power <br />
+< 4 (as if riding a creature vehicle). Once per game, <br />
+may / a clone or a non-Jedi alien.<br />
+<br />
+lol can this game get any more ridic? on the heels of two characters being released one who always draws (ds) and one who adds one (ls) and the pc justified the above&#39;s having a destiny 2 because of his stats, despite his text making it obv. he&#39;ll always be deploy -2 or free at start vs asm<br />
+<br />
+lol pc<br />
+ <br><BR><font size=1>13:48 12-09-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">just read neal you&#39;ve not missed anything.<br />
+<br />
+im printing this monday i saved the PDF <br><BR><font size=1>13:46 11-29-2013</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">fill me in, I just saw this. <br><BR><font size=1>12:43 11-28-2013</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>hag </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=hag '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">For real, this should be front page and on the main buzzboard thingy <br><BR><font size=1>03:39 11-21-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>hag </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=hag '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Dead sexy <br><BR><font size=1>01:28 11-20-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>HuntaWarya </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=HuntaWarya '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Kickstarter project is now underway.  Check it out:<br />
+<br />
+http://bit.ly/wwiitcg <br><BR><font size=1>04:23 11-19-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">this looks very promising hunter.<br />
+ <br><BR><font size=1>18:40 11-18-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>HuntaWarya </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=HuntaWarya '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Some.  I&#39;m not actually part of Fanfare Games, but for this particular game, I&#39;ve been something more than just an "outside consultant."  I&#39;ve been heavily involved in the game development process, and have been directing the playtest effort.   <br><BR><font size=1>12:33 11-18-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Heledia </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Heledia '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">You involved in the project Warya? <br><BR><font size=1>22:14 11-17-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>HuntaWarya </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=HuntaWarya '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><br />
+Today the game&#39;s designers are making available the Demo Decks for the game, free, as a print-and-play. Please note that these are simplified decks, designed to give players a taste of the mechanics, and that the full game is deeper and more sophisticated than what you&#39;ll see here.<br />
+<br />
+Link - http://bit.ly/1ihFV1j <br><BR><font size=1>02:05 11-16-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Nitsuj </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Nitsuj '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">This looks pretty intriguing. <br><BR><font size=1>08:52 11-15-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>HuntaWarya </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=HuntaWarya '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">New Game, Familiar Mechanics!<br />
+<br />
+Fanfare Games is launching a new game called WWII: The Card Game that is loosely inspired by the game mechanics of Star Wars CCG. When we began this project, we took a good long look at what made SWCCG (and some other constructed deck games on the market) successful as well as what some of the flaws were. Many of the imperfections in SWCCG are not immediately evident, and some of them might not seem (at first glance) to be flaws at all. This is because, as long-time players of the game, we had come to accept things as they were without thinking about how they might have been done better. In this post, I’m going to outline the multitude of changes that were made when taking the basics of SWCCG and re-theming the game to World War 2.<br />
+<br />
+What&#39;s NOT different:<br />
+<br />
+Fans of SWCCG will still be able to enjoy many of their favorite aspects. Players’ life is still tied to the cards remaining in their decks, with decks limited to 60 cards. Cards still have destiny numbers (renamed “Fortune” in this game, which is short for "Fortune of War") to add a random element. There will still be some opportunity for players to "track" the fortune numbers they&#39;ve seen earlier in the game, so that they can wield some control over that randomness later in the game. Players still deploy locations of their choice, and battle for control of those locations with units. Locations still come in two separate arenas - sea and land, as opposed to space and ground. And players still have a choice of distinct allegiances, in this case the Axis and the Allies.<br />
+<br />
+So what’s changed?<br />
+<br />
+Below I’ve listed a number of “problems” that exist with the basic mechanics and design philosophies of SWCCG, followed by the steps taken to correct them.<br />
+<br />
+[Disclaimer: The “problems” outlined here are things we wanted to change in the game. Certainly some of you may disagree that these things needed to be changed, but I’ve laid out our reasons for the changes below so you can make your own decision.]<br />
+<br />
+* Problem: Someone else’s mechanics<br />
+This first problem was not so much a mechanical problem as it was a legal one. We wanted to use many of the mechanics from our beloved SWCCG, but the exact mechanics still belong to others. We knew we needed to make some significant modifications to the way the game played in order for it to be sufficiently distinct from Decipher’s game. Not only that, we wanted to make the game uniquely our own and do new and exciting things with it so that although it would feel familiar to veteran SWCCG players, it would also feel fresh.<br />
+<br />
+* The Solution:<br />
+We removed the Force Pile and replaced the resource generation and spending system completely - Locations no longer have icons providing resources. Instead, players may place any number of cards from hand (limited to the number of different locations on table) face-down on the table in their “Industry Area” during their deploy phase to act as resources. These cards are essentially removed from your deck, so you must choose wisely. However, there are two exceptions. "Industry" cards are placed face-up and are specialized resources with special text designed to guide your strategy (and often your deckbuilding). "Tactics" (our version of Interrupts) that are placed down as resources may still be used as Tactics at the appropriate time, but when played from the resource area, they still go to the Used or Lost Stack. Using Tactics for resources is beneficial in that you don’t lose the ability to use those cards later in the game, but it also means that playing Tactics from your resource area will cost you resources to spend going forward.<br />
+<br />
+* Problem: “Attrition”<br />
+If you’ve ever played SWCCG, and especially if you&#39;ve tried to teach SWCCG, you know how tricky this concept can be. Attrition is a critical part of battling in SWCCG as most characters, vehicles and starships do not have weapons built into the card, so attrition exists to help clear things off of the table. Each battle, both players (if they have at least 4 ability at the location) could draw a battle destiny which created attrition against the opponent. The opponent must forfeit cards from the battle location worth at least that amount. But what happens when you have cards that have immunity to attrition? What if one character has immunity to attrition less than 5, but another character there doesn’t? What if the previous example happens but a 5 is drawn and the other character has only forfeit 4? What if… AGGH! So many complex situations are created by this basic concept that many casual players are slow to ever figure it out. So we scrapped it.<br />
+<br />
+* The Solution: Built-in Weapons<br />
+While we wanted to keep battle destiny in some form to keep the random element in determining the winner of a battle (while still rewarding players who build their decks with a high fortune average), we did NOT want attrition to exist anymore. So to solve the problem, we gave virtually all Units (a unit is our replacement for characters, vehicles and starships) the ability to fire at opposing units. Unlike EPPs in Star Wars, however, we don’t have any units that cause the hit target’s forfeit to be reduced. With built-in weapons, players have a very clear, straightforward way of eliminating their opponent’s units at the location, and in fact players have even greater control because they can choose who to try to kill rather than relying on drawing a high destiny for attrition. Additionally, this change facilitated the elimination of the Weapon card type and allowed us to remove “Ability” from cards and replace it with a basic defense value. Again, players still draw a fortune in battle, but it is simply added to total power.<br />
+<br />
+* Problem: Individual Characters<br />
+In SWCCG, players love to thematically reenact small scale battles with their favorite Star Wars characters. This is fine when you have powerful characters whose actions can single-handedly determine the fate of the galaxy. In WWII, this doesn’t make much sense.<br />
+<br />
+* The Solution: Units<br />
+Rather than having small-scale combat, WWII focuses on large-scale warfare. All land units are groups of troops or tanks, not individual soldiers. Air units (discussed later) represent groups of planes. Sea units still typically represent one ship, but also represent all of the personnel and weaponry aboard said ship.<br />
+<br />
+* Problem: Two arenas with minimal interaction between them<br />
+SWCCG was relatively unique in its use of space and ground locations; that is, specific locations, not vague “arenas” like the Star Wars TCG by Wizards of the Coast. We wanted to keep that duality, given that land and sea were two very different but equally important aspects of World War II, but we wanted built-in mechanisms for encouraging players to participate in both arenas.<br />
+<br />
+* The Solution: Air Units and Built-in Battle Plan/Battle Order<br />
+Air units are unique in that they existed (and greatly influenced combat) in both arenas of the war. Our challenge was making units that would be balanced and useful against both land and sea units. It took a number of iterations, but the evolution of air units has made them a powerful and influential component of the game without reducing the value of the arena-specific units. Air units face a number of restrictions that other units do not, but their versatility makes them impossible to ignore when building a deck. Additionally, we decided to put into the rulebook a requirement that players pay for depletions (force drains) unless they occupy both a land and a sea location.<br />
+<br />
+* Problem: Memory issues<br />
+Many SWCCG cards have text that can be used a certain number of times per turn or per game but offer no means of tracking how many times they&#39;ve *been* used during that turn or game. This can create controversy in games where one player believes an action has been used and the other does not.<br />
+<br />
+* The Solution: Exhaustion and Tokens<br />
+While it’s nice that SWCCG can be played with nothing but the cards, the lack of tokens exacerbates this memory problem. By adding a limited number of tokens to the game, cards can be clearly marked to indicate if an “X times per game” action has been used or not. Additionally, adding the exhaust mechanic, which means rotating the card 90-degrees (like "tapping" in Magic: The Gathering), allows players to easily know if a card has been used on a given turn. This is particularly important when tracking whether a unit with a firing ability has fired or not.<br />
+<br />
+* Problem: Too many deck searches/too much shuffling<br />
+As recent SWCCG players will know, many games start with players searching their deck 3, 4, 5, or even more times on the first turn, technically requiring a reshuffle each time. Then, as the game progresses, players are able to search their deck often just to see what’s in there, and decide if a certain battle or action is worth chancing. And again, more shuffling, and more delays.<br />
+<br />
+* The Solution: A “Sideboard”<br />
+In WWII, players start the game with a card that allows them to set up to 10 cards aside from the start of the game, like Defensive Shields. Unlike SWCCG’s Starting Effects, the sideboard (Homelands in WWII) is NOT limited to a specific card type. From their Homeland, players can gain access to as many locations as they choose, and players also have three opportunities per game to take any type of card into hand. This means that if there are any crucial cards to your strategy, you are guaranteed to get them every single game. Players can also pack the more standard fare that one expects to see in "sideboards" from other games: situational cards, and/or cards that will be particularly useful in a given matchup but not in every game you play. Additionally, you never have to worry about losing a key location card from your deck, because you can keep locations safely set aside beneath your Homeland. The trade-off is that there are no cards that allow players to search their deck. This saves time, at the minor expense of players not being able to easily check their Fortune (destiny in SWCCG) values. Given that there is no longer a Force Pile, however, there is no need to check to see if you activated the card you need to draw; you know already if it is in your deck or your Used Stack.<br />
+<br />
+* Problem: Non-battleground locations and critical battlegrounds<br />
+Another recent trend in SWCCG is that many decks run just one or two battlegrounds, and the rest of their locations exist only for Force generation. The result is that some games will boil down to players dumping everything at one key location and becoming entirely dependent on winning that location to win the game. This creates a significant luck factor (both in drawing your best battling cards to hand early in the game, AND the in-battle luck surrounding whether or not your weapons hit, whether you draw high or low for battle destiny, and so forth) and removes much of the strategy that movement between locations is supposed to create.<br />
+<br />
+* The Solution: Non-battlegrounds are no more<br />
+Every location on the table can be deployed to by both players, unless some game text (which is very rare) prevents it. This encourages interaction and encourages players to play more locations and build strategies around multiple locations rather than one key battleground. The new functionality of locations vis-à-vis resources (see the first bullet point) also encourages players to play more locations and seek interaction.<br />
+<br />
+And finally, there is card distribution.<br />
+<br />
+* Problem: Collectible/Trading Card Games (SWCCG, Magic: The Gathering, Star Trek CCG, Versus TCG) are games where players build their decks outside of the game and then compete with opponents either casually or in tournament play. And they all provide an advantage to players that spend more money on cards.<br />
+<br />
+* The Solution: Fixed Distribution<br />
+Much like Fantasy Flight Games’ well-received "Living Card Game" concept, we will be producing WWII in fixed sets; when you buy a package of our cards, you will know exactly which cards you are getting and in what quantities. Unlike FFG, we will not be releasing sets nearly as frequently, which means less to buy for players that want to stay competitive. The rulebook for WWII: The Card Game released on Monday, November 11th (and can be found in the link in the previous post) and we&#39;ll be Kickstarting the game on November 18th, so like us on Facebook (https://www.facebook.com/fanfaregames) and follow us on Twitter (@FanfareGames) to learn more.<br />
+<br />
+Thanks for reading! <br><BR><font size=1>08:01 11-15-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>HuntaWarya </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=HuntaWarya '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">WWII: The Card Game is a constructed deck, head-to-head card game, in which the two players represent the Axis & Allied Powers during World War 2.<br />
+<br />
+WWII: The Card Game is a fun and strategic blend of tried-and-true mechanisms, with new and interesting gameplay elements.<br />
+<br />
+This project will be coming to Kickstarter in November of 2013. For more information, visit: http://www.fanfaregames.net/wwii-the-card-game/<br />
+<br />
+There you can view the game&#39;s rulebook, a list of all the cards in the game&#39;s introductory set that have been "spoiled" to this point, and several articles about the game. The articles introduce card types, offer tips for basic gameplay, and much more! <br><BR><font size=1>07:58 11-15-2013</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=10131><input type='Submit'  value=' Show all Posts '></form><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=10131><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/swtcg/main/join.php'> become a registered member</a></font></font></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script>
+<!-- advertising code -->
+<!-- Kontera ContentLink(TM);-->
+<!--
+<script type='text/javascript'>
+var dc_AdLinkColor = 'blue' ; 
+var dc_PublisherID = 157626 ; 
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'>
+</script>
+-->
+<!-- rumors board code end -->
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+      </table>
+      <!-- #EndEditable --></td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"> 
+      <p align="center" class="legal"><span class="legal"><span class="legal"><span class="legal"><br>
+        Legal- TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and related 
+        marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher Inc. Decipher, 
+        Customizable Card Game, The Art of Great Games and associated marks and 
+        intellectual property are exclusively owned by Decipher Inc. All Rights 
+        Reserved. THIS Web Site IS NOT PRODUCED OR ENDORSED BY DECIPHER, INC OR 
+        LUCASFILM LTD OR PARAMOUNT PICTURES. STAR TREK. </span></span></span> 
+        <span class="legal"><span class="legal"><br>
+        <span class="legal"> TM & © 2002 www.decktech.net. All Rights Reserved. 
+        </span></span></span><br>
+        <br>
+      </p>
+      </td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+</body>
+<!-- #EndTemplate --></html>

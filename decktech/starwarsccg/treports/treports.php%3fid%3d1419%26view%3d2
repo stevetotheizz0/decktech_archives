@@ -1,0 +1,659 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php" class="level1nav">Articles</a><br>
+
+
+<a href="/starwarsccg/decks/index.php" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php" class="level1nav">Reports</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/treports/treports.php?cat=constructed">Constructed</a> &nbsp;<br>
+
+<a href="/starwarsccg/treports/treports.php?cat=sealed">Sealed Deck</a> &nbsp;<br>
+
+</div>
+
+  <a href="/starwarsccg/academy/index.php" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6540&view=2">Creating a tournament scene from scratch - part 4</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6542&view=2">A Decade Away / My 1st Tournament</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6536&view=2">Activation Statistics</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6533&view=2">A suggestion for getting more players</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6535&view=2">A Shot and SWCCG Immortality - Building a &#39;Tier 1&#39; Rescue the Princess Deck</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6537&view=2">You May Start Your Landing</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6534&view=2">Well, I fold.</A></font></li><BR></ol> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Tournament Reports</td><form method='post' action=''><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Tournament Reports</option><option value='#'> </option><option value='/starwarsccg/treports/index.php3'>Star Wars: CCG</option><option value='/heroclix/treports/treports.php'>HeroClix</option><option value='/vs/treports/treports.php'>Marvel VS</option><option value='/lotr/treports/treports.php'>Lord of the Rings</option><option value='/magic/treports/treports.php'>Video Games and Movies</option><option value='/wars/treports/treports.php'>Wizards Minis</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> Phoenix Mega Tournament! 11/4/00<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(4.79)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=4817'>Steve "BlackViper" Marshall</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=4817&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> November 5, 2000</font><p align='justify'><blockquote><font class="bfont"> I must apologize for any typos: my &#146;n&#146; key sticks, so it might be wierd<br />
+at times.<br />
+<br />
+So I set the alarm for 7:00am and go to bed at around 4:00. I wake up to<br />
+Batman Beyond and Pokemon, then I drag myself out of bed, nuke a couple<br />
+Pop Tarts, count my decks again and again, and head off to the<br />
+tournament. This isn&#146;t actually the Grand Slam; this is the 8-game Mega-Tourney, part of the Grand Slam weekend. I&#146;ve been hyping myself up all week, telling myself I&#146;m<br />
+gonna win it all and all that. I was ready to go! I had a new EBO deck<br />
+that has the potential to be a killer if I get it set up right, and I<br />
+have been working on my old PalpyOps from long ago for DS. As a note to<br />
+all my readers: Diamond sites are NOT dead unless you&#146;re playing the<br />
+LS card! Same goes with numbers; it&#146;s not retired unless you play the<br />
+card. I get to AZ Gamer and realize that my pop tarts are still in the<br />
+microwave. Oops. I see Andy Marcantel, David Teeters, and a couple other<br />
+buddies and fill out the decklist and command card. Brandon Allen<br />
+informs me that I put my email addy above my player ID and I need to<br />
+change it before he can put it on the command card. The lady next to me<br />
+rolls her eyes and just writes the information down. I tell Brett that I&#146;m gonna win, and he encourages me instead of the laughter I was expecting. Cool! We finally get<br />
+settled for our first pairings.<br />
+<br />
+GAME 1: PalpyOps vs. Matthew&#146;s Hoth w/ elom reacts (not EBO)<br />
+I haven&#146;t seen this guy before, so I don&#146;t know what to think. There are<br />
+a lot of out-of-state players, but there are also newbies from AZ. I<br />
+decide before the game starts that I&#146;m gonna open a can. I present to<br />
+you, ladies and gentlemen, God&#146;s starting hand: Lord Vader, Palpy, Mara,<br />
+Mara&#146;s Stick, Royal Guard x 2, Abyssian Ornament, and the Exec DB. I<br />
+pull the Prefect&#146;s Office and the Coruscant DB from my deck, drop the<br />
+EDB, and a Royal Guard at each DB. He drew his Force into his hand. I<br />
+still don&#146;t know what to think of him. I couldn&#146;t set up Ralltiir<br />
+because I activated my Forest and Spaceport DB in my God-like generation<br />
+next turn. He deploys AFA in the deck after I deploy everybody, DRAT! I<br />
+have Fett in S1 in my hand, and I pop AFA in the generation. I activate<br />
+2 and use it to search for ghhhk. I&#146;m gonna deploy Fett on the ground<br />
+with his little &quot;army&quot; and soak the damage. IT&#146;S NOT THERE! So I pull<br />
+U3PO instead and take the 4 damage. He tries to give someone a jedi<br />
+lightsaber to drain with, but Weapon Of The Ingrate takes care of that.<br />
+Davod Jon an appearance and overpowered his army of 4, taking out<br />
+everything except a droid and sacrificing himself to the 3 attrition.<br />
+DRAT! I had a drain of 9 going to his 0, and there was nothing he could<br />
+do. I didn&#146;t have enough Guards to make Abyssian work, but I should have<br />
+used Weapon Of The Ingrate to put the sabers and Pikes back in the deck.<br />
+Too bad.<br />
+<br />
+FW by 19<br />
+2(+19)<br />
+<br />
+PROS: I&#146;m getting settled in. I&#146;m not used to a tournament this big, but I&#146;m getting relaxed now.<br />
+CONS: None, really. I kinda wish I had used my Weapon of Ingrate to add to my dif.<br />
+<br />
+In the middle of my Game 1, the large ominous shadow of Michael Girard<br />
+hovers over me and asks for my LS deck. I had counted this deck 10 times<br />
+over and over again; I know it&#146;s 60 cards! I was worried sick about it.<br />
+Turns out I forgot to add the &quot;x 2&quot; to my YT-1300s, giving me a warning.<br />
+I take my deck back with a thousand apologies, feeling very glad we<br />
+didn&#146;t abide by DecipherCon rules. Thanks again, Mike!<br />
+<br />
+GAME 2: EBO Capitals vs. Jonny&#146;s BHBM<br />
+As we&#146;re setting up our starting cards, Clint Hays beside me tells his<br />
+opponent not to stack his effects. If he does it again, it&#146;s a game<br />
+warning! A couple jokes about the rules and penalties broke out, then we<br />
+started the game. As I&#146;m typing this, it just doesn&#146;t have the same<br />
+impact it did at the time. It was funny when it happened; I guess you<br />
+had to be there. Anyways...<br />
+So my hand consists of Strikeforce (you need it in EBO!), Chasm (a<br />
+painfully powerful card), Honor, and Menace Fades for effects, 2<br />
+capitals, Endor, and a Signal. Nothing to help get EBO going at all. I<br />
+deployed my effects, and he nearly choked when he read Chasm. &quot;So, how<br />
+many Vaders are you playing with today?&quot; It&#146;s just awesome. He put IG88<br />
+w/, Dr. E, and Mara with her stick at a drain 3 location, so I signaled<br />
+for Undercover instead of Squad Assign and dropped my newly drawn<br />
+Cracken. I couldn&#146;t stop pulling Signals, and it was kinda annoying.<br />
+Squadron Assign didn&#146;t help at all because I couldn&#146;t get a pilot or a<br />
+ship. I lost too much blue to drains, too. Cappy Han, Home 1, and the<br />
+Independence made quick work of Ozzel in the Exec, but allowed Zuckuss<br />
+to escape to Kiffex. Unfortunately, I wouldn&#146;t get any more blue the<br />
+entire game. I gave him Luke JK from my lost pile as soon as Lord Vader<br />
+hit Endor to give him a little Direct Damage. Here&#146;s where I&#146;m a bad<br />
+player. He&#146;s draining for 3 at each of 3 Endor sites; 1 icon, a +1, and<br />
+a saber. I have Menace Fades on the Table, Hoth belongs to me and Kiffex<br />
+I&#146;m working on, and Obi is holding the 4th Marker. I didn&#146;t cancel his<br />
+drain modifiers the entire game, and it killed me. I&#146;m a bad player. I<br />
+don&#146;t know what my cards do. Palpatine left his home on the DS2 for some<br />
+reason, I don&#146;t know why. I would have won this game if I had known why<br />
+I put the cards in my deck that I did. Keep count; this is game 1 that I<br />
+should have won.<br />
+<br />
+FL by 13<br />
+2(+6)<br />
+<br />
+PROS: Definitely the starting hand! Seeing his face when he read Chasm.<br />
+CONS: Gee, there&#146;s so many to list! I won&#146;t forget Menace Fades again. I wish I remembered how to use spies.<br />
+<br />
+GAME 3: PalpyOps vs. Mike&#146;s HB w/out flip<br />
+This was by far the most fun game I played all day. Wedge RSL and Gen<br />
+Cal showed up in their respective ships at Tatooine, but I flipped, so<br />
+he didn&#146;t have a drain. He pulled Dagobah and the Hutt, Tatooine, and<br />
+Alderaan, but that was it. I flipped turn 2. He tried to bring his EPP<br />
+army against my Royal Guards. I wouldn&#146;t have minded being that I had<br />
+the ghhhk in my hand, but I decided to tell him that all his guys were<br />
++2. He pulled back and waited a little. We battled all over space and on<br />
+the ground. Putting Palpy or LVader at the Prefect&#146;s Office creates a<br />
+beast! My power 4, Def Value 4 Royal Guards were kicking all kinds of<br />
+butt. And Goo Nee Tay can&#146;t touch em! He won our Sense/Alter war,<br />
+putting all my cancellers in my lost pile because I didn&#146;t get out<br />
+Oppressive Enforcement in time, and he used Our Most Desparate Hour 3<br />
+times to retrieve 6 or 7 Force each time. He had to work for it because<br />
+CHYBC was on the table, but he managed. I flipped that objective back<br />
+and forth more times than I can remember. Fett in S1 and Bossk in Bus<br />
+took on Wedge and the Falcon, leaving Calrissian all alone against<br />
+Bossk. He deployed Nien Nunb and battled me, I played Res Luk, but he<br />
+Sensed it! That is the best use of that card; in space with the perm<br />
+pilots! They don&#146;t count as bounty hunters, but the OR works with Bossk<br />
+and Fett. Anyway, that single battle probably lost me the game with the<br />
+amount of cards I lost. Time was called, and after a battle, I played<br />
+Abyssian Ornament, knowing full well that I only had 3 guards on the<br />
+table and my destiny was a 3. I just wanted the 5 in the deck and on the<br />
+top! Now, had I actually used it during that battle before I lost my 4th<br />
+royal guard, it would have been much better! Time was called on my<br />
+deploy phase, otherwise I would have grabbed Weapon of the Ingrate and<br />
+pulled 4 pikes and 2 sabers back in the deck. We counted; I had 11 cards<br />
+in the deck, and he had 12. :-(   Still counting? This is game #2 that I<br />
+should have won but didn&#146;t because I&#146;m a bad player. But this was a<br />
+completely awesome game. He had me sign his Sense in memory of our<br />
+little war.<br />
+<br />
+TL by 12<br />
+2(-6)<br />
+<br />
+PROS: This was a fantastic game. I played my strategy very well against him.<br />
+CONS: Having time called just after my control phase ended. Timing out in the first place.<br />
+<br />
+Okay, okay... I came into this not wanting to suck as bad as I did at<br />
+Pat&#146;s tourney. At least I won a game today!<br />
+<br />
+GAME 4: EBO Capitals vs. Mike Sinclair&#146;s Hunt Down w/ Please-Rape-Me<br />
+Duels<br />
+I hate playing Mike. He always beats me, even though it&#146;s never by a<br />
+lot. But I&#146;ve never won a game against him. Before the game, I get all<br />
+@#$%y with him in fun. I&#146;ve got 5 characters, 4 of them pilots, and 2 of<br />
+them spies. How cool is that! He didn&#146;t start No Escape, so I signaled<br />
+for Honor instead of cancelling Visage. Vader came to play on Hoth, and<br />
+I lured him under the shield as I deployed Obi to his CC to flip him.<br />
+Igar in Tempest 1 make short work of hero and Vader comes out of the<br />
+base to flip again. Jedi Luke wants to see if he can survive longer than<br />
+his mentor, so he visits the city in the sky next. All the while, EBO is<br />
+set up, but I&#146;m only draining at Hoth because Zuckuss, IG88 w/, and 4LOM<br />
+w/ took control of Kiffex too early, and I&#146;m not going anywhere near<br />
+that little combo. He eventually gets Bossk out to Hoth and moves the<br />
+Z-crew over. I know the true power of bounty hunter ships and realize<br />
+that he is getting 4 destinies, but for some reason I stay there. I was<br />
+hoping in those destinies he would get a dupe and lose it to Chasm, the<br />
+little effect hiding on the corner of the table. BUT NO! I draw a 3 and<br />
+a 2, and he draws 3 destiny 6 cards!!!!! And they&#146;re all interrupts, so<br />
+Chasm doesn&#146;t touch them! I got royally screwed, and there was nothing I<br />
+could do about it. He lost his droids, I lost nearly everything. I can&#146;t<br />
+do much against attrition of 20! I&#146;m not immune to that. He pulled<br />
+destiny 6 every time, and it was painful. Luke held his ground on CC the<br />
+entire game until I knew I was gonna lose, so I left him alone with<br />
+Igar. He pulls a couple destiny 6 cards again to my 5. It was fun, but<br />
+painful!<br />
+<br />
+FL by 13<br />
+2(-19)<br />
+<br />
+PROS: Not losing by more<br />
+CONS: Playing Mike<br />
+<br />
+Remember when I said I didn&#146;t want to screw up like I did in Pat&#146;s<br />
+tourney? Well, it&#146;s not looking good for our hero today.<br />
+<br />
+GAME 5: PalpyOps vs. Andy Marcantel&#146;s MWYHL to 6<br />
+My starting hand had 3 docking bays in it. That&#146;s not normal! I like<br />
+playing Andy; he knows how to have fun. I easily set up Ralltiir, but it<br />
+takes him 3 turns to begin training. Overseeing It Personally comes out<br />
+a turn too late, so I don&#146;t get to double my drains. Fett blocks his<br />
+B-Wings at the system to flip me over, and he lands amidst the army. I<br />
+soon realize he&#146;s playing a version of Chris Shaner&#146;s MWYHL that I lost<br />
+to long ago before I really knew how to play. He&#146;s holding Coruscant<br />
+with 7 B-Wings and S-Foils! When I finally get Bossk, Zuckuss, and 4LOM,<br />
+I take the trip to the center of the Old Republic. I also held onto a<br />
+ghhhk. We battled over and over again, but my recurring bounty hunter<br />
+ships and cool use of Res Luk was too much for him. He got beat off the<br />
+planet, and Fett held control for the rest of the game. He couldn&#146;t draw<br />
+his test 5 destiny because he didn&#146;t have a reserve deck (he was low on<br />
+cards), and he couldn&#146;t retrieve his 10 because of CHYBC. Too bad! I<br />
+drained him out after a few turns. He&#146;s always fun to play, and we<br />
+chatted with the guys beside us. My losing streak brought me to the fun<br />
+table!<br />
+<br />
+FW by 16<br />
+4(-3)<br />
+<br />
+PROS: I like Andy. He&#146;s fun. And PalpyOps does it again. He was a couple places higher than me in round 3, so I&#146;m glad I took it to him. Beating down the B-Wings<br />
+CONS: Letting him control Ralltiir with his b-wings for a turn.<br />
+<br />
+GAME 6: EBO Capitals vs. John Towner<br />
+He decided to concede the match to me before we started to go play Trek.<br />
+I still think leaving StarWars for Trek is blasphemy or something, but<br />
+hey, I&#146;ve got 30 points and an even record at 3-3.<br />
+<br />
+FW by 30<br />
+6(+27)<br />
+<br />
+PROS: Hey, it&#146;s 30 points!<br />
+CONS: Leaving SW for Trek? Come on!<br />
+<br />
+Yes folks, we&#146;re still going! Our 4 round / 8 game tournament continues.<br />
+This is fun! We should do it more often.<br />
+<br />
+GAME 7: PalpyOps vs. Joel&#146;s Profit M+T<br />
+I just finished playing his brother Mike in game 3, and it was fun. I<br />
+decide not to put Mara in the Aud Chamber. I set up quick, and he<br />
+battled against 5 of my power 4, defense 4 royal guards and lost over<br />
+and over again! I LOVE THE PREFECT&#146;S OFFICE!!! He failed a Fallen Portal<br />
+draw against a single royal guard at one point. Like before, there was a<br />
+lot of battles on the ground, but neither of us took to space. He was<br />
+unfortunately killing all of my characters, leaving me with fewer and<br />
+fewer cards. DVDLOTS got lost cruising around DB 94, and I never<br />
+bothered to find him. The constant killing and Profit DD did me in. This<br />
+was another really fun game, and there was no way I could have won this<br />
+game by doing it differently. I even tried to abyssian ornament for 5<br />
+with just a couple cards left in the deck, but I drew Palpy! DRAT! This<br />
+was fun.<br />
+<br />
+FL by 11<br />
+6(+16)<br />
+<br />
+PROS: Another fantastic game. Putting the Prefect&#146;s Office in the deck.<br />
+CONS: I should have killed Han earlier.<br />
+<br />
+GAME 8: EBO Capitals vs. Van&#146;s ISB with ORS<br />
+Finally; and out-of-state player! This game was just ugly. I have never<br />
+played against an ISB deck, so I already knew that this could suck for<br />
+me. I don&#146;t know how to play against it. On top of that, I got set up<br />
+too late. He set up his drains big and fast on me. I was draining for<br />
+10, but he cancelled the 4 @ Kiffex with the Den Of Theives. I couldn&#146;t<br />
+find Strike Planning to stop him from cancelling drains, and he couldn&#146;t<br />
+find a trample to get rid of my undercover spies. I took out Bossk and<br />
+Fett at the expense of the Spiral (it deploys as a react for 1 with EBO<br />
+in effect!), and he never tried space again. He won the drain race<br />
+because he beat me off the 4th marker, cancelling Menace Fades&#146; effect.<br />
+It was a fun game, he was a good guy, and I&#146;m glad I finally got to play<br />
+against this deck type.<br />
+<br />
+FL by 5<br />
+6(+11)<br />
+<br />
+PROS: Finally playing an ISB deck.<br />
+CONS: Losing to an ISB deck.<br />
+<br />
+So I almost scrubbed out. I guess it was borderline. I came 32nd out of<br />
+56, so I was right there in the middle again. My prize support of 1 CC<br />
+and 2 DS2 packs along with a &quot;grab pack&quot; with Vaper Crall and DS2<br />
+commons (just what I needed) worked out great; I pulled a Jedi Luke!<br />
+That was worth the $15. Thanks a lot to AZG for hosting us on this late<br />
+event, Mike Girard, Brandon Allen, and Jay Webb for running an amazing<br />
+tournament, and everyone else that helped out for doing so. I wish I<br />
+could have recorded the top 10 scores, but I didn&#146;t get them all. Brett<br />
+Kitani took 6th place overall. I stayed after for the final<br />
+confrontation, and after the dust settled, Kevin Shannon beat Brian Hunter to<br />
+take sole possession of 1st place and the entire BB StarWars set. They<br />
+agreed before the match to give 2nd place the set of Reflections and 1st<br />
+place everything else. I&#146;m pretty sure that was the arrangement; we<br />
+couldn&#146;t hear what they were saying over everyone talking! j/k. Thanks a<br />
+lot for a great time!<br />
+<br />
+The Good:<br />
+* Arizona Gamer for hosting the event<br />
+* Michael Girard (Gold 120) for running a HUGE yet flawless tournament<br />
+* Kevin Shannon for winning the thing<br />
+* Brett Kitani for placing 6th overall<br />
+* All the out of towners that made the trip, especially Clint Hays, Kevin Shannon, and Brian Hunter.<br />
+* Everyone who stayed at AZGamer from 8am til 9:30pm for the whole shbang.<br />
+<br />
+The Bad and The Ugly:<br />
+* Me for scrubbing hard<br />
+* P.H. for placing lower than me - When he said he was having a Steve day, he meant it!<br />
+* Mike Sinclair for constantly saying penis throughout the day ;-)<br />
+* The traffic on I-17 for making me late (8:45)<br />
+<br />
+Thanks for reading. <br></font></blockquote><BR><font class="bfont"> <A HREF='/starwarsccg/treports/treports.php?id=1419&view=1'>Read the Reviews</a><font class="bfont"> | <A HREF='/starwarsccg/treports/treports.php'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

@@ -1,0 +1,536 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action=""><input type="hidden" name="PHPSESSID" value="84d2b1152e98cb77a826b3278db9feed" />
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php?PHPSESSID=84d2b1152e98cb77a826b3278db9feed" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php?PHPSESSID=84d2b1152e98cb77a826b3278db9feed" class="level1nav">Articles</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/articles/articles.php?PHPSESSID=84d2b1152e98cb77a826b3278db9feed">All</a> &nbsp;<br>
+
+</div>
+
+
+<a href="/starwarsccg/decks/index.php?PHPSESSID=84d2b1152e98cb77a826b3278db9feed" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php?PHPSESSID=84d2b1152e98cb77a826b3278db9feed" class="level1nav">Reports</a><br>
+
+  <a href="/starwarsccg/academy/index.php?PHPSESSID=84d2b1152e98cb77a826b3278db9feed" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php?PHPSESSID=84d2b1152e98cb77a826b3278db9feed" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php?PHPSESSID=84d2b1152e98cb77a826b3278db9feed"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 2 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=84d2b1152e98cb77a826b3278db9feed'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'><b>Star Wars CCG</b><br><a href='/starwarsccg/featured/taylor.php?PHPSESSID=84d2b1152e98cb77a826b3278db9feed'>2007-01-23 Scott Lingrell</a><br></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6467&view=2&PHPSESSID=84d2b1152e98cb77a826b3278db9feed">Mr. Pistone Interviews Brian Fred</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6468&view=2&PHPSESSID=84d2b1152e98cb77a826b3278db9feed">Mr. Pistone Interviews Brian Hunter</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6470&view=2&PHPSESSID=84d2b1152e98cb77a826b3278db9feed">Top 10 Things To Know About Virtual Set 12</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6461&view=2&PHPSESSID=84d2b1152e98cb77a826b3278db9feed">Plastoid Armor (v)</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6471&view=2&PHPSESSID=84d2b1152e98cb77a826b3278db9feed">BCS Rankings - January 2007</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6465&view=2&PHPSESSID=84d2b1152e98cb77a826b3278db9feed">February Top 20</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6469&view=2&PHPSESSID=84d2b1152e98cb77a826b3278db9feed">Who wants to be a star war millionaire?</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6459&view=2&PHPSESSID=84d2b1152e98cb77a826b3278db9feed">Are there any SWCCG players in the Virginia area?</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6462&view=2&PHPSESSID=84d2b1152e98cb77a826b3278db9feed">Subway is good aka I like Pizza done RIGHT</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6460&view=2&PHPSESSID=84d2b1152e98cb77a826b3278db9feed">notes from Thaddeus Chenoweth...</A></font></li><BR></ol> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Articles</td><form method='post' action=''><input type="hidden" name="PHPSESSID" value="84d2b1152e98cb77a826b3278db9feed" /><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Articles</option><option value='#'> </option><option value='/starwarsccg/articles/index.php3'>Star Wars: CCG</option><option value='/vs/articles/index.php'>Marvel VS</option><option value='/heroclix/articles/articles.php'>HeroClix</option><option value='/lotr/articles/articles.php'>Lord of the Rings</option><option value='/magic/articles/articles.php'>Video Games and Movies</option><option value='/wars/articles/articles.php'>Wizards Minis</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> How to run a con - Part 1<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(4.94)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=175'>Scott "CRingwell" Lingrell</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=175&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> July 16, 2003</font><p align='justify'><font class="bfont"> Hello,<br />
+<br />
+Scott Lingrell here.  I started out playing SW in the Coruscant region in 96 I think and just like everyone played in local events.  Then one day, Ted P, had the battle of Midway, which had players from NJ, Albany and Philly (among others) and was very successful because it brought the best players from the region together.  Afterwards, it continued with numerous events run by Ted P and other like Rich Haman, Marty Twigg and more.<br />
+<br />
+One day, I decided to have an event like that at my college that would draw a large number of people with excellent prizes.  It was run at my college at the time, Ramapo College of NJ, and therefore I named it RamapoCon 99.  In the next few articles, I am going to use actual proposals, prize lists, action plans, etc on how I organized RamapoCon III on June 8-10, 2001.  I hope that these articles (and examples) can give people ideas on how to go about starting their own successful con in their area.<br />
+<br />
+Last thing before I get started &#8211; I did not do this stuff on my own, for every RamapoCon I ran I had help&#8230;lots of it, so I recommend getting the list of Riders, Ambassadors, Shadow Squad in your area and asking or begging for their help.  It goes a long way in securing a top-notch event.  <br />
+<br />
+The following was the actual proposal I presented to Ramapo College of NJ in order to give them a better understanding of what was going to happen at the event.  This is a real good template that gives it a professional look when presenting it to a store owner, a gaming company, or an events director for a location you want to have your mini con at.  This proposal was in shambles originally until it was looked at by Kim Caton, Mike Dalton and others that were much more gifted writers than I and they helped me turn it into what you see here.  Is it perfect? No, but it&#8217;s a very good starting point.  <br />
+<br />
+**************************************<br />
+<br />
+RamapoCon III &#8211; Convention for the Northeast<br />
+<br />
+PROJECT DESCRIPTION<br />
+<br />
+A community of gaming individuals in the Northeast US no longer has the opportunity to attend a gaming convention because of the convention&#8217;s absence.  RamapoCon III will fill this void by hosting a convention in the Mahwah, New Jersey area.  After having two successful smaller conventions at Ramapo College of New Jersey in October 1999, and May 2000, the time is right for a more complex event.<br />
+<br />
+RamapoCon III will have a variety of events for people of all ages.  This includes Japanese Anime movies, video games, miniature figurine games, popular board games, live action role playing games, and collectable card games.  RamapoCon III will host representatives from eight different companies, under whose guidance it will be possible to teach strategy, run competitions, and distribute their unique products with one common goal in mind &#8211; the enjoyment of the gamers attending.<br />
+<br />
+Five full time staff members will coordinate this event.  Additionally, the staff members have carefully selected thirty volunteers to keep the convention running smoothly and efficiently.<br />
+<br />
+<br />
+BACKGROUND INFORMATION<br />
+<br />
+RamapoCon 99 started at Ramapo College of New Jersey in October 1999.  As a Resident Assistant program, the events were run for college students and their guests.  <br />
+<br />
+Following the success of RamapoCon 99, a decision was made to create RamapoCon II.  This event was far more successful, with over 100 people attending.  Events ranged from collectable card games to yoga to a small basketball tournament.  People were able to try new things in a relaxed and jovial environment.<br />
+<br />
+Volunteers were crucial to the success of the first two RamapoCon weekends.  These volunteers were student leaders from across the campus who were able to help create a fun environment.  With fifteen volunteers for June 2001, the event hopes to be more exciting with new events and a great time for everyone.<br />
+<br />
+<br />
+PROJECT DETAIL<br />
+<br />
+Goals and Objectives<br />
+<br />
+There are three major goals for the &#8220;RamapoCon III&#8221; Summer Convention.<br />
+<br />
+Goal #1 &#8211; To have a fantasy gaming summer convention for the Northeast<br />
+          United States.<br />
+<br />
+	Goal #2 &#8211; To promote interest among game dealers and companies. <br />
+<br />
+Goal #3 &#8211; To increase participation in fantasy gaming throughout the general <br />
+community.<br />
+<br />
+Clientele<br />
+<br />
+There are three different client groups for this project.<br />
+<br />
+The primary clients will be the people attending RamapoCon III for fun, competitive gaming, as well as meeting others with similar interests.<br />
+<br />
+The secondary clients are the storeowners and dealers that will be coming to RamapoCon III to sell merchandise.<br />
+<br />
+The tertiary clients are the companies that created and own the games that will be available for both competition and prize support.<br />
+<br />
+<br />
+Methods<br />
+<br />
+The primary methods for achieving the goals and objectives of RamapoCon III will be:<br />
+<br />
+·	Holding the convention at Ramapo College of New Jersey in June 2001.<br />
+	<br />
+·	Development of marketing tactics for meeting with store owners and gaming companies about having their product at RamapoCon III, as well as promoting the event through web-based and magazine ads, and through gaming newsletters.<br />
+<br />
+Staff/Administration<br />
+<br />
+RamapoCon III will employ five full-time staff members.<br />
+<br />
+·	Project Director &#8211; Responsible for hiring staff, overseeing project development and operation, establishing and maintaining links with the college officials, and developing a budget.  <br />
+	<br />
+·	Volunteer Coordinator &#8211; Responsible for recruiting volunteers from the college, organizing the events schedule, organizing the dealers and gaming company on-site spaces.<br />
+	<br />
+·	Marketing Coordinator &#8211; Responsible for recruiting dealers, gaming companies, and advertising of RamapoCon III.<br />
+	<br />
+·	Web Designer &#8211; Responsible for creating the website, linking site to other locations, and other web based multimedia.<br />
+	<br />
+·	Graphic Designer &#8211; Responsible for creating all RamapoCon III guides, images, advertisement packets, and custom prizes.<br />
+	<br />
+	Dates<br />
+	<br />
+	RamapoCon III will occur during the following times and dates.<br />
+	<br />
+·	Thursday June 7, 2001<br />
+o	Begin events 12 pm<br />
+o	End events 10 pm<br />
+·	Friday June 8, 2001<br />
+o	Begin events 10 am<br />
+o	Continue 24 hours events<br />
+·	Saturday June 9, 2001<br />
+o	Continue 24 hour events<br />
+·	Sunday June 10, 2001<br />
+o	Events end 7pm<br />
+<br />
+<br />
+NEEDED RESOURCES<br />
+<br />
+·	Personnel <br />
+o	Security <br />
+§	11:30 pm &#8211; 7:30 am Friday night/Saturday morning<br />
+§	11:30 pm &#8211; 7:30 am Saturday night/Sunday morning<br />
+	<br />
+·	Rooms<br />
+o	Alumni Lounges <br />
+o	Friend&#8217;s Hall<br />
+o	H-wing Auditorium<br />
+o	Four Classrooms<br />
+	<br />
+·	Equipment &#8211; <br />
+o	8 Foot long tables (70)<br />
+o	Chairs (250)<br />
+o	Sound Stage equipment from Media Center<br />
+o	Line bars or ropes (for &#8220;crowd control&#8221;)<br />
+o	Stage<br />
+<br />
+Please note that the final equipment needs will be presented no later than one week prior to the event.<br />
+<br />
+*********************************<br />
+<br />
+In addition, I wanted to give everyone the information that Decipher desires from someone running an event when requesting prize support.  This might be not used anymore by them but I would still use it because it really gets to the points that they are interested in when deciding what to send someone.<br />
+<br />
+1.	Name of Convention: <br />
+<br />
+2.	Dates of Convention: <br />
+<br />
+3.	Type of Convention (gaming, Trek, sci-fi, anime, etc&#8230;):  <br />
+<br />
+4.	Location Held (and address):  <br />
+<br />
+5.	Chief Contact (also Phone and email):  <br />
+<br />
+6.	Convention Website (if any): <br />
+<br />
+7.	Estimated Attendance:  <br />
+<br />
+8.	Decipher Volunteers (also Phone# and email):  <br />
+<br />
+9.	Decipher Events Held:  <br />
+<br />
+10.	Estimated # of Players:  <br />
+<br />
+11.	Prize Support Desired:  <br />
+<br />
+<br />
+Every company will have a sheet similar to this one so find out what you need to request the prizes from that company!<br />
+<br />
+Remember that it is important to know the dates, location and information about what you want to run at least 4-6 months before a proposal goes to the place you want to run the location as well as any gaming companies you plan on requesting support from.<br />
+<br />
+This leads me to another good point that ties into this:  A good contact list.  Need to know who does prize support and marketing for Magi-Nation Duel or Magic?  You should before you even start.  Need to know what the policies are regarding what number or type of events you should run in order to secure prize support?  You need to find out and a good contact list is invaluable.  On DeckTech, there is approx. 14,000 members on board that can help you find that information if you cannot with a look on the gaming companies website, use those resources!  In addition, contact every gaming company possible (including mail a proposal to the contact person) because the more games you host, the more chances of gamers attending and it becoming a successful event!  All you need to do is a little research.<br />
+<br />
+So far we covered these topics.<br />
+1.	A good proposal to the location you are having the event<br />
+2.	Prize support and marketing support to the gaming companies<br />
+3.	Contact list for gaming companies<br />
+<br />
+So I hope that this information helped you as a good template, but remember that your proposal could be more or less complex given the event you plan on running.  As I go through an post these bits of information I hope that people will dmail me or post their comments on this article so I can respond to them as I continue to go forward with these articles.<br />
+<br />
+I hope to expand on these even more in time!<br />
+<br />
+ <br></font><BR><font class="bfont"> <A HREF='/starwarsccg/articles/articles.php?id=4874&view=1&PHPSESSID=84d2b1152e98cb77a826b3278db9feed'>Read the Reviews</a><font class="bfont"> | <A HREF='/starwarsccg/articles/articles.php?PHPSESSID=84d2b1152e98cb77a826b3278db9feed'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php?PHPSESSID=84d2b1152e98cb77a826b3278db9feed'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+<!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php?PHPSESSID=84d2b1152e98cb77a826b3278db9feed"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

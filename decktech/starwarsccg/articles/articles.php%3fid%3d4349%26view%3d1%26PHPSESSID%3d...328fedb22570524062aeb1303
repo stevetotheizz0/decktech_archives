@@ -1,0 +1,590 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action=""><input type="hidden" name="PHPSESSID" value="...328fedb22570524062aeb1303" />
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Articles</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/articles/articles.php?PHPSESSID=...328fedb22570524062aeb1303">All</a> &nbsp;<br>
+
+</div>
+
+
+<a href="/starwarsccg/decks/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Reports</a><br>
+
+  <a href="/starwarsccg/academy/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php?PHPSESSID=...328fedb22570524062aeb1303"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 2 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=...328fedb22570524062aeb1303'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><b>Star Wars CCG</b><br><a href='/starwarsccg/featured/taylor.php?PHPSESSID=...328fedb22570524062aeb1303'>2005-05-02 Scott Lingrell</a><br> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6107&view=2&PHPSESSID=...328fedb22570524062aeb1303">Luke Skywalker, Rebel Scout</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6108&view=2&PHPSESSID=...328fedb22570524062aeb1303">Brian Hollingworth - Player Created V9 Card</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6126&view=2&PHPSESSID=...328fedb22570524062aeb1303">A Possible Future for SWCCG, Part II</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6110&view=2&PHPSESSID=...328fedb22570524062aeb1303">Zane Thorp - Player Created V9 Card</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6102&view=2&PHPSESSID=...328fedb22570524062aeb1303">Michael Pistone - Player Created V9 Card</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6105&view=2&PHPSESSID=...328fedb22570524062aeb1303">Brandon Ruck - Player Created V9</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6100&view=2&PHPSESSID=...328fedb22570524062aeb1303">Michael Raveling - Player Created V9 Card</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6117&view=2&PHPSESSID=...328fedb22570524062aeb1303">Rating Problem?</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6127&view=2&PHPSESSID=...328fedb22570524062aeb1303">Mace Windu (v)</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6111&view=2&PHPSESSID=...328fedb22570524062aeb1303">Im calling you out Pistone!!</A></font></li><BR></ol> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Articles</td><form method='post' action=''><input type="hidden" name="PHPSESSID" value="...328fedb22570524062aeb1303" /><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Articles</option><option value='#'> </option><option value='/starwarsccg/articles/index.php3'>Star Wars: CCG</option><option value='/vs/articles/index.php3'>Marvel VS</option><option value='/heroclix/articles/articles.php'>HeroClix</option><option value='/lotr/articles/articles.php'>Lord of the Rings</option><option value='/magination/articles/articles.php'>Magi-Nation Duel</option><option value='/swtcg/articles/articles.php'>Ophidian 2350</option><option value='/magic/treports/treports.php'>The Wastelands</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> Dredlox&#39;s State of SWCCG<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(4.93)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=17'>Neal "Dredlox" Razi</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=17&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> January 30, 2003</font>  <script language="Javascript" src="http://www.decktech.net/global/dynapi/src/dynapi.js"></script>
+<script language="Javascript">
+
+DynAPI.setLibraryPath('http://www.decktech.net/global/dynapi/src/lib/');
+DynAPI.include('dynapi.api.*');
+DynAPI.include('dynapi.event.*');
+
+DynAPI.onLoad=function() { 
+	pageX=0;
+	pageY=0;
+	var d = new EventListener()
+	d.onmousemove = function(e) {
+          pageX = e.getPageX();
+          pageY = e.getPageY();
+    }
+	DynAPI.document.addEventListener(d);
+}        
+
+function RateComment(n){
+	if(DynAPI.document.all['form_titlebar']){
+		form_titlebar.setVisible(true);
+		form_titlebar.moveTo(pageX,pageY)
+
+	}else{
+	  form_titlebar = new DynLayer('form_titlebar',pageX,pageY,200,200,'#333333');
+	  var html = '<TABLE width="100%" border=1 bordercolor="#333333" cellpading="0" cellspacing="0"><TR><TD><a href="javascript:form_titlebar.setVisible(false)"><IMG SRC="http://www.decktech.net/global/images/x.gif" WIDTH="18" HEIGHT="15" BORDER=0 hspace="2" align="right"></a><font class="h2font">This review was...</font></TD></TR></TABLE>';		
+	  form_titlebar.setHTML(html);
+	  DynAPI.document.addChild(form_titlebar);
+
+	  reviewform = new DynLayer(null,0,20,200,180,'#000000');
+
+	  var htmlform = '<form name="reviewrate" method="post" action="/starwarsccg/articles/articles.php" onSubmit="return submitRR(this)"><input type="hidden" name="PHPSESSID" value="...328fedb22570524062aeb1303" /><TABLE height="180" width="200" border=1 bordercolor="#333333" cellpading="0" cellspacing="0"><TR><TD><table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td width="4%"><input type="radio" name="rating" value="4"></td><td width="96%">very helpful</td></tr><tr><td width="4%"><input type="radio" name="rating" value="3" checked></td><td width="96%">somewhat helpful</td></tr><tr><td width="4%"><input type="radio" name="rating" value="2"></td><td width="96%">not much help</td></tr><tr><td width="4%"><input type="radio" name="rating" value="1"></td><td width="96%">completely wrong</td></tr><tr><td width="4%"><input type="checkbox" name="delcom" value=""></td><td width="96%">Delete this review for 250 points.</td></tr><tr><td width="4%">&nbsp;</td><td width="96%"><input type="hidden" name="view" value="1"><input type="hidden" name="deleteid" value=""><input type="hidden" name="id" value="4349"><input type="hidden" name="reviews" value=""><input type="hidden" name="ratereview" value="1"><input type="submit" name="Submit" value="Submit"></td></tr></table></TD></TR></TABLE></form>';
+	  reviewform.setHTML(htmlform);
+  	  form_titlebar.addChild(reviewform);
+	  DragEvent.setDragBoundary(form_titlebar,0,DynAPI.document.getWidth(),10000,0);
+	  DragEvent.enableDragEvents(form_titlebar);
+
+      myListener1 = new EventListener(DynAPI.document);
+      myListener1.onmousedown=function(e) {
+      	e.setBubble(false);
+  	  	}
+  	  reviewform.addEventListener(myListener1);
+	}
+  review_id = n;
+}
+
+function submitRR(form) {
+	if (form.delcom.checked==true)
+	{
+		input_box=confirm("Click OK to spend 250 Tech Points and delete this review.");
+		if (input_box==true)
+		{ 
+			form.ratereview.value = review_id;
+			form.delcom.value = review_id;
+			form.deleteid.value = review_id;
+			return true;
+		}
+		else
+		{
+			// Output when Cancel is clicked
+			return false;
+		}
+	}
+	else 
+	{
+	form.delcom.value = "";
+	form.ratereview.value = review_id;
+	return true;	
+	}
+}
+//<a href="javascript:RateComment(4)">
+</script><TABLE border="0" cellpadding='6' cellspacing='0'><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">AWESOME ARTICLE  I&#39;m dmailing you with something important! - Don Weinstein   <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=7554'>thecamel</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Neal, there was a lot of heart in this article. I still continue to play the SWCCG for fun, and always carry my decks to big rings tourneys.  I do have some problems with with Classic however.  I think banning EPPs was a mistake.  Not playing with Luke w/stick, Han and Leia w/blaster would not be the star wars i know and love.  I know why the concept came around and i understand it.  But its funny, players in my area do not play the stupid abusive strategies (DS senate, WYS, and Watto). My current decks are court, build the DS, Walker Garrison, TIGIH, and QMC. I think this is what makes things fun, good players purposely playing the more fun "battling decks".  I still beat 90% of our players down here, but can t see myself playing in big DPCs or other tourneys, im too rusty and the game is too complex and i was too good to lose to people who i shouldnt be losing too. I do still love the game very much, it was by far deciphers best game, and it had a great community (or union as you call it).  That is why i would say 99% of us converted to rings, to see the players weve known to love over these seven years. As far as old players go, i know Clint hayes and Kessling and stuff want to play, but they sold all their stuff.  I know i have more than enough to "donate",as im sure you do,  maybe we should start something like that. Anyway, sorry to fill up so much here, i was just impassioned as well i suppose.   <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=3656'>Patch</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Great article.  We just started having tournaments here again.  I enjoy playing swccg just as much, and maybe even more that I used to now since everyone is playing those fun mains and toys decks.  I was also one of those lotr conversions, but stopped playing that since it sucked after a while.  I hope Star Wars keeps getting better as it is now.  My hat is off to the player&#39;s committee on their commitment and contribution to the game.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=7932'>Darth Wang</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Thanx for the great info.  <br />
+<br />
+You are the man neal.<br />
+<br />
+Ronald Fonck  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=187'>Bane Slader</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Here Here!!<br />
+<br />
+The virtual cards (most of them) are very cool, the mechanics are cool, the game is fun again. It doesn&#39;t even have to be competetive. Just fun!<br />
+<br />
+I missed building Star Wars decks. Now I wish I had more time to do it because with the new cards coming out regularly, I could have easy 6 decks for each side, all different and all fun to play.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=5383'>The Judge</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Great. Love it. You&#39;re right - even I stopped flat-out badmouthing the PC after seeing they were actually good for the game.<br />
+<br />
+This is awesome, and I&#39;m building decks to test out these new cards this weekend. I&#39;m excited about the game again. It&#39;s about time. :-)<br />
+<br />
+(that last line is a joke from a law firm commercial, in case you&#39;re out of the loop)  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=4817'>BlackViper</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Makes me wanna go dig out my old SWCCG cards...  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=3503'>ADrake</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Wow. Brings a tear to my eye. Almost enough to make me re-acquire my cards. If only I didn&#39;t have to go to school, I could get so much more gaming done.   <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=341'>martian</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Booya!  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=175'>CRingwell</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">right on neal  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=3795'>drew man1</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">I wish Wars hadn&#39;t so totally died here in the UK, as I still prefer it to LOTR and wish I could play it more, haven&#39;t played wars since Gencon in August, maybe (v) set 4 will get things going again.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=2764'>JEEBS</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Excellent!  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=566'>slugs2</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Great article. I&#39;m one of the guilty who haven&#39;t been playing much lately. It&#39;s interesting that I got into the game during a lull period in Utah when we weren&#39;t able to sanction tourneys and then saw it swing back into a very exciting period of time with Endor, DSII and such. Now really is a similar period and yet it has so much more potential. The cards are dirt cheap (even free if they&#39;re Virtual!) and yet tournament support and world championships are still readily available. Virtual 4 is a beautiful product and there&#39;s a ton of excitement and fun to be enjoyed in this supposedly &#39;dead&#39; game!  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=808'>MattJ</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Whoa, good stuff!  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=8732'>Karrdeshark</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Hell, Yeah!  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=5803'>Silent Bob</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">rock on, neal.  star wars ccg is at its height right now and sadly too many people are unwilling to acknowledge this fact.  tell all those lotr players, you CAN play two games at once!  it is possible!  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=3300'>Shadow 13</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Yes! Good job.<br />
+<br />
+The game got going again around here during the summer and we&#39;re actually gaining players. It&#39;s great!  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=467'>Wedge231</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Great article, Neal. I am a convert on the virtual cards! I was looking at them today and wondering when I would have time to build some decks. I have tried a couple of classic decks and it really was nice not to have to worry about WYS, LS Combat or Watto. I am eager to go to a classic tournament - I am not sure that I wil get to one anytime soon.    <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=29'>rayc</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">i hear that SwTCG by wotc is stinking up SO much that there is a slim chance SWCCG MIGHT go back into production. anyone heard similiar stuff?  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=6437'>Tapewurm</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>Yeah, it&#39;s probably not impossible. More likely if Holland had more than three brain cells left from all the drugs, and had shut up. However, at this point, i&#39;d hate to see Decipher involved again. They blow.  The PC is 10X better, and FREE.</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">dude. way to go. and way to reference jon vandermeer that made the article for me. youre a sick man, and a great man. lets throw around the old pigskin at 20938420 cons this year. ill be dat.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=223'>Deck</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>Thanks bud, it&#39;s always awesome to hang out with you.  I&#39;ll get that dt email back for you, as soon as i can figure out how to install imap support!</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">DPC ATL will be huge for SWCCG! I am running the Classic on Saturday night at 6:00 pm. Come and watch SWCCG live again!  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=5187'>MadScientist</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Neal,<br />
+<br />
+Good article and I like the classic format.  A suggestion--Would it be worth your while to post some sites that sell cards cheap.  There was one in your article and at a recent tournament I heard of others (but forgot the name).  It cold help newbies get cards they need.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=1986'>deathstardad</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Excellent article.  I feel your pain brotha, the only reason I play Rings at all is because there is a 20+ person tourney every other weekend.  The game itself is ass.  The PC has turned out to be a great thing....  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=4170'>Ghetto 13</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>lotr&#39;s a bad game.  no doubt.  it&#39;s sad, but true.  The best thing is seeing guys like you. If nothing else, at least lotr got me to meet you at FCON</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">good stuff, we rock ;)  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=4677'>Yoda Killa</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>Andrew, you&#39;ve been an amazing advocate.  Congrats to you, you are part of the reason i&#39;ve been so involved in the PC, you and doug</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">HOORAH!<br />
+<br />
+I am trying to do my part by running tournaments, but it never occured to me to invest all of this excess SWCCG money (that I used to spend on cards) in the game in other ways.  You guys are all awesome, let&#39;s keep the game alive!  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=5800'>Armaedes</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>Army, you and i have had some differences, but one thing i always say about you is that you really love the game and DT and do a lot for them both. Keep up the good work</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">I like playing Lu&#39;s fun..he makes it fun..even though he forgot what a Premiere card did...heh...Oldskooler..heh.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=5274'>DarthPaPa</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">You have almost single-handedly gotten me back into the game. I started playing LotR because my friend and brother wanted to play it, but it has definitely started to get stale. I can already see it getting much more stale with this next expansion. SW, however, has just been punched in the whats-it with this new virtual set, and I love it! It is incredible. I have to dmail you regarding some questions, and hopefully you get it. <BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=408'>BurstGoat</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>Glad to hear it buddy.  Great to have you on board as always</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Star Wars CCG is, without a doubt, the best ccg ever created. I would like to see it be as big as it could possibly be, but there are things that have always needed to be done that would be very hard to pull off at this point in time. Things Decipher should have done, but didn&#39;t, and now it is pretty much out of their hands, and I&#39;m not sure that anybody can accomplish those things now. A new game based on the Star Wars mechanics would be great, and perhaps if Decipher was given a second chance at such a game, they would learn from their mistakes and not repeat them. It would be 1,000,000 times better than LotR CCG either way though, because anybody who says LotR is a good CCG is dead wrong.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=2061'>Vincent Vega</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>Vega, as always you are right.  There was literally 100&#39;s of things decipher could have done.  But i *really* think the PC is doing them.  I&#39;m really stoked</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">wait a minute...if youre not president of the swccg community, who is??  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=400'>Voice of Law</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">great thoughts  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=3370'>swyodarth</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">You know something?  It very well MAY outlast Lord of the Rings CCG.  The game hands down, has the best, most elegant CCG mechanics ever.  I&#39;m keeping the game alive as long as folks still like to play by running tournies.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=14'>BartmanMLV</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>I really think it will, bmlv.  All i ever see is people play lotr to win.  I rarely see anyone having fun.  But more power to whoever</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">*CLAPS LOUDLY* WOOT!   <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=4995'>Duo337</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont"> good,  good, anything else to say, I think not. Think, Play, Be... Fierce  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=5931'>mr007agent</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">mos deff ...wars will be better than lotr 4eva.  even at worlds noone cared at all about lotr and they gave away a fricking car.  and if teh rumors are true, april 12th what uppp KToD!!!!  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=1201'>H2O</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>That about sums it up.  Hey, man, look forward to seeing you again.  Hey, is praskac still playing?  He better</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Nice article.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=4051'>Sparky1</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont"> strait.  SW:CCG will live forever or at least a while more.  If you ever need help over in San Diego, e-mail me at redv@san.rr.com and I&#39;d be happy to help.  Things are still going strong down here.  We&#39;ve got a 2 tourney a month setup starting up now instaed of random tourneys since people are picking up their wars cards again.<br />
+<br />
+Geoff Bowman  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=1712'>RedV</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">If Decipher had any brains they&#39;d give all their card games over to something like the PC.  Let them make the cards, organize and run the tournies (just think how ing cheap that&#39;d be too), while Decipher sell the cards and supplies the cash for tournies...man that&#39;d be so sweet.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=4431'>Ser Edmund</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">touching , refreshing , and charismatic. I miss playing cards just for the comraderie and that has me teetering on the bring of going to a tournament sometime.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=42'>Iceman</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>Iceman, try a classic tournament. It&#39;s a great way to have zero pressure, and it&#39;s not far removed from when you quit. Hey, would Lee and Dan come up to a classic tournament in Tampa from Orlando?</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Many people who still play this needed to hear this, and many more people who quit need to hear this.<br />
+<br />
+Good times.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=6502'>Meto</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Best part about it was that you didn&#39;t have to wait for five minutes between sentences for applause... hehe.<br />
+<br />
+People needed something like this; nice article.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=1442'>Duke Devil</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">All of these words ring so true.  I personally don&#39;t like the virtual cards because I feel silly slipping pieces of paper into my card sleeves--but that&#39;s totally my problem and my loss.  <br />
+<br />
+I applaud the efforts of those who handle this game much better than Decipher ever could.  And the comments about LOTR are especially true--I played it seriously for awhile and realized the limitations of its flawed system.  Even more scary is the fact that Decipher is releasing more of both broken and useless cards for LOTR than it did for the same period for SW:CCG.  Isn&#39;t it alarming how rapidly they&#39;re obsoleting cards from the first block?<br />
+<br />
+Anyway, the game is much better for me played for fun, without the pressures of buying new cards and even outside of the cutthroat tourney environment.  But it&#39;s scary how there&#39;s so much Decipher could&#39;ve done--proper ruling, good design, promotion, heck, even something as small as getting around to a DS Main Power Generators would&#39;ve been nice--and they&#39;re repeating their mistakes again for their current "flagship" game.<br />
+<br />
+So c&#39;mon Neal...let&#39;s get that Raw Deal Decktech going already.  Would it do any good if I solicited the designers to contact you personally?  PRETTY PLEASE?  Anyway, keep up the good work.  Decktech is truly a site for the players, by the players.<br />
+<br />
+Ken  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=1805'>Ken B</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>lotr is a mess. Like I said, I&#39;m happy to see Decipher gone. Geez, if it wasn&#39;t for Juz, we&#39;d still have no timing formality at all. It took them years to do that. They are lazy and incompetant, and worse, mean, egotistical SOB&#39;s.</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Thanks for the update on the State of the Union.    <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=383'>HuntaWarya</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Neal, you said it all, bud.  Thanks for all you&#39;ve done for the game over the years, and thanks for always putting the players first.<br />
+<br />
+You know, back in the beginning days of the PC, it looked like DT and the PC were not going to get along.  It would have been easy for both groups to just mudsling and head in different directions (there were misconceptions on both sides), but you considered the needs of the players first, and today we have a pretty awesome partnership.<br />
+<br />
+This article is just what the playing community needs, IMHO.  Let&#39;s get out there and start getting some of the old players back (many still have plenty of cards, and they&#39;re pretty affordable now as well), and take this game to new heights!  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=11241'>DougRed4</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>I&#39;m really happy with how things have worked out between DT and PC. Doug, your coolness was a large part of our current relationship. You really convinced me to lighten up and put up with my attitude. I thank you, sir</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">(should always be something dealing with the larger picture,<br />
+...cant get much larger than that.   <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=5485'>_Rx_</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Great article.  Good reasoning on the advantages of Classic format.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=1717'>Lt. Cabbage</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">The state of our union is good.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=8142'>The E-man</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Solid.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=645'>Old Skooler</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Keeping some players is not a problem.<br />
+Picking up new players is.<br />
+Without a selling product....game shops dont help promote.<br />
+Game shops want you playing games that sell product.<br />
+So we dont pick-up new players.<br />
+And new players is what keeps any game alive.<br />
+You throw out names like Brian Hunter and Matt Lush.<br />
+but these guys are the best of the best.<br />
+Thay have a good chance of winning major tournaments.<br />
+they have something to gain.<br />
+What about Joe Dirt and Billy Bob.<br />
+The play the game just to get beatdown by the best players.<br />
+They have nothing to gain.<br />
+I remember when I won a T-shirt for my first tournament win.That came with a little respect.<br />
+But now ...what chance do I have, to win a tournament at a major con?<br />
+<br />
+Scott Manley<br />
+Rogue 66  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=5936'>tk424</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">i will always love swccg, cause it is the first game that I really had fun playing. i wish that I could get up the will to play again, but our player base is completly dead. also, we have a great LOTR scene, with some new players regularly and lots of people who have become friends. we also play for fun, with the people who usually win the tournaments changing decks regularly, so I have a hard time listening to everyone shott down LOTR. I know there are problems with the game, but there are no perfect ccgs. i love LOTR, it is fun and playing it is something that I always look forward to. swccg will always be the best ccg around, but without shops supporting it and new product to lure in the younger crowds, and without a quality liscence to support it(you saw Ep2, right?) swccg will eventually turn into an old boys club that is only played a lot by the players who have always played it and by their close friends. there will be some exceptions, people willing to brave the steep learning curve, but I think that, sadly, swccg cannot last. on the other hand, LOTR looks to be interesting with the BoHD coming out, I am truly excited about playing with some of the new cards. They are doing a good job of making some of the older cards more playable, and as much as everyone likes to complain about broken cards, I haven&#39;t seen one that truly is since the mirror. thanks for lookin at all this, I know it&#39;s a lot to swallow, but I felt like since noone had said anything good about LOTR I should say something. I&#39;ll see ya at DPC Atlanta, and maybe I&#39;ll dust off the SW cards and play. If not, I&#39;ll seel &#39;em to ya dirt cheap :)<br />
+<br />
+Jon  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=7058'>Carny</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>I&#39;m glad you are having fun with lotr, really. This wasn&#39;t a rant on lotr, just how i feel, it&#39;s not fun to *me*. If youget a chance, I&#39;m not kidding about SW being on the comeback. Give it a try with the new cards, they really improve</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Classic baby!  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=5186'>Morgoth</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Can&#146;t argue with the boss, right?<br />
+I glue the virtual texts on my cards.<br />
+That&#146;s commitment. To hell with the originals.<br />
+Let&#146;s play the game forever... or at least till<br />
+nobody remembers SW TCG (or even LoTR) anymore. <BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=9001'>Darth Crith</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>As Arnold would say "You ah hawd core". good work</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Neal, <br />
+     hope to see you and David (and some other old timers!) at some LOCAL tournaments! tournament sceen is strong in Orlando and Jacksonvile... why dont you all revive it in Tampa/St. Petersburg. I&#39;ve got 3 new players in Ocala, we may have tournaments here soon lol.<br />
+ Round up the old crew and I&#39;ll see you in Orlando next time - John   <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=435'>Rancor34</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>Hah, great to see you! Would you all be willing to come to a</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">that was beautiful man...  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=1304'>cmykjr</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Hey that was pretty good... too bad I haven&#39;t played in like two years...  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=6129'>Stack</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>So bust out the cards and play?</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">This was awesome.  I moved 6 months ago from the SWCCG rich area of Seattle to Wichita for work and family.  I have hoped to revive SWCCG but so far I have not been able to find a place to play.  I keep trying and there are people that want to play but with no place to play it is difficult to get organized. <br />
+<br />
+Stilling trying though.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=2856'>Rogue 9</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'>Hey i was just in kansas (Holton), may be there this summer. Maybe i will stop by wichita with some cards</font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Yeah. Even though I do not have the time to play here, since I am far too busy to ressurect the community, (You try doing it with 22 credits, four of which are grad.) Classic sounds great. I can&#39;t wait until the PC gets to Special Ed, since I have piles of that set that could get used and abused.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=4454'>blackgecko</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Good, better then Bush  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=2451'>NeDraco</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">well spoken, Neal  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=3752'>Loaf</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Wow good job we need more articles like this.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=13439'>Wild Bill</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">*applause*<br />
+May Star Wars CCG never die.<br />
+It&#39;s legacy gives me chills.<br />
+There&#39;s a love for the game...  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=4244'>YOYOY</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">a very timely article. i think that you hiton many important points that have been on many a decktech-ers minds!  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=2227'>Veretech</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">wo0t  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=11366'>zach</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Good Job i always loved wars!!  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=8090'>Maul89</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">I just want to say that i&#39;m at this very moment going to get back into the game. I don&#39;t know if you still use this site, Brian, but watch your ass, here I come.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=8155'>MegaScrub</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">This is a great article.  However, I find it very flawed.  I will post my own opinion of the state of the SWCCG union soon.  Look forward to it, it will be interesting.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=13380'>Artoo_Me</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Right on!  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=803'>jeeps</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Great article overall. Well-written, formatted, and actually spell-checked! And actual useful content to boot. Well done.  <font size=1>(+6 tp, Lightsaber)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=1680'>Figrin</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Nice call Neal.  <font size=1>(+6 tp, Lightsaber)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=1795'>spoonyd</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Good Read.  <font size=1>(+6 tp, Lightsaber)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=357'>plasma26</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Well done  <font size=1>(+6 tp, Lightsaber)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=5412'>ANIMALVADER1</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">I know this article is old but I just got the chance to read it today.  <font size=1>(+3 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=17238'>The Quick</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Don&#39;t give Brian Hunter any credit for the newest virtual cards..he did not spend any time playtesting them, all he did was criticize the comments made by the other playtesters who spent hours playing games and trying strategies with these cards, in all their varying versions.  Your right on most of the other points that you make and hopefully this article will pull a couple of players back into the game.  <font size=1>(+2 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=2445'>CGogolen</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR><TR><TD align='right' valign='top'><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"></td><TD ALIGN='LEFT' valign='top'><font class="bfont">Countless useless cards sums up my SWCCG experience. God how I tried to make those wastes work in decks. Over and over, waiting for Decipher to offer some support.  My killer TIE Bomber deck, for instance, was wasted in its deck-box. Thanks Neal, and thanks PC.  <font size=1>(-2 tp)</font><BR>
+		<a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=6434'>generalisimo</a></font><BR><BR>Response:<BR><font face='verdana, arial' size='2' color='ee3333'></font><BR><BR></TD></TR></table><BR><font class="bfont"> <A HREF='/starwarsccg/articles/articles.php?id=4349&view=2&PHPSESSID=...328fedb22570524062aeb1303'>Read the Article</a><font class="bfont"> | <A HREF='/starwarsccg/articles/articles.php?PHPSESSID=...328fedb22570524062aeb1303'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php?PHPSESSID=...328fedb22570524062aeb1303'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+<!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php?PHPSESSID=...328fedb22570524062aeb1303"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>
+<br>
+<b>Warning</b>:  Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in <b>Unknown</b> on line <b>0</b><br

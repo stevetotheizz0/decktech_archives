@@ -1,0 +1,721 @@
+
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title> 
+Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"> 
+      <img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0>    </td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"> 
+            <img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0>            </a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> 
+            <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+          </td>
+        </tr>
+        <tr valign="top"> 
+          <td> 
+            <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php" class="level1nav">Articles</a><br>
+
+
+<a href="/starwarsccg/decks/index.php" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php" class="level1nav">Reports</a><br>
+
+  <a href="/starwarsccg/academy/index.php" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php" class="level1nav">Resources</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/resources/rules.php">Current Rules</a> &nbsp;<br>
+
+<a href="/starwarsccg/resources/buzz.php">Buzz Board</a> &nbsp;<br>
+
+<a href="/starwarsccg/resources/links.php">Related Sites</a> &nbsp;<br>
+</div>
+<br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'><b>Star Wars CCG</b><br><a href='/starwarsccg/featured/taylor.php'>2008-01-17 Scott Lingrell</a><br></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center>          </td>
+        </tr>
+                <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>                <tr valign="top"> 
+          <td> 
+            
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6544&view=2">V-14 spotlight: Comlink</A></font></li><BR></ol> 
+<p><script language="JavaScript">
+
+<!-- /* © 1997-2002 BURST! Media, LLC. All Rights Reserved.*/ 
+
+var TheAdcode = 'sk8702a'; 
+
+var bN = navigator.appName; 
+
+var bV = parseInt(navigator.appVersion); 
+
+var base='http://www.burstnet.com/'; 
+
+var Tv=''; 
+
+var backColor='000000';
+
+var fontColor='FFFFFF';
+
+var agt=navigator.userAgent.toLowerCase(); 
+
+if (bV>=4) 
+
+  {
+
+  	ts=window.location.pathname+window.location.search; 
+
+  	i=0; 
+
+  	Tv=0; 
+
+  	while (i< ts.length) 
+
+      { 
+
+	  	Tv=Tv+ts.charCodeAt(i); i=i+1; } 
+
+		Tv="/"+Tv;} 
+
+else {
+
+	Tv=escape(window.location.pathname); 
+
+   	if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+
+    else if (Tv.charAt(1)=="/") Tv=""; 
+
+  	if( Tv.charAt(Tv.length-1) == "/") Tv = Tv + "_";
+
+} 
+
+  document.write('<ifr'+'ame id=BURST src="'+base+'cgi-bin/ads/' + TheAdcode + '.cgi' + Tv +  '/zg' + backColor + 'x' + fontColor + 'l' + fontColor +    'v' + fontColor + 'k' + fontColor + '/RETURN-CODE" width=160 height=600' +   ' marginwidth=0 marginheight=0 hspace=0 vspace=0 ' +  'frameborder=0 scrolling=no>');
+
+  document.write('</ifr'+'ame>');    
+
+// --> 
+
+</script></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center>          </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+      
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td valign="top" width="1"> 
+            <img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0">          </td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <script language="javascript">
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+
+prev1.document.writeln(texttoshow);
+
+}
+
+function changetobold()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+linkyaddress = document.buzzboardform.texttoconvert.value;
+
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+
+function oldchangetobold()
+{
+
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader">Wii Friend Codes - get em here</td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="bfont"> From: neal</font><BR><font class="bfont"><A HREF='/starwarsccg/resources/buzz.php'>Back to Topics List</A></font><BR><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font><BR><font class="bfont"><A HREF='/starwarsccg/resources/buzz.php?id=8690'><b>REFRESH THIS TOPIC</b></A></font><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#333333><font class="h2font"> Comment</td></tr><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=3300">Shadow 13™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">go to the mail section, and click your address book.  it should display your wii number there. <br><BR><font size=1>18:09 01-17-2008</font><BR><BR><hr><img align="right" src="http://www.decktech.net/memberimages/3300rst.jpg"><br>Ryan French<br>Rebel Strike Team founder<br><i>"I&#39;m a total whore for torture porn."</i> - Patrick Sullivan</TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>Meto</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">How do we look up the number again? <br><BR><font size=1>03:59 01-17-2008</font></TD></TR><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=3300">Shadow 13™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">ok i finally took the time to add all you folks.  please send me all your awesome miis.<br />
+<br />
+also, mikefrench, what is your #? <br><BR><font size=1>20:13 01-16-2008</font><BR><BR><hr><img align="right" src="http://www.decktech.net/memberimages/3300rst.jpg"><br>Ryan French<br>Rebel Strike Team founder<br><i>"I&#39;m a total whore for torture porn."</i> - Patrick Sullivan</TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=3300">Shadow 13™</a></B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">my wii friend code is 2453 9511 8725 5105 <br><BR><font size=1>20:14 11-19-2007</font><BR><BR><hr><img align="right" src="http://www.decktech.net/memberimages/3300rst.jpg"><br>Ryan French<br>Rebel Strike Team founder<br><i>"I&#39;m a total whore for torture porn."</i> - Patrick Sullivan</TD></TR><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=106">Nitsuj™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Wesley saved teh enterprise 2.5 times.<br />
+<br />
+2.5 times!<br />
+<br />
+Where was the tinman and the blindman?   Hanging off Crusher&#39;s balls. <br><BR><font size=1>07:59 09-20-2007</font><BR><BR><A HREF="http://www.swccgpc.com/forums/viewtopic.php?t=15483"> Play SWCCG?  Please participate in the 2007 SWCCG Census </A></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>Nick Vujicic</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Do you have Wesley Crusher? And if so, is he wearing the top with the rainbow stripes? <br><BR><font size=1>13:42 09-19-2007</font></TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Aglets</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Hey Neal, i was starting to wonder.<br />
+<br />
+I have the entire bridge crew of Next Gen now if anyone wants them.  (if you ask if i have Wes Crusher you will be flogged with your own limbs) <br><BR><font size=1>13:38 09-19-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">i have to check out Tim&#39;s below <br><BR><font size=1>11:30 09-19-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Jedi Genius</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Ha, you don&#39;t have to send me any Miis. I&#39;ve only made one for the hell of it. <br><BR><font size=1>11:04 09-19-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">I&#39;ll get online with my wii later and add you and check out the miis <br><BR><font size=1>10:58 09-19-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Jedi Genius</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">3830 2291 9887 8085 <br><BR><font size=1>18:23 09-18-2007</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>Aglets</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">K, Neal, i sent you those 3.<br />
+<br />
+Let me know what you think of Picard.  :)<br />
+<br />
+Anyone else? <br><BR><font size=1>14:24 09-07-2007</font></TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Aglets</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Neal, I added you awhile back, i have all the updated DTers now as well, still waiting on a few to add me back.<br />
+<br />
+Did I send you my personal Mii?  I thought I did.  Anyway, i&#39;ll send those out to you soon, i&#39;m also working on a Picard Mii and i&#39;d like to get some feedback on it, heh. <br><BR><font size=1>12:34 09-07-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Nitsuj:<br />
+8828 5378 8986 9735<br />
+<br />
+Sithborg:<br />
+0718 6126 0089 7413<br />
+<br />
+Aglets:<br />
+7776 4088 7812 4771<br />
+<br />
+Animalvader1:<br />
+2971 5113 8932 6856<br />
+<br />
+Armaedes:<br />
+8560-7969-0988-3010<br />
+<br />
+Deadbody:<br />
+5599 2940 1592 1814<br />
+<br />
+Dom:<br />
+2053 8130 0853 5529<br />
+<br />
+The Judge:<br />
+2494 3582 3948 9682<br />
+<br />
+Neal:<br />
+5884 1686 9406 2725<br />
+<br />
+Finding your Wii number:<br />
+<br />
+On the main screen (with all the channels) click the Mail icon in bottom right corner. On the Mail screen, click the Create Message icon in bottom left corner. Now you should see the Address Book on the far right of the screen, your Wii Number is on the cover of the book, but you can’t see it yet. When you click on the Address Book, it automatically opens to the first page, just push the minus button to get an enlarged view of the cover and you should see your Wii code.  <br><BR><font size=1>08:16 09-07-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">By the way, scott, Vader is hilarious and cool! <br><BR><font size=1>08:14 09-07-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Tim, I added you awhile back, could you add me? I would love to have those Miis! <br><BR><font size=1>08:13 09-07-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Aglets</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Howdy all.<br />
+<br />
+I recently made a Kim Jong Il and Conan O&#39;Brien using a video to help, and i&#39;ll send them to whoever wants them.<br />
+<br />
+I definitely wouldn&#39;t mind checking out the Frodo or Mace or other cool celebrity look alikes that are out there. <br><BR><font size=1>00:53 09-07-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Yeah, I was pretty impressed with my Frodo too :-) I&#39;m glad you liked him.  Mace was pretty ok, but there wasn&#39;t much too him... he&#39;s just a bald black guy.  Anakin came out ok, I went more for Evil Anakin.<br />
+<br />
+Miis are fun <br><BR><font size=1>14:27 09-04-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=106">Nitsuj™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Neal&#39;s Frodo is pretty good.  Mace and Anakin aren&#39;t bad either, but Frodo is just about perfect.<br />
+<br />
+Glad you liked Cheney, wish I could take credit for him, I cheated and found a "how to create" guide on the internets for him. <br><BR><font size=1>10:39 09-04-2007</font><BR><BR><A HREF="http://www.swccgpc.com/forums/viewtopic.php?t=15483"> Play SWCCG?  Please participate in the 2007 SWCCG Census </A></TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">I will send them now. They arent great though, but hope u like <br><BR><font size=1>14:45 09-01-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>_Armaedes_</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">I got Vader, but would love Anakin and Windu. <br><BR><font size=1>09:27 09-01-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">omg, penis Cheney is perfect! <br><BR><font size=1>08:45 09-01-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">And a Mace Windu. My Frodo is awesome <br><BR><font size=1>10:34 08-28-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Have you sent it yet? I would love to see it, I have an Anakin <br><BR><font size=1>10:34 08-28-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>sithborg279</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">And I should send out my Vader Mii. <br><BR><font size=1>10:45 08-25-2007</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>sithborg279</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Yes, the Metroid previews are cool.  I am tempted to pick it up.  I really need to finish Zelda first though... <br><BR><font size=1>10:45 08-25-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">ok i got my wiiwii back online! i am adding my buds nitsuj & sithborg. <br />
+<br />
+did u guys see the downloadable channel? it is 4 metroid prime 3. it is free and is pretty cool.<br />
+<br />
+ok u2 some miis will come your way when the system updates, cant wait 2c the notorious "pipeweed" cheney ! <br><BR><font size=1>17:55 08-24-2007</font><BR><BR>I am not boring. I am not boring at ALL!</TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>_Armaedes_</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">The Cheney is pretty good.  Sadly (or perhaps not so sadly), you can&#39;t do a pants-off Mii. <br><BR><font size=1>12:46 07-30-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=106">Nitsuj™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Neal, I think I added your friend code to my list, but I don&#39;t think you have added me yet.  Add me up, and I&#39;ll send you Cheney, I think he came out well, but I can&#39;t take credit - i found a video online that walks you through creating him.<br />
+<br />
+My number: 8828 5378 8986 9735<br />
+ <br><BR><font size=1>09:27 07-30-2007</font><BR><BR><A HREF="http://www.swccgpc.com/forums/viewtopic.php?t=15483"> Play SWCCG?  Please participate in the 2007 SWCCG Census </A></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>Jedi Genius</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">I think the only way is to get a Wii... only because I don&#39;t think it has anything similar to XBL&#39;s online gamertag or the ability to view Miis on the internet. Plus it wouldn&#39;t kill you to get a Wii, it&#39;s not like it has a ton of good games that&#39;ll take much time away from your 360. ;)<br />
+<br />
+Does the Mii have pants on?  <br><BR><font size=1>09:08 07-30-2007</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/starwarsccg/resources/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/starwarsccg/resources/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=8690><input type='Submit'  value=' Show all Posts '></form><form action='/starwarsccg/resources/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=8690><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/starwarsccg/main/join.php'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script> 			
+<!-- rumors board code end -->            <!-- #EndEditable --></td>
+          <td width="1" valign="top"> 
+            <img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0">          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4"> 
+      
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+    </td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

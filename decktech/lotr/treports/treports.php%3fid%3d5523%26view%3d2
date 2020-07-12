@@ -1,0 +1,607 @@
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Lord of the Rings Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Lord of the Rings, Gandalf, Frodo, Ring, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #111188;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; color: #111111; font-size: 8pt; font-style: normal; text-decoration: none; background-color: #FFFFFF; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.headerbg {  color: #E2DED3}
+TD.headerbg A {  color: #E2DED3}
+
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.r2body {  color: #EDE9DE}
+TD.r2body A:link {color: #A17D2D}
+TD.r2body A:active {color: #A17D2D}
+TD.r2body A:visited {color: #A17D2D}
+TD.r2body A:hover {color: #FFFFFF}
+
+TD.r2body .level1nav:link {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:active {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:visited {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:hover {  font-family: Verdana, Arial, sans-serif; color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 8pt;}
+
+input {font-family: Verdana, Arial, sans-serif; font-size: 8pt }
+select {font-family: Arial, sans-serif; font-size: 8pt }
+
+-->
+</style>
+ 
+</head>
+<body link="#111155" vlink="#CF4300" alink="#0000FF" text="#111111" margin="0" marginwidth="0" marginheight="0" background="/lotr/gfx/mom/bg.jpg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=186 hspace=0 vspace=0
+src="/lotr/gfx/mom/logoleft.gif" width=1 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=186 hspace=0 src="/lotr/gfx/mom/logoright.jpg" width=195 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">LotR TCG ======</option>
+<option value="/lotr/index.php">Home</option>
+<option value="/lotr/main/about.php">About</option>
+<option value="/lotr/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+<option value="#"></option>
+<option value="#">Themes =======</option>
+<option value="/lotr/treports/treports.php?setheme=fellowship">Fellowship</option>
+<option value="/lotr/treports/treports.php?setheme=moria">Balrog&Gandalf</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Lord of the Rings</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#152A43" class="r2body" width=88%><font class="bfont">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><a href="/lotr/index.php" class="level1nav">Home</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/articles/index.php" class="level1nav">Articles</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/decks/index.php" class="level1nav">Decks</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/treports/index.php" class="level1nav">Tournament 
+      Reports</a><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%"><img src="../../global/images/home/trans.gif" width="10" height="5"></td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=constructed">Constructed</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=sealed">Sealed 
+            Deck</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=league">League 
+            Play</a></font></td>
+        </tr>
+      </table>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/outfitters/index.php" class="level1nav">M.E. 
+      Outfitters</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/trade/index.php" class="level1nav">Trade</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/resources/index.php" class="level1nav">Resources</a><br>
+      <br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+    </td>
+  </tr>
+</table>
+
+</font></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Auction</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#423210" class="r2body" width=88%><font class="bfont"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">DeckTech Writers</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#423210" class="r2body" width=88%><font class="bfont"><font size='1'></font> 
+
+</font></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Site Sponsor</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#063926" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#063926" class="r2body" width=88%><font class="bfont"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td>
+      <td bgcolor="#063926" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><BR><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Top Articles</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#063926" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#063926" class="r2body" width=88%><font class="bfont"><ol></ol> 
+</font></td>
+      <td bgcolor="#063926" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> <table cellspacing=0 cellpadding=0 width="100%" border=0>
+<tr valign="top">      
+<td background="/lotr/gfx/mom/header_back.gif" height="150" valign="middle" align="center"><br>
+<a href='http://www.decktech.net/adserver/click.php?mgr=aspcode.net&id=46'><img border='0' src='http://www.decktech.net/banner/premiumemailani.gif'  ></a></td></tr></table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="" valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr><td width=1><img src="/lotr/gfx/mom/kha_01.gif" width=6 height=6></td><td width=100% background="/lotr/gfx/mom/kha_02.gif"></td>
+<td width=1><img src="/lotr/gfx/mom/kha_03.gif" width=6 height=6></td></tr>
+<tr><td background="/lotr/gfx/mom/kha_04.gif"><img src="/lotr/gfx/mom/clear.gif" height=35 width=1></td>
+<td background="/lotr/gfx/mom/kha_05.gif" class="headerbg"><font class="h1font"><font color="#FFFFFF"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Tournament Reports</td><form method='post' action=''><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Tournament Reports</option><option value='#'> </option><option value='/starwarsccg/treports/index.php3'>Star Wars: CCG</option><option value='/heroclix/treports/treports.php'>HeroClix</option><option value='/vs/treports/treports.php'>Marvel VS</option><option value='/lotr/treports/treports.php'>Lord of the Rings</option><option value='/magic/treports/treports.php'>Video Games and Movies</option><option value='/wars/treports/treports.php'>Wizards Minis</option></select></td></form></tr></table></font></B></td><td background="/lotr/gfx/mom/kha_06.gif"></td></tr>
+	<tr><td background="/lotr/gfx/mom/whi_07.gif"></td>
+		<td bgcolor="#FFFFFF" background="/lotr/gfx/mom/whi_08.gif"><font class="bfont"><font class="h1font"> San Diego, California - July 2004<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><font size='1'>(5.00)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/lotr/main/mpage.php?member=11045'>Patrick "Patrick M. S" Sullivan</A></font><font class="afont"> <a href='http://www.decktech.net/lotr/main/mpage.php?member=11045&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> July 6, 2006</font><p align='justify'><blockquote><font class="bfont"> Note from me: Hey all, I’d been meaning to do this for sometime now. I wanted to move all my Tournament Reports from the Decipher and DGMA sites to Decktech and Gameplayersnetwork since they are easier to find here and I’m worried that Decipher’s two sites will go down eventually. I wouldn’t want to lose all these awesome memories. So here they are, archived, for your amusement. Feel free to give reviews with your thoughts and memories of the events or to simply let me know how you liked the read. <br />
+<br />
+Mr. Sullivan goes to the San Diego Premier Series Event<br />
+<br />
+Well, well, the time has come again for me to write another one of these marathon tournament reports. I don’t know how Josh managed to convince me to go to San Diego with him, but it seemed like a good idea at the time, so I figured why not? The plane ticket was just north of 500 bucks, so as long as I make it to the finals of Day Two of the PSE, I’ll at least break even. However, I got a great deal on a hotel only a few blocks from the Convention center so it’ll be a really cheap weekend. <br />
+<br />
+Pre-tourney jank <br />
+Mount Doom will become legal for this event and I’ve been playtesting it quite a bit online. I’ve managed to really fall in love with the new Galadriel who cleans the table beautifully, while at the same time cycling a huge amount of elf events into your discard pile for Cirdan to be the toughest mo-fo to even set foot on Middle Earth. In my deck I start Gimli as my ring-bearer with the Binding Ring so as to fetch the Ring of Fury as soon as I draw into my second favourite Mount Doom card, Great Day, Great Hour. Exhausting Enquea, Desert Lords, Trolls, Castamirs, you name it, is just too much fun for Greenleaf to finish off. I’m also packing the new Elrond for extra healing and not one, but two copies of Cirdan. He is just too strong. <br />
+My shadow is brand new to me and I owe a thanks to Boston’s own Mike Gemme for showing me the strength of Besiegers. I’m expecting lots of Man-Elf decks and I feel like this is my best bet against that fellowship. Grond is essential to strip down the fellowship to nothing. The beautiful team of Great Siege-towers, Hill Trolls, and Gorgoroth Assassins will bring that fellowship to its knees. And just for kicks against Dauntless Hunter and Rohan, I’ve thrown in one Mount Doom surprise, the new Troll who, for seven twilight, is a bargain considering his potential huge strength and damage bonus. <br />
+So that deck will be my Day One deck and I’m bringing a potential Day Two deck should I wish to switch. It is the deck I expect to see everywhere in San Diego and I’ve built the best version I could for playtesting as well as perhaps playing in the Day Two event. It is Gondor-Elf with Corsairs. I think I’ll be seeing this everywhere this weekend. So my Elf-Beseiger deck should be the perfect counter deck, in my mind, to that meta. <br />
+So, the plan is that I’m hopping on a plane after work Thursday, and arriving in San Diego around 11 pm where I’ll make my way to the hotel where Josh and his Toronto buddy, Michael Ium will catch up with me a couple hours later. As far as Canadians attending, it’s us three and I believe a small contingent of British Columbians including Alan Sagan, his girlfriend Sheri, and a few of their friends. Should be a real blast. <br />
+Thursday, July 22nd, 2004<br />
+ROTK is one long frickin’ movie <br />
+So I leave work early at 3pm after getting into a fight with my favourite co-worker :( and get out to the airport in plenty of time for my flight. The flight is to Minneapolis and it’s almost 3 hours long and there is no movie or anything. So I’m bored out of my skull. I have a two-hour layover at my connecting airport which ends up being an extra hour since the flight attendants don’t show up. So, I go for some Pizza Hut and then start to mentally prepare myself for a 3 ½ hour flight to San Diego. NorthWest never has movies so I don’t know what the heck I’m going to do. Walking through the airport, I stumble upon one of these cool new kiosks where you can rent a DVD, a DVD player and a pair of headphones for 12 bucks. You then return it at the airport you arrive at. Since San Diego has a similar Kiosk, I decide to go for it. 250$ deposit though, ouch. Anyway, what can I watch for 3 and a half hours that would be appropriate viewing before going to a LOTR tournament? Hmmm…. Well, I guess I could stand to sit thru ROTK a fifth time. So I rent that and I make it as far as Cirdan’s appearance before we land in San Diego. It was the fastest 3 hours I ever spent. <br />
+So, I have to walk like 2 miles in the airport to find the Kiosk to return the DVD player, but it was totally worth it. I then grab a cab to my hotel. The cabbie seems kinda pissed off that I only want to go downtown and I can’t figure out why. 5 minutes later, I’m at my hotel so I guess he was hoping for a bigger fare. Anyway, it comes out to 10.25$. So I give him a 20 and ask for 9 back (I don’t have to tip this guy a fortune, he was a real jerk the whole drive). So he says, ‘You’re tipping me 75 cents?!’ And then I say, ‘ok, give me 8 then.’ He counts out 8 bucks and says, ‘UNBELIEVEABLE.’ I get out of the car quickly before he pops a cap in my bum-bum. <br />
+I’m staying at the Hotel Pacifica which was insanely cheap (60 bucks a night) and I quickly found out why. It is more like a hostel than a hotel (two bathrooms per floor). I end up waking up the couple that runs the joint since I have to get them to buzz me in. The old Indian lady answers in her nightgown and I feel kinda bad. But she’s really nice and I hit the sack immediately (it’s like midnight or something). Josh Cornwell-Mott and Michael Ium arrive two hours later and wake me up but I quickly fall back asleep. <br />
+Friday, July 23rd, 2004<br />
+DAY ONE<br />
+Snakes and ladders <br />
+At 6 in the morning, I’m wide awake since I’m 3 hours ahead in Montreal-time. So I have a shower and walk into a puddle of some guy’s urine in my bare feet. YUCK. Anyway, it wakes me up better than a triple espresso, so speaking of which, I swing by a Starbucks and grab a tall vanilla latté while I try and find the convention centre. At 7 in the morning, there is already a line-up for the registration booth which opens at 10! So I hurry back the hotel and tell the boys that we better get in line if we want to make the tournament at 11. My good buddy from Colorado, Tim ‘Tommy’ McKnight was supposed to be hooking me up with a free pass so I’m holding out for his cell-phone call but I don’t want to risk missing the PSE (this place doesn’t let you in without your badge), so I get into line with Josh and Mike with the intention of buying a badge. Eventually this completely random guy gets up behind Mike and sits near Josh. I figure this guy must know Josh or something and Josh starts talking to him. Turns out, it’s just some weirdo who felt like sitting with us for no reason (even though we’re in line and everything) so Josh starts having fun with him (as he does best) and it provides some much needed entertainment to pass the time. At one point the kid points to Mike’s cards and I give the stranger permission to sift through them. So, Mike looks on helplessly as this wacky kid starts going through all of Mike’s cards. Hilarious. Eventually a security guard comes by and tells Mike Ium to move since he was sitting kinda in the way of people walking by. Mike complies and I tell the guard, ‘Sorry about that. He’s not from this state.’ The guard looks at me like I’m nuts and walks off. I don’t even know where I came up with that. <br />
+So, around 9, Mike and I want some StarBucks, so we go off to find some and while ordering up a Caramel Latté this time, my cell phone rings and it’s Tim McKnight who tells me he’s got not only my badge but one for both Josh and Mike as well! So I’m like WOW, thanks dude! So Mike and I go back outside to get Josh out of line when…. The line isn’t there anymore! So we chase after the line and find Josh inside upstairs. I tell him not to buy his badge but it’s too late. Not only has he bought one for himself, but he was nice enough to pick one up for Mike and me too. So, now Josh just spent 150 bucks for nothing. So we go to customer service and they tell us to go to the cashier to see if it’s possible to get our money back. I seize the opportunity presented here and go to the cashier and tell her, ‘Customer service sent us here telling us that you’d give us a full refund for these badges’ (a slight bend on the truth), so the cashier is like, ‘ok’ and gives us our money back. WAVE OF BABIES! <br />
+Anyway, so that totally rocked and Tim gets us our badges, two of which have the keyword, exhibitor, on them. That means you’re strength +2 for each wound-- oh wait, no that’s another keyword. Exhibitor means you can get in to the con very early. So I get in there early and help Tim set up a bunch of posters at his booth. Afterwards, I go to the Decipher booth and get dotHack demoed to me. It was lots of fun and I win my first game (as all demos are supposed to go) swarming with a school of fishies. <br />
+Trevor McGregor is then nice enough to show me a booth where there are always chicks with mini-skirts and tanktops doing promos for some adult-oriented comicbook website. These chicks are pretty cute, so I adapt my travel plans to always walk by this booth on my way to anywhere in the con. <br />
+Anyway, 11 am rolls around and I think we’re about 55 people (3 or 4 of them women) and we get started. I’m really hoping that my elves-besiegers will win me the day. <br />
+Game One <br />
+Opponent: Mark ‘TopDawgz’ Zwachi from Arizona<br />
+Deck: Elf-Beasterlings<br />
+Good: Great Day was money against these guys since I bid zero and won the die-roll, so I could run to site nine as fast as possible. <br />
+Bad: This should have been an unfavourable match-up for me. <br />
+Ugly: The Great Day, Great Hours were just perfectly annoying for my poor opponent L<br />
+Result: FW site 9<br />
+1-0 <br />
+At this point, I go to check on Josh who is playing with my LOTR play-mat. I had forgotten it was still in my bag and Josh couldn’t believe I had one and how stupid it was. There is no room to play anything and Josh decides it’ll give him a strategic advantage so he starts playing with it. I go to watch his game and arrive just in time to see his opponent start moving twilight into the middle and Josh yells at him saying ‘NO! The twilight goes HERE!’ and points to a VERY small circle on the play-mat which can fit 10 twilight tokens max. So the kid says, ‘sorry’ and tries to squeeze in 23 twilight tokens into the circle. It was the funniest thing I’ve seen in a while. <br />
+Game Two<br />
+Opponent: Jeremy Comandeur<br />
+Deck: Gondor-Gandalf / Southron Archery<br />
+Good: I ran against his shadow like the wind<br />
+Bad: I play a card at site 6 and then go to heal Greenleaf and my opponent catches it and tells me I forgot to heal. Forgetting to heal against a shadow archery deck is VERY VERY bad. <br />
+Ugly: He plays Gollum, Dark as Darkness for 2 twlight and I decide to play Great Day to exhaust him. The extra twilight is enough to play Sauron! So out comes Sauron who I could have exhausted and shot with Greenleaf but who instead eats two of my companions (Galadriel and Glorfindel I think) <br />
+Result: FW site 9<br />
+2-0 <br />
+Game Three<br />
+Opponent: MichaelFriedman1 from Texas<br />
+Deck: Beasterlings – Elf-Man<br />
+Good: I place two tokens on Great Siege-Towers early and play a Siege Troop. He blocks with Aragorn who has a Last Alliance. I am able to go to 22 strength and overwhelm his most important companion early in the game. (site 3 I think) <br />
+Bad: This was an intimidating match-up for me since this guy has a nice gold medal beside his name in LOTR Online. <br />
+Ugly: I double to five and he plays nothing at the Beasterlings two MOST important sites (4 and 5) <br />
+Result: FW site 9<br />
+3-0 <br />
+Game Four<br />
+Opponent: Gerardo Ritchey<br />
+Deck: Ents – Corsairs! (finally) <br />
+Good: This is the best shadow match ever for me. I’m so happy. <br />
+Bad: He plays Radagast early so even with me doubling every site against his ineffective shadow, he might still get me with his fellowship that can triple as soon as I get a bum-draw. <br />
+Ugly: I get out 2 trolls and bunch of other stuff right when it really counts. <br />
+Result: FW SK concede<br />
+4-0! <br />
+Holy crow! I’m 4-0 and with the small number of players at the PSE, 5-3 will definitely get me into Day 2 considering the incredible SOS I’m bound to have at the end. So I only need to win 1 of my next 4 games! Mike Ium is also in the same boat and Josh is having lots of trouble (he’s either 2-2 or 3-1 at this point). <br />
+The mood around the room is mixed. Mike Mendoza, Franklin Kenter and some random guy are all playing this completely busted loop deck which will completely deck you at site two and then make the move limit +10 to run to nine in one fell swoop from site 3 to 9. The thing is, it takes a long time to do. It cycles using 5 or 6 different cards from a ton of cultures. So what happens is that you just sit there as your opponent defeats you. I’m told by numerous people that it’s easy to stall out your opponent. The problem is that it’s Michael Mendoza who’s also 4-0, so I know I’ll have to face him eventually and I’m really not comfortable with stalling out someone. So, I don’t know what to do and just pray that I won’t have to face him. Let’s see what happens in the next four rounds: <br />
+Game Five<br />
+Opponent: Michael ‘Longshot’ Mendoza (AH CRAP) <br />
+Deck: Broken Loop deck (Last Throw – Change Of Plans – No Safe Paths – lots of dwarf stuff) <br />
+Good: NOTHING<br />
+Bad: I played 3 cards all game. I just sat there as Mike looped me into a 40-minute snoozetrain whose only destination is a game loss. <br />
+Ugly: I can’t explain what the feeling is like when you’re just sitting there during your opponent’s 30-minute regroup phase and you know you’re going to lose. You don’t do anything except say, ‘ok’ everytime he explains to you what’s going on. It’s the biggest NPE I’ve ever had. <br />
+Result: FL site 9<br />
+4-1 <br />
+The best way to stall out against the deck is to not let your opponent force you to loop YOUR OWN actions. He can loop his actions but it is against the rules to force your opponent to force you to loop the effects. Let me explain. When this deck decks you, it is discarding a card or two from your hand, making you reshuffle your hand into your draw deck and then drawing eight cards and doing it again and again. Eventually, you deck yourself. Mike explained this to me and I wanted to be nice so I just flipped my entire draw deck into my discard pile in one shot. However, it is my right to reshuffle my deck as many times as my opponent tells me to do so. So if he is going to play Change of Plans on me 68 times to cause me to deck myself, then by golly, I am going to shuffle my deck 68 times. It’s funny cuz Mike, Franklin and others will call this a stall tactic even though we’re following the rules of the game. I would consider it a slightly unethical play but I don’t think you’d want to hear the adjectives I’d give to the player that plays a loop deck like that. <br />
+So the problem at this point, is that I’m kinda exhausted from that game and I really need to still win one more game so I hope I get some easier match-ups… let’s see what happens: <br />
+Game Six<br />
+Opponent: Current World Champion Mike Dalton (DANG!) <br />
+Deck: Beasterlings – Elf-Man<br />
+Good: Playing against Mike rocks. <br />
+Bad: Mike started the game and drew 8 fellowship cards. He then reconciles into the perfect Shadow combo. <br />
+Ugly: I decide to use my Binding Ring since I don’t know what shadow he is playing and those two burdens end up killing everyone. <br />
+Result: FL Shadow Kill site 5<br />
+4-2 <br />
+Game Seven<br />
+Opponent: Travis Frazer<br />
+Deck: Elf-Man – Sauron Grind<br />
+Good: Travis is a really nice guy<br />
+Bad: He plays Terrible as the Dawn at site 2 to kill my only Condition removal in my deck<br />
+Ugly: He gets out the full Grind by site 6 and I simply can’t deal with it. I guess I should have slowed down and gone for a shadow kill but I really didn’t see that happening at the time. <br />
+Result: FL shadow Kill site 9<br />
+4-3 <br />
+My, how the great have fallen. Mike Ium has now made it to day two and Mike Dalton just pulled off a win against Michael Mendoza. I need to win my last game to get into day two, so I’m hoping my 3 losses in a row won’t get me too down. <br />
+Game Eight<br />
+Opponent: Jonathan Jenkins<br />
+Deck: Shire – Enduring Naz<br />
+Good: Great opponent and super-cool guy<br />
+Bad: I got NO shadow draws at more than 2 key sites<br />
+Ugly: He makes it to site nine first after doing some daring double moves (the one to five would usually kill hobbits right then and there). He has Sam (Great Warrior), Frodo, Pippin and an untouched Aragorn , ROTN. I play a MASSIVE squad of trolls and an assassin to boot. In the first skirmish, almost everything is wiped out. Frodo and Aragorn are both killed as is Pippin. Sam is left alone to block a 17 strength troll. Sam wearing the Water ring is strength 6 (he can spot himself to add 1 strength). So it’s looking like I’m going to make Day Two after all when all of a sudden Mr. Jenkins pulls out SEVERED HIS BONDS and wins the game. I couldn’t believe it. <br />
+Result: FL site 9<br />
+4-4 <br />
+Man, it’s tough to go 4-0 and then 0-4 right afterwards. But I’m immediately excited that I’ll get to play in the team tournament and have a shot at Team Decipher who consists of Brad, Kendrick and Mike Girard. So I immediately run up to Mike and tell him that, ‘Oh, yeah… It’s ON!’ after losing my 8th match. <br />
+I can’t be upset about it since I really didn’t make any mistakes today. I played really well and beat a whole bunch of Beasterling decks which are my worst match-up. I’m sure I’ll have a ton of fun tomorrow. <br />
+So now, John Patchell and his crew are itching to hit up the Old Spaghetti Factory, so a group of about 16 of us head out there for a big feast. We all sit around the table and we’re about half way thru the meal before I realize that EIGHT of the top 16 that made day two are all present at the table. I don’t know many games where you’d find this kind of camaraderie. You’d think that everyone would be off playtesting but we had people that were matched up against others sitting next to each other drinking and eating and laughing. Alex Tennet joined us too, even though he couldn’t eat anything on the menu since all Italian food has eggs in it (the poor chap is allergic). TJ, who was volunteering for Decipher, joined us as well, so Patch and I had a great mix of guys brought together. <br />
+Saturday, July 24th, 2004<br />
+Day Two (not for me, tho) <br />
+‘Mad Beatz’ <br />
+So Josh and I are up early (6ish) and start putting Josh and Mike’s Day Two decks together. I go for another shower but this time in the non-pee floor bathroom. This time, we decide to go for a wicked breakfast before they play in Day Two. So we hit up Café 222 on the corner of 2nd and Island. It was voted San Diego’s best breakfast two years in a row! But if you read the fine print, I think the only people that voted were the waiting staff at the restaurant. <br />
+Anyway, we wait 30 minutes for a table and they are offering free coffee in the thermos thing, so Mike pours himself a cup. We then get seated and I order up French Toast with Peanut Butter and Bananas (like you saw on the Food Network). We all order drinks (coffee, orange juice, lattés, you name it) except for Mike who keeps running back to the waiting area to pour himself more free coffee. At first I was like, ‘what a dummy.’ But then I got my bill and I was jealous of his mad skillz at getting free coffee. <br />
+So I make a quick visit to Poster Planet (where Tim McKnight is working) since they generously donated our Badges to the con.  I thank Tim again and I was going to thank the boss again (when I thanked him yesterday he was disappointed that I didn’t say ‘eh’ more often when I talked), but Tim told me that Josh and Mike should prolly thank the guy and maybe offer to help pull down posters Sunday or something. Josh is like all, ‘no no, I got to get to the Day Two room 60 minutes in advance.’ So I think my chances of scoring more free badges are down the poop chute just cause Josh won’t say thank you :) <br />
+So, anyway, we hit the tournament room and I have to get a team together right quick. My initial choices are Tim ‘DoctorofStyle’ Fournier who is my buddy from Gameplayersnetwork.com where we’re always chatting and debating various topics ranging from Arizona’s contribution to LOTR top players to France’s contribution to making white flags. He’s a good guy and he fits nicely in my Team KwyjiboKardz t-shirt so I’ll take him. My second choice for my team of three is MichaelFriedman1 from Texas who I beat yesterday but actually finished 5-3 and is the 19th placing player or something. Michael ends up having to play in Day Two since Jonathan Jenkins is a no-show so I go and take Alan ‘Mapleman’ Bird just cuz we get along so well online and mostly because it’ll bug the heck out of Josh. <br />
+So, many teams show up and it’s going to be a 6-round event. Plus (and this is my main draw) Team Decipher (consisting of Mike Girard, Kendrick Summers and Brad DeFruiter) are present with bounties on their heads. You get special rare foils just for playing them (Mike is foil Cave Troll, Kendrick is foil WitchKing and Brad is foil Lurtz) and 3 more rare foils if you beat them. <br />
+So, I’m crossing my fingers that I’ll get to cross paths with some of them (hopefully Girard but anyone will do) and here we go: <br />
+Game One<br />
+Opponent: Team Decipher’s Kendrick Summers! <br />
+Deck: Smeagol Ring-bearer with Faramir<br />
+Good: Kendrick is wicked cool<br />
+Bad: This was one heck of a rough match up for Kendrick<br />
+Ugly: At site 5 I pull out a big troll and an Assassin to finish him off. <br />
+Result: FW Shadow Kill site 5<br />
+1-0<br />
+Team KwyjiboKardz is 3-0 ! <br />
+Game Two<br />
+Opponent: David Chafin<br />
+Deck: Elf-Gandalf Telepathy - Besiegers<br />
+Good: Mirror Match pretty much<br />
+Bad: Site 5 I took regroup actions as the shadow player and forgot to activate my Crashed Gate. That pissed me off to no end. <br />
+Ugly: I drop Cirdan at site 8 to win, barely. <br />
+Result: FW site 9<br />
+2-0<br />
+Team KwyjiboKardz is 4-2 (both Alan and Tim lose! Grrrrr) <br />
+Game Three<br />
+Opponent: Ben Butterworth (anyone remember this guy from my 2003 Vegas report? Well he’s tons more fun nowadays and has great insight into Mendoza’s pain-in-the-ask-me-a-question deck) Deck: Gandalf-Gondor – Corsairs! <br />
+Good: Corsairs are fun for my elves<br />
+Bad: Ben got some really bad draws<br />
+Ugly: No Great Days for Patrick L<br />
+Result: FW concede at site 7<br />
+3-0<br />
+Team KwyjiboKardz is 6-3 (at this point I’m getting worried about my team picks) <br />
+Game Four<br />
+Opponent: Lisa ‘lisalovesmichael’ (haha) Gansky! (yay!) <br />
+Deck: Beseigers - Elves<br />
+Good: I get to kill Galadriel at site 2 I think<br />
+Bad: I forget to use Gil-Galad at site 5 to prevent the Siege Tower from grabbing a site<br />
+Ugly: Time was a huge factor in this game. We ran low on time and I had a mega assignment at site 7 or 8 with Lisa starting to ask me if I’m trying to stall (as if). <br />
+Result: FW site 9<br />
+4-0 ! (you know what’s going to happen now, right?) <br />
+Game Five<br />
+Opponent: Dunya Ertan (Lisa’s arch-nemesis) <br />
+Deck: Beasterlings – Dauntless Hunter – Sauron hate<br />
+Good: This was a great match<br />
+Bad: He is playing Bilbo to get rid of all my conditions and I can’t get a second token on Grond fast enough. <br />
+Ugly: I was stupid enough to add 3 threats at site 3 and they followed me all the way to site 9 where I walked into it with an exhausted fellowship against a bunch of Orc Bowmen, 2 or 3 Hates and 3 threats. It’s over. <br />
+Result: FL shadow kill site 8<br />
+4-1 (man, I can’t seem to win my 5th game) <br />
+Team KwyjiboKardz is 10-5 <br />
+Right when I’m about to die, Mike Ium (who got eliminated) comes running over telling me to watch in Josh’s direction (who is currently playing Nike Tan). Josh gets up and yells, ‘It’s a flush!’ which I laugh at to no end. Josh and I figured we’d say that when we play 5 huge minions from our besieger deck at the same site. Your opponent is hopelessly looking down at 5 huge minions (any mix of trolls and siege troops will do) and you get up and yell, ‘It’s a Flush!’ right in his face. Beautiful. Props to Nike for saying right back to Josh, ‘I’m gonna flush these minions.’ <br />
+Game Six<br />
+Opponent: Gharret Noda! (I love this guy) <br />
+Deck: Dwarves! With a cool new smart initiative-based swarm<br />
+Good: Noda is a great great opponent<br />
+Bad: Site 7 was scary with 6 companions. Especially after Gharret did a ballsy double thru site 6. <br />
+Ugly: I pulled out 4 huge minions at site 9 (I think it was a Siege Troop, Great Hill Troll, Troll of Gorgoroth and the new damage +1 troll from Mount Doom) <br />
+Result: FW shadow kill site 9<br />
+5-1<br />
+Team KwyjiboKardz finishes 13-5 (we sweep the last round) <br />
+Tim Fournier’s last match was critical since it was against a member of our rivaling team for 1st place. If Tim had lost, then we would have gone to tie-breakers. But he didn’t. He’s a beast and we win a foil set of Mount Doom! YAY. So we proceed to snake draft all 124 cards or so and it’s good fun. <br />
+Josh then gets eliminated by Nike Tan pretty quick and we don’t feel like watching the rest so we take off with Patch and Alan Sagan with Sheri Perras (who was quickly eliminated from the dotHack PSE Day Two by one of the Hansen kids). On the way out, I run into Dawn and we have a nice friendly conversation, so I’m happy to see that’s she’s as cool as everyone has been telling me. I was half expecting to get a warning for not washing my hair or something. <br />
+Anyway, we all go to The Field which is a pretty decent Irish Pub up on 5th. Everyone gets I.D.’d at the door but we are still allowed in with Mason, Josh and Mike failing the test. There is no room to sit anywhere since all the seats appear to be reserved. The host tells us we needed to reserve, so just then, Patch’s huge crew shows up and we all start to leave. At this point, the host realizes how many we were and says, ‘Wait! Wait! We’ll figure something out.’ And then magically, some of the reserved tables are no longer reserved. Pretty cool. <br />
+So, I make the mistake of ordering a Corned Beef sandwich, but at least my Cider is killer good (StrongBow which I can’t find in Quebec anymore). I try to order drinks for Mike and Josh but the waitress says that’s a no-no. So Josh gets pissed off since the Old Spaghetti Factory let everyone drink without checking ID’s. <br />
+So, Tim Mcknight calls and he’s right up the street at another Bar and Grill type of place. So we head up there (Josh, Mike and I) in hopes of finding a place that’ll let them drink. This time, my strategy is like what I did at the Old Spaghetti Factory where I go to the bar by myself and order the drinks and bring them back. However, I get greeted by an over-zealous waitress who insists on bringing the drinks to me. Then, of course, Josh and Mike who INSIST on wearing sweatpants whereever they go (and hence, look like they’re 14 years old) get carded and no drinks for them. So Josh and Mike storm off (Josh is really angry at this point and heads back to the convention to watch the finals), I wait for Tim to show. He finally does, with Chris Cole, and a couple of other dudes (one is underage). I’m in the middle of an argument with one of Tim’s friends on how good Lost in Translation is (he thinks it was awful, while Tim and I agree it was bittersweet), when in walks this really attractive young woman who sits at our table and starts chatting it up with everyone. She is wearing this gown that is meant to be worn to your best friend’s wedding or something and I really am puzzled as to why she’s sitting with us. She is sitting beside Chris Cole so I surmise that he hired an escort or something (LOL). Anyway, as usual, I’m mistaken and she was simply their waitress from previous nights. <br />
+So, they order food and I’m still stuffed from the Irish Pub. Also I’m getting sick of watching Crusty Demons 7 which is playing on two of the TVs in this bar and grill so I head back to the convention center. <br />
+I walk into the tournament room and the dotHack finals are going on at the same time as the LOTR finals. Josh is playing a game two tables away from the LOTR finals and is yelling out ‘It’s a Flush!’ every three seconds. Note that the level of ambient noise in the room is high (remember this for later, okay?). So I watch Mike Dalton beat RiderYoda Eric in game one where Eric concedes at site 7 or 8 since his Gollum-Shelob mix failed to deliver the mail and Dalton’s shadow is scary and frustrating since you can’t bid high against it. Anyway, they’re starting up game two and the dotHack finals are now done so Chris and Mason decide to show Josh and I more of these amazing G.I.Joe cartoons that have been slightly modified. <br />
+So, you guys remember after each G.I.Joe episode there was this 20 second piece where some kid is burning his hair by accident and one of the Joes runs in (let’s pretend it was ShipWreck) and gives the kid an important lecture on how to prevent this in the future? Anyway, someone got hold of these clips and revamped them so that they are pure comedic genius. So, the room now is DEAD QUIET since no one is in the room anymore except for the finalists, Trevor, Enrique, Peiper, Mike Ium, Josh, Chris, Mason and myself. Patch, Ryan, Kim and Alex all took off to eat. So Chris plugs in his Apple Notebook and we start watching the first G.I.Joe cartoon (the ‘Alcohol’ episode) and Josh starts laughing really, really loud so Enrique or whoever tells us that we’re making too much noise. No problem. We unplug the computer and take it to the complete opposite end of the room. And this is a BIG room. We then plug in the computer and try to watch it again. We get about 15 seconds into it (keep in mind that the speakers are the ones built into the laptop and aren’t exactly THX-certified), when Peiper comes along and tells us that we’re still making too much noise and that even the players are complaining. Even the players are complaining? Who else would complain and what would we care if they did?! The funny thing here is that we’re the only guys making any noise in the room and even with us laughing, the decibel-level in the room is still half of what it was before. Why didn’t they kick everyone out of the room when there were 40 people in the room talking and laughing during game one of the finals? Anyway, we unplug the computer again and Dalton makes a funny joke, ‘Hey, I’m making them double move’ and we move into the video-game Halo Tournament room next door where we watch the rest in peace. <br />
+We then go back in after 30 minutes or so and Mike is about to win game two. But this is Mike Dalton, so he’s going to take 60 minutes to win a game that he is clearly going to win. So, Josh and I get bored (this is never a good thing) and we get the fun idea of pretending to write our names on the giant DGMA cheque. But of course, I’d never do that for real, so Josh grabs the cheque and faces it towards me while I start furiously writing with a squeaky marker on it (with a big piece of hidden paper catching all the ink, of course. I’m a regular David Blaine). So, in the place were you write the name of the payee, I write YOUR MOM and Josh starts cracking up. At this point (and this is the best part), Dalton throws both his arms in the air with this incredulous look on his face as if we just defecated in his lunch box or something. Man, it was so funny. I can’t believe what a big deal everyone was making on the non-level of noise we were actually making. They should hold future PSE Finals in a library or something. <br />
+So, Dalton wins and we’re ecstatic for maybe 2 seconds and then decide to leave. It’s crazy late, so off to bed. <br />
+Sunday, July 25th, 2004<br />
+I gotta learn how to sleep on planes <br />
+So, I wake up in the morning after Josh panics and wakes me up at 5h45 telling me he thinks the alarm didn’t wake me up in time for my flight at 8h30. So I freak out and then look at my watch and see that Josh is a (h)idiot. I can’t see anything in the room so I quickly pack and forget my toothbrush and deodorant (this is going to be fun for whoever sits beside me in the plane). I’m too scared of running into the same cabbie, so I go for the city bus to the airport. It’s only 2 bucks and it’s much more fun. <br />
+I should be going to terminal 2 but go to terminal 1 first since my flight is 4 ½ hours and I want to rent 2 movies. However, my connecting flight is in Detroit this time and neither Detroit nor Montreal has any kiosks for me to return my DVD player if I rent one. So I can’t rent movies and this makes me cry. <br />
+So, I find one of the automatic check-in panels and pick my own seats for the two flights home. I give myself emergency-exit window seats cuz I know they have a TON more leg room. What I don’t know (at the time) is that the seats don’t recline in the first emergency exit row, so for the 6 hours home, I’m stuck in an upright position and unable to sleep with no pillow, no blanket, no movie and hardly any paté. <br />
+The security line up is INSANELY long and I have to wait 45 minutes to clear security where they check my Birkenstock sandals for bombs. Where am I going to stuff the explosives? Under my toe-nails? Anyway, while in line, this really attractive girl (kind of a cross between Drew Barrymore, Lindsey Lohan and Tina Yothers (Michael J. Fox’s fat sister in Family Ties)). She asks me if this is the line for the security checkpoint, and I say yes and then (get ready for this), I point her to the back of the line. What am I thinking? I should have let her cut in and told everyone else she was my sister or something. That way I could have moved in for the kill with some killer line like, ‘So in the southern states, I hear siblings sleep together.’ …. Or not. <br />
+Anyway, the flights home are insanely long and dull but I manage to sleep a bit. Back in Montreal, the line for customs is really long and the guy in front of me had a baby with him and the female customs agent started yelling at him like crazy. I figured he didn’t have papers for his son or something. Anyway, this really ticked her off and she was tearing into him something fierce. I started getting scared of her doing the same to me, so I switched lines. I end up with some guy my own age and he asks me what I was doing in San Diego. <br />
+Me: ‘I was playing cards in a tournament’ (while making the motion of playing cards so he doesn’t think I said ‘cars’) <br />
+Him: ‘What kind of cards’ <br />
+Me: (Pauses, and then continues while rolling eyes) ‘um… Lord of the Rings’ <br />
+Him: (Laughs! And then whispers…) ‘I play it too’ <br />
+Me: Oh, cool…. Well, sorta. <br />
+Him: Did you win anything? <br />
+(it should be noted that on my declaration card I said I’m bringing 10 bucks back which is what I valued the Shelob t-shirt at) <br />
+Me: I won a team tournament which got me a foil set. <br />
+Him: You gotta write that then. What’s it worth? 300 bucks? <br />
+Me: Yeah, but I only won a third of it. <br />
+So he writes it in and I’m still under the 250 bucks I’m allowed to bring in with me so I jump into my car (thankfully, it didn’t get stolen) and head home and dismantle my stupid Besiegers-Elf deck the second I get in the door.<br />
+ <br />
+PROPS: <br />
+1) Mike Ium for making his first day two ever in his second PSE ever. <br />
+2) Josh for making day two after a terrible start on day One. <br />
+3) TJ, Enrique, Trevor, Jim and all the others for running a really great and relaxing PSE. <br />
+4) Tim McKnight for scoring me a free badge and for hanging out Saturday night. <br />
+5) Poster Planet for throwing in free badges for Josh and Mike as well. <br />
+6) Alan and Sheri for coming down from British Columbia and bringing me a NeoPets CCG pin (new site marker, methinks). <br />
+7) Chris and Mason for hanging out with us and for showing us that G.I. Joe stuff. Now e-mail me the Alcohol and Skating ones please. <br />
+8) Mike Girard for all the fun conversations, as usual<br />
+9) Kendrick for smiling thru it all (what’s this business about me having no tact? J<br />
+10) Tim Fournier and Alan B for going 4-2 each and being the reasons we won the team tournament. <br />
+11) Arizona for making some decent players. <br />
+12) Mark ‘Topdawgz’ Z. for having the cutest little girl ever (she called me a geekhead). <br />
+13) Gerardo Ritchey for being the first to correctly and legally stall out the loop deck. <br />
+14) Johnathan Jenkins for being the one to knock me out of day two with Severed his Bonds (and then he doesn’t show up?!?!). Now that I think about it, this should almost be slops cuz if you had conceded, I would have gone in. :(<br />
+15) Ben Butterworth for making fun of the Loop deck with me<br />
+16) Gharret Noda for being my favourite opponent all weekend (Gerardo was a close second). <br />
+17) Patch for initiating two fun social evenings. <br />
+18) Kyle Heuer for being nice to bring me some cards I really needed (and then forgetting them in the hotel so I wouldn’t have been able to use them anyway). <br />
+19) Kwyjibokardz.com for sending 8 vital rares to my hotel via Express Post so that they could arrive by Day One. Wicked. <br />
+20) Pacifica Hotel for being so cheap. <br />
+21) Anyone else I may have forgot. <br />
+<br />
+SLOPS <br />
+1) The loop deck (not who plays it, just the deck). We hates it, my love. <br />
+2) Anyone that thinks that stalling out the loop deck is wrong, not right, or unethical<br />
+3) Anyone that plays this deck at GenCon if nothing is done about it (in which case, of course more slops will be given). <br />
+ <br></font></blockquote><BR><font class="bfont"> <A HREF='/lotr/treports/treports.php?id=5523&view=1'>Read the Reviews</a><font class="bfont"> | <A HREF='/lotr/treports/treports.php'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/lotr/main/join.php'> become a registered member</a></font></font></td><td background="/lotr/gfx/mom/whi_09.gif"></td></tr>
+<tr><td><img src="/lotr/gfx/mom/whi_10.gif" width=6 height=18></td>
+<td background="/lotr/gfx/mom/whi_11.gif"></td>
+<td><img src="/lotr/gfx/mom/whi_12.gif" width=6 height=18></td></tr>
+</table>
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr align="center" valign="bottom" > 
+      <td height="100"><font class="lfont">This site is maintained and updated 
+        by fans of The Lord of the Rings TCG, and is in no way affiliated with 
+        New Line Cinema or Decipher Inc. We in no way claim the artwork displayed 
+        to be our own. Copyrights and trademarks for the films and other promotional 
+        materials are held by their respective owners and their use is allowed 
+        under the fair use clause of the Copyright Law.<a href="/global/terms.php" class="level1nav"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

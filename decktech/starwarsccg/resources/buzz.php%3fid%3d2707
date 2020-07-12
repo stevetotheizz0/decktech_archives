@@ -1,0 +1,506 @@
+
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title> 
+Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"> 
+      <img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0>    </td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"> 
+            <img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0>            </a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> 
+            <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+          </td>
+        </tr>
+        <tr valign="top"> 
+          <td> 
+            <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php" class="level1nav">Articles</a><br>
+
+
+<a href="/starwarsccg/decks/index.php" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php" class="level1nav">Reports</a><br>
+
+  <a href="/starwarsccg/academy/index.php" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php" class="level1nav">Resources</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/resources/rules.php">Current Rules</a> &nbsp;<br>
+
+<a href="/starwarsccg/resources/buzz.php">Buzz Board</a> &nbsp;<br>
+
+<a href="/starwarsccg/resources/links.php">Related Sites</a> &nbsp;<br>
+</div>
+<br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'></font> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center>          </td>
+        </tr>
+                <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>                <tr valign="top"> 
+          <td> 
+            
+<BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol></ol> 
+<p></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center>          </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+      
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg"></td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+<P><center>
+<a href='http://www.decktech.net/adserver/click.php?mgr=aspcode.net&id=-1'><img border='0' src='http://www.aspcode.net/images/aspcode46860.gif'></a></center>
+<P>      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td valign="top" width="1"> 
+            <img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0">          </td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <script language="javascript">
+
+echo "test";
+
+// This makes certain pages private, for members only. Neal 10-2013
+if ($access == "" )
+{
+echo "<table bgcolor='#ffffff' width=500><tr><td><P>This area of DeckTech is now restricted to members only. You must be logged in to view this page.
+Go to <a href='http://www.decktech.net/'> DeckTech.net </a> to log in";
+echo "<P>If you are not a member, and would like to spy on a member, you are cordially invited to kiss off.</td></tr></table>";
+exit;
+}
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+prev1.document.writeln(texttoshow);
+}
+
+function changetobold()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetospoiler()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "(drag mouse to see spoiler)<div style=background-color:red;color:red;foreground-color:red>"+newtext+"</div>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+linkyaddress = document.buzzboardform.texttoconvert.value;
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function oldchangetobold()
+{
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+
+
+
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5<br />
+<b>Warning</b>:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in <b>/home/decktech/public_html/global/includes/com/buzzboard.php</b> on line <b>1390</b><br />
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader">What would you say, of all the companions, is the all out best to have?  All facts considered?</td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="bfont"> From: 20 Rings</font><BR><table><TR><TD><font class="bfont"><A HREF='/starwarsccg/resources/buzz.php'>Back to Topics List</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='/starwarsccg/resources/buzz.php?id=2707'><b>REFRESH THIS TOPIC</b></A></font></td><td width=40>&nbsp;</td></tr></table><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#333333><font class="h2font"> Comment</td></tr><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">I just messaged Sparkz. I think.  Reading these old LOTR threads is fun. <br><BR><font size=1>12:04 01-16-2013</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">oh man, i forgot about half these people. One Spoon is Diniega, Sparkz was a really cool guy <br><BR><font size=1>13:01 12-16-2008</font><BR><BR>Play Versus (or FMA) against me online sometime. Dmail me for friend code!</TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>tampamikes</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=tampamikes'>Ignore</A></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">I&#39;ve swiched out my KIE for my ROTN and so far they are pretty close but I know when I go up against moria ROTN will help me more the healing from Kie isn&#39;t as important if you go 2nd cause its easier to make it to the sant. But the best reason aragorn is better than any other char is: the Pony no other site lets you bring out such a powerhouse. </TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>Shivv</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=Shivv'>Ignore</A></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Stand alone or with support cards I&#8217;d have to say Aragorn ROTN.<br />
+<br />
+As a stand alone, his power 8 makes him a good fighter.<br />
+His 4 health means he&#8217;s hanging in there.<br />
+He&#8217;s a ranger.<br />
+He can exert to be defender +1<br />
+<br />
+With support there are tons of cards that can contribute to make Aragorn a unholy bringer of doom.<br />
+ </TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Art Vandalay</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=Art Vandalay'>Ignore</A></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Without a doubt, Merry From O&#39;er the Brandywine is the best companion.  He&#39;s a common, and slap down a common sword to get a wound magnet.  At strength 7, he won&#39;t be overwhlemed very often(next to never with a bounder).  With 4 vitality, he takes it for the team very often. </TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>Sparkz</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=Sparkz'>Ignore</A></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Yeah, i dont know 20 rings, but from his earlier posts, i definitely doubt that was him. </TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>20 C0ck Rings</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=20 C0ck Rings'>Ignore</A></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">I apologize for the post below. I shouldn&#39;t call other people names when I have made by far the dumbest comments ever in the history of Deck Tech buzz boards.<br />
+<br />
+I rescind my previous statement and agree with anyone who thinks I am stupid because it is absolutely true. Thanks. </TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>Gandwarf</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=Gandwarf'>Ignore</A></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">You know I think Decipher has done a really good job of making each incarnation of the companions playable in the right deck. I don&#39;t think there is a MUST play version of any of them. </TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Rogue Nine</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=Rogue Nine'>Ignore</A></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">I always pack four aragorn so I tend to use ROTN . . . that way by site nine he is happily healed up and ready to commit suicide to protect frodo </TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>20 Rings</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=20 Rings'>Ignore</A></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Two below, you fruitcake.<br />
+<br />
+I never said you have to exert Aragorn to heal.  There are other cards that say exert to heal a "...."<br />
+<br />
+You are a retard and dumbass.<br />
+<br />
+The world would be better off if you and your computer caught on fire.<br />
+<br />
+Thank you.  </TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>The Judge</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=The Judge'>Ignore</A></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Looking at the healing aspect can be important.<br />
+<br />
+New Gandalf and Frodo have Aragorn signet and 1 or the other can be healed by KIE every turn. Cool. This is very good when using Sting, Glamdring, or Gandalf&#39;s staff.<br />
+<br />
+Common Merry, Arwen,LOG, and Sam also can be healed by him so a good balanced deck of new Frodo, Gandalf, Arwen, rare Boromir, and Sam along with KIE means you heal which ever character you are using the most, depending on what you are playing against. Obviously Arwen will do a good bit of battle against Nazgul and being able to heal her every turn will save you some pain, and against twilight Nazgul, you can remove those irritating burdens every turn with Sam.<br />
+<br />
+It&#39;s just a useful tool. ROTN is awesome in an aggressive fast moving deck and he has won games for me several times as he takes on 4 minions at site 9 while the others mosey on by.<br />
+<br />
+I like them both but I do like the control, balanced decks with healing also.<br />
+<br />
+Its a healthy debate. </TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>20 Rings</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=20 Rings'>Ignore</A></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Hello I am 20 Rings.<br />
+<br />
+The post below is also from me and states that you must exert Aragorn to heal people but don&#39;t have to exert him to use Athelas.<br />
+<br />
+Yes, Yes, I am an idiot, please don&#39;t laugh at me to much. I am sensitive. </TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Thorbolter</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=Thorbolter'>Ignore</A></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Gandalf, Friend of the Shirefolk.  Great sword and staves.  Excellent spells.  Best allies.  Condition removal.  Best companion. </TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>20 Rings</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=20 Rings'>Ignore</A></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Not really, Athelas can remove conditions, and you dont have to exert Aragorn to do it. </TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>tampamikes</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=tampamikes'>Ignore</A></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">healing 3 or 4 wounds per game is like having 3 or 4 extra athlises in your deck(for free). I havent tried the ROTN in my archery deck yet but I will experiment with it. </TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>marinethrawn</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=marinethrawn'>Ignore</A></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">I have to go with KIE, I think he is better right now.  I usually don&#39;t have to worry about swarms, directed archery and damage takes care of that.  The healing I think is more powerful, but it all depends on your local meta. </TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>edmund</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=edmund'>Ignore</A></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">I dunno, I mean how many wounds do you really end up removing with him (KiE) that wouldn&#39;t be removed through other means? 3? I don&#39;t see how that&#39;s possible worth not playing ROTN, except, I guess in specific decks. </TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>The Judge</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=The Judge'>Ignore</A></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">I agree with. KIE&#39;s healing power is really good and makes him more versatile than ROTN but ROTN can win games at site 9 easily.<br />
+<br />
+KIE lets you use Sting or Glamdring for free which is nice. </TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>faramir</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=faramir'>Ignore</A></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">KiE? Gah, not more of this... Ranger of the North is like twice the character KiE could ever hope to be :).  KiE will heal you maybe 3 wounds in a game, RotN will flat out win you games (particularly against Moria, but also Sauron, and really, most people are gonna be playing Moria anyway). </TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>The Judge</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=The Judge'>Ignore</A></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Seriously speaking...I would call it a tie between Gandalf FOTSF and KIE. They both have an equal number of devestating support cards to go with them, Aragorns healing power and high vitality and ability to have higher vitality is very powerful. Most of the companions are good in their own way but those 2 top the list by far. Legolas is a panzy in battle and SPIES makes him look like a doofus. </TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>ADrake</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=ADrake'>Ignore</A></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Arwen and Legolas are both excellent picks, but I have to go with Gandalf, FOTSF. When armed with Glamdring, you can essentially take on anyone AND cut out twilight. Plus, his support cards are the best in the game. Aragorn is also good, but if you play all the conditions on him that make him so effective (Saga, Last Alliance), you cannot play Sleep without hurting yourself.  </TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>tampamikes</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=tampamikes'>Ignore</A></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">aragorn has all the toys and the site to go fetch him </TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Sparkz</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=Sparkz'>Ignore</A></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Well, it all depends. If you want to get the farthest without worrying about overwhelming, i would say Aragorn, ROTN. Gandalf can make it very far also, but having only frodo and gandalf is a sure way to get yourself overwhelmed. Arwen is cool, but i wouldnt say the best. Id probably go with aragorn. THink about this:<br />
+Aragorn<br />
+Armor<br />
+Rangers Sword<br />
+Last Alliance<br />
+Flaming Brand<br />
+Aragorn&#39;s Bow<br />
+<br />
+By himself, he can beat most nazgul. And with a couple elves, he is even more powerful.<br />
+<br />
+Emerson </TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>20 Rings</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=20 Rings'>Ignore</A></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Yes that&#39;s what I meant.  But this is dumb, so i stopped talking </TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Rogue Nine</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=Rogue Nine'>Ignore</A></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">I assumed we were talking with the least support cards . . . </TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>Greypie</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=Greypie'>Ignore</A></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Arwen, without a doubt.<br />
+She has the best weapon, but more importantly, she&#39;s an elf, and a ranger, and she works well with Aragorn. This makes her the most versitile companion in the games. </TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>Voice of Law</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=Voice of Law'>Ignore</A></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">I think the best companion to have is, without a doubt, Frodo. Can&#39;t play the game without him. </TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>Vincent Vega</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=Vincent Vega'>Ignore</A></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Gandalf has some of the best support cards, so I really like him, but I think Legolas, Greenleaf might stand the best on his own. </TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>dope5tar</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=dope5tar'>Ignore</A></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">i say arwen, cuz she has the best weapon in the game. </TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>20 Rings</B></font><br><font class="afont"> <A HREF='/starwarsccg/resources/buzz.php?ignorename=20 Rings'>Ignore</A></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">The problem with Legolas is he is easily overwhelmed by Moria Swarms.  Aragorn, ROTN, along with a ranger&#39;s sword, and his ability, can whoop some ass. </TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/starwarsccg/resources/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/starwarsccg/resources/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=2707><input type='Submit'  value=' Show all Posts '></form><form action='/starwarsccg/resources/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=2707><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/starwarsccg/main/join.php'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script>
+<!-- advertising code -->
+<!-- Kontera ContentLink(TM);-->
+<!--
+<script type='text/javascript'>
+var dc_AdLinkColor = 'blue' ; 
+var dc_PublisherID = 157626 ; 
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'>
+</script>
+-->
+<!-- rumors board code end -->            <!-- #EndEditable --></td>
+          <td width="1" valign="top"> 
+            <img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0">          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4"> 
+      
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+    </td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

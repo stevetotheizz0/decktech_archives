@@ -1,0 +1,785 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php" class="level1nav">Articles</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/articles/articles.php">All</a> &nbsp;<br>
+
+</div>
+
+
+<a href="/starwarsccg/decks/index.php" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php" class="level1nav">Reports</a><br>
+
+  <a href="/starwarsccg/academy/index.php" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6530&view=2">Free Premium Membership Drawing!</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6531&view=2">A Few Basic, Basic Question Regarding Rules!!!!</A></font></li><BR></ol> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Articles</td><form method='post' action=''><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Articles</option><option value='#'> </option><option value='/starwarsccg/articles/index.php3'>Star Wars: CCG</option><option value='/vs/articles/index.php'>Marvel VS</option><option value='/heroclix/articles/articles.php'>HeroClix</option><option value='/lotr/articles/articles.php'>Lord of the Rings</option><option value='/magic/articles/articles.php'>Video Games and Movies</option><option value='/wars/articles/articles.php'>Wizards Minis</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> Top 10 Things To Know About Virtual Set 8<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(5.00)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=9001'>Chris "Darth Crith" Menzel</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=9001&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> December 1, 2004</font><p align='justify'><font class="bfont"> Okay, for all of you not knowing moi, I’m Chris Menzel, the European’s Co-Flight Leader for the Players Committee, and also one of the staff writers. As with the previous few virtual sets, I’m here to give you all the info I can on V8. Warning, it’s looooong! But hopefully, you will either find some interesting new stuff you haven’t thought of, have enough of a twisted mind to be amused by my senseless blabbering, or simply appreciate the checklists on what card pulls what. Especially on the last part, I want to thank all the other playtesters for some of lists, decks ideas, etc. You guys rule.<br />
+<br />
+And speaking of OTHER playtesters, it’s true they made me one as well. I guess having rules guru Greg constantly coming to my table at Worlds with questions like “I can add to my own drain with Bane Malar (V) to make him lose to Imperial Propaganda, right?” was the final straw. So, as a rule of thump, if you don’t like a card… I had nothing to do with it.  ;o )<br />
+But honestly, this set was playtested more then any other with over 200 games. Some things might have slipped us, but you have strong cards, and endless deck possibilities. <br />
+<br />
+Jabbas Palace was one of the least liked set originally. Although it was cool to have a character as almost every Rare, it didn’t offer much strategically (except for The Signal and Twilek Advisor). Well, these are back, and with them a lot of other stuff that puts more value to the game. <br />
+<br />
+ENJOY YOUR MEAL AND LET&#39;S SEE WHAT&#39;S ON THE MENUE FOR V8:<br />
+<br />
+<br />
+1)FOR STARTERS<br />
+<br />
+I cannot think of one Star Wars player, whether old school or late arrival, that will not like the new starting interrupts Careful Planning (V) and Combat Readiness (V). Hats off and a deep bow to creator Kevin Brownell and all who had a hand in this. These old Endor Used and Starting Interrupts are finally doing what they should have done from the beginning, and they also do something that every virtual card should do (I know that’s not possible): They provide a platform for many new decks without necessarily hindering any old ones. Basically, it works like this, when you start without an objective (remember starting location that don’t have “Throne Room” in their text), you get to choose up to 2 related locations to build a platform for any deck. DS needs to start with a battleground system and LS with a battleground site to prevent two players from starting with the same location, and both being screwed because they have to choose new ones. Yavin 4: Throne Room (TR), the Death Star system, and other non-battlegrounds don’t work (even if you start another Yavin 4 site, and the TR as the addition, you don’t get to start of course). Also out of the picture are the generic site as related locations, because they only become related once deployed. Exceptions to that are Endor: Great Forest and Tatooine: Desert by the way. The DS gets to start with sectors as additional locations though, because the system is on table, so that’s a nice little advantage. Even without generic sites, that still leaves lots of options with the regular battle planets from the movies (Hoth, Tatooine, Endor, Yavin, Naboo, Bespin, Coruscant, and maybe I missed one). <br />
+<br />
+You also get to start with the start-able effects we are all so used to by now. If you choose the default start, which already includes a battleground, you start with two effects If you had an additional battleground (so two in all), you get your three effects. And if all your locations were battlegrounds (that’s three, sir), then you even get to start with a whopping 4 Effects!<br />
+You will also note that, although there is the usual “deploy for free and always immune to Alter” stuff required, that you can now also use effects that don’t deploy on table only. Some worthwhile examples for these additions are:<br />
+<br />
+Encampment(V5, LS): deploy to exterior planet sites regardless of location deployment <br />
+  restrictions, and deploy a character –3 there once <br />
+A New Secret Base (LS): get EBO going, dude!<br />
+Launching The Assault (LS): It’s not free first turn, but pulling the Home One is still cool<br />
+Flagship Operations(V7, DS): Build up these TIE things for extra power. <br />
+<br />
+The starting interrupt is then lost (d’oh!), but when later retrieved or simply put into your deck for the Used part, you can really show what a Gambler you are by placing the destiny 5 on your reserve deck for some easy tracking. This can of course always be grabbed or Bith Shuffled into an Omni Box by your opponent.<br />
+<br />
+DECK IDEAS:<br />
+But on to the real funny part, namely some deck ideas to use as a starting platform in your games. Many of these are Force choke concepts, but we have some solid battle and damage ideas as well. Here goes:<br />
+<br />
+DS HOTH WALKERS:<br />
+Hoth System, 5th Marker, 6th Marker (or maybe Hoth: Wampa Cave), You May Start Your Landing and Combat Response. Get Walker Garrison and the 3rd marker right before you activate a minimum of 7 (while giving only 1 icon to your opponent). During your 2nd turn, you will activate a minimum of 9 (and only giving 2 icons away). This is an Occupation, Imperial Decree, and direct damage platform, and you can do Walker Garrisons.<br />
+<br />
+DS TATOOINE MAUL:<br />
+Tatooine, Maul&#39;s Site, Jabbas Palace (pull more sites w/ Jabbas palace later). Lots of Force.  First turn free Maul, and if you use the Episode 1 Tatooine system you can use Tatooine Maul to control the system with him on his ship for a drain +2. You can also use Scum on the ground).<br />
+<br />
+DS TATOOINE WATTO:<br />
+Tatooine E1 system, Tatooine: Desert Landing Site, Tatooine: Watto&#39;s Junkyard, Blaster Rack (V), I Will Find Them Quickly Master. Activate a minimum of 6. Deploy free Maul, and get  If The Trace Was Correct (Epic Event). Get Watto and deploy him (for free) at the Junkyard. <br />
+Play multiple We Must Accelerate Our Plans for Expand The Empire on the Landing Site, and move Maul to Watto&#39;s site. You get a nice drain of 5 on 2nd turn and your opponent cannot draw a destiny there. You also have the opportunity to retrieve your lost cards with the help of the Sith Probe Droids.<br />
+<br />
+DS YAVIN 4:<br />
+Yavin system, Jungle, Docking Bay. Yet another Occupation and Decree platform, which you can also use Leia&#39;s Ceremonial Necklace in.<br />
+<br />
+DS BESPIN SOLID:<br />
+Bespin system, Bespin: Cloud City, Cloud City: Chasm Walkway, Weather Vane (V), You Cannot Hide Forever & Mobilization Points, We&#39;re The Bait (V), Alert My Star Destroyer (V). Get the free Executor, activate at least 8 Force, ditch Mob Points for Imperial Arrest Order and the CC DB, and maybe reinforce the whole thing with Admiral Piett, Battle Deployment (Admirals Order that he pulls, and which gets…), Blizzard 4 and Vader.<br />
+You are pretty much set up.<br />
+<br />
+DS CORUSCANT CHOKE:<br />
+Coruscant (EP 1) system, Coruscant: Imperial Square, Coruscant: Docking Bay (SE), Mobilization Points, Combat Response. Get Rendili with Mob Points before you activate a minimum of 6 Force. Deploy one of your multiple Emperors (for free) to the Square, and one of your starfighters and matching pilots to Coruscant system. Move the Emperor to the DB.<br />
+On your 2nd turn, you&#39;ll be activating a minimum of 11 (and only give 2 to your opponent), if no one deploys to your site. You also got yourself a pretty powerful character on table for Sense/Alter.<br />
+<br />
+DS NABOO DUEL:<br />
+Naboo System, the 2 LS Combat sites, Bad Feeling Have I (V) and 3 other effects. Use EPP Vaders and Mauls to duel and kill your opponents away. Straight beat-down and removal, maybe combine with Naboo Occupation to regain some Force advantage.<br />
+<br />
+LS ENDOR EWOKS:<br />
+Endor system, Chief Chirpas Hut, Endor battleground site, Strike Planning (V), Bargaining Table (V), and Ewok Celebration. All unique Ewoks have a deploy cost equal to or greater than their forfeit, so they get up to +3 forfeit and defense value, not to mention the extra battle destiny (+6 forfeit killer Ewoks?) killer. Sound The Attack (Lost 5 interrupt) would be giving them yet another battle destiny. Daughter of Skywalker and old Wokling work well with this, too. You could also go with Launching The Assault as a 4th starting effect to keep the system protected by Home One.<br />
+<br />
+LS ENDOR REBELS:<br />
+Endor system, Rebel Landing Site, Endor Back Door, Strike Planning (V), Encampment (V) on the Back Door, Wokling (V). Get lotsa Force and give away reasonable amounts. Deploy your Rebels cheap (now, there’s a low cost Jedi Luke at the Back Door), and enhance the drains with Corporal Midge. Use Goo Nee Tay and the rebel scouts that increase the opponent’s deploy cost. <br />
+<br />
+LS TATOOINE TOSCHE STATION:<br />
+Tatooine system, Tosche Station, Shmi&#39;s Hut or Jedi Outskirts or Watto’s Junkyard (3 generation) as one of the two sites. Credits Will Do Fine is a bastard card to start with, and Tosche Station is a Force generation monster.<br />
+<br />
+LS HOTH EBO:<br />
+Hoth system, Main Power Generators, Echo War room. Pull the 4th marker from your deck (this is not considered as the second location). Start Strike Planning and get Riekaan (V) to get your act together...can anybody say EBO?<br />
+<br />
+LS NABOO GUNGANS:<br />
+Naboo system, Boss Nass’ Hut, Naboo: Battle Plains, Tusken Breath Mask (V), Saitorr Kal Fas (V1, you know, the weapon puller), and Superficial Damage (the weapon forfeit for 3 Effect). Jar Jar, Captain Tarpals, and Boss Nass all deploy for almost nothing together with Harc Seff (V5).  Their weapons have high destinies, and effects like Brisky Morning Munchen round the thing up. First Ewoks and now this. What’s next, a Mediclorian deck?? :o)<br />
+<br />
+LS CORUSCANT SPACE:<br />
+Coruscant (old) system, Jedi Council Chamber, Coruscant DB, Launching The Assault (V), Squadron Assignment, and Wokling (V). Get Yoda to the Chamber, and grab Home One. Secure system with LS capitals, Artoo and matching fighters. Use EPPs to keep opponent from satisfying Resistance and go for the big space drain. If you are looking for some weird crap, start LS Coruscant: Galactic Senate instead of  Jedi Council Chamber (get that later with the interrupt), and use multiples of Queen Amidalas (Coruscant) and the political Effect that adds 2 to a drain several turns. Use Wokling to get Insurrection and the Naboo DB and put one Amidala in the Senate to retrieve one per turn. Back her up with Palpy, Mes Amedda (nice direct damage) and Valorum (only one copy though, since without the Senate Objective they are no good destiny and your characters cannot deploy from Political Effects), and move Yoda over after you pulled SAC). Well, maybe that’s a bit much.<br />
+<br />
+Anyway, these are just a few ideas. I’m sure you guys out there are creative in finding cool stuff with these two cards. I personally haven’t found a good reason for the DS to go to Endor, and for the LS to use Yavin or Bespin as a platform instead of abusing the usual objectives, but I’m certain somebody has an idea. Use the review space (that’s where you can also give me a star for every of the 15 Word pages this took, you know? ;o) to add your own concepts.      <br />
+<br />
+<br />
+2) SIGNAL FOR A WAITOR TO ADVISE SOME SPECIALS<br />
+<br />
+The original JP Starting Interrupts are also back, and offer a lot of possibilities. Downloading and uploading 4 Effects might not seem so revolutionary anymore after Careful Readiness, but these, you can use with your objectives as well. These are also “Effects of any kind”, so there are Utinni and Immediate Effects as well). So, those are more effects then the CIA has Rembaldi artefacts in their secret storage. Further, the Used functions are very cool for both sides.<br />
+<br />
+LS gets the Signal, which allows you to upload a weapon for 1 Force Used. This excludes the EPP characters, because they only have (permanent) weapons and are none, but you can pull lightsabers, guns for your main characters, etc. The effects you can start with (or pull into hand to deploy first turn) are listed here. Please write in the reviews if I missed one. The expansions are noted as well, but I have not written any explanations of what the cards do this time, since most should be known as old favourites. <br />
+<br />
+THE SIGNAL (V) pulls:<br />
+<br />
+Advantage (Cloud City) <br />
+Affect Mind (Premiere)<br />
+At Peace (Dagobah) <br />
+Brisky Morning Munchen (Tatooine)<br />
+Descent Into The Dark (Dagobah)<br />
+Descent Into The Dark (V5) 	<br />
+Do, Or Do Not (Dagobah) <br />
+Don&#39;t Do That Again	(Tatooine)<br />
+Down With The Emperor! (Special Edition). <br />
+Down With The Emperor! (V6) <br />
+For Luck (Premium) <br />
+Haven	 (Cloud City)<br />
+Honor Of The Jedi (DS II)<br />
+I Must Be Allowed To Speak (Jabbas Palace) <br />
+I Must Be Allowed To Speak (V8)<br />
+K&#39;lor&#39;slug (V2)<br />
+Lightsaber Proficiency (Premiere) <br />
+Obi-Wan&#39;s Apparition (Dagobah) <br />
+Obi-Wan&#39;s Apparition (V5)<br />
+Obi-Wan&#39;s Cape (Premiere)<br />
+Obi-Wan&#39;s Cape (V2) <br />
+Our Most Desperate Hour (Premiere)<br />
+Projection Of A Skywalker (Jabbas Palace)<br />
+The Camp (Tatooine)<br />
+The Way Of Things (DS II) <br />
+Thrown Back (Coruscant)<br />
+Twilight Is Upon Me	 (DS II) <br />
+Wars Not Make One Great (Dagobah) <br />
+Wars Not Make One Great (V5)<br />
+What Was It? (Tatooine)<br />
+Wise Advice (Special Edition)<br />
+Yoda&#39;s Gimer Stick (Dagobah) <br />
+Your Insight Serves You Well (DS II)<br />
+Your Insight Serves You Well Combo (Coruscant)<br />
+<br />
+<br />
+TWILEK ADVISOR (V) pulls:<br />
+<br />
+Cane Adiss (Jabbas Palace)<br />
+Den Of Thieves Jabbas Palace)<br />
+Desilijic Tattoo (Special Edition) <br />
+Desilijic Tattoo (V5)<br />
+Despair (V6) <br />
+Hutt Bounty (Jabbas Palace)<br />
+Hutt Influence (Premium)<br />
+Information Exchange (Jabbas Palace)<br />
+Information Exchange (V)<br />
+Jabba&#39;s Influence (Special Edition)<br />
+Jabba&#39;s Influence (V)<br />
+Juri Juice (Premiere)<br />
+Ket Maliss (Premiere) <br />
+Ket Maliss (V)<br />
+No Bargain (Special Edition)<br />
+No Escape (Premium)<br />
+Power Of The Hutt (Premium) <br />
+Resistance (Jabbas Palace) <br />
+Scum And Villainy (Jabbas Palace)<br />
+The Hutts Are Gangsters (Reflections 3)<br />
+Well Guarded (Jabbas Palace)<br />
+<br />
+Twilek Advisor adds lots of possibilities for the usual Agents Of The Black Sun, Carbon Chamber Testing, My Kind Of Scum, and Court Of The Vile Gangster deck types that were already handled in the previous virtual sets (accompanied with nifty articles by yours truly). Check if it’s not possible to exchange this starting interrupt for your old starter. The real hit for the DS is the Used function though. Use 1 Force to deploy a unique alien from hand or reserve deck for free. Multiple copies of this combined with Broken Boba and his pals might really hurt. Pull Greedo (V) with Ket Maliss (V) when you have only 3 Force left and deploy him (be sure to check what’s in your Reserve, so that you know what is in your Used Pile). Chances are good that you are able to deploy Boba from Used now, and attack with 3 battle destinies for 2 deploy. Ouch time. Another nice combo works with Xizor (V). Pull Unexpected Interruption to get the new Twilek (check again), and burn them bad with Bob again.  <br />
+<br />
+<br />
+3) THE MAINS COURSE<br />
+<br />
+Like with every virtual expansion, you get your share of LS main characters, which can be used in Profit decks and similar ones. The best card is probably Master Luke (V), who once per battle may use 2 Force to place an opponent’s alien present on their Force Pile. Jabba and Reps are excluded from this deal, and your sworn enemy may use or lose 3 to prevent this, but it still is a good way to get rid of characters (like Monster Boba Fett), especially since it bypasses Molator (V). This Luke also has decent immunity and is no Jedi, which helps against several cards. Since Luke cannot get rid of Jabba, he calls on his baby sister (by a minute or two), Princess Leia Organa (V), the original Playboy centerfold one. She deploys free, but only as a captive to Jabba or a bounty hunter, and can use the 7 destiny interrupt Strangle (JP) to kill the captor, basically by drawing destiny +4 greater than power + ability (no defense value, Mr. Fett) of the target. If she’s cleaned the field, you may retrieve any 3 cards (except for Strangle), and choosing those is huge as well.<br />
+The last of the three Ls is Lando in his Tamtel Skreej (V) undercover persona. While he is undercover, he can relocate a character for free from a related (not adjacent, so that’s pretty cool) site to his. Do that, download a free Vibro Axe on him, break cover, and you are ready to put some hurt on the opponent. The Vibro Axe excludes from battle, so although not easy to pull off, you have a lot of beatdown potential on the LS with this set. Luke, Leia, and Lando all have ways to remove characters from battle that are hard to prepare against. <br />
+<br />
+But if you need more incentive, try I Must Be Allowed To Speak (V), a start-able effect, that protects your Profit characters from the new and deadly None Shall Pass (V), and downloads a Farm, once per game to get some Harvest-ing done. The real highlight is the pseudo Tunnel Vision thing though. Only this time you’re looking from the other end of the tunnel. Once per deploying Lando, Luke, Leia and Chewie to a Tatooine site, you get to search the used pile and take any card there into hand. So, you deploy Master Luke and try to get his stick with the matching effect, but it’s not there. No problem, because you can get it from the used pile now (I don’t have to tell you that it is probably the 1 card left in Force pile that you need to battle. You’ve been at this a while too, right?). Anyway, this card is obvious for Profit, but works for other objectives (or non-objective decks now) as well. New LS Agents has another way to get a site out now, and the TV effect still works for Lando and Chewie in an all alien deck (the latter even as a Rep). Hyperdrive can use them as well, although you may want to go with the new Obi interrupt. Any deck using these guys and a Tatooine site is a go.<br />
+<br />
+<br />
+4) THE KING’S COURT COURSE<br />
+<br />
+The LS deck, which was the high contender for crappiest deck of all time gets a serious boost with several cards this set… Agents In The Court. It’s Agents for the LS at last. The objective itself is not that bad, once it’s possible to pull it off. You get to cancel a destiny or drain by placing a copy of your Rep on the flip side, which can be huge. <br />
+<br />
+To help you with that, you start with Yarna d’al Gargan (V), deployed by the objective’s zero side (it is also made immune to Alter by that, in case you thought this was missing). It pulls a Tatooine battleground for 1 Force, so that you have 3 Tatooine sites to occupy. One of those needs to be occupied with a non-unique alien of your Rep’s species, and you still need Nar Shadaa Wind Chimes (JP) or Arleil Schous (Sealed Deck) for that. Once done, flip (and never flip back), deploy Bo Shuda, which prevents battles and drains at the Audience Chamber (AC) and cannot be cancelled anymore. Yarna (V) further protects you from creature attacks.   <br />
+<br />
+BARGAINING TABLE (V)<br />
+Next up is Bargaining Table (V), which is a LS Ket Maliss (V) and pulls the following dudes:<br />
+<br />
+Attark -> useless little Seeker guy<br />
+Attark (V) -> retrieve a non-unique alien of a different species than your Rep<br />
+Ardon &#39;Vapor&#39; Crell -> he’s the D4 Hydrooptics Station and Vaporator Force drain enhancer <br />
+Ghoel -> the Destiny 4 little ability sucker you always liked and never played<br />
+Laudica -> Correlian female Joker-look alike that reacts with a Blaster<br />
+Laudica (V) -> retrieve 1 or draw 1 for non-battleground drains and pull “matching” Effects<br />
+		(see checklist under point 9)<br />
+Leslomy Tacema -> useless Ellors Medak enhancer that does nothing to the new effect<br />
+Leslomy Tacema (V) -> see below <br />
+Loje Nella -> suspends Mosep and Gailid’s texts and activate 1 when draining with an alien<br />
+Vul Tazaene -> 2er pilot who twice per system battle use 2 to add to destiny of 2. Mental note to Committee, whenever you virtualize the Tonnika Sisters they should be the ultimate princesses<br />
+<br />
+The following Cards have their deploy/forfeit cost changed by Bargaining Table (V):<br />
+<br />
+Ardon &#39;Vapor&#39; Crell (deploy 0, forfeit 5)<br />
+Attark (deploy 1, forfeit 5)<br />
+Aved Luun (deploy 1, forfeit 5)<br />
+Boshek (deploy 2, forfeit 6)<br />
+Boshek (V1, deploy 2 or 0 at a Docking Bay, starship or Cantina, forfeit 6)<br />
+Bron Burs (deploy 1, forfeit 6)<br />
+Caldera Righim (deploy 1, forfeit 6)<br />
+Dice Ibegon (deploy 2, forfeit 6)<br />
+Garouf Lafoe (deploy 1, forfeit 5)<br />
+Geezum (deploy 1, forfeit 5)<br />
+Grugnak (deploy 1, forfeit 6)<br />
+Han Jedi-Pack (deploy 2, forfeit 4, and still sucking) <br />
+Hunchback (deploy 2, forfeit 7)<br />
+Jess (deploy 1, forfeit 6)<br />
+Kalit (deploy 1, forfeit 6)<br />
+Ketwol (deploy 1, forfeit 6)<br />
+Lando With Vibro-Ax (deploy 4 or 2 on Tatooine, forfeit 9)<br />
+Leesub Sirln (deploy 1, forfeit 6)<br />
+Leslomy Tacema (deploy 0, forfeit 5)<br />
+Loci Rosen (deploy 2, forfeit 5)<br />
+Max Rebo (deploy 1, forfeit 5)<br />
+Neb Dulo (deploy 1, forfeit 6)<br />
+Palejo Torshan (deploy 0, forfeit 5)<br />
+Phylo Gandish (deploy 2 or free at a Docking Bay, forfeit 7)<br />
+Pucimir Thryss (deploy 1, forfeit 6)<br />
+R&#39;Kik D&#39;nec (deploy 1, forfeit 6)<br />
+Shasa Tiel (deploy 1, forfeit 6)<br />
+Tanus Spijek (deploy 1, forfeit 6)<br />
+Tawss Khaa (deploy 1, forfeit 6)<br />
+Tessek (deploy 1, forfeit 6)<br />
+Treva Horme (deploy 0, forfeit 5)<br />
+Tzizvvt (deploy 1, forfeit 4)<br />
+Vul Tazaene (deploy 0, forfeit 5)<br />
+Zutton (deploy 1, forfeit 5)<br />
+<br />
+And now for our friendly Ewoks...<br />
+Chief Chirpa (deploy 1, forfeit 5 + number of Light icons at same Endor site)<br />
+Graak (deploy 0, forfeit 4 + number of Light icons at same Endor site)<br />
+Kazak (deploy 0, forfeit 4 + number of Light icons at same Endor site)<br />
+Logray (deploy 0, forfeit 4 + number of Light icons at same Endor site)<br />
+Lumat (deploy 0, forfeit 4 + number of Light icons at same Endor site)<br />
+Paploo (deploy 0, forfeit 4 + number of Light icons at same Endor site)<br />
+Rabin (deploy 0, forfeit 4 + number of Light icons at same Endor site)<br />
+Romba (deploy 0, forfeit 4 + number of Light icons at same Endor site)<br />
+Teebo (deploy 0, forfeit 4 + number of Light icons at same Endor site)<br />
+Wicket (deploy 1, forfeit 5 + number of Light icons at same Endor site)<br />
+Wuta (deploy 0, forfeit 4 + number of Light icons at same Endor site)<br />
+<br />
+Leslomy Tacema (V) deserves some special mention, because she pulls three key Effects for this deck type: Bo Shuda (also in case your opponent over deploys your AC text!), Ellorrs Madak (V), and Yerka Mig (V). More on the latter two in a minute. She is also a 3 power pilot, and has some power bonus at certain sites, but more important may be the free DB transit from Tatooine. I’m not sure if this makes the transport TO the Executor or Death Star II free as well, but that would come in handy.<br />
+<br />
+Ellorrs Madak (V) is a start-able Effect that makes your Rep immune to attrition and capturing, and once you got your 5 different alien species in the now safe AC with Bargaining Table (V), you get a +2 bonus for Force drains and battle destinies, and your opponent’ drains are –2. Card intensive, but well worth the slots. Kinda LS Rallops. <br />
+<br />
+Yerka Mig (V) not only has a name to make every mommy blush, he is also the Scum And Villainy for the LS. Deploy this Effect on the AC or Cantina (and do so again with virtual Leslomy, when he is Altered), and you retrieve 1 Force for every unique alien you deploy to a battleground. Your power is also +3 in battles. This is only working when all your ability is from aliens and indy ships, but it fits the theme.<br />
+<br />
+Tusken Breath Mask (V) is the final component to a nice cake, but it deploys on a location, and is not start-able. When you meet the same ability requirements you have for Yerka Mig (V), plus creature vehicle (go, SpeedRonto, go), your ability is +7 and you can ignore 7 battle damage, assuming your objective will be flipped by then.<br />
+<br />
+REP SUGGESTIONS:<br />
+So, what Reps are worth playing even with all those bonuses? We haven’t tested them all, but a few good ideas are:<br />
+- Chewbacca (A New Hope) and Wookies<br />
+- Tanus Spijek (V) and Eloms<br />
+- Kabe and Chandra Fas<br />
+- Corellians with Han (V), Dash, or Palejo Reshad (JP, Corellian Rep dude)<br />
+- Ishi Tibs with Harc Seff or Shasa Tiel (still no Palace Raiders though)<br />
+- Momaw Nadon and Ithorians<br />
+- Jawas (see below)<br />
+<br />
+I personally found the Wookie deck with 5 Chewies pretty powerful, and it may be the first deck posted by me (always waiting for having something special to say in that area). The whole thing worked a bit different in play testing, but he single handed kicked many a Vader and Emperors in his day. It was fun, believe you me!  ;o)<br />
+<br />
+<br />
+5) THE ANGUS DIET<br />
+<br />
+The DS gets their own addition to the alien decks already boosted by the previous few virtual sets. The biggest addition in the truest sense of the word is Jabba The Hutt (V), who basically keeps most of the previous known Jabba functions (move slowly, and cannot be hit until everyone around him has bitten the dust already). He also downloads Scum And Villainy once per game, which comes handy in many decks he is a key card of. His real mean new ability is (at the cost of losing 2 Force) allowing all other aliens present with him to battle at double power. Be sure you do the math right, because that also includes your opponents aliens, but combined with Kitik Keed’kak (V) or Episode 1 Bib Fortuna he can be fatal in a fight.<br />
+The big fat mobster also gets a car, a boat, and a couple of chauffeurs in this set. <br />
+<br />
+Jabba’s Sail Barge (V) is finally is written as it was meant to be. It still lets your aliens deploy for –1, and gets you the Passenger Deck. Only for sure this time, and it provides immunity to attrition while the Deck’s on table. It also downloads Jabba and Pote Snitkin JP (3er driver) aboard, and Scum And Villainy may now deploy here as well. With the new Combat Readiness (V) starting interrupt you may try a Tatooine deck without the Audience Chamber, since the text on the LS allows Scum to be cancelled. The Barge can still be pulled with Power Of The Hutt (JP Sealed effect), which makes all the aliens aboard immune to attrition less then 6, and everything else you need is pulled aboard anyway. <br />
+<br />
+Jabba’s Space Cruiser (V) is even worse, since it has an all new and all familiar deploy/forfeit ratio of 3/6, like many of the new virtual bounty hunter ships. But the tough part is, if your opponent attacks you at it’s location, you can react for free with an indy starship from hand or reserve deck (Bossk in Hound’s Tooth anyone?), and even add a pilot if the indy ship was unpiloted. Those two don’t have to belong together by the way, so it’s perfectly legal (use a strange Neimodian voice when reading this aloud) to deploy an empty Mist Hunter (V) to the system as forfeit fodder, and Woof (V) to the cruiser. Speaking of Woof (V), he is the matching pilot for the Cruiser, when using Combat Response (even though Jabba’s ship is a capital). He also downloads the big man himself to make the whole thing immune to attrition, and allows you to take the top card of the reserve deck into hand. If you don’t think that’s enough to withstand the space package the LS carries these days, you can further add Gela Yeens (V) as another 3ish pilot, since he prevents your ship from being attacked by weapons as well. (He also has weapon protection on the ground with Jabba, and makes your opponent’s guys power and forfeit -2, if you want to use him downstairs). I don’t know about you, but with every new virtual set, I go like “Whooa, this is the best ship ever!”, and this one is certainly no exception.<br />
+<br />
+Back to Jabba, you don’t get that big, if you don’t know how to throw a party, and Jabba is king in that department. And he’s always inviting all the guys. There’s Olde Hermi (V), who makes the destiny of all weapons (except sabers and permanent ones) +2, Vizam (V) who activates 2 when opponent’s equipment of any kind is deployed to related sites, and Nizuc Bek (V), who is the counterpart to LS’s Laudica (V) with downloading “matching” Effects (see checklist under point 9). Nizuc retrieves or draws 1 for drains at opponents non-battlegrounds, and can cancel a Force drain by placing a copy of Juri Juice on top of your Force pile. In case you’re not Canadian, and have no idea what Juri Juice does, don’t bother. It is a Utinni Effect that prevents an opponent’s alien from using it’s ability in a battle. You’re probably better off cancelling that drain with it. Then there’s Malakili (V), and once again a card that finally does what it was meant to do, namely coming down on the opponent with the Rancor in tow. For 6 deploy, ferocity 8 + destiny and now defense 9, you have a nice character removal going. The habitat is still exterior planet sites only (or the Rancor Pit in case some EPPs where looking for the wine cellar down there), and I recommend putting Malakili (V) into a Blizzard 4 or something after showing the opponent that a visit to the zoo can still be cool.<br />
+<br />
+Top of the party list is of course Boba Fett (V, but only the Special Edition persona). Aside from being one of the few pilots who adds 4 to his ship, he also has this nice capturing thing going. Draw destiny +2 greater than targets ability, and you’ve captured him or her. Combined with Binders (Destiny 6 device that allows you to carry more than one captive), Hidden Weapons, and his gun, he will really be the most feared bounty hunter in the galaxy. The new All Wrapped Up (V) will further serve his cause by allowing forfeited characters to be captured, much like the old one, but this time you can upload any Bounty Effect per turn, and deploy it on characters after you captured them. Costs you a turn, but it’s more of a sure thing. It also makes Double Back (CC, upload a bounty hunter for 3, or retrieve one) a used interrupt. This is especially cool with the elsewhere mentioned used part of Twilek Advisor (V). The Bounty to get with virtual Wrapped Up is the new Hutt Bounty (V) of course. Aside from letting Jabba’s friends generate and add 1 to battle destiny at related sites, it once per turn makes a character at the same site of a gangster (Jabba, Xizor, hell even Gardulla) power = 0. Huge beat down potential. <br />
+<br />
+DEN OF THIEVES (V):<br />
+Den Of Thieves (V) is a start-able effect, that makes all the usual ABS suspects forfeit +1, and prevents the forfeit from being reduced. Since we saw last set, that this is …virtually… everyone these days (see checklists in my V6 and V7 articles), this might be one of the strongest cards in the set. To add insult to injury, you also activate +3 for each character with “plotting to kill Jabba” in lore. Those are:<br />
+<br />
+Bane Malar (JP)<br />
+Bane Malar (V6)<br />
+Bib Fortuna (JP)<br />
+J&#39;Quille (JP)<br />
+J&#39;Quille (V8)<br />
+Ree-Yees (JP, bounty hunter cow with lotsa 3s in text)<br />
+Velken Tezeri (JP, useless Seeker dude)<br />
+<br />
+And of course you want to activate extra for those LS guys, should they be on table:<br />
+<br />
+Garon Nas Tal (JP, Saurin Rep for Jurassic Park fans only)<br />
+Tessek (JP, adds +1 to non-unique alien drains, lets them deploy -1, and activates a bit)<br />
+<br />
+Now with all the Force choke you can put on the opponent, if you are still afraid of the opponent attacking you at Jabba’s Palace, remember that None Shall Pass (V). A nice destiny 5 Used interrupt with which you can put a just expensively deployed character (except for Leia, even bad guys want to see her in chain bikini) on the bottom of the opponent’s Force pile. He gets to draw 2 cards, but it is a nice Barrier style evasion card.<br />
+<br />
+<br />
+6) FOR OUR LITTLE ONES<br />
+<br />
+The whole Rep thing mentioned under point 4 works especially well with Jawas, since they have quite a few additions to their cause in this set. Aved Luun (V) makes all your sandcrawlers and Jawas destiny +2, which pumps them to destiny 5 in general. He further  adds a destiny with Kalit. Virtual Aved also pulls the Jawa Camp you need to deploy your midgets to, when you cannot steal the opponent’s Force, and pulls Thedit (Sp.Ed., adds a destiny with 2 other Jawas and subtracts 3 from attrition if your destiny was higher) and Sergeant Doallyn (JP). About Sergeant Doallyn, when Tusken Breath Mask (V) is on table, he protects your characters from Sandwhirl and Gravel Storm. There might also be a rules leak here, because he allows a character on Tatooine to be targeted by TBM. I guess the “all ability on table” part would still have to be satisfied, but could I target a droid by giving him 7 ability? Ah, the wonderful worlds of wording cards.<br />
+   <br />
+Kalit (V), the Ober-Jawa uploads any card with Jawa in it’s game text. He further adds 2 to the power of his sandcrawler, and makes Jawas power and forfeit +1. Should you really need to satisfy remaining battle damage after using up all those super beefed gnomes, you can sac his crawler (or any other vehicle) to take care of that. <br />
+<br />
+KALIT pulls:<br />
+<br />
+Aved Luun (JP)<br />
+Aved Luun (V8)<br />
+Caller (Premiere)<br />
+Desert (Special Edition)<br />
+Dune Sea Sabacc (JP)<br />
+Jawa (Coruscant, E1)<br />
+Jawa Ion Gun (ANH)<br />
+Jawa Siesta (Premiere)<br />
+Jawa Siesta (V2)<br />
+Kalit (JP)<br />
+Kalit (V8)<br />
+Kalit’s Sandcrawler (V8)<br />
+Luke’s Backpack (Dagobah)<br />
+R’kik D’nec, Hero of the Dune Sea (JP)<br />
+Radar Scanner (Premiere)<br />
+Ronto (Special Edition)<br />
+Sandcrawler (Premiere)<br />
+Sandcrawler (V2)<br />
+Sandcrawler Loading Bay (ANH)<br />
+Sandwhirl (JP)<br />
+Scanner Techs (ANH)<br />
+Tattoine: Hutt Canyon (JP)<br />
+Tattoine: Jawa Camp (Premiere)<br />
+Tattoine: Jawa Canyon (Special Edition)<br />
+Thedit (Special Edition)<br />
+Utinni (Premiere)<br />
+Utinni (V2)<br />
+Yavin Sentry (V2, it’s a Shield dammit)<br />
+<br />
+Enjoy reading them. If you’re building a Jawa deck, you’ll check most of the cards anyway. I know that there are always still a lot of guys out there who are anxious to play Jawas (No, I won’t tell your girl-friends! Wait, players who are anxious to play Jawas have no girlfriends, right? Wait, I have no girlfriend right now, MUST I play Jawas now, or doesn’t it work that way around?). So, I hope you all have fun.<br />
+<br />
+<br />
+7) DRIED FRUITS<br />
+<br />
+Quite likely in the same category as Jawa fans, are Tusken Raider fans. You are also in for a treat, since V8 finally makes such a thing possible. The times where you see a lone Tusken Raider standing in the Jundland Wastes to give you that phat drain may no longer be a thing of the past, and that’s not because all the scrubs are returning to Star Wars, but due to several cards enhancing this old theme. The most important one is the new Effect Bantha Herd (V), which deploys on a Tatooine site (so it’s unfortunately not start-able), but is immune to Alter. Your drains on Tatooine are now +2 where all of your ability is provided by Tuskens and Banthas. Make sure to back them up with Iggy, Guri, 4-LOM or a couple of Destroyer Droids. I’m not sure how realistic an Invasion/Tusken deck would prove to be, but I’ll definitely give it a try as soon as I’m having nothing better to do. A more valuable option should be the second function of Bantha Herd (V). Once per turn you may place up to three cards on this virtual effect (they should be Banthas and sand dudes), and react with them for free to a battle against the dreaded lone Tusken. You should always have a Ghhk in hand for safety reasons though, because waiting for your opponent to cancel your reacts makes no Sense (yeah, pun intended). Tusken Raiders are still the biggest losers this side of a Gamorrean Guard of course, so get ready to meet some cool ones in V8. UroRRuR’R’R (V) is the ultimate Tusken Raider, and since hopefully nobody expects me to rewrite this name even in the age of copy and paste, let’s give him a little nickname: The Urinator… because he WILL piss you off!!! For a low 2 deploy you get a whopping 9 forfeit (your other Tuskens get +4 forfeit as well), and your opponent’s weapon destinies are –2. He’s also got his own matching Hunting Rifle (ANH, Destiny 5, shoot for 1 Force, and hit with destiny -1 greater than defense), and I’m pretty glad I don’t remember what an Urinator’s Hunting Rifle looks like. However, his real hit lies in his recycle ability. You get to draw a card from Reserve deck as with other recyclers, but in his case, you put a card on your Force pile instead of using 1. That’s a 2 Force advantage, and will make Janus wish he had kept his own bandages on after the accident. The Urinator further has his personal virtual Bantha that downloads him, and adds a destiny with him aboard. Your opponent’s destinies are also –3, and your own drains are +2, making this a beast indeed. And don’t forget the Urinator’s little brother UR’Ru’R (V). Let’s call him ERRor (V) to keep things simple. Together with the Urinator, he downloads weapons with Tuskens in lore and makes their destinies +2. Those are basically the Urinators Rifle, and  Gaderffii Sticks (yeah, stick it to Libian dictators), that deploy for 2, have a 4 Destiny, and knock opponent’s weapons away by drawing greater than 5 with 2 destinies. ERRor (V) also relocates for free to an adjacent site or activates 1 Force. The latter and the Urinators similar function to put a Force back are a nice virtual Tusken sub theme of unexpected activation, and protects them from beatdown cards like Frozen Assets and First Strike. There are a few other non V8 cards you would like to add in an (almost) all Sandpeople deck. Bane Malar (V) and Rodians (V) to prevent the Force drain bonuses from being cancelled and Taym Dren-garen (JP), who makes your Raiders power =3, forfeit +2 (how about a 11 forfeit Urinator?) and not limited to 4, when he’s at the AC. You know, I was really pissing my pants writing this (even if nobody else has a blast). <br />
+<br />
+<br />
+8) SENIORS MEAL<br />
+<br />
+Much like that third Lord of the Rings movie (yeah, I loved it), which seemingly took no end, and had one ending after another, this virtual set does not stop to start. Krayt Dragon Howl (V) is yet another starting interrupt. This one is LS it’s answer to the bounty hunter start, and it uses good old Obi-wan. You start with only 3 hand cards and no effects, but have Obi and his weapon on table regardless of what Objective you play. So, this works best with Hyperdrive and Tosche Station, but is also possible with Watch Your Step, We Have A Plan, and Lightsaber Combat (there are no restrictions on the latter, but it might be a good start).<br />
+KDH (V) goes back into your hand, where you can use it to activate 3 Force during your first turn plus whatever your objective gives you (Tosche really is a beast with this). The only scenario that can screw you a bit by cancelling the additional 3 activation is a lucky first turn  Sense by Xizor in an Agent Of The Black Sun deck. Obi himself is a solid SAC platform of course, but the chances of his 3 hand cards being one of those is naturally slim.<br />
+<br />
+Since Ben Kenobi, the Episode 1 dudes, and especially an EPP Obi may not exactly satisfy the requirements for such a start, you also get a brand new V8 Obi-Wan Kenobi. His game text cannot be cancelled (sorry 4-LOM), he cannot be captured, has decent immunity versus Dark Jedi and is kinda immune to DS Lightsaber Combat. The sickest is draining in a Profit or Dagobah deck though, and this should bring Obi back into the game big time. This can be reduced a bit with the new DS card Cane Adiss (V), an Immediate Effect that makes the opponent lose a Force for draining at a non-battleground. Come Here You Big Coward also still helps. Although Obi will certainly find his way into many decks, he will remain to be affected by dueling (a Circle could take him out easily) and multiple destinies, if not backed up by his Journal. <br />
+<br />
+Obi-virtual Kenobi is a great card, but Krayt Dragon Howl (V) is still a risky start, and some-thing that can only be pulled of by true masters of the game (these other guys).  ;o)<br />
+<br />
+<br />
+9) SIDE ORDERS<br />
+<br />
+“More iron than a little steak” would have been an alternative sub title for the Droid section, but I’m not sure if they say things like that in your food advertisements over there (without blushing, and when they’re trying to sell a damn yoghurt. Don’t ask). Anyway, virtual See-Threepio has a build in function of How Did We Get Into That Mess?, namely placing your hand into the Used Pile to draw the same number of cards from Reserve deck. He needs to be together with Artoo at a Jabbas Palace site, so Profit is again the ideal platform. How Did We Get Into That Mess? can still be played in addition, but you have to use 3 Force when he’s out. For all late-comers, a deck like this works by putting lots of Twixes (no activation for the opponent) into the deck, recycling your hand with several copies of How Did We Get Into That Mess?, and now See-Threepio (V), to go once through your deck to completely play out all locations, and then clobber the opponent with a huge Force advantage. <br />
+<br />
+Another new droid is BG-J38 (V), who pulls Grimtaash and protects it from Sense, and may be a nice way to keep your opponent’s hand in check now that the new Starting Effects make drawing so popular. He further makes all your Dejariks (the Pokemon holograms) destiny +2. This is nice for Houjix, Grimtaash and Klor Slug (V), where it fits the deck. You can pull this guy with Echo Base Garrison by the way.<br />
+But the best droid card is Don’t Forget The Droids (V). The Used 6 destiny function of cancelling any attempt to target a droid is nice, but the lost function rules. For losing 1 Force in addition, and placing a droid outta play, your opponent draws no battle and no weapon destiny during a battle there. Go get those high destiny binder fodder droids (8D8, BG-J38, the Batha Droid, K-3PO, and every bot that starts with an “R”), and kick the enemy to kingdom come. This is the first time the good guys should be called Decepticons.<br />
+<br />
+There are also the aforementioned “matching” Effect pullers, and since they get more cards than I thought, here are the handy checklists… <br />
+<br />
+LAUDICA (V) pulls:<br />
+<br />
+Beldon’s Eye (V): QMC and Smuggler Effect<br />
+Echo Base Garrison: Get Bacta Tank, BG-J38 (V), Commander Luke, and speeder immunity<br />
+Get To Your Ships!: Squadron Assignments for Republicans (sounds like Bush, too ;o )<br />
+Maneuvering Flaps (V): Speeders and their pilots<br />
+Sai’torr Kal Fas (V): Mains and their weapons<br />
+Squadron Assignments: Starfighters and their pilots<br />
+<br />
+NIZUC BEK (V) pulls:<br />
+<br />
+Alert My Star Destroyer (V): Capitals and their pilots<br />
+Blaster Rack (V): Mains and their weapons<br />
+Combat Response: Starfighters and their pilots<br />
+Program Trap: I had no part in this, Michael, I swear!!<br />
+<br />
+Next on, each side gets a little main, meaning a guy who draws destiny by himself. Those are (too-large-to-be-an-Ewok) Elom leader Tanus Spijek (V) for the LS, and (look-Mom-the-alligator-has-a-beard) J’Quille (V) for the DS. Both are spies, that make the opponent lose a Force for each character they might have piled up at a location, once per game. Tanus (V) deploys free at a non-battleground (Lando at the prison should be careful from now on), and J’Quille is the first character to break the previously not breakable Hoth Energy Shield. These two will be in many decks from now on, as destiny drawing spies are a rarity.<br />
+<br />
+Ultimatum and Sacrifice are also virtualized to offer some strategic value. LS’s Ultimatum (V) makes your destinies at JP sites +1 during a battle, and prevents interrupts from being cancelled. So, after the opponent attacked you, and you bring that un-Sense-able Fallen Portal through at +1 destiny, you can also place this effect out of play to force the opponent to activate 2, and screw with his tracking. Big stuff. You can also use the activation for yourself of course. Sacrifice (V) is DS’s answer to this in form of an interrupt. Although not by far as powerful, it has a nice way of placing no longer useful Effects like They Must Never Again Leave This City into your used pile by drawing destiny lower then the effect’s number, and getting an easy 5 activation for it.<br />
+<br />
+Rounding up the set, there are two deck specific cards. The Time For Our Attack Has Come (V) is a MBO (Massassi Base Operations) pusher that allows you to deploy an additional ship from under your Starting Effect, and helps with the movement somewhat. The DS has Frozec (V), a retriever spy for an ISB deck, who reduces the opponents related drains by 1 when he’s Undercover. Combined with 5D6-RA7 (Premiere), the old Death Star droid, he can really put a hurt on many decks. ISB may make a pacific blue return yet.<br />
+<br />
+<br />
+10) THROWN UP<br />
+<br />
+Finally (and this should have actually been the very first thing), there are the very controversial new virtual Starting Effects, Thrown Back and Drop. Are you sick of decks that play themselves (not decks that are playing with themselves, those would be remotely interesting, if they were female)? That’s what these new Starting Effects were made for. They intend to provide a balance to heavy up- and downloading. As a reward, you get to put 12 Defensive Shields under them, and play 4 of them during the game. Especially the DS cannot have enough shields as it is. That’s only shields by the way, baby, so go and use the old Fear Effects to get devices, creatures, ships, Hidden Base systems and stuff. Also, if you are heavy into down- and uploading half your deck during the first two turns, you might want to go with the old ones. You still have to be prepared for the opponent playing the counterpart of course. The Starting Effects are worded like Battle Plan/Orders, so that they are not cumulative. Only the game text of one card is affecting the up/downloading of players!<br />
+<br />
+So, what’s an upload and download and what is affected by this and what not. There were tons of questions during play testing, and this card was changed more often then Vader changed actors during his movie career. I hope to give you some answers here, and clear the matter a bit. <br />
+<br />
+AN UPLOAD OR DOWNLOAD is: <br />
+Any action (or attempt) where you go into your Reserve Deck searching for a card, take the card into hand (or fail to find one and reveal it to your opponent), and then shuffle your Reserve Deck afterwards.<br />
+<br />
+- All cards that say upload (^) or download (v) are valid (No! Really??)<br />
+- All cards that get you &quot;any card&quot; (like the Jedi Test, virtual Speeders Objective, Ralltiir Ops, etc.) from Reserve are still considered a download (or upload). They were just worded that way back in the day.<br />
+- Search for a Docking Bay and find none, it’s still the attempt that counts.<br />
+- Deploying matching weapons and ships/pilots counts for these purposes.<br />
+- Taking 2 cards into hand (p.e. Third Marker/Walker Garrison or two Cloud City sites) is still only ONE attempt.<br />
+<br />
+<br />
+NOT VALID ARE:<br />
+ <br />
+- Before the game starts it is nobody&#39;s &quot;turn&quot;, so it can never be your second up/download on a &quot;turn&quot; that doesn&#39;t exist. Everything you deploy from Reserve at the start is no load.<br />
+- Cards you get from Used, Force, Lost Piles, or from under your Starting Effect (if one player uses the old one) are no loads. So, no Tunnel Vision, Weapon Levitation, Levitation Attack, and the like.<br />
+- C-3Po, Janus, Mirax, and the new Tusken are also a whole different thing!<br />
+- Jedi Test decks or other decks that have Yoda on Dagobah and Thrown back out, are excluded by the game text, so go and load like hell.<br />
+ <br />
+ HOW DOES IT WORK AGAIN:<br />
+<br />
+It’s all a “load” of crap? You don’t know up from down anymore? It’s actually pretty simle.<br />
+<br />
+- First download/upload attempt by a player is free <br />
+- From the second attempt up your opponent gets to draw a card from top of reserve and/or may activate 1<br />
+- Nobody needs to draw above 12 (if afraid of Grimtaash/Monnok) or activate more, if afraid to run out of destinies<br />
+- See above examples for what counts and what doesn’t<br />
+<br />
+Again, I don’t want to insult anyone’s knowledge here, but there were a lot of questions, so I hope this helps a bit.<br />
+<br />
+<br />
+And that’s it again from old Chris with the virtual news. Again another thanks to the playtesters for some of the lists and deck concepts. I still consider myself to be a writer first, so please don’t see this as mindless propaganda, but I believe the PC creative team did a splendid job on this set. When writing such an article, you recognize how much effort went into taking things like the card lore into consideration, and how many cards are affected by the virtual cards in this set (there is at least the same amount of additional JP cards). They also made quite some cuts to prevent peeing lots of players off (believe it or not, even if you are opposed to a card here or there). I hope that V8 will bring many new decks into the meta, and gets the creative juices going.<br />
+<br />
+Next up, there should be some Ewok stumping and Bunker blowing in the forests out there, although it’s still a good while till then. But who knows? If you’re all nice and cheery during the December days, we maaaayyy have a little Christmas present for you (no promises  ;o)<br />
+<br />
+Happy holidays<br />
+<br />
+Chris Menzel<br />
+Darth Crith / Shadow 14<br />
+European Co-Flightleader<br />
+PC Playtester and Staff Writer<br />
+ <br></font><BR><font class="bfont"> <A HREF='/starwarsccg/articles/articles.php?id=5916&view=1'>Read the Reviews</a><font class="bfont"> | <A HREF='/starwarsccg/articles/articles.php'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+<!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

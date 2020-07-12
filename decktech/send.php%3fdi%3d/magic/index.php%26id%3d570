@@ -1,0 +1,3 @@
+
+<body bgcolor="#000000" text="#FFFFFF" background="global/images/home/background.jpg">
+all fields are required except for <i>additional message</i>.<p><form action=/send.php?id=570&di=/magic/index.php&ref= method=post><table><tr><td>your name</td><td><input type=text name=name maxlength=50></td></tr><tr><td>your email</td><td><input type=text name=e_mail maxlength=200></td></tr><tr><td>your friends name</td><td><input type=text name=f_name maxlength=50></td></tr><tr><td>your friends email</td><td><input type=text name=f_email maxlength=200></td></tr><tr><td>additional message</td><td><textarea cols=25 name=comments rows=4></textarea></td></tr><tr><td colspan=2><input type=submit value=send></td></tr></table></form>

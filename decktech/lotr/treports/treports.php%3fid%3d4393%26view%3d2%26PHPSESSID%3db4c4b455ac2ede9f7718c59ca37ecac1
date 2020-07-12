@@ -1,0 +1,641 @@
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Lord of the Rings Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Lord of the Rings, Gandalf, Frodo, Ring, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #111188;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; color: #111111; font-size: 8pt; font-style: normal; text-decoration: none; background-color: #FFFFFF; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.headerbg {  color: #E2DED3}
+TD.headerbg A {  color: #E2DED3}
+
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.r2body {  color: #EDE9DE}
+TD.r2body A:link {color: #A17D2D}
+TD.r2body A:active {color: #A17D2D}
+TD.r2body A:visited {color: #A17D2D}
+TD.r2body A:hover {color: #FFFFFF}
+
+TD.r2body .level1nav:link {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:active {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:visited {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:hover {  font-family: Verdana, Arial, sans-serif; color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 8pt;}
+
+input {font-family: Verdana, Arial, sans-serif; font-size: 8pt }
+select {font-family: Arial, sans-serif; font-size: 8pt }
+
+-->
+</style>
+ 
+</head>
+<body link="#111155" vlink="#CF4300" alink="#0000FF" text="#111111" margin="0" marginwidth="0" marginheight="0" background="/lotr/gfx/mom/bg.jpg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=186 hspace=0 vspace=0
+src="/lotr/gfx/mom/logoleft.gif" width=1 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=186 hspace=0 src="/lotr/gfx/mom/logoright.jpg" width=195 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action=""><input type="hidden" name="PHPSESSID" value="b4c4b455ac2ede9f7718c59ca37ecac1" />
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">LotR TCG ======</option>
+<option value="/lotr/index.php">Home</option>
+<option value="/lotr/main/about.php">About</option>
+<option value="/lotr/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+<option value="#"></option>
+<option value="#">Themes =======</option>
+<option value="/lotr/treports/treports.php?setheme=fellowship">Fellowship</option>
+<option value="/lotr/treports/treports.php?setheme=moria">Balrog&Gandalf</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Lord of the Rings</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#3C402E" class="r2body" width=88%><font class="bfont">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><a href="/lotr/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Home</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/articles/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Articles</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/decks/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Decks</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/treports/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Tournament 
+      Reports</a><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%"><img src="../../global/images/home/trans.gif" width="10" height="5"></td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=constructed&PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1">Constructed</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=sealed&PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1">Sealed 
+            Deck</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=league&PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1">League 
+            Play</a></font></td>
+        </tr>
+      </table>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/outfitters/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">M.E. 
+      Outfitters</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/trade/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Trade</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/resources/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Resources</a><br>
+      <br><a href="/premium/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1"                    
+class="level1nav">Premium Memberships</a><br>
+
+    </td>
+  </tr>
+</table>
+
+</font></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Auction</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#421D21" class="r2body" width=88%><font class="bfont"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1'>List Your Item!</a> 
+
+</font></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">DeckTech Writers</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#421D21" class="r2body" width=88%><font class="bfont"><font size='1'><b>Star Wars CCG</b><br><a href='/starwarsccg/featured/taylor.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1'>2006-05-26 Scott Lingrell</a><br></font> 
+
+</font></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Site Sponsor</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#3C402E" class="r2body" width=88%><font class="bfont"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><BR><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Top Articles</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#152A43" class="r2body" width=88%><font class="bfont"><ol><li><font class="bfont"><A HREF="/lotr/articles/articles.php?id=6369&view=2&PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1">European Championship LOTR</A></font></li><BR></ol> 
+</font></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> <table cellspacing=0 cellpadding=0 width="100%" border=0>
+<tr valign="top">      
+<td background="/lotr/gfx/mom/header_back.gif" height="150" valign="middle" align="center"><br>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript></td></tr></table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="" valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr><td width=1><img src="/lotr/gfx/mom/red_01.gif" width=6 height=6></td><td width=100% background="/lotr/gfx/mom/red_02.gif"></td>
+<td width=1><img src="/lotr/gfx/mom/red_03.gif" width=6 height=6></td></tr>
+<tr><td background="/lotr/gfx/mom/red_04.gif"><img src="/lotr/gfx/mom/clear.gif" height=35 width=1></td>
+<td background="/lotr/gfx/mom/red_05.gif" class="headerbg"><font class="h1font"><font color="#FFFFFF"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Tournament Reports</td><form method='post' action=''><input type="hidden" name="PHPSESSID" value="b4c4b455ac2ede9f7718c59ca37ecac1" /><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Tournament Reports</option><option value='#'> </option><option value='/starwarsccg/treports/index.php3'>Star Wars: CCG</option><option value='/heroclix/treports/treports.php'>HeroClix</option><option value='/vs/treports/treports.php'>Marvel VS</option><option value='/lotr/treports/treports.php'>Lord of the Rings</option><option value='/magic/treports/treports.php'>Video Games and Movies</option><option value='/wars/treports/treports.php'>Wizards Minis</option></select></td></form></tr></table></font></B></td><td background="/lotr/gfx/mom/red_06.gif"></td></tr>
+	<tr><td background="/lotr/gfx/mom/whi_07.gif"></td>
+		<td bgcolor="#FFFFFF" background="/lotr/gfx/mom/whi_08.gif"><font class="bfont"><font class="h1font"> Toledo, OHIO 5/3/03<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><font size='1'>(4.90)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/lotr/main/mpage.php?member=14074'>Chris "Mental Warg" Tubman</A></font><font class="afont"> <a href='http://www.decktech.net/lotr/main/mpage.php?member=14074&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> May 6, 2003</font><p align='justify'><blockquote><font class="bfont"> Well I had so much fun writing my first tournament report that I figured I&#39;d write another one.  So I&#39;ve been waiting to play in a territorial for a while hoping to get that coveted bye into day two of worlds or continentals.  I placed fourth (4-2) and fifth (4-2) at the two PSQ&#39;s I hit and my STANDARD deck has been pretty solid going 7-1 with it in two local tournaments.  So I tuned it up a little bit and decided to drive to Toledo for a TOC.  The Michigan Territorial is two weeks after the Ohio so if nothing else I figured I&#39;d see what decks are competitive in the STANDARD format and throw the dice.  Well, I&#39;ll save you the suspense I didn&#39;t get the bye.  <br />
+<br />
+So I posted the deck I&#39;ve been playing on deck tech with my last tournament report and a couple people picked up on the isengard man flavor (Wounded) of my Nazgul shadow.  Namely, Johnathan &quot;Carny&quot; Brown in his deck Bigfoot.  He added the desert lord&#39;s into the mix and an extra copy of relentless charge.  I thought the desert lord/ blade tip combo was too good to resist so I stole it and put it in my deck.  I figured I would see a lot of archery so I threw in the extra charge as well.  Also, since I hadn&#39;t played against Dauntless Hunter deck the need to get rid of him didn&#39;t dawn on me, but I do run quite a few conditions.  Anyway, the fellowship quandry I was having, was do I run two copies of Grown Suddenly Tall and Barliman Butterbur, or keep the There and Back Again and the two fortress never fallens? Fortress has a lot of counters and would surely be expected, but lets me keep T&BA and my Trust Me&#39;s... Also I was really afraid of Dunland, Having no archery and being killed by No Retreat in the past I really wanted to have some Regroup condition removal over Fellowship.  In the end I kept the FNF and T&BA, but never played Dunland even though I saw a couple of decks going around, in the hands of excellent players, I might add.<br />
+<br />
+Anyway, here&#39;s the deck... Yeah it looks a little strange, as pointed out by Patrick Sullivan... &quot;if someone started Frodo, OBH, Pippin, JAN, and Eomer.... I&#39;d laugh and think I had the game in the bag&quot; but it&#39;s my original (well mostly) and it is suprisingly versatile and tough.<br />
+<br />
+**************<br />
+Site Path:<br />
+Western Emyn Muil<br />
+Wold of Rohan<br />
+The Golden Hall<br />
+White Mountains<br />
+Hornburg Paclobert<br />
+Caves of Aglarond<br />
+King&#39;s Room<br />
+Nan Curnur<br />
+Palantir Chamber<br />
+<br />
+FELLOWSHIP:<br />
+Start:2<br />
+Frodo, OBH<br />
+ATAR<br />
+Eomer, TMOTR<br />
+Pippin, JAN<br />
+<br />
+Companions:7<br />
+Gandalf, TWW x 4<br />
+Lindenroot<br />
+Birchseed<br />
+Sam, PP<br />
+<br />
+Allies:4<br />
+Treebeard, EB<br />
+Albert Dreary<br />
+Erland, AtB (the anti-palantir)<br />
+Bounder<br />
+<br />
+Possessions: 7<br />
+Sting, BH<br />
+Shadowfax<br />
+Firefoot x 2<br />
+Eomer&#39;s Spear x 2<br />
+Thror&#39;s Map<br />
+<br />
+Artifacts: 1<br />
+Gandalf&#39;s Staff, WS<br />
+<br />
+Conditions: 6<br />
+Trust me as you once did x 3<br />
+Fortress Never Fallen x 2<br />
+There and Back Again<br />
+<br />
+Events: 7<br />
+A wizard is never late x 3<br />
+Servant of the Secret Fire x 4<br />
+34<br />
+<br />
+SHADOW:<br />
+<br />
+Minions: 19<br />
+The Witch King, LOA x 3<br />
+Ulaire Attea x 3<br />
+Ulaire Cantea x 3<br />
+Ulaire Enquea x 3<br />
+Ulaire Toldea x 1<br />
+Grima, WT x 3<br />
+Unferth, Grima&#39;s BG<br />
+Desert Lord x 2<br />
+<br />
+Possessions: 2<br />
+The Pale Blade x 2<br />
+<br />
+Conditions: 7<br />
+Blade Tip x 4<br />
+Wounded x 3<br />
+<br />
+Events: 6<br />
+Morgul Gates x 4<br />
+Relentless Charge x 2<br />
+34<br />
+**************<br />
+<br />
+So, enough about the deck on to the festivities.  So my friend Demetrius met me at my apartment at like 6:45 am... the tourny was at 10:00am and it&#39;s about an hour and 45 minute drive to Toledo from Lansing.  D had no idea where he was going and was going to call me if he couldn&#39;t find the place, so I get out of the shower and look at my phone to see if I missed his call... nothing... so I look out my bedroom window and there&#39;s D strolling around on my apartment front lawn looking lost, probably not awake yet... I found out later he had slept in his car... Anyway, it was kind of wierd, I yelled out the window to him, and gave him directions up.  So we hit the road and nothing unusual happened... D hadn&#39;t decided to play until Friday night so he was still debating on what deck to play... now D likes to play decks that are a little off from the norm.  He settled on this weird shadow... kind of a bleeding bannana... Sauron/ Desert Lord Hate away deck, but of coarse he included the ever played Caradhas has not forgiven us!  I think it says spot an isengard minion and five companions to discard an exhasted companion... He would try to set it up at site five and pull the Black Traitor.  His fellowship, well I really don&#39;t know what to say.  It had a lot of healing ala Hard Choice... the Biznatch that wouldn&#39;t die (Eowyn, SDOT), arwen and legolas, Lindenroot, Treebeard, and I think old noser.  Yeah, just begging for a cheif councellor!  I don&#39;t know?  It was interesting to say the least.<br />
+<br />
+Well, I&#39;ve bored and babbled long enough... on to the GAMES.... <br />
+<br />
+Oh I should give you guys an idea of the competition.  There were 23 playas, a little weak, but also down from Michigan were Craig Berry, Paul Mazur, and Dan Clark... Three Vegas veterans...  ANd number 1, 2, and 6? in the state of Michigan... I&#39;m not positive on the ratings, but like 2038, 2022, and 1885 or something... Also, present were some of Ohio&#39;s top players including Gustaf Olson and Brad Eier, both over 1900.  The Michigan (Livonia) crew looked pretty awful and I soon found out they hadn&#39;t slept but stayed up and checked out X-men 2 and then drove down in the middle of the night and got a hotel.  <br />
+<br />
+Anyway, on to the games....<br />
+<br />
+Round one Me vs. some dude also named Chris (Gandalf/ Frodo start with Uruks)<br />
+<br />
+So this game was kind of weird... This guy was obviously pretty new and his deck was lacking a bit.  I never felt threatened.  My fellowship set up quickly and he kept throwing Uruk scouts and Raiding parties and Uruk Rear guards at me.  I thought maybe he was playing a modified starter deck, but who knows... I saw a lot of Abandoning Reason and Saruman&#39;s Ambition.  Once I got set up I just owned Uruks and moved.  His fellwoship didn&#39;t fair as well.  He finally pulled into Aragorn at site 5 or 6 right as Gandalf was dying from a Blade Tip.  The best part of the game is when he played Gandalf&#39;s Staff on G with Glamdring already out and a tip on him and I dropped Grima WT popped his cards and he read Grima&#39;s text and told me how broken he was and said he swore he was errata&#39;d or something.  I thought he might call a judge or start crying.  At the end of the game I was at site 8 with the opportunity to go to nine, I elected to stop to see if I could kill him.  I then heard 3 1/2 minutes!  I was kind of upset with myself for being pipeweedy, but I really just wanted to see my shadow workin it.  I lucked out and ended up killing him that turn when he moved into seven... But still kind of stupid could have cost me the full win.<br />
+<br />
+FULL WIN +3/ 3<br />
+<br />
+PROPS:  My fellowship owning Uruks like it does best... Wormtongue being &quot;broken&quot;<br />
+<br />
+SLOPS:  Uruk Rear Guard being the scariest minion... Not taking the win and being pipeweedy, almost getting me a timed win.<br />
+<br />
+So D lost his first game to some guy playing uruk site control... Timed loss, he says he would of won, tough break.  <br />
+<br />
+Round two Me vs. Guy that D played first round (sorry can&#39;t remember his name)<br />
+<br />
+So, if not for my questionable Pippin, JAN start this could have been a rough game.  He threw huge fierce uruks at me all game with BB swords! Uruk assault band made an appearance at least four times... Albert and fortress, jacked his conditions all game and he never got any sites keeping those uruk hai hordes expensive.  And the Assault Bands under control.  He stopped me at two, three, four, I think I doubled four to six though, but Treebeard at two and pippin got me through the early sites, then Lindenroot came out and just rocked the big guys in the skirmish phase.  My shadow wasn&#39;t completely ineffective, but his fellowship was pretty tight, he played Frodo, RA, Merry, FTS, and the son of denethor brothers.  I was getting, Bowmen, Paths, and Mind your affairs turn after turn with, Citadel healing.  I couldn&#39;t draw into a wounded to save my life and my single Nazguls kept falling, but he never doubled and eventually I charged down faramir.  He was also adding a lot of Burdens and not drawing into his removal so at site 5? I dropped Enquea and smoked Boromir.  Bottom line I ran to nine on him and Frodo never saw a skirmish.  Bad Matchup for him... my fellowship eats uruks for breakfast in Standard.<br />
+<br />
+FULL WIN +3/ 6<br />
+<br />
+PROPS:  Another Uruk matchup, tougher, but beatable with this fellowship.  Pippin saving my can so many times early.<br />
+<br />
+SLOPS:  Not getting a wounded until late and having his archery/ direct damage own my Nazgul until site 5 or 6.... Him not doubling when he could of.<br />
+<br />
+So after this round I see Craig Berry and he just lost to this guy Scott from Ohio, he just says he had a really good deck.  The pairings get called and sure enough I&#39;m facing Scott.  So I have no idea what he&#39;s playing and I&#39;m a little intimidated cause he just beat Berry.<br />
+<br />
+Round three Me vs. Scott (Rohan HIDAN?/ urukery)<br />
+<br />
+So We bid and I think he won the bid and made me go first.  I play my Western Emyn Muil and Gandalf, and some other junk I don&#39;t remember and move into two.  I don&#39;t have treebeard and I am a little afraid of a big Naz.  But he drops a Ranged Commander and I let out a big sigh of relief.  I think Urukery is my best matchup and have such confidence in my fellowship against it that it gives me a huge advantage, Pippin, JAN owns Uruk archery.  I think I double to three and stop.  His fellowship he started Eowyn and Eomer and drops an elite rider I drop Attea and a blade tip and leave a decent pool.  He loses the elite rider and eowyn.  He seems shaken.  The rest of the game I just marched on his shadow cancelling his weapons and tower of orthancs, smoking Lurtz with Lindenroot.  Taking wounds on Pippin and discarding him repeatedly and moving at will.  His fellowship struggles. He never really gets set up and I keep the wounds coming, with a desert lord a couple of Nazgul, etc.  He doesn&#39;t get a HIDAN, gets gorn late and singles the whole time.  I run to nine and take the win.<br />
+<br />
+FULL WIN +3/ 9<br />
+<br />
+PROPS:  Pippin, JAN (should be Pippin, MVP) owning uruk archery.<br />
+<br />
+SLOPS:  Being intimidated at the beginning of the game.  <br />
+<br />
+Scott I might add was one of the nicest easiest guys to play against, and he didn&#39;t get P.O.ed as my deck played itself and coasted through his shadow.  A real good sport.  I don&#39;t think I could of maintained my composure like he did.  Nice guy.<br />
+<br />
+So we take a lunch break and I can&#39;t believe I&#39;m still undefeated!  I have really lucked out playing uruks three times in a row.  Not what I expected in Standard, but I couldn&#39;t have asked for better matchups.<br />
+<br />
+So at this point there are two other undefeateds one is Dan Clark, from Livonia and the other is some guy Matt, from Ohio.  Dan keeps saying he wants to play me.  I guess he thinks my deck won&#39;t handle Moria and the last three or four times I&#39;ve played him I&#39;ve won so it probably is his turn.  Also the other guy, Matt is playing the Fresh Beef? deck or Gabor Vida or whatever you want to call it Ents/Gandald/Men Huge Fellowship with the Moria/ Isengard Palantir deck that has been a beast and been winning in standard TOC&#39;s so I think Dan really doesn&#39;t want to play him.  <br />
+<br />
+Anyway, the pairings are called and it&#39;s me and Matt and Dan gets paired down, he seems satisfied.<br />
+<br />
+Round Four Me vs. Matt (Ents/ G/Men & Moria Palantir)<br />
+<br />
+Well going into this game I&#39;m pretty excited.  I think I&#39;ll do decent against this deck, but I haven&#39;t play tested against any Moria.  I&#39;ve got Bounder, ATAR, Sting. T&BA, Trust, Servant, Thror&#39;s Map, Def+1 Eomer, Def +1 Sam, Condition removal, and Anti-Palantir tech to boot.  Also, I know my shadow will stop him with the big Naz, but doubt I can finish him off.<br />
+<br />
+So we bid and he wins two to one.  He makes me go first.  So I drop a load of stuff, I don&#39;t remember what exactly, but before seven I had Trust, Bounder, Albert, the map, Sting, T&BA.  Everything I needed except Sam or Firefoot.  He kept giving me huge pools all game and I made what I now think was a mistake by throwing everything at him.  I figured I&#39;d get to set up my fellowship and run on him so I didn&#39;t care.  He pretty much stealthed and took a few wounds and stopped repeatedly.  His shadow didn&#39;t really hurt me too much, he did cancel my FNF with the Black Traitor, but Albert took out the swarms and TAC.  And I think the second fortress took out another swarms and an armory but I don&#39;t remember, but at like site 5 he dropped all of his companions and went up to 7.  Of course I was an idiot and blew two Enqueas early and didn&#39;t draw the third one the rest of the game.  He dropped the palantir at site 4 or 5 and the next site I had reconciled into Erland my anti-palantir tech... I tried to work the psychological advantage and really played it up... saying something like &quot;take a close look at this card, you will never see this played in a high-level tournament ever again!&quot;  He had to read it of course and only seemed mildly annoyed that he couldn&#39;t jack my hand anymore.  He moved into six with a lot of wounds, and a Gandalf that would die if he din&#39;t stop courtesy of the blade tip and the desert lord.  I thought he would move into seven seeing that I had the map and my fellowship was pretty set up to resist the overwhelm from the swarm, but to my amazement he stopped and I thought I had it, there was no way he could win the race now I would be the first to seven.  Anyway, I moved into seven after mapping the King&#39;s room and he played nothing.  I noticed that his deck was rapidly disappearing... I was a little nervous as he has played a couple of sneaks throughout the game and I knew he was saving up for the final drop, if I could only get firefoot or Sam.  But, it was not to be.  He moved into seven sustaining a lot of wounds from the site.  I dropped a couple of Naz and he lost a companion and I think I dropped a wounded on Gorn, ROTN.  He stopped of course and I thought I had the game.  I moved into eight and he hesitated for a minute, I thought he wasn&#39;t going to play anything, unfortunately he did.... he dropped a load on me everything, but his last card.  All of the scavengers he had been sneaking back into his deck came out and brought scimitars and more scavengers with them.  I think he TACed (must have played another one) a guard commander... Not good for me.  Anyway all told he had like eight minions out four with scimitars including the G commander.  I had treebeard so I only had to have three on Frodo... I also had two exertions left on Gandalf and a servant in hand.  I put the G commander on Gandalf thinking I could make him blow the pool to keep him alive.  So, 23 strength on Frodo.  First of all I discard T&BA in the Manuver.... He had played the Black Traitor earlier, so I thought he would pull him at nine and cancel it anyway, so I thought I&#39;ll use it now and save bounder for nine.  Anyway, it didn&#39;t really work out,  I resolved Gandalfs first Shadowfax exerted him and I was up 12 to 9 he of coarse used the pool to drop me to nine and raise him to 11 I think, I trusted and won, but he chucked the armory to keep him around.  So most of my guys lost except the Beard who owned Enquea... Oh, and I wasted the last trust keeping Pippin alive, figuring I needed the bodies going into nine...and then on to Frodo, I was 7 with T&BA, put on the ring and went up to nine ... s**t I used the trust on Pippin keeping the servant... Dumb, Dumb, Dumb... the trust would of let me save bounder but the servant wouldn&#39;t so I had to bounder.  I killed Enquea in the fierce with Eomer w/ spear...  I thought about it for a second, but if I moved I wouldn&#39;t have the 2 from T&BA, I wouldn&#39;t have any trusts, I had no bounder, I had no treebeard, and he would have another Scavenger and a ton of pool for the guard commander. I couldn&#39;t move.  I thought I had it.... No dice.  So he moves into eight and I drop a witch king pale blade.  He did some wounds and dropped T&BA and the Saga of Elindil.  I thought he might stop, but he had no choice he had one card left so had to go for it.  I of course reconciled into grima and unferth and no nazgul.  I think he had Frodo and three nearly dead companions left... Gorn was exhausted so couldn&#39;t go defender.  Anyone would die to the King, all I needed was another Nazgul and Frodo with Isildurs would have had to fight in the fierce and died... But I couldn&#39;t pull one, and he had removed one burden with Tired Traveller and Faramir.... I was so disappointed... Closest game I&#39;ve played in a while.  I looked through my deck and all I had left was another king and Enquea.... out of like 12 cards and of course the two firefoots and Sam...  Enquea would of done it.... another burden would of done it, but Grima and Unferth did not do it.... Tight one.<br />
+<br />
+Full Loss +1/10<br />
+<br />
+Props:  That deck for being as tough as its rumored to be.... The King&#39;s room and the king wreaking some havoc and making it a game.<br />
+<br />
+Slops:  Enquea for not being around when he needed to be.  Me for trusting on Pippin and not Frodo.... It not mattering because of that D**MNED Gaurd Commander... and all of the pool I would have given going into nine.  Firefoot and Sam for not making an appearance.<br />
+<br />
+WOW... After that game I am strung out.... But, pairings are called and of course now it&#39;s Dan&#39;s turn to play Matt and the BEAST MORIA deck.  I get paired up with another 3-1 Josh.<br />
+<br />
+Round five ME vs Josh (Frodo & Sam/ Moria classic)<br />
+<br />
+So we get started and I out bid him 1 to nothing... I go first dropping some stuff... No Gandalf this game but I do remember dropping T&BA and Bounder first turn.  Which when he dropped goblin swarms made me feel pretty good.  So I moved slowly again trying to have all of the components in place for site seven.  His Fellowship was choking the dog snot out of me making it tough to play anything... and tougher to set up my fellowship...  I did get a few small naz out courtesy of morgul gates I think I droped one at site four and one at five...  He of course started Sam the pony lover... and the reluctant adventurer and started dropping Promises.  I think he gave me three or four pool at two and another two or three at three and four at four, well you get the picture it was tough.  I dropped big naz in the reconcile as much as possible and played grima or whatever little I could afford... Anyway, I drew into albert fairly early and dropped the swarms and the TAC I think fortress took care of relics and an armory later... I finally got Lindenroot up and running at like four or five and this helped the cycling along...I dropped a lot of shadow anything that wasn&#39;t a gates or a cantea.... basically...  Anyway, he creeped along one site at a time with me one site ahead.... at five I think I droped two Nazgul with two gates but the promises made them kind of ineffective... I got a tip on frodo, but he continued to use I think Melidoc Brandybuck to keep the burdens off.... STRANGE, but effective.  Anyway, I rolled into six uncontested, but stopped, I REALLY needed that Map!  I was kind of freaking out.  So he moved into six with little resistance... stopped.... I reconciled my hand and the last card I draw is Thror&#39;s Map... I start making a lot of noise and saying things like &quot;Thank You JEsus&quot; you know Jim Baker style.... I discard the map move into the king&#39;s room and he laughs and shows me his site 7.... The King&#39;s Room... I&#39;m like WTF?  He tells me he needs his skirmish pumps or he could easily die... O.K. so I am demoralized in my hollow map victory, but whatever he dropped hardly anything I dispatch it move into eight and stop... An easy move into nine and the games is mine.  He makes some comment about not ever losing with this deck in local standard tournaments and I am kind of shocked.... I guess choke Moria can be devastating, but I handled it without a problem.<br />
+<br />
+Full Win +3/ 13<br />
+<br />
+Props:  Lindenroot keeping the cards flowing... Josh having the balls to play Frodo/Sam<br />
+<br />
+SLOPS:  Getting the Map &quot;just in time&quot;... Frodo and Sam fellowship needing to run on Nazgul<br />
+<br />
+So after 5 games I am 4-1 and get paired up with none other than Dan who has been sayin he wants to play me all day long, I made some comment before the tourny started that I was a little concerned about playing Moria and I think he thinks it will be an easy win for him... He is of course coming off of his loss to the MORIA BEAST deck.<br />
+<br />
+Round six me vs. Dan(HIDAN/Troll Moria)<br />
+<br />
+So we both bid one Dan wins the roll and makes me go first.  I drop Gandalf and Eomer&#39;s spear and some other junk.  He drops a runner and the Troll.  I kind of freak out for a second thinking I may have to lose Pippin All Star... but I remember the text of the wold and assign the runner to Gandalf and the troll to eomer... two wounds on Eomer, runner is overwhelmed... two in the pool... assign troll to Gandalf one more in the pool G&#39;s now a ten adn takes two from the troll.  I stop.  The only time the wold has ever helped me... well my fellowship anyway.  So he drops some junk I think a horsie and an elite rider or something.. and moves I drop a Nazgul and he stealths and takes a wound.  The details are kind of fuzzy, I know he didn&#39;t get gorn until site 6.  I know I kept thinking I was going to kill Eomer with King and Blade at site 4 or 5 but he always had a stealth and an elite rider to take some lovin.... I know the wounded combo wouldn&#39;t come together, but I think I dropped a desert lord at 4... His felowship survived, but limped along without gorn for HIDAN... and my fellowship set up slowly and took two more trolls before site six.. four and five I think... but I dropped dreary early and killed swarms and an armory and athough his guard commander won a few skirmishes he wasn&#39;t going to overwhelm Eomer or Lindenroot courtesy of trust and he wasn&#39;t going to stack courtesy of dreary killing the swarms... I know I had sting and T& BA going into the cavern entrance, but I couldn&#39;t draw the map this time... He had already played one Enquea so I dropped Sammy and moved into the Cav feeling a little concerned but he hadn&#39;t been setting up his shadow hand and still had a lot of deck left and without a TAC he could only toss a few minions at me frodo didn&#39;t have to fight and I didn&#39;t end up needing Sam... I discarded Pippin onto the beard just to drop back down to five and moved into eight.... Treebeard wasn&#39;t even needed and I stopped two sites ahead.  He moved into seven I dropped a couple Naz he added a few cute wound tokens and stopped and I moved into nine not needing bounder or T&BA...<br />
+<br />
+Full Win  +3/ 16<br />
+<br />
+PROPS:  Living through three Cave Trolls without losing a companion... Nazgul slowing down rohan and not getting chewed up.<br />
+<br />
+SLOPS:  Not getting the map... Dan not getting the trolls hammer.... I don&#39;t think it would have mattered but he did.  Dan making me go first confident in his Shadow.<br />
+<br />
+So after six games I&#39;m five and one... turns out there were three other 5-1&#39;s.  Matt and his super MORIA BEAST deck lost in his last game against Adam? who also ended up 5-1... with me and Gustaf Olson.  So no playoff or anything they say that strength of schedule will determine the Final Confrontation.  So I miss it by one point on my SOS... I had I think 57 and Adam had 58 so he plays Matt and I get 3rd.... I was a little disappointed.<br />
+<br />
+Gustaf comes up to me and says he wants to play off for third... you know just for bragging rights... he doesn&#39;t want to take away my slick binder or anything.<br />
+<br />
+So round seven Me vs. Gustaf Olson (Frodo/Sam/Gimli & urukery)<br />
+<br />
+So last time I played Gustaf was in the Lansing PSQ... I took fourth and he lost in the final confrontation against Brian Fred taking second.  In our game he won... I was playing Gondor choke with direct damage and uruk ally hate... He was running horn choke with Moria... It was a tight game and I think I could of won.  I was so close so many times.  For instance I drop an uruk raider and a tower assassin and palantir three of his four cards in his hand... he plays the only card left in his hand, defend it and hope and I can&#39;t kill Filbert... needless to say I couldn&#39;t kill an ally all game and he won with filbert at site nine... Another game where moria got the site 8 stop and I couldn&#39;t finish the opponent at 9 seems to be a recurring theme.  Also in that game we tied on the bid at four I think and we roll off tieing on the roll.... I win the second roll going first and denying the riddermark.<br />
+<br />
+This game we bid both bidding one, we roll off both rolling a two and he wins the second roll-off, making me go first.  TOO STRANGE.  <br />
+<br />
+So I start and roll into two facing an uruk crossbow troop... I think he is as surprised by my start as I am by his... I mean who the he** starts Gimli, SOG with Sam and Frodo anyway?  So I&#39;m feeling confident and take a couple of wounds doubling to three.  I then start to think this is folly as his fellowship plays cards allright but none of them cost ANYTHING... so he has pulled bill the pony and drops a talent for not being seen and a free axe on gimli and plays defending the keep?  the one that mills a card and draws two.  Needless to say I get two or three pool at two and can&#39;t play anything... same at three and four... so I am getting a bunch of shadow cards stuck in my hand and seem to be drawing nothing but shadow!  I move into four taking two wounds from the site and some more from archery and I am getting kind of nervous cause I&#39;ve got T&BA and Gandalf and that&#39;s about it oh I think I drew into dreary so I thank my lucky stars but no Beard and no Lindenroot yet.  So I stop and hope I can get it going before the deep of the helm.... Oh and at five he says Manuvers and I use dreary on something worthless like a tower of orthanc... I than start assigning archery wounds and realize that he has three uruks out all strength eigth and I have to assign one to Pippin.... or Frodo, but he&#39;s got two ambitions out that I didn&#39;t cancel and I also didn&#39;t ditch the there and back again in the Manuver so Frodo will die if I block (no Trust yet either) so I have to let Pippin go.... I&#39;m freaking out Pippin is the MVP against Urukery and there he goes... I am an idiot.... Meanwhile my friend D is laughing his hiney of cause no one EVER gets upset when they lose Pippin and I&#39;m acting like I lost the game!  So he moves into three, three pool I play a wormtongue just to get something out of my hand and I drop some big naz Enquea I think in the reconcile.  I don&#39;t draw into anything real useful, like Eomer&#39;s sppear or something and I play it and move just Eomer, Frodo, and the G-man.... I take a but load of wounds, but survive, OK... and stop.... His turn he moves into four and gives me like four pool I gates Attea and Gimli takes two and a blade tip, WOW I&#39;ve finally done some damage.  But thankfully I reconcile into AWINL and go get Lindenroot, he&#39;s like crap now you can cylce like mad... So I go into six giving him a pretty big pool and he plays an archer and Lurtz... I take a wound on Eomer or something and smoke Lurtz with Lindenroot in the skirmish, he looks disheartened.  I stop to heal.  He moves into five and I get out Cantea and wormtongue... He healed Gimli I think or blocked once with Frodo and a stealth the site before I don&#39;t really remember...  Anyway I tongue his gear off of Gimli and I think Sam block&#39;s Cantea twice with the three promises out it&#39;s not a big deal.  So he stops and I roll into seven making sure to heal Lindenroot completely.  He drops another Lurtz and I laugh and smoke him again with Lindenroot and stop.  He rolls into six nothing happens, but he does lose bill the pony... I can&#39;t play anything as he only gives me four pool and I have no gates... I do draw into a gates and a Treebeard which I play... and move into eight... I have to decide what to drop to make Lindenroot rumble as Gwas exhausted or something and Treebeard takes all of the archery and dispatches a champion or something... So back to Lindenroot... Looking at my hand I have a gates, a pale blade, a witch king, a desert lord and a servant.... I almost ppitched the king blade as I was used to getting no pool then I looked at the site and did a calculation saying wait how much pool are you going to give me 8... bill took a dive so its five for the site with A Talent adn three companions... I smile and toss a desert lord and a servant letting the big tree fight. So I stop and he moves into seven giving me the coveted eight pool... I gates the king and drop the blade... He looks a bit concerned... But pumps himself and ditches Gimli&#39;s Helm in the first skirmish taking no wounds... I then Respond by cancelling two promises and the Talent he looks at the blade and is like oh yeah response.....So the fierce skirmish he loses gimli and stops.... I drop the Birchseed I reconciled into and the Sam I think and move into nine with plenty of vitality left.... for the easy win.  He complains about clumping and shows me the four Weapons of Isengard in his hand.... <br />
+<br />
+FW +0.... Not a sanctioned win, unfortunately... I could use some of Gustaf&#39;s points...<br />
+<br />
+PROPS:  Losing Pippin and still having the vitality to walk on urukery.... Lindenroot coming up big and keeping the cards flowing against some scary and unexpected choke in standard.<br />
+Gustaf for playing Sam/Frodo/Gimli.... Balls, Balls, Balls.... and he told me it owned moria... something about three Song of Durins!<br />
+<br />
+SLOPS:  Losing Pippin.... Just the psychological stress alone almost cost me the game<br />
+His four weapons of isengard coming up at the end of the game... It could of gotten bloody.<br />
+<br />
+So Meanwhile the Final Confrontation is going down after a short delay so I get to see the end of it... speaking of balls.... this Adam guy playing Matts super Moria palantir deck has definitely got some... Hes running a five culture fellowship with Gandalf FOTS and lego, arwen, Aragorn, Faramir, Bormomir... and I think he even had Lady of Rohan representin.... I don&#39;t know how he skated around Chief Councellor all day, but he ended up taking Matt the second game in a row to take the whole thing... I watched him roll into site nine with sam and Frodo bearing frying pans after cancelling a couple of armories at eight with a dreary he AWINLed for.... Crazy deck but solid... His shadow was Nazgul beats with breaths and tips... no WOUNDED ;-(   <br />
+<br />
+SO the Rainbow Fellowship takes it all.... Eat it Grima!!!!<br />
+<br />
+So all and all a pretty fun day... I played three uruk decks and three Moria decks and got fellowship wins in all games except the one I got pipeweedy in and killed the poor kid and the game I lost....  Needless to say I didn&#39;t expect to play moria and uruks all day I mean after all its STANDARD format, right?<br />
+<br />
+Oh yeah, my boy D went 3-3, but he had a timed loss he should of won and his last game he apparently got hosed on too... He could of taken a timed win buut elected to play it out and the kid pulled some crap on him.... something about a gollum, stinker at site nine with too many burdens and a we must have it pump.... Bet that kid talks about that one for a while!<br />
+<br />
+So that about wraps it up, my hand is killing me so no more Props and slops.... just one more WEIRD story to cap off a weird day.... we&#39;re just getting out of Toledo and D is telling me if I piss and moan about Pippin dying to Gustaf one more time he&#39;s going to slap me.... we&#39;re turning on to the on ramp and ther&#39;s this gut sitting there and he&#39;s shoddily clad and holding a big cardboard sign that just says &quot;BEER&quot;.... not will work for beer, not I have beer, or I want beer, just &quot;BEER&quot;... It was really bizarre!<br />
+<br />
+Well until next time, peace.... and remember Pippin, Just a Nuisance will always Haunt the Uruk Bowmen in their Sleep..... <br></font></blockquote><BR><font class="bfont"> <A HREF='/lotr/treports/treports.php?id=4393&view=1&PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1'>Read the Reviews</a><font class="bfont"> | <A HREF='/lotr/treports/treports.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/lotr/main/join.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1'> become a registered member</a></font></font></td><td background="/lotr/gfx/mom/whi_09.gif"></td></tr>
+<tr><td><img src="/lotr/gfx/mom/whi_10.gif" width=6 height=18></td>
+<td background="/lotr/gfx/mom/whi_11.gif"></td>
+<td><img src="/lotr/gfx/mom/whi_12.gif" width=6 height=18></td></tr>
+</table>
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr align="center" valign="bottom" > 
+      <td height="100"><font class="lfont">This site is maintained and updated 
+        by fans of The Lord of the Rings TCG, and is in no way affiliated with 
+        New Line Cinema or Decipher Inc. We in no way claim the artwork displayed 
+        to be our own. Copyrights and trademarks for the films and other promotional 
+        materials are held by their respective owners and their use is allowed 
+        under the fair use clause of the Copyright Law.<a href="/global/terms.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

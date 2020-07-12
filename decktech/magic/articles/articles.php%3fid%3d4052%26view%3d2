@@ -1,0 +1,374 @@
+
+ 
+<html><!-- #BeginTemplate "/Templates/decktech_2.dwt" -->
+<head>
+<title>Welcome Magic: The Gathering Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Magic: The Gathering, Magic,
+Richard Garfield, Magi-Naion, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+
+A:link {color: #003399}
+A:alink {color: #990033}
+A:visited {color: #990033}
+Body, TD { margin: 0in; marginleft: 0in; margintop: 0in; border-style: none; font-family: Verdana, Arial, sans-serif; font-size: 8pt; color: #000000; font-style: normal; text-decoration: none;}
+.h1font { font-family: Verdana, Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; letter-spacing: -1px}
+.h2font { font: normal 10pt/18pt Verdana, Arial, sans-serif; font-weight: bold; text-decoration: none;}
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; color: #000000; font-style: normal; text-decoration: none;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt; font-style: normal; text-decoration: none; }
+
+.flegal { font-family: Verdana, Arial, sans-serif; font-size: 7pt; font-style: normal; text-decoration: none; color: #FF9933}
+.flegal A { color: #FFFFFF}
+
+.rfont { font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; color: #666666; font-weight: bolder; text-decoration: none; }
+
+-->
+</style>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" margin="0" marginwidth="0" marginheight="0"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"  bgcolor="#CCCCCC">
+<img src="/magic/gfx/lft_c_top.gif" width="9" height="127" vspace="0" hspace="0" border="0"></td>
+    <td valign="top"  bgcolor="#CCCCCC"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img src="/magic/gfx/hlogo.gif" width="165" height="127" vspace="0" hspace="0" border="0" ></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">Magic ========</option>
+<option value="/magic/index.php">Home</option>
+<option value="/magic/main/about.php">About</option>
+<option value="/magic/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Magic: The Gathering</td>
+  </tr>
+  <tr> 
+    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
+  </tr>
+    <tr> 
+    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
+  </tr>
+  <tr> 
+    <td><a href="/magic/index.php" class="level1nav">Home</a><br>
+       
+<a href="/magic/articles/index.php" class="level1nav">Articles</a><br>
+ 
+<div align=right>
+<a href="/magic/articles/articles.php">Browse All</a> &nbsp;<br>
+</div>
+<a href="/magic/decks/index.php" class="level1nav">Decks</a><br>
+<a href="/magic/treports/index.php" class="level1nav">Reports</a><br>
+ <a href="/magic/resources/index.php" class="level1nav">Resources</a><br>
+<BR></td></tr></table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td> 
+<table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Site Sponsor</td>
+  </tr>
+  <tr> 
+    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
+  </tr>
+    <tr> 
+    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
+  </tr>
+  <tr> 
+    <td><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div><BR></td></tr></table><br><table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Quick News</td>
+  </tr>
+  <tr> 
+    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
+  </tr>
+    <tr> 
+    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
+  </tr>
+  <tr> 
+    <td>
+<p><i><a href="/dpc/index.php">DPC</a> Houston Results!</i><br>
+<b>Type II</b><br>
+Samuel Friedman $150<br> 
+John Coley $150<br> 
+Jack Vassullo $150<br> 
+Chris Connor $150<br><br>
+<b>Type I</b><br> 
+1st Samuel Friedman $75<br> 
+2nd Bart Brown $38<br> 
+
+  </p>
+  <BR></td></tr></table><br>
+<table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Top Articles</td>
+  </tr>
+  <tr> 
+    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
+  </tr>
+    <tr> 
+    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
+  </tr>
+  <tr> 
+    <td>Top 10 in last 30 days<ol><li><font class="bfont"><A HREF="/magic/articles/articles.php?id=4131&view=2">Morph, and Ixidor</A></font></li></ol><A href="http://www.decktech.net/magic/articles/articles.php">More ></A><BR></td></tr></table> 
+ </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> <table width="100%" border="0" vspace="0" hspace="0" cellspacing="0" cellpadding="0">
+  <tr valign="top"> 
+    <td width="98%" background="/magic/gfx/hback.jpg" valign="bottom" height="92"><img src="/magic/gfx/trans.gif" width="8" height="92" border="0" vspace="0" hspace="0" align=left> 
+    </td>
+  </tr>
+  <tr valign="top"> 
+    <td width="98%" background="/magic/gfx/hlowback.gif" height="35"><img src="/magic/gfx/trans.gif" width="8" height="35" border="0" vspace="0" hspace="0"></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="98%" height="11">&nbsp;</td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td valign="top" width="1" ><img src="/magic/gfx/trans.gif" width="18" height="2" vspace="0" hspace="0" border="0"></td>
+          <td  valign="top"><!-- #BeginEditable "Body" --> 
+            <BR><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td><font class="h1font"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Articles</td><form method='post' action=''><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Articles</option><option value='#'> </option><option value='/starwarsccg/articles/index.php3'>Star Wars: CCG</option><option value='/lotr/articles/articles.php'>Lord of the Rings</option><option value='/magination/articles/articles.php'>Magi-Nation Duel</option><option value='/swtcg/articles/articles.php'>Star Wars TCG</option></select></td></form></tr></table></font></td></tr><tr><td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr height="10"><td width="98%" bgcolor="#333333" height="10"><img src="/magic/gfx/trans.gif" width="6" height="2" vspace="0" hspace="0" border="0"></td><td valign="bottom" align="right"><img src="/magic/gfx/hrz/tk.gif" width="103" height="10" border="0" vspace="0" hspace="0"></td>
+</tr><tr><td>&nbsp;</td><td valign="top" align="right">
+<img src="/magic/gfx/hrz/bk.gif" width="92" height="24" border="0" vspace="0" hspace="0"></td>
+</tr></table></td></tr><tr><td><font class="bfont"><font class="h1font"> Magic History part 1<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/magic/gfx/star2.gif" width="20" height="20" border="0" align="absmiddle"><img src="/magic/gfx/star2.gif" width="20" height="20" border="0" align="absmiddle"><img src="/magic/gfx/star2.gif" width="20" height="20" border="0" align="absmiddle"><img src="/magic/gfx/star2.gif" width="20" height="20" border="0" align="absmiddle"><img src="/magic/gfx/star2.gif" width="20" height="20" border="0" align="absmiddle"><font size='1'>(5.00)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/magic/main/mpage.php?member=10393'>Sean "Druidfire" Smith</A></font><font class="afont"> <a href='http://www.decktech.net/magic/main/mpage.php?member=10393&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> September 5, 2002</font><p align='justify'><font class="bfont">      First off, this article is a history lesson for anyone who started the game in the Uzra Block until <br>
+<br>
+now and has mostly concentrated on the newest and best sets (Type II).  I have been playing <br>
+<br>
+Magic for a very long time and I have always looked at past sets that were before my time to <br>
+<br>
+see what power they had in the metagame of today.  Example:  If I said Black Summer and you<br>
+<br>
+ knew of and/or were part of this event, then stop reading this article.  <br>
+<br>
+     Too many of the younger players come to me with a great new combo that they have just <br>
+<br>
+discovered with an old card that they found in a collection that they bought only to find out that <br>
+<br>
+it has been around since the beginnings of Magic (Lure and Craw Giant).  For all of you younger<br>
+<br>
+players that are reading this and have no idea what these cards are, I suggest going on to <br>
+<br>
+mtgnews.com and looking them up there.  Anycraze.com is another good site since they tell <br>
+<br>
+you what the card is in an effort to sell you the card.  <br>
+<br>
+     Too many people are ignorant of the power of old cards and also where the game has come<br>
+<br>
+ from to appreciate or hate what the designers are doing to it.  These articles will take you <br>
+<br>
+through the Ages of Dominaria, until it was destroyed in Apocalypse, and into various other <br>
+<br>
+Planes such as Jamurra and Rath.  When Magic was first introduced by Richard Garfield, <br>
+<br>
+it was not called Magic: The Gathering but instead it was called Mana Clash.  The game&#39;s name <br>
+<br>
+and scheme were changed in a last minute decision and the game was forever changed into <br>
+<br>
+what we know and love.  <br>
+<br>
+     The original philosophy for both games was that you and a rival wizard, your opponent, <br>
+<br>
+would both begin to cast magical spells and summon deadly creatures to fight and die for you <br>
+<br>
+from various planes of existence.  To many people, myself included, this sounds suspiciously <br>
+<br>
+like the newest Japanese craze to hit the US, Yu-Gi-Oh!.  The main sets in Magic are based <br>
+<br>
+around a color scheme that first came about during Mana Clash.  These sets had no basic <br>
+<br>
+storyline behind them and were mainly designed to give players a feeling of the world of <br>
+<br>
+Dominaria.  I suppose that I should have mentioned this earlier but Dominaria is the magical <br>
+<br>
+world that most of the storylines behind Magic through Apocalypse are set.  <br>
+<br>
+     The early sets such as Arabian Nights and The Dark had Magic developers floundering as <br>
+<br>
+they tried to design cards that were not too powerful.  This is why so many of these cards were<br>
+<br>
+ never seen again in any other set.  All older cards in the first years to two years of Magic were <br>
+<br>
+based around certain themes.  Red focused on all of the deformed mountainous creatures and <br>
+<br>
+those that lived off of cliffs and giant birds.  The main themes with regard to creatures were <br>
+<br>
+dragons, rocs, dwarves, goblins, kobolds, and carious giants and other mountainous creatures. <br>
+<br>
+ Red spells most often dealt with destruction in its many forms such as through Lightning Bolt, <br>
+<br>
+Disintegrate, and Earthquake.  Blue revolved around the ocean and everything that lived in it.  <br>
+<br>
+How many players remember seeing a blue mage cast a Merfolk of the Pearl Trident?  Most <br>
+<br>
+blue decks were designed to try and stall or outright stop the opponent.  From mostly blue is <br>
+<br>
+where we get the great idea of interrupts.  Two examples of the stall strategy are Counterspell <br>
+<br>
+and Stasis.  Both cards denied resources an opponent needed to survive, the first denying <br>
+<br>
+spells and the second denying an untap step.  Blue was also known as the flying and illusionary <br>
+<br>
+color.  No other color had near the amount of flying creatures that blue did in the early sets and <br>
+<br>
+this was a prominent aspect that was exploited.  The other advantage blue had was that it could<br>
+<br>
+change the color of things at will as well as animate objects.  Green dealt with nature and all of <br>
+<br>
+the natural occurrences in Dominaria.  All of its creatures could be found in the forest or in <br>
+<br>
+nature.  Most of its spells dealt with growth and making things extremely big.  There were also <br>
+<br>
+some natural phenomenon such as twisters and hurricanes.  Green was not able to stand on <br>
+<br>
+its own when Magic began due to its lack of anything that was not a big creature or creature <br>
+<br>
+enhancer.  Green was however able to produce large amounts of mana very quickly through <br>
+<br>
+elves, birds of Paradise, Wild Growth, Channel and others.  Many of the other creatures that <br>
+<br>
+started out in green were gigantic bemoths that cost outrageous amounts of mana even for <br>
+<br>
+green.  Green also did not have access to many types of destruction and was left on the short <br>
+<br>
+end of the stick.  It could not stop or hold back anything.  The color balance between black and <br>
+<br>
+white will be discussed in the next article.<br>
+<br>
+There were also nine cards known as the &quot;Power Nine&quot; and should have been run in any deck.  <br>
+<br>
+They were the five Moxes, Black Lotus, Timewalk, Timetwister, and Ancestral Recall.  These <br>
+<br>
+cards were extremely broken.  In the first few sets, you saw combinations such as Black Lotus <br>
+<br>
+and Juzam Djinn on the first turn.  Most of what was created had a balance somewhere, usually<br>
+<br>
+in an opposite color.  You had a fairly accurate idea of which colors went together because of <br>
+<br>
+the amount of multicolored ideas that were had.  There were a lot of ideas for each color to <br>
+<br>
+have its own version, such as Ivory Cup, Iron Star, Throne of Bone, and others.  There was also <br>
+<br>
+a belief that each color should have a 3 in it for one mana.  Thus were Healing Salve, Giant <br>
+<br>
+Growth, Dark Ritual, Ancestral Recall, and Lightning Bolt created.  They were some of the most <br>
+<br>
+meaningful cards in each color since each effect was designed to best describe that color.  <br>
+<br>
+	This is the end of the first article.  Please let me know any comments that you have <br>
+<br>
+about it and try to make your comments constructive so I will know how to better structure the <br>
+<br>
+next article.<br>
+<br>
+<br>
+ <br></font><BR><font class="bfont"> <A HREF='/magic/articles/articles.php?id=4052&view=1'>Read the Reviews</a><font class="bfont"> | <A HREF='/magic/articles/articles.php'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/magic/main/join.php'> become a registered member</a></font><BR></td></tr></table>
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top" ><img src="/magic/gfx/trans.gif" width="9" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center"> 
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr align="center" valign="bottom" >
+      <td bgcolor="#000000" height="4"><img src="../gfx/trans.gif" width="6" height="14"></td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#CC0033"><font class="flegal">This site is maintained and updated 
+        by fans of Magic: The Gathering and is in no way affiliated with Wizards 
+        of the Coast Corporation. We in no way claim the artwork displayed to 
+        be our own. Copyrights and trademarks for promotional materials are held 
+        by their respective owners and their use is allowed under the fair use 
+        clause of the Copyright Law.<a href="/global/terms.php"><br>
+        Terms of Service</a> TM & © 2002 www.decktech.net. All Rights Reserved. 
+        </font> </td>
+    </tr>
+  </table>
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

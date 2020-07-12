@@ -1,0 +1,897 @@
+
+<html><!-- #BeginTemplate "/Templates/new_format_main.dwt" --><!-- DW6 -->
+<head>
+<title>Welcome VS Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="VS, Marvel VS, Upper Deck,
+cards, tcg, ccg, Marvel, DC, Marvel Heroclix, DC VS, comics
+"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #000099;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #CCCCCC; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none; background-image: url(/heroclix/gfx/theme1/background.gif); }
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #FFFFFF;
+		margin: 5px 5px; 		
+}		
+
+.cbody A:link {  
+		color: #4078CF;
+}
+.nav2 {  
+	color: #FFFFFF;
+	font-weight: bold; 
+	font-size: 7pt; 
+	text-decoration: none;	
+}
+.nav2 A {  
+		color: #FFFFFF;
+		text-decoration: none;		
+}
+.nav2 A:hover {  
+		color: #FF0000;
+		text-decoration: none;		
+}
+
+#auction .main { 
+	width: 100%;
+	height: 98px;
+	text-align: right;
+	font-size: 9pt;
+	font-weight: bold;	
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000; 
+	border: 1px;
+	border-style: solid;
+	border-color: #AAAAAA;
+	background: url(/heroclix/gfx/theme1/v_lightbar.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#auction .headline { 
+	font-size: 10pt;
+	text-align: left;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 15px;
+	padding-top: 4px;	
+	padding-bottom: 4px;	
+}
+
+#auction .content { 
+	text-align: center;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000; 
+	padding-left: 10px;
+	padding-top: 4px;	
+	padding-bottom: 4px;	
+}
+
+
+
+
+
+#news .main { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;		
+}
+
+#news .header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px; 
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_large.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+#news .story { 
+	width: 100%;
+	text-align: left;
+	background-color: EFEFEF;
+}
+#news .whowhen { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	color: #000000; 
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 4px;
+	background-color: #DDDDDD;	
+}
+#news .link { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: right;
+	padding-right: 4px;
+}
+#news .friend { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: right;
+	border: 0px;
+	border-bottom: 1px;
+	border-style: dotted;
+	border-color: #666666;	
+	padding-right: 4px;
+	padding-bottom: 4px;	
+}
+#news .text { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	padding-right: 4px;
+	padding-left: 8px;				
+}
+#news .comment { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: left;
+	text-decoration: normal;
+	padding: 4px;
+	padding-left: 10px;	
+}
+#news .poster { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: left;
+	text-decoration: normal;
+	padding: 4px;
+	padding-left: 10px;	
+	color: #990000; 
+	font-weight: bold;	
+	border: 0px;
+	border-bottom: 2px;
+	border-style: dotted;
+	border-color: #666666;
+}
+#news .date { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: right;
+	text-decoration: normal;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+#news .more { 
+	text-align: right;
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;	
+	padding-right: 4px;	
+}
+#news .headline { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: left;
+	color: #000099; 
+	font-weight: bold;
+	padding-left: 8px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	border: 0px;	
+}
+
+
+#features .main { 
+	width: 100%;
+	text-align: left;
+	margin-bottom: 6px;	
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;		
+}
+
+#features .header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px; 
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_large.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+
+
+#mygroups .column { 
+	width: 159px;
+	background-color: #EAEAEA;
+	text-align: left;
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;	
+	border-style: solid;
+	border-color: #666666;		
+}
+
+
+#mygroups .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_blue.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+#mygroups .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_red.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+
+.column { 
+	width: 159px;
+	background-color: #FFFFFF;
+	text-align: left;	
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;	
+	border-style: solid;
+	border-color: #666666;
+}
+
+
+
+
+.r2header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px;
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_total.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+
+.sectionhead {
+padding-top: 2px;
+padding-left: 8px;
+padding-bottom: 1px;
+border: 0px;
+border-bottom: 1px;
+border-style: solid;
+border-color: #666666;
+background-color: #CCCCCC;
+}
+
+.more a {
+	font-size: 7pt;
+	color:#888888;
+	padding-right: 4px;
+}
+
+ .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_blue.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+
+.r2td A:link {
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+}
+.r2td A:active {			
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+			}
+.r2td A:visited {	
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+
+.footerOne {
+			font-size: 8pt;
+			text-align: left;
+			font-weight: bold;									
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #AAAAAA; 
+			border: 0px;
+			background: url(/heroclix/gfx/theme1/footer1_back.gif);
+			background-color: transparent;
+}
+
+.footerOne A {
+			color: #EAEAEA; 
+}
+
+.footerOne A:hover {
+			color: #FFFFFF; 
+}
+
+.footerTwo {
+			font-size: 7pt;
+			text-align: left;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #999999; 
+			border: 0px;
+			background: url(/heroclix/gfx/theme1/footer2_back.gif);
+			background-color: transparent;
+}
+
+.footerTwo A {
+			color: #666666; 
+}
+
+.footerTwo A:hover {
+			color: #EAEAEA; 
+}
+
+
+
+.footerThree {
+			font-size: 7pt;
+			text-align: center;			
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #EEEEEE; 
+			border: 0px;
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;			
+}
+
+.footerFour {
+			font-size: 7pt;
+			text-align: center;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #888888; 
+			border: 0px;
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;			
+}
+
+.mainheader { 
+			height: 51px;
+			width: 549px;
+			font-size: 11pt;
+			font-weight: bold;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #990000; 
+			padding-left: 35px;
+			padding-right: 12px;			
+			padding-bottom: 8px;
+			padding-top: 8px;
+			margin-top: 10px;
+			background: url(/heroclix/gfx/theme1/main_layout_header1.gif);
+			background-color: transparent;
+			background-repeat: no-repeat;			
+}
+.maincontent { 
+			width: 536px;
+			font-size: 8pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			padding-left: 4px;
+			padding-right: 4px;			
+			padding-bottom: 4px;
+			padding-top: 4px;
+			margin-left: 10px;
+			margin-bottom: 10px;			
+			border: 1px;
+			border-style: solid;
+			border-color: #CCCCCC;
+			background-color: #FFFFFF;			
+}
+
+#Last24Hours .header {
+			font-size: 12pt;
+			font-weight: bold;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			border: 0px;
+			border-bottom: 1px;			
+			border-style: solid;
+			border-color: #666666;
+     		color: #FFFFFF; 
+			padding: 4px;
+			margin: 0px;
+			background: url(/heroclix/gfx/24back.gif);			
+}
+
+#Last24Hours .content {
+			background-color: #000000;			
+			padding: 5px;
+			margin: 0px;
+}
+
+#captain .main {
+	padding: 3px;
+	border: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #CCCCCC;
+	margin-bottom: 6px;	
+}
+
+#captain .headline A {
+	width: 100%;
+	font-size: 9pt;
+	font-weight: bold;			
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;	
+	padding-left: 8px;
+	padding-right: 4px;			
+	padding-bottom: 4px;
+	padding-top: 4px;	
+	color: #FFFFFF; 
+	background-color: #990000;
+	border: 1px;	
+	border-style: solid;
+	border-color: #FFFFFF;
+}
+
+#captain .content {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #666666;
+	padding-left: 0px;	
+	padding-top: 4px;		
+	padding-bottom: 4px;
+}
+
+#teams .main {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #ffffff;
+	margin-bottom: 6px;	
+	padding: 2px;		
+	border: 0px;
+	background-color: #000099;		
+}
+
+#teams .header {
+	font-size: 8pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #FFFFFF;
+	padding-left: 4px;	
+	padding-top: 2px;		
+	padding-bottom: 2px;
+	margin: 0px;
+}
+
+#teams .team {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #666666;
+	padding-top: 4px;		
+	padding-bottom: 4px;
+	border: 0px;
+	border-bottom: 1px;			
+	border-style: solid;
+	border-color: #666666;
+	background-color: #CCCCCC;		
+}
+#teams .title A {
+	font-size: 7pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000;
+	padding-left: 4px;	
+	padding-top: 4px;		
+	padding-bottom: 4px;
+	margin: 0px;
+}
+
+#teams .content {
+	font-size: 6pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000000;
+	padding-left: 4px;	
+	padding-top: 2px;		
+	padding-bottom: 4px;
+}
+
+#features .article { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;
+}
+
+#features .report { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;
+	background-color: #EAEAEA;	
+}
+
+
+
+#features .title { 
+	font-size: 7pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000;
+	padding-left: 4px;	
+	padding-top: 6px;		
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+#features .content {
+	font-size: 6pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000000;
+	padding-left: 4px;	
+	padding-top: 0px;		
+	padding-bottom: 4px;
+}
+
+-->
+</style>
+</head>
+<body 0><center>
+<table  cellspacing='0' cellpadding='0' border=0>
+  <tr> 
+    <td width="1" height="9" valign="top">
+<table width="764" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td colspan="3"><img src="/vs/gfx/clear.gif" width="2" height="11"></td>
+  </tr>
+  <tr> 
+    <td colspan="3"><img src="/vs/gfx/theme1/header_top.jpg" width="764" height="64" border="0" usemap="#Map2"></td>
+  </tr>
+  <!-- This is the Non Member Row -->
+  <tr> 
+    <td background="/vs/gfx/theme1/header_mid_back.jpg" width="118"><img src="/vs/gfx/theme1/header_mid_1.jpg" width="118" height="30" hspace="0" vspace="0" border="0" usemap="#Map3"></td>
+    <td background="/vs/gfx/theme1/header_mid_back.jpg" width="438"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <form name="login" method="post" action="/vs/resources/buzz.php"><input type="hidden" name="PHPSESSID" value="467b8c8cf7f54855703b344e5413e3b6" />
+          <tr> 
+            <td align="left" valign="middle" width="15"><input name="sname" type="text" id="name" maxlength="22" size="7">&nbsp;</td>
+            <td width="67"><img src="/vs/gfx/theme1/header_mid_2.jpg" width="67" height="30" hspace="0" vspace="0" border="0"></td>
+            <td align="left" valign="middle" width="15"><input name="password" type="password" id="password" maxlength="14" size="7">&nbsp;</td>
+            <td><input type="hidden" name="mlogin" value="true"> <input name="submit" type="image" id="submit" src="/vs/gfx/theme1/header_mid_go.jpg?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6"></td>
+            <td width="20" align="center"><img src="/vs/gfx/theme1/header_mid_spacer.jpg" hspace="0" vspace="0" border="0"></td>
+            <td width="92" align="center"><a href="/global/forgot.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6"><img src="/vs/gfx/theme1/header_mid_forget.jpg" width="62" height="30" hspace="0" vspace="0" border="0"></a></td>
+            <td><a href="/vs/main/join.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6"><img src="/vs/gfx/theme1/header_mid_sign.jpg" hspace="0" vspace="0" border="0"></a></td>
+          </tr>
+        </form>
+      </table></td>
+    <td align="right" background="/vs/gfx/theme1/header_mid_back.jpg" width="208"><img src="/vs/gfx/theme1/header_mid_3.jpg" width="208" height="30" hspace="0" vspace="0" border="0"></td>
+  </tr>
+  <!-- End Non Member Row -->
+  <tr> 
+    <td colspan="3" align="right"><img src="/vs/gfx/theme1/header_navbar.gif" width="744" height="19" hspace="0" vspace="0" border="0" usemap="#Map"></td>
+  </tr>
+  <tr> 
+    <td colspan="3" background="/vs/gfx/theme1/nav2_back.jpg" class="nav2">
+	<img src="/heroclix/gfx/clear.gif" width="200" height="15" align="left">
+	<img src="/heroclix/gfx/theme1/nav2_concector.gif" height="15" align="left">	
+ 
+<a href="/vs/resources/rules.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Current Rules</a> |
+<a href="/vs/resources/buzz.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Buzz Board</a> | 
+<a href="/vs/resources/links.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Related Sites</a> 
+ 
+</td>
+  </tr>
+</table>
+
+<map name="Map">
+  <area shape="rect" coords="3,2,40,17" href="/vs/index.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">
+  <area shape="rect" coords="50,2,85,17" href="/vs/decks/index.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">
+  <area shape="rect" coords="95,2,145,17" href="/vs/articles/index.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">
+  <area shape="rect" coords="160,2,285,17" href="/vs/treports/index.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">
+  <area shape="rect" coords="300,2,350,17" href="/vs/resources/buzz.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">
+  <area shape="rect" coords="364,2,428,17" href="/vs/resources/index.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">
+</map>
+<map name="Map2">
+  <area shape="rect" coords="30,14,102,63" href="/index.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">
+</map>
+<map name="Map3">
+  <area shape="rect" coords="29,1,103,18" href="/index.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">
+</map>
+<map name="Map4">
+  <area shape="rect" coords="31,2,85,18" href="/index.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">
+</map>
+</td></tr></table>
+<table width='764' cellspacing='0' cellpadding='0' border=0>
+ <tr> 
+<td valign="top"  width='20'> 
+ <img height=3 hspace=0 vspace=0 src="/vs/gfx/clear.gif" width=20 border=0></td>
+<td valign="top" valign="top" bgcolor="#FFFFFF"> 
+ <img height=3 hspace=0 vspace=0 src="/vs/gfx/clear.gif" width=10 border=0></td>
+<td width="80%" valign="top"  bgcolor='#FFFFFF'> 
+ <!-- #BeginEditable "Body" --> 
+
+            <BR><center><a href='http://www.decktech.net/adserver/click.php?mgr=aspcode.net&id=26'><img border='0' src='/banner/3.gif'  ></a></center>
+<div class='main'><div class='mainheader'>Underworld Combo</div><div class='maincontent'><font class="bfont"> From: Carny</font><BR><font class="bfont"><A HREF='/vs/resources/buzz.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6'>Back to Topics List</A></font><BR><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font><BR><font class="bfont"><A HREF='/vs/resources/buzz.php?id=6962&PHPSESSID=467b8c8cf7f54855703b344e5413e3b6'><b>REFRESH THIS TOPIC</b></A></font><TABLE WIDTH=100% border="0" cellpadding="6"><tr><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#FFFFFF><font class="h2font"> Comment</td></tr><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=8708">MeatLoafX™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Well, I had some credit at CardAgora so I ordered a bunch of cards to build that Deacon Frost deck.  Even if I tweak it a little, it seems like a really fun idea.<br />
+<br />
+My main concern is breakthrough on off initiatives and not being able to respond if I put everyone in the back row.  Any ideas on how to either give them range or minimize breakthrough?<br />
+<br />
+ <br><BR><font size=1>11:02 03-23-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=13451">Jonesy™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">dmail away <br><BR><font size=1>13:57 03-22-2005</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>Shadow 13</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">deacon frost is the hugh hefner of marvel. <br><BR><font size=1>02:38 03-22-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=8708">MeatLoafX™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Yeah, it seemed like an interesting deck.  Both simple and complex.<br />
+<br />
+I&#39;ve looked at some other UW swarms and most run a variety of other cards - like Dracula, and other drops.  The New Bloods run from 12-20 in those decks.<br />
+<br />
+This one seemed the most interesting to me.  I&#39;d like to hear if anyone has built it and how it played.  I&#39;d worry about lots of breakthrough and the fact that, if I put everyone into the back row, I can&#39;t attack back w/o range. <br><BR><font size=1>18:27 03-21-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Jonesy- you&#39;re a smart guy, mind if I d-mail you my deck list to see if you can help me tweek it? <br><BR><font size=1>18:07 03-21-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Really? I&#39;ve been getting away with murder then! :P <br><BR><font size=1>18:02 03-21-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=13451">Jonesy™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">you can&#39;t use mist form like that, they choose who to stun after all blues have been played, theres no time in between them choosing who to stun and him stunning for you to play anything. <br><BR><font size=1>17:52 03-21-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Well the Deacon deck aint bad dude. If your going to play it, I&#39;d add some Dracula 5 drops and some Mistforms. Dracula + Black Magic is great because you ether steal their 5 drop, or cause 10 endurance loss (-5 for stunning their 5 drop, -5 to cancel Dracula&#39;s text, + any breakthrough).<br />
+Mist Form is great for team attacks. They pick one of your team attackers to stun, you play Mist Form to cancel the stun and draw a card. Works best when you plan on doing that at the end of your attack phase, since you can&#39;t attack after using MF.<br />
+<br />
+Mage-WoC might not be a bad idea, I might try that. What the hell, I&#39;ve tried almost everything else, though I would feel silly not using Wake the dead with Underworld (not that it would work for missed drops) <br><BR><font size=1>17:37 03-21-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=8708">MeatLoafX™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">What about the combo listed in the team above "Deacon Frost, Vampire Master"?  Has anyone tried that out?<br />
+<br />
+If it&#39;s even moderately effective, I may try to acquire the cards to put it together.  It just looks interesting.  =) <br><BR><font size=1>07:56 03-21-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17490">magerunner™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Patrick, if the combo is solid (and is sounds like it) what kind of search are you running to try and find  your "missing" pieces?  In limited you don&#39;t have much for Plot Twists but there is alway Weapon of Choice (maybe put another one of 6 drop to go and grab with Cage, pref one that helps drop spidey).  Seems to be very fun though. <br><BR><font size=1>07:56 03-21-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Ok, time to fess up:<br />
+<br />
+I&#39;ve played this deck to death in limited, made some changes, added some Def, and it&#39;s still just a fun deck. The combo is solid, the problem is that too much can go wrong. Drawing your Senses but no team-ups or Saga&#39;s; opponent plays Black Cat/Bad Press; Drawing no clone sage/Luke cage making you miss the 6 drop Spidey; not getting the Fun and Games that ONE GAME YOU NEED IT!!! etc etc.<br />
+<br />
+The combo is strong, when it works. There has got to be a way to make it more consistant, but I&#39;m having a lot of trouble finding it. <br><BR><font size=1>20:13 03-20-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">I just wanted to add that I could have won against X-static if I didn&#39;t play the last few turns like a waisted sperm. F&G was doing a good job shutting down his effects and at the start of turn 9 I had 12 characters in the front row (2 Ezekiel, 1 Spidey: only drew 1 Dark Embrace that game) and Rocket Racer in the back. He had Phat (boosted 7) protecting Zeitgeist. If I had planned my team attacks better and had some Nice Try for Glory Hound, the game would have been mine. It was still closer than you would think, and I didn&#39;t even get any Black Magic or Mist Forms ether. <br><BR><font size=1>14:10 03-13-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Ok, so far, I&#39;ve played it against:<br />
+<br />
+MK 1-0<br />
+SF 1-1<br />
+SF evasion 0-1<br />
+MK/SF 3-2<br />
+X-static 0-1<br />
+UW/CL 1-0<br />
+<br />
+Haven&#39;t played it against CL/SS yet, I will this weekend, I know I have a lot more testing to do but the combo is solid....problem is getting to turn 7-8 with more than a hand full of endurance.  I can tell as of now that I need to cram more defence to last long enough to pull off the combo. F&G helped a lot against X-Static and MK with KO and Caretaker, as did Rocket Racer, but I need to find room for some Senses/Nice Try. I also have to add some Dr Strange so I can boost hi as a back up to Ezekiel. <br />
+<br />
+Thoughts? <br><BR><font size=1>23:26 03-11-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=13451">Jonesy™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">i find theres no room for penance and swan dive in my MK deck.  In my bamf MK deck I played swan dive and it was brutal since i could always gaurantee my 6 hits their 6, i dont get stunned then i swan their 5.  But in straight MK, oddly enough, theres no room with all the KO effects and what not. <br><BR><font size=1>13:30 03-11-2005</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>Dredlox</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">That fun and games was an excellent thought. You can stop lots of stuff with it too, like war wagon and such.<br />
+<br />
+Jonesy, have you tried Swan Dive in your MK overrun? I really like it. You beat the tar out of them with your biggest guy, swan dive that guy to kill some little guys, beat the tar out of anyone left with no reinforce. I&#39;ve even tried penance stare on the swan dived guy. It&#39;s big damage at 6. <br><BR><font size=1>10:25 03-11-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=13451">Jonesy™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">heh, fun and games?  That will do it.  I wouldn&#39;t worry about firestar, it will be in 2 decks total in amsterdam, she&#39;s that bad, and there won&#39;t be much of an army meta.  Ghost rider will be around though.  Have you tested against a straight MK or a CL/SS deck yet?  I mention this because those decks almost never go past turn 6. <br><BR><font size=1>16:25 03-10-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">OK, I posted the deck. Hope you all like it. <br><BR><font size=1>13:08 03-10-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">HOLY shimmer!!!!!!!!!!!<br />
+<br />
+I found the answer to the problem with my deck!!!<br />
+<br />
+I know how to stop Ghost Rider/Firestar and it was staring me in the face the whole time! <br />
+<br />
+if you want to know, d-mail me. It&#39;s too good to post. <br><BR><font size=1>03:48 03-10-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17490">magerunner™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">I can see, like any dedicated Combo Deck, you loose the "silver bullet" feel.  Loss of some cards to cover those bad place as you need certian card to keep the combo going.  Would a couple Weapon of Choise work, go for army guys (i&#39;m guessing they are the same cost) to help thin the deck more so you when the Combo goes off you have a better chance of hitting over and over.<br />
+<br />
+Funny, after thinking about it this almost feels like a Minds Desire storm deck from Magic.  In that deck, thining out the land and other "useless" spells allows for a better pick of card when you "go off".  If not WoC then some other serch card to help thin the deck over the turns.  <br />
+<br />
+Heck maybe I&#39;m completly off base here, but I like the concept. <br><BR><font size=1>18:23 03-09-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">I don&#39;t know, maybe it&#39;s because I tested it only against Marvel modern age stuff, but I  made it to 7 all three games. It needs a lot more testing though so I might have problems with other stuff I haven&#39;t played it against yet. I&#39;ll be able to give a better answer this weekend.<br />
+<br />
+I will say this though, 8 drop Ghost Rider is a BAD thing for this deck. Since it needs to drop the vampire swarm on 7 for Ezekiel on 8, the deck HAS TO have evens so you can pull off the Ezekiel/Dark E combo before Ghost Rider gets dropped and activated.<br />
+<br />
+Firestar is also a pain. She doesn&#39;t kill the deck like Ghost Rider because of her "attack step" text, but she does hurt. That was the main reason I was running Dracula, so I could steal her.<br />
+<br />
+Any helpful suggestions on how to deal with these two would be great. With the limited format, the deck has a better chance than normal, but a stratage for them would be nice. <br><BR><font size=1>18:05 03-09-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=13451">Jonesy™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">i said take evens because i&#39;d think you&#39;d have trouble just getting to turn 7, with evens you get to turn 6 and spidey exhausts and you swing for a ton with torch then go to the next turn where your ezekiel army should be able to stand up to quite a bit. <br><BR><font size=1>15:51 03-09-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">I think the reason Jonesy wanted me to take evens was because of Ghost Rider <br><BR><font size=1>09:18 03-09-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont"> amazing won&#39;t work with this combo dude. <br><BR><font size=1>09:17 03-09-2005</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>mikefrench</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">you take evens so you can use spectacular spidey&#39;s game text on turn 6, then use amazing spidey to exhaust everyone on turn 7 (steal initiative). <br><BR><font size=1>00:22 03-09-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">OK, built the UW/SF deck and playtested it a few times against other Marvel age stuff I had. 8 drop Ghost Rider kills it on turn 8 if they have evens and Firestar hurts it, but the combo works very well. So far in testing it&#39;s 2-1, not bad. <br><BR><font size=1>21:21 03-08-2005</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Iceman</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">False Son and Submariner = sweet <br><BR><font size=1>21:10 03-08-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Torch and ESU are great ideas dude, thanks. But why do you think I need evens? Wouldn&#39;t it be better to stall with Spidey on 7? <br><BR><font size=1>19:25 03-08-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=13451">Jonesy™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">thats not a bad idea, but i think I&#39;d play human torch as the 5 drop and you would need evens, I&#39;d also play esu lab to draw mroe cards and reinforce your guys. <br><BR><font size=1>17:57 03-08-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Sorry. I ment take odds <br><BR><font size=1>16:46 03-08-2005</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">OK gang, check this out:<br />
+<br />
+I have a pretty sick idea that I wouldn&#39;t mind your input on. Here it is:<br />
+<br />
+Underworld/Spider Friends army stall(Marvel age)<br />
+<br />
+Don&#39;t know the exact numbers for the deck yet, but I&#39;m thinking:<br />
+<br />
+12 New Blood<br />
+8-10 Wild Pack<br />
+<br />
+Marvel Team Up x4<br />
+Clone Saga x?<br />
+Dracula (5 drop) x4<br />
+Deacon Frost x4<br />
+Spiderman: Spectacular x4(recruit with clone sage to get around loyalty)<br />
+Ezeikel x4<br />
+Witching Hour x?<br />
+Dark Embrace x4<br />
+<br />
+Ok, take evens<br />
+turn 6: drop Spiderman<br />
+turn 7: (you have initiative) play Deacon Frost boosted (5)from hand to get 3 New Blood in front row; play WH (2 resource points)to get the rest (or as many as you can)of your army guys in play from the KO pile; then tap Spiderman to exhaust all your opponents guys.<br />
+turn 8: Recruit Ezeikel and draw A LOT of Cards; play Dark Embrace discard 8 and put another Ezeikel in play to draw A LOT MORE CARDS; Play Dark E.......etc etc.<br />
+<br />
+In open, Flame trap would kill this but in M Age the only thing would be Starfire.<br />
+<br />
+The biggest problem I&#39;ve got is making the deck last that long. Suggestions?<br />
+<br />
+ <br><BR><font size=1>16:39 03-08-2005</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/vs/resources/buzz.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/vs/resources/buzz.php'><input type="hidden" name="PHPSESSID" value="467b8c8cf7f54855703b344e5413e3b6" /><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value="6962"><input type='Submit'  value=' Show all Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/vs/main/join.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6'> become a registered member</a></font></div></div><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script> 			
+<!-- rumors board code end --><BR>
+
+            <!-- #EndEditable -->
+</td>
+<td valign="top" valign="top" bgcolor="#FFFFFF"> 
+<img height=3 hspace=0 vspace=0 src="/vs/gfx/clear.gif" width=10 border=0></td>
+<td width='167' bgcolor='#E5E5E5' valign='top'>
+<center>
+  <!--  <a href="/promo/index.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6"><img src="/heroclix/gfx/theme1/contest.gif" width="160" height="20" hspace="4" vspace="4" border="0"></a>  -->
+<BR>  <div class='column'><div class='r2header'>Top Decks</div><ol><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34516&PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Xavier&#39;s Demon 10th @ Orlando 10k</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34558&PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Deacon Frost, Vampire Master</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34522&PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Sentinel Domination</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34615&PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">The Brotherhood of Spiders</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34553&PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Balls of Steel</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34547&PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">X-Statix Solo Show</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34564&PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Ezekiel&#39;s Dark Embrace</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34559&PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Mystic Burrito Booth</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34584&PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Conceal and Carry</A></font></li><li><font class="bfont"><A HREF="/vs/decks/decks.php?deck=34514&PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Crime Syndicate</A></font></li></ol><A href="http://www.decktech.net/swtcg/decks/decks.php">All</A></div> 
+<img src="/heroclix/gfx/clear.gif" width="160" height="1" hspace="4" vspace="4" border="0">
+</div><div class='column'><div class='r2header'>Auction</div><A href="http://www.decktech.net/auction/index.php">Currently 2 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6'>List Your Item!</a> 
+<BR><BR><img src="/heroclix/gfx/clear.gif" width="160" height="1" hspace="4" vspace="4" border="0"><P><div class='column'><div class='r2header'>Top Articles in last 30 days</div><div class='r2td'><A HREF='/vs/articles/articles.php?id=6038&view=2&PHPSESSID=467b8c8cf7f54855703b344e5413e3b6'>The power of the Gravesite</A></div><div class='r2td'><A HREF='/vs/articles/articles.php?id=6045&view=2&PHPSESSID=467b8c8cf7f54855703b344e5413e3b6'>Modern Marvel Primer!</A></div><div class='r2td'><A HREF='/vs/articles/articles.php?id=6044&view=2&PHPSESSID=467b8c8cf7f54855703b344e5413e3b6'>Neal&#39;s Nutty Combo of the Day</A></div><div class='sectionhead' align='right'><div class='more'><A href='/vs/articles/articles.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6'>All</A></div></div></div><p><a href='http://www.decktech.net/adserver/click.php?mgr=aspcode.net&id=41'><img border='0' src='http://www.decktech.net/banner/warsvert.gif'  ></a></center>
+<BR></td>
+<td valign="top" width="0"> 
+  </td>
+ </tr>
+</table>
+  <table  width='764' cellspacing='0' cellpadding='0' border=0>
+    <tr> 
+    <td valign="top">
+      <div align="right">
+<table width="744" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+      <td width="114"><img src="/heroclix/gfx/theme1/footer1.gif" width="114" height="21" hspace="0" vspace="0" border="0" align="left"></td>
+      <td width="630" background="/heroclix/gfx/theme1/footer1_back.gif" class="footerOne"> 
+        &nbsp; &nbsp;<a href="/heroclix/index.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Home</a> | <a href="/heroclix/teams/index.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Teams</a> 
+        | <a href="/heroclix/articles/index.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Articles</a> | <a href="/heroclix/treports/index.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Reports</a> 
+        | <a href="/heroclix/resources/index.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Player Resources</a>  </td>
+  </tr>
+  <tr>
+    <td width="114"><img src="/heroclix/gfx/theme1/footer2.gif" width="114" height="24" hspace="0" vspace="0" border="0" align="left"></td>
+      <td width="630" background="/heroclix/gfx/theme1/footer2_back.gif" class="footerTwo">&nbsp;&nbsp; 
+        <a href="/heroclix/main/about.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">About HeroClix</a> | <a href="/heroclix/main/decktech.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">About 
+        DeckTech</a> | <a href="/heroclix/main/join.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Become a Member</a> | 
+        <a href="mailto:%20info@decktech.net">Contact Us</a></td>
+  </tr>
+    <tr> 
+      <td colspan="2" width="744" background="/heroclix/gfx/theme1/footer3_back.gif" class="footerThree">
+	  <a href="/global/terms.php?PHPSESSID=467b8c8cf7f54855703b344e5413e3b6">Terms of Service</a> TM & © 2003 www.decktech.net. All Rights Reserved.
+</td>
+  </tr>
+    <tr> 
+      <td colspan="2" width="744" class="footerFour">
+ 	  This site is maintained and updated by fans of 
+          HeroClix, and is in no way affiliated with WizKids the makers of HeroClix 
+          and other fine games. We in no way claim the artwork displayed to be 
+          our own. Copyrights and trademarks for the promotional materials are 
+          held by their respective owners and their use is allowed under the fair 
+          use clause of the Copyright Law.
+<p>WizKids, LLC has sole ownership of the names, logos, artwork, marks, 
+photographs, sounds, audio, video and/or any other proprietary material 
+used in connection with the game of HeroClix. WizKids, LLC has granted 
+DeckTech.net permission to use such names, logos, and/or marks for 
+promotional and informational purposes on the DeckTech.net website, but it 
+does not endorse and is not affiliated with the DeckTech.net website in 
+any official capacity whatsoever. All WizKids characters, names, logos, 
+and distinctive likenesses are property of WizKids, LLC. 
+
+<p>©2003 WizKids, LLC. All rights reserved. MechWarrior, BattleTech, 
+BattleMech, ’Mech, MW, Mage Knight, MK, Shadowrun, HeroClix, SportsClix, 
+Creepy Freaks, Freak Out, and WizKids are trademarks of WizKids, LLC.  
+</td>
+  </tr>
+</table>
+</div><BR>
+
+</td></tr></table>	  
+</center></body><!-- #EndTemplate --></html>
+

@@ -1,0 +1,509 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php" class="level1nav">Articles</a><br>
+
+
+<a href="/starwarsccg/decks/index.php" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php" class="level1nav">Reports</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/treports/treports.php?cat=constructed">Constructed</a> &nbsp;<br>
+
+<a href="/starwarsccg/treports/treports.php?cat=sealed">Sealed Deck</a> &nbsp;<br>
+
+</div>
+
+  <a href="/starwarsccg/academy/index.php" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6540&view=2">Creating a tournament scene from scratch - part 4</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6542&view=2">A Decade Away / My 1st Tournament</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6536&view=2">Activation Statistics</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6533&view=2">A suggestion for getting more players</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6535&view=2">A Shot and SWCCG Immortality - Building a &#39;Tier 1&#39; Rescue the Princess Deck</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6537&view=2">You May Start Your Landing</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6534&view=2">Well, I fold.</A></font></li><BR></ol> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Tournament Reports</td><form method='post' action=''><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Tournament Reports</option><option value='#'> </option><option value='/starwarsccg/treports/index.php3'>Star Wars: CCG</option><option value='/heroclix/treports/treports.php'>HeroClix</option><option value='/vs/treports/treports.php'>Marvel VS</option><option value='/lotr/treports/treports.php'>Lord of the Rings</option><option value='/magic/treports/treports.php'>Video Games and Movies</option><option value='/wars/treports/treports.php'>Wizards Minis</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> RSmith at Yavin IV Regional 2006 1 of 2<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(4.95)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=400'>R. "Voice of Law" Smith</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=400&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> April 14, 2006</font><p align='justify'><blockquote><font class="bfont"> *************HIJINX<br />
+<br />
+<br />
+Not much pre-tourney business to cover this time. Left Pittsburgh around 4:30 pm with Pat &quot;My&quot; Johnson riding shotgun and Tortellini in the back. My Sirius S50 helped make the drive seem at least a little shorter than it was, and we rolled into the Sleep Inn in Edgewood, MD shortly after 9 pm EST.<br />
+<br />
+We rendezvoused with Team Ohio, did some playtesting, and worked on some decks. Ultimately nitsuj and b00ker ended up asking me for my WYSv and Endor Mains decks, respectively, so they could copy them. And somehow all 7 of us decided to play Scum. 1337.<br />
+<br />
+Yes, we went to Denny&#39;s at 1:30 am for The Damn Brownie. All of us but nitsuj and brad eier, that is (they went to bed instead). Yes, we all finished it. All of us but Tortellini, that is.<br />
+<br />
+Sleep.<br />
+<br />
+Woke up, wrote decklists, drove to store. Last year Aglets was F-Aglets, this year he is Douche Bag-lets. He apparently is taking decklists but not doing any deck checks. I think he just wanted to have all our ideas.<br />
+<br />
+My decks:<br />
+WYSv: http://www.decktech.net/starwarsccg/decks/decks.php?deck=35485<br />
+Scum: http://www.decktech.net/starwarsccg/decks/decks.php?deck=35488<br />
+<br />
+<br />
+Game 1<br />
+My LS vs Brian Hollingworth’s Walkers<br />
+I think this is supposed to be like an auto win match-up, but it ends up begin a close game.  Frist turn he busted out Blizzard 4 with Premiere Vader, which made me happy, because the last card added to my deck was Uncontrollable Fury.  So I went to random Corellia sites with random Corellians and flipped and moved everyone together at the Swamp.  He went and dropped Blizzard 1 and embarked Vader as pilot on that.<br />
+<br />
+I got on my other site with Mon Mothma and went to his Hoth system with Luke Skywalker V and Artoo In Red 5.  I was Leeboing like a fiend also in attempts to nail the purple card.  I drew some and somewhere in here I located my Uncontrollable Fury.  <br />
+<br />
+Eventually he blew up the Main Power Generators, through the use of multiple copies of Target the Main Generators.  I used Mon Mothma to prevent the first one, but apparently she can only use her Epic Event-reducing game text once per turn.  So I lost 8 to that and started losing to The Card That Makes Me Lose Force.  <br />
+<br />
+The game then became a damage race.  I was draining at Hoth, Corellia, and the two Corellian sites and making him lose force to Fury: he was deploying walkers and spreading out on Hoth.  I netted two cards back with Weapons Display as he deployed his walkers to Hoth.  He eventually was causing me four force loss a turn with a walker at each of the four Hoth sites.<br />
+<br />
+He wisely never came to space, which kept me from getting Legendary Starfighter out.<br />
+<br />
+He started some mess on Corellia with Blizzard 2 V and General Veers V, deploy +3.  We had a battle or two, he Trampled some dudes, but all he ended up gaining was control of the Jungle for a big fat drain of zero.  He was dealing a decent amount of damage, but thanks to Luke V, Leebo V, and especially Uncontrollable Fury I was able to outlast him for a full win by 3.  <br />
+<br />
+Highs: WIN<br />
+Lows: I&#39;m not gonna lie. If Brian had been playing Lord Vader instead of Darth Vader, I would have lost this game.<br />
+<br />
+<br />
+<br />
+Game 2<br />
+So since I won by so little I get the pleasure of playing Mr. Hollingworth again. <br />
+<br />
+My DS vs. his Endor Mains<br />
+<br />
+He started Encampment V, Quick Draw V, Strike Planning, and some other effect that isn’t Rycar V.  I don’t remember the details of this game too well.  I set up some dudes on Tatooine; he put free Luke down; I played Luke? Luuuuke!v on Jabba targeting (appropriately enough) Luke; I went to space with Maul and set up Occupation.<br />
+<br />
+Brian was apparently very motivated to cancel Luke? Luuuuuke! as he shuttled Luke up to one of his capital starships at Endor, moved to Tatooine, and (on a subsequent turn) attempted to shuttle Luke directly to the Audience Chamber. I reminded him that the Audience Chamber is interior. So he shuttled him to Tatooine: Jabba&#39;s Palace instead.<br />
+<br />
+It was ultimately of no consequence; the game had turned into a damage race as neither of us could effectively battle the other, due to the threats our respective defense cards.  As such, there was only one battle all game.  Between my drains at Jabba’s Palace sites and Tatooine Occupation, I was more easily able to out-damage him this game.  Full Win by 12<br />
+<br />
+<br />
+Highs: another WIN<br />
+Lows: really frustrating for both of us not to be able to battle; anyone who claims Luke? Luuuuuuke V and its counterpart work to encourage interaction is a raving loon.<br />
+<br />
+<br />
+<br />
+Game 3<br />
+My scum<br />
+Greg Shaw’s HB Corvettes<br />
+<br />
+Since Shaw had shown up late and received a 0 (0) for the first game I couldn’t understand how he had been paired against a 2-0 player in this third game, so I caused a fuss but I guess somehow the pairings might have been right.<br />
+<br />
+Anyway I set up Jabba + Gailid first turn in the Audience Chamber. Greg pulls some systems. I put Bib Fortuna to the Lower Passages, some random alien to Tat:JP, and pull Search and Destroy with the You Cannot Hide Forever I had started.<br />
+<br />
+He flips as fast as possible and starts canceling my drains. I go to space with Zuckuss V in Mist Hunter V piloted also by Gela Yeens V and passengered by 4-LOM with Concussion Rifle and Dr. Evazan and Ponda Baba. They go to Kiffex and I probe; not his base. He drops a Corvette with a gun and plays On Target so I can’t move. He battles but I still get a battle destiny thanks to 4-LOM and he loses something and I lose nothing. Then I put another high-forfeit dude on the Mist Hunter to reinforce.<br />
+<br />
+He has a bunch of silly random characters on his ships, like Theed Palace Artoo, that virtual Hoth droid that makes his capitals destiny + 2, and (I guess as a precaution against the game text on Tatooine Darth Maul) Corran Horn.<br />
+<br />
+So I’m draining 2 at Kiffex, 2 at Tat:JP, 2 at Audience Chamber, 2 at Lower Passages, and causing him to lose to Search and Destroy each turn. He’s draining me here and there in space, though I was able to block one of his drains with Luke? Luuuuuke! V. I pulled the grabber shield (grabbed Barrier), the Battle Order shield, the Firepower shield, and the Resistance shield, and he, seeing no YCHF on table, makes a desperation play by inserting Never Tell Me The Odds in my reserve deck. Apparently he didn’t realize that Resistance caps insert force loss at 2 also. Hmm.<br />
+<br />
+FW by a lot<br />
+<br />
+Highs: in control all game<br />
+Lows: he really never had a chance; also, Greg Shaw is a LIAR! he told me he wasn&#39;t playing with the Bright Hope V, then next turn he deployed it. It hurt me, when he lied like that; it really broke my heart.<br />
+<br />
+<br />
+Game 4<br />
+My wys vs Brandon Pahl of Canadia with aobs scum<br />
+<br />
+He sees my objective and begins grumbling about how it’s his worst matchup, he hates playing against it, etc. But I know that at least one of his traveling companions (Spencer Ball) is using the same objective, so I gotta believe he has a gameplan or some tech for it.<br />
+<br />
+He starts Information Exchange V, Scum and Villainy, Den of Thieves v, and some other card with Twilek Advisor V. First turn he pulls a bunch of cards so I start the game with a huge hand and lots of force.<br />
+<br />
+I flip with 2 guys at each site and drop No Questions Asked v. Start using the objective every turn to cycle cards.<br />
+<br />
+He drops the Coruscant battleground docking bay with about 84 guys there. Guri, Vigo x2, The Gemmeperor, and some other guy, then Xizor moves over to flip. Somewhere in here he misses on a search and I get to verify his reserve deck. I’m looking for one card: Elis Helrot. I don’t see it so I’m assuming it’s in his hand. This scares me a bit because I do notice about 4 copies of Control combo, and a bunch of capturing cards. So I’m a bit worried that he is going to Elis his massive conglomeration of dudes over to Corellia, capture all but one Corellian, and commence primary ass-whoopin. So I start looking frantically for my Escape Pod V or Houjix.<br />
+<br />
+Apparently he doesn’t have the Elis though as he pulls the Spaceport Docking Bay to Corellia and transits everyone over. I drop Kessel and start draining there for like … a lot. I think I got Padme out this game too with Luke in space and Leia floating around somewhere causing two damage a turn. Between that and my drains I was out-damaging him pretty severely, so all I did was run away from his guys on Corellia and outlast him.<br />
+<br />
+FW by mid-teens<br />
+<br />
+Highs: playing a dude from Canadia<br />
+Lows: I talked to Brandon after the game, and it turns out he didn’t even have Elis in his deck.<br />
+<br />
+<br />
+So that game was quick. I stroll over to the grocery store in the adjacent plaza to see if I can scrounge up some ready-to-eat foodstuffs. Purchase a bag of fried chicken and a Dr. Pepper. I take that back to the exterior of the store, where this is a nice park-like area with benches to sit on, and that is where I eat. There&#39;s a lot more chicken in the bag than I realised, so after housing like 6 or 7 pieces I still have enough to share with Brandon (my last opponent), Pat, and Tortellini. blahblahblahnextgame<br />
+<br />
+<br />
+Game 5<br />
+My WYSv vs Brian Rippetoe&#39;s SYCFA FWKTIL deck<br />
+He starts YCHF combo, Endor Shield, and one other card I don&#39;t remember.<br />
+<br />
+Ah yes. Another auto-win for the WYS deck. Team Ohio and I had playtested the FWKTIL vs WYS match sufficiently, and our FWKTIL deck was better than this one, so I knew what to expect, and what to do to win the game. <br />
+<br />
+Not much to go into detail about here. I set up drains with General Solo V at one site and Laudica V at the other. Dash, Leebo, and the Outrider chilled at Corellia most of the game, keeping No Questions Asked V working. It didn&#39;t take me long to kill one of Brian&#39;s ships in a battle I won, and Legendary Starfighter was out. I got it on one of the good ships too. I also got Padme V working with Princess Leia V and Luke Skywalker V, all flying ships somewhere in space. He had no Vader in sight so he was losing 4 a turn in direct damage, along with my drains. Late in the game he moved Commander Merrejk from the Death Star War Room to Docking Bay 327 in an attempt to satisfy Battle Plan; I deployed Obi-Wan With Lightsaber and battled. I fired Obi-Wan&#39;s Lightsaber (activated 1 and retrieved 1 with This Place Can Be A Little Rough V), then won the battle 5 to 2 (activated 1 and retrieved 1 with TPCBALRV again).  GGGGGGGGGGGGGGGGG<br />
+<br />
+Highs: Cruising to victory<br />
+1337 point of the game I forgot to mention: he at one point paid SIX force for U-3PO to the Swamp, I countered on the next turn with Corran Horn and STOLE U-3P0!! that was something I had not done in a long while.<br />
+<br />
+<br />
+Game 6<br />
+My Scum vs Rippetoe again with Endor Mains<br />
+He starts Strike Planning, Insurrection Combo, and WoklingV.<br />
+<br />
+He does some set-up-like stuff by putting Mon Mothma and Carlist Rieekan (both V) to the Throne Room, pulling the Home One: Docking Bay, and pulling the Hoth: Echo Base Command Center (War Room). I am able to get out Jabba The Hutt V along with both Urororororur V and Urur V on my first turn. IIRC, I did not get the Gaderffii Stick first turn.<br />
+<br />
+No matter, as he was unable to fight me right away anyway. He continues to deploy support cards, such as Threepio With His Parts Showing, Bacta Tank, and Mantellian Savrip. I deploy more guys (and the Gaderffii Stick) to the Audience Chamber, as well as some good guys in space. Maul was up there in his ship along with someone in Jabba&#39;s Space Cruiser V. Brian Altered Scum and Villainy very early and, although I had the Oppressive Enforcement shield out, it did not look like I would get much use out of that card this game as he was playing many copies of Alter.<br />
+<br />
+I had a respectable grip on both the system (draining for 2 there thanks to the system&#39;s game text) and the Audience Chamber when Brian deployed Luke With Lightsaber, Leia V, and one other character I don&#39;t remember to the Audience Chamber. IIRC, I did not attempt to Barrier/None Shall Pass anyone because I had a respectable amount of characters there, including the Tuskens, Boelo, Bib Fortuna, and Ephant Mon. I may have Barriered Leia so that she could not use her game text to cancel Jabba&#39;s game text. Nevertheless, Brian played Clash of Sabers on Jabba and we battled. The Gaderffii Stick kept my guys safe from the lightsaber and Boelo kept them safe from attrition. Brian *might* have had Lando Calrissian, Scoundrel there to allow him to draw two battle destinies; I can&#39;t recall for certain.<br />
+<br />
+In any case we traded piddly forfeitures (him losing to Savrip mostly) until Jabba returned from his alcoholic stupor; then it was time for Brian to clear the hell out or face the prospect of getting bombarded with 50 power worth of aliens.<br />
+<br />
+Somewhere in there he deployed Bespin: Cloud City with Mon Mothma V&#39;s once-per-game text; a card selection I still can&#39;t seem to understand. Anyway, I put Bossk In Hound&#39;s Tooth there and got one drain of 2 in before the Bright Hope V came down with Corran Horn to clear things out. But because Cloud City is not a system, Brian still did not occupy for Battle Plan, and I don&#39;t think he Force drained me at the sector once for the rest of the game.<br />
+<br />
+Meanwhile, I was draining steadily for 2 at the system and 2 at the Audience Chamber (thanks to Gailid). Ooh I forgot: I had also deployed Tatooine Occupation rather early by pulling Bib Fortuna to the Lower Passages to occupy a second battleground site, then moving him into the Audience Chamber that turn. So Brian was taking some rather constant Force loss, while dealing out relatively little. I had Security Precautions V on the Audience Chamber all game, so he was unable to produce any kind of Force choke, and I eventually just wore him down and out. <br />
+FW by 12-15ish<br />
+<br />
+Highs: everything working like a charm<br />
+Lows: it was pretty apparent Brian had not playtested this match much, if at all. I was able to use my experience with the match very much to my advantage this game.<br />
+<br />
+<br />
+<br />
+I end up finishing as the only undefeated, which makes me the top seed going into the 4-man playoff. See Tim Simon&#39;s director&#39;s report for official standings. My two semi-final games with Steve Lewis will be chronicled in another installment; demand for this report has been so overwhelmingly high I am posting the Swiss portion now to tide you all over. There&#39;s a lot to write about in the last two games so hang tight. Props and slops and wrap-up will be included in that chapter also, along with a special treat! So keep your ears peeled and your eye on the grindstone <br></font></blockquote><BR><font class="bfont"> <A HREF='/starwarsccg/treports/treports.php?id=5493&view=1'>Read the Reviews</a><font class="bfont"> | <A HREF='/starwarsccg/treports/treports.php'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

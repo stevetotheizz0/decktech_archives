@@ -1,0 +1,239 @@
+ 
+<html><!-- #BeginTemplate "/Templates/decktech_2.dwt" -->
+<head>
+<title>Welcome CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<meta name="keywords" content="CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming">
+<meta name="description" content="DeckTech has one mission: To build a self sustaining community that adds entertainment value to the CCGs we all enjoy. All CCG players welcome.">
+
+<style type="text/css">
+<!--
+Body { font-family: Arial, Helvetica, sans-serif; color: #FFFFFF; font-size: 10pt; font-style: normal; text-decoration: none; background-color: #000000; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+.level1nav {  color: #00FF00; text-decoration: none; font-weight: bold; font-size: 10pt;}
+a {  color: #00FF00; text-decoration: none}
+.header_bg {  background: #001F90}
+a:hover { color: #FFFFFF; text-decoration: none }
+.border {  border: thin #001F90 solid}
+input {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; border: 1px solid black}   
+-->
+</style>
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000" background="/global/images/home/background.jpg"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td height="90%" width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="center"> 
+          <td><a href="http://www.decktech.net"><img src="/global/membercenter/gfx/dt_2logo.gif" width="130" height="130" border="0"></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../global/images/home/trans.gif" width="6" height="5"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+
+function go(x) {
+
+value = "";
+
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+
+if (value != "") window.location = value;
+
+}
+
+</script>
+
+<form method="post" action="">
+
+<div align="center">
+
+<select name="select" onChange="go(this)">
+
+<option selected>Quick Jump</option>
+
+<option value="/groups/index.php">Groups</option>
+
+<option value="#"> </option>
+
+<option value="#">CCGs ======</option>
+
+<option value="/magination/index.php">Magi-Nation Duel</option>
+
+<option value="/lotr/index.php">Lord of the Rings</option>
+
+<option value="/swccg/index.php3">Star Wars CCG</option>
+
+<option value="/swtcg/index.php">Star Wars TCG</option>
+
+<option value="#"></option>
+
+<option value="/index.php">decktech.net</option>
+
+</select>
+
+</div>
+
+</form> </td>
+          <td width="8"><img src="../global/images/home/trans.gif" width="8" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font face="Arial, Helvetica, sans-serif" size="2"><B>Member Center</B></font></td></tr><tr valign="top"><td><font face="Arial, Helvetica, sans-serif" size="2">
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+  <tr>
+    <td><a href="/index.php" class="level1nav">Home</a></td>
+  </tr>
+  <tr> 
+    <td><a href="/membercenter/inbox.php" class="level1nav">Inbox</a></td>
+  </tr>
+  <tr> 
+    <td><a href="/membercenter/directory.php" class="level1nav">Member Directory</a></td>
+  </tr>
+   
+  <tr> 
+    <td><a href="/membercenter/update.php" class="level1nav">Update My Info</a></td>
+  </tr>
+  <tr> 
+    <td><a href="/index.php?mlogout=true" class="level1nav">Log Out...</a></td>
+  </tr>
+</table>
+</font></td></tr></table> </td>
+        </tr>
+        <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr> 
+        <tr valign="top"> 
+          <td> <table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font face="Arial, Helvetica, sans-serif" size="2"><B>CCGs</B></font></td></tr><tr valign="top"><td><font face="Arial, Helvetica, sans-serif" size="2">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="6">
+  <tr align="center" valign="middle"> 
+    <td><a href="/magination/index.php"><img src="/groups/global/images/magi.jpg" width="110" height="99" border="0"></a></td>
+  </tr>
+  <tr align="center"> 
+    <td><a href="/lotr/index.php" class="level1nav"><img src="/groups/global/images/lotr.gif" width="110" height="96" border="0"></a></td>
+  </tr>
+  <tr align="center"> 
+    <td><a href="/swccg/index.php3" class="level1nav"><img src="/groups/global/images/sw.gif" width="108" height="72" alt="Star Wars Customizable Card Game" border="0"></a></td>
+  </tr>
+  <tr align="center"> 
+    <td><a href="/swtcg/index.php"><img src="/groups/global/images/swt.gif" width="108" height="73" border="0"></a></td>
+  </tr>
+</table>
+
+</font></td></tr></table> </td>
+        </tr>
+        <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr> 
+        <tr valign="top"> 
+          <td> </td>
+        </tr>
+      </table>
+    </td>
+    <td height="74" align="left" valign="top" colspan="2"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+        <tr valign="top"> 
+          <td height="75"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="6">
+              <tr> 
+                <td><!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript><!-- #EndLibraryItem --></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr> 
+          <td><img src="../global/images/home/trans.gif" width="6" height="8"></td>
+        </tr>
+        <tr valign="bottom"> 
+          <td><img src="/global/membercenter/gfx/header.gif" width="339" height="16" vspace="0" hspace="0" usemap="#header" border="0"><map name="header"><area shape="rect" coords="95,2,171,18" href="/index.php"></map></td>
+        </tr>
+        <tr valign="top"> 
+          <td> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td bgcolor="#001F90" height="600" valign="top"><!-- #BeginEditable "Body" -->
+
+<!-- code from shop start -->
+
+<p><h2>DeckTech Auction - Gallery</h2>
+<font size='1'>
+<a href="index.php">Gallery</a> | <a href="completed.php">Recent Auctions</a> | <a href="rules.php">Rules</a> | <a href="seller.php">Seller Info</a> | <a href="list.php">List an Auction</a>
+
+</font>
+
+<p><table cellspacing=0 cellpadding=0 border=0 width='100%'><tr><td width='68%' valign='top'>Recently Completed Auctions</td><td width='1%'>&nbsp;</td><td width='20%' valign='top'>Start Date</td><td width='1%'>&nbsp;</td><td width='10%' valign='top'>Current Bid</td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=334'>Lotr tcg decipher Big lot of rares</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2006-11-13</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$100</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=333'>Large Collection of SW CCG for sale</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2007-07-15</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$51</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=332'> Large Colection of SW CCG for SALE!</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2007-07-15</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$50</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=331'> Large Colection of SW CCG for SALE!</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2007-07-15</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$50</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=330'>Star Wars CCG throw out.</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2006-07-04</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$201</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=329'>Closed</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2006-07-04</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=328'>Ezekiel x4 (signed by Animalvader!)</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2006-06-25</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=327'>2001 State Runner Up - Box Bag</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2005-01-03</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$1</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=326'>Coalition of Heroes MMK-189</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2005-10-24</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=325'>A Gajillion Bajillion Rares</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2005-08-26</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$1000122</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=324'>50000 cards 1000+ mains</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2005-08-23</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$4560</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=323'>A date with Ken Bradford</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2005-08-15</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$19</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=322'>Hoth Blank CARD MINT condition</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2005-02-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$3</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=321'>1 Special Edition Blank CARD MINT condit</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2005-02-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=320'>1 BB Grand Moff Tarkin MINT condition</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2005-02-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=319'>1 BB Leia Organa MINT condition</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-02-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=318'>1 BB Han Solo MINT condition</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2005-02-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$4</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=317'>1 BB Luke skywalker MINT condition</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2005-02-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=316'>1 BB Obi-Wan Kenobi MINT condition</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2005-02-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$4</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=315'>1 BB Luke Skywalker MINT condition</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2003-01-01</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=314'>1BB Darth Vader MINT condition</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2005-02-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$3</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=313'>Heroclix lot, THONOS, + a butt load of o</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-12-20</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$12</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=312'>EPP Maul and Qui-Gon Tourney Foils</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-12-09</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$11</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=311'>EPP Maul and Qui-Gon Tourney Foils</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-12-09</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$12</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=310'>EPP Maul and Qui-Gon Tourney Foils</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-12-09</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$13</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=309'>EPP Maul and Qui-Gon Tourney Foils</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-12-09</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$15</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=308'>EPP Maul and Qui-Gon Tourney Foils</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-12-09</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$14</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=307'>SWCCG Oversized MWYHL Objective&#39;s x2</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-12-08</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=306'>SWCCG Outer Rim Scout x5 + Bonuses</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-12-05</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$6</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=305'>SWCCG EPP Maul Tournament FOIL!</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-12-05</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$12</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=304'>SWCCG 50 Random Rares!</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-12-12</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$49</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=303'>SWCCG 50 Random Rares!</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-12-12</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$49</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=302'>Italian Saruman, KOI</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-12-02</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=301'>LOTR TCG MINT FOILS & RARES!!!</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2003-01-01</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$1</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=300'>Virtual Set 8 - Master Luke and 30 Other</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-11-18</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$4</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=299'>Imperial Command (two - one foil, one re</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-11-18</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$3</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=298'>Foil Princess Leia Organa (From V Set 8)</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-11-18</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$1</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=297'>BB Yoda - Dagobah</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-11-18</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$1</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=296'>BB Leia Organa</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-11-18</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$1</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=295'>EPP Han</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-11-18</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=294'>EPP Fett and EPP Vader</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-11-18</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=293'>EPP Leia and EPP Luke</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-11-18</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$3</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=292'>BB Obi-Wan Kenobi (V Set 8 card)</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-11-18</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$3</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=291'>BB Darth Vader</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-11-18</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$4</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=290'>EPP Maul and EPP Qui Gon Tourney Foils</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-11-15</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$9</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=289'>EPP Maul and EPP Qui Gon Tourney Foils</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-11-15</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$14</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=288'>EPP Maul and EPP Qui Gon Tourney Foils</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-11-15</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$16</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=287'>EPP Maul and EPP Qui Gon Tourney Foils</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-11-15</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$17</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=286'>EPP Maul and EPP Qui Gon Tourney Foils</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-11-15</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$15</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=285'>SWCCG LS Threepio WHPS URF</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$6</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=284'>LOTR FOTR Anthology set of 18 cards</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$6</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=283'>LOTR Foil Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=282'>LOTR Black Rider Foil</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=281'>LOTR Shire Lot includes PATHS, Sting</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=280'>LOTR Dwarf Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$1</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=279'>LOTR Gondor Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=278'>LOTR Gandalf Lot includes SOTSF x 3</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=277'>LOTR Isengard Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=276'>LOTR Nazgul Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=275'>LOTR Rare Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$1</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=274'>SWCCG LS Queen Amidala, RoN AI</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$9</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=273'>SWCCG LS Queen Amidala, RoN</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$4</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=272'>SWCCG LS Padme Naberrie AI (tat)</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=271'>SWCCG DS Aurra Sing AI (tat)</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$3</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=270'>SWCCG DS Mara Jade Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=269'>SWCCG DS Darth Vader, DLOTS</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$5</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=268'>SWCCG DS Lord Vader (DS2)</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$5</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=267'>SWCCG DS Dreadnaught Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=266'>SWCCG DS Darth Maul with Lightsaber</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$10</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=265'>SWCCG DS Darth Maul Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$6</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=264'>SWCCG DS Sneaky Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$7</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=263'>SWCCG DS Bounty Hunter Ships Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=262'>SWCCG DS Black Sun Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=261'>SWCCG LS Luke Skywalker Japanese Foil</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=260'>SWCCG LS Luke Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=259'>SWCCG LS Chewbacca Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$1</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=258'>SWCCG LS Rare Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=257'>SWCCG LS Republic Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$3</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=256'>SWCCG LS Lando Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=255'>SWCCG DS Imperial Navy Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=254'>SWCCG DS Huntdown Lot</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-27</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=253'>Luke Skywalker, Jedi Knight</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-25</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$12</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=252'>Wars TCG Set of 4 Starters</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-17</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$26</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=251'>Star Wars Mini #03 Chewbacca</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-17</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$6</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=250'>Web of Spider-Man MSM-109 Bamf! (Foil)</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-17</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$14</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=249'>Luke Skywalker, Jedi Knight</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-19</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$15</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=248'>AI Shelob X4</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-17</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=247'>Star Wars ccg Boba Fett, Bounty Hunter</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-18</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=246'>Star Wars ccg WB Luke Skywalker x2</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-18</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=245'>Star Wars ccg Outer Rim Scout x8</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-18</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$18</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=244'>R2-D2 Star Wars CCG Card.</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-17</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$1</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=243'>Signed Corran Horn and Watch Your Step</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-14</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$4</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=242'>2X Common Set for VS Marvel Origins</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-17</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=241'>2X Common Set for VS Marvel Origins</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-16</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$3</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=240'>2X Common Set for VS Marvel Origins</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-15</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=239'>2X Common Set for VS Marvel Origins</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-14</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$2</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=238'>Oversized Hunt Down/MWYHL Pair</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-15</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$1</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=237'>Mind What You Have Learned / Save It you</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-12</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$1000000</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=236'>Mind What You Have Learned / Save It you</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2004-10-04</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$1000000</font></td></tr><tr><td colspan=5><hr></td></tr><tr><td width='68%' valign='top'><font size='2'><a href='auctionroom.php?auctionid=235'>Mind What You Have Learned / Save It you</a></font></td><td width='1%'>&nbsp;</td><td width='20%' valign='top'><font size='2'>2003-10-14</font></td><td width='1%'>&nbsp;</td><td width='10%' valign='top'><font size='2'>$1000000</font></td></tr><tr><td height=10 colspan='5'>&nbsp;</td></tr></table>
+
+<!-- code from shop end -->
+ 
+                  <!-- #EndEditable --></td>
+                <td width="30">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"> 
+      <div align="center"><font size=1 class="legal"><a href="/global/terms.php" class="level1nav">Terms 
+        of Service</a> TM & © 2000 www.decktech.net. All Rights Reserved. </font></div>
+    </td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

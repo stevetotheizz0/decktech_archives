@@ -1,0 +1,735 @@
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Lord of the Rings Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Lord of the Rings, Gandalf, Frodo, Ring, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #111188;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; color: #111111; font-size: 8pt; font-style: normal; text-decoration: none; background-color: #FFFFFF; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.headerbg {  color: #E2DED3}
+TD.headerbg A {  color: #E2DED3}
+
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.r2body {  color: #EDE9DE}
+TD.r2body A:link {color: #A17D2D}
+TD.r2body A:active {color: #A17D2D}
+TD.r2body A:visited {color: #A17D2D}
+TD.r2body A:hover {color: #FFFFFF}
+
+TD.r2body .level1nav:link {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:active {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:visited {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:hover {  font-family: Verdana, Arial, sans-serif; color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 8pt;}
+
+input {font-family: Verdana, Arial, sans-serif; font-size: 8pt }
+select {font-family: Arial, sans-serif; font-size: 8pt }
+
+-->
+</style>
+ 
+</head>
+<body link="#111155" vlink="#CF4300" alink="#0000FF" text="#111111" margin="0" marginwidth="0" marginheight="0" background="/lotr/gfx/mom/bg.jpg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=186 hspace=0 vspace=0
+src="/lotr/gfx/mom/logoleft.gif" width=1 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=186 hspace=0 src="/lotr/gfx/mom/logoright.jpg" width=195 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">LotR TCG ======</option>
+<option value="/lotr/index.php">Home</option>
+<option value="/lotr/main/about.php">About</option>
+<option value="/lotr/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+<option value="#"></option>
+<option value="#">Themes =======</option>
+<option value="/lotr/resources/buzz.php?setheme=fellowship">Fellowship</option>
+<option value="/lotr/resources/buzz.php?setheme=moria">Balrog&Gandalf</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Lord of the Rings</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#063926" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#063926" class="r2body" width=88%><font class="bfont">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><a href="/lotr/index.php" class="level1nav">Home</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/articles/index.php" class="level1nav">Articles</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/decks/index.php" class="level1nav">Decks</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/treports/index.php" class="level1nav">Tournament 
+      Reports</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/outfitters/index.php" class="level1nav">M.E. 
+      Outfitters</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/trade/index.php" class="level1nav">Trade</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/resources/index.php" class="level1nav">Resources</a><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%"><img src="../../global/images/home/trans.gif" width="10" height="5"></td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/rules.php">Current Rules</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/buzz.php">Buzz Board</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/cardlist.php">Card List</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/play.php">Play Online</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/download.php">Downloads</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/resources/links.php">Related Sites</a></font></td>
+        </tr>
+      </table>
+      <br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+    </td>
+  </tr>
+</table>
+
+</font></td>
+      <td bgcolor="#063926" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Auction</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#423210" class="r2body" width=88%><font class="bfont"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">DeckTech Writers</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#152A43" class="r2body" width=88%><font class="bfont"><font size='1'></font> 
+
+</font></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Site Sponsor</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#423210" class="r2body" width=88%><font class="bfont"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><BR><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Top Articles</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#3C402E" class="r2body" width=88%><font class="bfont"><ol></ol> 
+</font></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> <table cellspacing=0 cellpadding=0 width="100%" border=0>
+<tr valign="top">      
+<td background="/lotr/gfx/mom/header_back.gif" height="150" valign="middle" align="center"><br>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript></td></tr></table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="" valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="" valign="top"><!-- #BeginEditable "Body" --> 
+            <script language="javascript">
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+
+prev1.document.writeln(texttoshow);
+
+}
+
+function changetobold()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+linkyaddress = document.buzzboardform.texttoconvert.value;
+
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+
+function oldchangetobold()
+{
+
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+<table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr><td width=1><img src="/lotr/gfx/mom/blu_01.gif" width=6 height=6></td><td width=100% background="/lotr/gfx/mom/blu_02.gif"></td>
+<td width=1><img src="/lotr/gfx/mom/blu_03.gif" width=6 height=6></td></tr>
+<tr><td background="/lotr/gfx/mom/blu_04.gif"><img src="/lotr/gfx/mom/clear.gif" height=35 width=1></td>
+<td background="/lotr/gfx/mom/blu_05.gif" class="headerbg"><font class="h1font"><font color="#FFFFFF">Do you play Poker?</font></B></td><td background="/lotr/gfx/mom/blu_06.gif"></td></tr>
+	<tr><td background="/lotr/gfx/mom/whi_07.gif"></td>
+		<td bgcolor="#FFFFFF" background="/lotr/gfx/mom/whi_08.gif"><font class="bfont"><font class="bfont"> From: <a href="http://www.decktech.net/vs/main/mpage.php?member=4677">Andrew Howard </a></font><BR><font class="bfont"><A HREF='/lotr/resources/buzz.php'>Back to Topics List</A></font><BR><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font><BR><font class="bfont"><A HREF='/lotr/resources/buzz.php?id=5992'><b>REFRESH THIS TOPIC</b></A></font><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#A2B1C1><font class="h2font"> Comment</td></tr><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>TacoBill</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">PMS- you seem to have read most of the books that have been out. Any chance you read one called <i>Sit &#39;n Go Strategy</i> by Collin Moshman? <br><BR><font size=1>20:12 11-11-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>privateeye</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">when you check, its with the intention of checkraising. true, a lot of hands are currently ahead of you, but two overs + flush outs you have huge equity in this spot. <br><BR><font size=1>22:06 11-07-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Frog</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Check seems good move for that hand. UTG+1 can either C/R you, or call and then bet the turn. If you dont hit the turn you&#39;re in trouble. <br />
+<br />
+Anyone calling 7BB&#39;s will probably have your hand beat. Hearts and any ace or king will probably be good so you have outs, but you&#39;re going to need to improve to win. Unless you&#39;ve played w/ UTG+1 before and know his style you&#39;re probably in a -EV situation. What is the range of hands this guy will call a big pre-flop bet with? AQ or AJ are the only hands you have beat. He might have a mid-size pair that you can get him to lay down.<br />
+<br />
+But then again I played on absolute poker... So I&#39;m probably not too bright. <br><BR><font size=1>02:33 11-07-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">...not a bad idea!  <br><BR><font size=1>08:19 11-06-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=3300">Shadow 13™</a></B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">pat, you should carry a squirt gun for those occasions.  when they say something like that, spray &#39;em right in the face.  then straight faced say "If this were the Old West, you&#39;d be frimbazeling dead right now." <br><BR><font size=1>18:11 11-05-2007</font><BR><BR><hr><img align="right" src="http://www.decktech.net/memberimages/3300rst.jpg"><br>Ryan French<br>Rebel Strike Team founder<br><i>"I&#39;m a total whore for torture porn."</i> - Patrick Sullivan</TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>TacoBill</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">I understand what you are saying, but I&#39;m more worried about picking up the $4 pot most of the time. <br><BR><font size=1>16:06 11-05-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>TacoBill</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Looking solely at results, yeah, this guy is probably calling/shoving if you bet out the flop. <br />
+<br />
+I still think betting out the flop is the most +ev play long term because at that level a lot of the players seem to fold to c-bets if they don&#39;t hit. If they do happen to just call, then you can almost 100% put them on a flush draw. If they min-raise, then they probably have top pair or something. <br />
+<br />
+I&#39;ve been told that this is fairly reliable information all the way up to NL100. <br><BR><font size=1>16:03 11-05-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">ugh, I was in a 3-way pot the other day and had pocket jacks. Flop is A72 and I bet it out and I get an insta-call from this one guy and then the other guy in the hand, Domenic, who knows how I play says out loud before he folds, "well, I know that Pat doesn&#39;t have the Ace but I&#39;m folding anyway." Jesus, there goes any fold equity I had. So I bet the turn again and the dude moves all-in on me. I fold and he tells me he had pocket 7&#39;s and flopped a set. <br />
+<br />
+Jesus... I HATE it when people that are in or out of a hand talk about other people&#39;s hands like that when there are still players in the hand. This is twice this happened to me. I made a stone-cold river bluff the other day and this guy at the table was thinking about it forever. While he was thinking, this other guy out of the hand, Claude,  says, "that guy over there, Patrick, he&#39;s betting with nothing right now"  WTF?! I couldn&#39;t believe my ears. The other guy ended up folding but that&#39;s twice in 2 weeks this has happened to me. Is this normal? Should I just shoot them in the face?  <br><BR><font size=1>14:56 11-05-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Kinslayer44</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I don&#39;t see how leading that flop would help.  It would allow him to fold anything I beat, and he&#39;ll call / push any pair.  If he calls, I have to shove the turn with no FE except in the case where I actually hit my hand.  If he shoves, I call and its the same as if I c/r and he calls.  If I check as I did though, I give a chance for worse hands to bluff the flop, and take that bet (they&#39;ll then most likely fold to the c/r but I wouldn&#39;t get any more money out of them anyways).  I could just call the bet, but then there is a $13 pot and he has $10 left, so I either shove (essentially the same as the c/r only now he might fold more hands if I hit the flush), or c/c his likely shove with basically break even odds assuming 15 outs.  Basically, the way I see it is if I lead flop then i&#39;ll be playing vs only hands that are currentnly ahead of me, if I call the bet I give him a chance to fold if I hit the flush, but if I c/r then i&#39;ll get a bet out of the bluffs at least, and he doesn&#39;t get the chance to fold his pairs if my flush hits. <br><BR><font size=1>14:51 11-05-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>TacoBill</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">He needs to be getting 4:1 to make that a profitable call, and thats assuming the J or 7 will be good every time, which it obviously won&#39;t. Also, he should be folding J7o pre-flop, position or not.<br />
+<br />
+After reading that hand again, you need to bet out $4.50-$5.25 on that flop, or just call his bet since you are getting good odds. <br><BR><font size=1>16:04 11-04-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">cash games are all about making +ve expected value plays and that call on the flop was terrible for him. He needs 3/1 on his money to make that call cuz he KNOWS he has to improve his hand to win. He was getting around 2:1. Bad call for sure. Not the worst play ever. I&#39;ve seen people call on the river with pocket ducks when the board has been double paired. OMG <br><BR><font size=1>10:22 11-04-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Kinslayer44</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">lol I realize its not the worst play ever.  Hell ive seen someone call an allin on the river with less than the board, and then tell me he was trying to bluff the guy there.  I just thought this play was pretty funny, especially b/c the guy instacalled me like he had trapped me or something.  Could have been a misclick for all I know. <br><BR><font size=1>08:18 11-03-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>TacoBill</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Agreed. <br />
+<br />
+Soon you can be on the look out for ChipsOrGTFO, depending on when I get more money onto Stars and how fast I can beat NL10. <br><BR><font size=1>00:48 11-03-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>HuntaWarya</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Yeah, it&#39;s bad.  It would even qualify as "awful."  But it&#39;s never going to get very far in the voting for "worst play ever."   <br><BR><font size=1>21:24 11-02-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=3300">Shadow 13™</a></B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">the other guy was all in on a pair of 3&#39;s J high?  and didn&#39;t make the 2nd pair until the river?  that sounds bad to me. <br><BR><font size=1>20:24 11-02-2007</font><BR><BR><hr><img align="right" src="http://www.decktech.net/memberimages/3300rst.jpg"><br>Ryan French<br>Rebel Strike Team founder<br><i>"I&#39;m a total whore for torture porn."</i> - Patrick Sullivan</TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Meto</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Hmm, how long have you been playing poker? <br><BR><font size=1>17:57 11-02-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Kinslayer44</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I think I have a contender for worst play ever.  Hopefully the html works out right.<br />
+<br />
+Poker Stars, $0.10/$0.25 NL Hold&#39;em Cash Game, 9 Players<br /><br />
+<a href="http://www.legopoker.com">LegoPoker </a><a href="http://www.legopoker.com/hh">Hand History Converter</a><br /><br />
+<br /><br />
+UTG: $37.65<br /><br />
+UTG+1: $28.70<br /><br />
+UTG+2: $24.80<br /><br />
+MP1: $17.20<br /><br />
+<strong>Kinslayer44 (MP2): $24.90</strong><br /><br />
+<strong>CO: $15</strong><br /><br />
+BTN: $16<br /><br />
+SB: $25.45<br /><br />
+BB: $14.50<br /><br />
+<br /><br />
+CO posts $0.25<br /><br />
+<strong>Pre-Flop:</strong> K<img src="http://www.legopoker.com/hh/images/heartnormal.gif" /> A<img src="http://www.legopoker.com/hh/images/heartnormal.gif" /> dealt to Kinslayer44 (MP2)<br /><br />
+UTG calls $0.25, UTG+1 calls $0.25, UTG+2 folds, MP1 calls $0.25, <span style="color: red;">Kinslayer44 raises to $2</span>, CO calls $1.75, 4 folds, UTG+1 calls $1.75, MP1 folds<br /><br />
+<br /><br />
+<strong>Flop:</strong> ($6.85) 6<img src="http://www.legopoker.com/hh/images/heartnormal.gif" /> 3<img src="http://www.legopoker.com/hh/images/heartnormal.gif" /> 3<img src="http://www.legopoker.com/hh/images/spadenormal.gif" /> (3 Players)<br /><br />
+UTG+1 checks, Kinslayer44 checks, <span style="color: red;">CO bets $3</span>, UTG+1 folds, <span style="color: red;">Kinslayer44 raises to $13</span>, CO calls $10 and is All-In<br /><br />
+<br /><br />
+<strong>Turn:</strong> ($32.85) Q<img src="http://www.legopoker.com/hh/images/clubnormal.gif" /> (2 Players - 1 is All-In)<br /><br /><br />
+<br /><br />
+<strong>River:</strong> ($32.85) J<img src="http://www.legopoker.com/hh/images/diamondnormal.gif" /> (2 Players - 1 is All-In)<br /><br /><br />
+<br /><br />
+<strong>Results:</strong> $32.85 Pot ($1.60 Rake)<br /><br />
+<span style="font-style: italic;">Kinslayer44 showed K<img src="http://www.legopoker.com/hh/images/heartnormal.gif" /> A<img src="http://www.legopoker.com/hh/images/heartnormal.gif" /> (a pair of Threes) and LOST (-$15 NET)</span><br /><br />
+<span style="font-style: italic;">CO showed J<img src="http://www.legopoker.com/hh/images/heartnormal.gif" /> 7<img src="http://www.legopoker.com/hh/images/spadenormal.gif" /> (two pair, Jacks and Threes) and WON $31.25 (+$16.25 NET)</span><br /><br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /> <br><BR><font size=1>16:31 11-02-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#A2B1C1><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=5142">imrahil327™</a></B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">I&#39;ll try that this week ;) <br><BR><font size=1>15:13 10-30-2007</font><BR><BR><b>Patrick M.S.</b> "ok, I&#39;m going to reinforce Dr Doom with..zzzzzzzzzzzz"</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">you should sneak off to your computer when it&#39;s on and send me sexy messages. "I&#39;d love to slip &#39;em off ya" <br><BR><font size=1>14:58 10-30-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#A2B1C1><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=5142">imrahil327™</a></B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Yeah it&#39;s pretty lame, and now it doesn&#39;t even have James Caan to save it; he got replaced by Tom Selleck.  My wife loves it- one of the few shows we watch that we don&#39;t both enjoy. <br><BR><font size=1>14:57 10-30-2007</font><BR><BR><b>Patrick M.S.</b> "ok, I&#39;m going to reinforce Dr Doom with..zzzzzzzzzzzz"</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Meto</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Man, that Las Vegas show is sooo bad. <br><BR><font size=1>12:25 10-30-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Lorax</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont"><blockquote><i>Please don&#39;t use NU-CONcept products for gambling<br />
+<br />
+It is "FOR ENTERTAINMENT PURPOSES ONLY"<br />
+<br />
+(It is illegal and immoral to use these marked cards while gambling in private or casino games. Do not cheat poker or other game of chance.)<br />
+<br />
+</i></blockquote><br />
+<br />
+It&#39;s stated right on their site...so of course no one would break this "rule" <br><BR><font size=1>07:42 10-30-2007</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=3300">Shadow 13™</a></B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">heh where&#39;d that marketing thread go:<br />
+<br />
+<img src="http://marked-cards.com/gamblers%20riffle%20test%20logo.jpg"> <br><BR><font size=1>04:40 10-30-2007</font><BR><BR><hr><img align="right" src="http://www.decktech.net/memberimages/3300rst.jpg"><br>Ryan French<br>Rebel Strike Team founder<br><i>"I&#39;m a total whore for torture porn."</i> - Patrick Sullivan</TD></TR><TR><td width='4' valign='top' bgcolor=#A2B1C1><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B><a href="http://www.decktech.net/lotr/main/mpage.php?member=5142">imrahil327™</a></B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Grats, Kyle, that&#39;s sweet.<br />
+<br />
+Psycho, it was actually on a recent episode of Las Vegas...they caught a guy doing it at the blackjack table.  I am not surprised it exists, but if the casinos know to look for it, it should be decently easy to spot. <br><BR><font size=1>03:23 10-30-2007</font><BR><BR><b>Patrick M.S.</b> "ok, I&#39;m going to reinforce Dr Doom with..zzzzzzzzzzzz"</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Meto</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I hit a royal flush today for $1426.  So I got really drunk.  Good times. <br><BR><font size=1>01:20 10-30-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Psychobabble</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Has anyone ever seen <a href=http://marked-cards.com/default.htm>this</a> sort of craziness? It seems to be a solution which lets you mark cards in a way which is only visible if you&#39;re wearing the special sunglasses they sell. That&#39;s literally criminal (fraud/obtaining financial advantage by deception etc.) and unbelievably unethical. <br><BR><font size=1>23:38 10-29-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Judge</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Keep waiting TacoBill. He might be annoying but I wouldn&#39;t call him an idiot. He played really well in the main event. Phil hellmuth is an idiot.  :) <br><BR><font size=1>11:40 10-23-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>DVD ROTS</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">Yeah, he finished 6th.  The guy is a beast; PokerStars banned him because they thought he was a bot (he was playing so many games at once), so he sent them a video of him playing 26 sit&#39;n&#39;gos at once to prove he was legit; if you type in "rainkhan" on Youtube, it&#39;s the first clip. <br><BR><font size=1>03:27 10-23-2007</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>TacoBill</B></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">He actually finished 6th in the Main Event.  <br><BR><font size=1>22:30 10-22-2007</font></TD></TR><TR><td width='4' bgcolor=#A2B1C1>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#A2B1C1><font class="bfont"><B>Kinslayer44</B></font></td><Td valign='top' bgcolor='#A2B1C1' ><font class="bfont">i&#39;ll take that bet <br><BR><font size=1>18:44 10-22-2007</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/lotr/resources/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/lotr/resources/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=5992><input type='Submit'  value=' Show all Posts '></form><form action='/lotr/resources/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=5992><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/lotr/main/join.php'> become a registered member</a></font></font></td><td background="/lotr/gfx/mom/whi_09.gif"></td></tr>
+<tr><td><img src="/lotr/gfx/mom/whi_10.gif" width=6 height=18></td>
+<td background="/lotr/gfx/mom/whi_11.gif"></td>
+<td><img src="/lotr/gfx/mom/whi_12.gif" width=6 height=18></td></tr>
+</table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script> 			
+<!-- rumors board code end -->
+<!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr align="center" valign="bottom" > 
+      <td height="100"><font class="lfont">This site is maintained and updated 
+        by fans of The Lord of the Rings TCG, and is in no way affiliated with 
+        New Line Cinema or Decipher Inc. We in no way claim the artwork displayed 
+        to be our own. Copyrights and trademarks for the films and other promotional 
+        materials are held by their respective owners and their use is allowed 
+        under the fair use clause of the Copyright Law.<a href="/global/terms.php" class="level1nav"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

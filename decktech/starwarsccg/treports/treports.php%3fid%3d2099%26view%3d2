@@ -1,0 +1,593 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php" class="level1nav">Articles</a><br>
+
+
+<a href="/starwarsccg/decks/index.php" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php" class="level1nav">Reports</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/treports/treports.php?cat=constructed">Constructed</a> &nbsp;<br>
+
+<a href="/starwarsccg/treports/treports.php?cat=sealed">Sealed Deck</a> &nbsp;<br>
+
+</div>
+
+  <a href="/starwarsccg/academy/index.php" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 1 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6527&view=2">Creating a tournament scene from scratch - Part 3</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6528&view=2">Skillful vs Unskillful Play</A></font></li><BR></ol> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Tournament Reports</td><form method='post' action=''><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Tournament Reports</option><option value='#'> </option><option value='/starwarsccg/treports/index.php3'>Star Wars: CCG</option><option value='/heroclix/treports/treports.php'>HeroClix</option><option value='/vs/treports/treports.php'>Marvel VS</option><option value='/lotr/treports/treports.php'>Lord of the Rings</option><option value='/magic/treports/treports.php'>Video Games and Movies</option><option value='/wars/treports/treports.php'>Wizards Minis</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> Wrong Fluid - Meriden CT 4-14 2K1<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(4.88)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=400'>R. "Voice of Law" Smith</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=400&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> April 17, 2001</font><p align='justify'><blockquote><font class="bfont"> Warning: this is quite possibly the longest local report you will ever read in your life. So if you cant deal with that, go away.<br />
+Also, if you want to skip the pre-tourney jizz, feel free to scroll down.<br />
+<br />
+PRE-TOURNEY JUNK<br />
+It&#146;s a week or so before Easter, and so far my plans for Easter weekend include:<br />
+A. Sit on my ass<br />
+B. Write a paper<br />
+C. Maybe catch a flick<br />
+Then I get an AIM from Mike Van Zander across campus. He invites me to his parents&#146; place in CT for Easter dinner, and tells me to search Decipher for tournies in Kashyyyk region. Turns out there&#146;s one scheduled on Saturday about 40 minutes from his house. So I figure the paper can wait - time to get the heck out of Rochester and go visit a new SWCCG play environment (and score some home-cooked food while I&#146;m at it).<br />
+So Thursday afternoon rolls around, I get out of class and go meet up with Zander at the coffee shop. 40 minutes later we&#146;re cruisin in the &quot;Millennium Falcon&quot; (his car - so dubbed because it bears a bumper sticker with the name of the local card shop on it - Millennium Games) with the windows down and the radio blaring. The plan is to get to his house in 5 hours or so, get some grub, build some decks, then playtest a little the next day.<br />
+That plan goes horribly awry when about 40 minutes later the Falcon stalls on the New York Thruway. The tranny just gives and the car won&#146;t move. Zander pulls off the road and we call the Triple-A. They get there in a half hour or so while we sit on a hill on the side of the highway. We climb in the tow truck and shake our heads sardonically when the driver informs us that we will still have to pay our $1.10 toll. Insult to injury ...<br />
+Anyway we get the driver to sign the toll receipt &quot;Rich the towman&quot; and he drops us at this little shop in Geneva, NY - a backwater town with a diner that was obviously a mob front and a hardware store that closed at 5 pm on a Thursday night .. riiight ...<br />
+We have to wait there until Zander&#146;s friend Zach drives the 45 mins+ to pick us up and take us back to UR. So we&#146;re sitting there at this shop (which is actually a private residence with a souped-up garage) and these three guys that work there are like &quot;Hey, wanna beer?&quot; and they crack out some Labatts .. So Z takes one and we all sit around and talk about Asian @#$% and stuff like that until Zach shows up. He rides us back to Rochacha and we take him out to dinner at Friday&#146;s where we have the worst waitress of all time. I get a surf-and-turf meal with chicken and it comes with soup or salad so I take a salad with Italian dressing. The lady brings it with ranch but I dont care and eat it anyway. Z orders another drink (a huge-ass Lynchburg something-or-other, I know jack about drinks) and so he&#146;s probably feeling a little loose .. so the waitress comes back and he asks the waitress to her face: &quot;Hey, do you know they now make Italian dressing that looks and tastes exactly like ranch dressing?&quot; And the waitress&#146; jaw drops to the floor .. funny @#$%.<br />
+So we get back to campus and I&#146;m thinkin my A-B-C plan is back in effect for the weekend. Then I wake up Friday morning and Z&#146;s on the AIM: &quot;You still wanna go?&quot; Apparently the Falcon is fixed and waiting to be picked up in Geneva. So I&#146;m like &quot;yeah I&#146;ll go&quot; and an hour later Z has called in another favor and we&#146;re piled in this chick Fur&#146;s car on the way to Geneva. We pick up the Falcon and hit the road. We get to Albany and pull in a Thruway rest stop for gas and food and the car stalls right as we&#146;re about to pull into a parking spot. And it won&#146;t start again. So I have to get out and push the car (with Zander in it) ALL BY MYSELF into the parking spot (GRAHHHHRRR!!!) .. Z tries to start it up again but to no avail. We go in and get some food then come back out to try and start it again and it absolutely will not start. So he&#146;s back on the phone with AAA, and then with his parents. They agree to drive out to Albany to pick us up while the Falcon gets towed to yet another random.shop for repairs. So the tow arrives from AAA and we unload the Falcon (I had a suitcase and a bag of cards, but Z had brought dirty laundry) and bid the car farewell. We carry our crap into the rest stop and sit down by the window, dirty laundry and all, to wait the 2 1/2 hours or so for his parents.<br />
+This of course gives us time to build decks and playtest. Zander beats me like 9 times in a row but I&#146;m not paying attention plus I&#146;m using bad decks so I don&#146;t care. His parents show and we ride 2 1/2 hours to his crib in CT.<br />
+So we&#146;re in the den checkin Mapquest for directions to the shop and watchin Sportscenter when Z&#146;s cousin comes in with this friend of hers .. Katrina or something. This chick has obviously been around the block like the mailman. They go back upstairs and Z and I argue over who&#146;s gonna hit her first. I&#146;m like: &quot;What was her name again?&quot; and Z&#146;s like: &quot;Uhh...Trina something, Latrina?&quot; So that&#146;s what we call her. We go back upstairs and talk with her a little more but she is skanky with a capital everything so we lay off.<br />
+Fast forward to Saturday night - we&#146;re all eating dinner and Z&#146;s mom brings up the skank chick, and she cant remember her name either:<br />
+Z&#146;s mom: &quot;What was that girl&#146;s name again, Trina?&quot;<br />
+Z: &quot;Latrina.&quot;<br />
+mom: &quot;Oh stop it.&quot;<br />
+Z: &quot;Sorry, I just got her confused with something you would urinate in.&quot;<br />
+mom &lt;slaps Z&gt;: &quot;You&#146;re so bad!&quot;<br />
+Z: &quot;Wrong fluid...&quot;<br />
+I almost roll out of my chair laughing, and even Z&#146;s mom can barely hold back. Hence the name of the report.<br />
+Rewind to Saturday morning.<br />
+I put the finishing touches on Z&#146;s light deck and swap out one card in my own. We hit the road for Meriden in plenty of time so we can find the place. It&#146;s easy to find though and we&#146;re there in no time. We park his parents&#146; mini-van and enter the shop. At first glance the shop is tiny as hell and I&#146;m wondering how they could possibly have a tournament in there. Plus we see these kids standing around with T-shirts on that say &quot;Second anniversary SWCCG Tournament&quot; and Z and I are like &quot;What, they have one tournament a year??&quot; And we&#146;re thinkin this is really gonna suck. Then we talk to the store owner and he gives us each a T-shirt and we&#146;re like &quot;cool&quot; and he tells us that the tournament is held in the basement of the church next door. So we follow someone over there and there&#146;s plenty of room there. We look around for familiar faces, but all we can pick out is Steve Brentson. He immediately becomes our primary target. We pay our $5 entry and sit back for the pairings...<br />
+<br />
+ACTUAL GAME DETAIL BEGINS HERE<br />
+6-game Decipher Swiss at DJ&#146;s Comics in Meriden, CT (or rather in the church next door). Director Jeremy Oakes. 14 participants.<br />
+<br />
+My light: Lewis WYS with two additions - Bargaining Table and Home One Docking Bay. The H1 DBay is there for early-game Monnok protection and a literal &quot;Staging Area&quot; where you can stash guys without fear of beatdown. The Table is in for obvious reasons. Starts Insurrection, Staging, and Squassin.<br />
+My dark: BHBM beats, a variant of which is found on my member page. Its only true weakness is low destiny. Starts IAO/Mob Points and Crush the Rebellion.<br />
+<br />
+Zander&#146;s light: Hidden Mains, nothing special.<br />
+Zander&#146;s dark: BHBM within 3 or 4 cards of mine.<br />
+<br />
+Brentson&#146;s light: really sorry HB Tat Cel with janky cards like Red 6<br />
+Brentson&#146;s dark: BHBM with lots of walkers, probably to get around Fallen Portal<br />
+<br />
+Pairings are called, first game I am light against:<br />
+Greg West (1868) with BHBM TIEs (but no numbers)<br />
+So he starts BHBM and as he&#146;s shuffling I see All Power to Weapons and I&#146;m like &quot;crap!&quot; cuz I don&#146;t have insert protection in my deck. Fortunately he wasn&#146;t playing them, but if he had been, he would have won hands down.<br />
+His effects are IAO/Mob Points and something worthless.<br />
+First turn Palpy goes to the DS2 DBay and I&#146;m pretty much expecting a first-turn insert. But it doesn&#146;t happen (phew). Wakeelmui out too.<br />
+He gives me no force so I only get 6 force. Look for a DBay, and of course I activated Home One so I have to pull the &lt;&gt; DB to Tatooine. Bah. Draw a little, save a little, his go.<br />
+Activate way too much, put an Interceptor with a Cannon at the Tat system, put out Reactor Terminal, my go.<br />
+I flip with a Raider/Craft at DB 94 and the &lt;&gt; DB.<br />
+He activates a lot less and gets the drain at the system - I Control it. Drops Dreaded Imperial Starfleet which would be huge since he got it so early. Pays 3 force and looks at the DS2 DBay and I&#146;m thinking &quot;here comes Tech M&#146;or&quot; but it&#146;s Merrejk instead. WOW I feel better. Except then he gets Endor and puts an Interceptor there all by itself. Grr... Saves a bunch of Force and it&#146;s my go.<br />
+Couple of drains, one&#146;s canceled. Out comes the Lars&#146; Moisture Farm and a Raider/Craft there. I&#146;ve got Cap&#146;n in hand and the Falcon in deck, but he has so much force saved I&#146;m sure he has a Heavy Fire Zone or I Can&#146;t Shake Him or something so I can&#146;t go to space. =( My Bargaining Table is in my deck too so I can&#146;t get it yet. Bah.<br />
+He goes and drains me for 4, gets another system (Kiffex) with another TIE all alone. It occurs to me now that if Beggar was in my deck I would win this game in like 5 minutes. Hmmm.<br />
+I go, drain him, and put EPP Luke from lost in the Cantina. He&#146;s open to a beatdown but I&#146;m running out of options. Owen and Beru come down and start Harvesting. Oh I&#146;ve also been tracking two OOC/TTs so I&#146;m able to place some of his stuff out of play and that keeps him from retrieving quite a few times.<br />
+Anyway the game goes on like this for a freakin eternity and a half - he gets out a new system every turn and eventually gets up to 5 drains of 2, whereas I&#146;m stuck with a drain of 2 at the Cantina (canceled) and then 3 more at the two DBs and the LMF. The only thing that keeps me in the game is retrieval - he has no grabbers or even Secret Plans so Harvest is awesome. Plus I&#146;m tracking the same OOC/TTs every turn and his out-of-play pile is getting really big. I do locate the Bargaining Table eventually and it saves me some force loss. He never goes to ground and I never go to space .. although I do contemplate it late in the game when he is down to only a couple cards in hand, it never pans out. I held Cap&#146;n Han all game but I never saw an opportunity to drop him where I wouldn&#146;t get shot down, and I&#146;d rather lose Han to a drain than to a freakin TIE cannon.<br />
+Since we&#146;re both retrieving the game drags on, and on, and it becomes clear that we&#146;re going to time out. So I start playing the time game - since I am the light side player I want time to run out on my turn to keep him from deploying TIEs/retrieving and from using his stupid Reactor Terminal (I can&#146;t remember the last time I lost to someone who played the Terminal or Traffic Control). Brentson is sitting there watching our game which I&#146;m not really happy about but I asked him once to leave and he did for like 5 minutes and came back. I&#146;m trying to keep my head in the game so I ignore him, but he&#146;s yelling stuff at the tournament director about how I&#146;m stalling, and I&#146;m wishing he would just shut up .. finally the TD calls time and it is my turn so I drop all the Raiders from the Table and from hand and Nar Shaddaa them for 7, Harvest for four more, Greg Short Ranges for 6, and I ask for a count of his life force. He has 22, I have 23, so I tell him if he doesn&#146;t have any other actions I&#146;m going to end my turn. He doesn&#146;t, so I end it and get the timed win by 23 in a really close one. Brentson sees this all and sits there applauding and cheering like a sarcastic little @#$% .. but whatever.<br />
+<br />
+The good: No inserts.<br />
+<br />
+The bad: TIE Cannons.<br />
+<br />
+The ugly: Not exactly the best way to make an entrance into a new tourney scene.<br />
+<br />
+Zander wins his first game against a townie.<br />
+<br />
+Game 2<br />
+My BHBM against<br />
+Keith Henderson (1592) Echo Speeders with ASP/Catapult jank.<br />
+He starts 1st/4th Marker and HFTMF for Insurrection, Staging, and Strike Planning. Goes to get Crix on my turn.<br />
+I put Palpy at the CC DBay first turn and drop Carida as well.<br />
+He goes, puts Crix at the Hoth DBay, drops the 2nd Marker, and draws up.<br />
+I pull a Monnok and get him for four Rebel Speeders and a couple red cards. Drain for one and put Sim with Palpy.<br />
+He activates and draws. He&#146;s been pulling DBays too so Endor is out and so is Tatooine I think.<br />
+I get the steady drain of one on Cloud City and draw a little more. I&#146;m basically waiting for two things:<br />
+1. Him to draw some more so I can Monnok again<br />
+2. Him to put some guys down so I can beat on them<br />
+He activates and puts an ASP droid on Endor. Yeah I know the trick. Pulls Geezum with Crix and puts him at the 2nd marker. Pulls 3rd marker with Geezum. Yippee.<br />
+So now he has a drain of one under the shield and that pisses me off. But he also has a decent hand so I pull the 2nd Monnok and hit him for 4 more Rebel Speeders and 2 Catapults. Nice. He complains about how he has two Yarnas and several Signals but hasnt found one yet or something. I drain at the CC DBay and begin searching for CHYBC to stop Geezum.<br />
+He goes and pull Blount and puts him at the 3rd Marker. That&#146;s gonna piss me off even more.<br />
+I put a crapload of bounty hunter types at the 4th Marker and move them in to the 3rd.<br />
+He finally gets his Yarna down but that doesnt matter because I&#146;m out of Monnoks. Puts a Catapult with the ASP droid on Endor. Moves Blunt into the 2nd Marker.<br />
+I get the faithful CC drain and one at the 3rd marker, then put Guri at the 4th marker and move her in to join the hunters at the 3rd. Planning to move to the 2nd next turn.<br />
+He goes and puts the Catapult on top, I just Sim it to the bottom =) drains me at the freaking 2nd marker (where&#146;s my CHYBC??) and draws some more.<br />
+I get my drains in and drop Secret Plans cuz I&#146;m pretty sure he&#146;s gonna On Edge Crix with those Catapults. Move everyone to the 2nd marker.<br />
+He activates it all and stacks the Catapult. On Edges Crix of course. Activates Maneuvering Flaps which he had deployed early in the game. Drops like 5 Rebel Speeders to the 2nd Marker for free cuz there was an ASP droid there and battles. My destinies are low as always so I get smashed and lose everyone but IG-88. Gay. He loses like a speeder and a guy or something. Whatever.<br />
+But it doesnt matter, he&#146;s too low on life force thanks to the Monnoks and my CC drain so I spread to Endor and his other DBay, put out Vader and I&#146;m not sure if he had a Luke or not so he loses 3 to Your Destiny; meanwhile he&#146;s only draining me for one and he can&#146;t seem to get On Edge going, so he dies pretty quickly.<br />
+FW by 34<br />
+<br />
+The good: MONNOK<br />
+<br />
+The bad: This guy was middle-aged, and I feel almost disrespectful when I beat up on old guys.<br />
+<br />
+The ugly: MONNOK<br />
+<br />
+Zander beats on another townie.<br />
+<br />
+Game 3<br />
+My BHBM vs. Greg Forster (1747)&#146;s Hidden Mains on Tatooine with ...... SAC?? And a killer Bacta Tank<br />
+He starts Insurrection, Staging, and Squassin.<br />
+First turn Palpy is at the CC Dockbay as always, Barrier in hand.<br />
+His first turn Ben goes to DB 94 with a saber! Bah.<br />
+I have Mara and her stick in hand so I throw down with Ben even though I know my destinies suck. She misses and BD doesn&#146;t break his immunity, he hits and draws low BD, we tie on power but Mara dies and Ben sticks. Grr.<br />
+He drains me and puts out the Bacta Tank. I&#146;ve never been a big fan of the Tank (except in hit-and-run style decks with EPPs), but Greg abused the hell out of that card this game.<br />
+I drain and get Sim with Palpy again. Wish I could have found Janus this game, but nooo of course not. Draw up to get some cards to beat on him with.<br />
+He activates a mondo amount and shows me the Falcon to get a pilot. But Han&#146;s not in there so he has to get Lando w/Ax and put them to DB 94 with Ben. Bah.<br />
+I get some guys over there and we square off. It was Mighty Jabba, Xizor, and EPP Fett so I was drawing 3 BD and shooting a gun. He has the Fallen Portal but if my memory serves me he missed. I shot with Fett and missed of course. He wanted to exclude Jabba but can&#146;t cuz of Mighty J&#146;s text so he goes for Xizor instead and missed. My BD clears his side and he puts Ben in the Tank. I lose like Fett I think.<br />
+Next turn Ben gets out of the Tub and he saves a little.<br />
+I Monnok his 12-card hand and get nothing, but see a lot of beats and ... a SENSE AND AN ALTER?? Wow. I get a couple of drains in and am holding two Barriers so I think I&#146;m good.<br />
+He puts Ben back to square off with my guys and I Barrier. He Senses, of course. I&#146;m like wow, draw for it - and he draws I&#146;ll Take the Leader, hahaa. So Ben is stuck. But I&#146;m pretty sure he gets another Saber. Another Lando comes down to join the fight as does Jedi Luke. My go.<br />
+I get the piddly drain of one with Palpy/Sim, and put IG w/Gun and a Vader to snag Luke. Start the fight and Xizor I think gets Portaled. Choke Lando and miss, Lando excludes someone but misses, IG captures Lando and sends him to used, Ben hits Vader, play I Have You Now to add a BD, everything dies except IG-88. Luke goes to lost, Ben to the Tank. Vader was hit/forfeit=0 and Jabba covered the attrition. He stacks a card on Rebellion. Now Palpy is still in control of his site and IG is overseeing the Tat DB, even if he cant drain.<br />
+Greg&#146;s turn, Ben comes out of the Tank yet AGAIN and he puts Chewie, P down with an ability=4 monkey at a docking bay somewhere.<br />
+I go over there with some lackeys and get Portaled but still win a battle and stack a card.<br />
+He comes back with Ben and Luke but Barriers stop that once again. Vader drops again to snag Luke and beat up on the remaining chumps for another card..<br />
+We battle back and forth for quite a while and it&#146;s really a fun game. Unfortunately not much damage is being done, at least not fast enough. The TD is calling out the time remaining and once again it is apparent that we are going to time. That kinda bugs me cuz I&#146;m ultimately in control of the game and given an extra few turns I would win easily. Every time he puts a guy out I beat on it, and I&#146;ve had the constant Palpy drain all game (I never could pull either of my TWO Januses) so I&#146;m pretty much in command. Plus the objective is on the zero side because Vader&#146;s not down so I don&#146;t have the one force a turn to worry about. Late in the game I spread out to try and get some drains in, but he spreads out to cover them and I dont have the beats to cause any overflow. He has 4 cards in life force and Secret Plans is out so I know he wont be retrieving anything but then I hadnt seen any retrieval in his deck anyway. I have 13 cards in life force to his 4 when time is called and he ends his turn.<br />
+Timed win by 13<br />
+<br />
+The good: Fun game, Greg and I were joking the entire time.<br />
+<br />
+The bad: Timing out of course.<br />
+<br />
+The ugly: Sucks when you have to choose between having a good time or getting a full win.<br />
+<br />
+Zander beats on some dude that had 63 cards in his deck.<br />
+<br />
+<br />
+Game 4<br />
+Lewis WYS vs. Pat Long (1470)&#146;s ROps troopers.<br />
+Well you can pretty much figure out how this game went by looking at the matchup. He started First Strike, Mob Points, and Something Special Planned. I dont think he initiated a single battle all game so I got the best of the First Strike.<br />
+Anyway he drew a bunch of sites in opening hand and deployed them so I activated 9 first turn. I had 2 Raiders and 2 Crafts in hand so I pulled the &lt;&gt; DB and put &#146;em out for a first turn flip.<br />
+He flipped second turn with some scrubs on Ralltiir and consolidated at the Spaceport City with the free movement function of that card.<br />
+So I couldnt drain, but I put Capn Han at the system and got out Tat Cel. Saved some force to go invader Ralltiir next turn.<br />
+He drained for a couple which I would retrieve and put out some more scrub troopers.<br />
+I dropped EPP Luke (for 8) to his &lt;&gt; DB on Ralltiir along with a couple Raider/Crafts and beat up on everyone there. Stayed there because I didnt have enough guys to spread and flip him back just yet.<br />
+He went and forgot to drain me at the one site he still controlled, and put some trooper guys down at another site.<br />
+I dropped some more Palace Raider beats on their head and flipped him back.<br />
+From there on it was my drains of 5 a turn and retrieving anything he made me lose with Tat Cel.<br />
+FW by 27<br />
+<br />
+The good: The W<br />
+<br />
+The bad: ROps troopers vs. Lewis WYS, uggh<br />
+<br />
+The ugly: Not sure how I ended up playing a sub-1500 player in game 4, but...<br />
+<br />
+Zander gets paired as dark side against Brentson and wrecks him by 22. This leaves me and Zander in second and first place. You know what that means ... =(<br />
+<br />
+Game 5<br />
+My dark against Zander&#146;s light<br />
+It had to happen sooner or later. I&#146;m BHBM against his Hidden Mains.<br />
+First turn Palpy to CC as always, and I didnt find Janus all game this game either. That&#146;s three games in a row I couldnt find him. BAH<br />
+He saves up and takes the drain first turn.<br />
+I put Mara and Saber w/Palpy.<br />
+He pulls Corulag and gets set up in space w/Capn and the Falcon.<br />
+I monnok and get crap. Drain and draw.<br />
+He gets Jedi Luke and Ben out, yadda yadda.<br />
+I get some guys over there to fight him and lose.<br />
+He gets Lando down too and Menace Fades and Battle Plan.<br />
+Basically the game comes down to this series of battles where I drop Snoova w/Ax, Vader, IG, and some other beef on his Ben, Luke (captured), and Lando, hoping to cause a huge beating, but he has a freakin 6 on top so he Portals Vader, and in another battle he initiated he excludes Snoova with Lando when he draws a 5 and I draw a 1; it was just huge beatings from then on, with Order To Engage rubbing salt in the wounds.<br />
+He freakin On/Off Edged everything back and won by 31 or something.<br />
+<br />
+The good: nothing<br />
+<br />
+The bad: everything<br />
+<br />
+The ugly: can you tell how much I like playing against him in tournies?<br />
+<br />
+So now I&#146;m hoping that either I or he will get paired against Brentson, but of course not. We get paired again.<br />
+<br />
+Game 6<br />
+My WYS<br />
+his BHBM<br />
+First turn he puts Palpy to the CC DBay - sound familiar?<br />
+I pull the Home One DB and put a Raider/Craft there and an empty Craft to DB 94 to protect against Monnok.<br />
+He Monnoks me and gets nothing. Drops Mara with her stick to the Home One DB and kills the Raider - I fail to break her immunity but tie the battle so no stackage.<br />
+I come back with another Raider and EPP Luke and punk Mara for some overflow if I remember correctly. Luke dies to attrition.<br />
+He drains me on CC (all game) and gets Janus there (lucky bastard).<br />
+I get the &lt;&gt; DB out and put Raiders/Crafts there to flip.<br />
+He has nothing for me the first turn after I flip so I drain him and get Capn to the system with Tat Cel in place.<br />
+He drops some schmoes on my Raiders and they cause a little damage but cmon, they&#146;re Raiders. The Tat Cel was helping me with Palpy&#146;s drain but Owen and Beru never hit the table for Harvesting.<br />
+He kept coming at my Raiders but it was really an exercise in futility as they wrecked him every time. NOTE TO READERS: Guri does not work at same site as Vader. Zander had made the mistake of playing them at the same site in playtesting, and he did it again in this game. Goes to show how much effort we put in when playing each other.<br />
+Anyway I eventually drain him down while eating his drains and occassional battles to get the win by 11.<br />
+<br />
+The good: nothing<br />
+<br />
+The bad: everything<br />
+<br />
+The ugly: 2 of 6 games against Zander, that blows. plus I didnt get to play Brentson<br />
+<br />
+So it&#146;s either Zander or Brentso in first, whoever has the higher diff. We go over and check out Brentso&#146;s game, and watch in utter shock, dismay, and horror as his opponent throws him a 34-point win. Brentso was playing the Tat Cel junk against my first opponent&#146;s TIEs. Somehow Brentso had survived the TIE Cannons to set up Tat Cel; instead of drawing up, his opponent was deliberately draining Brentson so he could lose cards from hand and cycle them back into deck to increase his diff! Brentson finished the game with an empty hand and lost pile to get the win by 34. <br />
+Justice prevailed, however, and Zander&#146;s diff was still big enough to edge out Brentso for first. Z came away with a Masterful Move foil, Yoda t-shirt, and a pack of R2. Because of my timed wins I ended up in third behind Brentson, who snagged a Signal foil. I got a pack of R2 and EPP Leia foil. 4th place went to Greg Forster, and after that, it&#146;s all a blur.<br />
+<br />
+<br />
+Here we go:<br />
+<br />
+Props<br />
+Jeremy for running a flawless tourney and trading me a Ben Ken that I desperately needed.<br />
+Greg Forster for being a great opponent<br />
+Rich the towman<br />
+Zach and Jen for the rides<br />
+DJ&#146;s Comics for the T-shirts<br />
+MONNOK<br />
+the minivan for working<br />
+Zander for beating Brentson<br />
+Latrina for the title<br />
+<br />
+Slops<br />
+the Millennium Falcon for breaking down not once, but twice<br />
+pairings<br />
+timed wins<br />
+townies<br />
+Brentson<br />
+MONNOK<br />
+Zander for dumping on the poor waitress<br />
+NY Thruway for charging tolls even when you break down<br />
+Latrina for being a bicycle<br />
+<br />
+<br />
+Good fight, and goodnight. <br></font></blockquote><BR><font class="bfont"> <A HREF='/starwarsccg/treports/treports.php?id=2099&view=1'>Read the Reviews</a><font class="bfont"> | <A HREF='/starwarsccg/treports/treports.php'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

@@ -1,0 +1,55 @@
+<html>
+<head>
+<SCRIPT LANGUAGE = "JavaScript">
+<!--
+       
+        if (document.images) {
+            img1 = new Image();          
+            img1.src = "images/navwelcome.gif";       // Active Images
+            img2 = new Image(); 
+            img2.src = "images/navarchive.gif";
+            img3 = new Image(); 
+            img3.src = "images/navresources.gif";   
+                   
+        }
+
+// Function to change images.
+function imgChange(imgName) {
+        if (document.images) {
+            document.images['nav'].src = eval(imgName + ".src");
+        }
+}
+
+
+function getDate() {
+// Array of day names
+var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+
+// Array of month Names
+var monthNames = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+var now = new Date();
+
+return dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + now.getDate() + ", 19" + now.getYear();
+
+}
+
+// -->
+</SCRIPT>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#3333FF" background="images/blueback.gif" text="#FFFFFF" link="#00FF00" vlink="#FFCC66" alink="#FFFFFF" MARGIN=0>
+<a href="primary.html" target="main"><img src="images/clearid.gif" width="122" height="26" align="right" vspace="8" border="0"></a> 
+<font face="Arial, Helvetica, sans-serif" size="2"><b><br>
+<a href="index2.htm" target="_top"><img src="images/close.gif" width="25" height="25" align="middle" border="0"></a>Welcome 
+to DeckTech, 
+<script language="Javascript">
+<!--  
+document.write(getDate());
+ //-->
+</script>
+</b></font><font size="2"><b></b></font> 
+</body>
+</html>

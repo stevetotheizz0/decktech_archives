@@ -1,0 +1,960 @@
+
+<html><!-- #BeginTemplate "/Templates/new_format_main.dwt" --><!-- DW6 -->
+<head>
+<title>Welcome HeroClix Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="HeroClix, Wizkids,
+miniatures, Marvel, DC, Marvel Heroclix, DC Heroclix, comic figures
+"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #000099;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #CCCCCC; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none; background-image: url(/heroclix/gfx/theme1/background.gif); }
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #FFFFFF;
+		margin: 5px 5px; 		
+}		
+
+.cbody A:link {  
+		color: #4078CF;
+}
+.nav2 {  
+	color: #FFFFFF;
+	font-weight: bold; 
+	font-size: 7pt; 
+	text-decoration: none;	
+}
+.nav2 A {  
+		color: #FFFFFF;
+		text-decoration: none;		
+}
+.nav2 A:hover {  
+		color: #FF0000;
+		text-decoration: none;		
+}
+
+#auction .main { 
+	width: 100%;
+	height: 98px;
+	text-align: right;
+	font-size: 9pt;
+	font-weight: bold;	
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000; 
+	border: 1px;
+	border-style: solid;
+	border-color: #AAAAAA;
+	background: url(/heroclix/gfx/theme1/v_lightbar.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#auction .headline { 
+	font-size: 10pt;
+	text-align: left;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 15px;
+	padding-top: 4px;	
+	padding-bottom: 4px;	
+}
+
+#auction .content { 
+	text-align: center;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000; 
+	padding-left: 10px;
+	padding-top: 4px;	
+	padding-bottom: 4px;	
+}
+
+
+
+
+
+#news .main { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;		
+}
+
+#news .header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px; 
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_large.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+#news .story { 
+	width: 100%;
+	text-align: left;
+	background-color: EFEFEF;
+}
+#news .whowhen { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	color: #000000; 
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 4px;
+	background-color: #DDDDDD;	
+}
+#news .link { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: right;
+	padding-right: 4px;
+}
+#news .friend { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: right;
+	border: 0px;
+	border-bottom: 1px;
+	border-style: dotted;
+	border-color: #666666;	
+	padding-right: 4px;
+	padding-bottom: 4px;	
+}
+#news .text { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	padding-right: 4px;
+	padding-left: 8px;				
+}
+#news .comment { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: left;
+	text-decoration: normal;
+	padding: 4px;
+	padding-left: 10px;	
+}
+#news .poster { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: left;
+	text-decoration: normal;
+	padding: 4px;
+	padding-left: 10px;	
+	color: #990000; 
+	font-weight: bold;	
+	border: 0px;
+	border-bottom: 2px;
+	border-style: dotted;
+	border-color: #666666;
+}
+#news .date { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: right;
+	text-decoration: normal;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+#news .more { 
+	text-align: right;
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;	
+	padding-right: 4px;	
+}
+#news .headline { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: left;
+	color: #000099; 
+	font-weight: bold;
+	padding-left: 8px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	border: 0px;	
+}
+
+
+#features .main { 
+	width: 100%;
+	text-align: left;
+	margin-bottom: 6px;	
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;		
+}
+
+#features .header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px; 
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_large.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+
+
+#mygroups .column { 
+	width: 159px;
+	background-color: #EAEAEA;
+	text-align: left;
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;	
+	border-style: solid;
+	border-color: #666666;		
+}
+
+
+#mygroups .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_blue.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+#mygroups .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_red.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+
+.column { 
+	width: 159px;
+	background-color: #FFFFFF;
+	text-align: left;	
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;	
+	border-style: solid;
+	border-color: #666666;
+}
+
+
+
+
+.r2header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px;
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_total.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+
+.sectionhead {
+padding-top: 2px;
+padding-left: 8px;
+padding-bottom: 1px;
+border: 0px;
+border-bottom: 1px;
+border-style: solid;
+border-color: #666666;
+background-color: #CCCCCC;
+}
+
+.more a {
+	font-size: 7pt;
+	color:#888888;
+	padding-right: 4px;
+}
+
+ .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_blue.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+
+.r2td A:link {
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+}
+.r2td A:active {			
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+			}
+.r2td A:visited {	
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+
+.footerOne {
+			font-size: 8pt;
+			text-align: left;
+			font-weight: bold;									
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #AAAAAA; 
+			border: 0px;
+			background: url(/heroclix/gfx/theme1/footer1_back.gif);
+			background-color: transparent;
+}
+
+.footerOne A {
+			color: #EAEAEA; 
+}
+
+.footerOne A:hover {
+			color: #FFFFFF; 
+}
+
+.footerTwo {
+			font-size: 7pt;
+			text-align: left;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #999999; 
+			border: 0px;
+			background: url(/heroclix/gfx/theme1/footer2_back.gif);
+			background-color: transparent;
+}
+
+.footerTwo A {
+			color: #666666; 
+}
+
+.footerTwo A:hover {
+			color: #EAEAEA; 
+}
+
+
+
+.footerThree {
+			font-size: 7pt;
+			text-align: center;			
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #EEEEEE; 
+			border: 0px;
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;			
+}
+
+.footerFour {
+			font-size: 7pt;
+			text-align: center;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #888888; 
+			border: 0px;
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;			
+}
+
+.mainheader { 
+			height: 51px;
+			width: 549px;
+			font-size: 11pt;
+			font-weight: bold;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #990000; 
+			padding-left: 35px;
+			padding-right: 12px;			
+			padding-bottom: 8px;
+			padding-top: 8px;
+			margin-top: 10px;
+			background: url(/heroclix/gfx/theme1/main_layout_header1.gif);
+			background-color: transparent;
+			background-repeat: no-repeat;			
+}
+.maincontent { 
+			width: 536px;
+			font-size: 8pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			padding-left: 4px;
+			padding-right: 4px;			
+			padding-bottom: 4px;
+			padding-top: 4px;
+			margin-left: 10px;
+			margin-bottom: 10px;			
+			border: 1px;
+			border-style: solid;
+			border-color: #CCCCCC;
+			background-color: #FFFFFF;			
+}
+
+#Last24Hours .header {
+			font-size: 12pt;
+			font-weight: bold;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			border: 0px;
+			border-bottom: 1px;			
+			border-style: solid;
+			border-color: #666666;
+     		color: #FFFFFF; 
+			padding: 4px;
+			margin: 0px;
+			background: url(/heroclix/gfx/24back.gif);			
+}
+
+#Last24Hours .content {
+			background-color: #000000;			
+			padding: 5px;
+			margin: 0px;
+}
+
+#captain .main {
+	padding: 3px;
+	border: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #CCCCCC;
+	margin-bottom: 6px;	
+}
+
+#captain .headline A {
+	width: 100%;
+	font-size: 9pt;
+	font-weight: bold;			
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;	
+	padding-left: 8px;
+	padding-right: 4px;			
+	padding-bottom: 4px;
+	padding-top: 4px;	
+	color: #FFFFFF; 
+	background-color: #990000;
+	border: 1px;	
+	border-style: solid;
+	border-color: #FFFFFF;
+}
+
+#captain .content {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #666666;
+	padding-left: 0px;	
+	padding-top: 4px;		
+	padding-bottom: 4px;
+}
+
+#teams .main {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #ffffff;
+	margin-bottom: 6px;	
+	padding: 2px;		
+	border: 0px;
+	background-color: #000099;		
+}
+
+#teams .header {
+	font-size: 8pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #FFFFFF;
+	padding-left: 4px;	
+	padding-top: 2px;		
+	padding-bottom: 2px;
+	margin: 0px;
+}
+
+#teams .team {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #666666;
+	padding-top: 4px;		
+	padding-bottom: 4px;
+	border: 0px;
+	border-bottom: 1px;			
+	border-style: solid;
+	border-color: #666666;
+	background-color: #CCCCCC;		
+}
+#teams .title A {
+	font-size: 7pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000;
+	padding-left: 4px;	
+	padding-top: 4px;		
+	padding-bottom: 4px;
+	margin: 0px;
+}
+
+#teams .content {
+	font-size: 6pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000000;
+	padding-left: 4px;	
+	padding-top: 2px;		
+	padding-bottom: 4px;
+}
+
+#features .article { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;
+}
+
+#features .report { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;
+	background-color: #EAEAEA;	
+}
+
+
+
+#features .title { 
+	font-size: 7pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000;
+	padding-left: 4px;	
+	padding-top: 6px;		
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+#features .content {
+	font-size: 6pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000000;
+	padding-left: 4px;	
+	padding-top: 0px;		
+	padding-bottom: 4px;
+}
+
+-->
+</style>
+</head>
+<body 0><center>
+<table  cellspacing='0' cellpadding='0' border=0>
+  <tr> 
+    <td width="1" height="9" valign="top">
+<table width="764" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td colspan="3"><img src="/heroclix/gfx/clear.gif" width="2" height="11"></td>
+  </tr>
+  <tr> 
+    <td colspan="3"><img src="/heroclix/gfx/theme1/header_top.jpg" width="764" height="64" border="0" usemap="#Map2"></td>
+  </tr>
+  <!-- This is the Non Member Row -->
+  <tr> 
+    <td background="/heroclix/gfx/theme1/header_mid_back.jpg" width="118"><img src="/heroclix/gfx/theme1/header_mid_1.jpg" width="118" height="30" hspace="0" vspace="0" border="0" usemap="#Map3"></td>
+    <td background="/heroclix/gfx/theme1/header_mid_back.jpg" width="438"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <form name="login" method="post" action="/heroclix/resources/buzz.php"><input type="hidden" name="PHPSESSID" value="7737e51148eae9ddf9c264a5d40d7e04" />
+          <tr> 
+            <td align="left" valign="middle" width="15"><input name="sname" type="text" id="name" maxlength="22" size="7">&nbsp;</td>
+            <td width="67"><img src="/heroclix/gfx/theme1/header_mid_2.jpg" width="67" height="30" hspace="0" vspace="0" border="0"></td>
+            <td align="left" valign="middle" width="15"><input name="password" type="password" id="password" maxlength="14" size="7">&nbsp;</td>
+            <td><input type="hidden" name="mlogin" value="true"> <input name="submit" type="image" id="submit" src="/heroclix/gfx/theme1/header_mid_go.jpg?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04"></td>
+            <td width="20" align="center"><img src="/heroclix/gfx/theme1/header_mid_spacer.jpg" hspace="0" vspace="0" border="0"></td>
+            <td width="92" align="center"><a href="/global/forgot.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04"><img src="/heroclix/gfx/theme1/header_mid_forget.jpg" width="62" height="30" hspace="0" vspace="0" border="0"></a></td>
+            <td><a href="/heroclix/main/join.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04"><img src="/heroclix/gfx/theme1/header_mid_sign.jpg" hspace="0" vspace="0" border="0"></a></td>
+          </tr>
+        </form>
+      </table></td>
+    <td align="right" background="/heroclix/gfx/theme1/header_mid_back.jpg" width="208"><img src="/heroclix/gfx/theme1/header_mid_3.jpg" width="208" height="30" hspace="0" vspace="0" border="0"></td>
+  </tr>
+  <!-- End Non Member Row -->
+  <tr> 
+    <td colspan="3" align="right"><img src="/heroclix/gfx/theme1/header_navbar.gif" width="744" height="19" hspace="0" vspace="0" border="0" usemap="#Map"></td>
+  </tr>
+  <tr> 
+    <td colspan="3" background="/heroclix/gfx/theme1/nav2_back.jpg" class="nav2">
+	<img src="/heroclix/gfx/clear.gif" width="200" height="15" align="left">
+	<img src="/heroclix/gfx/theme1/nav2_concector.gif" height="15" align="left">	
+ 
+<a href="/heroclix/resources/rules.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">Current Rules</a> |
+<a href="/heroclix/resources/buzz.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">Buzz Board</a> | 
+<a href="/heroclix/resources/links.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">Related Sites</a> 
+ 
+</td>
+  </tr>
+</table>
+
+<map name="Map">
+  <area shape="rect" coords="3,2,35,17" href="/heroclix/index.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">
+  <area shape="rect" coords="39,2,80,17" href="/heroclix/teams/index.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">
+  <area shape="rect" coords="82,2,130,17" href="/heroclix/articles/index.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">
+  <area shape="rect" coords="132,2,181,17" href="/heroclix/treports/index.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">
+  <area shape="rect" coords="184,2,283,17" href="/heroclix/resources/index.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">
+</map>
+<map name="Map2">
+  <area shape="rect" coords="30,14,102,63" href="/index.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">
+</map>
+<map name="Map3">
+  <area shape="rect" coords="29,1,103,18" href="/index.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">
+</map>
+<map name="Map4">
+  <area shape="rect" coords="31,2,85,18" href="/index.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">
+</map>
+</td></tr></table>
+<table width='764' cellspacing='0' cellpadding='0' border=0>
+ <tr> 
+<td valign="top"  width='20'> 
+ <img height=3 hspace=0 vspace=0 src="/heroclix/gfx/clear.gif" width=20 border=0></td>
+<td valign="top" valign="top" bgcolor="#FFFFFF"> 
+ <img height=3 hspace=0 vspace=0 src="/heroclix/gfx/clear.gif" width=10 border=0></td>
+<td width="80%" valign="top"  bgcolor='#FFFFFF'> 
+ <!-- #BeginEditable "Body" --> 
+
+            
+<div class='main'><div class='mainheader'>Michael Moore?</div><div class='maincontent'><font class="bfont"> From: <a href="http://www.decktech.net/lotr/main/mpage.php?member=2021">Serpent </a></font><BR><font class="bfont"><A HREF='/heroclix/resources/buzz.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>Back to Topics List</A></font><TABLE WIDTH=100% border="0" cellpadding="6"><tr><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#FFFFFF><font class="h2font"> Comment</td></tr><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=803">jeeps™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Darth Bear, so I guess I will see you signing up for a draft in the near future... hypocrit- you have NO CLUE what you&#39;re talking about.  How can you accuse someone of thanking someone of getting him out of a draft?  He was doing what I and I know you would do... I sure as hell would not have fought in Viet Nam?  Would you?  <br />
+<br />
+I differentiate between the Iraq War and getting Saddam Hussein out of power... but it has been the policy of the U.S. to contain dictators not overthrow them... and when we tried to overthrow governments (Bay of Pigs, Afghanistan, Iraq, Iran, etc.), we looked like fools.  Now, we are in Iraq again fighting a regime we put there and we have Saddam and we&#39;re still there?  If that&#39;s what it was about, then the process of giving control to the Iraqis should be easy...  I wonder why it&#39;s not..  what happened in 2 years to make the rest of the world hate us?  It&#39;s bush and his new policies of invading countries, lying, covering his errors, then lying some more, to mislead and make a country and a world believe something that was never there to begin with...<br />
+<br />
+No, now we see rich oil fields to maintain, handpick ex-patriot leaders the Iraqis don&#39;t want, and basically stick a thumb in the eye of the entire Muslim population by planting our corporate interests in countries that are already distrussful of American Corporations....  and you can&#39;t understand why I have a problem with Bush and his illigitimate claims... <br><BR><font size=1>13:15 06-03-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=803">jeeps™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Darth Bear:  Hatred?  Why do you think I hate Bush?  I don&#39;t- he&#39;s probably a very nice man who would make a great grandpa...  but in the world of politics- he&#39;s a moron.  He lacks the right qualities that made Kennedy, Clinton, and even Reagan (gasp) good presidents.   You may not like the politics, but I can&#39;t stand the way Bush conducts business... he&#39;s the most secretive president EVER to serve office... he runs from his own press corp, gives hardly any key speeches... his own files on his past are sealed in his family library...  now THAT makes me wonder what he&#39;s hiding and why he&#39;s hiding it...  and it&#39;s hilarious he has such a fanatic following...<br />
+<br />
+ <br><BR><font size=1>13:07 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>Squires</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">"it&#39;s about how Bush is calling himself a "war president." If Clinton called himself a war president, then I would also attack that, but he didn&#39;t and that&#39;s the difference. "<br />
+<br />
+By that logic you would have a problem with FDR being a war president?<br />
+<br />
+<br />
+heres an article I came across:<br />
+<A HREF="http://"http://www.washingtondispatch.com/article_8229.shtml">Kerry&#39;s service</A> <br><BR><font size=1>12:00 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Darth Bear</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Jeeps, maybe if you tell us again how much you hate Buexhaust might sink in.  Why don&#39;t you bring up his honorable service in the Air National Guard for the 27th time.  I&#39;m sure we&#39;ll finally get it.  Seriously, you need to move on.  You come up with a bunch of different ways that GWB is a horrible person.  Your utter hatred for the man will make his victory in November that much sweeter.  You say he doesn&#39;t know how to fight terror.  Why don&#39;t you explain to the rest of us how to do it better?  All you can do is criticize.  Can you offer any constructive thoughts?  What is the best way to rid the world of terror?  Can you answer any of these questions, or will I get the standard "Bush sucks!" response?  Liberals seem to be really good at pointing out mistakes of the past, why don&#39;t you step out on a limb and help make decisions for the future.  All your complaining is not making the world any safer.  If you have a better plan, let us know, otherwise be quiet and follow a true leader who understands the real threats that this country faces.<br />
+<br />
+As for Clinton not being a draft dodger, you are sadly mistaken.  He did everything in his power to avoid being drafted.  Shall a post a link outlining this, or will you just concede this point?  Should I mention a letter he wrote to a Col. Holmes thanking him for &#39;saving&#39; him from the draft?  Should I mention the statement the same Col. Holmes made in 1992 regarding the incident.  If you are a teacher, I would recommend a history book upgrade. <br><BR><font size=1>11:50 06-03-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=803">jeeps™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">ObSquad, you&#39;re the man.  <br />
+<br />
+Squires:  "Given time who knows what Saddam may have done."<br />
+<br />
+I could agree with you if I saw the U.S. doing more to actually curb the destruction going on in other parts of the world...<br />
+<br />
+Clinton, a draft dodger?  No, he got a deferrment for being a Rhodes Scholar...  there are only a handful of those in the country... and he didn&#39;t run... it&#39;s about how Bush is calling himself a "war president."  If Clinton called himself a war president, then I would also attack that, but he didn&#39;t and that&#39;s the difference. <br><BR><font size=1>10:44 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Lirkas &#39;DDM&#39;</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Glad to see you there, Joz. :)<br />
+on your "12 years" point, well, difficult to say that you&#39;re wrong about it, but still, there is catch here. :)<br />
+During these 12 years, there were sanctions, true, but pretty much stayed the same during all these years. That is, no actual work has been done to push the nail through some more.<br />
+Now there can be different reasons and interpretations about it:<br />
+a) nothing was done more because there was not much need for (theory of "Saddam was not a world threat, and of course we cannot babysit him on what he&#39;s doing 24 hours a day in his country").<br />
+Following this theory, well, nothing has been really done during these 12 years, and only when USA put the pressure again threatening war, then the World Community decided to put some pressure more (mainly UN inspections -see Blix reports-).<br />
+Always following this theory, the USA was not happy with the results (that was proving they were wrong on this war position, which was "remove Saddam from power because of WMD"), so they attacked anyway.<br />
+So, to answer your point, this would precisely mean that IF you really want to, you can put some pressure more to a dictator. And indeed, I&#39;m telling you: France, Germany Russia, were all considering "war" if the inspections did not prove, one way or the other, a point after a few more months (all that they were asking for was to let the inspection some more time, since results were happening. If the inspection would have told after a few months: Saddam is still not cooperating, trust me, a lot of people saying no to War and to Bush here in Europe would have kept shut). (this is fact) Bush declined and attacked anyway.<br />
+<br />
+b) the other theory is that it was the army Bush sent to Middle East that did put some fire to Saddam&#39;s wookie and allowed for more pressure on him.<br />
+well, this one is also true.<br />
+I mean, why would anyone do anything they don&#39;t want if they&#39;re not threatened ?<br />
+The backing of the USA army somewhere near Iraq HAD, imho, a lot to do with the results of the UN inspections. :)<br />
+Still, this is NOT war yet. This is still "diplomatical pressure". Of course, it is costly. Every day more costs money for the USA.<br />
+But this is far from a good excuse (but to politicians) to start a war.<br />
+I guess an agreement could have been reached between moral politicians. something like "we are not attacking yet but the world is helping us funding our military stay there".<br />
+But, while I don&#39;t know about the reality behind this possibility, I do think that no-one proposed it and that not a lot of politicians would have accepted either (reasons can be multiple).<br />
+<br />
+Conclusion: some more pressure has been done to Saddam, and trust me, at least in Europe, given some more time, and a lot of the people in Europe, while still thinking "no to War", would have had given the responsability to Saddamnot the USA.<br />
+It was, I do think, all it would have taken to let this whole mess (because a mess it is) of anti-USA festering around the world. (at least in occidental culture)<br />
+<br />
+<br />
+And about your use of "racist" term, be careful, this was uncalled for.<br />
+People for the other side could use the same saying "why do pro-war racists think they have the right to decide war on muslim countries because they think there are terrorists there ?" etc.<br />
+I actually have met more racists in the pro-war camp (it came to "we should bomb them all" in some forums) then in the anti-war camp. :)<br />
+I think this is a much more delicate matter than being "racist" or not. ;) <br><BR><font size=1>10:12 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>Joz</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Lirkas - Surely the previous 12 years was demonstration that when it came to Saddam Hussein, other methods did not work.  War was the last result - 12 years of diplomacy, 12 years of sanctions, 12 years of pressure, and 12 years of hard work did not free the Iraqis, nor did it compel Hussein to reveal the information required by the UN regarding weapon development programmes. <br><BR><font size=1>09:21 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Lirkas &#39;DDM&#39;</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">ObSquad,<br />
+I like the guys like you. :) (even if we do not agree on some points)<br />
+(sorry for the delay in posting back, but I see points have been made in my absense, and all goods)<br />
+It&#39;s still all about difference about politics and "us".<br />
+They decide for political reasons (Bush going to war, Chirac deciding to side against), we do not (even if some can understand the political reasons, and some can&#39;t or won&#39;r even consider them, thinking the politicians are all for morality).<br />
+Still, I do think that going to war should be the last resort, and there are a lot of ways to put some HARD pressure to make it so that you get your point accross without resorting to war (both to Saddam and Europe/USA).<br />
+This was far from the case in this 2nd Iraqi war, which is why Bush&#39;s government created bogus evidence about it.<br />
+Also Blair&#39;s government did. hey, they did base their dossier on the documents of an USA student that was speaking of the 1st Iraqi war. When it came out, it was of course "shut up" by media of these same countries, only to come out some 3-4 months later (when the support was starting to fail for these governments).<br />
+Blatant lies. lol.<br />
+The question is "why would they lie for ?"<br />
+Simply because without those lies they would not have the kind of support from their people in their countries. Support that came from nice persons that trust their government about what they are saying.<br />
+Without these lies, we would not have had the kind of support in polls... <br />
+Because the question to "go to war" would have been NOT "Saddam has WMD, he is building them, he has links with Al-Quaeda, SO we HAVE to DEFEND the world by going to war", BUT "let&#39;s go to war because Saddam could be a threat, but not militarily speaking... and yes, he is way less powerful than before".<br />
+I doubt we would have the same support in USA from their countrymen then... much less from Europe.<br />
+I remember in another forum, in Italy, people were all about these WMD. Saying that since Saddam had them, we should have gone to kick his butt. :)<br />
+Now I am pretty sure half of them would still defend Bush about it, even thought they were swearing some years before that they would have said yes to war only because of WMD threat.<br />
+This is human behavior: difficult to admit you were wrong or cheated in front of everybody (and especially yourself) so you just find another "argument" to base yourself upon.<br />
+This last was a rant. Not aimed at anybody here, just to stupid (but human people) in Italy. :)<br />
+<br />
+Oh well, my point stands: we should never commit lightly to War, and ObSquad, you are a thinking person (not to say anything against the others, I&#39;m just making a compliment there ^_^). <br><BR><font size=1>09:02 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>Joz</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">I get the feeling that some people are saying that Bush/Howard/Blair was wrong to use Saddam Hussein&#39;s alleged posession of WMDs as an excuse to go to war (...because they should have known that he didn&#39;t have them, etc.)<br />
+<br />
+Consequently, there seems to be some consensus that if he did have WMDs, that it was OK to go to war.  WMDs are bad, Saddam Hussein is unpredictable, and could have used WMDs at any time to do bad stuff.<br />
+<br />
+However, people are saying that if WMDs were not in Iraq, that there was no reason to go to war with him.  Leaving aside the hundreds of thousands of people he murdered for the time being, I believe that even if Iraq is found to not have had WMDs, it would still be right to go to war to remove him.<br />
+<br />
+The only difference between "WMDs" (ie, chemical, biological, etc.) and conventional weapons (ie, a lot of tanks) is not the number of people that can be killed - but *who*.  In the hands of the right person, a machete could be a weapon of large scale destruction and murder.<br />
+<br />
+However, if Saddam Hussein does not have WMDs, he can&#39;t threaten middle America, or middle Australia, or middle Europe, but only his neighbours.  If Saddam Hussein only had conventional weapons, he could still kill a lot of Semites in the Middle East.  Why should these people not be protected from him?<br />
+<br />
+Why, anti-war racists, are these people not deserving of our protection?  Why do the racist people who opposed the war not believe that Arab people are worthy of being saved from Saddam Hussein?  Why do the racist people who opposed the war only believe that white Europeans, or white Americans, or white Australians should be saved?  Why do the racist people who oppose the war only care about stopping Saddam Hussein if they themselves are under threat?  Why do the racist people who opposed the war care so little for their fellow human being?  Why do the racist people who opposed the war think that people in the Middle-East should die?<br />
+<br />
+Please answer.<br />
+<br />
+(if you&#39;d like, you can even email me directly at michael@michaeljosem.com if you like) <br><BR><font size=1>08:14 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>ObSquad</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">I&#39;m not questioning the numbers, BURGER, but you should cite your source. <br><BR><font size=1>03:17 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>BURGER</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">One thing I think all people can agree on, is that a world without Mr. Saddam Hussein is a better place.  Following is a quote of the death totals and estimates within the Iraqi region.  When looking at these numbers and knowing they are within modern times one must conclude there has to be a major problem.  Now not all these deaths can be blamed on one man or one country.  This is the results of humanity and our nature to destroy.  More than anything else what is needed are people who are willing to look beyond good or evil and try and make this world better.  Sometimes action is needed sometimes it is not.  Only time can tell if what we do it good or bad and the consiquences that will result from our actions.  So it is pointless to argue if what Bush or the US and their allies in war have done is right or wrong.  Instead how about you put forth ideas on how to fix things.<br />
+<br />
+"Approaching two million, including between 150,000 and 340,000 Iraqis and between 450,000 and 730,000 Iranians killed during the Iran-Iraq War. An estimated 1,000 Kuwaiti nationals killed following the Iraqi invasion of Kuwait. No conclusive figures for the number of Iraqis killed during the Gulf War, with estimates varying from as few as 1,500 to as many as 200,000. Over 100,000 Kurds killed or "disappeared". No reliable figures for the number of Iraqi dissidents and Shi&#39;ite Muslims killed during Hussein&#39;s reign, though estimates put the figure between 60,000 and 100,000. (Mass graves discovered following the US occupation of Iraq in 2003 suggest that the total combined figure for Kurds, Shi&#39;ites and dissidents killed could be as high as 300,000). Approximately 500,000 Iraqi children dead because of international trade sanctions introduced following the Gulf War."<br />
+ <br><BR><font size=1>03:06 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>ObSquad</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">First off, it was a big deal that Clinton hadn&#39;t served, and the issue was brought up a lot (and rightly so).<br />
+<br />
+Second, the Keagan quote is exaclty the kind of non-sequitar political diatribe that makes politicians the second most hated professionals in the world.  Believing that the war was not justified in the first place is ABSOLUTELY NOT equitable to wishing to have Saddam Hussein in power.  I haven&#39;t heard any arguments from the anti-war camp that Saddam belongs in power in Iraq.  That would be asnine and Keagan knows it.  He just chooses to belittle the intelligence of both the US and British populace.  Instead, the argument is to define clearly and without lies why we are in Iraq, and then to decide as a country if those reasons (which should include the removal of Saddam) benefit our foreign policy (are worth it) enough to warrant war, which will most certainly result in the deaths of lots of US and British soldiers.<br />
+<br />
+So far, that effort has been like watching a monkey do the nasty with a football.  And that&#39;s not all Bush&#39;s fault... because we&#39;re smack-dab in the middle of campaigning, the Democrats have certainly seized on each and every opportunity they can to make Bush look bad.  But if Bush can&#39;t do this thing right, and make the American public understand WHY it&#39;s the right thing to do, well, then it&#39;s either NOT the right thing to do, or he&#39;s a bad leader.  Or both.  It&#39;s up to us (the public) to decide which.  Or both. <br><BR><font size=1>02:22 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>ObSquad</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">First off, it was a big deal that Clinton hadn&#39;t served, and the issue was brought up a lot (and rightly so).<br />
+<br />
+Second, the Keagan quote is exaclty the kind of non-sequitar political diatribe that makes politicians the second most hated professionals in the world.  Believing that the war was not justified in the first place is ABSOLUTELY NOT equitable to wishing to have Saddam Hussein in power.  I haven&#39;t heard any arguments from the anti-war camp that Saddam belongs in power in Iraq.  That would be asnine and Keagan knows it.  He just chooses to belittle the intelligence of both the US and British populace.  Instead, the argument is to define clearly and without lies why we are in Iraq, and then to decide as a country if those reasons (which should include the removal of Saddam) benefit our foreign policy (are worth it) enough to warrant war, which will most certainly result in the deaths of lots of US and British soldiers.<br />
+<br />
+So far, that effort has been like watching a monkey do the nasty with a football.  And that&#39;s not all Bush&#39;s fault... because we&#39;re smack-dab in the middle of campaigning, the Democrats have certainly seized on each and every opportunity they can to make Bush look bad.  But if Bush can&#39;t do this thing right, and make the American public understand WHY it&#39;s the right thing to do, well, then it&#39;s either NOT the right thing to do, or he&#39;s a bad leader.  Or both.  It&#39;s up to us (the public) to decide which.  Or both. <br><BR><font size=1>02:20 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>captain83</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">I&#39;ll speak for jeeps here as well because I&#39;m sure he&#39;ll give you a response to your question in an incredibly intelligent manner that will be far too complex for you to comprehend.  Where do you get off thinking that we want Hussein back in power? <br><BR><font size=1>02:16 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>captain83</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">I did answer the question dumbass.  I said specifically, there was no point in going after Saddam. <br><BR><font size=1>02:14 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>captain83</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">And to think, if we had just stayed friends with the rest of the world and pooled our resources into finding people who actually had something to do with 9/11, we may have actually found Osama Bin Laden.  Might I remind you Squires, that Osama Bin Laden caused the attacks on September 11th.  Think about all the lives that have been lost over this phony war.  And for what.  A f*cking Sarin gas shell left over from the first Gulf War.  Squires, you disgust me. <br><BR><font size=1>02:12 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>Squires</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">yes I do.  Given time who knows what Saddam may have done.  Sure he may not have been an immediate threat, but given time he very well could have been. now why don&#39;t you answer the question. <br><BR><font size=1>02:09 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>captain83</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Also Squires.  If Bush and the U.S. government had carried on with the war on terror which inlcuded finding Osama Bin Laden, and not attacking dictators who had no credible connections with Bin Laden, you would not have given a second thought about attacking Saddam Hussein.  Seriously, if Bush had never said Hussein had WMD, don&#39;t even tell me that you would have said "Hey what about that Hussein character?  We should definitely divert all of our attention to him."  My point, no, we should not have gone after Saddam Hussein at that present time.  Yes, he&#39;s a foul being that deserved to be taken out of power, but after all that&#39;s gone on in Iraq, it seems stupid to be a supporter of the war.   <br><BR><font size=1>02:09 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>captain83</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">So Squires, with all that&#39;s gone on with this whole war, do you honestly believe that it was a good decision to go to war? <br><BR><font size=1>02:03 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Squires</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Since we are beating on the past here, why was it ok for the draft dodger Clinton to use military force, Clinton certainly had no combat experience.  Quite the opposite, when he got the call, he ran like a coward.  I don&#39;t remember hearing argument about hoe the president should have miliary experience in 1992 or 1996 when Clinton(the draft dodger) was elected over a war veteran both times.<br />
+<br />
+<br />
+"The British and American media detail with evident satisfaction every scrap of information that implicates service people in wrongdoing... If those who show themselves so eager to denounce the American President and the British Prime Minister feel strongly enough on the issue, please will they explain their reason for wishing Saddam Hussein should still be in power."  John Keagan<br />
+<br />
+go ahead, captain, jeeps or anyone else in the anti-Bush crowd.  Why do you want Saddam back in power? <br><BR><font size=1>02:02 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>ObSquad</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Correct me if I&#39;m wrong, Joz, but Captain83... I think he&#39;s talking about stopping him from killing 10&#39;s or 100&#39;s of thousands of Iraqis.<br />
+<br />
+Of course, the US has been pretty iffy on deciding which tyrants we "stop" and which we ignore.  Honestly, I don&#39;t think that&#39;s the kind of decision that gets made by the President (I hate that I&#39;m defending Bush, here)... mostly decided by the socio-economic position.  Yes, that means war for oil, and no war for -- what is it they have in Liberia?  That&#39;s my point.  Questionable... <br><BR><font size=1>01:49 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>captain83</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">"Are you genuinely saying that if Saddam Hussein did not have WMDs and the ability to target the US (or UK, or Australia, or other Coalition partners), that we should not have stopped him?"<br />
+-Joz<br />
+<br />
+Stopped him from doing what Joz?  Answer the question. <br><BR><font size=1>01:43 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>captain83</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">"Hey, did Bush get any good pictures? You know, of Texas, I mean... Yeah, that IS crossing the line. I won&#39;t speak for every veteran, but I can say that the majority of professional military personnel I ever knew consider the President the Commander-In-Chief first, and the President second... that&#39;s why people like me want the President to have military experience. We want someone who understands what it means, from personal experience, to be a good leader for the troops. If not, people (more people) die. Americans won&#39;t stand for that, we never have."<br />
+-Obsquad<br />
+<br />
+damn you Obsquad.  That was the point I was trying to convey to Darthbear in another political argument a while ago, only my argument came out really wrong and I got shot down.  That&#39;s one of the huge things that pisses me off about Bush.  He&#39;s such a f*cking hypocrite in that sense.  Thanks for pointing that out. <br />
+ <br><BR><font size=1>01:39 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>ObSquad</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">And Joz, I think you are oversimplifying the point-of-view of the modern terrorist.  They will NEVER be in fear of being brought to justice... for criminey&#39;s sake, they&#39;re willing to die for their beliefs already, why would "US justice" do anything but provoke them further?<br />
+<br />
+Don&#39;t get me wrong, I&#39;m the last person in the world to suggest that we sit on our hands, or even worse (as the French gov&#39;t would have us do) give in to terrorist demands.  All I&#39;m suggesting is that the state of worldwide politics with respect to anti-terrorism seem to CLEARLY indicate that discretion is going to win more allies than open arms and threats.  Bush&#39;s "leadership" feels more like "playing soldier" to most Americans, especially when the majority of his public statements sound like they came out of a book of quotations instead of the mouth of an Ivy-league educated politician. <br><BR><font size=1>00:37 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>ObSquad</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Surge...<br />
+<br />
+"what you are saying is that since Bush didn&#39;t go to Vietnam, like so many others didn&#39;t want to do, he is not allowed to run for president."<br />
+<br />
+No, he isn&#39;t saying that Bush isn&#39;t allowed to run for President... obviously he is.  And you are correct, military experience is not a requirement, only a tradition dating back to, oh, only the beginning of our friggin&#39; country!<br />
+<br />
+The point jeeps was making was that Bush&#39;s aid was attacking Kerry&#39;s military record of commitment, which is worse than the pot calling the kettle black when you look at Bush&#39;s military record.  For Bush to make such a rally out of his "militarism" (which he has clearly done since 9/11) is making that record and his record as Commander-In-Chief open to debate for the upcoming elections.  In my opinion, that&#39;s a mistake for Bush, because his record isn&#39;t good.  And his record on foreign policy is worse.  And his record on domestic development is even worse yet.  And how are Bush&#39;s whereabouts during Vietnam not an issue?  How is any presidential candidate&#39;s entire life not an issue?  We are talking about the election of the "leader of the free world" here, maybe we ought to put some serious effort into getting the right person for the job, don&#39;t ya&#39; think?<br />
+<br />
+If you don&#39;t know anything about someone who posts on this board, I don&#39;t think you can broadly question the efforts of an individual.  Chances are that anyone taking the time to make this kind of effort to spread their view, probably uses other venues as well.  I do.<br />
+ <br><BR><font size=1>00:29 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Joz</B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Although I don&#39;t have children, Jeeps, I look forward to a world in which rather than my children being scared of terrorists, terrorists are scared of being brought to justice.<br />
+<br />
+The strong leadership of Bush, Howard & Blair against terrorism is a step in the right direction.  Sure, there&#39;s still more to be done, and there&#39;s room for improvement, but it&#39;s certainly a step in the right direction.<br />
+<br />
+<br />
+Are you genuinely saying that if Saddam Hussein did not have WMDs and the ability to target the US (or UK, or Australia, or other Coalition partners), that we should not have stopped him? <br><BR><font size=1>00:28 06-03-2004</font></TD></TR><TR><td width='4' bgcolor=#C3E3FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B>Surge</B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">Lying to millions of people. I seem to remember Clinton lying to millions of people, how about others who have ran for president. It is part of politics to lie. That is how it has been and always been. Bush lied on TV, Clinton lied "under oath" and got away with it. People shrug it off though saying it was trivial or it wasn&#39;t important. He was still under oath and if I get caught lying under oath, I go to jail for years. Lots of people have lied on TV over the years. Big deal. It isn&#39;t Bush&#39;s lying that has sent us to Iraq. Since last time I checked, Bush can&#39;t declare war on another coutnry with out approval of congress. So that means congress, full of people the US elected, voted to go to war. They have all the same information available to them as he did and chose to go to war. That is how our country works. I am not a Bush "supporter". I have problems with a lot of stuff he has done in office. However instead of worrying about the past saying well where was he. Why was he awol, and pulling up all these conspiracies against him and others in office, I will go after him for his policies.<br />
+<br />
+I still don&#39;t see how him not fighting in a war has any reference here.  It is funny, the side who is losing in the election, will point out whatever slander they can to try and steal others votes, instead of arguing policies. <br><BR><font size=1>00:24 06-03-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/heroclix/main/mpage.php?member=803">jeeps™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">I also have a child... and the thing that keeps my up at night is this unending war on terror that will send my child to fight in some foreign land for so-called "safety" of our country...  I only see Bush&#39;s antics as ways to destablize and invite more terror and distruction on our country...    we have been mislead by our president.  Why can&#39;t you, and others who support Bush, figure this out.  The Republicans attacked Clinton for so many trivial things...  Monika Lewinsky is trivial compared to a president who lied to millions of people about the reasons we have gone to Iraq.... <br><BR><font size=1>00:06 06-03-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#C3E3FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#C3E3FF><font class="bfont"><B><a href="http://www.decktech.net/heroclix/main/mpage.php?member=803">jeeps™</a></B></font></td><Td valign='top' bgcolor=#C3E3FF><font class="bfont">I vote, I teach, I raise a family, I go to school board meetings, I have written congress persons on three occassion,  I write to newspapers, I do go to political rallies, I am active in current events, I read daily, ...  want me to mail you my résumé?  <br />
+<br />
+See, I DO have a problem with a president who sits in a jet fighter, lands on an aircraft carrier brandishing a "Mission Accomplished" banner above his head and self-titles himself a "war president" yet he has never felt the terror of combat himself.  The guy&#39;s a douche bag. <br><BR><font size=1>00:02 06-03-2004</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/heroclix/main/mpage.php?member=803">jeeps™</a></B></font></td><Td valign='top' bgcolor=#FFFFFF><font class="bfont">Surge:  what are you talking about? <br><BR><font size=1>23:59 06-02-2004</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/heroclix/resources/buzz.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/heroclix/resources/buzz.php'><input type="hidden" name="PHPSESSID" value="7737e51148eae9ddf9c264a5d40d7e04" /><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value="5500"><input type='Submit'  value=' Show all Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/heroclix/main/join.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'> become a registered member</a></font></div></div> 			
+<!-- rumors board code end --><BR>
+
+            <!-- #EndEditable -->
+</td>
+<td valign="top" valign="top" bgcolor="#FFFFFF"> 
+<img height=3 hspace=0 vspace=0 src="/heroclix/gfx/clear.gif" width=10 border=0></td>
+<td width='167' bgcolor='#E5E5E5' valign='top'>
+<center>
+  <!--  <a href="/promo/index.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04"><img src="/heroclix/gfx/theme1/contest.gif" width="160" height="20" hspace="4" vspace="4" border="0"></a>  -->
+<BR>  <div class='column'><div class='r2header'>Top Teams in last 30 days</div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1125&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>Team #153: Titans Go!</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1126&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>300 DPC Winner</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1128&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>DPC Bruiser Brawl runner-up</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1159&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>Showing off the LE&#39;s</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1182&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>Updated Cheese (Samson/ NCrawler)</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1130&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>400 DPC Master Series - 3rd Place</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1134&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>DPC IL 1st Place - KO Kings</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1129&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>700 Point DPC team</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1157&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>LE Surfer 300</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=1169&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>Thundercats: 300pt Tourney</A></div><div class='sectionhead' align='right'><div class='more'><A href='/heroclix/teams/decks.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>All</A></div></div></div><img src="/heroclix/gfx/clear.gif" width="160" height="1" hspace="4" vspace="4" border="0">
+<div id="mygroups">
+<div class='column'>
+<div class='r2header'>DeckTech for Groups</div>
+DeckTech for Groups enables group leaders to develope their own online presence which helps to promote their local 
+gaming community. <br>
+<br>For more information about DeckTech for Groups or to find a specific group go <a href="../../../groups/index.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">here</a>.
+</div>
+</div></div> 
+
+
+
+
+
+
+
+
+
+
+<P><div class='column'><div class='r2header'>Top Articles in last 30 days</div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5628&view=2&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>Heroclix Artifacts!!!</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5589&view=2&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>Meta Update</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5621&view=2&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>Meta Trends...</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5591&view=2&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>Universe Starter Review - 5/7/04</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5612&view=2&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>What Meta?</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5635&view=2&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>Consider Dice Roll Percentages (with PC)</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5590&view=2&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>Building the Team: Fantastic Four</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5584&view=2&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>Why Range Doesn&#39;t Matter</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5634&view=2&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>Consider Dice Roll Percentages</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=5641&view=2&PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>Review: Magog</A></div><div class='sectionhead' align='right'><div class='more'><A href='/heroclix/articles/articles.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04'>All</A></div></div></div></center>
+<BR></td>
+<td valign="top" width="0"> 
+  </td>
+ </tr>
+</table>
+  <table  width='764' cellspacing='0' cellpadding='0' border=0>
+    <tr> 
+    <td valign="top">
+      <div align="right">
+<table width="744" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+      <td width="114"><img src="/heroclix/gfx/theme1/footer1.gif" width="114" height="21" hspace="0" vspace="0" border="0" align="left"></td>
+      <td width="630" background="/heroclix/gfx/theme1/footer1_back.gif" class="footerOne"> 
+        &nbsp; &nbsp;<a href="/heroclix/index.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">Home</a> | <a href="/heroclix/teams/index.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">Teams</a> 
+        | <a href="/heroclix/articles/index.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">Articles</a> | <a href="/heroclix/treports/index.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">Reports</a> 
+        | <a href="/heroclix/resources/index.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">Player Resources</a>  </td>
+  </tr>
+  <tr>
+    <td width="114"><img src="/heroclix/gfx/theme1/footer2.gif" width="114" height="24" hspace="0" vspace="0" border="0" align="left"></td>
+      <td width="630" background="/heroclix/gfx/theme1/footer2_back.gif" class="footerTwo">&nbsp;&nbsp; 
+        <a href="/heroclix/main/about.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">About HeroClix</a> | <a href="/heroclix/main/decktech.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">About 
+        DeckTech</a> | <a href="/heroclix/main/join.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">Become a Member</a> | 
+        <a href="mailto:%20info@decktech.net">Contact Us</a></td>
+  </tr>
+    <tr> 
+      <td colspan="2" width="744" background="/heroclix/gfx/theme1/footer3_back.gif" class="footerThree">
+	  <a href="/global/terms.php?PHPSESSID=7737e51148eae9ddf9c264a5d40d7e04">Terms of Service</a> TM & © 2003 www.decktech.net. All Rights Reserved.
+</td>
+  </tr>
+    <tr> 
+      <td colspan="2" width="744" class="footerFour">
+ 	  This site is maintained and updated by fans of 
+          HeroClix, and is in no way affiliated with WizKids the makers of HeroClix 
+          and other fine games. We in no way claim the artwork displayed to be 
+          our own. Copyrights and trademarks for the promotional materials are 
+          held by their respective owners and their use is allowed under the fair 
+          use clause of the Copyright Law.
+<p>WizKids, LLC has sole ownership of the names, logos, artwork, marks, 
+photographs, sounds, audio, video and/or any other proprietary material 
+used in connection with the game of HeroClix. WizKids, LLC has granted 
+DeckTech.net permission to use such names, logos, and/or marks for 
+promotional and informational purposes on the DeckTech.net website, but it 
+does not endorse and is not affiliated with the DeckTech.net website in 
+any official capacity whatsoever. All WizKids characters, names, logos, 
+and distinctive likenesses are property of WizKids, LLC. 
+
+<p>©2003 WizKids, LLC. All rights reserved. MechWarrior, BattleTech, 
+BattleMech, ’Mech, MW, Mage Knight, MK, Shadowrun, HeroClix, SportsClix, 
+Creepy Freaks, Freak Out, and WizKids are trademarks of WizKids, LLC.  
+</td>
+  </tr>
+</table>
+</div><BR>
+
+</td></tr></table>	  
+</center></body><!-- #EndTemplate --></html>
+

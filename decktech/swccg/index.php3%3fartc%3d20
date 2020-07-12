@@ -1,0 +1,402 @@
+<html>
+<head>
+<title>DeckTech - for the players, by the players.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/swccg/global/css/white.css">
+<style type="text/css">
+<!--
+.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
+.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
+.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
+.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
+.centercolor {  background-color: #2900FF}
+-->
+</style>
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"> <!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE -->
+<script language="JavaScript">
+<!-- /* © 1997-1999 BURST! Media, LLC. All Rights Reserved.*/
+var TheAdcode = 'ad8702a';
+var bN = navigator.appName;
+var bV = parseInt(navigator.appVersion);
+var base='http://www.burstnet.com/';
+var Tv='';
+var agt=navigator.userAgent.toLowerCase();
+if (bV>=4)
+  {ts=window.location.pathname+window.location.search;
+   i=0; Tv=0; while (i< ts.length)
+      { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+   if( Tv.charAt(0)!='/' ) Tv="/"+Tv;
+          else if (Tv.charAt(1)=="/")Tv="";
+  if( Tv.charAt(Tv.length-1) == "/")
+    Tv = Tv + "_";}
+if (bN=='Netscape'){ 
+     if ((bV>=4)&&(agt.indexOf("mac")==-1))
+{  document.write('<s'+'cript src="'+ 
+      base+'cgi-bin/ads/'+TheAdcode+'.cgi/RETURN-CODE/JS' 
+      +Tv+'">'); 
+     document.write('</'+'script>');    } 
+     else if (bV>=3) {document.write('<'+'a href="'+base+'ads/'+ 
+        TheAdcode+'-map.cgi'+Tv+'"target=_top>'); 
+        document.write('<img src="' + base + 'cgi-bin/ads/' + 
+        TheAdcode + '.cgi' + Tv + '" ismap width="468" height="60"' + 
+        ' border="0" alt="Click Here"></a>');} 
+ } 
+if (bN=='Microsoft Internet Explorer') 
+ document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'+ 
+  TheAdcode + '.cgi' + Tv + '/RETURN-CODE" width="468" height="60"' + 
+  'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' + 
+  'frameborder="0" scrolling="no"></ifr'+'ame>'); 
+// --> 
+</script> 
+<noscript><a href="http://www.burstnet.com/ads/ad8702a-map.cgi" target="_top"> 
+<img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi" 
+ width="468" height="60" border="0" alt="Click Here"></a> 
+</noscript> 
+<!-- END BURST CODE -->
+<!-- #EndLibraryItem --></td>
+    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="171" valign="top" bgcolor="#000000" height="949"> 
+      <table width="172" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="156" rowspan="2" bgcolor="#000000" align="center" valign="top" height="100"><br>
+            <!-- #BeginLibraryItem "/Library/Login_Box.lbi" -->
+ 
+<form method="post" action="/login.php3" name="">
+  <table width="134" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom"> 
+                  
+      <td><img src="/swccg/global/images/logintop.gif" width="134" height="8"></td>
+                </tr>
+                <tr bgcolor="#630063"> 
+                  <td><font face="Haettenschweiler, Impact, Arial Black" size="4" color="#FFFFFF">&nbsp;<font size="5">&nbsp;&nbsp;Members</font></font></td>
+                </tr>
+                <tr bgcolor="#630063"> 
+                  <td> &nbsp; 
+                    
+        <input type="text" name="sname" size="12" maxlength="22">
+                  </td>
+                </tr>
+                <tr bgcolor="#630063"> 
+                  <td>&nbsp;&nbsp;&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><font size="1">name</font></font></td>
+                </tr>
+                <tr bgcolor="#630063"> 
+                  <td> &nbsp; 
+                    
+        <input type="password" name="password" size="12" maxlength="14">
+                  </td>
+                </tr>
+                <tr bgcolor="#630063"> 
+                  <td>&nbsp;&nbsp;&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><font size="1">password</font></font></td>
+                </tr>
+                <tr bgcolor="#630063" align="right"> 
+                  
+      <td><font face="Haettenschweiler, Impact, Arial Black" size="4" color="#FFFFFF"> 
+        <input type="hidden" name="remember" value="yes">
+        <input type="submit" name="Submit" value="Login">
+        &nbsp;&nbsp;</font> </td>
+                </tr>
+                <tr valign="top"> 
+                  
+      <td><img src="/swccg/global/images/loginbottom.gif" width="134" height="8"></td>
+                </tr>
+              </table>
+            </form>
+
+
+
+
+
+<!-- #EndLibraryItem --><br>
+ <!-- #BeginLibraryItem "/Library/swccg_logo.lbi" --><a href="http://www.decipher.com/starwars/index.html" target="_blank"><img src="/swccg/global/images/swccglogo.jpg" width="135" height="90" border="0" vspace="0" hspace="0"></a><!-- #EndLibraryItem --></td>
+          <td width="31" height="57" align="left" valign="top" background="/swccg/global/images/circuit/left_background.gif" class="left_background"> 
+            <img src="/swccg/global/images/circuit/leftca.gif" width="30" height="57" border="0" vspace="0" hspace="0"></td>
+        </tr>
+        <tr> 
+          <td width="31" height="100" background="/swccg/global/images/circuit/left_background.gif" class="left_background"><img src="/swccg/global/images/trans.gif" width="30" height="1" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td colspan="2" class="orange" background="/swccg/global/images/circuit/background.gif"><img src="/swccg/global/images/circuit/lcspacer.gif" width="185" height="65" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="156" bgcolor="#2900FF" valign="top" height="396"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tr valign="top" bgcolor="#000000"> 
+                <td><font face="Haettenschweiler, Impact, Arial Black" size="5" color="#FFFFFF">What 
+                  is SW:CCG?</font></td>
+              </tr>
+              <tr valign="top"> 
+                <td height="354"> <font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><br>
+                  &quot;Imagine playing a game of chess where each player could 
+                  select from 1000 pieces, each of which moved differently. You 
+                  would select your 16 pieces in secret, and so would your opponent. 
+                  Sitting opposite him, surveying the board, you would make your 
+                  attacks based on the pieces you selected, and form your defenses 
+                  based on the pieces your opponent selected.&quot; -Decipher<br>
+                  <br>
+                  For more information about SW:CCG check out our <a href="/main/swccg.php3">About 
+                  SW:CCG </a>page!</font> </td>
+              </tr>
+              <tr> 
+                <td>&nbsp;</td>
+              </tr>
+            </table>
+            </td>
+          <td width="31" rowspan="2" bgcolor="#000000" valign="top"><img src="/swccg/global/images/circuit/lftcolterm.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="156" bgcolor="#2900FF" valign="bottom"><img src="/swccg/global/images/circuit/left_term.GIF" width="156" height="15"></td>
+        </tr>
+      </table>
+    </td>
+    <td valign="top" class="centercolor" height="949" > 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
+          <td height="4" class="top_bg" width="100%" align="left"><img src="/swccg/global/images/circuit/leftcb.gif" width="12" height="57" vspace="0" hspace="0" border="0"></td>
+          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
+        </tr>
+        <tr> 
+          <td colspan="2"> 
+            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
+              <tr> 
+                <td bgcolor="#2900FF" height="12" valign="top" width="44%"><img src="global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
+                <td bgcolor="#2900FF" align="right" valign="top" height="12" width="48%"><img src="global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr> 
+                <td height="684" valign="top" colspan="2" bgcolor="#2900FF"> 
+                  <table width="100%" border="0" cellpadding="4">
+                    <tr valign="top"> 
+                      <td bgcolor="#2900FF" height="203"><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"> 
+                        </font> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td height="142"><a href="/dpc/index.php3"><img src="/swccg/global/images/dpc_cash1.gif" width="368" height="145" border="0"></a></td>
+                          </tr>
+                          <tr> 
+                            <td bgcolor="#000000"><a href="/dpc/index.php3"><img src="/swccg/global/images/dpc_cash2.gif" width="383" height="41" vspace="0" hspace="0" border="0"></a></td>
+                          </tr>
+                          <tr> 
+                            <td height="2"><img src="/swccg/global/images/dpc_cash3.gif" width="317" height="19" vspace="0" hspace="0" border="0"></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr valign="top"> 
+                      <td height="236">
+                        <font face="Arial, Helvetica, sans-serif" size="2"> 
+<a name=20></a>
+<table width=100%>
+<tr><td colspan=2><font color=#00FF00 size="5" face="Haettenschweiler, Tahoma, Arial, sans-serif">DPC RAMAPOCON: BRING IT</font></td></tr>
+<tr><td><font face="arial" size="2">DeckTech announces on Mon May 28 2001 </font></td><td align=right><font face="arial" size="2">DeckTech Players' Challenge</font></td></tr>
+<tr><td colspan=2><font face="arial" size="2">RamapoCon, which in recent years has become a veritable mecca for the Star Wars-playing community, is pleased to highlight the addition of a Decktech Players' Challenge to its already impressive third-year roster.  <br>
+<br>
+The DPC is slotted to begin 2pm sharp on Friday, June 8 at Ramapo College in Mahwah, NJ.  Decklists are required to be turned in to the directors by the tournament's start and checks will be conducted on every participant in random order throughout the day.  <br>
+<br>
+Eight games of regular play will be followed by a 1-game playoff among the top four players.  This playoff will pair 1st place versus 4th and 2nd versus 3rd with the highest player in each pairing choosing which side they use. After that the two remaining players will compete in a standard 2 game playoff for a total of 11 games.  <br>
+<br>
+As always, 1st place carries with it the $1000 prize, $200 for 2nd, and $150 each for 3rd and 4th. However, there will be enough other things going on at RamapoCon 3 to make a weekend stay worthwhile.  <br>
+<br>
+Follow up the DPC on Friday by competing in the Star Wars Open on Saturday, whose winner will receive a plane ticket to DecipherCon 2001 as well as a bye into Day 2.  The Star Trek Open will also  be held on Saturday, in addition to the RamapoCon Star Wars and Star Trek Team Championships which will begin immediately following the Opens.  <br>
+<br>
+Young Jedi and Jedi Knights Opens will be held on Sunday.  All of this in addition to the sealed deck, booster draft, No Such Thing As Luck, and other theme tournaments which will be running throughout the weekend!  <br>
+<br>
+And that's just the Decipher lineup... attendees will also be able to take part in scheduled roleplaying, live-action roleplaying, boardgaming, and other CCG's such as Magic, Raw Deal, Vampire: The Eternal Struggle, and more.  <br>
+<br>
+Products will also be available in the dealer room for those looking to try something new or just expand their collections. RamapoCon 3 promises to be one of the largest and most exciting gaming conventions on the East Coast, with an international and coast-to-coast attendance and the promise of a weekend filled with fun, friends, and of course, cash prizes!  <br>
+<br>
+Don't miss out on this opportunity to be a part of a rapidly-expanding convention that only promises to get better with each year. For registration, event schedules, and other information, go to http://www.ramapocon.com. <br>
+<br>
+DPC RamapoCon Judging Staff <br>
+Head Judge: Scott Lingrell, Rogue 60 <br>
+Assistant Judges: Arthur Wright, Red 117, Aaron Kingery, Thomas Hermley-Keen <p><small>edited by DeckTech on Tue May 29 2001 </small></font></td></tr>
+<tr><td align=right colspan=2><font face=arial size=1> <a href=send.php?di=/swccg/index.php3&id=20 target="_blank">send to friend</a> | <a href=print.php?20 target="_blank">printer friendly</a></font></td></tr>
+</table><table width=100%><tr><td><HR><font face=arial size=2>chicken is good</font></td></tr><tr><td><font face=arial size=2>chicken soup</font><font face=arial size=2> - Mon May 28 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>mike dalton is gay and likes marc anthony</font></td></tr><tr><td><font face=arial size=2>kid who hates mike</font><font face=arial size=2> - Mon May 28 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I'll see u guys there, THE LAST COMMENT WAS MADE BY JOE GAGLIARDI...HAHA JOE!! BUSTED</font></td></tr><tr><td><font face=arial size=2><a href="mailto:f209@aol.com">Frank Walsh</a></font><font face=arial size=2> - Mon May 28 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>But Joey G is my biatch...why is he cruisin' MIkey D?</font></td></tr><tr><td><font face=arial size=2>LoneRogue27</font><font face=arial size=2> - Mon May 28 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>the forst one was mine too, chicken soup is good and mike likes to pour it down his p_ussy</font></td></tr><tr><td><font face=arial size=2>chicken soup</font><font face=arial size=2> - Mon May 28 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>200 dollars in one pocket, a thousand in the other should even some things out.</font></td></tr><tr><td><font face=arial size=2>eric hunter</font><font face=arial size=2> - Mon May 28 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>even out the fact that one pocket is heavier then the other. let's hope tat dosen't #&!% things up. see u guys there.</font></td></tr><tr><td><font face=arial size=2>eric hunter</font><font face=arial size=2> - Mon May 28 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>You think the Romulan underground would lose in Jersey? What are you fools crazy? Drunk Tank will be in effect.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:killerb2kthegame@hotmail.com">KillerB</a></font><font face=arial size=2> - Mon May 28 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Where's the $1,000 Trek tournament? Like a wise man once said "I'm a fool and you love me. Now give me my money."</font></td></tr><tr><td><font face=arial size=2><a href="mailto:killerb2kthegame@hotmail.com">KillerB</a></font><font face=arial size=2> - Mon May 28 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>good thing it's on MAY 8TH</font></td></tr><tr><td><font face=arial size=2>snider</font><font face=arial size=2> - Mon May 28 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Well, i missed Vegas, but since Ramapo is around 30 hours closer to home.... If anyone from Montreal/Albany(it's on the way) needs a lift, just d-mail me.</font></td></tr><tr><td><font face=arial size=2>-Avatar-</font><font face=arial size=2> - Mon May 28 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>joe calm down ill have sex with u at a later date, not yet. at ramapo u can rape me</font></td></tr><tr><td><font face=arial size=2>mike dalton</font><font face=arial size=2> - Tue May 29 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>hell no u perve just call up ur butt buddy, marc and ask if he will do u. Probaly not im not sure he likes stutering mikelys</font></td></tr><tr><td><font face=arial size=2>chicken soup</font><font face=arial size=2> - Tue May 29 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>MIKE DALTON LIKES TO POUR CHICKEN SOUP DOWN HIS PUSSY. AND THEN LET MARC ANTHONY LICK IT UP.AHAHAHAHAAHH. ITS TRUE</font></td></tr><tr><td><font face=arial size=2>chicken soup</font><font face=arial size=2> - Tue May 29 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>No need to talk shyte about Dalton, chicken soup.</font></td></tr><tr><td><font face=arial size=2>MattSokol</font><font face=arial size=2> - Tue May 29 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>ya there is</font></td></tr><tr><td><font face=arial size=2>chicken soup</font><font face=arial size=2> - Tue May 29 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Avatar you wuss, I went to Vegas (the close one for me) and i'm going to ramapo :P</font></td></tr><tr><td><font face=arial size=2>Serpent</font><font face=arial size=2> - Tue May 29 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>"If you had a girlfriend, she'd kill you."</font></td></tr><tr><td><font face=arial size=2>Mock</font><font face=arial size=2> - Tue May 29 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Wuss!? Alright serpentor, i'm takin' you down in Ramapo!! :P</font></td></tr><tr><td><font face=arial size=2>-Avatar-</font><font face=arial size=2> - Tue May 29 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>But Joey, you promised...WAAAAHHHHHH!!!!!!!!</font></td></tr><tr><td><font face=arial size=2>Joeyluvr</font><font face=arial size=2> - Fri Jun 1 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>whoever joey is he probally kicks mike daltons ass all the time.</font></td></tr><tr><td><font face=arial size=2>chicken soup</font><font face=arial size=2> - Fri Jun 1 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I truly wonder how some people live as long as they do.  I'd like to thank Joey Gagliardi for once again showing everyone what a low-life scum he truly is and saving me and other's the time to tell everyone...  This is my 1st, and likely last comment on this idiotic thread - Mike Dalton.</font></td></tr><tr><td><font face=arial size=2>faramir</font><font face=arial size=2> - Sat Jun 2 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I can't wait to meet Mike Dalton at Ramapo, so he can point out this Joey geek so I can help Mike kick the geek's sorry ass. Then I'll buy Mike a beer for putting up with a bastard like that. SEE Y'ALL AT RAMAPO!</font></td></tr><tr><td><font face=arial size=2><a href="mailto:phobosmjb@hotmail.com">Phobos</a></font><font face=arial size=2> - Sat Jun 2 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>mike is fag and acts like a fag online mabey if u didn;'t critcize everyone, mabey more poeple would like him</font></td></tr><tr><td><font face=arial size=2>chicken soup</font><font face=arial size=2> - Sat Jun 2 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Will there be room parties at the Con? <img src=/news/smileys/smile.gif></font></td></tr><tr><td><font face=arial size=2>Drunken Maniac</font><font face=arial size=2> - Sat Jun 2 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Where's my frickin' Fantasy DPC????</font></td></tr><tr><td><font face=arial size=2>Serpent</font><font face=arial size=2> - Sun Jun 3 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Wow, you tried hard on that last fake post Joe.. I am impressed, but as hard as you tried, you still couldn't type correct english. "i am going to not to say anything else" - What the hell does that mean????? </font></td></tr><tr><td><font face=arial size=2>The Maker</font><font face=arial size=2> - Mon Jun 4 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>ya #&!% u all, if i read it over beofr ei posted i would of got it right oh no not that, but its true</font></td></tr><tr><td><font face=arial size=2>chicken soup</font><font face=arial size=2> - Mon Jun 4 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>LOL...i find this whole situation to be hilarious i'm going to enjoy rampo.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:f209@aol.com">Frank Walsh</a></font><font face=arial size=2> - Thu Jun 7 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>sweet frnka is going he talked his oaerents out oif it</font></td></tr><tr><td><font face=arial size=2>chiocken soup</font><font face=arial size=2> - Thu Jun 7 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>What?</font></td></tr><tr><td><font face=arial size=2>The Maker</font><font face=arial size=2> - Wed Jun 13 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>AWIGOWAY</font></td></tr><tr><td><font face=arial size=2>chicken soup</font><font face=arial size=2> - Thu Jun 14 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>AWIGOWAY</font></td></tr><tr><td><font face=arial size=2>chicken soup</font><font face=arial size=2> - Mon Jun 25 2001  </font></td></tr></table><p><font face=arial size=2><p>&nbsp;<a href="javascript:history.back(-1)">back</a></font><table><tr><td><font size=2 face=arial>*required fields<BR>only html tags <b>&lt;b&gt;,&lt;a&gt;,&lt;br&gt;</b> are allowed in your comment.</font></td></tr></table><br><form method=post action=/swccg/index.php3?artc=20><table><tr><td><font size=2 face=arial>*name</font></td><td><input type=text maxlength=150 name=name></td></tr><tr><td><font size=2 face=arial>email</font></td><td><input type=text maxlength=150 name=e_mail></td></tr><tr><td><font size=2 face=arial>url</font></td><td><input type=text maxlength=150 name=url></td></tr><tr><td valign=top><font size=2 face=arial>*comment</font></td><td><textarea rows=5 cols=25 wrap=soft name=comment></textarea></td></tr><tr><td>&nbsp;</td><td align=center><input type=hidden name=what value=post><input type=submit value="add comment"></td></tr></table></form>                         </font> </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <div align="center"> 
+              <p align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF" class="legal">Legal- 
+                TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and 
+                related marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher 
+                Inc. Decipher, Customizable Card Game, The Art of Great Games 
+                and associated marks and intellectual property are exclusively 
+                owned by Decipher Inc. All Rights Reserved. THIS Web Site IS NOT 
+                PRODUCED OR ENDORSED BY DECIPHER, INC OR LUCASFILM LTD. </font></p>
+              <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF" class="legal"> 
+                <br>
+                <a href="/swccg/main/terms.php3">Terms of Service</a> TM & © 2000 
+                www.decktech.net. All Rights Reserved. </font></p>
+            </div>
+            </td>
+        </tr>
+      </table>
+    </td>
+    <td width="180" valign="top" bgcolor="#000000" height="949"> 
+      <table border="0" cellspacing="0" cellpadding="0" width="150">
+        <tr align="right" valign="top"> 
+          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
+          <td width="154" valign="top" align="right"> 
+            <table width="154" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF">&nbsp; </td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF"> 
+                  <script language="JavaScript">
+
+function logout() {
+var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
+document.cookie = cookie;
+window.location = "../index.php3";
+	}
+
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+
+</script>
+                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
+<select name="select1" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="/swccg/resources/rulings.php3">Current Rulings</option>
+<option value="/swccg/main/decktech.php3">About DeckTech</option>
+<option value="/swccg/membercenter/directory.php3">Member Directory</option>
+</select>
+</form><BR>
+<!-- #EndLibraryItem --> </td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
+                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
+                  Center</a></font> <br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
+                  Reports </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
+                  Resources</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
+          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
+            <!-- #BeginLibraryItem "/Library/main.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td>&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/main/swccg.php3" class="level2nav">About 
+      SW:CCG</a><a href="/www/articles/strategy.php3" class="level2nav"> </a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/main/decktech.php3" class="level2nav">&nbsp;About 
+      DeckTech</a> <br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr>
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/main/join.php3" class="level2nav"> 
+      &nbsp;Sign Me Up!</a> <br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/main/projects.php3" class="level2nav">&nbsp;Community 
+      Projects </a> <br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/main/faq.php3" class="level2nav">FAQ 
+      </a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+  <tr> 
+    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/main/terms.php3" class="level2nav">&nbsp;Terms 
+      of Service</a><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --> </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
+          <td width="155" valign="top" height="13"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr align="left" valign="top" bgcolor="#630063"> 
+                <td width="154"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                    <tr bgcolor="#000000"> 
+                      <td height="34"><font face="Haettenschweiler, Impact, Arial Black" size="5">Community 
+                        Projects</font></td>
+                    </tr>
+                    <tr> 
+                      <td> 
+                        <p><font face="Arial, Helvetica, sans-serif" size="2">Are 
+                          you interested in helping to promote SW:CCG or grow 
+                          our community? Check out the current list of community 
+                          projects. From helping with technical skills or helping 
+                          organize events or publications. There is always something 
+                          that you can do. For more information.. <a href="/swccg/main/projects.php3"><br>
+                          <br>
+                          Read our Project List</a></font></p>
+                        </td>
+                    </tr>
+                    <tr> 
+                      <td>&nbsp;</td>
+                    </tr>
+                  </table>
+                  <BR>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

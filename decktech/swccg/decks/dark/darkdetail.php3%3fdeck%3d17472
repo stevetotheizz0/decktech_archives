@@ -1,0 +1,428 @@
+<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
+<head>
+<title>DeckTech - for the players, by the players.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/swccg/global/css/white.css">
+<!-- #BeginEditable "Style" --> 
+<style type="text/css">
+<!--
+.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
+.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
+.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
+.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
+.centercolor {  background-color: #313063}
+-->
+</style>
+<!-- #EndEditable -->
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript><!-- #EndLibraryItem --></td>
+    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
+      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
+    <td valign="top" class="centercolor" rowspan="2" > 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
+          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
+          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
+        </tr>
+        <tr> 
+          <td colspan="2"><!-- #BeginEditable "Body" --> 
+            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
+              <tr> 
+                <td bgcolor="#333366" height="12" valign="top" width="44%"><img src="/swccg/global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
+                <td bgcolor="#333366" align="right" valign="top" height="12" width="48%"><img src="/swccg/global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr> 
+                <td height="622" valign="top" colspan="2" bgcolor="#333366"><table width="100%" border="0" cellpadding="4"><tr bgcolor="#000000"><td><font color="#FFFFFF"><font face="Haettenschweiler, Tahoma, Arial" size="6">Heart Attack v2.0</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC="../images/dd9.GIF" BORDER=0><A HREF="darkread.php3?deck=17472"><IMG SRC="../images/ldread.GIF" BORDER=0></A><A HREF="darkreview.php3?deck=17472"><IMG SRC="../images/ldreview.GIF" BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="../../membercenter/directory/memberpage.php3?member=3797">Karim "kjedi" Jetha</A></FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Description</Font></TD><TD><font face="Arial, sans-serif" size="2">This one&#146;s better...</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Date Created</Font></TD><TD><font face="Arial, sans-serif" size='2'>July 12, 2001</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Cards</Font></TD><TD><font face="Arial, sans-serif" size="2">Heart Attack, after games of playtesting...	<br>
+<br>
+	OBJ<br>
+Set Your Course for Alderaan/The Ultimate Power in the Universe<br>
+<br>
+	FX<br>
+A Million Voices Crying Out Loud<br>
+Imperial Arrest Order<br>
+Oppressive Enforcement<br>
+Something Special Planned for Them<br>
+Flagship<br>
+Lateral Damage<br>
+Come Here, You Big Coward<br>
+Battle Order<br>
+<br>
+	Places<br>
+Death Star<br>
+Alderaan<br>
+DS: Docking Bay 327<br>
+DS: Conference Room<br>
+DS: War Room<br>
+Fondor<br>
+Sullust<br>
+Endor<br>
+Kashyyyk<br>
+<br>
+	People<br>
+Lord Vader<br>
+U-3P0<br>
+Mara, TEH<br>
+DS Gunner x3<br>
+Captain Godherdt<br>
+Captain Gilad Pallaeon<br>
+Officer Evax<br>
+Commander Nemet<br>
+Admiral Motti<br>
+Admiral Piett<br>
+Admiral Chiraneau<br>
+Admiral Ozzel<br>
+Admiral, Grand Thrawn<br>
+Commander Merrejk<br>
+<br>
+	Interupts<br>
+Imperial Command x4<br>
+Put All Sections on Alert x3<br>
+Tarkin&#146;s Orders<br>
+Monnok<br>
+Ghhhk<br>
+Gravity Shadow<br>
+Prepared Defenses<br>
+Masterful Move<br>
+Twi&#146;lek Advisor<br>
+Overload<br>
+<br>
+	Jank<br>
+Commence Primary Ignition<br>
+Superlaser<br>
+<br>
+	Boats<br>
+Conquest<br>
+Chimaera<br>
+Devastator<br>
+Executor<br>
+Dominator<br>
+Tyrant<br>
+Thunderflare<br>
+Avenger<br>
+Accuser </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Strategy</Font></TD><TD><font face="Arial, sans-serif" size="2">if you&#146;re going to give me three stars, that&#146;s okay, if you tell me why.<br>
+I don&#146;t think ***-NO! is a good review, like what happened last time...<br>
+--------------------<br>
+The start is V 2.0 is much more flexible than the earlier version.<br>
+You will definitely need Million Voices...<br>
+Battle Order is to hamper earlier drains, so I would start it.<br>
+And then usually IAO or Oppressive, so they can&#8217;t Naburn right after you flip, or to increase your destinies and to Protect vs. SAC a little.<br>
+--------------------<br>
+<br>
+Card Choices:<br>
+Tarkin&#8217;s Orders/Gravity Shadow? Hinder Hyper Escapes, It Could Be Worse, and even Collision<br>
+Flagship? This card ROCKS!  Deploy it on a Destroyer, and it&#8217;s invincible.  The rebels won&#8217;t dare initiate a battle against your flagship because THE WHOLE IMPERIAL STARFLEET WILL JOIN THEM.  This includes Thrawn wherever he may be at the time...  Try it, it&#8217;s godly.<br>
+Dominator? It&#8217;s a victory class, but Dom is still the bomb.  Deploy cheap, high ability:  Dom is truly a pimp.<br>
+Nemet?  This used to be DS 181 3 but Nemet cancels to AND from reacts.  No hyper escapes, spiral, etc.<br>
+Evax? Forfeit 7, 9 when with Gilad. PIMP.  (gametext is good as well.)<br>
+CHYBC? Aside from the conventional uses of this card, it can stop drains at DS system and all of it&#8217;s sites.  &#8217;Nuff Said.<br>
+<br>
+Strategy: there&#8217;s now two different strats.<br>
+<br>
+The first is to play this like a non-flip BigBlue deck.  Get heavy drains and the flip at your own leisure.<br>
+That puts the stress on the ls early, and is killer once you actually flip.  I recommend this.<br>
+<br>
+Number 2 is the speed CPI, it&#8217;s better against deck that take a while to set up them selves.  Then you can make the most of your retreival, etc...<br>
+Blow up Alderaan.  If you can pull that off (before turn 5), you should have NO TROUBLE in this game (assuming you&#8217;re smart).<br>
+I&#8217;m assuming you know how to blow up Alderaan... You prolly noticed that 3 DS Gunners and 2 Sites, and Superlaser prolly won&#8217;t be pulled in 5 turns, it&#8217;s okay: you won&#8217;t need it all.  You&#8217;ll need help against decks like EBO (and MBO), and it&#8217;s going to take longer...  And if you botch it your first try, use PASOA to retreive up to two DS gunners, and try again.... (the first thing you do is get the superlaser on the ds... you pile the very first ds gunner, so you can start getting moving throught the parsecs.<br>
+<br>
+vs. EBO: don&#8217;t blow up alderaan.  Blow up hoth.  You&#8217;ll need to get EVERYTHING set up, but track something, and you&#8217;ll blow up their planet.  This stops EBO, and makes them lose 16 force.  After that, move back and maybe blow aderaan.  If you want... Chiranu still works, and Marrejk pulls out systems..<br>
+vs. MBO: I have no idea.  I&#8217;d play it like the EBO strat.  Who ever blows up the other one&#8217;s stuff first wins.  Don&#8217;t flip, even though flipping gives you +3 force loss for each site... You don&#8217;t want the DS to get blown up... You will lose 14 force if it does, and that is bad.  If Yavin4 is blown the ls will lose like 14-16 force...  (if you manage to flip on the way to yavin, it&#8217;s almost thirty!)<br>
+<br>
+If the LS invades the DS through The DB with EPP&#8217;s just Put All Sections on Alert them.  Then Hack &#8217;em up with any combo of character to get 4-abiltiy.  The LS will have no destiny, and you&#8217;re safe.<br>
+<br>
+<br>
+After you blow up Alderaan, have fun.<br>
+STEP ONE(SYSTEMS): Deploy a system every turn with your objective<br>
+STEP TWO(RETREIVE): Deploy 3-4 destroyers with ability-4 at your systems. <That&#8217;s 12 force back!!><br>
+STEP THREE(COMMAND): Play Imperial Command to pull Adm. Chinny.<br>
+STEP FOUR(SHAKE YOUR OPPONENT&#8217;S HAND AND TELL HIM HE LOST): You now drain for +3 at all of your (battleground) systems<br>
+<br>
+<let&#8217;s do the math, shall we?><br>
+Endor (drain 5)<br>
+Sullust (drain 5)<br>
+Kashyyyk (drain 5)<br>
+Fondor (drain 4)<br>
+(I pulled out kessel &#8217;cause I thought the drains are okay anyways, and it&#8217;s another zero)<br>
+------------------<br>
+Total (drain 19)<br>
+<br>
+If your opponent has ANY cards on the table, this will eliminate most of his hand AND make him lose cards off the top AND disrupt his strategy.<br>
+If you can pull this off once, you will do fine.  After this, deploy the rest of the destroyers in your hand in from of anything she&#8217;s got in the air... A battle is okay, you&#8217;ve retreived 3 for deploying, and forefit is enormous.  Obviously, don&#8217;t do this in certain situations. (ie watch your step vs. Dash and Outrider...)<br>
+<br>
+Just don&#8217;t be Stupid after you flip and it&#8217;s hard to lose.<br>
+<br>
+If you still have Gunners out, you can send them to your used pile to increase your diff.<br>
+<br>
+Okay, after playtesting, these are the changes I&#8217;ve made.  It still hasn&#8217;t won a game, but that&#8217;s due to my stupidity, and not the deck quality...<br>
+Read my TR next week to see how it does in the tournement....<br>
+D-Mail me if you&#8217;re interested in what happens there regarging this deck.<br>
+D-mail me or E-mail me (kjedi@juno.com) or IM me (jediman jetha) if you have any more questions.<br>
+<br>
+I&#8217;m out.<br>
+Karim.  </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="darkdecks.php3"><img src="../images/ldback.GIF" border="0"></a><A HREF="darkread.php3?deck=17472"><IMG SRC="../images/ldread.GIF" BORDER=0></A><A HREF="darkreview.php3?deck=17472"><IMG SRC="../images/ldreview.GIF" BORDER=0></A><a href="deckprint.php3?deck=17472" TARGET="BLANK_"><img src="../images/ldprint.GIF"  border="0"></a></FONT></TD></TR></TABLE> </td>
+              </tr>
+            </table>
+            <!-- #EndEditable --></td>
+        </tr>
+      </table>
+    </td>
+    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
+      <table border="0" cellspacing="0" cellpadding="0" width="150">
+        <tr align="right" valign="top"> 
+          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
+          <td width="154" valign="top" align="right"> 
+            <table width="154" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF">&nbsp; </td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF"> 
+                  <script language="JavaScript">
+
+function logout() {
+var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
+document.cookie = cookie;
+window.location = "../index.php3";
+	}
+
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+
+</script>
+                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
+<select name="select1" onChange="go(this)">
+    <option selected>Quick Jump</option>
+    <option value="/swccg/resources/rulings.php3">Current Rulings</option>
+    <option value="/swccg/main/decktech.php3">About DeckTech</option>
+    <option value="/swccg/membercenter/directory.php3">Member Directory</option>
+    <option value="#">-----------------------------</option>
+    <option value="http://www.decktech.net">decktech.net</option>
+  </select>
+</form><br>
+<!-- #EndLibraryItem --> </td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
+                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
+                  Center</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
+                  Reports </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/treports/index.php3" class="level1nav"></a></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav"></a><a href="/swccg/shop/index.php" class="level1nav">Tech 
+                  Shop </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
+                  Resources</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
+          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/decks.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/index.php3" class="level2nav">Decks 
+      Home</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/dark/darkdecks.php3" class="level2nav">Dark 
+      Decks</a><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/light/lightdecks.php3" class="level2nav">Light 
+      Decks</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
+          <td width="155" valign="top" height="13"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr align="left" valign="top" bgcolor="#630063"> 
+                <td width="154">
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
+                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
+      Updates</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2002-07-03</font><BR><a href='  /magination/main/jenpage.php'><font face='Arial, sans-serif' size='2'>Jenifer Hunter</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2002-07-29</font><BR></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
+      Tips</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><p><font face='arial' size='2' color='#ffffff'>Before submitting something, put it in a simple word processor like wordpad. Spell check it, then just use select all and copy/paste to put onto DeckTech. That way if something goes wrong, you will still have a copy.</font></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

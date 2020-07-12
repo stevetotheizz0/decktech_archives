@@ -1,0 +1,937 @@
+ 
+
+<html><!-- #BeginTemplate "/Templates/new_format_main.dwt" --><!-- DW6 -->
+<head>
+<title>Welcome HeroClix Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="HeroClix, Wizkids,
+miniatures, Marvel, DC, Marvel Heroclix, DC Heroclix, comic figures
+"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #000099;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #CCCCCC; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none; background-image: url(/heroclix/gfx/theme1/background.gif); }
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #FFFFFF;
+		margin: 5px 5px; 		
+}		
+
+.cbody A:link {  
+		color: #4078CF;
+}
+.nav2 {  
+	color: #FFFFFF;
+	font-weight: bold; 
+	font-size: 7pt; 
+	text-decoration: none;	
+}
+.nav2 A {  
+		color: #FFFFFF;
+		text-decoration: none;		
+}
+.nav2 A:hover {  
+		color: #FF0000;
+		text-decoration: none;		
+}
+
+#auction .main { 
+	width: 100%;
+	height: 98px;
+	text-align: right;
+	font-size: 9pt;
+	font-weight: bold;	
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000; 
+	border: 1px;
+	border-style: solid;
+	border-color: #AAAAAA;
+	background: url(/heroclix/gfx/theme1/v_lightbar.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#auction .headline { 
+	font-size: 10pt;
+	text-align: left;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 15px;
+	padding-top: 4px;	
+	padding-bottom: 4px;	
+}
+
+#auction .content { 
+	text-align: center;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000; 
+	padding-left: 10px;
+	padding-top: 4px;	
+	padding-bottom: 4px;	
+}
+
+
+
+
+
+#news .main { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;		
+}
+
+#news .header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px; 
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_large.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+#news .story { 
+	width: 100%;
+	text-align: left;
+	background-color: EFEFEF;
+}
+#news .whowhen { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	color: #000000; 
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 4px;
+	background-color: #DDDDDD;	
+}
+#news .link { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: right;
+	padding-right: 4px;
+}
+#news .friend { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: right;
+	border: 0px;
+	border-bottom: 1px;
+	border-style: dotted;
+	border-color: #666666;	
+	padding-right: 4px;
+	padding-bottom: 4px;	
+}
+#news .text { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	padding-right: 4px;
+	padding-left: 8px;				
+}
+#news .comment { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: left;
+	text-decoration: normal;
+	padding: 4px;
+	padding-left: 10px;	
+}
+#news .poster { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: left;
+	text-decoration: normal;
+	padding: 4px;
+	padding-left: 10px;	
+	color: #990000; 
+	font-weight: bold;	
+	border: 0px;
+	border-bottom: 2px;
+	border-style: dotted;
+	border-color: #666666;
+}
+#news .date { 
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-align: right;
+	text-decoration: normal;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+#news .more { 
+	text-align: right;
+	font-size: 7pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;	
+	padding-right: 4px;	
+}
+#news .headline { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	text-align: left;
+	color: #000099; 
+	font-weight: bold;
+	padding-left: 8px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	border: 0px;	
+}
+
+
+#features .main { 
+	width: 100%;
+	text-align: left;
+	margin-bottom: 6px;	
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;		
+}
+
+#features .header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px; 
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_large.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+
+
+#mygroups .column { 
+	width: 159px;
+	background-color: #EAEAEA;
+	text-align: left;
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;	
+	border-style: solid;
+	border-color: #666666;		
+}
+
+
+#mygroups .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_blue.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+#mygroups .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_red.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+
+.column { 
+	width: 159px;
+	background-color: #FFFFFF;
+	text-align: left;	
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;	
+	border-style: solid;
+	border-color: #666666;
+}
+
+
+
+
+.r2header { 
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000099; 
+	font-weight: bold;	
+	padding-left: 16px;
+	padding-bottom: 2px;
+	padding-top: 3px;
+	border: 0px;
+	background: url(/heroclix/gfx/theme1/lightbar_total.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;			
+}
+
+.sectionhead {
+padding-top: 2px;
+padding-left: 8px;
+padding-bottom: 1px;
+border: 0px;
+border-bottom: 1px;
+border-style: solid;
+border-color: #666666;
+background-color: #CCCCCC;
+}
+
+.more a {
+	font-size: 7pt;
+	color:#888888;
+	padding-right: 4px;
+}
+
+ .r2td { 
+			font-size: 7pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #000000; 
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;
+			border: 0px;
+			border-bottom: 1px;
+			border-style: solid;
+			border-color: #666666;
+			background: url(/heroclix/gfx/theme1/arrow_blue.gif);
+			background-repeat: no-repeat;
+			background-position: 0% .6em;
+			background-color: transparent;			
+}
+
+
+.r2td A:link {
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+}
+.r2td A:active {			
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+			}
+.r2td A:visited {	
+			font-size: 7pt;
+			font-family:  Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+			color: #000099;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+
+.footerOne {
+			font-size: 8pt;
+			text-align: left;
+			font-weight: bold;									
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #AAAAAA; 
+			border: 0px;
+			background: url(/heroclix/gfx/theme1/footer1_back.gif);
+			background-color: transparent;
+}
+
+.footerOne A {
+			color: #EAEAEA; 
+}
+
+.footerOne A:hover {
+			color: #FFFFFF; 
+}
+
+.footerTwo {
+			font-size: 7pt;
+			text-align: left;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #999999; 
+			border: 0px;
+			background: url(/heroclix/gfx/theme1/footer2_back.gif);
+			background-color: transparent;
+}
+
+.footerTwo A {
+			color: #666666; 
+}
+
+.footerTwo A:hover {
+			color: #EAEAEA; 
+}
+
+
+
+.footerThree {
+			font-size: 7pt;
+			text-align: center;			
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #EEEEEE; 
+			border: 0px;
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;			
+}
+
+.footerFour {
+			font-size: 7pt;
+			text-align: center;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #888888; 
+			border: 0px;
+			padding-left: 12px;
+			padding-bottom: 4px;
+			padding-top: 4px;			
+}
+
+.mainheader { 
+			height: 51px;
+			width: 549px;
+			font-size: 11pt;
+			font-weight: bold;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #990000; 
+			padding-left: 35px;
+			padding-right: 12px;			
+			padding-bottom: 8px;
+			padding-top: 8px;
+			margin-top: 10px;
+			background: url(/heroclix/gfx/theme1/main_layout_header1.gif);
+			background-color: transparent;
+			background-repeat: no-repeat;			
+}
+.maincontent { 
+			width: 536px;
+			font-size: 8pt;
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			padding-left: 4px;
+			padding-right: 4px;			
+			padding-bottom: 4px;
+			padding-top: 4px;
+			margin-left: 10px;
+			margin-bottom: 10px;			
+			border: 1px;
+			border-style: solid;
+			border-color: #CCCCCC;
+			background-color: #FFFFFF;			
+}
+
+#Last24Hours .header {
+			font-size: 12pt;
+			font-weight: bold;			
+			font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			border: 0px;
+			border-bottom: 1px;			
+			border-style: solid;
+			border-color: #666666;
+     		color: #FFFFFF; 
+			padding: 4px;
+			margin: 0px;
+			background: url(/heroclix/gfx/24back.gif);			
+}
+
+#Last24Hours .content {
+			background-color: #000000;			
+			padding: 5px;
+			margin: 0px;
+}
+
+#captain .main {
+	padding: 3px;
+	border: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #CCCCCC;
+	margin-bottom: 6px;	
+}
+
+#captain .headline A {
+	width: 100%;
+	font-size: 9pt;
+	font-weight: bold;			
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;	
+	padding-left: 8px;
+	padding-right: 4px;			
+	padding-bottom: 4px;
+	padding-top: 4px;	
+	color: #FFFFFF; 
+	background-color: #990000;
+	border: 1px;	
+	border-style: solid;
+	border-color: #FFFFFF;
+}
+
+#captain .content {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #666666;
+	padding-left: 0px;	
+	padding-top: 4px;		
+	padding-bottom: 4px;
+}
+
+#teams .main {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #ffffff;
+	margin-bottom: 6px;	
+	padding: 2px;		
+	border: 0px;
+	background-color: #000099;		
+}
+
+#teams .header {
+	font-size: 8pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #FFFFFF;
+	padding-left: 4px;	
+	padding-top: 2px;		
+	padding-bottom: 2px;
+	margin: 0px;
+}
+
+#teams .team {
+	font-size: 7pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #666666;
+	padding-top: 4px;		
+	padding-bottom: 4px;
+	border: 0px;
+	border-bottom: 1px;			
+	border-style: solid;
+	border-color: #666666;
+	background-color: #CCCCCC;		
+}
+#teams .title A {
+	font-size: 7pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000;
+	padding-left: 4px;	
+	padding-top: 4px;		
+	padding-bottom: 4px;
+	margin: 0px;
+}
+
+#teams .content {
+	font-size: 6pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000000;
+	padding-left: 4px;	
+	padding-top: 2px;		
+	padding-bottom: 4px;
+}
+
+#features .article { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;
+}
+
+#features .report { 
+	width: 100%;
+	text-align: left;
+	border: 0px;
+	border-bottom: 1px;		
+	border-style: solid;
+	border-color: #AAAAAA;
+	background-color: #EAEAEA;	
+}
+
+
+
+#features .title { 
+	font-size: 7pt;
+	font-weight: bold;	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #990000;
+	padding-left: 4px;	
+	padding-top: 6px;		
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+#features .content {
+	font-size: 6pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: normal;
+	color: #000000;
+	padding-left: 4px;	
+	padding-top: 0px;		
+	padding-bottom: 4px;
+}
+
+-->
+</style>
+</head>
+<body 0><center>
+<table  cellspacing='0' cellpadding='0' border=0>
+  <tr> 
+    <td width="1" height="9" valign="top">
+<table width="764" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td colspan="3"><img src="/heroclix/gfx/clear.gif" width="2" height="11"></td>
+  </tr>
+  <tr> 
+    <td colspan="3"><img src="/heroclix/gfx/theme1/header_top.jpg" width="764" height="64" border="0" usemap="#Map2"></td>
+  </tr>
+  <!-- This is the Non Member Row -->
+  <tr> 
+    <td background="/heroclix/gfx/theme1/header_mid_back.jpg" width="118"><img src="/heroclix/gfx/theme1/header_mid_1.jpg" width="118" height="30" hspace="0" vspace="0" border="0" usemap="#Map3"></td>
+    <td background="/heroclix/gfx/theme1/header_mid_back.jpg" width="438"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <form name="login" method="post" action="/heroclix/treports/treports.php"><input type="hidden" name="PHPSESSID" value="546250519c230785230fac230b133803" />
+          <tr> 
+            <td align="left" valign="middle" width="15"><input name="sname" type="text" id="name" maxlength="22" size="7">&nbsp;</td>
+            <td width="67"><img src="/heroclix/gfx/theme1/header_mid_2.jpg" width="67" height="30" hspace="0" vspace="0" border="0"></td>
+            <td align="left" valign="middle" width="15"><input name="password" type="password" id="password" maxlength="14" size="7">&nbsp;</td>
+            <td><input type="hidden" name="mlogin" value="true"> <input name="submit" type="image" id="submit" src="/heroclix/gfx/theme1/header_mid_go.jpg?PHPSESSID=546250519c230785230fac230b133803"></td>
+            <td width="20" align="center"><img src="/heroclix/gfx/theme1/header_mid_spacer.jpg" hspace="0" vspace="0" border="0"></td>
+            <td width="92" align="center"><a href="/global/forgot.php?PHPSESSID=546250519c230785230fac230b133803"><img src="/heroclix/gfx/theme1/header_mid_forget.jpg" width="62" height="30" hspace="0" vspace="0" border="0"></a></td>
+            <td><a href="/heroclix/main/join.php?PHPSESSID=546250519c230785230fac230b133803"><img src="/heroclix/gfx/theme1/header_mid_sign.jpg" hspace="0" vspace="0" border="0"></a></td>
+          </tr>
+        </form>
+      </table></td>
+    <td align="right" background="/heroclix/gfx/theme1/header_mid_back.jpg" width="208"><img src="/heroclix/gfx/theme1/header_mid_3.jpg" width="208" height="30" hspace="0" vspace="0" border="0"></td>
+  </tr>
+  <!-- End Non Member Row -->
+  <tr> 
+    <td colspan="3" align="right"><img src="/heroclix/gfx/theme1/header_navbar.gif" width="744" height="19" hspace="0" vspace="0" border="0" usemap="#Map"></td>
+  </tr>
+  <tr> 
+    <td colspan="3" background="/heroclix/gfx/theme1/nav2_back.jpg" class="nav2">
+	<img src="/heroclix/gfx/clear.gif" width="150" height="15" align="left">
+	<img src="/heroclix/gfx/theme1/nav2_concector.gif" height="15" align="left">	
+ 
+<a href="/heroclix/treports/treports.php?cat=constructed&PHPSESSID=546250519c230785230fac230b133803">Constructed</a> | 
+<a href="/heroclix/treports/treports.php?cat=sealed&PHPSESSID=546250519c230785230fac230b133803">Sealed Deck</a> 
+ 
+</td>
+  </tr>
+</table>
+
+<map name="Map">
+  <area shape="rect" coords="3,2,35,17" href="/heroclix/index.php?PHPSESSID=546250519c230785230fac230b133803">
+  <area shape="rect" coords="39,2,80,17" href="/heroclix/teams/index.php?PHPSESSID=546250519c230785230fac230b133803">
+  <area shape="rect" coords="82,2,130,17" href="/heroclix/articles/index.php?PHPSESSID=546250519c230785230fac230b133803">
+  <area shape="rect" coords="132,2,181,17" href="/heroclix/treports/index.php?PHPSESSID=546250519c230785230fac230b133803">
+  <area shape="rect" coords="184,2,283,17" href="/heroclix/resources/index.php?PHPSESSID=546250519c230785230fac230b133803">
+  <area shape="rect" coords="285,2,350,17" href="/heroclix/themes/index.php?PHPSESSID=546250519c230785230fac230b133803">
+</map>
+<map name="Map2">
+  <area shape="rect" coords="30,14,102,63" href="/index.php?PHPSESSID=546250519c230785230fac230b133803">
+</map>
+<map name="Map3">
+  <area shape="rect" coords="29,1,103,18" href="/index.php?PHPSESSID=546250519c230785230fac230b133803">
+</map>
+<map name="Map4">
+  <area shape="rect" coords="31,2,85,18" href="/index.php?PHPSESSID=546250519c230785230fac230b133803">
+</map>
+</td></tr></table>
+<table width='764' cellspacing='0' cellpadding='0' border=0>
+ <tr> 
+<td valign="top"  width='20'> 
+ <img height=3 hspace=0 vspace=0 src="/heroclix/gfx/clear.gif" width=20 border=0></td>
+<td valign="top" valign="top" bgcolor="#FFFFFF"> 
+ <img height=3 hspace=0 vspace=0 src="/heroclix/gfx/clear.gif" width=10 border=0></td>
+<td width="80%" valign="top"  bgcolor='#FFFFFF'> 
+ <!-- #BeginEditable "Body" --> 
+
+            <BR><center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript></center><div class='main'><div class='mainheader'><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Tournament Reports</td><form method='post' action=''><input type="hidden" name="PHPSESSID" value="546250519c230785230fac230b133803" /><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Tournament Reports</option><option value='#'> </option><option value='/starwarsccg/treports/index.php3'>Star Wars: CCG</option><option value='/heroclix/treports/treports.php'>HeroClix</option><option value='/vs/treports/treports.php'>Marvel VS</option><option value='/lotr/treports/treports.php'>Lord of the Rings</option><option value='/magination/treports/treports.php'>Magi-Nation Duel</option><option value='/swtcg/treports/treports.php'>Ophidian 2350</option><option value='/magic/treports/treports.php'>The Wastelands</option></select></td></form></tr></table></div><div class='maincontent'><font class="h1font"> Valhalla&#39;s Gate Columbia MO 7-27-04*LONG<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/heroclix/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/heroclix/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/heroclix/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/heroclix/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/heroclix/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(5.00)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/heroclix/main/mpage.php?member=15817'>matt "mattsolo" solo</A></font><font class="afont"> <a href='http://www.decktech.net/heroclix/main/mpage.php?member=15817&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> July 27, 2004</font><p align='justify'><blockquote><font class="bfont"> Well last night ended my LONG clix drought since I sold all of mine. TechLee loaned me the figs for an “I hate Spiderman team”. It is posted just go to my page. I thought I would play a themed team and have some fun getting stomped by Doc Sampson and Invisible Wench! The set up was a 300 pt mixed and I knew I was in trouble real quick. My team consisted of Carnage, Green Goblin, Vet Bullseye, Exp Sandman, E Vulture and a R Paramedic =299 If you can read the whole thing cause I get real lucky in spots, but if you can’t read the whole article READ MATCH 3 it’s great!!<br />
+<p><br />
+My first match was Vs another Matt, a new guy I had never played before. When he sat down I knew I was in trouble. On the truck stop map  He was playing a R Sentinel, 2 R hookers, E Deo, R Killer Frost, R Pyro, R Blizzard, E Raven.  4 barrier people my jaw dropped. ARRRGG! I pulled 3 heavy objects, go me! He wins the toss and proceeds to activate the girls and moves the Grape, Pyro, and Raven halfway across the board! I was amazed at this mistake. I inched up Bullseye just in range and flew Sandman via the Vulture Taxi near but not basing the Sentinel out range of his other figs. He takes the bait. Pushing he charges the Sentinel to do 4 with the mulit-shot, misses, PC with Raven, Hits for 2. Fires again, Miss! My mouth starts to water, I may have a shot. He puts up a bunch of barrier and it’s my turn. I fire with Bullseye; he gets help from Carnage and GG. Blam! The Sentinel is down 4 clix. Sandman gives the Sentinel 1 more past toughness and Vulture pushes to fly back to the Hookers. Goblin moves up with a dumpster and Carnage 2 spaces away from the Sentinel both in hindering. Mac 2s attack is an 9 with the Sentinel now pushing again, he charges with the hookers to do 3 with each hit. But now my guys have an 18 and 17 defenses. He misses them both and puts up a barrier. Then Pulse wave with Blizzard. Willpower with Goblin to hit him for 3 past his toughness, then Carnage hits for 2 more. Now I know he is not counting the clix on his Sentinel but I sure as hell am that’s 11. He pushes to run the Sentinel away, and it dies! YIPPY! Sandman and Vulture Kill one hooker and knock the other one off perplex. Carnage and Goblin Kill Raven. Then they call last action. He shoots with Pyro at Goblin to do 4 with perplex. I’m like ok… He CRIT HITS! Kills Goblin. OH CRAP THIS IS GONNA BE CLOSE! It is I win by 20 points. MVP Sandman for Killing the Hooker and winning me the game!<br />
+<p> <br />
+Game 2. My opponent is a buddy of mine Pete. We won a bunch of Battle Royals teaming up last year at Wiz Con. He comes over and says “Let’s play here”. So the Truck stop it is. He is playing Vet Johnny Alpha, V Abomination, V Dopipeweed, V Deathstroke, V Paramedic. I say “Well Abomination is about to eat my lunch!” Pete chuckles and replies “You never no Mr. Solo, you’re a good player” while he wins the roll and gets all the heavy objects and places them 5 or 6 spaces up from his starting area in a line. I take a deep breath while he moves Johnny & Deathstroke into the objects and Abom on to the 3rd next to Alpha. I grab the Desk and Carnage with Bullseye and move into hindering. Vulture flies Sandman toward the line but out of range. Pete clears. I perplex up Bullseye’s range and damage and shoot at Abom. I miss! DAMN! You can guess what happened next. Abom TKed up push to hit Carnage for 7 with Ocks perplex Carnage takes 6. He moves up Deathstroke in to stealth, and outwits my Super Strength on Goblin. My turn Deathstroke gets 3 from Sandman, Abom Gets 3 from Goblin after a Carnage outwit. Bullseye hits Ock for 3 Carnage LC away from Abom. “I’m gonna roll to Break away from Sandman” says Pete. “You need a 6 cause of Sandman’s Plasticity!” I reply. He moves Ock B2B with Bullseye, clears. I hit Stroke again with Sandman for 4 with help from Ock, while Bullseye and GG put Abom away. It goes down hill from there. I win Total KO no losses. Sorry Pete.<br />
+<p><br />
+For all the Marbles I play Tony, the Tiger Trombonist, a collage kid from MU who is a hell of a player. He sits down across from me at the Truck stop map and fields, E Hercules, Vet Spiderman ULT, LE Electra, E Quick Silver, Vet Johnny Alpha, and LE Hank McCoy he won at the Sealed last week. I am dead! 1st move goes to him, He gets Alpha in to stealth, Herc next to him with a heavy object and Electra half way across the board. My go. I fly up Sandman just out of rant of Electra to give him something to think about. And then fly Bullseye 10 spaces away with GG hoping the trick I pulled on Pete will work twice. It does he moves up QS next to Johnny, and Hank and Spidey near Electra. I bump up Bullseye Damage to 4 and attack to 12 and fire at Hurc. Tony is pissed. I fly Sandman (who is in Spiderman’s range now) next to Hank and tie him down, every one else clears. I get a juiced QS tked up to Bullseye, taking 8 with Flurry. Bye bye Bullseye. Then he pushes Electra to hit Sandman, plink for one. I execute QS with Carnage and GG, and I give Hank a good thump with a Sandman push for 4, dead. On his turn Tony Tks the ailing Herc at GG and misses. Spiderman grabs another object to toss, Electra at Vulture misses. My turn GG with Wp hits Hurc for 3 more KO. Push on Vulture to base Electra. Tony pushes Electra off her 3 damage but kills Electro in doing so. I clear. He retreats with Johnny and Spiderman. I kill Electra with Sandman and Fly Carnage over B2B with Alpha. HE TKS SPIDERMAN NEXT TO GOBLIN!!! I take 5 from the object and am in some deep trouble. I base Alpha with Sandman, and run to the medic with GG and WP making my break away roll. Tony can Smell the blood and gives chase. Carnage is still 2 Spaces away from Alpha but can perplex Sandman. I do hit for 4, Tony misses the SS roll. Then Carnage hits for 2 more KO Johnny. GG clears. Spidey clears and Goblin makes breakaway and heads for the medic. SON OF A took IS MISS THE HEALING ROLL!!!!! Carnage moves in to eat Spiderman when he kill Goblin. Tony bases the medic and Goblin with Spiderman with will power. Roll for Break with GG, miss *Damn*! I can still lose the turny  on points if I lose too many figs. I say “ The medic is going to try and roll crit on Spiderman.” Tony grins, He knows next turn Goblin is all his. CRIT HIT!!! Them mepipeweedicks Spiderman in the nuts for 1 damage and a knock back. Dumbfounded Tony clears. I should have ran but I gave Tony a chance and rolled to heal GG, Crit Hit AGAIN! Goblin heals for 5. Carnage closes in perplexes Gobbys Damage. I hit for 4. He misses the Super Scenes roll. He rolls on the medic just to spit in my eye and does one to her. Goblin Kills the SPIDER, End Game!! I win 3-0! I am so the man!<br />
+<p>I got really lucky with my rolls and with my opponents mistakes. I won an LE Shade witch I quickly traded for an LE Hawk Girl. I had a great time proving you can win with out TK, outwit, or hookers and a good theme, it’s just real hard. <br />
+<p> Have fun, and play themes.<br />
+<p> SOLO OUT!<br />
+ <br></font></blockquote><BR><font class="bfont"> <A HREF='/heroclix/treports/treports.php?id=5137&view=1&PHPSESSID=546250519c230785230fac230b133803'>Read the Reviews</a><font class="bfont"> | <A HREF='/heroclix/treports/treports.php?PHPSESSID=546250519c230785230fac230b133803'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/heroclix/main/join.php?PHPSESSID=546250519c230785230fac230b133803'> become a registered member</a></font></div></div>
+
+
+ <!-- #EndEditable -->
+</td>
+<td valign="top" valign="top" bgcolor="#FFFFFF"> 
+<img height=3 hspace=0 vspace=0 src="/heroclix/gfx/clear.gif" width=10 border=0></td>
+<td width='167' bgcolor='#E5E5E5' valign='top'>
+<center>
+    <a href="/promo/index.php?PHPSESSID=546250519c230785230fac230b133803"><img src="/heroclix/gfx/theme1/contest.gif" width="160" height="20" hspace="4" vspace="4" border="0"></a> 
+  <div class='column'><div class='r2header'>Top Teams in last 30 days</div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=2031&PHPSESSID=546250519c230785230fac230b133803'>Guidelines of Destruction</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=2032&PHPSESSID=546250519c230785230fac230b133803'>Chump fools must die.</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=2015&PHPSESSID=546250519c230785230fac230b133803'>No Joke!</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=2023&PHPSESSID=546250519c230785230fac230b133803'>Sock Hop!</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=2030&PHPSESSID=546250519c230785230fac230b133803'>Run a Muk!</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=2024&PHPSESSID=546250519c230785230fac230b133803'>Tandem team</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=2020&PHPSESSID=546250519c230785230fac230b133803'>An Almost Painless Death</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=2026&PHPSESSID=546250519c230785230fac230b133803'>C.A.P.E.S</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=2033&PHPSESSID=546250519c230785230fac230b133803'>Not Foolin&#39; Around</A></div><div class='r2td'><A HREF='/heroclix/teams/decks.php?deck=2035&PHPSESSID=546250519c230785230fac230b133803'>Microscope</A></div><div class='sectionhead' align='right'><div class='more'><A href='/heroclix/teams/decks.php?PHPSESSID=546250519c230785230fac230b133803'>All</A></div></div></div><a href="/heroclix/main/today.php?PHPSESSID=546250519c230785230fac230b133803"><img src="/heroclix/gfx/theme1/updates.gif" width="160" height="20" hspace="4" vspace="4" border="0"></a> 
+</div><div class='column'><div class='r2header'>Auction</div><A href="http://www.decktech.net/auction/index.php">Currently 2 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=546250519c230785230fac230b133803'>List Your Item!</a> 
+<P><div class='column'><div class='r2header'>Top Articles in last 30 days</div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=6092&view=2&PHPSESSID=546250519c230785230fac230b133803'>Rating the KC squad</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=6098&view=2&PHPSESSID=546250519c230785230fac230b133803'>Scenario Enhancement idea...</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=6103&view=2&PHPSESSID=546250519c230785230fac230b133803'>1000 point 200 minimum point figure</A></div><div class='r2td'><A HREF='/heroclix/articles/articles.php?id=6085&view=2&PHPSESSID=546250519c230785230fac230b133803'>WARWORLD Golden Age!</A></div><div class='sectionhead' align='right'><div class='more'><A href='/heroclix/articles/articles.php?PHPSESSID=546250519c230785230fac230b133803'>All</A></div></div></div><p><script language="JavaScript">
+
+<!-- /* © 1997-2002 BURST! Media, LLC. All Rights Reserved.*/ 
+
+var TheAdcode = 'sk8702a'; 
+
+var bN = navigator.appName; 
+
+var bV = parseInt(navigator.appVersion); 
+
+var base='http://www.burstnet.com/'; 
+
+var Tv=''; 
+
+var backColor='000000';
+
+var fontColor='FFFFFF';
+
+var agt=navigator.userAgent.toLowerCase(); 
+
+if (bV>=4) 
+
+  {
+
+  	ts=window.location.pathname+window.location.search; 
+
+  	i=0; 
+
+  	Tv=0; 
+
+  	while (i< ts.length) 
+
+      { 
+
+	  	Tv=Tv+ts.charCodeAt(i); i=i+1; } 
+
+		Tv="/"+Tv;} 
+
+else {
+
+	Tv=escape(window.location.pathname); 
+
+   	if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+
+    else if (Tv.charAt(1)=="/") Tv=""; 
+
+  	if( Tv.charAt(Tv.length-1) == "/") Tv = Tv + "_";
+
+} 
+
+  document.write('<ifr'+'ame id=BURST src="'+base+'cgi-bin/ads/' + TheAdcode + '.cgi' + Tv +  '/zg' + backColor + 'x' + fontColor + 'l' + fontColor +    'v' + fontColor + 'k' + fontColor + '/RETURN-CODE" width=160 height=600' +   ' marginwidth=0 marginheight=0 hspace=0 vspace=0 ' +  'frameborder=0 scrolling=no>');
+
+  document.write('</ifr'+'ame>');    
+
+// --> 
+
+</script></center>
+<BR></td>
+<td valign="top" width="0"> 
+  </td>
+ </tr>
+</table>
+  <table  width='764' cellspacing='0' cellpadding='0' border=0>
+    <tr> 
+    <td valign="top">
+      <div align="right">
+<table width="744" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+      <td width="114"><img src="/heroclix/gfx/theme1/footer1.gif" width="114" height="21" hspace="0" vspace="0" border="0" align="left"></td>
+      <td width="630" background="/heroclix/gfx/theme1/footer1_back.gif" class="footerOne"> 
+        &nbsp; &nbsp;<a href="/heroclix/index.php?PHPSESSID=546250519c230785230fac230b133803">Home</a> | <a href="/heroclix/teams/index.php?PHPSESSID=546250519c230785230fac230b133803">Teams</a> 
+        | <a href="/heroclix/articles/index.php?PHPSESSID=546250519c230785230fac230b133803">Articles</a> | <a href="/heroclix/treports/index.php?PHPSESSID=546250519c230785230fac230b133803">Reports</a> 
+        | <a href="/heroclix/resources/index.php?PHPSESSID=546250519c230785230fac230b133803">Player Resources</a>  </td>
+  </tr>
+  <tr>
+    <td width="114"><img src="/heroclix/gfx/theme1/footer2.gif" width="114" height="24" hspace="0" vspace="0" border="0" align="left"></td>
+      <td width="630" background="/heroclix/gfx/theme1/footer2_back.gif" class="footerTwo">&nbsp;&nbsp; 
+        <a href="/heroclix/main/about.php?PHPSESSID=546250519c230785230fac230b133803">About HeroClix</a> | <a href="/heroclix/main/decktech.php?PHPSESSID=546250519c230785230fac230b133803">About 
+        DeckTech</a> | <a href="/heroclix/main/join.php?PHPSESSID=546250519c230785230fac230b133803">Become a Member</a> | 
+        <a href="mailto:%20info@decktech.net">Contact Us</a></td>
+  </tr>
+    <tr> 
+      <td colspan="2" width="744" background="/heroclix/gfx/theme1/footer3_back.gif" class="footerThree">
+	  <a href="/global/terms.php?PHPSESSID=546250519c230785230fac230b133803">Terms of Service</a> TM & © 2003 www.decktech.net. All Rights Reserved.
+</td>
+  </tr>
+    <tr> 
+      <td colspan="2" width="744" class="footerFour">
+ 	  This site is maintained and updated by fans of 
+          HeroClix, and is in no way affiliated with WizKids the makers of HeroClix 
+          and other fine games. We in no way claim the artwork displayed to be 
+          our own. Copyrights and trademarks for the promotional materials are 
+          held by their respective owners and their use is allowed under the fair 
+          use clause of the Copyright Law.
+<p>WizKids, LLC has sole ownership of the names, logos, artwork, marks, 
+photographs, sounds, audio, video and/or any other proprietary material 
+used in connection with the game of HeroClix. WizKids, LLC has granted 
+DeckTech.net permission to use such names, logos, and/or marks for 
+promotional and informational purposes on the DeckTech.net website, but it 
+does not endorse and is not affiliated with the DeckTech.net website in 
+any official capacity whatsoever. All WizKids characters, names, logos, 
+and distinctive likenesses are property of WizKids, LLC. 
+
+<p>©2003 WizKids, LLC. All rights reserved. MechWarrior, BattleTech, 
+BattleMech, ’Mech, MW, Mage Knight, MK, Shadowrun, HeroClix, SportsClix, 
+Creepy Freaks, Freak Out, and WizKids are trademarks of WizKids, LLC.  
+</td>
+  </tr>
+</table>
+</div><BR>
+
+</td></tr></table>	  
+</center></body><!-- #EndTemplate --></html>
+

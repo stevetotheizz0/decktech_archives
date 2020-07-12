@@ -1,0 +1,665 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action=""><input type="hidden" name="PHPSESSID" value="3610e0b36c8d368fda0b2a64bf9bb1db" />
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php?PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php?PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db" class="level1nav">Articles</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/articles/articles.php?PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db">All</a> &nbsp;<br>
+
+</div>
+
+
+<a href="/starwarsccg/decks/index.php?PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php?PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db" class="level1nav">Reports</a><br>
+
+  <a href="/starwarsccg/academy/index.php?PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php?PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php?PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 2 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'><b>Star Wars CCG</b><br><a href='/starwarsccg/featured/taylor.php?PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db'>2007-01-23 Scott Lingrell</a><br></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6467&view=2&PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db">Mr. Pistone Interviews Brian Fred</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6468&view=2&PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db">Mr. Pistone Interviews Brian Hunter</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6470&view=2&PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db">Top 10 Things To Know About Virtual Set 12</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6471&view=2&PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db">BCS Rankings - January 2007</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6461&view=2&PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db">Plastoid Armor (v)</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6465&view=2&PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db">February Top 20</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6469&view=2&PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db">Who wants to be a star war millionaire?</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6459&view=2&PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db">Are there any SWCCG players in the Virginia area?</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6462&view=2&PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db">Subway is good aka I like Pizza done RIGHT</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6460&view=2&PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db">notes from Thaddeus Chenoweth...</A></font></li><BR></ol> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Articles</td><form method='post' action=''><input type="hidden" name="PHPSESSID" value="3610e0b36c8d368fda0b2a64bf9bb1db" /><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Articles</option><option value='#'> </option><option value='/starwarsccg/articles/index.php3'>Star Wars: CCG</option><option value='/vs/articles/index.php'>Marvel VS</option><option value='/heroclix/articles/articles.php'>HeroClix</option><option value='/lotr/articles/articles.php'>Lord of the Rings</option><option value='/magic/articles/articles.php'>Video Games and Movies</option><option value='/wars/articles/articles.php'>Wizards Minis</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> Dealing with Obi-Start Dedks<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(5.00)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=19675'>Jeremy "Psychobabble" J</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=19675&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> November 27, 2006</font><p align='justify'><font class="bfont"> (sorry if my html is broken, I can&#39;t preview or edit this)<br />
+<br />
+<u><b>Introduction</b></u><br />
+<br />
+Obi start decks have soared in popularity recently, with WYS-obi decks quickly being seen as a viable option in the post-redux meta and Team Ohio&#39;s AITC-Obi steering Meeker to his world&#39;s victory. The fact that colo claw fished got shielded (thus removing a fairly easy way to clear him with an uncancelable high weapon/battle destiny) might also have contributed to its recent popularity. This type of deck is the strangest and most innovative in a number of years and I think it&#39;s worth writing an article to examine some of the things players should expect when they see their opponent reveal Krayt Dragon Howl v (KDH v) and how they can deal with it. These decks all share a combination of early drain pressure which is difficult to disrupt thanks to the strength of obi and the interrupts which are inevitably backing him up. Tackling the deck can be a challenge because you&#39;re fighting on their terms, but ignoring them allows them to easily set up their strategy and cause you to lose critical cards early. <br />
+<br />
+This article is divided into three parts. The <b>overview</b> section describes the three obi-start platforms in general terms and gives a brief history of the deck types. The <b>what to expect section</b> is just that and the <b>what to do</b> is, well, just that to. Read the sections you&#39;re interested in (ie, if you know what the decks are and do then don&#39;t read the second section, in particular).<br />
+<br />
+<u><b>Overview</b></u><br />
+<br />
+Without further ado, here&#39;s the card which defines obi-start decks:<br />
+<br />
+<p align=center><img src=http://www.essentialswccg.com/images/cardimages/medium/VirtualSet8-Light/kraytdragonhowl.gif></p><br />
+<br />
+There are three viable objective platforms this starting interrupt can be used with. This is a general overview, more details on the differences between the three will be discussed later:<br />
+<br />
+<b>Hyperdrive:</b> As far as I can tell, this was the first platform used with the interrupt. Scott Lingrell - the card designer - posted an <a <br />
+href=http://www.decktech.net/starwarsccg/decks/decks.php?deck=34037>early version</a> shortly after v8 was released, with an <a <br />
+href=http://www.decktech.net/starwarsccg/decks/decks.php?deck=35135>updated</a> version (&quot;hyperbounce&quot;) shortly afterwards. Each of these took advantage of the fact that obi-wan v (a rebel) could be deployed in a deck which was otherwise free of rebels and used don&#39;t forget the droids v to keep obi alive and mess with the opponent. The second seems to have focussed more on the problem of a first-turn DS strike by incorporating much more evasion (particularly It Can Wait x7). Subsequent to that, I posted a (since modified) <a href="http://www.decktech.net/starwarsccg/decks/decks.php?deck=35695">list</a> taking <br />
+advantage of v.11 obi-wan, jedi knight v and the fact that mothma v was made a republican character in the redux. I&#39;m not sure how popular this deck type is on the tournament scene - there was one hyperdrive deck played at 2006 worlds (day 3) - but I have heard a number of European players mention obi-hyperdrive decks doing well over there. The aim of this deck is to quickly stack cards on credits will do fine by draining at the junkyard (the objective flips when 4 are stacked) which causes the DS to make painful choices between topdecking potentially crucial early cards or emptying their hand. Obi can be backed up quickly with the city outskirts and evasion and tricks makes taking him on a risky proposition. The obi-start benefits the deck by potentially starting a character who otherwise can&#39;t be deployed (any rebel obi), generating an extra 2 force first turn thanks to the junkyard&#39;s text and flipping (potentially) a turn earlier by draining straight away.<br />
+<br />
+<b>WYS:</b> This first seemed to make a big splash immediately post-redux, when a number of other LS decks were neutered and hunt down became an apparently excellent choice for the DS. A WYS-Obi deck heavily teched for the HD matchup caused a lot of buzz at the large Mn 2006 States and remained a popular choice at worlds. Two good and similar examples (both of which were played in the 6 v-card format) have recently been posted by Mike Carr, <a <br />
+href=http://www.decktech.net/starwarsccg/decks/decks.php?deck=35797>here</a> and <a <br />
+href=http://www.decktech.net/starwarsccg/decks/decks.php?deck=35792>here</a>. The obi-start means WYS can have a normally (effectively) unplayable tank at the cantina to set up battle plan and early drains, and it also provides a distraction while they set up the normal WYS kessel drain (and/or tatooine celebration). The WYS flip side interrupt text makes all the lost interrupt evasion cards like it&#39;s a trap, blast the door kid, clash of sabers and it can wait particularly painful for the DS because they get played twice.<br />
+<br />
+<b>Agents in the Court:</b> As far as I can tell, Lingrell was also the first person to build this deck (which I recently <a <br />
+href=http://www.decktech.net/starwarsccg/decks/decks.php?deck=3581>re-posted</a> because his original list got eaten by the PC forum archive monster). Team Ohio refined it to the point where Meeker used &quot;<a href="http://www.decktech.net/starwarsccg/decks/decks.php?deck=35802">d!ck hat</a>&quot; (a <i>hilarious</i> anagram of AiTC-KDH) in his successful world&#39;s campaign. This deck, which doesn&#39;t particularly care about flipping (it only can do so if the opponent plays no non-tatooine sites) uses Yarna v (which is started by the AiTC objective) to deploy tosche station first turn, and obi is moved there to ensure massive generation (and a decent drain) if the DS doesn&#39;t do something about it. And if they do, the deck is well prepared to deal with the challenge.<br />
+<br />
+As far as I can tell, these are the only possible platforms to use in conjunction with KDH v. An obi-profit deck would just be stupid, because he&#39;d be either facing two nasty aliens + first turn backup if he started at the AC (presumably to try to get an early flip) or be sitting doing a not so scary drain of 2 at the JP (assuming premiere obi-wan v was used). Neither of those options are worth giving up the excellent profit helper effects for and neither have any advantage over existing obi-start platforms. And simply starting a location without an objective and using kdh v is stupid, there&#39;s no single start site which would give you benefits which can&#39;t be matched by using one of the above platforms.<br />
+<br />
+<u><b>What to expect</b></u><br />
+<br />
+Using KDH v provides two serious disadvantages to the LS player - no effects starting on the table (except those provided by their objective) and only 3 cards in their hand. This means that if the DS can easly clear obi-wan, the primary advantage provided by the interrupt, they can get a good early jump on the LS player because they have disrupted a central part of their opponent&#39;s strategy. Recognising this, most obi-start decks play a lot of evasion. This ranges from it can wait x7 (hyperbounce) to barrier x3, dodge x3, clash x2 (d!ck hat) to blast the door kid x2, clash x2, it&#39;s a trap x2 and rebel barrier (Rebman&#39;s wys-obi) to it can wait x3, clash x3, barrier x3, are you dodge (my hyperdrive). Bear in mind that any of these cards can be played first turn (barring it&#39;s a trap! if first strike is out) by the LS as they can play KDH v to activate three force. Additional defensive cards like blaster deflection, brain dead?! (makes obi immune to attrition if no dark jedi), sorry about the mess/blaster proficiency (SATM/BP), obi-wan&#39;s cape v and away put your weapons v might also make an appearance. The DS needs to be prepared for this evasion and recognise that any apparent opportunity to clear obi will quite possibly be thwarted.<br />
+<br />
+The other barrier (pun!) to the DS easily clearing obi is obi himself. The v.11 obi-wan, jedi knight v is an absolute beast. He is immune < 5, cancels a destiny once per battle (or duel) if with a dark jedi and pulls disarmed once per game. Premiere obi-wan v is sometimes played as an alternative start vs lightsaber combat (so he can still drain) and alien decks (because he&#39;s immune to cards that capture). He is immune < 5 (< 8 w/dark jedi). Obi, jk v is generally stronger, though, because the destiny cancelling means that even if you do get to battle him you need to either be battling him with non-jedi (and good destiny) or get consistently good draws to kill him. The pulled disarmed is also a nasty combo with other evasion - if epp maul is barriered there, he can get disarmed in the following control phase and is suddenly much less scary. Sorry about the mess/blaster proficiency can also be a nasty surprise for a barrier-ed etc. character in the following control phase.<br />
+<br />
+What follows is a more detailed description of each deck type&#39;s game plan.<br />
+<br />
+<b>Obi-Hyperdrive:</b> Flipping is the name of the game here, and this deck will try to do it as quickly as possible. This is done by draining and piling characters on the junkyard to win battles. Not only is stacking cards on credits a good way of doing damage, but the flip combo-es perfectly with &quot;A Remote Planet&quot; which gives +1 drains at ep1 tatooine sites (with disadvantages neutralised by the hyperdrive flip). Retrieving cards for drawing destiny on the flip is also pretty good, particularly with destiny adders (like into the garbage chute flyboy, we don&#39;t have time for this) and han&#39;s dice v (re-draw just drawn destiny). Further, post-redux mothma v can be used to cause pinging damage (as well as usefully getting a site out for more generation). In general, you can probably expect the player to concentrate on tatooine and not try too hard to disrupt your strategy. This is due to the above mentioned benefits of flipping (which will require re-inforcing the junkyard to be safe), the inherent character limitations of hyperdrive, the tatooine specific benefits of city outskirts, a remote planet and lando w/ax. However, once the flip has been secured the hyperdrive player might think about taking you on, particularly with a &quot;pancake strike&quot; - Captain Panaka (maybe with gun) + Queen Amidala + We Don&#39;t have time for this is quite a powerful strike force and, by drawing 3 destiny, allows 3 cards to be retrieved into hand (including the we don&#39;t have time for this). However, in general, this is not a reactive deck, it plays a hold/control strategy. Another feature of the deck is its inevitably weak space package thanks to objective restrictions even more acute than those in WHAP (no ind ships, only repub ships allowed). Recognising this many hyperdrive decks play without any fleet at all so you should feel very secure in spreading out with only a minimal fleet (particularly if you have <i>any</i> evasion, like imperial barrier, because as a reactive deck the LS is highly unlikely to be packing anti-evasion cards, except perhaps sense). The only slightly viable republic space fleet involves bravo fighters and matching pilots, so if you see squadron assignments or get to your ships then you might want to be slightly more careful in space.<br />
+<br />
+<b>WYS-Obi:</b> Starting obi in the cantina with evasion backup provides the WYS player with a great distraction while they set up the kessel drain with the usual powerful WYS ships and smugglers. Being unable to start squadron assignments they will often use control & tunnel vision and substantial drawing to set up their fleet early while you&#39;re trying to stop the 3 cards/turn bleeding at the cantina. As this implies, the cantina drain is something of a side strategy for the deck, in that even if you successfully clear obi off, they still have a powerful setup in space to put pressure on you (in contrast to the hyperdrive player whose primary strategy must involve the junkyard and obi). Their evasion also tends to the lost interrupt variety (blast the door kid, dodge, it&#39;s a trap etc) to take advantage of the flip side interrupt ability. This form of WYS is highly unlikely to be able to bring the big beats down on the ground, so you should feel fairly safe in spreading out, but their fleet is only slightly less powerful than a normal WYS one (less powerful due to the somewhat slower setup without squassin start) so be very careful in going to space because legendary starfighter will ruin your day if it hits the table.<br />
+<br />
+<b>AiTC-Obi:</b> This deck is the least reliant on Obi and the most reactive of the three. The deck does not particularly aim to flip, in fact it usually can&#39;t if the DS plays a non-tatooine location (no non-unique alien of the rep&#39;s species). And if it does flip, the benefits it gets from it are likely to be very marginal. The AiTC setup is basically a platform to get the tosche station out with yarna v on the first turn. It&#39;s primary goal with Obi is not to create early drain pressure (although a drain of 2 first turn is nothing to sneeze at), the name of the game is to put pressure on by threatening the big tosche station generation (+6 generation on turn 2 if obi controls it). This generation can be either used to set up a big nabrun beat with associated tricks (like Lingrells) or a fairly standard reactive mains package (d!ck hat). Even without the tosche generation, 3rd turn activation of 8 off their own icons is nothing to sneeze at, so you cannot spread out too much safely, and if they do control the tosche station, you better hope your defences are solid because there is the potential for a huge strike force to be dropped. Its forces are likely to be relatively balanced between ground and space, so do not leave a ZiMH alone at a system unless you&#39;re feeling lucky.<br />
+<br />
+If the first step to victory is knowing your enemy this section then should help a bit. The next section should help a bit more...<br />
+<br />
+<u><b>What to do</b></u><br />
+<br />
+The first thing you need to do when you see an obi start deck is to analyse your deck type, as this will determine your overall strategy. If you are playing a reactive deck you have no choice but to plan an early assault on obi and, given the popularity of this type of deck, you might need to pack specific cards to help you win the battle. Reactive decks include Hunt Down, Bring Him Before Me (BHBM), some alien/scum decks, ISB and, to a degree, watto (note the watto vs hyperdrive matchup is a special one which will be discussed in its own paragraph), senate, and non-walkers Endor Operations. If you are playing a turtling deck you must have a way of neutralising the obi deck&#39;s strategy but you should also have in the back of your mind any opportunity you have which might be a relatively low risk way of disrupting your opponent. Turtling decks include walkers, Raltiir Operations, Dark Deal, Set Your Course for Alderaan (SYCFA) and, to a degree, Light Saber Combat (LSC), Agents of the Black Sun (AOBS) and other alien/scum decks. This section will cover strategies for both directly and indirectly disrupting or neutralising the obi-start deck&#39;s strategy. <br />
+<br />
+The first turn can often be crucial in these games, specifically each of your hand draws. You have an 8:3 card advantage here so it is on this turn that you are most likely to be able to get an attack through without running into evasion. To maximise the effect of this advantage, if there&#39;s any chance you can try to attack on the first turn do all you can to avoid triggering drop/thrown back v by doing 2+ searches. You are obviously limited by the amount of force you generate and the characters which you draw. Each of the obi start decks give up two icons. This means that decks generate the following on their first turn:<br />
+<br />
+<ul><li>RalOps - 4</li><br />
+<li>BHBM - 5</li><br />
+<li>ISB - 5 (usually)</li><br />
+<li>Hunt down - 6</li><br />
+<li>AOBS - 6</li><br />
+<li>CCT - 6</li><br />
+<li>Senate - 6 (usually)</li><br />
+<li>Walkers - 7</li><br />
+<li>EOps - 7</li><br />
+<li>Watto - 7 (6 vs hyperdrive)</li><br />
+<li>MKOS - 7 (barring a conversion by AiTC-Obi)</li><br />
+<li>CP v scum (or many other CP v decks) - 8 (7 if tat:JP is converted by an AiTC-Obi deck)</li><br />
+<li>LSC - 8</li></ul><br />
+<br />
+So very few decks will have enough first turn force to drop a dark jedi and battle, although that isn&#39;t such a bad thing considering obi, JK&#39;s text. The ideal first turn characters you should be looking for are cheap ones which draw destiny on their own (two cheap characters who do not are not ideal as one can be made lost with SATM/BP meaning you&#39;ll potentially take overflow). A weapon in this situation is a bonus. Here&#39;s a list of characters, and one vehicle, you should be looking out for (and think about including in your deck). Note that for reasons which will be explained later, chars of ability 4+ are preferable to those which &quot;draw if unable to otherwise&quot;:<br />
+<br />
+(deploy 2, must generate 3+ to be able to deploy and battle, unless you start battle order effect)<br />
+<br />
+Prophetess v - Ability 4. A great, cheap, character for a first turn strike, but not found in many decks.<br />
+<br />
+(deploy 3)<br />
+<br />
+Bane Malar - Ability 4. A perfect first turn character.<br />
+<br />
+Lieutenant Commander Arden - Draws if unable to otherwise. I only mention him because he&#39;s a decent character in imperial RalOps decks.<br />
+<br />
+Zuckuss v - Ability 4. Probably not a good choice because you probably want him in space. But still, potentially worth thinking about.<br />
+<br />
+(deploy 4, RalOps can no longer use chars from here on first turn)<br />
+<br />
+Aurra Sing - Ability 4. A marginal character not found in many decks although it might be a good choice for a scum deck. Can steal obi&#39;s saber as a bonus if she clears him.<br />
+<br />
+Boba Fett, SE v - Doesn&#39;t draw destiny but if the top card of your reserve is a 5 he can capture obi. Not a perfect char for a first turn strike, but not terrible.<br />
+<br />
+Dr. Evazan and Ponda Baba - Draws if unable to otherwise. Pretty good choice and good char in a lot of decks.<br />
+<br />
+Grand Admiral Thrawn - Ability 4. Found in quite a few decks and pullable with endor shield v.<br />
+<br />
+Grotto Werribee - Ability 4. Not useful for many decks, unless insurrection makes a come back (docking bays).<br />
+<br />
+Jabba the Hutt v - Ability 4. A key char for alien decks, which might be the only reason not to use him.<br />
+<br />
+Janus Greejatus - Ability 4. A good char in many non-alien decks.<br />
+<br />
+P-59 - Draws if unable to otherwise. Has a permanent weapon which hits on destiny +1, so if the top card of your reserve deck happens to be a 6 you can hit obi with the weapon.<br />
+<br />
+Prince Xizor - Draws if unable to otherwise. A marginal character not found in many decks although it might be a good choice for a scum deck.<br />
+<br />
+(deploy 5, loses BHBM and ISB)<br />
+<br />
+Blizzard 4 - Ability 4. Happens to be effectively immune to quite a bit of evasion (barrier, clash, satm/bp), so this has a good chance of clearing obi (note: it&#39;s not necessarily a good idea to pull a imperial - if the only imperial warrior in your reserve happens to be vader, obi gets an unncessary chance to cancel your destiny). Unfortunately only obi-hyperdrive is guaranteed to have obi at an exterior site as there is a good chance that AiTC-Obi will have him safely parked at the Jabba&#39;s Palace: ante-chamber. Unless you generate 7 force, you won&#39;t be able to pay for maintenance if it somehow survives the battle.<br />
+<br />
+Mara/Arica - Ability 5. Great character, especially Mara who can pull her own saber, giving you a very good chance of killing obi. Each of these personas has become less popular now that mara has been virtualised.<br />
+<br />
+(Deploy 6, loses Hunt Down, AOBS, CCT and Senate)<br />
+<br />
+Darth Vader (all personas except lord vader) - Because obi v can cancel a destiny against him he only has the slightest chance of clearing obi if he&#39;s armed (barring a destiny adder and two draws in a row of 5+).<br />
+<br />
+Darth Sidious - No chance of clearing without a destiny adder.<br />
+<br />
+Mara v - Like mara + saber, a perfect char for taking on obi early. Her high deploy means she can&#39;t be used by some key reactive decks, though.<br />
+<br />
+(Deploy 7, only CP v and LSC)<br />
+<br />
+Maul (all except Lord Maul) - Again, can only clear if he&#39;s armed but better than vader because he&#39;s likely to be armed with his double bladed saber which swings twice. Also, remember that maul is completely immune to attrition vs hyperdrive (on the 0-side).<br />
+<br />
+Special mention should be made of the combination of boba fett, bounty hunter and greedo v. I know I said taking on obi with two cheap scrubs isn&#39;t the best idea, but being able to deploy these two and draw three destiny is too good an opportunity to pass up (for decks which generate 7+ force). Greedo is most likely to be in a MKOS deck where he can be pulled with ket malis v as an added bonus. <br />
+<br />
+If you do not have one of these characters in hand you are unlikely to be able to take obi on first turn. If you do draw one of them, you should very seriously think about deploying them and battling, especially if you have one of the following cards. This section covers cards which will help you win games against obi-start decks. Each card has its destiny number in brackets (useful to know if you&#39;re playing a deck where the card is useless against), its text extracted (most relevant part in bold on some cards) and is graded for general playability and versatility:<br />
+<br />
+<b>Allegations of Corruption (shield)</b><br />
+<i>Plays on table. Once per game, may use 1 Force to stack one Interrupt just played here. To play any new Interrupt of the same name, player must first stack it here and use +1 Force for each Interrupt in stack, even if Interrupt is normally free.</i><br />
+<br />
+Grade: A<br />
+<br />
+This is in 99% of decks anyway, but it&#39;s very useful against obi-start decks as they all tend to abuse some interrupts. You might be tempted to grab krayt dragon howl v (especially if they don&#39;t play it first action of their turn) but that might not be such a good idea. Barrier tends to be pretty abusive in obi-start decks, and waiting to grabb it is generally your best choice. If you can deal with barrier in other ways (eg. blast door controls), blaster proficiency is another one to watch out for, as is We Don&#39;t have Time for This (in a flipped hyperdrive), control & tunnel vision (in WYS) and Nabrun <br />
+(usually in AiTC).<br />
+<br />
+<b>Always Thinking With Your Stomach (4)</b><br />
+<i>Cancel a Force drain at an exterior planet site where opponent has no vehicles or starships. Draw destiny. If destiny > number of opponent&#39;s characters at that site, choose one of those characters to be missing.</i><br />
+<br />
+Grade: B<br />
+<br />
+This is a great way to take out obi, especially early in the game when he&#39;s unlikely to have friends around to make you fail your draw or to find him if he goes missing. If you&#39;re able to capitalise on making him missing with a beat force it can be devastating, but even if you can&#39;t it will probably delay the LS for a turn or two (or more) which is still a good outcome. Unfortunately it&#39;s a reasonably low destiny lost interrupt which isn&#39;t immune to sense and which is much less useful if you fail the draw (unlikely early game, but still). This is best in turtling decks as it helps you ignore obi while you set up your strategy.<br />
+<br />
+<b>Arica/U-3po/Keder the Black (1/3/1)</b><br />
+(These deploy as undercover spies)<br />
+<br />
+Grade: B+<br />
+<br />
+Undercover spies are an ideal way for turtling decks to deal with obi. They completely stop all damage caused by obi, even the hyperdrive/credits damage which isn&#39;t prevented if you cancel the drain in another way (control, always thinking with your stomach, this is outrageous!). Unfortunately LS players realise this and typically pack a large number of SATM/BP, and possibly corran horn (in AiTC only), to deal with undercover spies. Still, there&#39;s always a possibility they&#39;ll miss their SATM swing (unless you&#39;re using u-3po) and even if it only delays them for a turn or two, that&#39;s a pretty good outcome.<br />
+<br />
+<b>Battle Order (shield)</b><br />
+<br />
+Grade: B<br />
+<br />
+Just reminding you to pull this first turn vs obi-start decks. It&#39;s an optimal play for 90% of dark decks, although ralops might want to wait a couple of turns to see if the LS pulls it on them.<br />
+<br />
+<b>Blast Door Controls (5)</b><br />
+<i>Deploy on your side of table. Cancels: Into The Garbage Chute, Flyboy; Narrow Escape; <b>Blast The Door, Kid!; and Rebel Barrier.</i> <br />
+<br />
+Grade: A<br />
+<br />
+A fantastic card which cancels two commonly played evasion cards (barrier, blast the door kid!) and as an added bonus cancels into the garbage chute, flyboy v which hypderive decks might use to add a destiny at the junkyard. This isn&#39;t immune to alter so very few decks can start it, but the start-able effect Conduct your Search can pull it. Unless conduct is a good fit for your deck (eg. you want to pull the back door) then you&#39;re probably better off relying on we must accelerate our plans/twi&#39;lek advisor to get it for you, though. Beat in mind that this card is only well suited for reactive decks and watch out for alter and han&#39;s toolkit v.<br />
+<br />
+<b>Cold Feet v (5)</b><br />
+<i>Take a &#39;grabber&#39; into hand (or play a Defensive Shield) from under your Starting Effect. OR <b>Cancel It Can Wait</b>, Surprise Assault, or Yerka Mig. OR Suspend Bacta Tank (&#39;patient&#39; remains on Effect), Bo Shuda, Goo Nee Tay, or No Questions Asked for remainder of turn.</i><br />
+<br />
+Grade: B<br />
+<br />
+The only way to cancel it can wait, other than sense. It&#39;s a versatile interrupt already found in a lot of decks, but probably not worth putting in for this matchup alone if it&#39;s not a good fit otherwise. Just remember to keep a copy in hand rather than playing it for a shield if you&#39;re planning on taking obi on.<br />
+<br />
+<b>Crossfire v (4)</b><br />
+<i>Deploy on table. Your AT-STs are immune to attrition < 3 (or adds 2 to immunity). Once per game, may lose 1 Force to take one Effect (except Expand The Empire) that deploys on a location from Reserve Deck; reshuffle. <b>May place this Effect out of play to add one battle destiny.</b> (Immune to Alter.)</i><br />
+<br />
+Grade: A+<br />
+<br />
+An excellent card, drawing two destinies vs obi gives you a very good chance of breaking his immunity < 5 (unless you&#39;re using a dark jedi and he can cancel one). This is the reason I hinted at before why ability 4+ chars are better than those which &quot;draw if unable to otherwise&quot; (who would still only draw one destiny if you placed this out of play). It&#39;s started with Prepared Defences (or cp v) in many different decks for its effect-pulling ability alone and if it isn&#39;t always started in, say, you hunt down deck then it should be started in this matchup. Even if you don&#39;t want this to pull effects, adding a destiny at a crucial time (for eg. vs bright hope v) can be great so this isn&#39;t a wasted card vs other decks. This card is suited for both reactive and (some) non-reactive decks.<br />
+<br />
+<b>Crush the Rebellion (4)</b><br />
+<i>Deploy on table. Once per turn, may take I Have You Now or Evader into hand from Reserve Deck; reshuffle. At mobile sites, opponent draws no more than two battle destiny per battle. Evader is immune to Sense. <b>May lose 1 Force to cancel Clash of Sabers.</b> (Immune to Alter.)</i><br />
+<br />
+Grade: C<br />
+<br />
+The only practical way the DS has to cancel the annoying clash of sabers (though wounded wookie is an OK card in a MKOS deck), and it&#39;s a startable effect. However, while clash is annoying it&#39;s not actually the best evasion option for the LS as it prevents them draining there for a turn and means you can leave the clasehd character there alone with impunity until it wears off (this is particularly frustrating for the hyperdrive player). If you&#39;re playing a reactive deck like Hunt Down or BHBM which already has this effect in, it&#39;s worth starting, but it&#39;s not worth including just for this matchup.<br />
+<br />
+<b>Destroyed Homestead (5)</b><br />
+<i>Deploy on Lars&#39; Moisture Farm. Target Obi-Wan or Luke. Target may not apply ability toward drawing destiny for Sense, Alter or battle destiny. Opponent loses 1 Force during each of your control phases. Utinni Effect canceled when reached by target.</i><br />
+<br />
+Grade: C+<br />
+<br />
+In the right deck this can be a moderately useful card, but the deployment restriction means there&#39;s not very many decks where it&#39;s a good fit. Additionally, it doesn&#39;t actually help you kill obi, it just causes the opponent to lose force (either through battle damage because they can&#39;t draw destiny or the 1/turn direct damage). Still, the direct effect is useful and the indirect effect - causing the LS to think about moving obi over to the farm - is also good, so if you have a deck which does or could play/pull the farm (eg cp v scum, senate, a lll v deck) then it&#39;s worth thinking about.<br />
+<br />
+<b>Enter the Bureaucrat (5)</b><br />
+<i> If you just lost more than 2 Force to a Force drain, deploy on opponent&#39;s location. You lose no more than 1 Force from Force drains here. At any time, you may place Immediate Effect in Used Pile to draw two cards from top of Reserve Deck.</i><br />
+<br />
+Grade: B<br />
+<br />
+This is not useful against hyperdrive decks, as they will typically only drain you for 2 (even though they do a 3rd point of damage with credits). It&#39;s also not useful against AiTC decks as they also drain for 2. It&#39;s also not <i>all</i> that useful against wys decks as wys typically packs multiples of control/tunnel vision. Still, it&#39;s pullable by the fanfare shield and at the very least means the WYS player can&#39;t use their c&tv on something else, so it&#39;s not a bad card and it&#39;s also quite useful against a number of LS decks. It&#39;s most useful for turtling decks which want to leave obi alone and set up their strategy.<br />
+<br />
+<b>Krayt Dragon Bones v (3)</b><br />
+<i>Deploy on table. Once per turn, may take one ferocious creature into hand from Reserve Deck; reshuffle. Your ferocious creatures are deploy - 2 and ferocity + 2. Twice per game you may deploy a ferocious creature from under your Starting Effect.</i><br />
+<br />
+Grade: B<br />
+<br />
+Packing a couple of womp rat&#39;s under your start effect and starting this effect gives you potentially two chances of killing obi by drawing destiny +3 > power (+4 if you include one in your reserve and / it). Unfortunately the disarming creature shield means obi first gets a chance to slash at your creature, so if he can draw > 4 with two destinies this strategy suddenly falls apart. A krayt dragon (ferocity 6+two destiny +2, def value of 5) has a much better chance of killing obi, but still might be killed and makes this otherwise fairly versatile card somewhat less useful. Also, I once had malakili v deploy a rancor to my junkyard but it ate padme instead of obi and then I ran into the AC and won the game anyway (I insterted disarming creature v soon after that). All in all, creatures are an ok way of dealing with him but much less reliable if your opponent pulls disarming creature v.<br />
+<br />
+<b>Lord Maul (1)</b><br />
+<i> Deploys -2 to Naboo. While with Qui-Gon, your battle destinies here are each +1. When Maul wins a lightsaber combat, adds 2 to opponent&#39;s Force loss. <b>Immune to Disarmed, Clash Of Sabers,</b> and attrition < 5 (or < 6 if armed with a lightsaber).</i><br />
+<br />
+Grade: C+<br />
+<br />
+I only mention this character in particular because he&#39;s immune to two of the common obi-start tricks and, if armed with his double bladed saber, has a very good chance of killing obi (if you ever get to a battle him). However EPP maul is a better maul persona in 90% of dark decks (LSC being a very notable exception) and setting both him and his saber up can be a bit slow in decks not starting blaster rack v, so he&#39;s not an ideal &quot;bullet&quot; by any means.<br />
+<br />
+<b>Luke? Luuuuke! v (4)</b><br />
+<i>Deploy on your character present at a battleground site; character may not leave here. Target opponent&#39;s character with the highest printed power at a site. Opponent may not initiate Force drains at target&#39;s location. Utinni Effect canceled when reached by target.</i><br />
+<br />
+Grade: A+<br />
+<br />
+This is an excellent way to stop those early obi drains and is particularly good against hyperdrive and wys decks which are unlikely to be able to mount a ground attack on the character this is played on. It&#39;s best against wys decks because they can only alter it if they stay on the 0-side (and if they do, that&#39;s a good outcome in itself). Vs such decks (and possibly hyperdrive) the most likely way the LS will try to cancel it is with nabrun, so don&#39;t leave the luke luke-ing character completely undefended. This card is obviously best in turtling decks as it helps them ignore obi&#39;s damage, but it&#39;s also good in reactive decks and is, in general, extremely versatile.<br />
+<br />
+<b>Maul Strikes/Your Powers are Weak Old Man (5)</b><br />
+(Destiny adders)<br />
+<br />
+Grade: B<br />
+<br />
+These are the easiest interrupts to use to add destinies vs obi (note: I Have You Now rarely works, but if they are using rebel obi it&#39;s obviously a good card). The former works with Maul, the latter with vader. If you have no option but to battle obi with jedi, your only hope of killing him is by drawing more than one weapon or battle destiny which is sufficient to kill him, so destiny adding is a great way of doing this. Combine with crossfire v to have a very good chance of clearing him.<br />
+<br />
+<b>Pinned Down v (4)</b><br />
+<i>Deploy on table. Opponent may not use Effect game text to ignore battle damage. When opponent draws battle destiny at a site, unless they have a total ability > 3 provided by characters or vehicles there, cancel the destiny draw(s). <b>May place Effect in your Used Pile to cancel a &#39;react&#39;.</b></i><br />
+<br />
+Grade: B+<br />
+<br />
+This is only useful against obi start decks which use dodge (something hyperdrive decks are reluctant to do, because they can&#39;t stack with credits outside the junkyard). However it <i>is</i> very useful against such decks because the defensive shield frozen dinner v happens to pull it (and as an added bonus that combo also <i>destroys</i> decks using ellors madak v). This card is particularly useful in hunt down decks, because that deck&#39;s worst matchup (LSC) tends to rely on dodge, so cancelling it at the right time can be game winning. This isn&#39;t for every deck, but it&#39;s a versatile and first-turn pullable card which is useful in quite a few situations and is particularly suited for reactive decks, particularly hunt down where it&#39;s unlikely to be alter-ed.<br />
+<br />
+<b>Stop Motion v (6)</b><br />
+<i>Cancel one attempt by opponent to &#39;react&#39; away from a battle. OR <b>Cancel Dodge.</b> OR take Ice Storm, He Hasn&#39;t Come Back Yet, or Cold Feet into hand from Reserve Deck; reshuffle. OR Cancel opponent&#39;s attempt to randomly remove one or more cards from your hand (except with Grimtaash).</i><br />
+<br />
+Grade: C<br />
+<br />
+As a destiny 6 used interrupt this isn&#39;t a bad card to cancel dodge with, especially as it can pull the fairly useful cold feet v and stop a LS senate deck messing with your hand for a turn. However there&#39;s more reliable ways of cancelling dodge (pinned down) and, being a destiny 5 interrupt, you&#39;re probably better off just playing a 2nd cold feet v if you want to get it out early.<br />
+<br />
+<b>The Circle is Now Complete (6)</b><br />
+<i>If Vader and Obi-Wan are present at same site, use 1 Force to initiate a duel between them. Either Jedi is power +2 if they have a lightsaber. Loser of duel is placed out of play.</i><br />
+<br />
+Grade: C<br />
+<br />
+Using this to initiate a non-epic duel isn&#39;t a bad way for some decks to instantly get rid of obi. Unfortunately it isn&#39;t such an instant play. First you need to have lord vader armed with a saber to get high enough power and then you need to hope that your opponent doesn&#39;t have A Jedi&#39;s Resilience or What Was It? in hand (both of which are common cards for obi start decks), although AJR isn&#39;t so bad if they don&#39;t have a spare grabber slot as you can play it again straight away if it&#39;s canceled (non-unique, yay). This isn&#39;t a particularly versatile card, but in some decks (like LSC and maybe EOps) it&#39;s not a bad choice.<br />
+<br />
+<b>They&#39;re Still Coming Through  (4)</b><br />
+<i><b>Cancel Rebel Barrier, It&#39;s A Trap!,</b> or Smoke Screen. OR Re-target Fallen Portal by choosing up to two of opponent&#39;s characters there instead of your own. OR Peek at the top card of your Force Pile; either return it, or place it under your Force Pile or Reserve Deck.</i><br />
+<br />
+Grade: A<br />
+<br />
+This is perhaps the best single interrupt for taking on obi start decks. Both Barrier and It&#39;s a Trap! are common cards - particularly in obi decks - and this is the only card other than the marginal We&#39;re the Bait v which can cancel it&#39;s a trap (which is immune to sense). Re-targeting fallen portal to a palace raider (this is a legal play even if they are in an enclosed vehicle) can give certain WYS players a nasty surprise. Finally, it&#39;s reasonable destiny and can be cycled back in with the final part of the card. Note that it is only useful for reactive decks, defensive decks seldom need to play anti-evasion cards like this. It&#39;s best in hunt down because then your opponent is unlikely to be able to sense it.<br />
+<br />
+To summarise:<br />
+<br />
+<b>Grade A</b><br />
+Allegations of Corruption<br />
+Blast Door Controls<br />
+Crossfire v<br />
+Luke? Luuuuke! v<br />
+They&#39;re Still Coming Through<br />
+<br />
+<b>Grade B</b><br />
+Always Thinking With Your Stomach<br />
+Arica/U-3PO/Keder the Black<br />
+Battle Order<br />
+Cold Feet v<br />
+Enter the Bureaucrat<br />
+Krayt Dragon Bones v + Creatures<br />
+Maul Strikes/Your Powers are Weak Old Man<br />
+Pinned Down v<br />
+<br />
+<b>Grade C</b><br />
+Crush the Rebellion<br />
+Destroyed Homestead<br />
+Lord Maul<br />
+Stop Motion v<br />
+The Circle is Now Complete<br />
+<br />
+And that&#39;s it for the tech cards. In general, I recommend including all grade A cards to deal with obi-starts in decks that don&#39;t otherwise have them, provided your deck is the right style (eg. they&#39;re still coming through in reactive decks, luke luke in turtling decks). If you find your deck having particular trouble with obi-start decks then you should think about fitting in one of the grade B cards. And you probably shouldn&#39;t try to make room for specifically including grade C cards unless your deck has extreme vulnerability to obi-starts, but remember to use them if you happen to have them in your deck.<br />
+<br />
+The final part of this section deals with matchups. This article is already too long so I&#39;m only going to talk about 4 matchups - two bad (watto vs hyperdrive, hunt down vs any) and two good (LSC and senate).<br />
+<br />
+<b>Watto vs Hyperdrive:</b> This is an exceptionally bad matchup. You start at a massive disadvantage because your key site has been converted and has a nasty jedi sitting there. The conversion of the junkyard means you generate 1 less force, LS draws battle destiny at -2 if watto is there (instead of not at all) and Watto doesn&#39;t / or deploy -2 there. That&#39;s seriously bad news. On the plus side, you do get force drain +1, but you&#39;re very unlikely to control the site so that&#39;s a bit of a moot point. All in all, you might want to think about including a cloud city engineer to re-convert your site. That&#39;s a pretty stupid card, though, so you might instead just try to play smart and cross your fingers. Playing smart in this context involves ignoring obi-wan, unless you have a very good opportunity to take him on (eg. first turn blizzard 4 + crossfire). To do damage, you should try to set up occupation (hopefully you&#39;re playing a version which can do that) and a maul enhanced tatooine drain (ditto) while occupying and hopefully controlling the city outskirts (good drain) and/or mos espa. If your opponent put the outskirts in between mos espa and the junkyard, you can put a character with luke luke at espa to delay obi a couple of turns. You probably won&#39;t flip more than once or twice and don&#39;t think you can do so quickly and move watto away, because a barrier will ruin your day unless you have ghhhk or backup for watto. Eventually you might want to think about taking on the junkyard, blizzard 4 + mara w/saber is probably the best way, but you&#39;d want to have other tricks to help you out like dr.e combo and you are beaten (for mace v).<br />
+<br />
+<b>Hunt Down (non-dueling):</b> Obi start decks, particularly WYS and Hyperdrive, provide naturally bad matchups for hunt down. Starting a powerful jedi on the table means you have a hard time flipping and big early drains mean you&#39;re under pressure to deploy your strike force before you&#39;re necessarily ready to do so. And your character base (big jedi) is exactly what your opponent is ready for, with obi cancelling destiny and disarming peeps left right and center. Finally, unlike BHBM, you don&#39;t have the option of sensing your opponent&#39;s evasion. So, basically, you need to be ready for these matchups and build your deck accordingly. At a minimum I would recommend starting crossfire v and including blast door controls with wmaop x2 to pull it. Luke Luke v, They&#39;re still coming through and pinned down v (+ frozen dinner v shield) are also excellent cards to include. Finally, you should already have maul strikes x2 (if not, put them in!) and if you have any I Have You Now&#39;s still in there, then wake up to the current meta and switch them out for your powers are weak old man :). That&#39;s an awesome card for taking on both obi and mace (by destroying his saber), and IHYN is much less useful in the current environment where those chars and quiggy (ie non-jedi) form the mainstay of LS ground forces.<br />
+<br />
+<b>Lightsaber Combat:</b> This deck has perhaps the best matchup against obi start decks for a number of reasons. First, your objective text means they better be playing premiere obi v as an alternative start or else he&#39;s not going to be draining you very much (in which case ignore him, obviously). But even if they are playing with that obi, you have a couple of natural advantages. For one, you&#39;ll likely be playing with both lord maul and blaster rack v. Lord maul with his double bladed saber is the best character to take on obi because he&#39;s immune to disarmed, meaning evasion doesn&#39;t hurt so much, and swings twice. Sure, prem obi v is immune < 8 vs him, but you should be able to hit him pretty easily with LSC&#39;s average destiny (and blaster proficiency? That&#39;s what sense is for :). Also, you&#39;ll quite possibly have lord vader and, with blaster rack v, can get him armed with his v saber to face obi. That gives you a chance to either circle him away or swing at him with a very good chance to hit (draw 3, pick 2). Sure you&#39;ll have some problems getting through to battle obi (though, unlike hunt down, you can run sense for barrier, it can wait etc.) but he&#39;ll be using an inferior obi-wan and you have the right tools to disrupt his game.<br />
+<br />
+<b>Senate:</b> Senate has the most reliable way of cancelling obi&#39;s drains of any deck (This is Outrageous! political effect) and their destiny manipulating ability and crossfire v start (for the senate hovercam) means they have a decent chance of clearing obi early (barring evasion). Additionally, starting no effects means the obi deck can&#39;t have scrambled transmission v on the table first turn. So all of that puts the obi-start deck at a disadvantage. Obi hyperdrive has, possibly, the best matchup here because it still stacks credits even if their drain is cancelled, and the city outskirts provide an easy way to backup obi at the junkyard. Having no fleet means the naboo drain is going to hurt all game, though. AiTC obi also stands a decent chance as they are the least reliant on the early drain, although getting the tosche station generation up will be difficult as will challenging senate&#39;s powerful fleet. WYS obi has perhaps the worst matchup vs senate as their fighter-heavy fleet can be shot down by the baron fairly easily and the cantina drain can be ignored with this is outrageous.<br />
+<br />
+<b><u>Conclusion</u></b><br />
+<br />
+Some of my most interesting games recently have been playing with and against obi-start decks. The first few turns are exciting as the DS attempts to take advantage of the LS&#39;s slow start, and the outcome of the game can often depend on a small number of key destiny draws. But once they get up and running, obi-start decks tend to steamroll to victory, easily evading any assault and striking back with devastating support cards, while doing painful damage if they are left alone. I hope this article has given you an idea of what to expect if your opponent reveals kdh v and some pointers on how to play and build your deck to help you win those games. <br></font><BR><font class="bfont"> <A HREF='/starwarsccg/articles/articles.php?id=6435&view=1&PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db'>Read the Reviews</a><font class="bfont"> | <A HREF='/starwarsccg/articles/articles.php?PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php?PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+<!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php?PHPSESSID=3610e0b36c8d368fda0b2a64bf9bb1db"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

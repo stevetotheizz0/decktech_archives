@@ -1,0 +1,365 @@
+<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
+<head>
+<title>DeckTech - for the players, by the players.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/swccg/global/css/white.css">
+<!-- #BeginEditable "Style" --> 
+<style type="text/css">
+<!--
+.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
+.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
+.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
+.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
+.centercolor {  background-color: #313063}
+-->
+</style>
+<!-- #EndEditable -->
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE -->
+<script language="JavaScript">
+<!-- /* © 1997-1999 BURST! Media, LLC. All Rights Reserved.*/
+var TheAdcode = 'ad8702a';
+var bN = navigator.appName;
+var bV = parseInt(navigator.appVersion);
+var base='http://www.burstnet.com/';
+var Tv='';
+var agt=navigator.userAgent.toLowerCase();
+if (bV>=4)
+  {ts=window.location.pathname+window.location.search;
+   i=0; Tv=0; while (i< ts.length)
+      { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+   if( Tv.charAt(0)!='/' ) Tv="/"+Tv;
+          else if (Tv.charAt(1)=="/")Tv="";
+  if( Tv.charAt(Tv.length-1) == "/")
+    Tv = Tv + "_";}
+if (bN=='Netscape'){ 
+     if ((bV>=4)&&(agt.indexOf("mac")==-1))
+{  document.write('<s'+'cript src="'+ 
+      base+'cgi-bin/ads/'+TheAdcode+'.cgi/RETURN-CODE/JS' 
+      +Tv+'">'); 
+     document.write('</'+'script>');    } 
+     else if (bV>=3) {document.write('<'+'a href="'+base+'ads/'+ 
+        TheAdcode+'-map.cgi'+Tv+'"target=_top>'); 
+        document.write('<img src="' + base + 'cgi-bin/ads/' + 
+        TheAdcode + '.cgi' + Tv + '" ismap width="468" height="60"' + 
+        ' border="0" alt="Click Here"></a>');} 
+ } 
+if (bN=='Microsoft Internet Explorer') 
+ document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'+ 
+  TheAdcode + '.cgi' + Tv + '/RETURN-CODE" width="468" height="60"' + 
+  'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' + 
+  'frameborder="0" scrolling="no"></ifr'+'ame>'); 
+// --> 
+</script> 
+<noscript><a href="http://www.burstnet.com/ads/ad8702a-map.cgi" target="_top"> 
+<img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi" 
+ width="468" height="60" border="0" alt="Click Here"></a> 
+</noscript> 
+<!-- END BURST CODE -->
+<!-- #EndLibraryItem --></td>
+    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
+      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
+    <td valign="top" class="centercolor" rowspan="2" > 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
+          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
+          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
+        </tr>
+        <tr> 
+          <td colspan="2"><!-- #BeginEditable "Body" --> 
+            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
+              <tr> 
+                <td bgcolor="#333366" height="12" valign="top" width="44%"><img src="/swccg/global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
+                <td bgcolor="#333366" align="right" valign="top" height="12" width="48%"><img src="/swccg/global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr> 
+                <td height="622" valign="top" colspan="2" bgcolor="#333366"><table width="100%" border="0" cellpadding="4"><tr bgcolor="#000000"><td><font color="#FFFFFF"><font face="Haettenschweiler, Tahoma, Arial" size="6">All Your Base Are Belong To Us</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC="../images/dd8.GIF" BORDER=0><A HREF="darkread.php3?deck=15035"><IMG SRC="../images/ldread.GIF" BORDER=0></A><A HREF="darkreview.php3?deck=15035"><IMG SRC="../images/ldreview.GIF" BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="../../membercenter/directory/memberpage.php3?member=5425">Matt "BobaFett fan" Prosser</A></FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Description</Font></TD><TD><font face="Arial, sans-serif" size="2">Read my strategy section before reviewing. This is a standard MKoS Abyssin swarm deck.</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Date Created</Font></TD><TD><font face="Arial, sans-serif" size='2'>April 4, 2001</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Cards</Font></TD><TD><font face="Arial, sans-serif" size="2">     Starting (8)<br>
+My Kind Of Scum/Fearless And Inventive<br>
+Tatooine: Desert Heart<br>
+Tatooine: Jabba&#146;s Palace<br>
+Well Guarded<br>
+Prepared Defenses<br>
+Power Of The Hutt<br>
+No Bargain<br>
+Secret Plans or<br>
+Oppressive Enforcement<br>
+<br>
+     Locations (3)<br>
+Jabba&#146;s Palace: Lower Passages<br>
+Jabba&#146;s Palace: Audience Chamber<br>
+Jabba&#146;s Sail Barge: Passenger Deck<br>
+<br>
+     Characters (24)<br>
+Myo (Representative) x3<br>
+Abyssin x10<br>
+Gailid<br>
+Boba Fett With Blaster Rifle<br>
+IG-88 With Riot Gun<br>
+4-LOM With Concussion Rifle<br>
+Mara Jade, The Emperor&#146;s Hand<br>
+Chall Bekan<br>
+Bib Fortuna<br>
+Ephant Mon<br>
+Boelo<br>
+Mighty Jabba<br>
+Jabba<br>
+<br>
+     Starships/Vehicles (6)<br>
+Bossk In Hound&#146;s Tooth<br>
+Zuckuss In Mist Hunter<br>
+Dengar In Punishing One<br>
+IG-88 In IG-2000<br>
+Jabba&#146;s Sail Barge<br>
+<br>
+     Weapons (1)<br>
+Mara Jade&#146;s Lightsaber<br>
+<br>
+     Creatures (1)<br>
+Bubo<br>
+<br>
+     Interrupts (9)<br>
+Twi&#146;lek Advisor<br>
+None Shall Pass<br>
+Imperial Barrier<br>
+Jabba&#146;s Twerps<br>
+Abyssin Ornament x2<br>
+Abyssin Ornament &amp; Wounded Wookiee<br>
+Point Man<br>
+Projective Telepathy<br>
+<br>
+     Effects (9)<br>
+Scum And Villainy x2<br>
+Search And Destroy<br>
+Secret Plans or<br>
+Oppressive Enforcement<br>
+Hutt Influence <br>
+Den Of Thieves<br>
+First Strike<br>
+There&#146;ll Be Hell To Pay x2<br>
+<br>
+ </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Strategy</Font></TD><TD><font face="Arial, sans-serif" size="2">In A.D. 2101<br>
+War was beginning<br>
+Captain: What Happen ?<br>
+Mechanic: Someone set up us the bomb<br>
+Operator: We get signal<br>
+Captain: What !!<br>
+Operator: Main screen turn on.<br>
+Captain: It&#146;s you !!<br>
+Cats: How are you gentlemen !!<br>
+Cats: All your base are belong to us<br>
+Cats: You are on the way to destruction<br>
+Captain: What you say !!<br>
+Cats: You have no chance to survive make your time.<br>
+Cats: Ha Ha Ha Ha ....<br>
+<br>
+     If you haven&#146;t seen the web site, pay no heed to what I just said. First things first because I know some people are slow on DeckTech. Myo is your Rep. Secret Plans is almost always default start, Oppressive Enforcement if you feel you&#146;re up against SA. PotH is a great card to pull all the good characters you need, and No Bargain protects you a little. If you prefer the direct damage and starship function, just stick with what you prefer. Basically, you have to occupy usually three battlegrounds, then beatdown wherever the opponent is. See other Scum decks for specific layouts of your sites and/or characters.<br>
+<br>
+     Why not Court? I like swarms, and Abyssins come down cheaper than Bounty Hunters in most cases. Also, I like the added retrieval and extras to your battle destiny.<br>
+<br>
+     Why ten Abyssins? Many people like to play two or three, but I like to go all swarm because of all the bonuses those guys receive. Abyssin Ornament, Wounded Wookiee, Jabba&#146;s Twerps, No Bargain, etc. all help out your Abyssins and they become very cheesy. <br>
+<br>
+     No Xizor or Guri? Myo can help me cancel battle destiny and Xizor would be a welcome addition, but the problem is finding space. I also plan to add Ree-Yees first, so they won&#146;t be in here for a while.<br>
+<br>
+     Why Point Man? To cancel the dreaded They&#146;re On Dantooine. Really, it&#146;s in there to cancel Order To Engage and No Disintegrations!<br>
+<br>
+     Why three Myos? First of all, he is key to this deck. Also, having more means I can cancel drains or battle destinies while my objective is flipped.<br>
+<br>
+     Matchups:<br>
+<br>
+     Profit: Deploy Chall Bekan and Myo to the Audience Chamber and do all you can to fortify that site. Point Man helps out if there&#146;s OTE out, and you should always start the Lower Passages as your site. Replace his sites if you get your equivalents, and kill off his guys. Fairly easy matchup usually.<br>
+<br>
+     Hidden Base: You may not be able to beat this deck, but you can get lucky or cause considerable damage. Hutt Influence, Bubo, and Search And Destroy are very important and you should get them ASAP. Gailid helps out in a drain race, and your ships can help keep the opponent busy for a while. This is a tough matchup.<br>
+<br>
+     Agents In The Court: This deck will be better in some ways than AITC, but I would say you have 50/50 chances of winning here. It&#146;s a high probability you&#146;ll be having lots of battles, and that&#146;s where Scum and Abyssins shine. Your regenerating one-eyed monsters can be very annoying and you can retrieve lots with S &amp; V. This could be a tough matchup but DS Scum is better than LS versions.<br>
+<br>
+     Rebel Strike Team: Go to his sites after you flip and mass up Abyssins at the Bunker. After that, you shouldn&#146;t have too much of a problem. This is fairly easy but you can be outdrained if you&#146;re unlucky.<br>
+<br>
+     Throne Room Mains: This may be very difficult, because Obi-Wan Kenobi and Master Luke (if any) can be very efficient. If you can keep up the pressure and prevent any odd form of retrieval, you should do fine. <br>
+<br>
+     Mind What You Have Learned: This should be very easy, but early beatdowns will hurt a lot. Start Secret Plans and drain like mad. S &amp; D helps a lot.<br>
+<br>
+     Echo Base Operations: Don&#146;t invade the Hoth Shield unless the opponent starts off very slow. They make your guys vulnerable and they cannot be reinforced once you&#146;re under there, so think twice before doing so. Use your early drains to your advantage to pick up a lead. This is an extremely difficult matchup and pray to your deity you will win.<br>
+<br>
+     Watch Your Step: I&#146;ve never faced this deck, but people tell me it isn&#146;t all that good. I think it&#146;s an ok objective, but if I were to face it, I would just take over his sites and make dogpiles of guys.<br>
+<br>
+     There Is Good In Him: You may not be able to kill Luke, but once you&#146;re ready to battle, make sure you prepare to make a mass beatdown to cause direct damage. If Luke&#146;s buddies are Speeders, you must be careful and stay indoors if possible. If his buddies are scouts, just go kill them please. This may be fairly difficult. <br>
+<br>
+     Rescue The Princess: This may be difficult, but if you kill off his mains, you should do fine. Retrieve for all you can and make use of all your interrupts. Semi-difficult matchup.<br>
+<br>
+     Massassi Base Operations: This may be difficult also, because he&#146;ll be free to blow away the D* while you just sit around on Tatooine draining for your 5 or whatever a turn. Try to go to Y4 and fortify a site to prevent flipping, because that objective will never flip back. This is moderately easy if you can keep a foothold on a Y4 site.<br>
+<br>
+     Dantooine Base Operations and LU: Bubo eats their weak guys/operatives and your Abyssins should be used for mass beatdowns again. This can be easy if you can deny them of controlling sites.<br>
+<br>
+     Quiet Mining Colony: Invade Cloud City and chase around their guys while draining on Tatooine and that will make things much easier. This is one of the toughest matchups because it may seem like a wild goose chase and your drains will cost more if they start Battle Plan. </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="darkdecks.php3"><img src="../images/ldback.GIF" border="0"></a><A HREF="darkread.php3?deck=15035"><IMG SRC="../images/ldread.GIF" BORDER=0></A><A HREF="darkreview.php3?deck=15035"><IMG SRC="../images/ldreview.GIF" BORDER=0></A><a href="deckprint.php3?deck=15035" TARGET="BLANK_"><img src="../images/ldprint.GIF"  border="0"></a></FONT></TD></TR></TABLE> </td>
+              </tr>
+            </table>
+            <!-- #EndEditable --></td>
+        </tr>
+      </table>
+    </td>
+    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
+      <table border="0" cellspacing="0" cellpadding="0" width="150">
+        <tr align="right" valign="top"> 
+          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
+          <td width="154" valign="top" align="right"> 
+            <table width="154" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF">&nbsp; </td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF"> 
+                  <script language="JavaScript">
+
+function logout() {
+var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
+document.cookie = cookie;
+window.location = "../index.php3";
+	}
+
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+
+</script>
+                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
+<select name="select1" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="/swccg/resources/rulings.php3">Current Rulings</option>
+<option value="/swccg/main/decktech.php3">About DeckTech</option>
+<option value="/swccg/membercenter/directory.php3">Member Directory</option>
+</select>
+</form><BR>
+<!-- #EndLibraryItem --> </td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
+                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
+                  Center</a></font> <br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
+                  Reports </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
+                  Resources</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
+          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/decks.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/index.php3" class="level2nav">Decks 
+      Home</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/dark/darkdecks.php3" class="level2nav">Dark 
+      Decks</a><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/light/lightdecks.php3" class="level2nav">Light 
+      Decks</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
+          <td width="155" valign="top" height="13"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr align="left" valign="top" bgcolor="#630063"> 
+                <td width="154">
+ 
+
+<!-- BEGIN BURST! CODE -->
+<center>
+<a href="http://signup.postmasterdirect.com/affiliates?owner=BachSystems&affili
+ate=dawiyhd"><img src="http://gfx.postmasterdirect.com/gfx/banners/list125x125.gif"
+height="125" width="125" border=0></a></center>
+<!-- END BURST! CODE --> 
+
+<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
+                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" --><table width="100%" border="0" cellspacing="0" cellpadding="4">
+  <tr bgcolor="#000000"> 
+    <td><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Latest News 
+      </font></b></font></td>
+  </tr>
+  <tr> 
+    <td> <p><font face="Arial, Helvetica, sans-serif" size="2"><a href=/dpc/news/fantasy_winners.php>Announcing: The Fantasy DeckTech Players&#146; Challenge Winners</a></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Thu, March 1, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR><p><font face="Arial, Helvetica, sans-serif" size="2"><a href=/dpc/news/coverage.php>Round by Round Web Coverage of the first DPC Open</a></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Wed, February 21, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR><p><font face="Arial, Helvetica, sans-serif" size="2"><A href=/dpc/news/normal_schedule.php>The DPC Normal: Schedule of Events</A></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Tue, February 20, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR> <a href="/swccg/main/news.php3"><font face="Arial, Helvetica, sans-serif" size="1"><br>
+      more news</font></a> </td>
+  </tr>
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
+      Updates</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><a href='/swccg/resources/tjpage.php3'><font face='Arial, sans-serif' size='2'>Tj Holman</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-08</font><BR><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-25</font><BR><a href='  /swccg/resources/terwilligerpage.php3'><font face='Arial, sans-serif' size='2'>Brian Terwilliger</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-03</font><BR></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
+      Tips</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><p><font face='arial' size='2' color='#ffffff'>Trying to find something to do to help promote SW:CCG? Look at our community projects just off the homepage!</font></td>
+  </tr>
+</table><!-- #EndLibraryItem --></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

@@ -1,0 +1,586 @@
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Lord of the Rings Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Lord of the Rings, Gandalf, Frodo, Ring, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #111188;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; color: #111111; font-size: 8pt; font-style: normal; text-decoration: none; background-color: #FFFFFF; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.headerbg {  color: #E2DED3}
+TD.headerbg A {  color: #E2DED3}
+
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.r2body {  color: #EDE9DE}
+TD.r2body A:link {color: #A17D2D}
+TD.r2body A:active {color: #A17D2D}
+TD.r2body A:visited {color: #A17D2D}
+TD.r2body A:hover {color: #FFFFFF}
+
+TD.r2body .level1nav:link {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:active {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:visited {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:hover {  font-family: Verdana, Arial, sans-serif; color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 8pt;}
+
+input {font-family: Verdana, Arial, sans-serif; font-size: 8pt }
+select {font-family: Arial, sans-serif; font-size: 8pt }
+
+-->
+</style>
+ 
+</head>
+<body link="#111155" vlink="#CF4300" alink="#0000FF" text="#111111" margin="0" marginwidth="0" marginheight="0" background="/lotr/gfx/mom/bg.jpg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=186 hspace=0 vspace=0
+src="/lotr/gfx/mom/logoleft.gif" width=1 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=186 hspace=0 src="/lotr/gfx/mom/logoright.jpg" width=195 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action=""><input type="hidden" name="PHPSESSID" value="b4c4b455ac2ede9f7718c59ca37ecac1" />
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">LotR TCG ======</option>
+<option value="/lotr/index.php">Home</option>
+<option value="/lotr/main/about.php">About</option>
+<option value="/lotr/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+<option value="#"></option>
+<option value="#">Themes =======</option>
+<option value="/lotr/treports/treports.php?setheme=fellowship">Fellowship</option>
+<option value="/lotr/treports/treports.php?setheme=moria">Balrog&Gandalf</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Lord of the Rings</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#3C402E" class="r2body" width=88%><font class="bfont">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><a href="/lotr/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Home</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/articles/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Articles</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/decks/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Decks</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/treports/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Tournament 
+      Reports</a><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%"><img src="../../global/images/home/trans.gif" width="10" height="5"></td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=constructed&PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1">Constructed</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=sealed&PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1">Sealed 
+            Deck</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=league&PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1">League 
+            Play</a></font></td>
+        </tr>
+      </table>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/outfitters/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">M.E. 
+      Outfitters</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/trade/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Trade</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/resources/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav">Resources</a><br>
+      <br><a href="/premium/index.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1"                    
+class="level1nav">Premium Memberships</a><br>
+
+    </td>
+  </tr>
+</table>
+
+</font></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Auction</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#421D21" class="r2body" width=88%><font class="bfont"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1'>List Your Item!</a> 
+
+</font></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">DeckTech Writers</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#421D21" class="r2body" width=88%><font class="bfont"><font size='1'><b>Star Wars CCG</b><br><a href='/starwarsccg/featured/taylor.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1'>2006-05-26 Scott Lingrell</a><br></font> 
+
+</font></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Site Sponsor</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#3C402E" class="r2body" width=88%><font class="bfont"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td>
+      <td bgcolor="#3C402E" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><BR><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Top Articles</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#152A43" class="r2body" width=88%><font class="bfont"><ol><li><font class="bfont"><A HREF="/lotr/articles/articles.php?id=6369&view=2&PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1">European Championship LOTR</A></font></li><BR></ol> 
+</font></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> <table cellspacing=0 cellpadding=0 width="100%" border=0>
+<tr valign="top">      
+<td background="/lotr/gfx/mom/header_back.gif" height="150" valign="middle" align="center"><br>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript></td></tr></table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="" valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr><td width=1><img src="/lotr/gfx/mom/red_01.gif" width=6 height=6></td><td width=100% background="/lotr/gfx/mom/red_02.gif"></td>
+<td width=1><img src="/lotr/gfx/mom/red_03.gif" width=6 height=6></td></tr>
+<tr><td background="/lotr/gfx/mom/red_04.gif"><img src="/lotr/gfx/mom/clear.gif" height=35 width=1></td>
+<td background="/lotr/gfx/mom/red_05.gif" class="headerbg"><font class="h1font"><font color="#FFFFFF"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Tournament Reports</td><form method='post' action=''><input type="hidden" name="PHPSESSID" value="b4c4b455ac2ede9f7718c59ca37ecac1" /><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Tournament Reports</option><option value='#'> </option><option value='/starwarsccg/treports/index.php3'>Star Wars: CCG</option><option value='/heroclix/treports/treports.php'>HeroClix</option><option value='/vs/treports/treports.php'>Marvel VS</option><option value='/lotr/treports/treports.php'>Lord of the Rings</option><option value='/magic/treports/treports.php'>Video Games and Movies</option><option value='/wars/treports/treports.php'>Wizards Minis</option></select></td></form></tr></table></font></B></td><td background="/lotr/gfx/mom/red_06.gif"></td></tr>
+	<tr><td background="/lotr/gfx/mom/whi_07.gif"></td>
+		<td bgcolor="#FFFFFF" background="/lotr/gfx/mom/whi_08.gif"><font class="bfont"><font class="h1font"> Livonia Prize Tourney#2 & PSI 06/2004<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><font size='1'>(5.00)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/lotr/main/mpage.php?member=14074'>Chris "Mental Warg" Tubman</A></font><font class="afont"> <a href='http://www.decktech.net/lotr/main/mpage.php?member=14074&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> June 8, 2004</font><p align='justify'><blockquote><font class="bfont"> Well often times when I &#39;scrub out&#39;, read don&#39;t place in the top 3, I don&#39;t write tournament reports, but since I told Dan and a few others I would... I guess I have to.<br />
+<br />
+I&#39;m going to start off by saying that the level of competition at these tournaments was really intense.  I would also like to add that my deck was not very good.  I like to make decks... Usually eccentric creative decks that are off-meta.  Every once in a while I do well with one of these decks, like at the Ohio TOC for instance.  Unfortunately, when this happens I get overconfident in my deckbuilding abilities.  But anyway, I had fun and I learned that it&#39;s probably better to use something tried and true when playing in a high level tournament for cash and not some pile.  Also, I learned that I should listen to Brochu and everyone else on the web that told me that choke was the only way to run Dwarves.  <br />
+<br />
+I played a version of a deck I posted as &#39;I smell burnt dwarf&#39;.  I think I slimmed it down to 36 a side and didn&#39;t end up running GKOMP, ran 2 bracers, 2 dark ways for wounding matchups.. and switched to Lord of Moria over aggression as Corsairs were raping me with aggression in playtesting... since I don&#39;t choke chances are they keep initiative easily.... with lord of moria... after about site 5 they cannot stop my fellowship (of course I never played vs. Corsairs either day).  The shadow was morgul orcs.... More of an orc heavy cheap nazgul version, that was better at swarming or stopping than outwounding.<br />
+<br />
+Anyway, nothing too exciting happens on the way over to the tournament on Saturday, so I&#39;ll spare the pre-tourney dank... whoops... jank.<br />
+<br />
+Also, I didn&#39;t take notes and details are kind of fuzzy, so I&#39;ll just give you guys a general overview of the games and then talk a bit about the post-reflections meta.<br />
+<br />
+game 1 vs. William somebody (sorry dude can&#39;t remember your last name)<br />
+<br />
+So this game was interesting.  My deck didn&#39;t hate me a couple of SFTF showed up early allowing my dwarves to get set up quickly and run over his dunland with recurring honed off of Preparations.  My shadow wasn&#39;t doing too much other than putting some wounds on him etc.  Time was running out so William opted to move into site 8 with me at 7 and him being unable to touch me....  Needless to say I dropped a bomb on him with I believe mmmm about 10-11 minions using morgulduin/ morgul destoyers.  I think it was a fierce Lemenya that corrupted his frodo.<br />
+<br />
+FW +3/ 3<br />
+<br />
+William was a super nice guy that came all of the way from Notre Dame where he plays with a couple of friends.  He said he was honered to play with BIG players that he recognized from the web and stayed in the tourny even though he wasn&#39;t doing real well (at least not at the lunch break when I asked him).  BIG PROPS for that William.<br />
+<br />
+game 2 vs. Seth Mazur<br />
+<br />
+Well Seth has come along way since I played him at DPC Toronto... I didn&#39;t hear him talk about Southrons once the entire weekend even though I tried to provoke him.  Well this game would prove to be Seth&#39;s chance at revenge.  I got the worst possible draws this game and should of mulliganed.  No SFTF until site 4 I think and then all that did was allow him to dump on me at 5 and take control of 3 sites... This was the only game vs. Dunland all day where I allowed my opponent to control more than 1 site.  Needless to say I succumbed to the eldar bomb at site 7.  Meanwhile, he is playing CTFF like every site which put a damper on my shadow strat, but at least it cleared my hand, you would think that would of helped me draw SFTF, but whatever.  If I survived 7 I had a nice hand for him at 8, including Enquea, a pack of whelps and destoyers and a squealer (he had 6 comps)...  But my fellowship got ran plain and simple ... And Seth played like a champ.<br />
+<br />
+FL +1/ 4<br />
+<br />
+game 3 vs. Matt King<br />
+<br />
+Well Matt always plays Sauron grind.  My dwarves were ready for the grind and pretty much walked all over his shadow.  He got a nice draw and dropped 3 x bowman at site 3 which I proceeded to wipe off the table ala BRC.  Later on in the game he dropped another bowman and 2 x UTWE and I had the BRC again...  Really one sided game.  His fellowship was hobtookoke and succumbed to the morgul orc swarm/outwounding at site 6 or 7.<br />
+<br />
+FW +3/ 7<br />
+<br />
+game 4 vs. Dan Clark<br />
+<br />
+Well Dan and I always have some games.  This would prove to be no exception.  The short of the story is my morgul orcs/nazgul slowed his DH to a crawl and his moria archery gave me kind of a hard time.  It was the 2nd Dark Ways that I teched in before the tourny that saved me big time.  I was able to heal 4 wounds at 8 and move into 9 with 2 x honed in hand.  Oh it was also the 2 x dwarven bracers I decided to run to help vs. wounding decks that saved me at 9.... Well that and disquiet of my people that I yanked with Guile.  Basically I use both bracers to keep the archery from killing me after exerting for Disquiet and then Durin takes 3, Sindri takes 1, and gimli took the remaining 4 orcs I think.... Using ATAR to eat some threats as burdens and both Honed and ATAR to pump making me just big enough....<br />
+<br />
+Close game.... Technically, I lost the game though as I started to play a fellowship card at six and then popped it back in my hand and healed... Dan let it go cause for one he&#39;s a nice guy, and two I think he thought it couldn&#39;t possible matter... I know I thought he would kill me in the end anyways.... I always do stupid crap like that vs. Dan and he always lets it ride and it always costs him the game.  <br />
+<br />
+On a side note... Dan and I are still friends and I may even go to Germany with him in October, if I can get sponsorship.<br />
+<br />
+FW +3/ 10<br />
+<br />
+game 5 vs. Christian Sarra-Bournet (Brochu&#39;s Padawan)<br />
+<br />
+This guy was great he really reminded me of Patrick Malbeouf... I think it&#39;s just the French Canadian accent and the mannerisms, ala &quot;I&#39;ll think about it&quot;...  <br />
+<br />
+This game was really strange, we tied on the bid and he wins the die roll after I declined to do the odd/even thing as I always lose that.  Anyway, he starts off with an easy move to 3 as I had a great fellowship hand including SFTF and after getting screwed bad game 2 had to keep it.  Anyway, early game I am giving him a boatload of pool and he is making me pay for it hard with his Nazgul and morgul orcs.  But I was filtering my deck a bit and trying to set up.  Moving into 5 I had to lose a couple of comps, after he jacked my gimli&#39;s helm with Cantea...and then I forgot to heal in the regroup with ring of fury...doh!  Luckily when I moved into 6 he only had Nelya, RIT with fell beast who got ran over by Durin.  Meanwhile, he drops Sam and moves into 6 (this is with me back at like 4 or 5 mind you).. and I drop a decent squad and he lets sam die to clear the threats and stops to heal.  Things are looking good for him when he leaves site 6 with 5 companions fully healed and zero threats and zero burdens... At site 7 I play Otsea, TOTO and a couple of orcs, I use Otsea to add 7 pool and he moves into 8 anyway, I really couldn&#39;t believe it.  I had a mit full of orcs and with his green ring I was able to add some threats now with destroyers and pull guls out of discard pile... I think when all was said and done I had like 11 minions... Of course between lego gunning down my whelps and ROTN with Anduril taking out 5, he manages to survive only loosing gorn I think as galadriel KON saves his exhausted Greenleaf....  Anyway, when he moves into 9 after dropping Faramir, and Boromir, I have another squad to toss at him, including Enquea, which gets activated again with a brute after he used the faramir tired traveller combo to drop to 4.  Anyway, this is where the game got interesting and I made a scrub mistake, but so did he as he informed me after the game.  Basically, what it came down to was how I played Enquea and how he played Nenya.... He used it right away to heal (which wasn&#39;t smart) and then I proceeded to exhaust Lego, and kill glorfindel which wasn&#39;t smart, I guess I over estimated the damage the 5 threats would cause.  Anyway, it came down to Frodo left exhuated with 9 burdens.... I suck.  It was the Galadriel, Legolas connection that kept lego alive and allowed him to block in the fierce that did me in.  I needed to kill Boromir and just go for the swarm kill... I mean Frodo was only a 4 strength WTF!!!! <br />
+<br />
+This game I totally blew, I had him and I just rushed it... I mean it was site 9 why I didn&#39;t take more time to think through every possibility is beyond me... Oh well Christian deserved to win he is a hell of a player and his deck is just solid all around... One of the best man elf builds I&#39;ve seen. (very similar to Brochu&#39;s so I don&#39;t know who gets the credit)... I don&#39;t want to be too premature here in my predictions but I think Maximillian and Christian will make solid replacements for Dom and Patrick in this years pro circuit and keep Quebec on the map for LOTR.<br />
+<br />
+FL +1/ 11<br />
+<br />
+game 6 vs. Joe Knapper (not Krapper)<br />
+<br />
+Well Joe was a really nice guy, super fun to play against... Of course this game was really one sided in my favor so of course I remember it as being fun... He was running the Gondor noble leaders Elindil deck with Boromir RB... and the snow ring to boot.  Needless to say I made him assign boromir to a skirmish almost every site.  He kept dumping pool and I kept dumping minions...  I made him blow all 4 saplings to keep Boromir alive... My fellowship set up pretty quickly , and then proceeded to roll his dunland.  The funniest thing was watching Dwarf Guard roll Freca with 3 honed&#39;s off of prep for +12, I guess that&#39;s one way to get around over the isen... Eventually the BRC went off and there wasn&#39;t anything for his shadow to do.  My shadow actually worked perfectly and I dropped like Enquea and 4 brutes and 3 destroyers at site 8 for the corruption.... go skulker...<br />
+<br />
+FW +3/ 14<br />
+<br />
+Joe and his homeboy Brian had come all of the way from IOWA!  They were both really cool and I enjoyed meeting them/ bullsh&#39;ting between games.  Unfortunately no one has seen Whiteboys so my Iowa jokes were unappreciated.<br />
+<br />
+So after this game I find out that me beating Joe (he would of been 5-1 if he beat me) gets Christian into the top 4 as the only 4-2.  Good for him.  I guess if I wouldn&#39;t of made that mistake vs. him it could of been me.  Oh well I had the chance and blew it.<br />
+<br />
+So that was the end of the regular matches and the final 4 are Brochu, his two prodigys and Brian Fred or as I like to call him Fryin Bread.<br />
+<br />
+Basically, Brochu gets a good enough draw to last vs. Maximillian&#39;s Moria and take it to site 9, while Brochu&#39;s Corsairs slow Max to a crawl.  In the other game Fred&#39;s Dunland eventually take site 2 and vs. Christian&#39;s elves and men and it&#39;s only a matter of time.<br />
+<br />
+In the final Brochu almost pulls it out vs. Fred but a pump at nine on Frodo gives the game and title to Fred.  Brian was cracking me up with his &quot;Fred 4 Canada 0&quot; stuff...<br />
+<br />
+Brian goes 8-0 with his DH GimliRB 2 site Dunland deck.  I was impressed with how well his fellowship held up vs. Corsairs... DH with BRC is nice!  Also, if Fred had drawn into his elven rope before site 8 I think he would of taken the fellowship into 9 for the win, since he could of bounced the plunderer and shot up Castamir, and here I thought DH was dead.<br />
+<br />
+So thus ends the first day of intense battle.  After the tournament I am a little pissed at myself for the mistake, but I feel pretty good about my performance as I used an unconventional deck, and went 4-2 could of been 5-1.  So we go out to grab a couple of beers at the outback after watching Dan Clark and others play Dance Dance Revolution... Man that was AMUSING...<br />
+<br />
+Most people play poker, but I decline as I haven&#39;t played hold &#39;em before and don&#39;t want to lose my money.  Mike Noonan was nice enough to buy some after bar beverages to share with everyone, Labatt Blue at that so the Canadians felt at home.  So instead of making a different deck for the PSI I decide to play the same pile and just get drunk instead....<br />
+<br />
+I think one of my favorite moments was when Paul Mazur&#39;s dad showed up at the Dueling Center at like 3:30 in the morning.... Needless to say he seemed a little bit upset.  And I&#39;m not sure who it was now but someone yelled &quot;hide the beer&quot; as he was leaving it was hilarious.<br />
+<br />
+Anyway, we end up staying at Dan&#39;s house (thanks Dan!) and even though I had to sleep on an elbow style couch, it was comfortable enough... I woke up feeling not so great however after aboot 4 hours of sleep so Shawn and I elected to leave and go get food since Dan&#39;s dad was frying bacon and the smell was making me &#39;Ravenous&#39; and if you&#39;ve ever seen that movie it&#39;s probably best that I left.<br />
+<br />
+So the PSI is upon us and I decide to play the same pile, after going 4-2 and feeling like the deck was 5-1 (with my mistake)... <br />
+<br />
+Shawn and I get to RIW at like 10:00am and we play a game so that I can test my deck vs. corsairs.  The Saruman&#39;s Power/ Grima combo at site 7 slowed me to a crawl, but Defending the Keep to replay Prep and stacking Slaked with Greenleaf out and clean proved to be the deciding factor and kept me alive at 9.  <br />
+<br />
+So Shawn has no $ so i take him across the street to the atm at the Mobil.  The car I just bought has a loose door panel/ lock and handle cover whatever you want to call it. So shawn gets out and it comes off and the screw goes flying so I freak out after trying to fix it from the inside and failing to find the screw I get out to look for it.... Apparently, you can open the door when it&#39;s locked cause when I attempted to re-enter my vehicle I got DENIED!!!  So my car is locked and running and the PSI starts in half an hour... G0D D@MN IT!!!!  SO Shawn calls Triple A, I call Kim, and we finally get over there about 20 minutes late... Thanks again Kim for waiting... and sorry to everyone else for my idiocy!<br />
+<br />
+SO to sum up the PSI lets just say the deck proved to be the true pile it was, landing me a big 2-3... And my first loosing record in a while. The competition was intense though.  But I did loose to Eddie Clancy, the kid who lost a tooth the day before and was using it as his site marker... I thought he was like 12 years old but found out later he was 14.<br />
+<br />
+The surprising thing was all of the DH that was everywhere at the PSI. Oh and I also had to play vs. Dwarf choke (the good Brochu version) where my shadow did almost nothing... ALthough I was one strength from killing him at site 5 thanks to the whelps I saved... I forced him to  burn 2 rings and all of his resources and ended up 35-18 with ATAR....<br />
+<br />
+I&#39;m not going to break down the games from the PSI as I didn&#39;t really enjoy them all that much and I got horrible draws, etc.. My friend from Lansing Chris Ohara beat me with Moria corruption... There really wasn&#39;t much I could do cause I got a crap draw and his deck is made to beat mine.  Brochu beat me in a close one (actually I conceded to him, if I were a pipeweed I could of taken a timed win). And the Eddie game I don&#39;t really want to talk about suffice to say that Nobody Tosses a Dwarf not only top decked Durin III early but forced me to run as I was running out of deck quickly, and had he not powered me at 7 I would of been fine, but couldn&#39;t finish out site 9 vs. the trackers with out honed, etc...  Oh well.<br />
+<br />
+What I thought was interesting was the top four decks... Let me break it down for you...<br />
+<br />
+Josh C-M:       DH/ Corsairs<br />
+Christian S-B:  Elves&Men/ Nazgul w/ morgul orcs<br />
+Maximillian B:  Dwarf Choke/ Moria swarm<br />
+Dan C:		DH/ Moria Swarm<br />
+<br />
+Anyway, in summary everyone had a blast!  The prizes were rediculous... Saturday the Cash and several boxes were handed out to Brian and the Canadians who made their long (like 12 hours I think) drive worth their time/$$.  My Lansing friend Shawn won sportmanship on Saturday taking home a box of relections, a TT anthology set, a coundown collection and some other goodies.  Both days everyone got their pick of a rare foil at the end of the day.  On Sunday, the last place player got a full set of reflections and some other goodies, a binder full of something, I&#39;m really not to sure what all he got.  The sportmanship award was again rediculous and went to Emir from Grand Rapids.  The top four I believe each got a foil ring of their choice and several boxes to split up.  <br />
+<br />
+All in all the weekend was really fun... I was a little bit upset with my Sunday performance, but still had fun and made the most of it.  I got to meet some new people as well as seeing some old familiar faces. <br />
+<br />
+MEGA PROPS TO:<br />
+<br />
+Pam from RIW... The prize support is always sick!!!  Oh and the sympathy simblemyne she tossed me for locking my keys in my car.<br />
+<br />
+Craig and Kim:  Both ran an excellent tournament.<br />
+<br />
+Chris Berry: For giving me his left over pizza (still hot!), you rock dude see you at Origins.<br />
+<br />
+Shawn: For the company on the ride over and for sticking it out on Saturday despite some tough games.  Oh and for thinking that my &quot;Wrath of Hahn&quot; joke was funny... and especially for having AAA.<br />
+<br />
+Chris O&#39;Hara: For bringing the Lost to the Goblins deck and smoking me with it.<br />
+<br />
+Matthew Brochu:  For showing me the true strength of dwarves and for training some excellent players... Keep the game alive.<br />
+<br />
+Seth Mazur & Mike Noonan: For making the trek out from New York and getting me buzzed up.  Oh and specifically Seth for refraining from any talk of Southrons and Mike for the great Facial Story.<br />
+<br />
+Dan Clark:  For giving me a questionable take back that I shouldn&#39;t of asked for.  For inviting me to go to Germany and especially for the place to crash.  Oh and thanks for the Onion Petals... even though you called me a beatnik (I sort of took it as a complement, lol)<br />
+<br />
+Emir (spelling) and Alex:  For coming over from GR to play with the big boys, hope you guys make it to Origins.<br />
+<br />
+Joe and Brian:  For making the trek out of the corn... I&#39;m sure I&#39;ll see you guys this summer.  And Joe for thinking it was funny when I killed his Freca with my dwarf guard.<br />
+<br />
+ALex and Phil O&#39;Shea:  For talking Hitchhikers guide and trying to teach me hold &#39;em.  Oh and Alex for reliving our match at the DPC Toronto.<br />
+<br />
+Matthew, Christian, Max, and Hahn:  Making the long trek and kickin a55 and takin names... and for the props on the Gollum deck.  <br />
+<br />
+Brian Fred:  For showing people a new way to play DH and doing what he does best owning people with Dunland.<br />
+<br />
+Josh C-M:  For being nice to me even though I slandered him (well actually when written it&#39;s libel) on the internet, and proving he is still top notch.  Oh and for trying to order a beer without ID, pretty smooth.<br />
+<br />
+Paul&#39;s Dad: for making me feel sixteen and mischeivous again.<br />
+<br />
+My place of employment:  For allowing me to &quot;work at my own pace&quot; which translates into spending like 3 hours today writing this stupid TR.<br />
+<br />
+SLOPS:<br />
+<br />
+Brad Eier:  For not making any Chapel show references, or any cowbell references.... At least none that I heard... I tried pretty hard to get a cowbell for a site marker before the tournament too, oh well maybe for Origins.<br />
+<br />
+8 hour old french toast sticks from BK.... I guess this one goes to me for actually eating them.... ;-* bleh!<br />
+<br />
+Anyway, hope you enjoyed.<br />
+<br />
+Peace<br />
+<br />
+Tubman <br></font></blockquote><BR><font class="bfont"> <A HREF='/lotr/treports/treports.php?id=5049&view=1&PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1'>Read the Reviews</a><font class="bfont"> | <A HREF='/lotr/treports/treports.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/lotr/main/join.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1'> become a registered member</a></font></font></td><td background="/lotr/gfx/mom/whi_09.gif"></td></tr>
+<tr><td><img src="/lotr/gfx/mom/whi_10.gif" width=6 height=18></td>
+<td background="/lotr/gfx/mom/whi_11.gif"></td>
+<td><img src="/lotr/gfx/mom/whi_12.gif" width=6 height=18></td></tr>
+</table>
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr align="center" valign="bottom" > 
+      <td height="100"><font class="lfont">This site is maintained and updated 
+        by fans of The Lord of the Rings TCG, and is in no way affiliated with 
+        New Line Cinema or Decipher Inc. We in no way claim the artwork displayed 
+        to be our own. Copyrights and trademarks for the films and other promotional 
+        materials are held by their respective owners and their use is allowed 
+        under the fair use clause of the Copyright Law.<a href="/global/terms.php?PHPSESSID=b4c4b455ac2ede9f7718c59ca37ecac1" class="level1nav"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

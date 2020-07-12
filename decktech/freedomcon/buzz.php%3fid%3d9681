@@ -1,0 +1,415 @@
+
+<html><!-- #BeginTemplate "/Templates/freedom.dwt" -->
+<head>
+<title>FreedomCon - United We Stand</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {  margin: 0px 0px; border: none; font: 10pt Verdana, Arial, Helvetica, sans-serif; color: #000000}
+.legal {  font: 6pt Verdana, Arial, Helvetica, sans-serif; color: #CCCCCC}
+td {  font: 9pt Verdana, Arial, Helvetica, sans-serif}
+.nav {  font-size: 8pt; color: #FFFFFF; text-decoration: none}
+-->
+</style>
+</head>
+
+<body bgcolor="#000E58" margin="0" marginwidth="0" marginheight="0">
+<table width="93%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td colspan="2" height="97"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+        <tr>
+          <td><img src="/freedomcon/gfx/freeblue.gif" width="266" height="123" border="0"> 
+          </td>
+          <td valign="middle" align="center">&nbsp; </td>
+        </tr>
+      </table>
+      
+    </td>
+    <td width="42" height="97">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td height="149"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <tr> 
+                <td class="legal"><a href="/freedomcon/index.php" class="nav">Home</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/about.php" class="nav">About FreedomCon</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/sponsors.php" class="nav">Our Sponsors</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/contact.php" class="nav">Contact Us</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/attend.php" class="nav">Players Attending</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/donate.php" class="nav">Donations and Charity</a></td>
+              </tr>
+              <tr>
+                <td><a href="/freedomcon/buzz.php" class="nav">Discuss FreedomCon 2!</a></td>
+              </tr>				  
+			  
+            </table>
+            
+          </td>
+        </tr>
+      </table>
+
+      <!-- #BeginEditable "nav" --> <!-- #EndEditable --><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><br>
+      </font>
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b><br>
+            What:<br>
+            FreedomCon</b> <br>
+            Philadelphia 2002<br>
+            <br>
+            <b>When:</b> <br>
+            October 4-6 <br>
+            <br>
+            <b>Where:</b> <br>
+            NeoQuest Games<br>
+            Gary's Plaza<br>
+            531 South Broad Street<br>
+            Lansdale, PA 19446<br>
+            </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">215 
+            855 7035</font></td>
+        </tr>
+      </table>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"></font></td>
+    <td width="541" bgcolor="#FFFFFF" valign="top" background="/freedomcon/gfx/Vegasxflcam.jpg"><!-- #BeginEditable "body" --> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td valign="top" height="461" width="57%"> <br>
+
+<script language="javascript">
+
+echo "test";
+
+// This makes certain pages private, for members only. Neal 10-2013
+if ($access == "" )
+{
+echo "<table bgcolor='#ffffff' width=500><tr><td><P>This area of DeckTech is now restricted to members only. You must be logged in to view this page.
+Go to <a href='http://www.decktech.net/'> DeckTech.net </a> to log in";
+echo "<P>If you are not a member, and would like to spy on a member, you are cordially invited to kiss off.</td></tr></table>";
+exit;
+}
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+prev1.document.writeln(texttoshow);
+}
+
+function changetobold()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetospoiler()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "(drag mouse to see spoiler)<div style=background-color:red;color:red;foreground-color:red>"+newtext+"</div>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+linkyaddress = document.buzzboardform.texttoconvert.value;
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function oldchangetobold()
+{
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+
+
+
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5<br />
+<b>Warning</b>:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in <b>/home/decktech/public_html/global/includes/com/buzzboard.php</b> on line <b>1719</b><br />
+<table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font class="h1font">tech thread </B></font></td></tr><tr valign="top"><td><font class="bfont"><font class="bfont"> From: <a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=17">neal </a></font><BR><table><TR><TD><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='/freedomcon/buzz.php?id=9681'><b>REFRESH THIS TOPIC</b></A></font></td><td width=40>&nbsp;</td></tr></table><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#EFF1FF><font class="h2font"> Comment</td></tr><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">nice! A free $35! <br><BR><font size=1>07:07 03-23-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Iceman </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Iceman '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I ended up buying that computer I described about a week later, just got it yesterday. Just checked the price of where I ordered it (newegg) and it actually increased by $30 and they are charging 3.99 shipping now...that&#39;ll change over time but funny to see. <br />
+<br />
+Think I just finished reinstalling all the programs I need and am still messing around with it. It opens up 126 MB TIF files immediately in Photoshop.  <br><BR><font size=1>14:31 03-22-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Don, the surface has come on much stronger lately. <br><BR><font size=1>08:20 03-21-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Yeah, iceman, i think i&#39;d wait for win 9. See what it has to offer.<br />
+<br />
+Am i the only one that can&#39;t stand Android as an operating system?  It&#39;s not that I am in love ios, I just find android really hard to use. Too icon fixated. <br><BR><font size=1>08:19 03-21-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">http://phandroid.com/2014/03/18/moto-360-android-watch/<br />
+<br />
+Google and Motorola could have a winner here with an asthetically pleasing design... could be to the smartwatch space as iphone1 was to the smartphone.<br />
+<br />
+I can see myself getting one when it comes out cause I kinda like watches. No one probably needs a smartwatch but if wear devices do get popular, it will help keep people locked into their ecosystem... If I got one, it would lock me into my android phone to be able to use a moto360 watch.<br />
+<br />
+If apple has a smartwatch it better be as nice looking. <br />
+<br />
+Again Microsoft can suck it with nothing to show in this space.<br />
+<br />
+ <br><BR><font size=1>13:41 03-20-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Iceman </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Iceman '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">My computer hard drive has been over heating. Looking at replacing it ($60-80). Also looking at upgrading the entire system ($550)  going from a 2.6ghz , 1 TB HDD, 8GB DDR2 to 3.4 Ghz , 1 TB HDD , 8 GB DDR3. Going form Win7 Home Premium to Win 7 Pro.<br />
+<br />
+Also read Win 9 is scheduled for later this year, since Win 8 was rough, I&#39;m figuring Win 9 will be good.  <br><BR><font size=1>21:28 03-07-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Lt. Cabbage </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Lt. Cabbage '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Yeah, ditto.  I find iOS 6 on minimum / very low brightness isn’t too bad to view at night, but it’s not as good as having f.lux, which adjusts colour as well as brightness.  But f.lux most comes into its own on big screens used to Microsoft Office. <br />
+<br />
+You’re right on the TV point, but you can still do something about them.  If watching at night, turn the brightness down and set to a slightly warmer tone – multiple configurable picture modes are a big help here (a good night mode will basically be unwatchable under any kind of sunlight).  Actually the easy thing everyone can do is turn on any eco modes which auto adjust brightness.  There are usually turned off by default, because for out-of-box TV configurations everything is set to 11 so the picture stands out in dealer showrooms.<br />
+<br />
+Frankly the balance of activities thing is something I’m ‘working on’, but it’s going to be worse before it gets better. <br><BR><font size=1>09:14 03-05-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Darn... f.lux requires jailbreaking and I&#39;m not interested in jailbreaking the ipad. <br><BR><font size=1>08:19 03-05-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">That was a pretty interesting article and have already thought about how using my tab has been effecting my sleep cause besides sleeping later than I should I still like to read articles from my Zite app in bed which keeps me up later and also doesn&#39;t help on the eyes either.<br />
+<br />
+But I think that pretty much is the case for most people not just on tablets and phones but if they stay up watching tv at night or in bed with these high def 1080p LCD screens or if you&#39;re browsing on the Pgully-boonteril late in front of dual 22s.<br />
+<br />
+For me it comes down to trying to do other stuff away from the electronics and try to have a more balanced lifestyle and also manage yourself better with sleep, etc. Last few years I&#39;ve been really trying and besides gym, I took up mountain biking and been running last few years, run 12+ miles a week and running a few marathons already. Try to keep our daughter as active too.<br />
+<br />
+Definitely gonna try that f.lux app though... sounds very good.<br />
+<br />
+I would have been happy holding on to my iPad2 because these things arent cheap!! But it was timely where I was able to give it to my parents for them to have for email and facetime with the kids. But after getting the new Air, it&#39;s so much faster and sharper it was painful running the 2 with my parents showing them how to use it lol. <br><BR><font size=1>08:09 03-05-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Lt. Cabbage </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Lt. Cabbage '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Oh I&#39;m sure the main reason Android has taken over is the price, and not everything about iOS7 is worse than before.  But you should read articles like <a href=http://chriskresser.com/how-artificial-light-is-wrecking-your-sleep-and-what-to-do-about-it>this</a> on the effects on sleep patterns from looking at bright screens at night.  A move towards using <i>more</i> white screen, at least without a night mode, at a time when applications like f.lux are coming out to counter that is an incredibly bad design choice.<br />
+<br />
+I don&#39;t particularly want to get an Android or Windows tablet because I want to use iOS apps for various reasons.  But I do not want to upgrade my iPad.<br />
+<br />
+By the way, that f.lux app makes it far more comfortable to read computer screens at night.  You&#39;ll notice the performance hit on older machines, but I very much recommend it if you do much late-night working on computers.   <br><BR><font size=1>06:48 03-05-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">@Cabbage, I actually disagree with that... Even though I went from iPhones to a Nexus 4 and last year an LG G2 and love Android as a phone, I still prefer iOS for tablet than Android and bought an iPad Air last Xmas and gave my iPad2 to my parents.<br />
+<br />
+For me, iOS apps are more &#39;polished&#39; and visually and in performance execute better and shows really well on their tablets. Android apps have their pluses but I like them on mobile phones.<br />
+<br />
+Many times it comes down to the developers and a clea example was Yahoo Weather where their redesigned app went iOS first and really world difference than the Android version. Even Google has been guilty of it too with bettery looking apps and features updated on iOS before Android like Maps. The differences are narrowing but it&#39;s still there.<br />
+<br />
+For me the reason Android is so dominant in numbers and always will be in shear numbers is due to the flood and availability of cheaper alternatives to iOS. There are some good Android Tablets. I did consider the Nexus 7 before I got the iPad Air... but looking at how it wasnt that much bigger than my LG G2, I wanted a full size tablet to read news apps like a magazine and again, iOS polish wins. <br><BR><font size=1>20:30 03-04-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Lt. Cabbage </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Lt. Cabbage '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Yeah, this has been coming.  iOS 7 is horrible for tablets.  White backgrounds in photo apps?  I don&#39;t know what they were thinking. <br><BR><font size=1>18:17 03-04-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">http://www.informationweek.com/mobile/mobile-devices/android-takes-top-tablet-os-crown/d/d-id/1114100<br />
+<br />
+ <br><BR><font size=1>15:53 03-04-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Serpent </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Serpent '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I&#39;ve seen lots of people use android tablet<br />
+<br />
+I&#39;ve never seen a person use a windows 8 tablet <br><BR><font size=1>14:58 03-04-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Jedi Genius </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Jedi Genius '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">BGR is the most sensationalist tech blog out there to get page views. A lot of it is garbage.<br />
+<br />
+Android tablets are losing popularity with the rise of Windows 8 tablets - I frequent deal websites, which gets all types of people (tech savvy and not), and when it comes to the $200-400 price point for tablets, Windows 8 tablets are the popular choice. Anytime an Android tablet pops up in those price points, a lot of comments simply say "I&#39;d rather have (insert tablet X that runs Windows) instead" now, which I found kind of surprising. It wasn&#39;t always this way, but it has been for at least the last 6 months since the 8" Windows 8 tablets have been high quality and hit the $250 price point (and on occasion, lower). <br />
+<br />
+And when the Surface Pro (with i5, 4 GB Ram, 128 GB SSD, 1080p screen, Wacom digitizer, stylus) hit $500, it became REALLY popular on deal sites and tech blogs. <br />
+<br />
+For whatever reason, Android just never really caught on with tablets that well.  <br><BR><font size=1>20:16 02-18-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">i just said it was a &#39;total disaster&#39;... this guy says ”is a disaster in every sense of the word” pretty harsh<br />
+<br />
+Windows 8 has ‘perhaps destroyed the most successful software franchise of all time’<br />
+<br />
+http://bgr.com/2014/02/10/microsoft-windows-8-criticism-2/<br />
+ <br><BR><font size=1>15:52 02-10-2014</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Well, I can change my wording to say Windows 8 is a failure instead of a &#39;total failure&#39; if it makes you feel better cause I can&#39;t come up with actual numbers or really care to...<br />
+<br />
+To me, 8 is a failure. <br />
+<br />
+Metro sucks and pretty much useless. you can look at it on a sales side where i&#39;ve read articles in the past that 8 sales failed to beat VISTA sales when compared when they first launched. I read articles where win7 sales and adoptions were still outpacing 8. And with 9 coming out next year, enterprise will completely skip 8 and be a bad memory like Vista.<br />
+<br />
+Microsoft employees call it 8-Vista lol... which is not a complement. Even that should kind of tell ya how even their own employees see their own OS. <br />
+<br />
+The only reason 8 sales numbers will continue is because if you want a PC, it will come with 8 preloaded... no choice for the average retailer. Mac is a good option and many will go there but feel that the average price point for a pc is lower and thats were windows is. <br />
+<br />
+My laptop died and bought a new one end of last year and unfortunately all they had were 8s. Bought my daughter a Mac Book Pro last yesr a couple of grand but I just wanted to spend in the $500 range. I could have gone online and business sites for a 7 pro but I also didnt want to spend much for it so just took what&#39;s off the shelf. Funny thing is even with my patch I bought to give me back my start button I barely use it and still goto my 7 desktop in the office and goto my iPad for general stuff or my LG G2 when mobile.<br />
+<br />
+Surface sales are soaring... I guess compared to 400 million sales the previous quarter making double that is soaring. compared to apple or android sales... it&#39;s not that impressive. Did it sell more than nooks?<br />
+<br />
+RT sucks too... who in there right mind will buy one that doesnt run regular windows programs. Thats probably what helped sales where the push to the full blown version? If they want any chance, they need to concentrate on full blown windows 8 on the Surface at a lower price. It was ridiculous selling Surface with full windows at super high price.<br />
+<br />
+I don&#39;t know anything about the Chrome tablets but they seems to be getting some traction and the price point is interesting.<br />
+<br />
+Will be interesting to see what this new CEO does. <br><BR><font size=1>09:11 02-06-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Jedi Genius </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Jedi Genius '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">The Surface is starting to pick up steam. The first generation Surface Pro (ultrabook guts - i5 processor, 4GB Ram, 128GB SSD hard drive, 1080p screen) was on sale for $499 at Best Buy and Microsoft Store (online and in store) this past weekend, and both places were busy with interest for them when I went there. Best Buy has a table set up just for Surface similar to the table they have dedicated just to Apple products, and people were constantly hovering around it and playing with the Surface... 24 hours into the sale, every Best Buy in a 50 mile radius (which is 10+ Best Buys) was sold out of the Surface Pro on sale. The local Microsoft Store had a few in stock, probably because fewer people know they even exist, but my friend was able to pick one up and get a 10% student discount on top of the $499 price ($450 final price!), which is a steal for anything with these specs. She loves it. It costs the same as an iPad, only it runs every single Windows application.<br />
+<br />
+Surface is really picking up steam... I&#39;m still not sold on the regular Surface 2 running Windows RT, at least until the app market picks up, but the Surface Pro/Pro 2 models are pretty great. They even have Wacom digitizers built into them and come with pens.<br />
+<br />
+How was Windows 8 a total failure? I hope you&#39;re not using enterprise/business sales as the gauge for that, because as you noted, many businesses are just NOW switching to Windows 7, and wouldn&#39;t have switched to Windows 8 even if it was the greatest operating system ever created.  <br><BR><font size=1>23:30 02-05-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">The buzz on 9 is better. 8 was basically a total failure <br><BR><font size=1>15:41 01-31-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Yes, being in IT I know manufacturers have offered 7 Pro machines for since 8 came out and been like that when 7 came out that XP pr machines were still available until about last year. <br />
+<br />
+Companies are slow to upgrade... and big companies dont like change. My brother-in-law also in IT for MetLife, they just moved to 7 this year (no choice) and they are still using Lotus Notes lol.<br />
+<br />
+7 Pro will be around a long time and probably stretched further like XP. And most likely in 20 years the next upgrade will be to Win9 Pro skipping Windows 8-Vista like they skipped Vista if they don&#39;t muck it up 9.<br />
+<br />
+8 is a total failure and 9 will be out soon. <br><BR><font size=1>08:27 01-31-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">By the way JG, you might be interested in this. I was surprised. In the last report from MSFT, the analysts were impressed with the sales if the "previously maligned Surface tablet". Sounds like it is making headway. Blackberry has lost a lot to the windows phone too, although it is still only like 5% <br><BR><font size=1>06:07 01-31-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Jedi Genius </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Jedi Genius '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">All companies that sell to business customers have been offering Windows 7 machines since Windows 8 release, just like they had been selling Windows XP machines for years after Windows Vista and Windows 7 had been released, even though Windows 7 was a fantastic OS. It&#39;s standard for the business world to lag several years behind when it comes to adopting an operating system, because it requires the IT department to test compatibility of all software, systems, and hardware, and is typically a pretty big undertaking. <br />
+<br />
+Even if Windows 8 had been the greatest OS known to man, Windows 7 would still be the standard OS for businesses for at least the next couple of years, if not longer (they will officially support the OS until 2020), since many large companies only recently switched over from XP. <br />
+<br />
+In fact, Windows Vista and 7 were sold with downgrade to XP licenses, and Windows 8 Pro is sold with a downgrade to Windows 7 license. Again, standard in the business/IT world, and not a sign of anything regarding Windows 8. <br><BR><font size=1>23:51 01-30-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">did u see that article about HP now offering windows 7 machines? It was pretty funny (and real) <br><BR><font size=1>19:45 01-29-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">http://bgr.com/2014/01/17/microsoft-windows-8-vista-comparison/ <br><BR><font size=1>15:18 01-29-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Don, that gun sounds borderline revolutionary. No kidding. <br><BR><font size=1>10:53 01-10-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">for goodness sake Don lol<br />
+<br />
+So I don&#39;t really get this whole "curved glass" thing.  Why would you want a curved cell phone?  Not understanding that. So it will fit on your butt? <br><BR><font size=1>10:35 01-10-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I had contemplated getting rid of my UZI for an AR at times... this one may be on the top of my wish list!<br />
+<br />
+http://www.cnbc.com/id/101324147<br />
+<br />
+besides the &#39;tag and bag&#39; technology... built in go-cam video and wifi! post on facebook realtime! <br><BR><font size=1>21:11 01-09-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Iceman </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Iceman '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">http://autos.yahoo.com/blogs/motoramic/life-size-road-going-lego-roadster-hits-bricks-233411398.html<br />
+<br />
+<br />
+Robots video : Honestly that blade runner and 4 legged one(s) do kinda scare me. <br><BR><font size=1>15:34 12-19-2013</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Those robots are wild, reminded me of that weird philip pipeweed sci fi movie Screamers. Good post, thanks <br><BR><font size=1>14:19 12-18-2013</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Iceman </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Iceman '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">http://www.colbertnation.com/the-colbert-report-videos/431510/december-16-2013/google-s-robot-acquisition?xrs=synd_facebook_121713_cn_73 <br><BR><font size=1>09:25 12-18-2013</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=9681><input type='Submit'  value=' Show all Posts '></form><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=9681><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/swtcg/main/join.php'> become a registered member</a></font></font></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script>
+<!-- advertising code -->
+<!-- Kontera ContentLink(TM);-->
+<!--
+<script type='text/javascript'>
+var dc_AdLinkColor = 'blue' ; 
+var dc_PublisherID = 157626 ; 
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'>
+</script>
+-->
+<!-- rumors board code end -->
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+      </table>
+      <!-- #EndEditable --></td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"> 
+      <p align="center" class="legal"><span class="legal"><span class="legal"><span class="legal"><br>
+        Legal- TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and related 
+        marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher Inc. Decipher, 
+        Customizable Card Game, The Art of Great Games and associated marks and 
+        intellectual property are exclusively owned by Decipher Inc. All Rights 
+        Reserved. THIS Web Site IS NOT PRODUCED OR ENDORSED BY DECIPHER, INC OR 
+        LUCASFILM LTD OR PARAMOUNT PICTURES. STAR TREK. </span></span></span> 
+        <span class="legal"><span class="legal"><br>
+        <span class="legal"> TM & © 2002 www.decktech.net. All Rights Reserved. 
+        </span></span></span><br>
+        <br>
+      </p>
+      </td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+</body>
+<!-- #EndTemplate --></html>

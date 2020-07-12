@@ -1,0 +1,793 @@
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Lord of the Rings Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Lord of the Rings, Gandalf, Frodo, Ring, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #111188;}
+a:hover { color: #0000FF;}
+Body {  font-family: Verdana, Arial, sans-serif; color: #111111; font-size: 8pt; font-style: normal; text-decoration: none; background-color: #FFFFFF; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; }
+
+.rumor { color: #000000; text-decoration: none; }
+.headerbg {  color: #E2DED3}
+TD.headerbg A {  color: #E2DED3}
+
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.r2body {  color: #EDE9DE}
+TD.r2body A:link {color: #A17D2D}
+TD.r2body A:active {color: #A17D2D}
+TD.r2body A:visited {color: #A17D2D}
+TD.r2body A:hover {color: #FFFFFF}
+
+TD.r2body .level1nav:link {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:active {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:visited {  font-family: Verdana, Arial, sans-serif; color: #E5CF92; text-decoration: none; font-weight: bold; font-size: 8pt;}
+TD.r2body .level1nav:hover {  font-family: Verdana, Arial, sans-serif; color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 8pt;}
+
+input {font-family: Verdana, Arial, sans-serif; font-size: 8pt }
+select {font-family: Arial, sans-serif; font-size: 8pt }
+
+-->
+</style>
+ 
+</head>
+<body link="#111155" vlink="#CF4300" alink="#0000FF" text="#111111" margin="0" marginwidth="0" marginheight="0" background="/lotr/gfx/mom/bg.jpg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=186 hspace=0 vspace=0
+src="/lotr/gfx/mom/logoleft.gif" width=1 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=186 hspace=0 src="/lotr/gfx/mom/logoright.jpg" width=195 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">LotR TCG ======</option>
+<option value="/lotr/index.php">Home</option>
+<option value="/lotr/main/about.php">About</option>
+<option value="/lotr/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+<option value="#"></option>
+<option value="#">Themes =======</option>
+<option value="/lotr/treports/treports.php?setheme=fellowship">Fellowship</option>
+<option value="/lotr/treports/treports.php?setheme=moria">Balrog&Gandalf</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Lord of the Rings</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#421D21" class="r2body" width=88%><font class="bfont">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><a href="/lotr/index.php" class="level1nav">Home</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/articles/index.php" class="level1nav">Articles</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/decks/index.php" class="level1nav">Decks</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/treports/index.php" class="level1nav">Tournament 
+      Reports</a><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%"><img src="../../global/images/home/trans.gif" width="10" height="5"></td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=constructed">Constructed</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=sealed">Sealed 
+            Deck</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font class="bfont">            <a href="/lotr/treports/treports.php?cat=league">League 
+            Play</a></font></td>
+        </tr>
+      </table>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/outfitters/index.php" class="level1nav">M.E. 
+      Outfitters</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/trade/index.php" class="level1nav">Trade</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/resources/index.php" class="level1nav">Resources</a><br>
+      <br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+    </td>
+  </tr>
+</table>
+
+</font></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Auction</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#421D21" class="r2body" width=88%><font class="bfont"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">DeckTech Writers</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#423210" class="r2body" width=88%><font class="bfont"><font size='1'></font> 
+
+</font></td>
+      <td bgcolor="#423210" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Site Sponsor</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#421D21" class="r2body" width=88%><font class="bfont"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td>
+      <td bgcolor="#421D21" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table><BR><table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td width=1 background="/lotr/gfx/mom/hdr_tll.gif"><img src="/lotr/gfx/mom/clear.gif" width=1 height=30></td>
+     <td width=130 background="/lotr/gfx/mom/hdr_tc.jpg" colspan=2 class="headerbg"><font class="h2font">Top Articles</font></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_tcr.jpg"></td>
+      <td width=1 background="/lotr/gfx/mom/hdr_trr.gif"></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/hdr_bll.gif"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcl.gif"></td>
+      <td background="/lotr/gfx/mom/hdr_bc.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_bcr.jpg"></td>
+      <td><img src="/lotr/gfx/mom/hdr_brr.gif"></td>
+     </tr>
+     <tr>
+      <td background="/lotr/gfx/mom/leftfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/leftside.gif"><img src="/lotr/gfx/mom/clear.gif" width=20 height=1></td>
+      <td bgcolor="#152A43" class="r2body" width=88%><font class="bfont"><ol></ol> 
+</font></td>
+      <td bgcolor="#152A43" background="/lotr/gfx/mom/rightside.gif"><img src="/lotr/gfx/mom/clear.gif" width=14 height=1></td>
+      <td background="/lotr/gfx/mom/rightfade.gif"><img src="/lotr/gfx/mom/clear.gif" width=16 height=1></td>
+     </tr>
+     <tr>
+      <td><img src="/lotr/gfx/mom/footerll.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerlc.gif"></td>
+      <td background="/lotr/gfx/mom/footerc.jpg">&nbsp;</td>
+      <td><img src="/lotr/gfx/mom/footerrc.gif"></td>
+      <td><img src="/lotr/gfx/mom/footerrr.gif"></td>
+     </tr>
+    </table> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> <table cellspacing=0 cellpadding=0 width="100%" border=0>
+<tr valign="top">      
+<td background="/lotr/gfx/mom/header_back.gif" height="150" valign="middle" align="center"><br>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript></td></tr></table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="" valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr><td width=1><img src="/lotr/gfx/mom/bla_01.gif" width=6 height=6></td><td width=100% background="/lotr/gfx/mom/bla_02.gif"></td>
+<td width=1><img src="/lotr/gfx/mom/bla_03.gif" width=6 height=6></td></tr>
+<tr><td background="/lotr/gfx/mom/bla_04.gif"><img src="/lotr/gfx/mom/clear.gif" height=35 width=1></td>
+<td background="/lotr/gfx/mom/bla_05.gif" class="headerbg"><font class="h1font"><font color="#FFFFFF"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Tournament Reports</td><form method='post' action=''><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Tournament Reports</option><option value='#'> </option><option value='/starwarsccg/treports/index.php3'>Star Wars: CCG</option><option value='/heroclix/treports/treports.php'>HeroClix</option><option value='/vs/treports/treports.php'>Marvel VS</option><option value='/lotr/treports/treports.php'>Lord of the Rings</option><option value='/magic/treports/treports.php'>Video Games and Movies</option><option value='/wars/treports/treports.php'>Wizards Minis</option></select></td></form></tr></table></font></B></td><td background="/lotr/gfx/mom/bla_06.gif"></td></tr>
+	<tr><td background="/lotr/gfx/mom/whi_07.gif"></td>
+		<td bgcolor="#FFFFFF" background="/lotr/gfx/mom/whi_08.gif"><font class="bfont"><font class="h1font"> Indianapolis, Indiana - August 2004<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><font size='1'>(5.00)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/lotr/main/mpage.php?member=11045'>Patrick "Patrick M. S" Sullivan</A></font><font class="afont"> <a href='http://www.decktech.net/lotr/main/mpage.php?member=11045&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> July 6, 2006</font><p align='justify'><blockquote><font class="bfont"> Note from me: Hey all, I’d been meaning to do this for sometime now. I wanted to move all my Tournament Reports from the Decipher and DGMA sites to Decktech and Gameplayersnetwork since they are easier to find here and I’m worried that Decipher’s two sites will go down eventually. I wouldn’t want to lose all these awesome memories. So here they are, archived, for your amusement. Feel free to give reviews with your thoughts and memories of the events or to simply let me know how you liked the read. <br />
+<br />
+GenCon 2004 Tournament Report: LotR World Championships<br />
+Gather round, kids, because Uncle Patrick has got another story to tell, and it’s a biggie. <br />
+<br />
+Pre-tourney Jank <br />
+After having a great year of card playing throughout which I’ve been fortunate enough to do very well, it seems only fitting that I give the World Championships of LOTR my best shot. So far this year: <br />
+1) I’ve managed to win my first ever Worlds bye by placing 1st at the Syracuse TOC by playing stupid swarm. <br />
+2) I placed 3rd at Origins PSE (repeat of last year’s performance).<br />
+3) I plaved 4th in LOTR Online’s first PSI. <br />
+I also played in a few other events this year, but let’s just pretend like Vegas never happened, shall we’ I can’t seem to figure out how my rating is still 2010 after some of the horrific performances I’ve had at high k-value tournaments. <br />
+So this year’s semi-consistent performance has currently got me 6th in the world in the race for Player of the Year. Josh and Dalton have a huge lead on me but it’s cool to be in the running especially when I’m somehow ahead of Kenneth Ellingsen and Brochu, who have both won PSEs this year. Unreal. <br />
+Once again my convention trip is a team-based trip. Team KwyjiboKardz (so far undefeated two-time Team Tournament winners for 2004) is geared up and ready to hit world championships, although I’m the only one playing LOTR this time around. Jamming into my Honda Civic are three former LOTR greats, Dominic Gaudreault, Matthew Yakobina and Patrick Malboeuf. It should make for a fun road trip down and back. <br />
+The part I’m most looking forward to is the first ever LOTR (h)Online get together that I’ve quickly thrown together scheduled for Saturday night at the Claddagh Irish Pub (a site known for many fun happenings in GenCon 2003). I know most of the online players and Worlds Apart staff but there are a few holes I’m looking to fill. <br />
+However, since I feel the deck I played in the online PSI had the momentum and capability of winning, had I not made a few blunders, I’ve decided to keep the same deck for Worlds. It is a great mix of Gondor and Besiegers. It starts Boromir as ring-bearer and starts the new Denethor, Faramir (CoG) and Galadriel, Lady Redeemed. Having a strength 9 and a strength 8 companion to start ensures an easy double to site three. It is here that the fun starts. With Denethor, I am capable of getting new Aragorn, Elessar Telcontar, as well as Elendil with Narsil to make the move limit +1. Usually at this point, my opponent has 14 cards in hand and I throw over 20 into the twilight pool. However, I usually have some combination of the following support cards ready: <br />
+Greenleaf with Aiglos and Tale of Gil-Galad<br />
+Stone Tower and Citadel of the Stars<br />
+Noble Leaders with FOUR tokens<br />
+Anduril<br />
+Last Alliance of Elves & Men <br />
+So, I move into site 4 and at this point, both Faramir and Denethor are now expendable. So, I use up as many of my support cards as I can to clear the board. If I succeed, then it’s a free triple to site 6 since my opponent is clogged with free people’s cards from all the card drawing. This is how the deck is supposed to work and it generally succeeds at tripling to 6. However, sometimes I get stopped at site 4 by a huge squad and in this circumstance, at least I’m completely set up for a double into site 6 next turn. <br />
+As for my shadow, I have completely fixed my crappy besieger build from San Diego and taken out the Desert Lords. It is now very focused with the Great Siege Towers, Great Hill Trolls and Gorgoroth Assassins all working together in doing most of the work. I’m crossing my fingers to see how it does (since there is so much anti-orc tech, let alone Stand Against Darkness) but I strongly believe it is capable of landing me in the top 8 of day Two. Before worrying about that though, I need to get down there first’ <br />
+Thursday, August 19th, 2004<br />
+Day One<br />
+Will I make the dAgent summit in time’ <br />
+Ok so I have to wake up at 5 in the morning to go get Pat Malboeuf who is monitoring the arrival of some school kids that were on a field trip to Calgary. The fun part about this that I just found out the night before that it’s possible that Malboeuf won’t get his vacation authorized. He’ll only find out this morning so it’s possible that I’ll end up having to drive the entire drive to Indy by myself. That would be a nightmare. So, when I got this new information last night, I became as nervous as Dan Clark gets when a girl enters then room. So I couldn’t concentrate and couldn’t sleep. So, I went and played in a Mount Doom Sealed Deck tournament Online where I went 1-3 with a Sam starter (showing how distracted I was). I ended up losing 35 rating points in the process and I was SO close to having my gold medal (which you get when your rating hits 1900 online). <br />
+Anyway turns out Malboeuf gets his vacation approved so, we go and pick up Yako and Dom and head on our way. Now, normally we don’t make any stops during the first 6 hours of the trip (we usually stop at Denny’s near the New York/Pennsylvania border). However, Malboeuf is hungry so we make our first stop for breakfast a healthy 12 minutes into our 16-hour trip. Good.,’Gravy’ this is gonna be a long trip. <br />
+Anyway skipping ahead a few gas stops and Tim Horton’s coffee refills, we hit the Denny’s where Dom decides to sport his new sunglasses (which is basically a visor that takes up half his face) leading to far too much attention being drawn to our small party. So, Denny’s is decent as usual and we hit the road and then 10 minutes later, Malboeuf has to go pee. HE JUST WENT! This trip is going to take forever. <br />
+Anyway let’s skip ahead and Dom places a phone call to Enrique Huerta to try and find a Marvel uncommon for his tournament and Enrique is at the dAgent summit. I tell him I’ll be there in two hours and we race to get there on time. <br />
+Luckily Indianapolis is Central Standard Time so we gain an hour and I make it to the very end of the meeting at the Hyatt. Upon arrival, people start congratulating me right away to which I am of course confused. Then they tell me that I’ve been named 2004 DGMA Writer of the Year (except I understood RIDER of the year which confused me even more). Anyway, Kyle Heuer presented me with this terrific Fossil wristwatch which has Decipher2004 inscribed into the side. It’s beautiful except it was SO big (as gamers are generally a little wider around the wrist then me) so I’ll have to get a few links taken out of the bracelet. Many thanks to DGMA and Decipher for the unexpected token of appreciation. <br />
+So back to the Hampton Inn to collect Yako, Dom and Malboeuf where we grab a late night eat at the RedEye Caf&#38967;here Yako and I can’t muster up the courage to talk to a really cute girl eating by herself. So, we scarf down some terrible burgers and get to bed. Our room has a fold out bed where Malboeuf and Yako hitch up and Dom and I take the queen-sized bed. Comfy to no end (especially since we all brought our own pillows cuz we’re total idiots). <br />
+Friday, August 20th, 2004<br />
+Day Two<br />
+Reed Mashcola Shpeaking <br />
+So as usual, I wake up early due to nerves and grab a decent free breakfast at the Hampton Inn (instant caf&#38956;atte which was remarkably good, Frosted Flakes, high-end yogurt from Quebec!). Then I’m off to pick up my badge and check the tournament room before getting back and getting the boys back at the hotel. We split up at this point, as I give myself a deck check to ensure no problems later on. All my gondor and besiegers seem to check out, so off I go trying to get a bye into day three of Worlds 2004. 8 rounds and all 6-2’s will make it with some 5-3’s for sure. <br />
+I’m thinking of using this neat piece of cardboard that came with my new Fossil watch as my move token when in walks Matt ‘RageRacer’ Ward with a gift from the elves. Matt and I discussed our decks at length over e-mail before coming to Worlds. We are playing pretty much the same thing with our own flavours brought to each deck. So, Matt decides to make me a lucky move token (Geoff Smith did the same type of thing at Origins and it brought me great luck). Matt made me this really cool original LOTR card with a picture of me on it wearing my silly Canadian hat at Origins. Anyway it’s a shire culture card saying Patrick Sullivan with subtitle, Drunken Canadian. The backdrop seems to be a bunch of palm trees in some tropical part of the world. I don’t recall Hobbiton having palm trees in the books but I did skim thru them really fast. Anyway I have 4 strength, 3 vitality and have the keyword Pirate written in bold. I believe the game text says something like: Everytime Josh yells &quot;BAM!&quot;, heal Patrick. And I have a real nifty regroup action! Regroup: Exert Patrick to steal opponent’s mojo. If opponent bears an anvil, he is immune. And the lore simply says: Daaarkness! There is enough inside jokes on this one card to last me many years worth of laughs, but the fact that Matt Ward brought an actual Anvil as his move token should clue you in on some of that. <br />
+Anyway, I grab my amazing site marker, play with my new watch much the same way that Gollum caresses the One Ring and pairings are then announced. Here we go: Day Two Worlds 2004’ <br />
+Round One <br />
+Opponent: Fellow dAgent, Stephen Jones (from Nebraska as opposed to Steve Jones from Syracuse who as hard as he tries just can’t seem to nail dAgent status) <br />
+Deck: Elf-Man (which Europeans refer to as THE North American Meta) / Ninja Gollum<br />
+Good: As all dAgents tend to be, Stephen was a really nice guy and a fun opponent. <br />
+Bad: He doubles to 3 and ends up losing Legolas AND Eomer (which was his anti-enduring tech) <br />
+Ugly: I pull off my first Worlds triple ever (to site 6) <br />
+Result: FW site 9<br />
+1-0 <br />
+Round Two<br />
+Opponent: Robert Morea! One of many cool cats that hail from Atlanta<br />
+Deck: Shire Countryside (*snicker*) / Dunland <br />
+Good: I got pretty lucky with this match-up. <br />
+Bad: I ended up playing a heavily advantaged match-up as if I were at a disadvantage. When the statistics are SO heavily in your favor, there is NO reason to play tight. <br />
+Ugly: At site 3, I end up blocking with Boromir so as to not lose Denethor. If Robert has a pump, I would have lost the game. Not only was it a stupid risk, but I forgot that Boromir was already wearing the ring, so to fight the second skirmish, I ended up going up to 5 burdens at site 3. You generally don’t want to be in this situation before moving to site 4 of all sites. <br />
+Result: FW Shadow Kill site 7<br />
+2-0 <br />
+Round Three<br />
+Opponent: Kyle George<br />
+Deck: Moria-Dwarf<br />
+Good: I do believe that this is probably my worst match up and I was anxious to try this out today. <br />
+Bad: I let him draw up to get a 14 card hand at site 4 which in retrospect was foolish once again. <br />
+Ugly: I then play Curse Their Foul Feet and nail half his hand (spotting 7 orcs). <br />
+Result: FW site 9<br />
+3-0 <br />
+Round Four<br />
+Opponent: Straight from France, Jean-Baptiste Laroche<br />
+Deck: Gondor-Gandalf / Beasterlings<br />
+Good: My first time playing a Parisien in real life (online I play them all the time) <br />
+Bad: This was a terrifying match since he pulled off a huge move against Brochu earlier, moving from site 3 to 9 in one shot. He can add up to 5 to the move limit (which he did against me as well) <br />
+Ugly: Nothing. This was a fun match. <br />
+Result: FW shadow kill site 6<br />
+4-0! Only one more and I’m probably in! However, 4-0 was where I was in San Diego and managed to lose the rest of my rounds so let’s see what happens. <br />
+Round Five<br />
+Opponent: Also from France, Benoit Lemaire (Petit_Scarab online) <br />
+Deck: Southrons and’ I forget :( (the shadow was very distracting) <br />
+Good: Good match up for me. <br />
+Bad: France sure does make some great LOTR players<br />
+Ugly: France’s war efforts (j/k) <br />
+Result: FL site 9 (those threats exploding sure do hurt) <br />
+4-1 Oh no’ d&#39584; vu much’ <br />
+Round Six<br />
+Opponent: Martin Meron<br />
+Deck: Corsairs / Elf-Man<br />
+Good: Corsairs might just be my best match-up<br />
+Bad: Nothing. This was a fun cool game<br />
+Ugly: No ships for Meron :( <br />
+Result: FW site 9<br />
+5-1 O.K. I broke the curse and I might be in as of now but I’d much rather win one more to be assured a spot in Day Three. <br />
+Round Seven<br />
+Opponent: 16-year old always smiling, Michael Halloway, who tells me it’s an honour to be playing me which makes me blush and is probably the main reason why I lose this game. <br />
+Deck: Elf-Gandalf Telepathy / Moria HEAVY beatdown with Sauron, Trolls and Balrog<br />
+Good: For a 16 year old, Mike was a dang good player<br />
+Bad: I think I had to deal with Sauron thrice in this game and he killed many companions<br />
+Ugly: I scrubbily stopped at site 8 for NO reason instead of doubling. I was sure he wouldn’t be able to double to nine and survive. But of course, he did. Next time I’ll just double against Sauron like Dalton always does and win games that way. <br />
+Result: FL site 9<br />
+5-2 Oh man’ I guess I have a good SOS but I really want to win the next match. Let’s hope I get an easy match up’ <br />
+Round Eight<br />
+Opponent: 2003 Rookie of the Year, Dan Clark<br />
+Deck: Moria Pile ‘ Rohan/Gondor<br />
+Good: Man’ this was a TOUGH match since Boromir had to fight a whole bunch<br />
+Bad: Games between me and Dan are ALWAYS slow and this almost went to time. In fact, time ran out as soon as I moved to nine. <br />
+Ugly: Dan is zero fun to play against for me. Much like Josh, he is just crazy competitive and gets really overly defensive in games. However, at least both of these guys are really cool out of the game which goes a long way. I can handle someone being a jerk in a game as long as they are all smiles about it later (Dan is exactly like this). Anyway, time runs out at site nine so Dan has all the time in the world for his shadow phase so he takes his time (as he should) and Enrique or Clemens or whoever comes over and says, ‘hurry up guys’ and I said, ‘don’t look at me.’ Anyway, Dan took great offense to this and things got ugly for a second but like an hour later, he’s all hugs and smiles so it’s all good cuz he’s cool, I’m cool and Homestar is the coolest one of all. <br />
+Result: FW site nine<br />
+6-2!! <br />
+So at 6-2 I place 4th in my heat and I’m really happy that Dan got 8th on SOS and made it in as well. Great news. So naturally at this point, I should retire to my hotel and plan my next day’s deck but instead, I sign up for the PSI which will make it a 13-round marathon of high-level play. I figure I will be the only Day Three qualifier to be stupid enough to engage in this kind of torture but I’m really happy to see my first round Day Three opponent, Bryce Stevenson playing in it as well. A few others, including Michael Perucca, signed up too. I just figure that I came to GenCon to play since there isn’t much play back home, so I want to get in as much as I can. <br />
+So, Tony is running the PSI and it’ll be five rounds with a play-off for top two finishers. This tournament starts around 6 pm, I believe, so we should be done by midnight. <br />
+Round One<br />
+Opponent: From Germany, Adrian Westico<br />
+Deck: Dwarf / Southron<br />
+Good: Adrian was a wicked awesome fun 15-year old player<br />
+Bad: Josh C-M keeps bugging me in this game completely oblivious to the PSI going on. <br />
+Ugly: Mike French’s mom<br />
+Result: FW site 9<br />
+1-0 <br />
+Round Two<br />
+Opponent: Jesse Savage<br />
+Deck: Dauntless Hunter / Morcs<br />
+Good: I have such a hugely advantageous match-up against Dauntless Hunter it’s not even funny. As for Morcs, I have a ton of tech to deal with them too. I am hoping it’ll just work out (which it does) <br />
+Bad: He was a real nice guy so I felt bad that it was probably not very much fun against my triple moving shadow<br />
+Ugly: Forgetting Aragorn<br />
+Result: FW Shadow Kill site 7<br />
+2-0<br />
+O.K. so I’ve now played 10 rounds of intense play in a row so I’m getting a little tired, cranky and irritable which probably leads to some of the problems I have in the following match. <br />
+Round Three<br />
+Opponent: My fantasy team pick from Toronto, Alex Kuryliak<br />
+Deck: His continental winning deck, Dwarves with Dunland<br />
+Good: This was a hugely advantageous match-up for me since Dunland is so combo intensive and Galadriel can get rid of the Hides and I have a 5 vitality Greenleaf ready and waiting. Plus site liberation is nice with Elendil. <br />
+Bad: Freca, Tribe, War Club, and Over the Isen overwhelm Galadriel early.<br />
+Ugly: Time was called and we were at the same site with the same resistance remaining. He had fewer companions in the dead pile, so he got the modified win. <br />
+Result: Timed Loss site 8 <br />
+2-1 <br />
+So, a timed loss has a pretty strong effect on taking me out of the running for finals which is good since an extra round for finals would have made it 6 rounds for me and I don’t think I should be playing cards until 1 in the morning the night before Day Three worlds. However, I’m not one to drop so I finish the last 3 rounds’ since it is a 48k event and will do nice things for my rating. :) <br />
+Round Four<br />
+Opponent: Nathanial Boggs<br />
+Deck: Elf-Man / Beasterlings<br />
+Good: Nathan is a calm and collected player which is certainly the opposite of me at this point. I’m like a pack of shaken nerves since I’m still upset about getting ripped off in my last match. But I keep Nathan shielded from my anger and choose to take it out on myself instead by making lots of mistakes. <br />
+Bad: Grond proves to be a huge pain for Nathan’s fellowship. Losing Anduril and Last Alliance makes for easy-to-overwhelm companions. <br />
+Ugly: He doubles to 5 which ends up being a pretty costly affair. <br />
+Result: FW shadow kill site 9<br />
+3-1 <br />
+Sometime either in game four or five (I can’t remember which), Enrique Huerta and Dawn Roscoe ambush me from the rear when they tear through the aisles grabbing me. I was unprepared for this unexpected attack and vowed revenge on a certain Enrique during a rousing game of HALO that we scheduled for Saturday night. Anyway, it was pretty funny to be surprised like that in the middle of a game but in retrospect, to take the joke further, I should have called over Tony (the judge) and asked that Dawn and Enrique receive official warnings. (lol) <br />
+Round Five<br />
+Opponent: Reed ‘Urthanz’ Mashcola<br />
+Deck: Elfy-Whelfies / Southrons<br />
+Good: This was Reed’s first game with me ever. Reed is from Ontario which is Quebec’s neighboring province. Josh has some stupid running joke (for a change) where every time I answer the phone when he calls I say, ‘hello’’ and he says ‘Reed Mashcola Shpeaking.’ I don’t know if that sounds funny or stupid, but I can assure you it is a lot of both - especially when it’s been a very long day at the office. Anyway, Reed actually goes out and has a t-shirt made that says ‘Reed Maschola Shpeaking’ and it was one of the funniest things I ever saw. So all day I have this in my head and now with Reed sitting across the table in front of me, I must have said, ‘Reed Mashcola Shpeaking’ at least (and this is without any exaggeration whatsoever) one billion times during our game. <br />
+Bad: I just stopped at site 6 and then Reed drops Radagast at site 5 and it makes my heart stop for a few seconds. <br />
+Ugly: Reed doubles thru site 6 (wounding site) instead of stopping at 6, healing up (he is playing Greenleaf/new Eowyn) and tripling afterwards. <br />
+Result: FW Shadow Kill site 9<br />
+4-1 <br />
+So I finish in 5th place going 4-1 which is decent. Edwin Harris goes undefeated 5-0 making it to the final confrontation. I remember Edwin last year when he had a big afro worth of hair and he kept spilling his huge soda all over the tables. What a nightmare. And now he’s like this big star! Anyway, in second place is Ottawa’s 20-fantasy point ripoff, Jake Denley! Way to go Jake. Unfortunately for our favourite poopsmith, on his decklist for site 7, Jake simply wrote: Osgiliath. No channel, no crossing’ just Osgiliath. I guess he hadn’t decided which he was gonna play until later and forgot to update his list. Anyway, it gives him a game loss which bumps him down to 7th place and me into 4th! Which nets me 50 decipher dollars. So far in PSIs I’ve placed 6th, 4th and then 4th again. <br />
+Anyway, I’m completely exhausted, so after eating an Italian sub, I get back to the hotel room at 1 in the morning where everyone is already asleep and hop into bed with Patrick Malboeuf and fall asleep. <br />
+Saturday, August 21st, 2004<br />
+Day Three<br />
+‘I’m 40-0 in demos’ <br />
+So I wake up early and head downstairs to nail today’s free breakfast. Unfortunately, Pat Malboeuf needs to make it early to the Con for his Day Two of Marvel, so I’m forced to leave early as well and we eat on the way. Pity too, since they had waffles and sausage patties for breakfast today. So we walk west along Maryland avenue while juggling juice, coffee, waffles and bagels in our hand, trying to eat while walking. Not a pretty sight. <br />
+Eventually others show up and I am paired up against Bryce Stevenson as my first pairing for Day Three worlds. I’m hoping that my match-up will be favorable. <br />
+Round One ‘ Game One<br />
+Opponent: Bryce Stevenson from Colorado ‘ proud member of Team Revolution<br />
+Deck: Elfy-Whelfies / Morcs (YUCK, bad match-up for me methinks) <br />
+Good: Bryce rocks so if I’m gonna lose to anyone, this guy wouldn’t bother me at all. <br />
+Bad: I played a Curse at site 1 and, in retrospect, I could have really used that card at site 3 before moving to 4. <br />
+Ugly: I didn’t draw any of my 3 copies of Greenleaf and consequently died at site 6 since I couldn’t handle the brutes, destroyers and whelps without him. <br />
+Result: FL shadow kill site 6<br />
+0-1 <br />
+So that was pretty depressing, so I took some time and went outside and thought about it. The cool part is that I went outside with Bryce and just relaxed with him which was really awesome. I didn’t feel stressed cuz I didn’t see how I could possibly win against his deck. I certainly can’t bid and he’s making me go first. Also, his fellowship is just unstoppable so I don’t think I’ll be able to stop it once it sets up. <br />
+Round One ‘ Game Two<br />
+Opponent: Bryce again<br />
+Deck: same deck<br />
+Good: I get Greenleaf in my opening hand. <br />
+Bad: At site 4, I haven’t drawn into Tale of Gil-Galad nor Aiglos so Greenleaf is only 3 vitality and at site 4, I always balloon up to 7 companions. Bryce has a Squealer in hand which he uses to fetch Enquea who takes out Greenleaf. Uh oh. <br />
+Ugly: Site 4, 5 and 6 were Ferny, Ferny, Ferny. Boromir doesn’t like Ferny. And I don’t have any Greenleaf left. You can imagine the damage this causes on Boromir ring-bearer. <br />
+Result: Again I double past 5 into 6 since I can’t heal at site 5 and both double moves killed me in both games. FL shadow kill site 6<br />
+0-2 <br />
+Well it’s all over already. I really felt like I couldn’t do anything, but in retrospect, I think I misplayed. If my fellowship sets up, then I can double move against Morcs later on in the game. So, since I was going first, I shouldn’t have double moved to 3, nor to 6 and instead single-moved, setting up slowly. My besiegers would have had a hard time against Bryce’s completely teched out fellowship but I could still swarm his ring-bearer probably at some point. So, I should have played it out as a shadow kill until my fellowship sets up and then run like hell. Still tho, I had SUCH bad draws in both games that it didn’t matter. <br />
+So, I collect my 500 Decipher Dollars, congratulate Bryce and run over to the World Cup Qualifier and draft a team of players that I suspect want to attend Essen. Richard Peiper offers to be on my team which is very tempting but I’m not convinced he’ll attend Essen so I pass. Instead, I draft a European, Kenneth Ellingsen, who I know to be the best of the best. I also grab fellow Quebecer, Michel Alain, who lost in his first round of Day Three almost as fast as I have. In retrospect, maybe I should have taken Benoit Lemaire but I really like Michel Alain a lot so I was happy to have him. I run back to the hotel to get KwyjiboKardz t-shirts for Michel and Kenneth. Ken fits into his nice and snug and Michel wearing his was the funniest thing I saw all day. He looked like the Incredible Hulk right before he tears out of his clothes. So we thought it would be better if he didn’t wear it. Anyway, there are Atlanta players and Ontario players in the tournament which are the only ones that slightly worry me, but I am 100% confident that we’ll be winning this event. Besides, Team KwyjiboKardz has yet to lose a DGMA team tournament this year. We’ve won Vegas and San Diego so why not this one as well’ Off we go: <br />
+Round One<br />
+Opponent: From Team PippinBlitz, Patrick Green<br />
+Deck: Gondor-Gandalf / Dunland<br />
+Good: This was a favourable match-up for me. Dunland can’t do anything unless it gets some sort of crazy God-draw at two. <br />
+Bad: He blocks with Radagast early for no reason and ends up losing him. He really needed the extra wizard for moving bonuses later on. <br />
+Ugly: Galadriel versus Dunland<br />
+Result: FW shadow kill site 5<br />
+1-0<br />
+Team KwyjiboKardz is 3-0 with our members sweeping the first round <br />
+Round Two<br />
+Opponent: from Team Screwed, Andrew Moss<br />
+Deck: Man-Elf / Southron<br />
+Good: Yet another advantageous match-up<br />
+Bad: I had the easiest triple of my life to site 6 in this game. Combo-intensive shadows are my best friends :) <br />
+Ugly: Siege Troop at site 2 versus man-elf is beautiful<br />
+Result: FW site 9<br />
+2-0<br />
+Team KwyjiboKardz is 6-0 sweeping second round as well <br />
+Round Three<br />
+Opponent: Team On Your Mom’s Jason Kokoski<br />
+Deck: Elfy-Whelfies / Morcs! (yay! I get another shot at this) <br />
+Good: I certainly played better against morcs in this game<br />
+Bad: Morcs are still scary tho<br />
+Ugly: I triple to 6 against Morcs! Sweet. I forgot to say ‘It’s a Flush!’ when I played a huge amount of creatures at site 7 for the win. <br />
+Result: FW shadow kill site 7<br />
+Gosh darnit, why couldn’t I get these kind of draws against Bryce’! <br />
+3-0<br />
+Team KwyjiboKardz is 9-0! My entire team now occupies the first row of head tables. Amazing. <br />
+Round Four<br />
+Opponent: Andreas Matesanz (probably my nicest opponent of the weekend) <br />
+Deck: HIDAN / Isy Orcs! (something original for once) <br />
+Good: This was a cool and fun match up<br />
+Bad: Orc Commander is SUCH a pain<br />
+Ugly: I got a TON of trolls out on him right after I Gronded away Anduril<br />
+Result: FW<br />
+4-0<br />
+Team KwyjiboKardz is 10-2 after BOTH my teammates lose the fourth round <br />
+Round Five<br />
+Opponent: Jonathan Burdulis<br />
+Deck:Elfy-Whelfies / Morcs! (yay! Another shot at this deck) <br />
+Good: I need more morc experience against my deck so this is good. <br />
+Bad: I use a 4-vitality Greenleaf to play Curse Their Foul Feet and spot Enquea in his hand. So I just went and killed Greenleaf all by myself :( <br />
+Ugly: I get the most beautiful shadow reconcile I think I’ve ever had. I’m sure Jonathan thought his fellowship was just fine and then I play a MONSTROUS squad at site 8 using Agitator to add a threat so I can even play my stacked troll. <br />
+Result: FW shadow kill site 8<br />
+5-0! I go undefeated! <br />
+Team KwyjiboKardz is 11-4 after BOTH my teammates AGAIN lose their matches. <br />
+So this ends in a 3-way tie for 1st place. But luckily thanks to SOS, we eek out the 1st place prize which was 3 uncut sheets but we do get our bye into day two of World Cup which is a most excellent prize. <br />
+So, it’s been a really long day and it’s now about 6 pm. but am I done yet’ No sir! I plan to sign up for the Two Towers Anthology Sealed Deck event. Before so, I waltz on over to the Arwen Championship to see how the ladies are doing and get stopped by a gentleman in his 40s or so. He asks, ‘Do you mind if I take a couple minutes of your time’’ I say sure, no problem, assuming that he wants me to look at his deck or something like that which I really hate doing. However, instead he says, ‘I thought you’d like to meet your number one fan.’ And then he steps to the side and introduces me to his very young son. This young man is anywhere between 6 and 10 years of age (I’m terrible at guessing ages. For instance, the girl that won the Arwen championship was this BEAUTIFUL girl who I figured was like 19 or 20’ turns out she’s 14. Bad Tony!). Anyway, so this young little fella reads all my TRs, decklists and strategy articles and really likes my sense of humour and all my stupid shenanigans that I do. I tell ya, it was the single most humbling moment I’ve had in a few months. <br />
+Anyway, I talk to him and his father for a few minutes and then go and register for the Sealed Deck. Only 6 of us show up for this event including one married couple (Pam and Chris), myself and another Day Three qualifier (Len Neidorf) and another man that hasn’t been playing for too long but was a real sport (huge glasses tho :)). <br />
+I open up the box and am floored by the amount of cards and deck possibilities you can make. It was really really difficult to decide what to play. I end up playing Rohan (even though I don’t have any elite riders, BIG mistake) with Uruk Bomb (I figure the Deep of Helm will win me games). It takes me forever to build a 60-card deck with 9 companions but I pull it off and play defender Gorn as a splash companion. Len ends up taking an additional 15 minutes to build his deck so we wait around and then we’re off! <br />
+Round One<br />
+Opponent: Len Neidorf <br />
+Deck: Unbound hobbits with Ents, Dunland<br />
+Good: Tower Block is good to see again<br />
+Bad: Dunland stole all my possessions early<br />
+Ugly: I was one uruk away from winning at site 5. Len doubled into the Deep of Helm which I NEVER thought anyone would do with Uruks still on the table so I discarded my only Uruk in the reconcile phase and ended up being one short of killing his key companion. Darn. <br />
+Result: FL site 9<br />
+I feel bad for future opponents of Len in this tournament since everyone was being really casual and Len was playing with Alligator Blood. I often saw the judge being called over to his games. I felt pretty bad for all the other players who were clearly not interested in playing competitively. <br />
+Round Two<br />
+Opponent: Pamela, Wife to Chris<br />
+Deck: I can’t remember. I think it was a mirror match<br />
+Good: Pam was a real nice girl and this game was very relaxed. <br />
+Bad: I nailed a massive uruk swarm at site 7 and 8 and that was it. <br />
+Result: FW shadow kill 7 or 8, I can’t remember. It’s getting late. <br />
+1-1 <br />
+Round Three<br />
+Opponent: Chris, Husband to Pam ‘ ready to avenge his wife’s loss<br />
+Deck: Dunland, Ents<br />
+Good: Chris was a real nice guy as well. Good match! :) <br />
+Bad: I had 3 companions at site 2 and Chris plays nothing. I know he’s playing Dunland and I have nothing to help Frodo. So I figure what the heck’ I’ll double to 3<br />
+Ugly: Doubling to 3 against Dunland<br />
+Result: FL shadow kill site 3 ‘ game lasted all of 90 seconds<br />
+1-2 <br />
+So I finish the tournament 1-2 and am now completely exhausted so I gather up all the players, judges, volunteers I can to join me and Worlds Apart at the first ever LOTROnline Get Together at the Claddagh Irish Pub. I walk over with Bojo and Trevor and see that the Syracuse guys have been there since 5 pm (it is now 9 or so). Scott Martins, head of Worlds Apart, is there and in good form. So Ryan Gilleland, myself, and many others have a drink or two inside before heading out onto the patio to have dinner where guys and gals under 21 can eat. Dom, Yako, Malboeuf all join me there later on and I follow Jake Denley’s suggestion and order up the Cheese Steak sandwich which was really good. Another 7 people at our table order the same thing and a couple others order the Fish n’ Chips. There are a couple dozen people at least that show up for this event and I get to sit with Erik from Cali, Steve Florent, Scott Gaeta, Kyle Heuer and many many others and we exchange stories and laugh at all sorts of things. Funniest story was Scott tells us about some convention volunteer than was doing demos of various Decipher games. At the end of the day, he was bragging to the other volunteers that he was 40-0 in his demos today. Obviously, he failed to understand that winning your own demo isn’t exactly the objective of giving the demo in the first place. Anyway, pretty funny stuff. <br />
+So, people start filtering out one at a time trying to go to clubs and such when we remember that Enrique Huerta was desperately wanting to hunt down Canadians in HALO during GenCon. So Yako, Malboeuf, Dom and I are certainly up for the challenge, so we call him up and tell him to meet us in the tournament hall in 20 minutes. <br />
+We leave the pub and hook up with Enrique and then he is nice enough to buy a bunch of tournament tickets and treat us all to an hour of HALO madness. While we are waiting, Dom spies a good looking couple of girls sitting on chairs in front of a round table. So Dom walks over (with Malboeuf and I rolling our eyes getting ready for whatever happens next) and asks the girls if it’s ok if he sits on the table. They are like, &quot;UM..OK.&quot; so he does with his back turned to them (keep in mind the table is VERY close to the chairs where they are sitting). He then asks them if they’re OK with the way he’s sitting. And they say sure. He then waits a few seconds and whips around his whole body bringing him CLOSELY face to face with them and asks, ‘what about like dis’!’ It was pretty funny stuff. <br />
+So we begin the Halo showdown on two screens with 5 of us playing every man for himself. We use the Hang ‘Em High map which we find is the least random and truly takes a high level of player skill to be consistent at. At the end of the first round, Dom, Malboeuf and I are all at 23, 24, and 25 kills, respectively, with Enrique and Yako chiming in with barely a dozen each. So we make up teams and a random guy joins Enrique’s team who goes by the name, Spooney. Anyway, Spooney ends up being like Rambo or something killing everything in his path in the game. I make it my mission to Rocket Launcher him every chance I get yelling out, ‘SPOONEY!’ every time I nailed him. This quickly evolved into him killing me using such embarrassing weapons like Plasma Rifles and the like where he would yell back, ‘PAT!’ We had a really good time and I progressively got worse and worse with Yako getting better and Malboeuf and Spooney racking up most of the kills. In the end, Enrique found out that hunting Canadians in HALO was tougher than he thought, but we had a great time laughing it up and thanks to Enrique for treating us to that. <br />
+So now it’s like 1 in the morning, so we head back to the Hampton Inn and try to fall asleep (very hard to do when you’ve been playing HALO on huge plasma screens for an hour straight). <br />
+Sunday, August 22nd, 2004<br />
+Day Four<br />
+‘Blue 42!!!’ <br />
+So this time we get to sleep in a bit and grab a bite to eat (they got the dang Biscuits and Gravy again for breakfast which are GROSS). I need to get to the tournament hall for the Karl Hartford memorial tournament that Vince is running. It’s a simple 4 rounds LOTR standard constructed and most of the entry fee goes towards a scholarship fund that was opened up in honour of a murdered LOTR player last year, Karl Harford. I really wanted to play in this tournament and hopefully be done in time to do event coverage for the Worlds Finals between Josh and Emir. <br />
+A nice group of people show up for the charity tournament including 4 or 5 other Quebecers so I’m happy to see that. I’m looking forward to never having to play this deck again since I’m really starting to get sick of it, so I decide to try as many triple moves today that I can. <br />
+Round One<br />
+Opponent: Ish Stevens <br />
+Deck: Moria - Dwarf<br />
+Good: Ish was a crazy nice opponent <br />
+Bad: I triple to 6 with no problem at all. Galadriel does a great job of getting rid of the conditions and Secret Sentinels loses the Armories just in time<br />
+Ugly: I drop a massive squad at site 9 since he had no choice but to double. <br />
+Result: FW shadow kill site 9<br />
+1-0 <br />
+Round Two<br />
+Opponent: Fellow Montreal and representing Quantum Cards, Peter Wilson! <br />
+Deck: Elf-Man / Beasterling<br />
+Good: Getting to play Peter again is fantastic. I haven’t been able to play him since seems like forever. We play at different stores in Montreal and never see each other. <br />
+Bad: He uses Enquea to kill my Aragorn at site 5 which was a nasty surprise. <br />
+Ugly: I take a HUGE risk doubling to site 6 against this deck and luckily pull it off, barely. <br />
+Result: FW shadow kill site 9 (these besiegers sure are tough). Peter looks the situation over at site 9 and says, ‘I think I’m dead.’ And then Jake Denley who was sitting beside me pipes up and says ‘No you’re not!’ apparently failing to realize that we were actually playing in a tournament. I need spectators like that as much as I need a hole in the head. Anyway, Peter still ended up losing so it didn’t matter. <br />
+2-0 <br />
+Round Three<br />
+Opponent: Chris ‘Brian Fred’s friend’ Thomson<br />
+Deck: Corsairs (haha) / Elf-Man<br />
+Good: This was EASILY my most favourite game ALL weekend long. Chris was SO funny and we just laughed and laughed the entire time. It reminded me of the game against Dineaga last year where Andy MacClure watched and Gabe kept telling us that we weren’t allowed to laugh. <br />
+Bad: I take away his Anduril thereby overwhelming everybody<br />
+Ugly: This was SUCH a hugely advantageous match-up for me, it must have been terrible on poor Chris. But he kept making hilarious sinking noises everytime Galadriel nailed his ships. I wish I had recorded this game. <br />
+Result: FW shadow kill site 9<br />
+3-0 <br />
+Round Four<br />
+Opponent: Montreal’s own and also hailing from Quantum Cards, Fred Cote! <br />
+Deck: Beasterling ‘ Elf-Man <br />
+Good: Fred is another guy I never get to play anymore since I’ve been banned from his store and he’s been banned from my store, so we never get to play! <br />
+Bad: Besiegers sure do kill elf-man well. <br />
+Ugly: 26 games is WAY too much LOTR in three days. <br />
+Result: FW shadow kill site 7<br />
+4-0 ! <br />
+So I go undefeated and it’s another uncut sheet which I give to Fred Cote who finished second. Thanks to Vince (or was it Lance’) for running such a fun tournament and I hope you guys raised a lot of money. Decipher matched whatever contributions the players made to the scholarship fund. Thanks to Decipher for that. It’s SO great playing for a good cause. <br />
+So at this point, Game one of the LOTR Worlds finals is halfway done so I go to watch the rest of it. It’s looking pretty bad for Josh with Matt Clemens doing the commentary for the message boards. After he loses, I sit with Josh with Mike Dalton and a few others and we try to advise Josh on how to beat this match-up. I think Dalton was right in advising Josh to bid to go first, but Josh didn’t go for it in the end. It was a pretty impossible match for him regardless. Anyway, I sit down in the front row and do event coverage for Decipher for which Trevor gives me yet another uncut sheet. <br />
+So now it’s come to pass. The final evening. I collect my friends that I drove down with and we are soon joined by Erik C from California who I think I can now stop mistaking for Gharret Noda since I’ve spent a ton of time with the both of them over the weekend. So we start walking along Maryland Avenue and we run into Josh on the way to our hotel. Now at this point in the TR, I should explain a new game we’ve invented entitled, BLUE 42. Although the name comes from a Football call, it is actually the desired end-result of the game. Meaning, to win the game, your adversary must receive about 42 blue bruises all along their body. I have to give credit to Patrick Malboeuf for inventing the game during the drive down. Basically, you’d have someone like Yako standing beside an open car window or something with Malboeuf and I nearby. Then all of a sudden, while Yako is casually sipping his soda-pop, Malboeuf yells out BLUE 42! which results in Malboeuf and I charging Yako and body-checking him into the open car window, thus spilling his entire drink all over himself like he has some sort of bowel disorder (this is foreshadowing something that is going to happen to me tomorrow on the drive home btw). <br />
+Anyway, the game got old after we all got body-checked a few too many times until that one fateful night when we all got onto an elevator together at the hotel. Malboeuf is in one corner with Yako in the other and Dom is standing right between them. Malboeuf yells out BLUE 42! And then immediately slams into Dom who’s shoulder, by domino effect, slams into Yako’s face sending him straight to the ground like a sack of potatoes. It was HILARIOUS. <br />
+So, long story short, Josh is holding a WHOLE bunch of prize support (uncut sheets, cards, and other stuff), Malboeuf gives us the look and we quickly surround him. Josh only has the time to say, &quot;SO guys’ what&#39;s up’&quot; before Malboeuf yells BLUE 42! Dom, Yako, Erik (who decides to participate), Malboeuf AND myself all body-check Josh from different directions. By the time I hit him, his entire body is completely stiff cuz all his muscles are totally flexed trying to brace for impact. Anyway, his face says it all as we surely gave him 42 bruises at least as he limps off to the convention centre. <br />
+So we drop our stuff off at the hotel with the intention of walking up Meridian street to the Indianapolis Athletics Club where we had dinner with David Malboeuf the year before and it was amazing. We swing by Erik’s swanky expensive hotel so he can drop his stuff off and run into Patch and Travis Fraser who say they want to join us. We say meet us there and take off. In the hotel lobby, they give free lemonade and iced tea so I grab a full glass. The automatic hotel exit door is really weird and has some sort of late time delay so I misjudge not only the timing of the door, but also the direction as well as the ferocity of the automatic door. It ends up slamming me right in my face and my lemonade goes everywhere. <br />
+Anyway, it turns out the restaurant is closed so we go to leave thru the revolving door and Malboeuf jams the door upon exiting, thus trapping Dom between the doors, with Erik still inside the club. Malboeuf then tells me in French, ‘let’s see how long we can hold this revolving door closed before Erik starts looking really uncomfortable.’ Dom hears us and says he’s game as well so he starts freaking out between the doors acting like he’s got claustrophobia or something and shouting and swearing at us at French. We watch as Erik’s smile slowly turns into a frown over the next few minutes as Dom starts smashing the door trying to get out. Erik follows Dom’s lead and starts smashing the door from his end trying to make the revolving door move and Malboeuf and I realize that we’ve taken the joke too far. So, we let them out and make our way to the fountain in the middle of Monument circle where we are supposed to meet Patch. <br />
+We see Patch waiting for us in the middle of the monument circle holding a big cardboard cup of his hotel’s complimentary and Malboeuf gives us all a quick glance as we slowly encircle our prey. Patch is all like, ‘hey, what’s up guys’ Where do you wanna eat’ Then Malboeuf yells BLUE 42! and we rush Patch from 5 different directions and smash into him so that the lemonade glass explodes in his face sending a shower of pink beverage in the air spraying down upon him. Priceless. Best Blue 42 ever. <br />
+Skipping ahead, we try a few restaurants but Patch think’s that 20 dollars a plate is too expensive. I find this immensely entertaining in that I happen to find 700 bucks a lot of money for other things whereas Patch does not. Yet 20 bucks for a plate a food is TOO much!’ Crazy :) <br />
+So we scarf down our meals and then decide to see a movie. Patch and Travis ditch but Erik, being the trooper he is, joins us. I talk them into trying Napoleon Dynamite which I’ve already seen but I’m sure that Malboeuf and Yako will love it. Turns out they all loved it and we laughed non-stop which was awesome. After that, we still have time to kill so decide to watch Collateral afterwards. Malboeuf feels bad about sneaking into a movie so he goes to the ticket booth and buys himself a ticket. The movie doesn’t start for 30 minutes so we sneak into Open Water and watch the first ten minutes of that. Here we run into Franklin Kenter and his gang of cronies who decide to stay and watch Open Water. We take off for Collateral and not 45 minutes into the movie, all of a sudden Franklin runs into our theatre saying that his movie sucks and he’s gonna watch Tom Cruise with us. Turns out Collateral was REALLY long and we’re pretty tired at the end of it. So we head back to the hotel, hit the elevator BLUE 42 ‘ .twice, and then hit the sack. <br />
+Monday, August 23rd, 2004<br />
+Day Four + 1 ‘ trip home<br />
+‘Pette-sauce’ <br />
+A 17-hour drive home is truly a daunting thing to wake up to but we don’t have a choice so we get up and leave around 6 or 7. The drive is fairly uneventful but although I was able to drive 14 hours on the way up with Malboeuf only doing 3, I find that I’m way more tired coming back. I let Malboeuf have the wheel and I doze off. I wake up and realize that Malboeuf missed the exit out of Syracuse 30 minutes ago and we have to go back and end up losing 45 minutes or so. This is the THIRD time Malboeuf has gotten lost on a road-trip as soon as I shut my eyes for a couple seconds. <br />
+But the highlight of the trip back was the Denny’s in Angola, New York. The four of us sit down and order up a bunch of different stuff. I make the mistake of getting an appetizer of Mini-Cheeseburgers which don’t agree with me. Everyone is engaged in conversation and I think it would be funny if I let a good one rip right in the middle of one of Yako’s boring stories. So I lean to the left, and go to force out some pent-up gas’. And unfortunately, get more than I bargained for. <br />
+Malboeuf said he knew right away cuz he could read it in my eyes. Malboeuf then tells the others that Pat just got his first-ever, ‘pette-sauce.’ So, I get up and there’s like this stain on my chair and Dom is all grossed out but I tell him that it was there before (I mean, how the heck could I have just stained the chair right’). So, I go to the car and get a change of shorts and underpants and go to change in the backseat when there’s this old lady just staring at me in the car beside me. It’s freaking me out so I go inside to the bathroom and change there. I figured only the underpants would be affected but this stuff is like Alien Acid blood and can go thru a ship’s hull. So I end up having to toss my second-favourite pair of shorts in the garbage can and get back to the dinner table. As soon as Dom sees that I’m wearing different shorts, he falls off his chair laughing. I felt like I was 80 years old or something. I get back to my chair and decide it’s a good idea to swap my chair with another free one next to the table beside us and this sends Malboeuf and Yako into hysterics as well. I think the two young girls beside our table with their father were onto me cuz they were also laughing. <br />
+Anyway, we finish the drive and get home at 1 in the morning or so and I’m completely zonked. So I fall asleep kinda sad that it’s all over. GenCon 2004 was a real blast and has seriously got me thinking I should go to Essen for more LOTR and more ‘pette-sauce.’ <br />
+PROPS: <br />
+1) Malboeuf for being such a loyal friend and joining us at the last minute. He ends up being the only one to make day two Marvel even though he’s never drafted in his life and was allowing takebacks all during day one. <br />
+2) Kwyjibokardz.com for sending us that much-needed rare for Dom to our hotel in time and for being so supportive of our team.<br />
+3) Dom for having such a great time even though he scrubbed out on day one. At least he won 200 bucks the next day<br />
+4) Yako for going 0-4 and then LOSING his deck. I love it. <br />
+5) Erik C for hanging out with us so much. That was a blast. <br />
+6) Dan Clark for making it to GenCon considering his unique circumstances. <br />
+7)Josh for playing so well this weekend despite numerous frustrations. <br />
+8) Mike French for smiling even though he didn’t make day 3 cuz of’ well nevermind. <br />
+9) Kyle for giving really cool watches to his volunteers. I wear mine with pride. <br />
+10) Scott Martins for attending the first ever LOTROnline GT. That was SO much fun. Oh and more props for walking all the way to the tournament hall just to see me :) <br />
+11) Trevor and Bojo for running great events and coming to the Claddagh as well Reed Mashcola for making me laugh so much this weekend. <br />
+12) That father and his son for giving me my most humbling moment of 2004. <br />
+13) Cri-Cri for having the cutest girlfriend of all CCG players. Dalton and I made numerous mistakes in our games when she was within visual range. <br />
+14) Chris Thomson for providing me with my most fun match all weekend. <br />
+15) Edwin Harris for winning a PSI while not spilling a drink. <br />
+16) Steve Florent, DoctorD, Tony for being great volunteers. <br />
+17) Tristan for coming all the way and getting that incredible Eomer helmet. <br />
+18) Scott Gaeta for coming to the Claddagh and sharing hilarious stories. <br />
+19) Steve Jones for loving me so much (oh and thanks for ruining my fantasy team too). <br />
+20) Bryce for being the one to kick me out. <br />
+21) Dan Jones for all the hugs and laughs. <br />
+22) Matt Ward for the incredibly amazing gift of the best site-token EVER. <br />
+23) Mike Hallaway for beating me with Sauron and making me play bad by saying nice things to me (hey! That’s my trick!). <br />
+24) Robert Moria for being so dang silly. <br />
+25) Brian Fred for doing so well and being supportive and stuff. <br />
+26) Andreas Matesanz for having the COOLEST accent I heard all weekend. <br />
+27) Jonathan Burdulis for giving me my toughest match of the weekend. <br />
+28) Peter Wilson and Fred Cote for coming and trying their best at Worlds. <br />
+29) Alexandre Leblanc for coming all the way from Joliette to represent his hometown. <br />
+30) Dalton for being smarter than me sometimes. <br />
+31) Martin Muron for our fun game. At least not all 16 years old can beat me. I like your braces. <br />
+32) Stephen MacNamara for coming all the way from Quebec to try his hand at Worlds and making day two. <br />
+33) Justin Beal for making top 16 at Trek and losing first round like me. <br />
+34) Michel Alain for being a great teammate and being so funny. <br />
+35) Kenneth Ellingsen for also being a great teammate and being motivated to win Essen with me. <br />
+36) Steve Miller for coming out and having a blast. <br />
+37) Kiyan for having a fun bald head to rub with oil’ all over my body. <br />
+38) Wilbur. <br />
+39) Will Cruse for coming out and almost making it. <br />
+40) Anyone I forgot like Franklin Kenter, Dawn, Max Bouchard and countless others who I always manage to forget to mention. <br />
+<br />
+SLOPS <br />
+1) Alex K for not stopping the car when Reed Mashedpotatoesandcola had to go pee on the way home. <br />
+2) Jake for telling my opponent that he hasn’t lost the game yet when he was about to concede. <br />
+3) Denny’s for giving me the pocket shimmers. <br />
+ <br></font></blockquote><BR><font class="bfont"> <A HREF='/lotr/treports/treports.php?id=5524&view=1'>Read the Reviews</a><font class="bfont"> | <A HREF='/lotr/treports/treports.php'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/lotr/main/join.php'> become a registered member</a></font></font></td><td background="/lotr/gfx/mom/whi_09.gif"></td></tr>
+<tr><td><img src="/lotr/gfx/mom/whi_10.gif" width=6 height=18></td>
+<td background="/lotr/gfx/mom/whi_11.gif"></td>
+<td><img src="/lotr/gfx/mom/whi_12.gif" width=6 height=18></td></tr>
+</table>
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr align="center" valign="bottom" > 
+      <td height="100"><font class="lfont">This site is maintained and updated 
+        by fans of The Lord of the Rings TCG, and is in no way affiliated with 
+        New Line Cinema or Decipher Inc. We in no way claim the artwork displayed 
+        to be our own. Copyrights and trademarks for the films and other promotional 
+        materials are held by their respective owners and their use is allowed 
+        under the fair use clause of the Copyright Law.<a href="/global/terms.php" class="level1nav"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

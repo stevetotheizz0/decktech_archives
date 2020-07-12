@@ -1,0 +1,604 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action=""><input type="hidden" name="PHPSESSID" value="e4f75557579e4e2062e23eab9f6159f8" />
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8" class="level1nav">Articles</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/articles/articles.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">All</a> &nbsp;<br>
+
+</div>
+
+
+<a href="/starwarsccg/decks/index.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8" class="level1nav">Reports</a><br>
+
+  <a href="/starwarsccg/academy/index.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 2 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'><b>Star Wars CCG</b><br><a href='/starwarsccg/featured/taylor.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8'>2007-01-23 Scott Lingrell</a><br></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6467&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">Mr. Pistone Interviews Brian Fred</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6468&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">Mr. Pistone Interviews Brian Hunter</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6470&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">Top 10 Things To Know About Virtual Set 12</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6471&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">BCS Rankings - January 2007</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6461&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">Plastoid Armor (v)</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6465&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">February Top 20</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6459&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">Are there any SWCCG players in the Virginia area?</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6462&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">Subway is good aka I like Pizza done RIGHT</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6469&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">Who wants to be a star war millionaire?</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6460&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">notes from Thaddeus Chenoweth...</A></font></li><BR></ol> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<a href='http://www.decktech.net/adserver/click.php?mgr=aspcode.net&id=26'><img border='0' src='/banner/3.gif'  ></a>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Articles</td><form method='post' action=''><input type="hidden" name="PHPSESSID" value="e4f75557579e4e2062e23eab9f6159f8" /><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Articles</option><option value='#'> </option><option value='/starwarsccg/articles/index.php3'>Star Wars: CCG</option><option value='/vs/articles/index.php'>Marvel VS</option><option value='/heroclix/articles/articles.php'>HeroClix</option><option value='/lotr/articles/articles.php'>Lord of the Rings</option><option value='/magic/articles/articles.php'>Video Games and Movies</option><option value='/wars/articles/articles.php'>Wizards Minis</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> Top 10 Things To Know About Virtual Set 12<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(5.00)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=9001'>Chris "Darth Crith" Menzel</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=9001&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> February 5, 2007</font><p align='justify'><font class="bfont"> <br />
+<br />
+1. Civil War<br />
+<br />
+Okay, let’s start with the new mechanic Heroic, which you’ll find on several cards, mostly for the LS. The little guide sheet with the new V-12 expansion describes it all, so there’s no sense going into that. Basically, you have to hit an heroic character (or ship) first, before you can whack  any of his pals. It is worded smart enough, preventing you from using any way to bypass this, and create a situation where non of your characters can be hit. It still gives a boost to many of the lesser used cards in the game, and we should see some use of those. The easily most hated characters in the universe, the Ewoks, are the first in line to profit from this. In real life, you would probably shoot first at the Tribbles with legs anyway, but now this works for SW CCG, too. Ewok: Endor Village makes all your non-unique Ewoks heroic. Most popular should be the Ewok Sentry, who can deploy as a react. That way, you can decide where you need him to be sacrified. <br />
+<br />
+New Chewie Enraged (V) is also heroic, when protecting his adoptive family Han and Leia. He takes it further and satisfies all battle damage and attrition, if he really manages to stay alive. Uploading Kashyyyk or the Falcon is nice, and especially when getting the Falcon Combo, your opponent might thing twice about getting rid of Chewie. On first sight, you may still prefer the old Screaming Chewie, but the power-forfeit-armor-destiny rating on this new virtual version is one of the better in the game, especially with the destiny 3. <br />
+<br />
+Heroic cards are not all required to have fur, though, as can be seen by Corran Horn’s new virtual ship Red Squadron 7. With Corran adding 2 to maneuver it, you’d need a baron to kill his defense of 5. And speaking of which, the  DS ship with heroic is Obsidian 10 (V), whose pilot OS-72-10 adds 3 to power, a destiny at Clouds and makes the ship immune to attrition <6. Should Obsidian 10 be killed after all, you can now at certain locations also put it and the pilot in used pile.<br />
+<br />
+The other heroic DS card is an Effect, Forced Servitude (V), which makes all your troopers heroic. There is a multitude of DS troopers, and this card will work with any Imperial trooper deck (RallOps, ISB, etc) It also allows you to put all troopers on table back into used pile, when the opponent loses the game. Not too shabby. <br />
+<br />
+Other new virtual LS cards handling the heroic mechanic are Ki Adi Mundi, Enhanced Proton Torpedos, and Precise Hit (LS) and Coordinated Attack (DS), which allows you to cancel heroic on a card.  <br />
+<br />
+<br />
+2. Maggotstraights<br />
+<br />
+There is a new DS mechanic, and deck type, which was already previewed with the reduxing of Sim Aloo (V). <br />
+<br />
+While his use was unknown at the time, we now get the full treatment of an Imperial Council Member (ICM) deck. You need to have the Death Star Conference Room (DS:CR) on table, and it’s best to start with the new starting interrupt Imperial Code Cylinder (V), which in turn allows you to start with 2 (immune to Alter) effects, except You Cannot Hide Forever or Endor Shield. You also get to deploy the essential virtual There Is No Try & Oppressive Enforcement (TINT/OE). With that on table, several of your imperials become ICMs, and use their influence in a similar way that senators use their politics. Here is the…<br />
+<br />
+List of Imperial Council Members with There Is No Try & Oppressive Enforcement (V):<br />
+<br />
+Admiral Chiraneau<br />
+Admiral Motti<br />
+Admiral Mott (V2)<br />
+Admiral Ozzel		<br />
+Admiral Piett<br />
+Grand Admiral Thrawn<br />
+General Tagge<br />
+General Tagge (V2)<br />
+General Veers <br />
+General Veers (V4)<br />
+Veers <br />
+Veers (V10)<br />
+Grand Moff Tarkin<br />
+Moff Jerjerod<br />
+Janus Greejatus (V12) -> cancel an redraw your destiny for 2, or use 4 to add 2<br />
+Sim Aloo (V11) -> add 1 Force icon and battle destiny at DS:CR<br />
+Officer Evax (V12) -> opponent must pay 2 to move or battle with a target ship if > total infl. <br />
+Colonel Wulff Yularen (V) -> if with Sim make 1 non epic event destiny –1  <br />
+Emperor Palpatine<br />
+The Emperor<br />
+The Emperor (V)<br />
+<br />
+They all add a Force icon at the conference room, and are influence +1, and can pull one ICM for 2 Force during your control phase. You could also get the new Laser Gate (V) instead. At least 1 copy per deck would be recommended, since it protects your generation from Watch Your Step WYS), and other Force reducing cards. It further makes it harder for your opponent to deploy, fire, and move on Death Star. Try to combine it with Retract The Bridge, an old interrupt, that allows you to re-arrange Death Star sites. Could be fun.<br />
+<br />
+You also get to deploy the DS: War Room, and might want to move a leader over there to make the opponent’s troopers forfeit –1. Usually not worth it, but read on, and you may get to respect troopers.<br />
+<br />
+The political effects Blown Clear (V) and Crush The Rebellion (V) are also pullable with the effect, and allow you to subtract x from an opponents character or starship’s forfeit and immunity to attrition, where x is the influence you have at the DS:CR. The whole thing might seem weaker then Senate, but reducing from forfeit can be devastating, especially for lone characters. <br />
+<br />
+The ICM deck works best on the rocks (on it’s own), but you can try combining it with other deck types as well. Set Your Course For Alderaan (SYCFA) is an obvious choice, since you can definitely get the Conference Room, and get some protection from battle damage. Blowing up Alderaan is also easier then ever, because your ICMs at the DS: CR add 1 to the Epic Event destiny. You would also get to start with Endor Shield to get those admirals, and could deploy TINT/OE (V) later with Crossfire (V). <br />
+ <br />
+Every other deck might be hard, because you need that Conference Room to pull it off. ISB would be nice, since Ozzel, Yularen, Evax, Veers, and Veers (V) are all ISB Agents. <br />
+<br />
+You could use the Political Effects in a DS Senate deck, since cards deploy on table due to the objective, and the objective pulls the political effects anyway. Don’t play TINT/OE (V) in such a deck, and maybe forget the Conference Room. Lott Dodd could get it though. It would be card intensive, but having the virtual versions of Sim Aloo, Yularen, and Lando sitting there and subtracting another 2 from each destiny would add insult to injury. You could decide to simply use the political effects however, and just put the guys that are ICMs through their lore or game text on there for the reduce effect. Those would be Sim, Janus, Yularen, and Evax.<br />
+<br />
+A final thought might be a damage speed deck based on the ICM platform with Imperial Code Cylinder (V) start, and TINT/OE (V). Get Visage Of The Emperor (it deploys on the DS. CR, check it out), and maybe Ability, Ability, Ability (old version) to do some fast damage a la Watto. You have to keep the ability race up of course. And don’t forget the Emperor’s Power (V) from V11. Deploy it on Empie to make Jedi deploy +1 and power –1, and if he is joined by two ICMs in the DS: CR the opponent will lose 1 during their move phase. This is just a thought, but I’m sure nastier minds then mine can do some evil with that.<br />
+<br />
+<br />
+3. Jedi Cowboys<br />
+<br />
+Yoda, Senior Council Member (V) has to sit in the chamber to be effective, and you may need some back-up to prevent some Dark Jedi to get there, and cancel his text, but if he gets it through it may well be worth your while. He allows your Jedi Council Members (JCM) to deploy to Episode 1 sides, and be immune to attrition there. Depa Billaba and Ploo Koon will finally get their five minutes in the sun. Tatooine: City Outskirts to be specific, since they may be downloaded there. There are over a dozen other battlegrounds to use them on, though, and their destiny manipulating abilities are not too shabby either. Depa checks the top reserve card and puts it back or not, and Ploo causes the redraw of  a weapon destiny.<br />
+<br />
+Ki Adi-Mundi (V) will be the third of the three Amigos, and although he is easier killed, there is a lot of Obi cards you can use with him to prevent this. Obi’s Cape gives him immunity <5 at least. His best function is the lose-two-get-one-for-free-sale of course. Losing to cards from hand is nothing, if it gets you the one key card you may have lost from reserve deck. <br />
+<br />
+The real virtual Master is certainly Qui-Gon, who works well with Hyperdrive killing machine Credits Will Do Fine, or can help you to get any of a good 40 Episode 1 interrupts, when you lose Force to an opponents effect (known to happen).<br />
+<br />
+Master Qui-Gon’s (V) most notable downloads<br />
+<br />
+Alter (especially since it’s the Political Effect killing kind)<br />
+Either Way You Win (you retrieve 3 and opponent 1 OR you activate 4 and opponent 2)<br />
+Darth Maul’s Demise/ Fall Of A Jedi (long shot combo, but may get rid of Maul)<br />
+Inconsequential Barriers (cancel Barrier and other evasive cards)<br />
+Might Of The Republic (gets you Senator Leia or Mon Mothma)<br />
+Mindful Of The Future (deploy a unique battleground)<br />
+Odin Nesloor (poor man’s Nabrun)<br />
+Reveal Ourselves To The Jedi (rich man’s Grimtaash)<br />
+Speak With The Jedi Council (get the bloody thing already)<br />
+Strike Blocked (put some force back)<br />
+Take This (nice combo with the new Enhanced Proton Torpedos)<br />
+Too Close For Comfort (little Quiggy protection, although opponent sees you pulling it)<br />
+We Wish To Board At Once (Effect getter)<br />
+  <br />
+Last but not least, you’ll get the new Rebel Leadership (V), which aside from being the LS answer to Imperial Command (pulling admirals and generals, prevent or add a destiny with them), allows you to add a battle destiny with Premiere Obi-Wan. Not bad for a used destiny 4 interrupt. <br />
+<br />
+<br />
+4. It Ain’t Over Until Aurra Sings<br />
+<br />
+So, how do you get rid of all those Jedi. Aurra Sing (V) may be the answer to that. She and Sidious can now use the Dark Jedi Lightsaber (V). It works like a usual Lightsaber, but adds the number of Jedi present. So two destiny and plus 1 is great in a one-on-one battle. Keep You Cannot Hide Forever in play to make the Jedi defense –1 as well, and they are on their way to the slaughter house. <br />
+<br />
+There’s another combo, but I’m not sure if that works. Check this text out:<br />
+Aurra’s Blaster Rifle<br />
+Deploy on Aurra Sing. May target a character or creature for free. Target loses all immunity to attrition for remainder of turn. Draw destiny. Target hit if destiny +1 > defense value. Jedi hit by Aurra Sing are power = 0 for remainder of battle.<br />
+<br />
+So, a character can carry many weapons, but use only 1, right? The exception to the rule is continuous modifiers, and text not related to the firing according to the Glossary. AT-AT Cannon (V) goes to used pile, and Maul’s Double stick enhances Combat destinies. Stuff like that. What about “Jedi hit by Aurra Sing are power = 0 for remainder of battle”? Sounds unrelated to what weapon I hit them with to me. I would love to have her walk around killing Jedi with her stick, and using the rifle to make them power =0. It’s a three card combo, so that sounds fair to me. I’m sure Mister Andersen from the rules department will hate me for ruining the Matrix again, but better here than at Worlds again.<br />
+<br />
+Anyway, the beauty about Aurra, is that she’s no Dark Jedi, so Obi tricks and similar stuff don’t work on her. She also relocates to a Jedi’s site during the opponent’s activate phase. What good does that do, you ask. You would have to use… <br />
+<br />
+Quietly Observing<br />
+Deploy on Aurra Sing. While Aurra is alone at a site, your total ability here = 0. During your move phase, may lose Effect to target an opponent&#39;s lightsaber present. Draw destiny. If destiny > 3, Aurra may &#39;steal&#39; that lightsaber.<br />
+<br />
+So go there with Quietly Observing on her, protect her with Force Field if necessary, if they want to whack you during their control phase, and follow them, if they move left or right. Then lose Observing, steal their saber if possible (especially nice if my combo above works), and use her new virtual text to kill the Jedi himself. <br />
+<br />
+Weapon Levitation and Sniper are also good old fashioned ways to do some Jedi stew.<br />
+<br />
+<br />
+5. Pulling Rank On You<br />
+<br />
+The mostly Tier 2 deck Rebel Strike Team (RST) gets some serious boost in this expansion. First, there is Faithful Service (V) which makes a few dozen of your previously lame Rebels into still lame Rebel troopers. Truthfully, some of them have nice abilities, and the fact that you can recycle them back into your deck with this card at the end of the game is a nice incentive to you them.<br />
+<br />
+Faithful Service (V) makes these guys troopers:<br />
+<br />
+(Endor Troopers:)<br />
+Captain Yutani<br />
+Corporal Beezer<br />
+Corporal Delevar<br />
+Corporal Janse<br />
+Corporal Kensaric<br />
+Lt Greeve<br />
+Lt Page<br />
+Sgt Brooks Carlson<br />
+Sgt Brookman<br />
+Sgt Junkin<br />
+<br />
+(Death Star II Troopers) <br />
+Corporal Marmor<br />
+Corporal Midge<br />
+Lt s’Too Vees<br />
+Major Olando Brit<br />
+Major Panno<br />
+<br />
+(Hoth Troopers:)<br />
+Cal Alder<br />
+Dack Ralter<br />
+Major Bren Derlin<br />
+Shawn Valdez<br />
+Tigran Jamiro<br />
+Wes Janson<br />
+<br />
+Commando Training (V) also takes out any game text, which previously restricted any of these guys’ deployment modifiers to Endor, and allows the deployment of Rebels everywhere. This also includes several lousy “Power –1 if not on Valhalla” game texts on troopers everywhere. In addition, this start-able effect also downloads any Virtual 3 (yep, that’s what the icon means).<br />
+ <br />
+Commando Training downloads the following V3 Effects:<br />
+A Tremor In The Force (V)<br />
+Eject! Eject! (V)<br />
+For Luck! (V)<br />
+Logistical Delay! (V) -> reduce starship immunity by x or use 2 to cancel the game text of a <br />
+    senator or maintenance character<br />
+Merc Sunlet (V) -> balance out Force drains if you have more in lost pile<br />
+Scanner Techs (V) -> kill political effects (might be useful against new ICM decks)<br />
+Solomahal (V) -> additional scout protection<br />
+Undercover (V)<br />
+Wokling (V) -> Still get some Force and another effect<br />
+<br />
+Finally, we have Orrimaarko (V), who not only sounds like something out of a sushi plate, put is also one of those “good characters who never quite made it”. Aside from reducing opponents weapon destiny by 2, and being immune to attrition <4, he now is able to pull a couple of good cards. A rifle might be the obvious choice, but any of the interrupts he pulls might at last let him play in the big leagues<br />
+<br />
+Orrimaarko Interrupts to pull:<br />
+Covert Landing <br />
+Covert Landing (V9) -> Deploy scouts<br />
+Dash<br />
+Endor Celebration (V9)<br />
+Ewok Rescue<br />
+Firefight<br />
+Get Alongside That One<br />
+Insertion Planning -> subtract 3 from opp total battle destiny at a scout’s exterior planet site<br />
+Rapid Deployment (V9) -> Get Luke, Rebel Scout or other scouts<br />
+Take The Initiative<br />
+Wookie Guide<br />
+<br />
+Now if only we could find a way to start with Orrimaarko. You could use him in a QMC deck on the Cloud City: Docking Bay then. Since Beldon’s Eye (V) let’s you start with a starfighter, and Orri pulls Covert Landing, you could use the lost part of the interrupt, which reads: If your starfighter just landed at a site where opponent has no presence, deploy scouts (and weapons on those scouts) aboard it (capacity permitting) from Reserve Deck; reshuffle.<br />
+That would be a nice way to get the troops to Bespin, and have Sgt Brooks Carlson spread them. Maybe for another deck.<br />
+<br />
+<br />
+6. Toasters Taking Over<br />
+<br />
+The DS’s answer to troopers are battle droids. Invasion finally get’s a long overdue push, and since most of the helper cards are player created, I don’t seem to be the only one thinking that way. Daultay Dofine (V) gives some more immunity, and also weapon protection to the Blockade Flagship. More important though, is that he hulls Nute Gunray or Rune Haako. Either is essential in the Throne Room to flip the objective, and this will help a lot. <br />
+<br />
+At Last We Are Getting Results (V) is a great start-able effect, which makes your duck droids defense +2, your roboships deploy –1, and the opponent’s immunity –3. This will balance things out for the chip brains. You can also deploy any Maul now thanks to that effect, and please don’t forget that The Phantom Menace allows Maul to pull a Neimodian from reserve deck. Again, a way to get Haako or Gunray.  <br />
+<br />
+Another important start-able effect is 3,720 To 1 (V), which allows you to once per turn place the bottom 2 lost cards out of play to play a character weapon, location, or effect that deploys on a location. <br />
+<br />
+3,720 To 1 (V) some good effects to pull<br />
+Imperial Justice (V)<br />
+Expand The Empire<br />
+Presence Of The Force<br />
+Senate Hovercam<br />
+Image Of The Dark Lord (V)<br />
+There Is No Try & Oppressive Enforcement (V)<br />
+<br />
+As you can see, this effect not only works well for Invasion, but also a couple of other deck types, like Senate, or ICM. 3,720 To 1 (V) also pulls Forced Servitude that way, and you could either go with the old Force drain reducing kind, or the aforementioned new virtual version, if you can find any use for it in a droid deck.<br />
+<br />
+3,720 To 1 (V) also makes your droids destiny +1. There are other cards that do that, like Nute Gunray Neimodian Viceroy, so you might want to check how high you can get those destinies. Or you could go with Destroyer Droids, and use old school Nute Gunray (is there a thing like “old school Episode 1”?) to make the Droidekas destiny +3. With tanks still being a valuable option, we will sure have different kind of Invasions waiting at a tourney.<br />
+<br />
+<br />
+<br />
+7. I Can’t Believe What You Did Last Summer<br />
+<br />
+Whoops, wrong title, but I can promise you guys that this would be much more interesting, because what little spare time I had was well spend, and worth of the name Dark Lord of the Chrith. There was this one chick, but I’m drifting away again.<br />
+One of the nice advantages you get, when a large percentage of a virtual expansion is created by players (and that’s not to say, that the design team doesn’t so it as well), is that every-one wants to create something special for their favorite deck type. And V12 is no exception. <br />
+<br />
+At Peace (V) is a Mind What You Have Learned (MWYHL, or Jedi Testing for you normal folks out there) helper. Creature protection, pulling Jedi Tests from under your starting effect, and finally a way to play with only 1 Daughter Of Skywalker. Speaking of her, Leia gets a new version of Anakin’s Lightsaber, allowing her to cancel a weapon destiny instead of firing herself. One has to wonder why the LS needs heroic characters, if they cancel all weapon destinies anyway. But we’ll squash the little buggers anyway.<br />
+<br />
+Hidden Base (or space decks in general) also get some help. First from Diversionary Tactics, a destiny 4 used or lost interrupt. The used version makes a starship hyperspeed –1 for remainder of turn. This could be huge in Hidden Base, especially since there are few DS starships with a far reach to probe those outer rim planets. The lost version is a sorta Clash Of Sabers for space in which you can exclude a starship by drawing destiny <4, where you have 2 unique rebel/republic ships. Enhanced Proton Torpedos (V) also hurts, if you use it on a heroic fighter (Red Squad 7 for now), because it adds 3 to the total for 1 Force). The torpedos are pulled by several cards, so that should be easy to pull off.<br />
+<br />
+Cards that pull Enhanced Proton Torpedos (V)<br />
+Advance Preparations (pulls it from under your starting effect) <br />
+Lt. sToo Vees (only on Docking Bays, but this guy also works with the new RST card <br />
+Faithful Service (V) and adds a destiny to power with Lando. He semi rocks).<br />
+Panic (V2)<br />
+Portable Scanner<br />
+Rapid Fire<br />
+The Signal (V8)<br />
+<br />
+Next up is I Can’t Believe He’s Gone (V), which is an improved version of the There Is Good In Him (TIGIH) helper of the same name. To use the old tech created and used by Scott Lingrell and Greg Shaw, you have to get Premiere Obi with one of your Balanced Attack interrupts (yeah, Obi is a general, for all late comers), and quickly get him out of play with the Effect Merc Sunlet (V), who is also pulled by the new Commando Training (V). I Can’t Believe He’s Gone (V) then adds 5 to power during a battle. This should also work well with Rebel Strike Team in the future. <br />
+<br />
+I Can’t Believe He’s Gone Combo Card Texts<br />
+<br />
+Obi’s Apperation <br />
+Deploy on table. Whenever you lose a Jedi from table, you may place that Jedi out of play. You may use X Force to add X to a just drawn battle or weapon destiny where X = number of your Jedi placed out of play.<br />
+<br />
+Merc Sunlet (V3)<br />
+Deploy on table. While you have more cards in your Lost Pile than your opponent, and you are about to lose Force, you may use X Force and place X cards of your choice from your Lost Pile out of play to reduce Force loss by X. You may not play Out Of Commission. (Immune to Alter.)<br />
+<br />
+Last but not least, there’s the new Jawa platform Crash Site Memorial (V). It makes 4 of your most popular Jawa spots into deserts, and cancels the opponents Force generation, if you occupy with a Jawa there. Combine this (again) with Commando Training (V), maybe the Camp, and guys like Corporal Kensaric and Tigran Jamiro (V4), and add in the fact that Jawas themselves steal the opponent’s Force. You’ll have a nice Force choke going. <br />
+Is it just me, or is it strange that we find it perfectly alright to accept Jawas all cool, cute, or whatever, but as soon as they get naked, and reveal themselves to be a race of furry Ewoks, we hate their guts. Food for thought. Absurd philosophy lesson over.<br />
+<br />
+<br />
+8. Up, Up And Away<br />
+<br />
+The DS does get some helpers, too, thanks to a huge Invasion push, and the new ICM deck type. The latter also pumps up SYCFA, as mentioned above. Maneuver Check (V) further aids this objective in that it lets you choose another planet to blow up after you took care of Alderaan with all it’s LA law rejects and slug hairdo chicks. <br />
+<br />
+Bounty (V) is a boost for all kind of scum decks, especially Carbon Chamber Testing (CCT), or the recent crazy Sheele get-them-all version. But it’s also nice to just add Bounty (V) to any deck with some capturing in it. You can get it with the immediate effect pulling shield Fanfare. The retrieval of a solid 4 at a prison is nice, and the force drain +1 is an even better deal. <br />
+<br />
+Speaking of Deal, it’s getting worse with I’m Sorry (V). This Dark Deal or CCT helper is sort of an Occupation for Cloud sectors you control with TIEs, dealing the opponent another damage for 2 controlled sectors. It also downloads both Clouds and Obsidian TIEs, like the new heroic one. Further, it downloads Floating Refineries, which allow you to draw activated cards into hand. It only works during your turn, so they worded it Drop/Thrown Away safe, but it can be a nice advantage to get a needed card at the start of a turn.<br />
+<br />
+<br />
+9. Stevie Wonder Start<br />
+<br />
+Yeah, I know, that’s tasteless, but if you have problems understanding the new Epic Event It Is The Future You See (V), let me help remove the shades. First, you get to use this instead of a starting interrupt. It still gives you Sense/Alter protection, Battle Plan and a third effect of your choice. That’s okay. You may start only one location to use this, and it cannot be from Coruscant or Hoth. The big advantage is that you start the game. This should make up for what some (you know who you are) consider the loss of Throne Room Mains (TRM), and there should be a couple of nasty starting options, like Tatooine: Toshee Station. It should also work with the following objectives: Dantooine Operations, Hidden Base, and Mind What You Have Learned.<br />
+<br />
+The Agent Of Evil part is easy. You get Luke into start hand plus any site, and in turn your opponent gets +3 on his total battle and duel destinies. Sounds fair, but as Obi start has shown us with Krayt Dragon Howl (V), there will be some goldenrod headed ideas to break this.<br />
+<br />
+The Jedi part might seem a bit confusing. Basically, on your first turn, you put a card there from hand face up. You wanna pay for something in your deploy phase, so you turn the card face down, and use it as 1 Force. Turn down means, you used it. Leave a Force at the end of the turn. Next turn, you first flip the face down card up again. Then you use 1 Force, and stack another card there. You can now turn the 2 cards face down to use 2 Force for whatever, and so on. It’s a piggy bank.<br />
+<br />
+<br />
+10. Best of the rest for LS<br />
+<br />
+Debnoli (V) we already know as a preview from last set, so no comment here, except that it is strange that this card was not created by a player from Germany, since we had a Team Debnoli here once. <br />
+<br />
+Changing The Odds (V) is what we may call the “frustrated from tracking” card. It messes up your opponent’s well tracked destiny, or lets both of you redraw battle destiny. The title is fitting though, and as a used 5 destiny interrupt this will see some play. <br />
+<br />
+Precise Hit (V)’s used function is also especially nasty. If you hit something without using a permanent weapon or lightsaber, you get to put all cards in owner’s used pile. Every location’s a Chasm or Generator Core these days. This is immune to Molator (V) as well, because the card is not lost, but placed in used pile. Nasty.<br />
+<br />
+Finally, check out Jeroen Webb (V), who works deploys as an undercover spy against the mean magistrates from the ICM deck. Since there is no LS influence (yet), spies are your only way to get the influence at the Conference Room down. He will be grilled by the Emperor though.<br />
+<br />
+<br />
+Best of the rest for DS<br />
+<br />
+Mara with stick is also known. Let’s just say, she’s still one of the few must-be-in-almost-every-deck-cards. An alien/imperial spy with stick is nasty. Coordinated Attack (V) is the DS answer to Precise Hit (see above).<br />
+<br />
+Stinger (V) is basically a Naked Threepio in space, and although more is required (Guri needs to pilot, Leia and Chewie should not be on table, and the draw is limited to the control phase), you don’t have to put a card back, and that’s quite an advantage. You can also always imagine Naked Guri being inside, and would likely prefer her over Threepio. If not, go see a doctor, dammit.<br />
+<br />
+You Want This, Don’t You? (V) is another well chosen title, and I can’t help seeing the smirking grin of it’s designer, when I read it. It’s an immediate effect that steals your opponent’s destiny by stacking it here. So, you either grab a key card, or tracked destiny, or make him lose 3. Nice deal any way. <br />
+<br />
+<br />
+<br />
+In closing, I’d like to thank the design team, and all the players who created cards. This looks like a good time to play Star Wars again, and seems like there are endless deck possibilities.<br />
+Also, a big props to the play testers, proof readers, and every-one involved in the virtual cards, and in the game in general. It’s nice to see that the game is still going on years after the official end. Star Wars players rule.<br />
+Especially, thak you Chuck and whoever is involved in the Journal for taking any bugs out of the version I did here, and for making it look so nice in the Journal. Like I said, 2 nights no sleep, so please bear with me every-one.<br />
+<br />
+That’s it again for this virtual expansion. Hopefully, I can continue writing articles this year, but there’s the tournament season next. I’ll try to be at as many European regionals, and if I’m lucky, I’ll go to Worlds again this year to meet all my overseas buddies again. Keep up the spirit. May the Force be with you.<br />
+<br />
+<br />
+Chris Menzel<br />
+<br />
+Shadow 14 – Darth Crith<br />
+SW CCG European Flight Leader<br />
+SW CCG Players Committee staff writer<br />
+ <br></font><BR><font class="bfont"> <A HREF='/starwarsccg/articles/articles.php?id=6470&view=1&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8'>Read the Reviews</a><font class="bfont"> | <A HREF='/starwarsccg/articles/articles.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+<!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

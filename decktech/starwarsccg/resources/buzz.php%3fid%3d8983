@@ -1,0 +1,751 @@
+
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title> 
+Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"> 
+      <img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0>    </td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"> 
+            <img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0>            </a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> 
+            <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+          </td>
+        </tr>
+        <tr valign="top"> 
+          <td> 
+            <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php" class="level1nav">Articles</a><br>
+
+
+<a href="/starwarsccg/decks/index.php" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php" class="level1nav">Reports</a><br>
+
+  <a href="/starwarsccg/academy/index.php" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php" class="level1nav">Resources</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/resources/rules.php">Current Rules</a> &nbsp;<br>
+
+<a href="/starwarsccg/resources/buzz.php">Buzz Board</a> &nbsp;<br>
+
+<a href="/starwarsccg/resources/links.php">Related Sites</a> &nbsp;<br>
+</div>
+<br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center>          </td>
+        </tr>
+                <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>                <tr valign="top"> 
+          <td> 
+            
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6554&view=2">Creating a tournament scene from scratch - part 6</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6555&view=2">Achieving Excellence</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6553&view=2">Court with Abyssin Ornament V</A></font></li><BR></ol> 
+<p><script language="JavaScript">
+
+<!-- /* © 1997-2002 BURST! Media, LLC. All Rights Reserved.*/ 
+
+var TheAdcode = 'sk8702a'; 
+
+var bN = navigator.appName; 
+
+var bV = parseInt(navigator.appVersion); 
+
+var base='http://www.burstnet.com/'; 
+
+var Tv=''; 
+
+var backColor='000000';
+
+var fontColor='FFFFFF';
+
+var agt=navigator.userAgent.toLowerCase(); 
+
+if (bV>=4) 
+
+  {
+
+  	ts=window.location.pathname+window.location.search; 
+
+  	i=0; 
+
+  	Tv=0; 
+
+  	while (i< ts.length) 
+
+      { 
+
+	  	Tv=Tv+ts.charCodeAt(i); i=i+1; } 
+
+		Tv="/"+Tv;} 
+
+else {
+
+	Tv=escape(window.location.pathname); 
+
+   	if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+
+    else if (Tv.charAt(1)=="/") Tv=""; 
+
+  	if( Tv.charAt(Tv.length-1) == "/") Tv = Tv + "_";
+
+} 
+
+  document.write('<ifr'+'ame id=BURST src="'+base+'cgi-bin/ads/' + TheAdcode + '.cgi' + Tv +  '/zg' + backColor + 'x' + fontColor + 'l' + fontColor +    'v' + fontColor + 'k' + fontColor + '/RETURN-CODE" width=160 height=600' +   ' marginwidth=0 marginheight=0 hspace=0 vspace=0 ' +  'frameborder=0 scrolling=no>');
+
+  document.write('</ifr'+'ame>');    
+
+// --> 
+
+</script></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center>          </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+      
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td valign="top" width="1"> 
+            <img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0">          </td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <script language="javascript">
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+
+prev1.document.writeln(texttoshow);
+
+}
+
+function changetobold()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+linkyaddress = document.buzzboardform.texttoconvert.value;
+
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+
+newtext = document.buzzboardform.texttoconvert.value;
+
+document.buzzboardform.convertedtext.value = "";
+
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+
+document.buzzboardform.convertedtext.value = oldtext;
+
+document.buzzboardform.convertedtext.focus()
+}
+
+
+function oldchangetobold()
+{
+
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+
+document.buzzboardform.comments.value = oldtext;
+
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader">The 1st Comic Book you ever bought.</td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="bfont"> From: animalvader1</font><BR><font class="bfont"><A HREF='/starwarsccg/resources/buzz.php'>Back to Topics List</A></font><BR><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font><BR><font class="bfont"><A HREF='/starwarsccg/resources/buzz.php?id=8983'><b>REFRESH THIS TOPIC</b></A></font><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#333333><font class="h2font"> Comment</td></tr><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>mc9457</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Oh god I did say Catwoman didn&#39;t I.<br />
+<br />
+15 hours of work = brain out the window.<br />
+<br />
+Yes, meant Black Cat. <br><BR><font size=1>06:57 02-08-2008</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>mc9457</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Found it.<br />
+<br />
+<a href=http://www.comics.org/coverview.lasso?id=37225&zoom=4 target=x>http://www.comics.org/coverview.lasso?id=37225&zoom=4</a> <br><BR><font size=1>20:07 02-07-2008</font></TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>mc9457</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">My Spidey is still bagged and would be in better condition.<br />
+<br />
+If the mail man hadn&#39;t left it out in the rain when he delivered it.<br />
+<br />
+Yup, this was back in the day when comics were shipped in the Playboy brown paper bag wrapper. <br><BR><font size=1>20:03 02-07-2008</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>ANIMALVADER1</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">I&#39;ve got that one:<br />
+<br />
+<img src=http://www.comics.org/graphics/covers/2359/400/2359_4_0076.jpg><br />
+<br />
+can&#39;t help you with the Hulk though.<br />
+<br />
+Try looking for it at:<br />
+<br />
+http://www.comics.org/index.lasso <br><BR><font size=1>17:43 02-07-2008</font></TD></TR><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=3300">Shadow 13™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">do you mean black cat?  i don&#39;t know a marvel catwoman... <br><BR><font size=1>16:16 02-07-2008</font><BR><BR><hr><img align="right" src="http://www.decktech.net/memberimages/3300rst.jpg"><br>Ryan French<br>Rebel Strike Team founder<br><i>"I&#39;m a total whore for torture porn."</i> - Patrick Sullivan</TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>mc9457</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">My first comic?<br />
+<br />
+Peter Parker, the Spectacular Spiderman.<br />
+<br />
+He and Catwoman and just gone through a throwdown with Dogoldenrod and the Owl and Catwoman was seriously banged up.  The cover is Spiderman cradling Catwoman in his arms, and Catwoman all cut up and bleeding.<br />
+<br />
+At the same time I got into the Hulk.  At this point he was the Banner Brain, Hulk Strength, and was battling the Leader.  It was a mini-cross over event with the Avengers involved as well.  Leader kept going between time periods and had imprisoned some Avengers in the time frame and had turned their minds to that time period persona as well.<br />
+<br />
+Can&#39;t remember the issue numbers of either and the Marvel Wiki is very lacking on both comics :(<br />
+<br />
+Then got out of Comics for a while, came back for the entire Transformers run, then picked up Fall of the Mutants.  Left again after Age of Apocalypse.  Came back for Infinite Crisis and House of M.  Still here lol. <br><BR><font size=1>12:03 02-07-2008</font></TD></TR><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Btw, if you ever play the Xmen 6 player arcade game, it is totally from that period. The after game artwork is nearly all from the 12 or so issues I have, it is pretty neat. White Queen, Hellfire Club, Proteus, and Dark Phoenix are all from the ones I have <br><BR><font size=1>10:43 02-07-2008</font><BR><BR>I am Magneto, Master of Magnet. I kill you, x-chicken - Magneto, Japan</TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>ANIMALVADER1</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">The X-Men were def. at their best back then. I read that story and many others in the "Classic X-Men" reprints. Great stuff. <br><BR><font size=1>19:20 02-05-2008</font></TD></TR><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">This is it, X-men 125<br />
+<br />
+<img src=http://www.coverbrowser.com/image/uncanny-x-men/125-3.jpg><br />
+<br />
+I still have it. Great issue. The year&#39;s worth I bought sold me on the X-men, I didn&#39;t know about them from my brothers <br><BR><font size=1>15:03 01-30-2008</font><BR><BR>I am Magneto, Master of Magnet. I kill you, x-chicken - Magneto, Japan</TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">wow, awesome thread. My brothers had a ton of marvel comics when I was younger, I think the clairemont X-men where Jean Grey returned was the first I got. Like 135 or something I want to say? Right before they fought Proteus <br><BR><font size=1>10:29 01-30-2008</font><BR><BR>I am Magneto, Master of Magnet. I kill you, x-chicken - Magneto, Japan</TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>ANIMALVADER1</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">If you got the red cover, that&#39;s to bad. :( The pic looks like the all-black "variant". truth is, the black one&#39;s a defect because the red foil is missing, making it very rare and worth $$$. <br><BR><font size=1>20:08 01-28-2008</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>RexBanner7</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">If I remember correctly, my first comic was Amazing Spider-Man #382 where he fights the Hulk. Even better, it features art from the alltime best Spider-Man artist, Mark Bagely.<br />
+<br />
+Like plenty of other people, I got out of comics in the late 1990s because it was all exhaust at that time. Well, most of it was at least. I made the mistake of dropping Joe Kelly&#39;s run on Deadpool which remains, by far, my favorite run of comics ever. If anyone thinks that Cable/Deadpool is good, you&#39;re reading garbage from the C Squad. Joe Kelly&#39;s run was brilliant.<br />
+<br />
+And like plenty of other people, I got back into comics right around Identity Crisis. If I had known how big of a letdown Infinite Crisis was, I might not have come back at all so kudos to me for not having foresight. <br><BR><font size=1>11:20 01-25-2008</font></TD></TR><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=106">Nitsuj™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">I have that issue of Venom, but I don&#39;t remember what cover I had, I&#39;ll have to dig it up. <br><BR><font size=1>10:24 01-22-2008</font><BR><BR><A HREF="http://www.swccgpc.com/forums/viewtopic.php?t=15483"> Play SWCCG?  Please participate in the 2007 SWCCG Census </A></TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/magination/main/mpage.php?member=617">Max of Tat™</a></B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">I think you&#39;re thinking of the Gold cover which is (was?) worth more. I originally bought that one for my youngest brother, but liked the story so much I bought the series for myself. <br />
+<br />
+I don&#39;t know what he did with that issue, but mine is the basic red cover.<br />
+<br />
+- Enrique <br><BR><font size=1>11:36 01-21-2008</font><BR><BR><a href="http://www.decktech.net/vs/decks/chesslobbyframe.html">DeckTech Chess Player</a><br>My job is to bring pictures of semi-naked women to DeckTech. I love my job.</TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>ANIMALVADER1</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Yo Max: that wouldn’t be a scan of the one you actually have would it? If it is, then it’s the all black variant and worth a pretty penny!<br />
+<br />
+<br />
+I know for a fact that there are more comic peeps on here. Even if you don’t read anymore, you should still chime in. It feels good to be nostalgic and I’d love to see what everybody was into and what got them started.<br />
+ <br><BR><font size=1>08:17 01-19-2008</font></TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/magination/main/mpage.php?member=617">Max of Tat™</a></B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Lethal Protector<br />
+1993 Feb-Jul<br />
+<br />
+<img src="http://upload.wikimedia.org/wikipedia/en/thumb/8/86/Venom_Lethal_Protector_no_1.jpg/200px-Venom_Lethal_Protector_no_1.jpg"><br />
+<br />
+- Enrique <br><BR><font size=1>15:58 01-18-2008</font><BR><BR><a href="http://www.decktech.net/vs/decks/chesslobbyframe.html">DeckTech Chess Player</a><br>My job is to bring pictures of semi-naked women to DeckTech. I love my job.</TD></TR><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=106">Nitsuj™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Just explaining why I&#39;m a DC zombie.   <br><BR><font size=1>08:06 01-18-2008</font><BR><BR><A HREF="http://www.swccgpc.com/forums/viewtopic.php?t=15483"> Play SWCCG?  Please participate in the 2007 SWCCG Census </A></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>ANIMALVADER1</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">You just HAD to drop some anti-Marvel sentement in there, didn&#39;t you Nitsuj? lol<br />
+<br />
+To be honest, I can&#39;t blame you for dropping them, they really weren&#39;t very good around then. That&#39;s right when I "quit" too, because I didn&#39;t like what I was reading anymore.<br />
+<br />
+I started up again in 2003 when I went to the shop to get some cards and saw Ultimate Spider-Man #34 on the rack. It&#39;s cover had Spidey getting covered by the Venom symbiote. I picked it up, read it, LOVED IT, bought all the trades, LOVED THEM, googled the name BENDIS, and found out he was doing a new Avengers book....and I&#39;ve been penny less ever since. <br><BR><font size=1>18:42 01-16-2008</font></TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>spideyguy0</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Star Trek: The Next Generation #49 from DC was the first comic I ever bought, and for about 5 years all I read was Star Trek/Star Wars/Ninja Turtles and other TV/movie comics. First superhero comic I ever bought was Peter Parker Spider-Man #93. To this day, quite possibly the single worst issue out of the thousands of books I own. <br><BR><font size=1>17:27 01-16-2008</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>Patrick M. S</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">Some Aliens comic by Dark Horse comics <br><BR><font size=1>09:20 01-16-2008</font></TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>CategoryOneGame</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Gi Joe 12 I believe.  My first X book was Uncanny X-Men 278, my first Batman I still have, can&#39;t remember the number off hand.  <br><BR><font size=1>09:02 01-16-2008</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>Meto</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">My first comic was Wolverine #100.  I bought it because the cover was shiny and Wolverine is cool.  At the point, I started collecting it monthly.  I also dabbled in a few of the other x-series, getting them off and until the end of the Wolverine series.  I ended up getting the complete run of Wolverine volume 2.<br />
+<br />
+I&#39;m not really sure what happened, but I just kind of stopped buying comic books.<br />
+<br />
+Then I found out about torrents.  Now I download comic books and read anything that sounds interesting at all.  For free.  I probably read 10+ comics a week. <br><BR><font size=1>07:36 01-16-2008</font></TD></TR><TR><td width='4' valign='top' bgcolor=#000000><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=106">Nitsuj™</a></B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">Hmmmm....<br />
+<br />
+My first comic was probably an issue of Marvel&#39;s Transformers, like issue 7 or 8 - the one where Ratchet is the last autobot, and recovers the Dinobots, and tricks Megatron into thinking that the Dinobots destroyed Shockwave.  That comic doesn&#39;t even have a cover any more, I read it so many times as a kid.<br />
+<br />
+My first superhero comic was an issue of Action Comics, back in 1990-91ish.  It had Curt Swan on art, which was a special treat, since he was off Superman for some time at that point and had come on for a story arc.  I had no idea at the time, I just bought it because I had 75 cents burning a hole in my pocket and I was a the pharmacy near my house and it was on the magazine rack.  After that I started regularly picking up Action Comics, Spiderman Titles, and Batman titles titles.<br />
+<br />
+2 to 4 years later I dropped all Marvel titles, so I could keep up with the 4 superman monthlies and 3 batman monthlies as well as the other handfull of DC books I was getting into.  Why did I choose DC over Marvel?  Well, Superman was dying, Batman was broken, Green Lantern was going crazy, it just seemed like the stories were higher in scale.  My last Spiderman titles were the Amazing Spiderman arc that had the return of his parents - I got out prior to the reveal that it was all a trick from Red Skull.  So, yes that means I dropped Spiderman right before the Clone Saga, which was Marvel&#39;s attempt at telling a huge story with Spiderman like DC did with Superman and Batman.<br />
+<br />
+Silver Surfer and Fantastic Four were the last two titles I bought from Marvel, hanging onto them for  and additional 6 months or so.<br />
+<br />
+in 1996, I completely got out of comics.  and stayed out until I heard about this thing called Identity Crisis.... ugh, now I&#39;m back, and it is such an expensive hobby. <br><BR><font size=1>07:25 01-16-2008</font><BR><BR><A HREF="http://www.swccgpc.com/forums/viewtopic.php?t=15483"> Play SWCCG?  Please participate in the 2007 SWCCG Census </A></TD></TR><TR><td width='4' valign='top' bgcolor=#333333><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B><a href="http://www.decktech.net/starwarsccg/main/mpage.php?member=3300">Shadow 13™</a></B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">the one that kicked off my current comic book collection: ultimate fantastic four TPB #1.<br />
+<br />
+the first ever: 2-pack Death of Superman special at like walmart or something, which didn&#39;t even have the actual issue he died in. <br><BR><font size=1>23:50 01-15-2008</font><BR><BR><hr><img align="right" src="http://www.decktech.net/memberimages/3300rst.jpg"><br>Ryan French<br>Rebel Strike Team founder<br><i>"I&#39;m a total whore for torture porn."</i> - Patrick Sullivan</TD></TR><TR><td width='4' bgcolor=#000000>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#000000><font class="bfont"><B>sithborg279</B></font></td><Td valign='top' bgcolor='#000000' ><font class="bfont">I forget, but I am pretty sure it was a Marvel team up that featured Ghost Rider and the Thing. <br><BR><font size=1>23:03 01-15-2008</font></TD></TR><TR><td width='4' bgcolor=#333333>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#333333><font class="bfont"><B>ANIMALVADER1</B></font></td><Td valign='top' bgcolor='#333333' ><font class="bfont">I own thousands of comics. Most I love, some more than others, but I’ll always have a soft spot in my heart for the 1st book I ever picked out and bought myself. The book was:<br />
+<br />
+<br />
+The Uncanny X-Men #202<br />
+<br />
+<img src="http://i103.photobucket.com/albums/m135/animalvader1/uncannyx-men202.jpg"><br />
+<br />
+Publication Date	February 1986<br />
+Publisher	Marvel Comics<br />
+Language	English<br />
+Format	Comic<br />
+Age	Modern<br />
+Color	Color<br />
+Country	USA<br />
+Cover Price	$0.75<br />
+<br />
+<br />
+To be clear, this is not the first comic I owned or read. I’ve had around 20 random Spider-Man, Batman, G.I. Joe, etc. given to me over the years prier to this, but I still remember vividly where and why I bought this. I was 8 years old when I wondered into the Hall of Heroes store at the mall. I first went in there with my Mom in tow with the hopes of conning her into buying me a toy I saw in the window. As I wondered around the store, I saw the wall of comics and walked up to have a look. As I stood there taking it all in, I saw it. There, at perfect eye level, in the bottom right hand corner of Uncanny X-Men #202, no more than an inch high, was Wolverine cutting the crap out of a giant robot’s leg. Even though I never read an X-Men comic before, I knew who Wolverine was because of the Secret Wars action figure I had that would always slaughter my G.I. Joes. All thoughts of the toy I originally wanted left my mind as I ran it to the counter and bought it with my allowance. I must have read it twice in the car on the way home and, I’m happy to say, I still have the issue filed neatly in a box with the rest of my X-books. Thus began my almost obsessive addiction to comics that still thrives to this day…<br />
+<br />
+<br />
+So I ask you: What was the first comic you remember buying yourself, with your own money, and why did you buy it?<br />
+ <br><BR><font size=1>21:46 01-15-2008</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/starwarsccg/resources/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/starwarsccg/resources/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=8983><input type='Submit'  value=' Show all Posts '></form><form action='/starwarsccg/resources/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=8983><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/starwarsccg/main/join.php'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script> 			
+<!-- rumors board code end -->            <!-- #EndEditable --></td>
+          <td width="1" valign="top"> 
+            <img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0">          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4"> 
+      
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+    </td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

@@ -1,0 +1,473 @@
+
+<html><!-- #BeginTemplate "/Templates/freedom.dwt" -->
+<head>
+<title>FreedomCon - United We Stand</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {  margin: 0px 0px; border: none; font: 10pt Verdana, Arial, Helvetica, sans-serif; color: #000000}
+.legal {  font: 6pt Verdana, Arial, Helvetica, sans-serif; color: #CCCCCC}
+td {  font: 9pt Verdana, Arial, Helvetica, sans-serif}
+.nav {  font-size: 8pt; color: #FFFFFF; text-decoration: none}
+-->
+</style>
+</head>
+
+<body bgcolor="#000E58" margin="0" marginwidth="0" marginheight="0">
+<table width="93%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td colspan="2" height="97"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+        <tr>
+          <td><img src="/freedomcon/gfx/freeblue.gif" width="266" height="123" border="0"> 
+          </td>
+          <td valign="middle" align="center">&nbsp; </td>
+        </tr>
+      </table>
+      
+    </td>
+    <td width="42" height="97">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td height="149"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <tr> 
+                <td class="legal"><a href="/freedomcon/index.php" class="nav">Home</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/about.php" class="nav">About FreedomCon</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/sponsors.php" class="nav">Our Sponsors</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/contact.php" class="nav">Contact Us</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/attend.php" class="nav">Players Attending</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/donate.php" class="nav">Donations and Charity</a></td>
+              </tr>
+              <tr>
+                <td><a href="/freedomcon/buzz.php" class="nav">Discuss FreedomCon 2!</a></td>
+              </tr>				  
+			  
+            </table>
+            
+          </td>
+        </tr>
+      </table>
+
+      <!-- #BeginEditable "nav" --> <!-- #EndEditable --><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><br>
+      </font>
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b><br>
+            What:<br>
+            FreedomCon</b> <br>
+            Philadelphia 2002<br>
+            <br>
+            <b>When:</b> <br>
+            October 4-6 <br>
+            <br>
+            <b>Where:</b> <br>
+            NeoQuest Games<br>
+            Gary's Plaza<br>
+            531 South Broad Street<br>
+            Lansdale, PA 19446<br>
+            </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">215 
+            855 7035</font></td>
+        </tr>
+      </table>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"></font></td>
+    <td width="541" bgcolor="#FFFFFF" valign="top" background="/freedomcon/gfx/Vegasxflcam.jpg"><!-- #BeginEditable "body" --> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td valign="top" height="461" width="57%"> <br>
+
+<script language="javascript">
+
+echo "test";
+
+// This makes certain pages private, for members only. Neal 10-2013
+if ($access == "" )
+{
+echo "<table bgcolor='#ffffff' width=500><tr><td><P>This area of DeckTech is now restricted to members only. You must be logged in to view this page.
+Go to <a href='http://www.decktech.net/'> DeckTech.net </a> to log in";
+echo "<P>If you are not a member, and would like to spy on a member, you are cordially invited to kiss off.</td></tr></table>";
+exit;
+}
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+prev1.document.writeln(texttoshow);
+}
+
+function changetobold()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetospoiler()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "(drag mouse to see spoiler)<div style=background-color:red;color:red;foreground-color:red>"+newtext+"</div>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+linkyaddress = document.buzzboardform.texttoconvert.value;
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function oldchangetobold()
+{
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+
+
+
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5<br />
+<b>Warning</b>:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in <b>/home/decktech/public_html/global/includes/com/buzzboard.php</b> on line <b>1719</b><br />
+<table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font class="h1font">News o&#39; the Day</B></font></td></tr><tr valign="top"><td><font class="bfont"><font class="bfont"> From: <a href="http://www.decktech.net/heroclix/main/mpage.php?member=17517">JacinB </a></font><BR><table><TR><TD><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='/freedomcon/buzz.php?id=5783'><b>REFRESH THIS TOPIC</b></A></font></td><td width=40>&nbsp;</td></tr></table><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#EFF1FF><font class="h2font"> Comment</td></tr><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Darth Bear </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Darth Bear '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">http://gabrielecirulli.github.io/2048/<br />
+<br />
+Fun and challenging little game...enjoy. <br><BR><font size=1>12:43 03-27-2014</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">http://www.msnbc.com/now-with-alex-wagner/watch/article-details-christies-checkered-past-151119427923<br />
+ <br><BR><font size=1>20:35 02-13-2014</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">that sinkhole that ate the corvettes really sucked. What a shame.  Really tells you something important though; maybe keeping a WHOLE LOT OF VALUABLES in one spot opens you up to a WHOLE LOT OF RISK from weather/geography. <br><BR><font size=1>08:35 02-13-2014</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Iceman </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Iceman '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Really like this story :<br />
+<br />
+http://www.nationswell.com/one-state-track-become-first-end-homelessness-2015/ <br><BR><font size=1>12:14 12-22-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Iceman </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Iceman '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">http://news.yahoo.com/why-u-government-send-3-000-doing-nothing-114500940.html<br />
+<br />
+Interesting. <br><BR><font size=1>15:26 11-16-2013</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I was kind of wondering that myself.  <br><BR><font size=1>11:00 11-15-2013</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Iceman </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Iceman '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Weird, maybe somebody killed him and strapped some meat to his body and fed him to the sharks. <br><BR><font size=1>10:53 11-15-2013</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">This is more like odd news. There is this cleaning lady at my work. Her brother gotten eaten by sharks. No kidding. I don&#39;t know all the details but they found him floating off Clearwater beach and he had been more than half eaten. <br />
+<br />
+I have never really heard of that <br><BR><font size=1>10:31 11-15-2013</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Iceman </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Iceman '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">That mayor of Toronto is giving Stewart and Colbert some classic material. Incredible. <br><BR><font size=1>09:52 11-15-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Patrick M. S </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Mike, pass the asparagus <br><BR><font size=1>18:26 12-23-2012</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>HuntaWarya </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=HuntaWarya '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Phil78 wrote:  "hunter. you are totally ignoring all the common sense that everyone&#39;s thrown at you."<br />
+<br />
+**All the common sense is contained in MY posts.  That&#39;s why I was the one who specifically asked "Where&#39;s the common sense?" earlier.    <br />
+<br />
+"The fact remains that there are more guns the governement does NOT know about in the USA than in all other countries."<br />
+<br />
+**Meaningless.  The fact remains that all those guns the government doesn&#39;t know about are NOT killing very many people.  The US has some serious problems it can worry about.  Gun violence is NOT one of them.  There is not a good reason to make gun control a priority.    <br />
+<br />
+"AND the other fact remains that there are more shootings in the USA than any other civilized countries in the world"<br />
+<br />
+**The fact remains that even in the USA, the number of shootings is paltry.  The number of people shot in other countries is even less than tiny?  Yay, good for them.  The number of people shot in the USA is still tiny, compared with LEGITIMATE threats to human life.  Which nation has more people eaten by sharks than any other civilized country in the entire world?  I don&#39;t know.  But I know it DOESN&#39;T MATTER.  Because sharks, just like guns, are not a significant cause of death.    <br />
+<br />
+As for your responses to each of the 3 Key Points:<br />
+<br />
+"those kids died."<br />
+<br />
+**And yet, it remains FACT that "When people get shot, they usually don&#39;t die."  You challenged Key Point #1, and it defeated you.  <br />
+<br />
+"those kids didnt commit suicide"<br />
+<br />
+**And yet, it remains FACT that "On the RARE occasions when people who&#39;ve been shot actually DO die, it was usually a suicide."  You challenged Key Point #2, and it defeated you.<br />
+<br />
+"would you not have to be retarded to shoot someone with a registered gun?"<br />
+<br />
+**Not if you were shooting them for purposes of either law enforcement or self-defense.  But if you say it&#39;s retarded to shoot someone with a registered gun, and that therefore the people shooting people are obviously doing it with guns that are NOT registered, then clearly it will NOT HELP to make it more difficult for people to legally purchase and register their guns by tightening gun control laws.  You didn&#39;t really even try to challenge Key Point #3, but what you&#39;ve said actually just SUPPORTS it.  <br />
+<br />
+"making guns illigal would solve usa&#39;s problems"<br />
+<br />
+**WRONG.  And the Key Points tell you WHY you are WRONG.  And you CANNOT defeat them.  Every word of my prior post still stands.  There is no part of that post you could successfully argue with. If you try again, you can ONLY...FAIL...AGAIN.  No other outcome is possible. <br><BR><font size=1>18:09 12-23-2012</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">it&#39;s been freaking boiling here in Tampa. 85 degree weather until the last 2 days. <br><BR><font size=1>17:26 12-23-2012</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Lt. Cabbage </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Lt. Cabbage '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Talking of the environment it&#39;s two days before Christmas and you don&#39;t need to wear a coat outside in London. NOT good. <br><BR><font size=1>12:10 12-23-2012</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Hey Phil, That&#39;s cool.<br />
+<br />
+I&#39;d have to say though I really dont think shooting guns out in the wild is the biggest threat to environment and from watching hunting shows (never done myself) they seem to portray hunters as respectful of the environment... rightfully so if they wanna be able to enjoy hunting.<br />
+<br />
+Environment is gonna be messed up by people building over whatever land we have left and putting a parking lot on it. <br><BR><font size=1>12:04 12-23-2012</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">The Don<br />
+<br />
+im sorry but no, if theres anything i care about in this world it&#39;s the environment, and shooting guns in the wild only destroys it, my yard looks much like his but i&#39;d never defile it the way he has.<br />
+<br />
+thats my opinion, i am not trying to insult you.<br />
+<br />
+also, the whole rant with Hunter, i dont really care what laws are in the USA at all, fact is the more chaos there is the happier i am in a sense, i want whatever&#39;s to come to come while im still young.<br />
+<br />
+and i dont dislike guns, first thing i am doing if any form of end of the world happens is go for guns like most people will im guessing ;]. actually been wanting to buy a couple once my house is paid off, i also want to start hunting soon.<br />
+<br />
+so.. hope that shows you my views a bit more and that i dont hate guns. <br><BR><font size=1>11:57 12-23-2012</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Lt. Cabbage </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Lt. Cabbage '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">FYI, there have been two attacks with blades that I can recall since the handgun ban in this country: a samurai sword attack in a church and a machete attack in a school.  People were injured, in at least one case seriously, but no-one was killed.<br />
+<br />
+I don&#39;t think a total ban on guns is feasible right now in the US.  But I think restrictions on certain weapons are and would offer some benefits.  But obviously any restricted weapons wouldn&#39;t go out of circulation overnight. <br><BR><font size=1>11:41 12-23-2012</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">shooting not fun? man tell me it wouldnt be cool to have a back yard like this dude and shoot around like this dude.<br />
+<br />
+<a href=https://www.youtube.com/watch?v=BPvMJcmpVsQ target=x>https://www.youtube.com/watch?v=BPvMJcmpVsQ</a><br />
+ <br><BR><font size=1>11:28 12-23-2012</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Hey Phil, leave me out of your rant with hunter and dont assume what you believe i would agree or not.<br />
+<br />
+A discussion of banning guns doesnt interest me only because I feel that idea will never happen in my lifetime or possibly the next. It wont be mentally ill people killing kids that push the country into a total gun ban imo. So ranting about a banning guns in the us is pointless.<br />
+<br />
+Discuss more practical measures and I may be on board.<br />
+<br />
+Someone posted as Al Gore? I&#39;m not a huge gun fanatic where I wouldnt be open to the ideas of the restrictions he wanted to impose back in the Brady days... raising age limit to purchase to 21 I like.<br />
+<br />
+I consider myself a law abiding citizen. Just like alcohol, if it&#39;s legal to drink and I like to drink then I&#39;ll enjoy a drink. If I am allowed to own, carry, and go out and have fun shooting and spend however I want to spend my hard earned dollars on ammo, then I am going to exercise my right. If the gov&#39;t did pass gun restrictions whatever they are (even if hell did freeze over and they did ban guns entirely), then as a law abiding citizen I will follow the law.<br />
+<br />
+You don&#39;t like guns, then don&#39;t play with them and mind your own business what I like to spend $$$ on lol.<br />
+<br />
+Going back to the conn situation... would a gun ban would have prevented this? If I feel that this person was mentally ill and he was set to kill, he would have found a way and kill... that&#39;t the distrubing issue. if not a gun then he would have gone &#39;asian&#39; and brung a knife and brutally stabbed kids. Yes, casualties may not be as high with so many what ifs.<br />
+<br />
+Of course I wish it didnt happen in saying this... But I wish he did all this with a knife instead of an AR... then we would be addressing imo the real issue. <br><BR><font size=1>11:15 12-23-2012</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Seriously </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Seriously '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I seriously think Hunter has aspergers or at least some form of autism / rain man thing going on. <br><BR><font size=1>11:12 12-23-2012</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">If the Zombie Apocalypse hits and you start heading for my door like this... frimbazel hand-to-hand... I&#39;ll blow your head off.<br />
+<br />
+<a href="http://s144.beta.photobucket.com/user/don527/media/nealzombie_zpsd115a53c.jpg.html" target="_blank"><img src="http://i144.photobucket.com/albums/r191/don527/nealzombie_zpsd115a53c.jpg" border="0" alt="Photobucket"/></a><br />
+<br />
+<b><blockquote><i>Geez, if the Zombie Apocalypse hits, I&#39;m heading for The Don&#39;s.</i></blockquote></b> <br><BR><font size=1>10:41 12-23-2012</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">the fact remains that there are more guns the governement does NOT know about in the USA than in all other countries.<br />
+<br />
+AND the other fact remains that there are more shootings in the USA than any other civilized countries in the world (actually more than the other top 3 put together) <br />
+<br />
+YOU KEEP SAYING WE IGNORE THE FACTS<br />
+<br />
+THE TWO FACTS ABOVE YOU KEEP IGNORING AND THEY HAVE A CORRELATION<br />
+<br />
+making guns illigal would solve usa&#39;s problems. everyone here SEES THAT except you...well maybe the don does not either.<br />
+<br />
+what  a waste of 400 $<br />
+<br />
+<b><br />
+and neal. guns are only good for killing people.  zombies you&#39;re better off with a hand to hand weapon, dont you watch the walking dead?<br />
+</b><br />
+<br />
+hunter. read the bolded comment.<br />
+<br />
+<br />
+<br />
+<blockquote><i>Key Point #1) When people get shot, they usually don&#39;t die. <br />
+</i></blockquote><br />
+those kids died.<br />
+<br />
+<blockquote><i>Key Point #2) On the RARE occasions when people who&#39;ve been shot actually DO die, it was usually a suicide.</i></blockquote><br />
+those kids didnt commit suicide<br />
+<br />
+<blockquote><i>Key Point #3) On the even RARER occasions when someone actually IS murdered with a gun, the killer usually has neither a permit nor a registration for the firearm.</i></blockquote><br />
+would you not have to be retarded to shoot someone with a registered gun?<br />
+<br />
+<br />
+ <br><BR><font size=1>10:03 12-23-2012</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">hunter. you are totally ignoring all the common sense that everyone&#39;s thrown at you. your points all make sense on paper. <br />
+<br />
+wait.. are you an engineer? that would totally fit. lol <br><BR><font size=1>09:58 12-23-2012</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Geez, if the Zombie Apocalypse hits, I&#39;m heading for The Don&#39;s.<br />
+<br />
+In other news, Hunter has killed this discussion.  I can&#39;t even read it anymore, it&#39;s become such a beastly bore.  Time for a new topic. <br><BR><font size=1>07:15 12-23-2012</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>HuntaWarya </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=HuntaWarya '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Phil78 wrote:  "ive looked at your points and dissmissed all of them as foolish."<br />
+<br />
+**That makes YOU the fool.  Because you cannot defeat ANY of those points.  Not ONE.  Just like the guy posting as "Logic" couldn&#39;t and just like the guy posting as "Really" couldn&#39;t, and just like the guy posting as "Being Brian Hunter" couldn&#39;t.  You&#39;re no better than any of those faceless imbeciles.  You&#39;re all equally worthless.    <br />
+<br />
+I&#39;ll recap the points in one place for you here, to make it REALLY easy for you to see how hopeless your position is, and how ridiculous you make yourself look when you try to say that you looked at them and dismissed them.  <br />
+<br />
+Key Point #1)  When people get shot, they usually don&#39;t die.  <br />
+<br />
+The majority of gunshot victims in the US survive.  And it is NOT close, either.  The average hospital stay length for victims of gunshot wounds is only 3 days, so recovery is quick and easy.  Many of the patients are actually treated and released the very same day they were shot, without ever being admitted to a hospital at all.  You could argue against me on this point if you want to, but you CANNOT win.  <br />
+<br />
+Key Point #2)  On the RARE occasions when people who&#39;ve been shot actually DO die, it was usually a suicide.  <br />
+<br />
+More than half of all gun-related deaths in the US are suicides.  More than all of the homicides and all of the accidents put together.  You could argue against me on this point if you want to, but you CANNOT win.  <br />
+<br />
+Key Point #3)  On the even RARER occasions when someone actually IS murdered with a gun, the killer usually has neither a permit nor a registration for the firearm.  <br />
+<br />
+The overwhelming majority of gun murders in the US are committed by black and hispanic gang members, against other black and hispanic gang members.  The killer typically does not have a concealed carry permit for the weapon, nor is the weapon registered to them.  Commonly, the killer never legally purchased the weapon in the first place.  Most of these murders are committed with handguns, NOT assault rifles or any type of automatic weapon.  You could argue against me on this point if you want to, but you CANNOT win.  <br />
+<br />
+There&#39;s 3 points for you.  Pick your poison, and choose to dispute any or all of them.  You can ONLY FAIL.  <br />
+<br />
+What do the 3 points tell us?  What useful information do we have because of them?  <br />
+<br />
+Well, we know guns are not a significant cause of death.  The number of people killed by guns annually is a PITTANCE compared with the many things out there that are ACTUALLY killing people in large numbers.  So we know that placing a high priority on reducing gun violence just DOESN&#39;T MAKE ANY SENSE in the first place.  In the grand scheme of things, the amount of people being shot is SMALL, and most of them LIVE anyway.  Focus on something that actually MATTERS, instead of gun-related deaths.    <br />
+<br />
+We know that of the few gun-related deaths we DO have, most cannot be stopped with gun control.  Because most of those deaths are suicides, and anyone who wanted to kill themselves always did just fine before guns were even an option.  People today have even MORE non-gun suicide options than they did before guns came around, not fewer.  <br />
+<br />
+We know that of the tiny number of gun-related homicides we DO have, most cannot be stopped with gun control.  Making permits and registrations more difficult to acquire won&#39;t help, these people already aren&#39;t bothering to get them.  Making the guns more difficult to purchase legally won&#39;t help, these people have the contacts to purchase them illegally instead, not to mention that they steal things like it&#39;s their job (Wait, maybe it is their job!)  <br />
+<br />
+We also know that of the tiny number of gun-related homicides we DO have, most cannot be stopped with bans against submachine guns/assault rifles/etc, because these aren&#39;t the weapons actually being used in the killings.  <br />
+<br />
+Add up all of this knowledge, and a healthy percentage of the last 50 posts in this thread become irrelevant.  They are posts talking about things that aren&#39;t worth talking about.  The people making those posts should take that energy and do something worthwhile with it instead.  <br />
+<br />
+After all, even after James Holmes and Adam Lanza, polls still continue to show that more Americans think it is more important to protect gun rights than to tighten gun regulations.  Thank goodness this is one thing where the majority of people actually ARE being rational.        <br><BR><font size=1>05:29 12-23-2012</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Al Gore </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Al Gore '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">What a waste of bullets and emissions. Carbon scoring and damage from the manufacture of weapons and ammunitions is killing our planet. <br><BR><font size=1>04:06 12-23-2012</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Doing some recreational shooting with some fully automatics... I think we went through like $400 worth of bullets...<br />
+<br />
+<a href="http://s144.beta.photobucket.com/user/don527/media/DSC01306_zps1cd9fb3c.jpg.html" target="_blank"><img src="http://i144.photobucket.com/albums/r191/don527/DSC01306_zps1cd9fb3c.jpg" border="0" alt="Photobucket"/></a><br />
+<br />
+<a href="http://s144.beta.photobucket.com/user/don527/media/DSC01274_zps840cd2d8.jpg.html" target="_blank"><img src="http://i144.photobucket.com/albums/r191/don527/DSC01274_zps840cd2d8.jpg" border="0" alt="Photobucket"/></a><br />
+<br />
+<a href="http://s144.beta.photobucket.com/user/don527/media/DSC01272_zps39bef37e.jpg.html" target="_blank"><img src="http://i144.photobucket.com/albums/r191/don527/DSC01272_zps39bef37e.jpg" border="0" alt="Photobucket"/></a><br />
+ <br><BR><font size=1>00:10 12-23-2012</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><a href="http://s144.beta.photobucket.com/user/don527/media/DSCN4385_2.jpg.html" target="_blank"><img src="http://i144.photobucket.com/albums/r191/don527/DSCN4385_2.jpg" border="0" alt="Photobucket"/></a> <br><BR><font size=1>23:56 12-22-2012</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Don </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Don '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I like to shoot my guns for recreation. I will use them for protection but hope I will only have to use them for fun.<br />
+<br />
+[IMG]http://i144.photobucket.com/albums/r191/don527/DSCN4385_2.jpg[/IMG] <br><BR><font size=1>23:56 12-22-2012</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">replace stupid with sheltered. <br><BR><font size=1>23:40 12-22-2012</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Phil78 </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Phil78 '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">"guns are for recreation"<br />
+<br />
+if you trully believe that hunter you&#39;re a hell of a lot more stupid than i thought you were. <br><BR><font size=1>23:38 12-22-2012</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=5783><input type='Submit'  value=' Show all Posts '></form><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=5783><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/swtcg/main/join.php'> become a registered member</a></font></font></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script>
+<!-- advertising code -->
+<!-- Kontera ContentLink(TM);-->
+<!--
+<script type='text/javascript'>
+var dc_AdLinkColor = 'blue' ; 
+var dc_PublisherID = 157626 ; 
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'>
+</script>
+-->
+<!-- rumors board code end -->
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+      </table>
+      <!-- #EndEditable --></td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"> 
+      <p align="center" class="legal"><span class="legal"><span class="legal"><span class="legal"><br>
+        Legal- TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and related 
+        marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher Inc. Decipher, 
+        Customizable Card Game, The Art of Great Games and associated marks and 
+        intellectual property are exclusively owned by Decipher Inc. All Rights 
+        Reserved. THIS Web Site IS NOT PRODUCED OR ENDORSED BY DECIPHER, INC OR 
+        LUCASFILM LTD OR PARAMOUNT PICTURES. STAR TREK. </span></span></span> 
+        <span class="legal"><span class="legal"><br>
+        <span class="legal"> TM & © 2002 www.decktech.net. All Rights Reserved. 
+        </span></span></span><br>
+        <br>
+      </p>
+      </td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+</body>
+<!-- #EndTemplate --></html>

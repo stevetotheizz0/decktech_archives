@@ -1,0 +1,428 @@
+ 
+<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
+<head>
+<title>DeckTech - for the players, by the players.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/swccg/global/css/white.css">
+<!-- #BeginEditable "Style" --> 
+<style type="text/css">
+<!--
+.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
+.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
+.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
+.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
+.centercolor {  background-color: #313063}
+-->
+</style>
+<!-- #EndEditable -->
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE -->
+<script language="JavaScript">
+<!-- /* © 1997-1999 BURST! Media, LLC. All Rights Reserved.*/
+var TheAdcode = 'ad8702a';
+var bN = navigator.appName;
+var bV = parseInt(navigator.appVersion);
+var base='http://www.burstnet.com/';
+var Tv='';
+var agt=navigator.userAgent.toLowerCase();
+if (bV>=4)
+  {ts=window.location.pathname+window.location.search;
+   i=0; Tv=0; while (i< ts.length)
+      { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+   if( Tv.charAt(0)!='/' ) Tv="/"+Tv;
+          else if (Tv.charAt(1)=="/")Tv="";
+  if( Tv.charAt(Tv.length-1) == "/")
+    Tv = Tv + "_";}
+if (bN=='Netscape'){ 
+     if ((bV>=4)&&(agt.indexOf("mac")==-1))
+{  document.write('<s'+'cript src="'+ 
+      base+'cgi-bin/ads/'+TheAdcode+'.cgi/RETURN-CODE/JS' 
+      +Tv+'">'); 
+     document.write('</'+'script>');    } 
+     else if (bV>=3) {document.write('<'+'a href="'+base+'ads/'+ 
+        TheAdcode+'-map.cgi'+Tv+'"target=_top>'); 
+        document.write('<img src="' + base + 'cgi-bin/ads/' + 
+        TheAdcode + '.cgi' + Tv + '" ismap width="468" height="60"' + 
+        ' border="0" alt="Click Here"></a>');} 
+ } 
+if (bN=='Microsoft Internet Explorer') 
+ document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'+ 
+  TheAdcode + '.cgi' + Tv + '/RETURN-CODE" width="468" height="60"' + 
+  'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' + 
+  'frameborder="0" scrolling="no"></ifr'+'ame>'); 
+// --> 
+</script> 
+<noscript><a href="http://www.burstnet.com/ads/ad8702a-map.cgi" target="_top"> 
+<img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi" 
+ width="468" height="60" border="0" alt="Click Here"></a> 
+</noscript> 
+<!-- END BURST CODE -->
+<!-- #EndLibraryItem --></td>
+    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
+      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
+    <td valign="top" class="centercolor" rowspan="2" > 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
+          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
+          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
+        </tr>
+        <tr> 
+          <td colspan="2"><!-- #BeginEditable "Body" --> 
+            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
+              <tr> 
+                <td bgcolor="#333366" height="12" valign="top" width="44%"><img src="/swccg/global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
+                <td bgcolor="#333366" align="right" valign="top" height="12" width="48%"><img src="/swccg/global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr> 
+                <td height="622" valign="top" colspan="2" bgcolor="#333366"><table width="100%" border="0" cellpadding="4"><tr bgcolor="#000000"><td><font color="#FFFFFF"><font face="Haettenschweiler, Tahoma, Arial" size="6">Silent Onslaught v.2.0</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC="../images/dd8.GIF" BORDER=0><A HREF="lightread.php3?deck=14168"><IMG SRC="../images/ldread.GIF" BORDER=0></A><A HREF="lightreview.php3?deck=14168"><IMG SRC="../images/ldreview.GIF" BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="../../membercenter/directory/memberpage.php3?member=4218">Mason "Palleon" Johnson</A></FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Description</Font></TD><TD><font face="Arial, sans-serif" size="2">Beatdown deck that uses the MWYHL Platform for a nasty suprise for the opponent.</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Date Created</Font></TD><TD><font face="Arial, sans-serif" size='2'>March 1, 2001</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Cards</Font></TD><TD><font face="Arial, sans-serif" size="2">Objective (1) <br>
+Mind What You Have Learned / Save You It Can <br>
+<br>
+Starships (6) <br>
+Home One <br>
+Liberty <br>
+Millennium Falcon x2 <br>
+Outrider <br>
+Spiral <br>
+<br>
+<br>
+Characters (22) <br>
+<br>
+Luke Skywalker, Jedi Knight x3 <br>
+Obi-wan Kenobi x2 <br>
+Han With Heavy Blaster Pistol x2 <br>
+Lando With Vibro-Ax x2 <br>
+Leia With Blaster Rifle x2 <br>
+Chewbacca, Protector <br>
+Corran Horn <br>
+Dash Rendar <br>
+Lt. Blount <br>
+Major Haash’n <br>
+Orrimaarko <br>
+Owen Lars &amp; Beru Lars <br>
+Tawss Khaa <br>
+Tycho Celchu <br>
+Wedge Antilles, Red Squadron Leader <br>
+Yoda <br>
+<br>
+Weapons (2) <br>
+Anakin’s Lightsaber <br>
+Luke’s Lightsaber <br>
+<br>
+Effects (6) <br>
+Bacta Tank (Foil) <br>
+Insurrection <br>
+Order To Engage <br>
+Staging Areas <br>
+Menace Fades <br>
+Squadron Assignments <br>
+<br>
+Interrupts (16) <br>
+<br>
+Jedi Presense x2 <br>
+Fallen Portal x2 <br>
+Courage of a Skywalker <br>
+Gift Of The Mentor <br>
+Heading For The Medical Frigate <br>
+I Know <br>
+Out Of Commission &amp; Transmission Terminated <br>
+Punch it! <br>
+Run Luke, Run <br>
+Smoke Screen <br>
+The Signal x2 <br>
+Weapon Levitation x2 <br>
+<br>
+Locations(7): <br>
+Dagobah <br>
+Dagobah: Yoda’s Hut <br>
+Kessel <br>
+Spaceport Docking Bay <br>
+Tatooine: Docking Bay 94 <br>
+Endor: Landing Platform <br>
+Cloud City: Docking Bay <br>
+<br>
+ </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Strategy</Font></TD><TD><font face="Arial, sans-serif" size="2">Did you see that piece of @#$% with his great MWYHL deck, it is a total copy of this deck which I built, so don&#146;t give him good reviews for copying my deck + Strategy. @@@@@@@@@@@@@@@@@ ???????????????????????????????????????<br>
+<br>
+Card by Card: <br>
+<br>
+Mind What You Have Learned / Save You It Can: <br>
+<br>
+Great objective, gives you good starting activation and allows you to Pull Yoda to lay down at His Hut to subtract from opponents attrition. It suprises your opponet because thye begin to prepare for combatting training, and when there not ready you hit them with a beatdown. Sweet card for this type of deck. <br>
+<br>
+Home One: Great for Battles in space and draining at Kessel, very hard to kill if it has a couple pilots. How can you not like the flagship of the rebel fleet. It’s got immunity to attrition + ability four + Power Nine. Add to pilots and Home One is turned into a tool of destrouction to rid you of those nucances. Zuckuss in Mist Hunter, Exector, Drednaughts, Etc. I love this ship. <br>
+<br>
+Liberty: Another great ship to combat endor ops and ties. It can’t be lost if it dies in a battle so it just keeps coming back. If you lose Home One this ship can almost do the job of Home One if you play smart. It’s a frueckin Star Cruiser it <br>
+got to be good. Another great ship. <br>
+<br>
+Millenium Falcon x2: Awesome ship it can destory an entire space fleet if it is played right after all it is the semi-super falcon. With Han, Leia, and a Punch it this ship can even take out Thrawn on the Chimera. A light side deck is not complete without the falcon. <br>
+<br>
+Outrider: Gret Ability to Reduce Power + a Very solid ship good power, Manuver, and Hyperspeed. Can destroy executor on its own. Can be used with Punch it!, and can help hold kessel. Great Vs. space decks. The Rebels don’t need that many ships to to take out the Imperial Fleet, after all remember what happened at the battle of Endor, Death Star, Etc. <br>
+<br>
+Spiral: Strong ship + great reacting ability for cheap deploy. Good forfiet, Power ratio. Can add a little punch to any assult and with a little backup can hold kessel if you lose a couple of your other great ships. Cool name too. <br>
+<br>
+Luke Skywalker, Jedi Knight x3: The best character the rebels have to offer. 6 power and 6 Ability. When armed with his saber he can hold a site all by himself. Great with Jedi Presense, Weapon Lev, Courage, Gift of the Mentor, Etc. Total utility character involved in almost every strategy great for killing imperial and is a pilot to boot. Imagine Luke, Chewie, and Obi come down. You play a Jedi Presnse on Obi and A Gift of the Menotor. This alone could end a game against a weak opponent. You could have about 40 power 5-15 attrition and a cancel of an opponets characters game text. With even more charcters or trick I would just rmember the true power fo the force. <br>
+<br>
+Obi-wan Kenobi x2: Great character for beatdowns, holding sites, Gift of the Mentor, and Jedi presense. Watch for him being dueled, but thats o.k you dont need him to win the game. If needed you can use courage. Great power and ability. Another one of the great power mains for th elight side. <br>
+<br>
+Han with Heavy Blaster Pistol x2: Works great on the falcon, great for battling and had a built in weapon to go along with him. Gret to use on the ground for beatdowns using I Know for added destiny’s. His game text also. Give Chewie a buddy and is a great character. Hey he did save the galaxy and all! <br>
+<br>
+Lando with Vibro-ax x2: This guy rocks with a tracked destoiny can exclude Mara, Snoova, Xizor, Tarkin, Etc. Great for holding a site, draing, and beatdwons. He’s a spy so he can infilrtrae the opponets sites and bring a beatdown with him. Lando after all did Destroy the Death Star II right. <br>
+<br>
+Chewbacca, Protector: O.k pilot + He’s a monster on the ground if you have two Jedi Presnese’s and Luke and Obi at the site. Imagine chewie battling at power 24. Great game text and good with leia for cheap deploy. Has armor and he did give his life for his friends. Poor Chewie, but he’s alive now to Kick some imperials in the A$$. <br>
+<br>
+Corran Horn: Great Pilot and He Almost illiminates the threat of Spies. Ability four, he’s an all around great charcter that should be in almost every light side deck. Characters are i fact the key to winning the game. + he gets added power when adainst a hunter or spy. Very good because of Mara, Snoova, Etc. He he’s got to be good he worked for CorSec and he’s on rouge squadron. <br>
+<br>
+Dash Rendar: Great pilot for Outrider, which is pretty much his main use. Good for a character on the ground if you are running low + he’s han’s good buddy. He did destoy Xizor’s battle sation after all. Very nice chacter. <br>
+<br>
+Lt. Blount: Flips ISB, and is a great spy. Apilot and can be used for fodden in battles. Nothing to detailied just plain old usefullness. Revenge of the 2-2 characters. <br>
+<br>
+Major Hassh’n: Great pilot for Home One or Liberty, cancels Lateral Damage and can be used as fodder if needed. Mon Calimari Rock! + He’s a 2-2 used wiht Insurrection. <br>
+<br>
+Orrimarko: Prune Face is great he’s a scout and he is a monster in battle, used with Jedi presense + makes your opponent lose two additional force if you win a battle against an imperial. hey he’s 4 power 4 Ability he’s got to be good. A bolt in the key to character supermecy. <br>
+<br>
+Owen Lars & Beru Lars: Good destiny and a very soild character, they give a little tech wiht luke and a combo card. Grat for battling and Draining. Raised Luke to become the Jedi Knight he is today. <br>
+<br>
+Tawass Khaa: This guy adds a little retival to your deck if you predict right another solid power character to hold sites or battle. Can’t be used wuth Jedi presense, but is still a great characte + He’s got a cool name. <br>
+<br>
+Tycho Celchu: Spy, Pilot, 2-2, Great, Yes!!! <br>
+<br>
+Wedge Antillies, RSL: Great guy fir battling on the gorund + he’s a very good pilot. Can be used for fodder or Jedi Presense. Imagine wedge battling at 12 power. Ha Ha Ha!!!. + he’s got to be good if he helped blow up both desth star’s and he’s leader of rouge squadron. <br>
+<br>
+Anakin’s Lightsaber: Adds to Drains can be used on Leia or Luke. Chop Chop!!! <br>
+<br>
+Luke’s Lightsaber: Luke’s saber + he is a monster with it. SLices and Dices!!! <br>
+<br>
+Bacta Tank: Saves your mains if you happen to lose them, which isint very likely, but can happen Vs. battling decks. Keeps 2-5 carads out of your lost pile. Just like rerival. <br>
+<br>
+Insurrection: Pulls your bay’s, Retricts Elis, and adds forfiet to your 2-2’s. great card and I start it. <br>
+<br>
+Order to Engage: Great Vs. Ties, tech to make opponet lose force, can be a game winner. <br>
+<br>
+Staging Areas: Gives you excellent activation to deploy your mains. Great when combined with Insurrection, but otherwise just an extememly solid card + Starting Effect. <br>
+<br>
+Menace Fades: Cancels opponents force drain bonuses. Nothing complicated just raw drain modifier cancellation + Cool Picture and Name. Bye Bye Executor. <br>
+<br>
+Squadron Assignments: Pulls your Ship-Pilot combo’s. Dash+Outrider and Falcon+Han. Very solid card. <br>
+<br>
+Jedi Presense x2: This card is a reincarnation of GOD!!! It can win you the intire game in a second. Combo: Luke, Han, Chewie, Obi= INstant death for the imperials. power 40+. I love this card. It has won me many a game when I droppen a small crew and my opponent thought they were safe until I doubled my power. <br>
+<br>
+Fallen Portal x2: If the try to beat you down bring the door the door down and kill off one or two of their big characters. Just another one of those game winners. You track and you’ve got lando and luke at a site attacked by Darth Vader, Mara Jade, and Grand Moff Tarkin. Portal smashes vader=no canceled destiny. Then Lando Excludes MAra and all you have left is Tarkin against Lando and Luke. Play a Jedi Presense and Your opponent has 4 power and no destiny and you have 14 power and one destiny. Thhey lose about 10-15 force in one battle. <br>
+<br>
+Courage of a Skywalker: Duel defense + a Great Combo with Jedi Presense. Adds to lukes power when you play presense on obi luke becomes a fruckin Titan. Great card. <br>
+<br>
+Gift Of The Mentor: Add two destinies great for winning battles and eliminating their characters with your massive attrition. Or grap a saber. Destiny 5. Great Card. <br>
+<br>
+Heading For The Medical Frigate: Starts your effects. Great Card. Nothign Complicated just your starting interrupt. <br>
+<br>
+I Know: Add your destinys abord the falcon or on the ground a destiny 5 and is just another great card. <br>
+<br>
+Out Of Commission & Transmission Terminated: Cancel Visage or place a card out of play + Destiny 5. <br>
+<br>
+Punch It!: Wrecks your opponet in space with your added destinies and is a destiny 5. <br>
+<br>
+Run Luke, Run: Have luke come over to add a nice suprise for your opponent in a battle or cancel Vader’s Obsession + a destiny 6. <br>
+<br>
+Smoke Screen: No tracking needed just play this and you get an automatic high destiny. <br>
+<br>
+The Signal x2: Grap the effects you need + they are destiny five. Great card for qucik set up and Tracking. <br>
+<br>
+Weapon Levitation x2: Grab yourself a weapon or grab your opponents weapon. Great Vs. Dueling, BHBM, Etc. <br>
+<br>
+Dagobah <br>
+Dagobah: Yoda’s Hut <br>
+Kessel <br>
+Spaceport Docking Bay <br>
+Tatooine: Docking Bay 94 <br>
+Endor: Landing Platform <br>
+Cloud City: Docking Bay: <br>
+<br>
+For Moving around Activation, Draining, Battling, and Winning. The Best Location money can buy$$$$. <br>
+<br>
+Starting: You starting can depend on what youa re playing Usually Insurrection, Staging Areas, and Squadrin Assignment, but you can also start Menace Fades Vs. Endor Operation and Dark Deal. Not much varation, btu these effects are very solid against any opponent. <br>
+<br>
+Matchups: <br>
+<br>
+Hunt Down: Drain where you can and let them come to you then hit thme with all of your tricks Weapon lev, Jedi Presense, Fallen Portal, Etc. Cancel Visage with your spies or TT. If they go to space use your massive destknys to destory them in space. Keep on draining and battling and useing your duel defense and this came can be won if played right. <br>
+<br>
+BHBM: Suicide with a few mains early mainly luke and drain as much as possible. Give Luke up alter in the game and let them try to Cross luke, because they won’t win enough battles Vs. your mains. IF they come to Space Wipe them out (all of them) with your huge destinies. <br>
+<br>
+TDIGWATT: Use menace fades to make dark deal useless and they come down and battle them off their own sites. Then drain. These decks aren’t very popular and if you play right you can win fairly easy. <br>
+<br>
+Ties: Use order to engage + Drains on the ground set up huge beatdown to win the game in space. IF they come to the ground destoy them. Ties isn’t very popular in my area, but still better be ready. <br>
+<br>
+Endor Ops: Use menace Fades to cancel their force drain bounuses and beat them down on the gorund and in space. Drain them at your sites and if you set up right you cna win. <br>
+<br>
+Thanks very Much for Reading and Reviewing. <br>
+<br>
+I have been searching for a great deck and I have found it. <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="lightdecks.php3"><img src="../images/ldback.GIF" border="0"></a><A HREF="lightread.php3?deck=14168"><IMG SRC="../images/ldread.GIF" BORDER=0></A><A HREF="lightreview.php3?deck=14168"><IMG SRC="../images/ldreview.GIF" BORDER=0></A><a href="deckprint.php3?deck=14168" TARGET="BLANK_"><img src="../images/ldprint.GIF"  border="0"></a></FONT></TD></TR></TABLE> </td>
+              </tr>
+            </table>
+            <!-- #EndEditable --></td>
+        </tr>
+      </table>
+    </td>
+    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
+      <table border="0" cellspacing="0" cellpadding="0" width="150">
+        <tr align="right" valign="top"> 
+          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
+          <td width="154" valign="top" align="right"> 
+            <table width="154" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF">&nbsp; </td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF"> 
+                  <script language="JavaScript">
+
+function logout() {
+var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
+document.cookie = cookie;
+window.location = "../index.php3";
+	}
+
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+
+</script>
+                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
+<select name="select1" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="/swccg/resources/rulings.php3">Current Rulings</option>
+<option value="/swccg/main/decktech.php3">About DeckTech</option>
+<option value="/swccg/membercenter/directory.php3">Member Directory</option>
+</select>
+</form><BR>
+<!-- #EndLibraryItem --> </td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
+                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
+                  Center</a></font> <br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
+                  Reports </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
+                  Resources</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
+          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/decks.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/index.php3" class="level2nav">Decks 
+      Home</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/dark/darkdecks.php3" class="level2nav">Dark 
+      Decks</a><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/light/lightdecks.php3" class="level2nav">Light 
+      Decks</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
+          <td width="155" valign="top" height="13"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr align="left" valign="top" bgcolor="#630063"> 
+                <td width="154">
+<center>
+<a href="http://www.freebieclub.com/FC_myFreebies.asp?a=26049" target=blank>
+<img src="/swccg/global/includes/125.gif" border="0" width="125" height="125"></a></center>
+<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
+                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" --><table width="100%" border="0" cellspacing="0" cellpadding="4">
+  <tr bgcolor="#000000"> 
+    <td><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Latest News 
+      </font></b></font></td>
+  </tr>
+  <tr> 
+    <td> <p><font face="Arial, Helvetica, sans-serif" size="2"><a href=/dpc/news/fantasy_winners.php>Announcing: The Fantasy DeckTech Players&#146; Challenge Winners</a></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Thu, March 1, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR><p><font face="Arial, Helvetica, sans-serif" size="2"><a href=/dpc/news/coverage.php>Round by Round Web Coverage of the first DPC Open</a></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Wed, February 21, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR><p><font face="Arial, Helvetica, sans-serif" size="2"><A href=/dpc/news/normal_schedule.php>The DPC Normal: Schedule of Events</A></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Tue, February 20, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR> <a href="/swccg/main/news.php3"><font face="Arial, Helvetica, sans-serif" size="1"><br>
+      more news</font></a> </td>
+  </tr>
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
+      Updates</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><a href='/swccg/resources/tjpage.php3'><font face='Arial, sans-serif' size='2'>Tj Holman</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-08</font><BR><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-13</font><BR><a href='  /swccg/resources/terwilligerpage.php3'><font face='Arial, sans-serif' size='2'>Brian Terwilliger</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-03</font><BR></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
+      Tips</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><p><font face='arial' size='2' color='#ffffff'>Use the Quick Jump box to jump straight to your member page.</font></td>
+  </tr>
+</table><!-- #EndLibraryItem --></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

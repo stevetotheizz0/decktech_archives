@@ -1,0 +1,473 @@
+<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
+<head>
+<title>DeckTech - for the players, by the players.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/swccg/global/css/white.css">
+<!-- #BeginEditable "Style" --> 
+<style type="text/css">
+<!--
+.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
+.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
+.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
+.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
+.centercolor {  background-color: #313063}
+-->
+</style>
+<!-- #EndEditable -->
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" -->
+
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>
+
+<!-- END BURST CODE -->
+ <!-- #EndLibraryItem --></td>
+    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
+      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
+    <td valign="top" class="centercolor" rowspan="2" > 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
+          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
+          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
+        </tr>
+        <tr> 
+          <td colspan="2"><!-- #BeginEditable "Body" --> 
+            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
+              <tr> 
+                <td bgcolor="#333366" height="12" valign="top" width="44%"><img src="/swccg/global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
+                <td bgcolor="#333366" align="right" valign="top" height="12" width="48%"><img src="/swccg/global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr> 
+                <td height="622" valign="top" colspan="2" bgcolor="#333366"><table width="100%" border="0" cellpadding="4"><tr bgcolor="#000000"><td><font color="#FFFFFF"><font face="Haettenschweiler, Tahoma, Arial" size="6">An ORIGINAL ISB Strategy</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC="../images/dd9.GIF" BORDER=0><A HREF="darkread.php3?deck=20537"><IMG SRC="../images/ldread.GIF" BORDER=0></A><A HREF="darkreview.php3?deck=20537"><IMG SRC="../images/ldreview.GIF" BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="../../membercenter/directory/memberpage.php3?member=6728">Reggie "Harkov" Martin</A></FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Description</Font></TD><TD><font face="Arial, sans-serif" size="2">This deck utilizes a combination of cards for a ridiculously quick (and powerful) one-turn beatdown.</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Date Created</Font></TD><TD><font face="Arial, sans-serif" size='2'>January 9, 2002</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Cards</Font></TD><TD><font face="Arial, sans-serif" size="2">Starting (7):<br>
+ISB Operations/The Empire&amp;#8217;s Sinister Agents<br>
+Fear Is My Ally<br>
+Prepared Defenses<br>
+Imperial Decree<br>
+Mobilization Points<br>
+Begin Landing Your Troops<br>
+Coruscant<br>
+<br>
+Locations (4):<br>
+Hoth<br>
+Hoth: Defensive Perimeter <br>
+Hoth: Echo Docking Bay<br>
+Carida<br>
+<br>
+Characters (18):<br>
+Darth Vader<br>
+Darth Vader, Dark Lord Of The Sith<br>
+Darth Maul With Double-Bladed Lightsaber<br>
+Darth Sidious<br>
+Mara Jade, The Emperor&amp;#8217;s Hand<br>
+Sergeant Tarl<br>
+Snowtrooper Officer x3<br>
+Lieutenant Renz<br>
+Corporal Oberk<br>
+Admiral Ozzel<br>
+J&amp;#8217;Quille<br>
+Commander Merrejk<br>
+Stormtrooper Cadet x2<br>
+2X-7KPR x2<br>
+<br>
+Starships (4):<br>
+Devestator<br>
+Bossk In Bus<br>
+Zuck In Truck x2<br>
+<br>
+Weapons (2):<br>
+Vader&amp;#8217;s Lightsaber<br>
+Mara Jade&amp;#8217;s Lightsaber<br>
+<br>
+Interrupts (18):<br>
+Dark Jedi Presence x3<br>
+Trooper Assault x3<br>
+Elis Helrot x2<br>
+Nemodian Advisor x2<br>
+Twi&amp;#8217;lek Advisor<br>
+Stunning Leader<br>
+Sense x2<br>
+Ghhhk/Those Rebels Won&amp;#8217;t Escape Us<br>
+Sense/Uncertain Is The Future<br>
+Alter<br>
+Control/Set For Stun<br>
+<br>
+Effects (7):<br>
+Battle Order/First Strike<br>
+Sunsdown x3<br>
+Lateral Damage<br>
+Strategic Reserves<br>
+Reactor Terminal<br>
+<br>
+Shields:<br>
+Oppressive Enforcement<br>
+Come Back Here You Big Coward<br>
+Grabber<br>
+Secret Plans<br>
+Resistance<br>
+Anti-Podrace<br>
+A Useless Gesture<br>
+Wipe Them Out, All Of Them<br>
+Battle Order<br>
+Whatever else I use I can&#146;t even remember who cares :-P<br>
+ </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Strategy</Font></TD><TD><font face="Arial, sans-serif" size="2"><Notes> <br>
+ <br>
+ nice deck but i saw this posted by a guy who finished like 2nd or 3rd at texas states a while back  <br>
+  swccguy <br>
+<br>
+I say my deck is &#8221;original&#8221; because I thought out the strategy and tactics myself, rather than conforming to some orthodox decktype. If someone else from mine has a deck like this it is purely coincicental, I&#8217;ve been playing the base cards in this deck for over two years now.<br>
+<br>
+I only have 2 problems with the deck. <br>
+1) Lack of activation. <br>
+2) The tags. <br>
+<br>
+If you can improve the activation, it will be a great deck. But, since you have low activation, it means you will have to wait and save for those &#8221;quick&#8221; and &#8221;powerful&#8221; beat-downs. And by this point, its not &#8221;quick&#8221; anymore, and opponent might have some &#8221;counter&#8221; cards to your &#8221;powerful&#8221; beat-down, so your beat downs are now lacking the &#8221;quick&#8221; and the &#8221;powerful&#8221;. <br>
+Rypcord<br>
+<br>
+Yeah, sure Ryp. Considering that I activate a decent 7 base, 14 max on my own, and that free deploy kinda makes my strategy immune to force choke, and that QMC, WYS, combat etc. are hardly force choke decks anyway, I consider &#146;my lack of activation&#146; a rather insipid thing to note.<br>
+The only good &#146;counter&#146; cards to my deck are houjix and ones immune to sense, and the only real counter to SAC is SAC itself. <br>
+If you wanna play grimtaash x2, houjix/OON x3, and sense x6 just to beat me, be my guest.<br>
+<br>
+<Strategy><br>
+Beginning:<br>
+Pull Carida first thing to avoid tounge-pulling shield. Activate and slap down the Hoth DB. Deploy any locations and play any advisors to pull what you need. If they are going for very early drains you can slow them down with Battle Order shield, else wait to pull the combo card. Draw alot of cards, save 1 for the grabber if you don&#8217;t think you will need 3 other shields.<br>
+<br>
+Middle:<br>
+Keep drawing cards. Depending on what your opponent does, you can either sit on a Hoth site and drain or keep your army in your hand. It really doesn&#8217;t matter too much since you can slap down 90% of your forces in one turn. If they offer an opportunity for a beatdown, take it, but only if you think you can deal significant damage or at least totally clear the site; if not, draw more cards until you have enough troopers in hand and then attack.<br>
+<br>
+End:<br>
+Well, if you haven&#8217;t surprised your opponent with the fastest beatdown they&#8217;ve ever seen yet, you can always go for drains on Hoth. Flip the objective (the easiest way is to put an agent on both Hoth sites) and drain. Control 2 Hoth locations and their bonuses are canceled. Alternatively, you can sit somewhere on their planet to make all their drains -1. Harrass them in space with Zuckuss + Lateral Damage. You should win.<br>
+<br>
+<br>
+Here&#8217;s a rather humorous example of a gameplay situation that is kinda close to what actually happens:<br>
+<br>
+The snowtroopers are isb agents (spies deploy free to nighttime conditions). The Stormtrooper cadets deploy free wherever you have a leader or trooper, which is always, plus they add one to power of a garrison or snowtrooper.<br>
+The troopers, lieutenant renz, and mara jade are all power 12 deploy for free in ideal conditions. That&#8217;s right, Mara Jade for free!<br>
+J&#8217;Quille is a spy; he excludes chewie. <br>
+&#8217;Gameplay example&#8217;:<br>
+<br>
+Opponent deploys to the Cantina: QuiGon with saber, EPP Han, EPP Leia, Mad Chewie, and pays for chewie&#8217;s upkeep for a ridiculous 23 force (how he does this I don&#8217;t know lets pretend he can). <br>
+<br>
+I decide I want to attack him. <br>
+6 force for DVDLOTS, 2 for 2X7KPR, deploy sunsdown to Tatooine (lets say they are playing WYS and &#8217;forgot&#8217; that leia etc are deploy +8) <br>
+Now deploy Mara Jade, J&#8217;Quille, 2 snowtrooper officers, Lieutenant Renz, Corporal Oberk, Stormtrooper Cadet x2, Sergeant Tarl, and Admiral Ozzel all FOR FREE! <br>
+Battle for 1, play trooper assault, use 1 for presence. <br>
+<br>
+Your base power (for a total 10 force) is 120 (!!!) <br>
+<br>
+If they have high attrition because of destiny adders forfiet the cadet, end of game (unless they have houjix in hand, for which I play first strike hoping to catch them with no force). <br>
+That&#8217;s assuming you didn&#8217;t sense all his cards and he actually saved the force to play them for First Strike. If they didn&#8217;t, more for me!<br>
+<br>
+<br>
+The SAC is to make sure my power cards get through and that they don&#8217;t do anything fishy. To use a cliche: &#8221;SAC is ALWAYS back!&#8221;<br>
+<br>
+Elis Helrot is tech. The LS usually does not play Insurrection. Being able to deploy for free on one planet and move to another instantly is game-winning.<br>
+<br>
+I don&#8217;t rely on Strategic Reserves but since I&#8217;m using 5 non-unique imperials anyway I figured canceling 2 or 3 drains per game justifies the card slot. It is good if I pull it early game to deal with any quick-draining opponent who wants to make me hurt while I draw my monster hand.<br>
+<br>
+Darth Vader is in for sentimental reasons. If I was rich I would probably use DVDLOTS x2 (not lord vader because his higher deploy is not in the spirit of this deck).<br>
+<br>
+The Devestator is in because it is the best ship. I don&#8217;t play Thrawn and I don&#8217;t have room for Imperial Command, and when I attack it is usually with Zuckuss so immunity is pretty worthless to me.<br>
+<br>
+Reactor Terminal helps with differential, helps me track in rare cases when I do, but mostly helps me put cards back when my hand gets too big, since that is my style.<br>
+<br>
+<br>
+Matchups:<br>
+<br>
+VS QMC: You can&#8217;t use the droid on CC cuz it isn&#8217;t a planet site but the basic strategy of surprise ligntning beatdown is the same. Power 8 characters for free are still formidible. Either attack suddenly or drain a few turns on Hoth and move in via Elis Helrot. Sense any pathetic attempt to escape like Path or Dash. Remember that Stunning Leader is potentially lethal.<br>
+<br>
+VS RST: Assault them in the bunker. Stunning Leader works, they give you the system, the droid works. If they are really quick or you don&#8217;t draw the right cards you could always deploy a character to the bunker and play Ghhhk to delay them one turn. Be prepared to grab and sense Throw Me Another Charge as it cancels Presence and Trooper Assault. Stay focused and you should win.<br>
+<br>
+VS Profit: I consider this deck completely weaker to RST. Hopefully they will provide you with the Tatooine system. If not, Elis in, they rarely play Insurrection. If they do you will have to move in during the move phase. Take over their best site, make their drains -1. Remember to play CBHYBC/Secret Plans shields. Should win.<br>
+<br>
+VS Combat: They will probably go for early drains with a jedi or two. It might be tempting to attack, but take damage and wait until you have all the tools you need to make an effective attack. It may be best to save force to attack with TWO dark jedi at once. Again, Elis is your best card. Beat them down at one site, make their drains -1, you should win. If all else fails try to outdrain them on Hoth. Imperial Decree cancels their bonuses.<br>
+<br>
+VS the new Naboo Throne Room Objective: They give you the system, kill them at the throne room. Simple. Don&#8217;t even try to argue that they have a chance, cuz this objective doesn&#8217;t.<br>
+<br>
+VS WYS: With RST this is in my opinion the strongest LS objective. Chewie Enraged + EPP Han + Life Debt is a devestating combo that must be watched for at all times. Try to sense or alter anything you can before they flip. Immediately deploy the anti-wys shield. Choking Chewie with DVDLOTS is one way to deal with the combo. In space, beatdown with Zuckuss + another ship + lateral damage + ozzel if possible. Run away if necessary. Cancel Kessel&#8217;s bonus with Decree. Keep Ghhhk/TRWEU in hand to cancel a react. Try to get both stormtrooper cadets in hand to deal with attrition. Above all beat them down in the Cantina if possible! Your greatest asset vs WYS is surprise. Luckily they supply you with Tatooine system for Sunsdown. Considering that they probably think you are some weird ISB space/walker garrison with AT-ATs, a WYS player will probably feel too snug in the Cantina, setting you up for the quick win.<br>
+<br>
+VS EBO Space: Okay now this could be weird. If they are playing EBO space try to cancel drains with Reserves and make sure to kill their bonuses with Decree. You will either have to drain at the North Ridge and shielded Defensive Perimeter or boldly attempt to march into Echo Base to cancel EBO (which I actually did once). It won&#8217;t be pretty. If they play spy Han and/or Boushh you might lose. (No one around here plays them so I have no spy defense. Lt. Pol Tredium is a good option as he is an ISB agent. Double Agent or Sniper/DS are other options). In any case you will have to outdrain him and hope for a zuckuss/lateral damage beatdown.<br>
+<br>
+VS EBO Hidden Mains: Well this would be really difficult especially if they happen to play undercover spies as mentioned above. Hopefully my opponent won&#8217;t realize what he is up against and will blunder. In any case you have a fair chance to win, based on the surprise value of this deck.<br>
+<br>
+VS Hidden Base: Drain early on Hoth. When they flip probe with Zuckuss and someone else until you find it. Ghhhk helps in space. Place their objective out of play. With Imperial Decree, Reserves, and your objective (they are drain -1 at Hoth system if you occupy a related site with an agent) you should outdrain them. If they are idiots beat them down with Smuckuss In Truckuss. Never had too much trouble with HB. Then again, they never used spies on me. If you suspect someone will play spies, again just throw in Lt. Pol and/or SniperDS.<br>
+<br>
+Weaknesses:<br>
+Grimtaash roasts this deck. I play the &#8217;oldschool&#8217; style of drawing many, many cards (that is why I play Traffic Control). Fortunately there is no lightside Crush The Rebellion Evader/Monnock nonsense.<br>
+<br>
+As stated above, LS space/spies could neutralize the advantages of this deck (ground beatdown). But hey no one I know plays that.<br>
+<br>
+<br>
+Oh yeah the other big advantage of this deck is SURPRISE! Who expects sunsdown/superspy commando troopers, ever? The answer is only people who play me. <br>
+<br>
+The surprise yields FUN, which is one of the reasons I still play this game after pulling Darth Vader in a pack back in 1995.<br>
+<br>
+Thanks for the review. Please no single-card suggestion reviews, though. There are alot of cards I am considering I simply don&#8217;t have room for, so I have probably thought of it.<br>
+If anyone wants to comment or play a game my aim sn is &#8221;Harkov Adm&#8221;<br>
+Again thanks,<br>
+Admiral Harkov          </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="darkdecks.php3"><img src="../images/ldback.GIF" border="0"></a><A HREF="darkread.php3?deck=20537"><IMG SRC="../images/ldread.GIF" BORDER=0></A><A HREF="darkreview.php3?deck=20537"><IMG SRC="../images/ldreview.GIF" BORDER=0></A><a href="deckprint.php3?deck=20537" TARGET="BLANK_"><img src="../images/ldprint.GIF"  border="0"></a></FONT></TD></TR></TABLE> </td>
+              </tr>
+            </table>
+            <!-- #EndEditable --></td>
+        </tr>
+      </table>
+    </td>
+    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
+      <table border="0" cellspacing="0" cellpadding="0" width="150">
+        <tr align="right" valign="top"> 
+          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
+          <td width="154" valign="top" align="right"> 
+            <table width="154" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF">&nbsp; </td>
+              </tr>
+              <tr align="center"> 
+                <td bgcolor="#2900FF"> 
+                  <script language="JavaScript">
+
+function logout() {
+var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
+document.cookie = cookie;
+window.location = "../index.php3";
+	}
+
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+
+</script>
+                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
+<select name="select1" onChange="go(this)">
+    <option selected>Quick Jump</option>
+    <option value="/swccg/resources/rulings.php3">Current Rulings</option>
+    <option value="/swccg/main/decktech.php3">About DeckTech</option>
+    <option value="/swccg/membercenter/directory.php3">Member Directory</option>
+    <option value="#">-----------------------------</option>
+    <option value="http://www.decktech.net">decktech.net</option>
+  </select>
+</form><br>
+<!-- #EndLibraryItem --> </td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
+                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
+                  Center</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
+                  Reports </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/treports/index.php3" class="level1nav"></a></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav"></a><a href="/swccg/shop/index.php" class="level1nav">Tech 
+                  Shop </a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
+                  Resources</a></font><br>
+                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
+          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/decks.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/index.php3" class="level2nav">Decks 
+      Home</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/dark/darkdecks.php3" class="level2nav">Dark 
+      Decks</a><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/light/lightdecks.php3" class="level2nav">Light 
+      Decks</a></font><br>
+      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
+          <td width="155" valign="top" height="13"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr align="left" valign="top" bgcolor="#630063"> 
+                <td width="154">
+ <!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --> 
+<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
+                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
+      Updates</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2002-01-12</font><BR></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
+      Tips</font></b></font></td>
+  </tr>
+  <tr> 
+    <td><p><font face='arial' size='2' color='#ffffff'>Trying to find something to do to help promote SW:CCG? Look at our community projects just off the homepage!</font></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
+          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

@@ -1,0 +1,744 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action=""><input type="hidden" name="PHPSESSID" value="e4f75557579e4e2062e23eab9f6159f8" />
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8" class="level1nav">Articles</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/articles/articles.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">All</a> &nbsp;<br>
+
+</div>
+
+
+<a href="/starwarsccg/decks/index.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8" class="level1nav">Reports</a><br>
+
+  <a href="/starwarsccg/academy/index.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 2 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'><b>Star Wars CCG</b><br><a href='/starwarsccg/featured/taylor.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8'>2007-01-23 Scott Lingrell</a><br></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6467&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">Mr. Pistone Interviews Brian Fred</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6468&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">Mr. Pistone Interviews Brian Hunter</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6470&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">Top 10 Things To Know About Virtual Set 12</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6471&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">BCS Rankings - January 2007</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6461&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">Plastoid Armor (v)</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6465&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">February Top 20</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6459&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">Are there any SWCCG players in the Virginia area?</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6462&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">Subway is good aka I like Pizza done RIGHT</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6469&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">Who wants to be a star war millionaire?</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6460&view=2&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8">notes from Thaddeus Chenoweth...</A></font></li><BR></ol> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Articles</td><form method='post' action=''><input type="hidden" name="PHPSESSID" value="e4f75557579e4e2062e23eab9f6159f8" /><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Articles</option><option value='#'> </option><option value='/starwarsccg/articles/index.php3'>Star Wars: CCG</option><option value='/vs/articles/index.php'>Marvel VS</option><option value='/heroclix/articles/articles.php'>HeroClix</option><option value='/lotr/articles/articles.php'>Lord of the Rings</option><option value='/magic/articles/articles.php'>Video Games and Movies</option><option value='/wars/articles/articles.php'>Wizards Minis</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> Who wants to be a star war millionaire?<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(4.11)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=19097'>Dirk "Uber-Obi" Friedrichs</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=19097&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> February 4, 2007</font><p align='justify'><font class="bfont"> I think everyone of you knows this gameshow. Use your 3 Lifelines wisely. You’ll find them right under the 15 questions in the following order: Phone a Friend – Ask the Audience – 50/50. Maybe it’s better that you copy and paste the lifelines in 3 different Word documents or else you might read some of the other answers while scrolling.<br />
+At the end of this article you’ll find the answers to all questions, sometimes with a short explanation. When writing a comment, feel free to say how far you got.<br />
+As always forgive me my bad English!<br />
+Enjoy!!!<br />
+<br />
+Question 1: Which card has the highest printed deploy cost?<br />
+<br />
+A: Home One     B: Executor     C: Flagship Executor     D: Chimaera<br />
+<br />
+You screwed up? You are David Daskal!<br />
+<br />
+<br />
+Question 2: Which character is not an Undercover spy?<br />
+<br />
+A: Princess Leia Organa    B: Arica     C: Keder The Black     D: Tamtel Skreej<br />
+<br />
+You screwed up? Somehow you always manage to take last place at your local tourneys. It’s not your fault, of course, you just had bad matchups, didn’t draw the right cards, destiny draws were too low, mom woke you up too late, etc.<br />
+<br />
+<br />
+Question 3: Which droid was once misprinted with the wrong picture?<br />
+<br />
+A: C-3PO     B: E-3PO     C: K-3PO     D: R-3PO<br />
+<br />
+You screwed up? Once you have seen a star wars:ccg world champion. You have even touched his back (while he was unaware) and didn’t wash your hands for a week. That was a magic moment! You are not sure but it might be true that one second he looked into your eyes and there was a deep feeling of sympathy…<br />
+<br />
+<br />
+Question 4: Which card does not draw a battle destiny “if not able to otherwise”?<br />
+<br />
+A: Prince Xizor     B: Admiral Ackbar     C: Gold Leader In Gold 1     D: Lieutenant Commander Ardan<br />
+<br />
+You screwed up? You’re a noob!<br />
+<br />
+<br />
+Question 5: Which character’s lore says: “Big. Strong. Dumb.”<br />
+<br />
+A: Wookiee     B: Trandoshan     C: Whipid     D: Gamorrean Guard<br />
+<br />
+You screwed up? Somewhere deep inside you know you can do better. Just keep trying!<br />
+<br />
+<br />
+Question 6: Which card from Special Edition (1998) had some spoiler from Episode I: The Phantom Menace (1999) included?<br />
+<br />
+A: Generic Desert     B: Debnoli     C: Ronto     D: B-Wing Attack Fighter<br />
+<br />
+You screwed up? Still a scrub, but there is hope! You have potential. The world is still waiting that you find it.<br />
+<br />
+<br />
+Question 7: How many personas of Leia exist?<br />
+<br />
+A: 8     B: 9     C: 10     D: 11<br />
+<br />
+You screwed up? You play not always smart and your star wars buddies like to play against you – even if that means they have an easy win!<br />
+<br />
+<br />
+Question 8: Which card has a destiny of 7?<br />
+<br />
+A: Aiiii! Aaa! Agggggggggg!     B: NOOOOOOOOOOOO!     C: WHAAAAAAAAOOOOW!     D: Whoooo!<br />
+<br />
+You screwed up? You have won a local! It may be years ago but you still remember the glorious feeling. If only you could make it one more time…<br />
+<br />
+<br />
+Question 9: Which starship has the highest hyperspeed?<br />
+<br />
+A: Mist Hunter     B: TIE Scout     C: Millenium Falcon     D: Queen’s Royal Starship<br />
+<br />
+You screwed up? This is like every tournament: You have a good start and a really good feeling but suddenly everything changes and you are where you always end – somewhere in the middle of the pack!<br />
+<br />
+<br />
+Question 10: Which Han persona is not a smuggler?<br />
+<br />
+A: Han Solo     B: Han     C: Captain Han Solo     D: TK-422<br />
+<br />
+You screwed up? You take this game seriously. You build a lot of decks, read every article, play endless games against yourself and still you didn’t make it higher! Deep inside you know the answer: You lack some skill of playing that cannot be learned but relys more on intuition. And your intuition misguided you more times than you can count of…<br />
+<br />
+<br />
+Question 11: What card type has the fewest cards (not counting virtual cards)?<br />
+<br />
+A: Admiral’s Orders     B: Shields     C: Creatures     D: Objectives<br />
+<br />
+You screwed up? You play smart and your star wars buddies like to play against you – even if that means they lose more games than you!<br />
+<br />
+<br />
+Question 12: How many locations exist without any force icons?<br />
+<br />
+A: 1     B: 2     C: 3     D: 4<br />
+<br />
+You screwed up? On the last tournament you told some new players your name. They answered: “THAT (insert name)?” You grin…<br />
+<br />
+<br />
+Question 13: Which character is pictured most often on all cards combined?<br />
+<br />
+A: Vader     B: Luke     C: Leia     D: Han<br />
+<br />
+You screwed up? You have won some minor tournaments and still dream of the big one, where you make it 1st place and players worldwide speak your name in awe. Well, keep dreamin’…<br />
+<br />
+<br />
+Question 14: How many characters have a permanent weapon (including virtual ones)?<br />
+<br />
+A: 14     B: 16     C: 18     D: 20<br />
+<br />
+You screwed up? You are on Hunter’s Top 20 list! Congratulations!!!<br />
+<br />
+<br />
+Question 15: How many different devices deploy specifically on R-Units/astromechs?<br />
+<br />
+A: 5     B: 6     C: 7     D: 8<br />
+<br />
+You screwed up? You are Brian Hunter!<br />
+<br />
+You answered all 15 questions? And maybe even have some lifelines left? Ok, congratulations, you are our hero! But you spend way too much time with your cards. If you have a girl, you sometimes might get in trouble, but most likely you haven’t one. Rethink your life!!!<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+PHONE A FRIEND – LIFELINE<br />
+<br />
+Question 1: “It’s the Executor, stupid!” (click)<br />
+<br />
+<br />
+<br />
+Question 2: “It’s Leia, of course. Boushh in an Undercover spy, but not this one!”<br />
+<br />
+<br />
+<br />
+Question 3: “Yeah, I remember this card from Hoth Edition. Now it’s the red one but they used the picture of K-3PO from the same edition. This reminds me of another misprint where…” – “Hey, stop! Only ten seconds left!” – “Ugh, ok, sorry. The answer is R-3PO!”<br />
+<br />
+<br />
+<br />
+Question 4: “Hmm, must be Admiral Ackbar. I’m 95% sure. Good luck!”<br />
+<br />
+<br />
+<br />
+Question 5: “Not quite sure, but that sounds like those Gamorrean Guards who guard Jabba. Power 4 – Ability 1, right?<br />
+<br />
+<br />
+<br />
+Question 6: “Ah, I remember that one card from Special Edition mentions Naboo and everybody asked: What’s Naboo? One year later we got the answer. Those Decipherians had some good spies at Skywalker Ranch. But which card? The location or the guy, not the other two.”<br />
+<br />
+<br />
+<br />
+Question 7: “I know that Leia has more personas than everyone else. Luke has 8 personas, so she has 9 or 10, but I’m not sure about it!”<br />
+<br />
+<br />
+<br />
+Question 8: “I remember the first two and they have a lower destiny. It may be the card from Dagobah. But I have no idea about this “Whoooo!” card, I can’t even remember the edition. Sorry!”<br />
+<br />
+<br />
+<br />
+Question 9: “I’m quite sure that Mist Hunter & TIE Scout have a hyperspeed of 4 or 5 and the Falcon has 6. But I totally forgot Amidala’s ship – I never played it. Not that I ever played TIE Scouts. But the Falcon has 6, I’m very sure of that!”<br />
+<br />
+<br />
+<br />
+Question 10: “Ugh, difficult. Is Undercover trooper Han a smuggler? Sounds not very likely. But I know that this Han card is very weak in every aspect. Low power, high deploy, no gametext. Maybe they dropped the smuggler, too?”<br />
+<br />
+<br />
+<br />
+Question 11: “Wait a second - we can count: There were at least 12 shields on both sides which makes 24 together. I would guess there are also 12 objectives for either side for another 24. Light side hasn’t much creatures and Admiral’s Orders were introduced very late in Death Star II Edition so my best guess would be…” (click) TIME IS OVER<br />
+<br />
+<br />
+<br />
+Question 12: “Wait a second! Damned, where are my locations? I remember the Trash Compactor and at least one Sandcrawler site. My best guess is 3? Don’t kill me if I’m wrong…”<br />
+<br />
+<br />
+<br />
+Question 13: “Spontaneously I would say Luke. With all those cards from Cloud City where he duels Vader… but wait! Maybe Vader is a good guess, too, because dark side hasn’t so many characters to take pictures from. Vader or Luke, your choice!”<br />
+<br />
+<br />
+<br />
+Question 14: “Argh, that were a lot ones. Ok, I remember the first 6 EPPs. Then the bounty hunters: Dengar, Bossk, IG-88. And the new Mara and Debnoli, of course. Ugh, that’s only 11, there must be some more…!”<br />
+<br />
+<br />
+<br />
+Question 15: “WTF! Ok, be cool: The holoprojector comes in mind. And the ‘grabber’ arm! And…(long silence) …I have no f***ing clue!”<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+ASK THE AUDIENCE – LIFELINE<br />
+<br />
+<br />
+Question 1: A = 0%     B = 98%     C = 2%     D = 0%<br />
+<br />
+<br />
+<br />
+Question 2: A = 96%     B = 0%     C = 1%     D = 3%<br />
+<br />
+<br />
+<br />
+Question 3: A = 0%     B = 2%     C = 12%     D = 86%<br />
+<br />
+<br />
+<br />
+Question 4: A = 4%     B = 80%     C = 3%     D = 13%<br />
+<br />
+<br />
+<br />
+Question 5: A = 8%     B = 7%     C = 4%     D = 81%<br />
+<br />
+<br />
+<br />
+Question 6: A = 77%     B = 10%     C = 8%     D = 5%<br />
+<br />
+<br />
+<br />
+Question 7: A = 4%     B = 42%     C = 46%     D = 8%<br />
+<br />
+<br />
+<br />
+Question 8: A = 9%     B = 10%     C = 67%     D = 14%<br />
+<br />
+<br />
+<br />
+Question 9: A = 6%     B = 2%     C = 48%     D = 44%<br />
+<br />
+<br />
+<br />
+Question 10: A = 5%     B = 44%     C = 7%     D = 44%<br />
+<br />
+<br />
+<br />
+Question 11: A = 43%     B = 6%     C = 38%     D = 13%<br />
+<br />
+<br />
+<br />
+Question 12: A = 4%     B = 24%     C = 37%     D = 35%<br />
+<br />
+<br />
+<br />
+Question 13: A = 23%     B = 40%     C = 8%     D = 29%<br />
+<br />
+<br />
+<br />
+Question 14: A = 21%     B = 29%     C = 26%     D = 24%<br />
+<br />
+<br />
+<br />
+Question 15: A = 23%     B = 33%     C = 28%     D = 16%<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+50/50 – LIFELINE<br />
+<br />
+Question 1: Only B & D remain.<br />
+<br />
+<br />
+<br />
+Question 2: Only A & C remain.<br />
+<br />
+<br />
+<br />
+Question 3: Only A & D remain.<br />
+<br />
+<br />
+<br />
+Question 4: Only B & C remain.<br />
+<br />
+<br />
+<br />
+Question 5: Only C & D remain.<br />
+<br />
+<br />
+<br />
+Question 6: Only A & C remain.<br />
+<br />
+<br />
+<br />
+Question 7: Only C & D remain.<br />
+<br />
+<br />
+<br />
+Question 8: Only B & C remain.<br />
+<br />
+<br />
+<br />
+Question 9: Only B & D remain.<br />
+<br />
+<br />
+<br />
+Question 10: Only B & D remain.<br />
+<br />
+<br />
+<br />
+Question 11: Only A & D remain.<br />
+<br />
+<br />
+<br />
+Question 12: Only B & D remain.<br />
+<br />
+<br />
+<br />
+Question 13: Only B & D remain.<br />
+<br />
+<br />
+<br />
+Question 14: Only B & D remain.<br />
+<br />
+<br />
+<br />
+Question 15: Only C & D remain.<br />
+<br />
+<br />
+<br />
+<br />
+THE ANSWERS<br />
+<br />
+Question 1: Answer B is correct.<br />
+<br />
+<br />
+<br />
+Question 2: Answer A is correct.<br />
+<br />
+<br />
+<br />
+Question 3: Answer D is correct.<br />
+<br />
+<br />
+<br />
+Question 4: Answer B is correct.<br />
+<br />
+<br />
+<br />
+Question 5: Answer D is correct.<br />
+<br />
+<br />
+<br />
+Question 6: Answer A is correct. The generic desert may not deploy to Naboo.<br />
+<br />
+<br />
+<br />
+Question 7: Answer C is correct.<br />
+<br />
+<br />
+<br />
+Question 8: Answer C is correct.<br />
+<br />
+<br />
+<br />
+Question 9: Answer D is correct. Amidala’s ship is the only starship with a hyperspeed of 7.<br />
+<br />
+<br />
+<br />
+Question 10: Answer B is correct.<br />
+<br />
+<br />
+<br />
+Question 11: Answer A is correct. There are 16 Admiral’s Orders, 22 Creatures and 34 Shields and Objectives each (if I counted correctly).<br />
+<br />
+<br />
+<br />
+Question 12: Answer D is correct. Tatooine: Bluffs, Death Star: Trash Compactor, Sandcrawler: Droid Junkheap and Sandcrawler: Loading Bay.<br />
+<br />
+<br />
+<br />
+Question 13: Answer B is correct. Luke is pictured on roughly 140 cards, while Han, Leia and Vader are each under 100 cards.<br />
+<br />
+<br />
+<br />
+Question 14: Answer D is correct. EPPs exist for Luke, Leia, Han, Chewie, Lando (Ax), Lando (Blaster), Qui-Gon, Obi-Wan, Debnoli (v), Vader, Maul, Mara (v), Boba Fett, Bossk, Dengar, IG-88, 4-LOM, P-59, P-60 and Destroyer Droid.<br />
+<br />
+<br />
+<br />
+Question 15: Answer C is correct. It’s the Fire Extinguisher, Sensor Array, Sensorscope, Retractrable Arm, Arc Welder, Hidden Compartment and Holoprojector.<br />
+ <br></font><BR><font class="bfont"> <A HREF='/starwarsccg/articles/articles.php?id=6469&view=1&PHPSESSID=e4f75557579e4e2062e23eab9f6159f8'>Read the Reviews</a><font class="bfont"> | <A HREF='/starwarsccg/articles/articles.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+<!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php?PHPSESSID=e4f75557579e4e2062e23eab9f6159f8"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

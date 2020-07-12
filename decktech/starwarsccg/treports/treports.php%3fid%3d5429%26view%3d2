@@ -1,0 +1,683 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php" class="level1nav">Articles</a><br>
+
+
+<a href="/starwarsccg/decks/index.php" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php" class="level1nav">Reports</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/treports/treports.php?cat=constructed">Constructed</a> &nbsp;<br>
+
+<a href="/starwarsccg/treports/treports.php?cat=sealed">Sealed Deck</a> &nbsp;<br>
+
+</div>
+
+  <a href="/starwarsccg/academy/index.php" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 0 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6540&view=2">Creating a tournament scene from scratch - part 4</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6542&view=2">A Decade Away / My 1st Tournament</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6536&view=2">Activation Statistics</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6533&view=2">A suggestion for getting more players</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6535&view=2">A Shot and SWCCG Immortality - Building a &#39;Tier 1&#39; Rescue the Princess Deck</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6537&view=2">You May Start Your Landing</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6534&view=2">Well, I fold.</A></font></li><BR></ol> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Tournament Reports</td><form method='post' action=''><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Tournament Reports</option><option value='#'> </option><option value='/starwarsccg/treports/index.php3'>Star Wars: CCG</option><option value='/heroclix/treports/treports.php'>HeroClix</option><option value='/vs/treports/treports.php'>Marvel VS</option><option value='/lotr/treports/treports.php'>Lord of the Rings</option><option value='/magic/treports/treports.php'>Video Games and Movies</option><option value='/wars/treports/treports.php'>Wizards Minis</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> RSmith at GenCon 2005<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(4.74)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=400'>R. "Voice of Law" Smith</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=400&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> September 2, 2005</font><p align='justify'><blockquote><font class="bfont"> My traveling and lodging plans were the same as they were for Origins. I would pilot the RSmith One from ReidTech Inc Worldwide Headquarters in Beaver Falls, PA approximately 50 miles west to Justin Stratton&#39;s house in Ravenna, OH. From there I would ride with Justin and Nate Meeker in Justin&#39;s Malibu to Indianapolis, where we would room with the other half of Team Ohio: THE Brad Eier, and James b00ker. <br />
+<br />
+Of course, what trip with Team Ohio would be complete without getting stuck in Ohio construction somewhere? Add to that the fact that Justin decided to drive us to Cleveland on the way to Indy (check your maps - that&#39;s like 40 miles completely out of the way) and our journey to Indy took us a good 100 minutes more than it should have. At least we had the timezone change to catch us up.<br />
+<br />
+We checked into the Comfort Inn that evening and were soon joined by Brad and Booker. We played a bunch of games, ate some free pizza (thanks to the delivery guy being abysmally late), and bought a case of beer. I proceeded to down my share (6 out of the 30-pack), but everyone else pussed out and we were left with half the case to go warm in our fridge-less room.<br />
+<br />
+Blah blah blah. Next day, wake up, take a cold shower (does hot water cost extra?), eat the lousy continental breakfast, and hit the road for the Convention Center. Found out we actually had to buy badges for this event, wtf? Filled out decklists (my decks were Agents In The Court and Combat Readiness Scum) and first game got paired against...<br />
+<br />
+<br />
+GAME ONE<br />
+My light vs Nick Reisch (Texas) Bespin Combat Readiness start<br />
+<br />
+When I saw his starting location, I thought &quot;auto-win,&quot; but Nick was playing a unique version of the deck that would end up giving me my most troublesome game all day long. He started with You Cannot Hide Forever Combo, We&#39;re The Bait V, Imperial Domination V, and either Ability Ability Ability V or the Weather Vane V. In any case he got AAAv out fast and between that and Domination (which for the life of me I couldn&#39;t manage to suspend much this game) he retrieved a TON of guys this game.<br />
+<br />
+So he set up first turn with the Executor at Bespin system. Then he pitched the YCHF combo to grab Empire&#39;s New Order v. Gay. I countered with my typical alien setup, I think I flipped and had all three effects (Tusken Breath Mask v, Yerka Mig v, and Ellors Madak v) working on my first turn.<br />
+<br />
+He was draining me in space and I was draining him on the ground at Tatooine. He started coming after me with random.Imperials (Thrawn, Tarkin v) and walkers and initiating battles. That&#39;s what kept him alive this game, because every battle he initiated netted him two guys back from the lost pile. Then when I lost one of my guys from the site, I would have to lose an extra force to ENOv. Adding to that the fact that sometimes he would win the battles (and retrieve yet ANOTHER Imperial) and he stayed in this game for .... ever.<br />
+<br />
+My drains were better than his though, and my retrieval equally as potent. My biggest problem was force generation. Between paying to retrieve 2 or 3 a turn with Uh-Oh, then paying to drain, then wanting to deploy guys (at +1 thanks to ENOv) and battle, I just never had all the force I needed to do everything I wanted to do in a turn.<br />
+<br />
+I deployed BoShekv in the Tyderium v to the Bespin system in an attempt to rectify this situation (occupying the system would of course circumvent Battle Order), and stashed a couple of passengers on it (Oola - forfeit 8, and Kitonak - forfeit 5). This lasted all of one turn until Nick deployed a Laser Cannon Battery and shot that ship down. I lost a force to the Cannon&#39;s gametext, then three more as I lost each of the aliens aboard. Ouch.<br />
+<br />
+Still I persisted with my Ellors-enhanced drains and my Uh-Oh and Yerka Mig retrieval. Soon we approached the one hour time limit, and it was clear that we were not going to finish the game in under an hour. Despite all the force loss I had incurred I was ahead in life force, and felt relatively in control of the game. If the game was untimed, I was confident I would win it. Plus, having gone second in the game, I would get the last turn, which would give me a chance to get in one more round of Ellors drains and retrieve as much force as possible. Due to all of the above factors, I was hoping Nick would draw up to give me the full win.<br />
+<br />
+But he did not. We went to time and I had more cards than he did. TW by 15ish<br />
+<br />
+Recap: I can&#39;t imagine a worse matchup. Going against a deck with ENOv (by far the harshest AITC counter card) that retrieves its dudes over and over and over again just like I do. The starship weapons are rough too. The entire game I was thinking to myself &quot;I wish I had played throne room&quot; cuz that deck would have utterly dominated this matchup. But I couldnt complain, at least I had emerged victorious.<br />
+<br />
+<br />
+GAME TWO<br />
+My scum vs Nick Reisch again. &quot;Non-Agents&quot; aliens starting Antechamber and Careful Planning v for the system and what site I can&#39;t remember. His effects were Bargaining Table v, Uh-Oh v, and something else. He posted the decklist for this deck on decktech.net if anyone&#39;s interested.<br />
+<br />
+When I saw what he was playing,  again I thought &quot;auto-win.&quot; Simply because the night prior, Team Ohio and I had playtested the stuffing out of the Scum vs AITC matchup, and I knew the ins and outs of both sides like the back of my hand. Add to that the fact that Nick was playing a quasi-AITC deck (and thus would not get the benefits of Yarna, Tusken Breath Mask, or the objective itself) and I was fairly confident that I would dominate this game. Indeed, I snickered to myself as I imagined what a Scum deck with Krayt Dragon Bones V (like some of Team Ohio was playing that day) would do to a lightside alien deck without the creature protection Yarna provides.<br />
+<br />
+I started Security Precautions V directly on the Audience Chamber, which gave me an extra +3 activation all game long. First turn down came Jabba V, Ururor V, and the clincher: Ephant Mon. Ephant would ensure that Nick could not deploy or move Max Rebo to the Audience Chamber. And without Max Rebo at the Audience Chamber, the lightside alien deck loses a lot of bite.<br />
+<br />
+As Nick mentioned in the strategy section of his decklist, Security Precautions v possesses one other vital function in this matchup: it prevents the lightside player from using deploy cost modifiers. That comes in handy when the opponent wants to drop Max Rebo for 1, or Phylo Gandish for 2, or a Kitonak for 0, etc.<br />
+<br />
+So Nick attempted to set up at Tatooine: Jabba&#39;s Palace with a bunch of aliens, I battled and killed some (and retrieved some cards with Scum) but he eventually won control of that site. No biggie. I had control in space and I believe I got Occupation out in here somewhere as well.<br />
+<br />
+The game came down to two colossal battles over the Audience Chamber (Nick was not playing Bo Shuda). In the first, Nick had approximately 47 guys against my Jabba, Ephant Mon, Boelo, Lando, Ururor, etc. My trick was I also had Gela Yeens there (!). Gela, when battling with Jabba, makes all opponent&#39;s characters present power -2 and forfeit -2. With Nick having (as I said) some 9000 guys there (ok literally I think he had 8), Gela was a powerhouse! Not to be outdone, Nick had a trick of his own. He used the gametext on Neb Dulo to move Gela Yeens away! Ouch. So in that battle we exchanged losses (I forfeited Ephant Mon and he forfeited some random.dudes). I had Dengar With Blaster Carbine there as well and Nick lost 3 characters in that battle.<br />
+<br />
+I moved Gela Yeens back in and Nick was unable to muster enough musicians to move him away this time. He was, however, able to deploy Tanus Spijek v to the Audience Chamber (why did I forfeit Ephant Mon? argh) and I lost a good 6 force to that. We battled again and I used Jabba&#39;s game text to double the power of all aliens present. It obviously doubled all of his guys&#39; power also but that did not matter because they were all power 1 or 2 thanks to Gela and my guys were all power 4+ before doubling (Lando, Dengar, etc). That was game. Nick scooped<br />
+<br />
+FW by upper teens?<br />
+<br />
+Recap: turned out just as I expected it to. I didnt even have to break out the Elis beats on him.<br />
+<br />
+<br />
+GAME THREE<br />
+My AITC vs Chris Terwilliger Bespin Combat Readiness<br />
+<br />
+Again I was extremely pleased to see the Bespin system played as a starting location. Chris deployed the Cloud City Sector and the Chasm Walkway, along with the typical Weather Vane and free Executor mumbo-jumbo.<br />
+<br />
+His first turn consisted of deploying the Executor with Admiral Chiraneau piloting. What a lucky pull that was. I seem to recall not getting fully setup first turn this game due to cards being in my force pile, but I could be wrong. He followed up with EPP Maul to the Chasm Walkway .. hmm ok. Congrats on your drain of 1, I will be sure to avoid you there all game long.<br />
+<br />
+Soon enough I had set up the magic three effects and some decent drains on Tatooine. He came to battle me with some walkers and I think Vader, but they died for the most part. He was able to secure one exterior Tatooine site (Watto&#39;s Junkyard I think it was?) and lock down another with Arica, but I had complete control of the interior sites (Cantina, Audience Chamber, and Antechamber) and we squabbled over the remaining exteriors (Trade Route, Desert). Unfortunately, his walkers are not affected by Sandwhirl or desert landspeed requirements.<br />
+<br />
+He got a lot of cards with Firepower v this game, but there&#39;s nothing I can do about that. I again attempted to hold Battle Order with some ships (this time Outrider stashed full of musicians), and again I got shot out of the sky. Grrr.<br />
+<br />
+Mid-game he deployed the Downtown Plaza and moved Maul over in an attempt to drain for more. On my turn I simply deployed Tawss Khaa v, battled, and cleared the site. Our aliens vs walker battles on Tatooine were non-eventful, and eventually my superior drains and retrieval wore him down.<br />
+<br />
+FW by 19?<br />
+<br />
+Recap: really not much he could do. the damage potential in that kind of deck is just so low it doesnt have a prayer of overcoming aitc&#39;s retrieval. and when you heap the ellors drains on top, bespin decks have no way to stay in the damage race.<br />
+<br />
+<br />
+GAME FOUR<br />
+my scum vs Mike Pistone&#39;s trm starting the camp, colo claw fish, and something else that wasnt insurrection<br />
+<br />
+I smiled as I heard that I had been paired against Pistone, for the first time ever. I smiled even wider when on his first turn, all he did was deploy Mon Mothma v to Tatooine: Jabba&#39;s Palace; I feared first-turn Obi-Wan to the Audience Chamber.<br />
+<br />
+I used Crossfire V to get Security Precautions V and put that on the Audience Chamber. Then I followed with Jabba, Urorur, and I think someone else.<br />
+<br />
+All I really remember about this game is the highlights: Elis Helrot beats. On like turn 3 I played Elis to teleport Jabba and friends over to the Jabba&#39;s Palace site (where Mon Mothma was chillin along with Mace I believe). The only thing that kept Pistone in the game after I made one of his guys power = 0 with Hutt Bounty v, and doubled the power of all my guys, was the Mantellian Savrip he had deployed a turn earlier (where&#39;s Masterful Move when you need it?). Oh well.<br />
+<br />
+I moved my guys back into the Audience Chamber (after Mike deployed someone there and put Security Precautions in my used pile ... grrr), then a couple turns later drew my Elis back into hand with Urorur and used it to do the same exact thing all over again. Mike grabbed the Elis this time, but that would turn out to be of no consequence as after losing every one of his characters from the battle site, and Savripping every character in his hand, he still owed me 13 force. Basically GG right there.<br />
+<br />
+He later set up the Home One with Wedge, Rogue Squadron Leader and Luke Skywalker v at the Tatooine system to drain me for 2 and retrieve 1 a turn. But it didn&#39;t matter. I had total control on the ground and was draining for a ton with Gailid down there.<br />
+<br />
+FW by mid-teens<br />
+<br />
+Recap: Insurrection is a good card, kids.<br />
+<br />
+<br />
+GAME FIVE<br />
+<br />
+my aitc vs Alden Peterson&#39;s Imperial Occupation (v)<br />
+<br />
+I&#39;m sorry. I don&#39;t remember anything about this game except that I couldn&#39;t remember anything during the game either. This was by far my worst-played game of the weekend. I forgot to retrieve force with Yerka Mig on countless occasions, and nearly forgot to retrieve 3 with Uh-Oh one turn also.<br />
+<br />
+Things I do remember:<br />
+<br />
+I tried to hang in space, but got shot down for the third time in as many games. The space package in the aitc is ridiculously good against anything but green cards. Tough luck that I faced three green cards in three games.<br />
+<br />
+Alden was playing Trample X10 I think, and the first time he played it I had no active force so I couldnt grab it. doh bye-bye aliens<br />
+<br />
+We had battles both on Tatooine and on Hoth. I was able to battle him efficiently enough on Hoth that he was never able to get off a Walker Garrison. Much like Chris in game 3, Alden was able to control one exterior Tatooine site for most of the game, but I owned all interior sites.<br />
+<br />
+I got to verify his deck early and saw multiple Defensive Fire & Hutt Smooches, along with a Limited Resources. I vowed not to go under 4 cards in hand for the rest of the game. <br />
+<br />
+Anyway I won this game by draining for a bunch courtesy of TAWSS KHAA V. Suck it Decree.<br />
+<br />
+FW by i dont remember<br />
+<br />
+Recap: ummmmm<br />
+<br />
+<br />
+GAME SIX<br />
+my scum vs THE Brad Eier&#39;s AITC<br />
+<br />
+It had to happen sooner or later: I get paired up with a member of Team Ohio. Brad and I have played in tournaments many times before, and we always have close games, and often go to time. We had played most recently at Michigan states (he beat me using my own WYSv build), then before that at Origins 2005 (my Endor mains over his Scum). Our very first tournament game was at Ohio Classic States in 2003; my Hidden Base matching pilots vs his ISB Space. That was one of the most thought-provoking games I have ever played.<br />
+<br />
+This game would prove to be no exception to our history of close, well-fought matches. As I mentioned earlier, the Scum vs AITC matchup was one that Team Ohio and I had playtested extensively at the hotel the night before, so Brad and I both went in with a good deal of knowledge of what each side needs to do to win. I started Security Precautions directly on the Audience Chamber (as I had against Nick in game 2). I then set up first turn with Jabba and Ephant Mon. <br />
+<br />
+Brad promptly Bo Shuda&#39;ed the Audience Chamber and deployed Loje Nella there so that I would not be able to use Gailid&#39;s gametext. I set up rapidly in space with Jabba&#39;s Space Cruiser and Lando V as pilot. I deployed Bane Malar V to Tatooine: Jabba&#39;s Place and Prophetess V to Lower Passages and deployed Tatooine Occupation. Then I moved Bane to join Prophetess via the Lower Passages&#39; gametext.<br />
+<br />
+Brad saw an opportunity, and seized it. He had saved a few force, and activated two or three more during my turn thanks to Thrown Back V. So he had a ton. Down came Joh Yowza (I played Imperial Barrier), and then Oola (I played None Shall Pass V .. although that probably helped him as he got to draw two cards). After that he deployed like 6 more guys on top of my two ... the net result was I had to lose both guys at the site and 9 more. And he only lost one character. Grrr.<br />
+<br />
+I still had decent board control though. I knew I had to re-establish sites for Occupation to get the damage going. I dropped JQuille at the Lower Passages and caused Brad 6 force loss (PWND). Then I deployed Boelo to Jabba&#39;s Palace using Power Of The Hutt, and moved Ururor and JQuille to join. I also had pulled Arica to the Lower Passages with Jabba&#39;s Influence so that I would not suffer a drain there next turn.<br />
+<br />
+Brad went and dropped the Cantina, along with a handful of scrubby aliens and the first Tusken Breath Mask V of the game. I yanked the Firepower shield and stacked a card. At this point Brad had no characters of ability > 3 on table, and I had Darth Maul in hand. After draining/Occupation I deployed Darth Maul to the Cantina, blanking his ability there and canceling the Breath Mask. Then during my move phase I used the text on Firepower V to teleport Maul to the Audience Chamber, canceling Yerka Mig V (Brad&#39;s only character there was Loje Nella). I knew this was a risky maneuver, as I would likely never get to retrieve force from Scum and Villainy again. But Darth Maul + Firepower = gold against AITC and I couldnt pass up canceling both effects in one turn.<br />
+<br />
+So he got a lamez0r drain of 4 at the Cantina and continued to retrieve. He deployed a Kitonak/Sandwhirl combo to the Hutt Trade Route and I know he must have had a Houjix in hand cuz he knew I was playing Controls. I got to stack another card on Firepower, which enabled me to set up next turn&#39;s combo: Dengar With Blaster Carbine and IG-88 With Riot Gun. IG had been in my hand for a few turns, and I played Twi&#39;lek Advisor V to dig Dengar out of my used. I put those guys together, and with two cards on Firepower V, they could go anywhere. I deployed them both to the Cantina, and followed up with Prince Xizor from reserve using Jabba&#39;s Influence V. I captured Momaw Nadon, which left him with four ability-1 aliens there. Two of them got shot, and another died to attrition as my two battle destinies were weak. Brad did not draw battle destiny thanks to A) Prince Xizor and B) Tusken Breath Mask being in the lost pile.<br />
+<br />
+He got to drain me for 3 with the Kitonak, but I had pulled the Resistance shield so I only lost 2 to it. Every card counted as I knew I would no longer be able to retrieve thanks to Darth Maul being out. Brad decided it was time to go for the old spread-and-drain technique, and deployed one guy to each site: Antechamber, Desert, Hutt Trade Route, Watto&#39;s Junkyard. Now I really knew he had a Houjix in hand. And I got a third card on Firepower V.<br />
+<br />
+Most of my good guys were already on table, so I was unable to beat him down anywhere. I think Dr Evazan and Ponda Baba traded off with some random.alien at the Junkyard, and then I used Firepower V to move Xizor, Dengar, and IG-88 to the Antechamber.<br />
+<br />
+I lost some more to drains and Brad ran away from me again. I drained him and moved my guys in front of his guys. He drained and retrieved and ran away .. I drained/Occupied and moved in front. So on and so forth, until finally we were both under 6 in life force. I drew all but 1 of my cards since my guys were moving for free anyway, and then the next turn my drains brought Brad down to 2 cards remaining, which, combined with Battle Order, meant he would not be able to deal me any more damage. I drain him out FOR THE WIN<br />
+<br />
+FW by 1<br />
+<br />
+Recap: classic RSmith/Brad Eier matchup. Firepower was huge, and thats an understatement.<br />
+<br />
+This victory puts me at a perfect 6-0 on the day; the only undefeated and the top seed going into day 3&#39;s final tournament.<br />
+<br />
+The rest of the top 8 looked something like this:<br />
+<br />
+2. Alden Peterson<br />
+3. Jared Lockwood<br />
+4. Brandon Schele<br />
+5. Brad Eier<br />
+6. James Booker<br />
+7. Nate Meeker<br />
+8. Drew Scott<br />
+<br />
+I think that&#39;s right. Regardless, the first matchups the next day would be:<br />
+<br />
+R Smith vs Drew Scott<br />
+Alden Peterson vs Nate Meeker<br />
+Jared Lockwood vs James Booker<br />
+Brandon Schele vs Brad Eier<br />
+<br />
+<br />
+Weeks prior, 2004 World Champion Brandon Schele and I had agreed that, if we both qualified for day 3, we would go to Champps sports bar in a nearby mall for dinner the night after day 2. Champps is where Brandon and I had both dined the night of day 2 in 2004, the year we ended up facing each other in the finals. So that&#39;s where we headed again, Brandon with his posse and me with Team Ohio in tow. I ordered the 1 lb. burger and a 10 dollar beer (New Castle draft that was about 40 oz). Having been PWND by the burger in the past, I was determined to finish it .. but I quit with about three bites left. Damn.<br />
+<br />
+Then it was back to the Comfort Inn to build decks. I knew I would play Scum again for dark, and I needed to decide on a light deck, as playing AITC again would likely be a bad decision. I had an off-the-wall concept for a deck (posted on decktech), but it had not been adequately tested so I nixed that idea. We were all tired, and 4 of the 5 of us would be playing the next day (Team Ohio captain Justin had missed out only because he lost to b00ker in the last game), so we hit the sack. As I drifted off to sleep I considered the following deck ideas: MWYHL, Endor Mains, WYS V, and TRM.<br />
+<br />
+We woke up and for some reason we all started building Endor Mains. This seemed like a pretty good idea to me. I for some odd reason really had a strong inclination toward MWYHL, but I knew my first opponent (Drew Scott) had been using that deck for some time, so he would know its ins and outs and how to play against it. Not a good idea for me to use that deck. So I put together the Endor Mains deck, we hit up the lame continental breakfast, the showers were warm (thank God), and we headed off to the con.<br />
+<br />
+We had to stand in line for like 15 minutes for a badge. That gave us time to fill out decklists. The Endor deck is posted on decktech, and the Scum is pretty much common knowledge to anyone who plays anymore. The only real tech I had was I put Limited Resources in.<br />
+<br />
+So without further ado, begin DAY THREE<br />
+<br />
+GAME ONE<br />
+I chose to use Scum first against Drew&#39;s light, which turned out to be TRM. He started The Camp, Colo Claw Fish, and Insurrection combo. Good choices. I started You Cannot Hide Forever, All Wrapped Up V, Jabba&#39;s Influence V, and Power of The Hutt.<br />
+<br />
+I dont remember the details of this game so much but I do remember I made a mistake, and then played my wookie off to make up for it. He was playing a lot of anti-Scum tech like Leia, Rebel Princess, and A Gift. I was unable to procure my Defensive Fire & Hutt Smooch until very late in the game, so to combat the Gift I used Control & Set For Stun to bounce Threepio back to Drew&#39;s hand. Then when he re-deployed Threepio, I played None Shall Pass V to attempt to put 3P0 on bottom of Drew&#39;s force pile, but that card got grabbed and canceled (by Sense, and Corran Horn being his highest-ability character. Ugh. And I hadn&#39;t saved force to grab Sense). So 3P0 got Gifted again, and I again used Control combo to bounce him. Then when he got redeployed I played Imperial Barrier, and that went through and kept 3P0 out of the Audience Chamber for an extra turn. Drew and I had some battles early on too, he had deployed Leia Rebel Princess to blank my ability and put Security Precautions V in the used pile, and I had retaliated with a droid to restore my ability there. This enabled me to retrieve (via Scum and Villainy) one of my Control combos, along with something else.<br />
+<br />
+I killed off Leia and then got ballsy and spread to all three Jabba&#39;s Palace sites. I had also set up in space with Jabba&#39;s Cruiser and Occupation, and Drew would not contest that at all this game. He would play Free Ride & Endor Celebration in the mid-late game to cancel Occupation, but I had my second copy for him and I used Prophetess V to shuffle his deck so he could not track the Free Ride.<br />
+<br />
+But first this: my spreading to three sites was a mistake. Drew Altered Hutt Bounty V (Corran Horn again GRRR) - it went to used pile as I had Oppressive Enforcement out. Then he deployed Mace Windu V and Obi-wan With Lightsaber to the Lower Passages, where I had two random dudes (Prophetess and Prince Xizor I think?). I had burned all of my evasion cards trying to stop 3P0, so I had no response to this. Prophetess got Clash of Sabersed and Prince Xizor got the exhaust kicked out of him for 11 overflow. Neither of Drew&#39;s guys died because my battle destiny was a 1, -2 thanks to A Gift.<br />
+<br />
+That put me way behind. My life force was down to low-mid teens, and Drew still had 25+ with a few in hand. A Gift was in effect, preventing me from draining at the Audience Chamber or at the system, though I was draining for one at Tatooine: Jabba&#39;s Palace (thanks to Gailid) and Occupying for a couple. Fortunately I did not peel my Defensive Fire combo when losing cards to battle damage, so I knew if I could get that card in my hand I&#39;d at least have a shot.<br />
+<br />
+I took a turn to recuperate - Drew would not be draining me thanks to the Clashed Prophetess sitting in front of his guys. And he dare not move into the Audience Chamber in front of Jabba &quot;The Beats&quot; Hutt V. So I pulled Hutt Bounty again, then activated all but two and searched with something random to see what the two were. There was my Defensive Fire combo, along with a Masterful Move combo. We shuffled, and I used Urorur ... and got the Masterful Move. Grrr. Drew went and did pretty much nothing, and I Urorur&#39;ed on his turn to get the Defensive Fire.<br />
+<br />
+I played that and suddenly I was draining for 5 and Occupying for 2. Huge! I moved the Prophetess the hell out of Mace&#39;s way, allowing Drew a drain of 2.<br />
+<br />
+Somewhere in here we had some more battles. Drew was not so far ahead that he could survive 7 damage a turn while only dealing 2, so he had to move in to the Audience Chamber and battle me. My guys out at the Jabba&#39;s Palace site (Bane Malar V, IG-88 with Riot Gun, and for a time Lando V) went pretty much untouched all game, as did my ship at the system.<br />
+<br />
+For day 3 I had added Limited Resources to the Scum deck, and I held it in my hand nearly all game. I even kept it when I had to lose 11 to the beatdown. That card would turn out to be the game-winner. Due to the close nature of the game, Drew inevitably ended up with less than 3 cards in his hand on my turn, at which point I played the LR to make him lose 4. I then managed to initiate a battle on that turn to retrieve the LR, then I tracked it and drew it back on a subsequent turn with Urorur. Drew must not have noticed this because a turn later he emptied his hand by deploying a second Leia, Rebel Princess to the Audience Chamber (I had no droids there by now - IG-88 was still out at the Jabba&#39;s Palace site). On my turn I asked him, &quot;How many cards are left in your life force?&quot; He had about 8 or 9, and I said, &quot;Lose 4 of them,&quot; and showed him the LR. Then I proceeded to Occupy him for 1 (my ability at the AC being blanked, I only occupied one battleground), drain for 1 at the system, and drain for 2 (Gailid still out) at the Jabba&#39;s Palace site. He attempted to use Leia&#39;s game text to place top card of his lost pile on top of his reserve deck to cancel that drain, but I reminded him that Bane Malar V says he can&#39;t do that. That damage dropped him under 3 life force, so he could not afford to drain me next turn, and Drew drew up.<br />
+<br />
+FW by 5<br />
+<br />
+Recap:<br />
+After making mistakes early, I played easily one of my best games all year. I seriously wish I had this game on tape, I would watch it over and over. During the game, we had taken a short recess to discuss a rules question, and as our judge (Greg Anderson) left to confer with Mike Carr, I looked across the table and told Drew, &quot;No matter who wins, this is one of the sweetest games I&#39;ve ever played.&quot; He agreed. We were allotted 90 minutes for each game, and this game must have taken 89 minutes and 59 seconds. Afterwards, Drew was visibly shaken, and breathing heavily. I admit my heart was beating a little fast as well; not only from the intensity of the game but from the growing prospect that I might be the first player ever to go undefeated Day 2 and Day 3 of worlds! We got a few minutes to compose ourselves, and then began:<br />
+<br />
+GAME TWO<br />
+My Endor mains (decklist on decktech) vs. Drew&#39;s Hunt Down standard. He started Sando Aqua Monster, IAO Combo, and Ability, Ability, Ability V.<br />
+Honestly, when I saw his objective I nearly jumped for joy. Because the Endor mains deck is supposed to wreck any dark mains deck, especially Hunt Down. 9 out of 10 games against it is like auto-win.<br />
+<br />
+But sure enough, today would be the 1 out of 10.<br />
+<br />
+My opening hand showed me 0 characters. None. I had Gold Leader in Gold 1, a site,  and 6 red cards. In case you (the reader) were too lazy to look up my decklist, I play some 17 characters, 12 of which are Jedi, 4 of which deploy for FREE. 12 Jedi in the deck, 0 in my opening hand. Hrmm.<br />
+<br />
+Drew deployed Lord Vader to the Endor: Rebel Landing Site on his first turn, and equipped him with Darth Vader&#39;s Lightsaber V. This left him with one card in his force pile, he either drew or saved I don&#39;t remember.<br />
+<br />
+Now let&#39;s take a timeout: I want to illustrate what would have happened had I drawn one of my FOUR Luke Skywalker, Rebel Scout V&#39;s in my opening hand. Assuming I drew NO other good cards in my hand (just Luke), I would have done the following:<br />
+<br />
+1. Use Strike Planning to take Mon Mothma V and General Solo V into hand.<br />
+2. Use Rycar Ryjerd V to take I Wonder Who They Found V and Bionic Hand V into hand.<br />
+3. Activate 7.<br />
+4. Deploy LSRSv for free to the Landing Site; get Luke&#39;s Lightsaber from reserve with SaiTorKalFas V<br />
+5. Deploy Mon Mothma for 1 (3 if Drew remembers the text on AAAv .. but he didnt), and Solo for 3 to the Landing Site.<br />
+6. Deploy Bionic Hand V on LSRSv.<br />
+7. Search for That&#39;s One V with Solo&#39;s text. Deploy it (activate 2) and IWWTFv (draw 2) on the Back Door.<br />
+8. Initiate battle. Swing at Vader, each of Luke&#39;s draws are +1. Vader cannot return fire thanks to Luke&#39;s text.<br />
+9. Use gametext of Bionic Hand V to take starting interrupt into hand. Play it. I now have a 5 on top of my reserve deck.<br />
+10. Draw battle destiny. It&#39;s a 6 (That&#39;s One adds 1). LSRS is power 8, Mothma 3, Solo 4. 6+8+3+4= total power 21 to Drew&#39;s 7 plus battle destiny. If I hit Vader, Drew better have a Ghhhk. All my guys are immune to attrition < 4 with IWWTFv (Luke is immune to attrition < 8!) so Drew will lose Vader, and I may get away with losing nothing. Meantime, I have a 10+ card hand because everything was pulled and I got to draw two with IWWTFv, and I have at least 3 cards in force pile thanks to That&#39;s One. So I finish the turn with Vader in the lost pile, Luke, Solo, and Mothma holding down the site, and 3 force in my force pile so that if Drew retaliates I can use Solo&#39;s text to play Clash of Sabers from reserve.<br />
+Drew could not have had a Barrier (started AAAv), Stunning Leader doesn&#39;t work outside, and he didn&#39;t have a Force Field (I asked him later). The only card he could have had that would have done anything is I Have You Now, and at the very worst that would have made me lose Han and Mothma (Probably only one of them). Meanwhile, Vader would go away for sure.<br />
+<br />
+EVEN IF I didn&#39;t draw Luke, but another Jedi (Obiwan, Quigon, Mace) I could have performed similar beats. (IWWTF and That&#39;s One would provide me enough force to deploy even Quigon, and then I cancel the targeting of Vader&#39;s saber with IWWTF.)<br />
+<br />
+..<br />
+<br />
+argh<br />
+<br />
+..<br />
+<br />
+OK back to reality. I had no characters. So I searched for IWWTFv, Solo, and Mothma anyway, and activated 7. Then I deployed IWWTF (which I had searched for with Rycar V before activating) and drew 2, fully expecting to get a Jedi (cuz come on, theres TWELVE of them in the deck!). But I still did not get a character. I had to do something, so I deployed Solo and Mothma to the Back Door. I paid 1 for Solo (using Encampment V once-per-game) and 2 for Mothma (cuz both Drew and &quot;participatory judge&quot; Greg missed AAAv&#39;s +2 to senators). Then I searched with Solo&#39;s text, hoping to get That&#39;s One V. But it was active. And I had Count Me In V in my hand already, so there was no card I could get with Solo, and Drew got to verify. I drew all but one, hanging on to my Fallen Portal in case Drew decided to battle me at the Back Door. Somewhere during my draw phase I finally got a hold of a Jedi - Mace Windu V.<br />
+<br />
+Drew activated a fair amount, and paid to drain me for 3 at the Landing Site. Then he deployed Darth Maul, Young Apprentice to the Back Door. Then he deployed Maul&#39;s Double Bladed Lightsaber. Then he initiated battle. I played Fallen Portal. I drew a 4 for destiny. Maul fired at Mon Mothma and hit her (even though she was a defense value 6). Maul wanted to fire again but IWWTF went to the used pile to cancel. Drew played You Are Beaten on General Solo. Drew drew a 7 for battle destiny, and I drew a 1. Good thing I had my Houjix.<br />
+<br />
+Before Drew ended his turn I used General Solo&#39;s text to search for a card with Door in the game text, hoping to get That&#39;s One. <br />
+Turns out it was the one card in my force pile. Go figure.<br />
+<br />
+I deployed Mace Windu V to the Back Door, got a Jedi Lightsaber V on him, and re-deployed IWWTFv. I drew two with that, and still had no Luke. I battled at the Back Door, and swung at Maul. Miss. He wanted to fire and I canceled with IWWTF to the used pile. I fired again and missed again. He fired and drew something high enough and I was forced to place Count Me In in the lost pile to cancel his second draw. His battle destiny was good and mine sucked so I had to lose force just to keep Mace alive. Then I moved him over to the third Endor site (Dense Forest) leaving Maul and the YAB&#39;ed General Solo at the Back Door. At least now Drew&#39;s objective was back on the 0 side, and we both were losing to Visage.<br />
+<br />
+He got to drain me for 3 again with Vader (as he would just about every turn this game .. I never drew a character to fight Vader with). Then he did something I don&#39;t remember, probably deployed another guy with Maul at the Back Door.<br />
+<br />
+I put some ships to the system in a feeble attempt to establish Battle Plan, and shuttled General Solo up to pilot. Then I moved Mace back to the Back Door so I wouldnt lose to a drain of FOUR.<br />
+<br />
+He drained with Vader and deployed somebody I didnt want to fight against and initiated, I attempted to play Dodge to move in front of Vader but he played Ghhhk combo (wtf?). So I used once per game on That&#39;s One (which I had had to draw from my force pile after it got stuck there early on) to cancel the battle.<br />
+<br />
+Anyway I never was able to mount much of an offensive and I lost to that damned Vader drain all game long (which simply should not happen). That&#39;s 3, plus Visage for 2, = 5 force every turn I was losing, while only dealing a couple in drains here and there in return, along with Drew losing to his own Visage. Even though my ships went uncontested in space, the jump that Drew had on me on the ground (thanks to me not drawing any characters!) was insurmountable. I whittled him down to 12-15 life force but could get no further.<br />
+<br />
+LOSS<br />
+<br />
+Recap: Unbelievably bad luck for me this game. Aside from the bum opening hand and the poor draws, every time I drew destiny for anything it was always 1 less than I needed it to be. I remember one turn Drew had left Maul with his stick in front of Mace during my turn. I had retrieved Careful Planning V early in the game when I deployed Count Me In V, and through searching and shuffling that card had ended up in my force pile, and subsequently in my hand. So I played it to put it on top of my reserve deck, and then played Sorry About The Mess combo during my control phase in an attempt to put Maul and his saber in the lost pile. I drew the stacked 5, and then .. a 1 (my other Mace Windu). The Phantom Menace was not even out, Maul was just a defense value 6.<br />
+<br />
+But I guess that&#39;s what happens when you dont draw any characters in your hand - you draw them all for destiny. Honestly the most difficult part of this game for me was watching each member of Team Ohio emerge from his first-round match victorious.  The night prior, we had bandied about the possibility of an all-Team Ohio (and R Smith) Final Four, and nothing aggravated me greater than the realization that I would be the only one to disappoint.<br />
+<br />
+So I went 7-1 on the weekend, good enough for only a quarterfinalist finish and a $100 cash prize. For the record, the remainder of the games went as follows:<br />
+<br />
+Nate Meeker over Alden Peterson<br />
+James b00ker over Jared Lockwood<br />
+THE Brad Eier over Brandon Schele<br />
+<br />
+then:<br />
+<br />
+Drew Scott over THE Brad Eier<br />
+James b00ker over Nate Meeker<br />
+<br />
+and the final: b00ker vs Drew<br />
+<br />
+The highlight of the final was in the second game, where b00ker&#39;s Scum was facing off against Drew&#39;s TRM. b00ker was not only playing like a total n00b but he had for some reason taken the Defensive Fire combo out of his deck so he got PWND by A Gift all game long. He then proceeded to forget that Jabba&#39;s Influence V makes his bounty hunters power +2 in like 3 different battles. Meantime, the &quot;participatory judges&quot; (two of em!) that were watching were apparently completely oblivious as well. Good old Brian Hunter was watching the final along with us after dropping out of his VS tournament. Finally he reached onto the table, picked up Jabba&#39;s Influence, read it, and returned it to the table. This prompted b00ker to finally remember the text on his own card.<br />
+It might have done him some good had he remembered it earlier, but it was too little too late for b00ker. I watched the game from his side of the table and groaned inwardly as he made mistake after mistake en route to a close loss to our new world champion: Drew Scott. <br />
+<br />
+So both the 2005 US National Champion (that&#39;d be me; heh) and the 2005 WORLD Champion are from the Commonwealth of Pennsylvania. Drew scored a healthy payday of $1100; b00ker netted half a grand. Eier and Meeker picked up $250 and the rest of us bums had to settle for our $100. We all got 3 packs of Coruscant (packs that were selling for $8 apiece in the dealer room - yikes) and some foils and some uncut sheets. Yay.<br />
+<br />
+We went to Champions (not to be confused with Champps; although eerily similar)  for dinner and I ordered another 1-lb bacon double cheeseburger and finally finished it. Hooray for small victories. Then we went home.<br />
+<br />
+<br />
+2oo5 RSmith World Domination Tour results:<br />
+<br />
+Yavin 4 Regional: 3-3<br />
+Origins V-Card Lite warmup: 5-1<br />
+Origins US National Championship: 7-0<br />
+Michigan States: 3-2<br />
+GenCon World Championships Day 2: 6-0<br />
+GenCon World Championships Day 3: 1-1<br />
+<br />
+Total 2oo5 Tournament Record: 25-7<br />
+<br />
+-5 of those losses came against eventual day 3 qualifiers<br />
+<br />
+<br />
+pr0ps<br />
+-to God<br />
+-to Team Ohio. Extra-special love to team captain Justin Stratton for his organizational and transportational skills (even if he did get PWND by the Comfort Inn, and drive us to Cleveland for no reason), and to Meeker for the AITC inspiration<br />
+-to Drew Scott. congratulations!<br />
+-to all day 3 qualifiers<br />
+-to Greg Anderson, Kevin Brownell, Mike Carr, and Nick Kolnik for all their hard work at GenCon<br />
+-to Pat &quot;My&quot; Johnson<br />
+-to Nick &quot;Dianoga&quot; Bongio<br />
+-to Brian &quot;hamniggler&quot; Fred<br />
+-to everyone who got $2300 in fan dollars just for showing up to the &quot;Wars TCG world championships&quot; lol<br />
+-to the following day 2 qualifiers (in no particular order, i&#39;m just name-dropping people who are cool in my book): Mike Pistone, Brandon Schele, Lee Edwards, Greg Shaw, Brandon Ruck, Danny Pack, Jared Lockwood, Michael Richards<br />
+-to anybody that signed a card for me<br />
+-to any opponent that I beat this year that hasn&#39;t been mentioned yet. thanks for losing to me.<br />
+-to all random.former swccg players i saw that didnt play SWCCG at GenCon and/or Origins because they were too busy getting their asses kicked at VS, including: B Hunter, Mike Gemme, Justin Desai, Graham Neal. thanks for making it easier for me to dominate SWCCG<br />
+<br />
+<br />
+sl0ps<br />
+-to the SWCCGPC design team<br />
+-to bad luck in games i should win (see also: yavin 4 regional report )<br />
+-to Joe Gianetti, for trying to play on day 2 when he wasnt even qualified<br />
+-to any day 2 qualifiers that didn&#39;t show<br />
+<br />
+keep playing swccg<br />
+<br />
+2oo5 RSmith Domination<br />
+a ReidTech Inc Production <br></font></blockquote><BR><font class="bfont"> <A HREF='/starwarsccg/treports/treports.php?id=5429&view=1'>Read the Reviews</a><font class="bfont"> | <A HREF='/starwarsccg/treports/treports.php'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

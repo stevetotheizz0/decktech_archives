@@ -1,0 +1,540 @@
+
+<html><!-- #BeginTemplate "/Templates/freedom.dwt" -->
+<head>
+<title>FreedomCon - United We Stand</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {  margin: 0px 0px; border: none; font: 10pt Verdana, Arial, Helvetica, sans-serif; color: #000000}
+.legal {  font: 6pt Verdana, Arial, Helvetica, sans-serif; color: #CCCCCC}
+td {  font: 9pt Verdana, Arial, Helvetica, sans-serif}
+.nav {  font-size: 8pt; color: #FFFFFF; text-decoration: none}
+-->
+</style>
+</head>
+
+<body bgcolor="#000E58" margin="0" marginwidth="0" marginheight="0">
+<table width="93%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td colspan="2" height="97"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+        <tr>
+          <td><img src="/freedomcon/gfx/freeblue.gif" width="266" height="123" border="0"> 
+          </td>
+          <td valign="middle" align="center">&nbsp; </td>
+        </tr>
+      </table>
+      
+    </td>
+    <td width="42" height="97">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td height="149"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <tr> 
+                <td class="legal"><a href="/freedomcon/index.php" class="nav">Home</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/about.php" class="nav">About FreedomCon</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/sponsors.php" class="nav">Our Sponsors</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/contact.php" class="nav">Contact Us</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/attend.php" class="nav">Players Attending</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/donate.php" class="nav">Donations and Charity</a></td>
+              </tr>
+              <tr>
+                <td><a href="/freedomcon/buzz.php" class="nav">Discuss FreedomCon 2!</a></td>
+              </tr>				  
+			  
+            </table>
+            
+          </td>
+        </tr>
+      </table>
+
+      <!-- #BeginEditable "nav" --> <!-- #EndEditable --><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><br>
+      </font>
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b><br>
+            What:<br>
+            FreedomCon</b> <br>
+            Philadelphia 2002<br>
+            <br>
+            <b>When:</b> <br>
+            October 4-6 <br>
+            <br>
+            <b>Where:</b> <br>
+            NeoQuest Games<br>
+            Gary's Plaza<br>
+            531 South Broad Street<br>
+            Lansdale, PA 19446<br>
+            </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">215 
+            855 7035</font></td>
+        </tr>
+      </table>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"></font></td>
+    <td width="541" bgcolor="#FFFFFF" valign="top" background="/freedomcon/gfx/Vegasxflcam.jpg"><!-- #BeginEditable "body" --> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td valign="top" height="461" width="57%"> <br>
+
+<script language="javascript">
+
+echo "test";
+
+// This makes certain pages private, for members only. Neal 10-2013
+if ($access == "" )
+{
+echo "<table bgcolor='#ffffff' width=500><tr><td><P>This area of DeckTech is now restricted to members only. You must be logged in to view this page.
+Go to <a href='http://www.decktech.net/'> DeckTech.net </a> to log in";
+echo "<P>If you are not a member, and would like to spy on a member, you are cordially invited to kiss off.</td></tr></table>";
+exit;
+}
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+prev1.document.writeln(texttoshow);
+}
+
+function changetobold()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetospoiler()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "(drag mouse to see spoiler)<div style=background-color:red;color:red;foreground-color:red>"+newtext+"</div>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+linkyaddress = document.buzzboardform.texttoconvert.value;
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function oldchangetobold()
+{
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+
+
+
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5<br />
+<b>Warning</b>:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in <b>/home/decktech/public_html/global/includes/com/buzzboard.php</b> on line <b>1719</b><br />
+<table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font class="h1font">Lets talk about sex</B></font></td></tr><tr valign="top"><td><font class="bfont"><font class="bfont"> From: animalvader1</font><BR><table><TR><TD><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='/freedomcon/buzz.php?id=7472'><b>REFRESH THIS TOPIC</b></A></font></td><td width=40>&nbsp;</td></tr></table><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#EFF1FF><font class="h2font"> Comment</td></tr><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>hate red x&#39;s </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=hate red x&#39;s '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src=http://anticache.img5.joyreactor.com/pics/post/funny-pictures-auto-417995.jpeg> <br><BR><font size=1>16:46 12-23-2013</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>OMM </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=OMM '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><img src=http://i.qkme.me/3tehoz.jpg> <br><BR><font size=1>15:15 04-02-2013</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Patrick M. S </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Patrick M. S '>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">lol @ "brace your shimmer"<br />
+<br />
+oh and cyke&#39;s handle offends me <br><BR><font size=1>13:03 02-16-2012</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>rage guy </B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=rage guy '>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont"><img src=http://i1180.photobucket.com/albums/x407/Furry_Daddy/IMG_2951-308x1024.jpg> <br><BR><font size=1>12:52 02-16-2012</font></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Jonesy</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Jonesy'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">im hoping its orgy, as the other two are friggen nasty, congrats on your orgy, hope it was all women heh <br><BR><font size=1>17:37 03-03-2006</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=16475">cyke™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=16475">cyke™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">and i&#39;ll make sure to keep whatever it is far from being public knowledge. <br><BR><font size=1>01:05 03-03-2006</font><BR><BR><a href="http://photobucket.com" target="_blank"><img src="http://i5.photobucket.com/albums/y193/cyke26/Frank5.gif" border="0" height="150" alt="Image hosting by Photobucket"></a></TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Jonesy</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Jonesy'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">that quiz is retarded, and apparently cyke has either circle jerked, had an orgy, or snowballed... as the only way to score over 150 is to answer yes to that last question.  Also according to that test the best place to learn about sex in order is porn, everywhere, parents, tv and movies.  So porn > everywhere .... yeah that makes sense.  What a retarded test. <br><BR><font size=1>18:39 03-02-2006</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=16475">cyke™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=16475">cyke™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">thank god i watched clerks just this weekend, or i would have gotten one of those questions wrong. <br><BR><font size=1>08:59 03-02-2006</font><BR><BR><a href="http://photobucket.com" target="_blank"><img src="http://i5.photobucket.com/albums/y193/cyke26/Frank5.gif" border="0" alt="Image hosting by Photobucket"></a></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=16475">cyke™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=16475">cyke™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><center><table border="1" width="450"><td align="center"><font size="+3">You have a sexual IQ of 157</font><br /><br /><br />
+<img src="http://img.quizuniverse.com/brain.jpg"><br /><br />
+<br />When it comes to sex, you are a super genius.  You have had a lot of experience, and sex interests you so you know a lot about it.  You pride yourself on being a source of information and guidance to all of your friends.    <br />
+<br />
+<br /><br />
+<br /><a href="http://www.quizuniverse.com/quiz.php?id=38">Take this quiz</a> at <a href="http://www.quizuniverse.com">QuizUniverse.com</a></td></table></center><br />
+ <br><BR><font size=1>08:58 03-02-2006</font><BR><BR><a href="http://photobucket.com" target="_blank"><img src="http://i5.photobucket.com/albums/y193/cyke26/Frank5.gif" border="0" alt="Image hosting by Photobucket"></a></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=3300">Shadow 13™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=3300">Shadow 13™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">that quiz is embarrassingly easy. <br><BR><font size=1>06:49 03-02-2006</font><BR><BR><br><hr><img src="http://i34.photobucket.com/albums/d116/gordele/VIDEOCODELAB/Myspace-Codes-Animations/myspace-codes-animations33.gif"><br>i&#39;m mikefrench&#39;s brother</TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=14993">Samwise G™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=14993">Samwise G™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><center><table border="1" width="450"><td align="center"><font size="+3">You have a sexual IQ of 123</font><br /><br /><br />
+<img src="http://img.quizuniverse.com/brain.jpg"><br /><br />
+<br />When it comes to sex, you are a super genius.  You have had a lot of experience, and sex interests you so you know a lot about it.  You pride yourself on being a source of information and guidance to all of your friends.    <br />
+<br />
+<br /><br />
+<br /><a href="http://www.quizuniverse.com/quiz.php?id=38">Take this quiz</a> at <a href="http://www.quizuniverse.com">QuizUniverse.com</a></td></table></center><br />
+<br />
+<br />
+Yeah right, I take pride in the fact I&#39;m a virgin and I am waiting. <br><BR><font size=1>04:47 03-02-2006</font><BR><BR>Damn you etch-a-sketch!!!!!!!!!</TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">40 mistakes men make during sex<br />
+	<br />
+<br />
+1) NOT KISSING FIRST.<br />
+Avoiding her lips and diving straight for the erogenous zones makes her<br />
+feel like you&#39;re paying by the hour and trying to get your money&#39;s worth by<br />
+cutting out nonessentials. A proper passionate kiss is the ultimate form of<br />
+foreplay.<br />
+<br />
+2) BLOWING TOO HARD IN HER EAR.<br />
+Admit it, some kid at school told you girls love this. Well, there&#39;s a<br />
+difference between being erotic and blowing as if you&#39;re trying to extinguish<br />
+the candles on your 50th birthday cake. That hurts.<br />
+<br />
+3) NOT SHAVING.<br />
+You often forget you have a porcupine strapped to your chin which you rake<br />
+repeatedly across your partner&#39;s face and thighs. When she turns her head<br />
+from side to side, it&#39;s not passion, it&#39;s avoidance.<br />
+<br />
+4) SQUEEZING HER BREAST.<br />
+Most men act like a housewife testing a melon for ripeness when they get<br />
+their hand on a pair. Stroke, caress, and smooth them.<br />
+<br />
+5) BITING HER NIPPLES.<br />
+Why do men fasten onto a woman&#39;s nipples, then clamp down like they&#39;re<br />
+trying to deflate her body via her breasts? Nipples are highly sensitive.<br />
+They can&#39;t stand up to chewing. Lick and suck them gently. Flicking your<br />
+tongue across them is good. Pretending they&#39;re a dogie toy isn&#39;t.<br />
+<br />
+6) TWIDDLING HER NIPPLES.<br />
+Stop doing that thing where you twiddle the nipples between finger and<br />
+thumb like you&#39;re trying to find a radio station in a hilly area. Focus on<br />
+the whole breasts, not just the exclamation points.<br />
+<br />
+7) IGNORING THE OTHER PARTS OF HER BODY.<br />
+A woman is not a highway with just three turnoffs: Breastville East and<br />
+West, and the Midtown Tunnel. There are vast areas of her body which you&#39;ve<br />
+ignored far too often as you go bombing straight into downtown Vagina. So<br />
+start paying them some attention.<br />
+<br />
+8) GETTING THE HAND TRAPPED.<br />
+Poor manual dexterity in the underskirt region can result in tangled<br />
+fingers and underpants. If you&#39;re going to be that aggressive, just ask her<br />
+to take the damn things off.<br />
+<br />
+9) LEAVING HER A LITTLE PRESENT.<br />
+Condom disposal is the man&#39;s responsibility. You wore it, you store it.<br />
+<br />
+10) ATTACKING THE CLITORIS.<br />
+Direct pressure is very unpleasant, so gently rotate your fingers along<br />
+side of the clitoris.<br />
+<br />
+11) STOPPING FOR A BREAK.<br />
+Women, unlike men, don&#39;t pick up where they left off. If you stop, they<br />
+plummet back to square one very fast. If you can tell she&#39;s not there, keep<br />
+going at all costs, numb jaw or not.<br />
+<br />
+12) UNDRESSING HER AWKWARDLY.<br />
+Women hate looking stupid, but stupid she will look when naked at the<br />
+waist with a sweater stuck over her head. Unwrap her like an elegant present,<br />
+not a kid&#39;s toy.<br />
+<br />
+13) GIVING HER A WEDGIE DURING FOREPLAY.<br />
+Stroking her gently through her panties can be very sexy. Pulling the<br />
+material up between her thighs and yanking it back and forth is not.<br />
+<br />
+14) BEING OBSESSED WITH THE VAGINA.<br />
+Although most men can find the clitoris without maps, they still believe<br />
+that the vagina is where it&#39;s all at. No sooner is your hand down there than<br />
+you&#39;re trying to stuff stolen banknotes up a chimney. This is okay in<br />
+principle, but if you&#39;re not careful, it can hurt - so don&#39;t get carried<br />
+away. It&#39;s best to pay more attention to her clitoris and the exterior of her<br />
+vagina at first, then gently slip a finger inside her and see if she likes<br />
+it.<br />
+<br />
+15) MASSAGING TOO ROUGHLY.<br />
+You&#39;re attempting to give her a sensual, relaxing massage to get her in<br />
+the mood. Hands and fingertips are okay; elbows and knees are not.<br />
+<br />
+16) UNDRESSING PREMATURELY.<br />
+Don&#39;t force the issue by stripping before she&#39;s at least made some move<br />
+toward getting your stuff off, even if it&#39;s just undoing a couple of buttons.<br />
+<br />
+17) TAKING YOUR PANTS OFF FIRST.<br />
+A man in socks and underpants is a man at his worst. Lose the socks fist.<br />
+<br />
+18) GOING TOO FAST.<br />
+When you get to the penis-in-vagina situation, the worst thing you can do<br />
+is pump away like an industrial power tool - she&#39;ll soon feel like an<br />
+assembly-line worker made obsolete by your technology. Build up slowly, with<br />
+clean, straight, regular thrusts.<br />
+<br />
+19) GOING TOO HARD.<br />
+If you bash your great triangular hip bones into her thigh or stomach, the pain is equal to two weeks of horseback riding concentrated into a few seconds.<br />
+<br />
+20) COMING TOO SOON.<br />
+Every man&#39;s fear. With reason. If you shoot before you see the whites of her eyes, make sure you have a backup plan to ensure her pleasure too.<br />
+<br />
+21) NOT COMING SOON ENOUGH.<br />
+It may appear to you that humping for an hour without climaxing is the<br />
+mark of a sex god, but to her it&#39;s more likely the mark of a numb vagina. At<br />
+least buy some intriguing wall hangings, so she has something to hold her<br />
+interest while you&#39;re playing Marathon Man.<br />
+<br />
+*******22) ASKING IF SHE HAS COME.<br />
+You really ought to be able to tell. Most women make noise. But if you<br />
+really don&#39;t know, don&#39;t ask<br />
+<br />
+23) PERFORMING ORAL SEX TOO GENTLY.<br />
+Don&#39;t act like a giant cat at a saucer of milk. Get your whole mouth down<br />
+there, and concentrate on gently rotating or flicking your tongue on her<br />
+clitoris.<br />
+<br />
+24) NUDGING HER HEAD DOWN.<br />
+Men persist in doing this until she&#39;s eyeball-to-penis, hoping that it<br />
+will lead very swiftly to mouth-to-penis. All women hate this. It&#39;s about<br />
+three steps from being dragged to a cave by their hair. If you want her to<br />
+use her mouth, use yours; try talking seductively to her.<br />
+<br />
+25) NOT WARNING HER BEFORE YOU CLIMAX.<br />
+Sperm tastes like sea water mixed with egg white. Not everybody likes it.<br />
+When she&#39;s performing oral sex, warn her before you come so she can do what&#39;s necessary.<br />
+<br />
+26) MOVING AROUND DURING FELLATIO.<br />
+Don&#39;t thrust. She&#39;ll do all the moving during fellatio. You just lie<br />
+there. And don&#39;t grab her head.<br />
+<br />
+27) TAKING ETIQUETTE ADVICE FROM PORN MOVIES.<br />
+In X-rated movies, women seem to love it when men ejaculate over them. In<br />
+real life, it just means more laundry to do.<br />
+<br />
+28) MAKING HER RIDE ON TOP FOR AGES.<br />
+Asking her to be on top is fine. Lying there grunting while she does all<br />
+the hard work is not. Caress her gently, so that she doesn&#39;t feel quite so<br />
+much like the captain of a schooner. And let her have a rest.<br />
+<br />
+29) ATTEMPTING ANAL SEX AND PRETENDING IT WAS AN ACCIDENT.<br />
+This is how men earn a reputation for not being able to follow directions.<br />
+If you want to put it there, ask her first. And don&#39;t think that being drunk<br />
+is an excuse.<br />
+<br />
+30) TAKING PICTURES.<br />
+When a man says, "Can I take a photo of you?" she&#39;ll hear the words "__to<br />
+show my buddies." At least let her have custody of them.<br />
+<br />
+31) NOT BEING IMAGINATIVE ENOUGH.<br />
+Imagination is anything from drawing patterns on her back to pouring honey<br />
+on her and licking it off. Fruit, vegetables, ice and feathers are all handy<br />
+props; hot candle wax and permanent dye are a no no.<br />
+<br />
+32) SLAPPING YOUR STOMACH AGAINST HERS.<br />
+There is no less erotic noise. It&#39;s as sexy as a belching contest.<br />
+<br />
+33) ARRANGING HER IN STUPID POSES.<br />
+If she wants to do advanced yoga in bed, fine, but unless she&#39;s a Romanian<br />
+gymnast, don&#39;t get too ambitious. Ask yourself if you want a sexual partner<br />
+with snapped hamstrings.<br />
+<br />
+34) LOOKING FOR HER PROSTATE.<br />
+Read this carefully: Anal stimulation feels good for men because they have<br />
+a prostate. Women don&#39;t.<br />
+<br />
+35) GIVING LOVE BITES.<br />
+It is highly erotic to exert some gentle suction on the sides of the neck,<br />
+if you do it carefully. No woman wants to have to wear turtlenecks and jaunty<br />
+scarves for weeks on end.<br />
+<br />
+36) BARKING INSTRUCTIONS.<br />
+Don&#39;t shout encouragement like a coach with a megaphone. It&#39;s not a big<br />
+turn-on.<br />
+<br />
+37) TALKING DIRTY.<br />
+It makes you sound like a lonely magazine editor calling a 1-900 line. If<br />
+she likes nasty talk, she&#39;ll let you know<br />
+<br />
+38) NOT CARING WHETHER SHE COMES.<br />
+You have to finish the job. Keep on trying until you get it right, and she<br />
+might even do the same for you.<br />
+<br />
+39) SQUASHING HER.<br />
+Men generally weigh more than women, so if you lie on her a bit too<br />
+heavily, she will turn blue.<br />
+<br />
+40) THANKING HER.<br />
+Never thank a woman for having sex with you. Your bedroom is not a soup<br />
+kitchen.<br />
+<br />
+ <br><BR><font size=1>00:06 03-02-2006</font><BR><BR><img src="http://img517.imageshack.us/img517/4690/post745411198048326vg.gif"></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><center><table border="1" width="450"><td align="center"><font size="+3">You have a sexual IQ of 141</font><br /><br /><br />
+<img src="http://img.quizuniverse.com/brain.jpg"><br /><br />
+<br />When it comes to sex, you are a super genius.  You have had a lot of experience, and sex interests you so you know a lot about it.  You pride yourself on being a source of information and guidance to all of your friends.    <br />
+<br />
+<br /><br />
+<br /><a href="http://www.quizuniverse.com/quiz.php?id=38">Take this quiz</a> at <a href="http://www.quizuniverse.com">QuizUniverse.com</a></td></table></center><br />
+ <br><BR><font size=1>00:05 03-02-2006</font><BR><BR><img src="http://img517.imageshack.us/img517/4690/post745411198048326vg.gif"></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=3300">Shadow 13™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=3300">Shadow 13™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">oh SNAP! <br><BR><font size=1>01:08 01-09-2006</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=5412">ANIMALVADER1™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Yeah, that&#39;s &#39;cause you draw the shades when you go to the Motel 6. <br><BR><font size=1>01:45 01-08-2006</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17798">boothwah™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=17798">boothwah™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Dance, magic, dance.<br />
+<br />
+<br />
+<br />
+/It&#39;s a well known fact that David Bowie and I have never been seen together. <br><BR><font size=1>02:31 01-07-2006</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17798">boothwah™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=17798">boothwah™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Dance, magic, dance.<br />
+<br />
+<br />
+<br />
+/It&#39;s a well known fact that David Bowie and I have never been seen together. <br><BR><font size=1>02:31 01-07-2006</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>cyke</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=cyke'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">is it wrong that i was imagining booth in bulge inducing spadex? <br><BR><font size=1>23:16 01-06-2006</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=1805">Ken B™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=1805">Ken B™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">with extra Tabassssco <br><BR><font size=1>18:45 01-06-2006</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=888">Techmaster™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=888">Techmaster™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">hotness <br><BR><font size=1>18:35 01-06-2006</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17798">boothwah™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=17798">boothwah™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Remind me of the babe. <br><BR><font size=1>18:14 01-06-2006</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>cyke</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=cyke'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">do what? <br><BR><font size=1>18:11 01-06-2006</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17798">boothwah™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=17798">boothwah™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">you do! <br><BR><font size=1>18:10 01-06-2006</font></TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>cyke</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=cyke'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">who do? <br><BR><font size=1>18:10 01-06-2006</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17798">boothwah™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=17798">boothwah™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">What power?  The power of voodoo! <br><BR><font size=1>18:05 01-06-2006</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=888">Techmaster™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=888">Techmaster™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">what babe?  the babe with the power <br><BR><font size=1>18:01 01-06-2006</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17798">boothwah™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=17798">boothwah™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I thought just this once. This has been the worst thread in a long time.  I&#39;ll ask next time.<br />
+<br />
+We need a this thread is now officially about Klinger (jamie farr) icon. <br><BR><font size=1>17:24 01-06-2006</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=1805">Ken B™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=1805">Ken B™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Stop that.  I save that joke for very special occasions. <br><BR><font size=1>17:23 01-06-2006</font></TD></TR><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=17798">boothwah™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=17798">boothwah™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont"><img src="http://www.geocities.com/franklincobb/Images/thread_labyrinth.jpg"> <br><BR><font size=1>17:02 01-06-2006</font></TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/vs/main/mpage.php?member=3300">Shadow 13™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/vs/main/mpage.php?member=3300">Shadow 13™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">lies, damn lies, and statistics.  blah blah blah. <br><BR><font size=1>06:04 01-06-2006</font></TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=7472><input type='Submit'  value=' Show all Posts '></form><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=7472><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/swtcg/main/join.php'> become a registered member</a></font></font></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script>
+<!-- advertising code -->
+<!-- Kontera ContentLink(TM);-->
+<!--
+<script type='text/javascript'>
+var dc_AdLinkColor = 'blue' ; 
+var dc_PublisherID = 157626 ; 
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'>
+</script>
+-->
+<!-- rumors board code end -->
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+      </table>
+      <!-- #EndEditable --></td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"> 
+      <p align="center" class="legal"><span class="legal"><span class="legal"><span class="legal"><br>
+        Legal- TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and related 
+        marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher Inc. Decipher, 
+        Customizable Card Game, The Art of Great Games and associated marks and 
+        intellectual property are exclusively owned by Decipher Inc. All Rights 
+        Reserved. THIS Web Site IS NOT PRODUCED OR ENDORSED BY DECIPHER, INC OR 
+        LUCASFILM LTD OR PARAMOUNT PICTURES. STAR TREK. </span></span></span> 
+        <span class="legal"><span class="legal"><br>
+        <span class="legal"> TM & © 2002 www.decktech.net. All Rights Reserved. 
+        </span></span></span><br>
+        <br>
+      </p>
+      </td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+</body>
+<!-- #EndTemplate --></html>

@@ -1,0 +1,711 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action=""><input type="hidden" name="PHPSESSID" value="7256ac780cef1a43d27bb5fd5f225bdb" />
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php?PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php?PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb" class="level1nav">Articles</a><br>
+
+
+<a href="/starwarsccg/decks/index.php?PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php?PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb" class="level1nav">Reports</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/treports/treports.php?cat=constructed&PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb">Constructed</a> &nbsp;<br>
+
+<a href="/starwarsccg/treports/treports.php?cat=sealed&PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb">Sealed Deck</a> &nbsp;<br>
+
+</div>
+
+  <a href="/starwarsccg/academy/index.php?PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php?PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php?PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 2 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><font size='1'></font> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6500&view=2&PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb">BCS Rankings - March 2007</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6502&view=2&PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb">Western Nationals in Utah - Pros/Cons</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6498&view=2&PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb">May Top 20</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6499&view=2&PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb">A conversation involving the rulings changes.</A></font></li><BR></ol> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Tournament Reports</td><form method='post' action=''><input type="hidden" name="PHPSESSID" value="7256ac780cef1a43d27bb5fd5f225bdb" /><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Tournament Reports</option><option value='#'> </option><option value='/starwarsccg/treports/index.php3'>Star Wars: CCG</option><option value='/heroclix/treports/treports.php'>HeroClix</option><option value='/vs/treports/treports.php'>Marvel VS</option><option value='/lotr/treports/treports.php'>Lord of the Rings</option><option value='/magic/treports/treports.php'>Video Games and Movies</option><option value='/wars/treports/treports.php'>Wizards Minis</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> MA and RI States Weekend -July 1-2, 2006<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(5.00)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=15980'>Tim "Aglets" Simon</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=15980&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> July 15, 2006</font><p align='justify'><blockquote><font class="bfont"> A big apology to those who have been awaiting this report….I’ve definitely been dragging my feet some with this thing.  But as it’s been awhile since I’ve posted a detailed player’s tournament report I figure I do this one right.  So without any further ado…<br />
+<br />
+A TALE OF TWO TOURNEYS - A Journey To the Far East (and North)  MA/RI States 2006<br />
+<br />
+<hr><br />
+<br />
+<i> I.  Pre-Tourney Junk </i><br />
+<br />
+So when we last left Aglets (the protagonist of this tale) he had been struggling a bit with mediocrity.  A strong 5-1 showing at a random NJ V lite early in the year had given him perhaps a slight false confidence going into Coruscant Regionals and MD states.  <br />
+<br />
+After finishing at a lackluster 3-3 at both of those events, he became painfully aware that he would have to step it up if he wanted to qualify for worlds before Day 1 itself.  <br />
+<br />
+OK, enough with the 3rd person crap.<br />
+<br />
+Basically, at NJ I went 5-1 using WHAP and a nifty AOBS.  WHAP is a deck that I’ve enjoyed playing since 2004….and I’ve played it a LOT since then.  Never won any large events with it, but it was always something that I was molding and changing as sets went on…..for full details check out some of my reports over the past couple of years.  I fell away from WHAP around the time of v9 or so, simply because other LS decks were sooooo much better (endor mains anyone?)<br />
+<br />
+But after seeing broken scum drop off the face of the earth, I decided it was time to call on good old WHAP once again.  As far as the AOBS goes, it did well against some decks, and lost to a bunch too.  Since I dislike decks that come to tourneys with a kind of coinflip mentality, I scrapped it after MD states.<br />
+<br />
+At NJ States I qualified using WHAP and a non-objective FWKTIL (v) deck that earned me a 4-2 finish.  Props to Justin Stratton for talking some tech online and giving me the idea for the deck, I imagine DeckTech itself may be graced with the list of that deck shortly.<br />
+<br />
+WHAP had thus improved to 6-3 for me overall in 2006.  With its only losses in tournament play to:<br />
+<br />
+-A dueling deck where I made an utter n00b mistake and basically begged my opponent to come down on some lone Jedi and destroy him via Epic Duel ( I believe he Circled me, I AJR’d him, then he Circled again).<br />
+- an Endor Ops Bombers deck where my esteemed opponent had EPP maul, Dr. E combo, and the It’s a Trap canceler in hand and beat me down the turn before I deployed k’lor’slug (v).  grrrr<br />
+- a CR (v) bespin tanks deck where he simply spread and outdamaged me.  <br />
+<br />
+I was pretty sure I could beat dueling if I played that matchup again, and to be honest I didn’t expect to see either of the other two decks at all up in New England.  But I felt with some slight changes I’d be ready nonetheless.  For dark I decided that the Fear deck was still a relatively unknown entity and would be a great choice provided that I didn’t see MBO.<br />
+<br />
+With HDADTJ virtually non-existent in the pre-redux environment, I was shooting for a LS that could beat walkers, sycfa, and any other really “non-interactive” matchup.  I changed my WHAP explicitly for that meta, and it would seem that those changes paid off.<br />
+<br />
+Ironically I wasn’t really planning to head up to MA at all until about a week ahead of time.  I got a call from the great Steve Yaeger asking me if I was going.  Seeing as there was no way I was making the 6+ hour trek just by myself, I said sure.<br />
+<br />
+And off we went, Friday afternoon.<br />
+<br />
+It was a long drive, much longer than we were led to believe….but we spent the time talking tech and I learned about how Steve took Day 2 of Worlds 2004 by storm with his DBO….I don’t believe he lost a single game with it.  Very cool stuff, to be honest I had never heard of a DBO that didn’t utterly scrub out at a tourney.  So there ya go, you learn something new every day.<br />
+<br />
+We also decided that although Superman Returns may well be a decent movie, he is definitely one of the lamest of superheroes.  I find it kinda hard to relate to some guy who can not only fly and shoot stuff out of his eyes……..but who also just happens to be impervious to bullets and pretty much any other kind of physical danger you throw at him.  Sure he might not be “immortal” per se but when his greatest (and virtually only) weakness is some made up greenish rock……..I call shenanigans.  &#61514;  I’ll take Batman any day of the week over the “Man of Steel…”  bring it on fanboys.<br />
+<br />
+Anyway.<br />
+<br />
+So although our directions tell us that it should only be about 6 hrs it takes us b/w 9-10 in reality, no thanks to the George Washington Bridge for adding an hour to that total single-handedly …..making me severely question the merit of tourneys on the other side of the Hudson River.<br />
+<br />
+We get to the Days Inn in Middleboro around like 11pm or so….and we call up Mike Pistone seeing if he still wants to test.  He says sure, and comes on over.  I’ll probably be giving Mike tons and tons of props before this report is over, he was definitely a HUGE help to Steve and I all weekend.  We really appreciate him going out of his way to playtest some decks and what-not with us.<br />
+<br />
+Yaeger decides to go with SYCFA and Tatooine mains, pretty much the same decks he’s been playing for a long time now.  I told him that after playing Tatooine Mains at two large tourneys I wouldn’t play it again without putting in some anti-dueling tech at least…..when I came up for Kashyyyk Regionals in January I saw a ton of dueling hunt downs up here.  He says he’ll make changes to his LS after he personally encounters those decks.  Perhaps with those very words he had just jinxed himself, I’ll let you be the judge of that.<br />
+<br />
+Fast forward to the morning of the tournament, we decide to check out the continental breakfast (MISTAKE) which didn’t really have much of anything outside of……..boxed cereal and I think bagels.  Then we head over to the store where Mike wants us to meet him.  We end up standing around for maybe 20-30 minutes and we meet some of the NY kids including Aaron Kingery and Chris Terwilliger.  We then head over to the church hall where all the festivities are about to begin.<br />
+<br />
+And now the epic moment where pre-tourney junk ends and the real meat of the stuff begins…..thanks for your patience.<br />
+<br />
+<hr><br />
+<br />
+<i> II.  Tourney 1 Junk </i><br />
+<br />
+Game 1 – FWKTIL  vs. Steve Vallee’s   WYS V (no flip)<br />
+<br />
+Fortunately for me this is a deck I saw at Coruscant Regionals played by Jonny Chu himself.  I start Endor Shield (v), Crossfire (v), Dreaded Imperial Starfleet (v), and the DEATH STAR.  That was the same all throughout the day.<br />
+<br />
+He starts General Solo (v), Leebo (non-v) and the Falcon at Corellia.  On his first turn he drops the AO and moves the falcon to Kessel.  Nice.  I happen to have Look Sir Droids in hand, and quickly realize that if I use that to dispose of Leebo, Han won’t get a destiny right?  Right?  Plus when I also have some destroyers, green, and Relentless Pursuit in hand there’s definitely no time like the present to drop a beat.<br />
+<br />
+Sigh.<br />
+<br />
+Of course he just plays Punch It from Reserve and draws high enough to make me lose all my ships there.  Thankfully the Relentless Pursuit ensured that I won the battle so no Legendary for him.  He just loses Han.  Well after I mentally discipline myself for being an idiot I realize that I have to play this game very well from here on out if I’m going to win it.  I then just start doing what the deck is meant to do, slowly put out systems with Merrejk and build the Fear damage up and up.  In the meantime he is putting every main known to man on the Falcon including Chewie (v), EPP Leia, R2, brave Little Droid, and I think Corran.  Definitely should’ve saved the Look Sir for R2 as now have Lateral in my hand and it is a dead card.  He then moves the super falcon to one of my systems (Kiffex maybe?) and seems confident that I won’t be able to touch him there.  I ask him what his power is and he says 12.  (3+2 for corran +3 for chewie + 2 for R2 + 2 for the AO).  After some quick calculations I realize that b/w a few Destroyers, some pilots, (notably Motti (v)) and some green I can get 25 power at that system.  25 is more than double 12.  It’s at this point where the game is pretty much decided as I Overwhelm the poor little falcon and I am then free to let the Fear damage do the rest.  His damage is pretty much reduced to a drain of 2 at the back door with some Jedi.<br />
+<br />
+FW  2  +17<br />
+<br />
+Game 2 – WHAP vs. Chris Twigg’s Bespin Tanks and tractor beams<br />
+<br />
+Hmmmm, a matchup I was banking on not seeing.  He starts the free Executor stuff, while I start Wokling (v), Uh-Oh (v), and I think Disorder (v).  The only thing I was worried about was that he might start Decree (v).  Since he did not I can obviously safely assume he doesn’t play it.<br />
+<br />
+On his first turn he just pulls some stuff, playing it a bit conservatively.   Well, I have Queen, Panaka, plus other goodies in my hand so my gameplan is anything but conservative.  First turn flip and spread and I am threatening him with 6 points of damage on my next turn.  I’m not too worried though because I know that this deck uses like Tank Commanders and Admirals and not much else for character selection.<br />
+<br />
+He puts out the Executor and some ground stuff on Bespin and says go.  I deal him some damage and get my musicians set up and ready for retrieval.  We have a pretty uninteractive game all in all, I think he put a Tank at my Courtyard, but I don’t believe much came of it.  With my constant objective damage of 4 (and retrieval of 2) plus whatever interference runs I can make with my Jedi I really just do too much for his deck to handle.  Optimism (v) probably came into play as well but honestly I’m not 100% sure.<br />
+<br />
+FW   2  +20<br />
+<br />
+Chris was definitely a cool guy to play against; I had never met him before that day.  He told me that he was close to bringing WHAP himself but decided against it.  His dark was definitely strong, you guys should hear the stories of what it did to some wys (v) decks.  Never underestimate tractor beams!<br />
+<br />
+Game 3 – FWKTIL vs. Guanetti Speeders with troopers<br />
+<br />
+Ugh, definitely the worst matchup on the day.  Before the tourney I thought that I had this matchup all figured out – just knock them out of space and drain the heck out of them and use Bright Center of the Universe to minimize their damage.<br />
+<br />
+That works in theory, but not against this particular speeders at all. <br />
+<br />
+I went about this matchup all wrong.  I played way too conservatively and as a result didn’t get any damage rolling nearly fast enough.  His objective all but nullifies my Fear damage and he uses a crapload of nonunique troopers with Entrenchment to cancel my drains.  Now I’m doing almost no damage to him every turn…sweet.  On top of that he uses Tawss Khaa (v) to beat my Bright Center……even better.  This game was ugly on all levels, I’m not gonna lie.  I can do nothing to him, and he doesn’t care remotely what I do really.  Frozen Dinner (v) limiting Tawss a bit is inconsequential.<br />
+<br />
+FL  -23<br />
+<br />
+Game 4 – WHAP vs. Brian Hollingworth’s Walkers<br />
+<br />
+Well this is a game that I at least felt pretty confident about.  Back when I was a WHAP rookie I don’t believe I ever won a single game against walkers (as my TR’s on decktech will confirm).  At about the time of v7 or 8 I came to the notion of using Uh-Oh (v) in WHAP, and my first anti-walkers whap was born.  (if you want to see its debut performance check out my Mystic Visions 4.12 report from the end of 2004.)<br />
+<br />
+So I start Wokling (v), Insight, and Uh-Oh (v).  He starts the standard Jersey package of YMSYL, Combat Response, and No Escape I think….. sorry if that’s incorrect.  And of course he gets Decree (v).<br />
+<br />
+My first action is to get DDTA to pull Heroic Sacrifice (v).  Then I toss Insight to get I Hope She’s All Right later on his turn.  He drops Blizzard 4 who gets Vader after being Heroic’d.  He opts to keep B4 on the table (losing the 1) instead of killing him.  He tells me his logic is that if he gets rid of B4 then I’ll just move on over to the 5th marker, making it harder to him to blow the MPG.  Since I had Obi, JK (v) in hand at that point, he was right.<br />
+<br />
+My turn I flip right away and set up I Hope She’s All Right (best LS card ever, I’m convinced.)  I don’t think I had Panaka at this point.  Some Secure Route (v) shenanigans ensure that I get Insight back which subsequently gets me Honor.  Yes folks, don’t underestimate the power of Honor, even though No Escape was indeed on the table already.<br />
+<br />
+On his turn he gets the cannons I think so he’s all ready to blow it next turn.  I deal some damage and save some force.<br />
+<br />
+Right after he pulls his epic event I play Sense and Recoil in hopes that in some miraculous twist of fate he won’t Control it.  He doesn’t……..sweet.<br />
+<br />
+So we both toss our hands in, shuffle, and get new ones.  Guess what?<br />
+<br />
+He got the purple card back.  So he blows it up, and I think I Atrocity (v) here, although maybe he control’d that.  The right card here to grab IS control, I have to prevent him from cycling them so that my Atrocities (v) do what they were born to do.  The one good thing about the Recoil is that I believe I took the 3rd marker out of his hand.  He doesn’t deploy it for awhile, in the meantime I Hope She’s All Right just keeps on ticking.<br />
+<br />
+Between that, my objective, my retrieval of 2 with musicians, Atrocity (v) x2,  AND Optimism (v) I win the damage race.  He puts Tempest 1 on Naboo I think since invading the Courtyard seems to be THE thing to do these days.  I spend some time trying to knock him off of it but I forget if I succeeded.  I may have just moved Sio bibble over to make it a drain of 1.  It’s a close damage race, especially when he gets off a Limited Resources towards the end…..but whap pulls out ahead.<br />
+<br />
+FW   2  +5<br />
+<br />
+Game 5 – FWKTIL vs. Twigg TRM<br />
+<br />
+So now I get to play Twigg again but on the other side.  I know he started Insurrection combo, but honestly whatever else he used evades my memory.  <br />
+<br />
+This game gets off to a rather slow start, I set up very cautiously, knowing that he can drop a big beat on my ships at pretty much any time.  I’m not worried about a damage race because Throne Rooms run AT MOST one bg site so AT MOST I will be dealing with damage of 2 a turn there…nothing I can’t handle.<br />
+<br />
+So I get Fear up and running eventually, and of course this whole time he’s using naked 3po to cycle cycle cycle.  He puts some people at the Naboo docking bay so he can drain me for 2.<br />
+<br />
+He comes down with some capitals in space as I knew he would, and I avoid a beat thankfully.  On my turn I decide it’s time to be nasty, and I drop Lateral on one of his ships and go to Overwhelm the lot of them.  <br />
+<br />
+He plays Sense.<br />
+<br />
+Here’s where things get tricky, I have 2x Control in my hand, and I was hoping to save them for an inevitable Alter.  Noting how much force he has saved, I grab the Sense and Control it.  <br />
+<br />
+He plays another Sense.<br />
+<br />
+Well, this is what separates the men from the boys.  I know for a fact that he won’t be able to play a 3rd sense by looking at his Force Pile.  And I REALLY want this Overwhelmed to go through.  Taking out his space package en masse right now would let me easily spread comfortably and win the game in a very short period of time.  So I play the second Control.  (With Oppressive Enforcement out it’s no big deal if Fear gets Altered, especially if you have easy access to another Fear in your deck).<br />
+<br />
+Bewil (v) lets me look through my force pile a lot, plus I may have had a 2nd Fear in my hand at this point, I’m pretty sure I did.<br />
+At this point I’m feeling REALLY good about my chances.  Then he does something else that I wasn’t expecting.<br />
+<br />
+Flash of Insight (v) comes out, and he does the old combo with that+ On The Edge.  At this point I have exhausted my shields and I quickly realize that with 3PO out he is fast on the road to retrieving his entire lost pile.  Plus I didn’t grab his ICBW so that’s a constant pain in my side.<br />
+<br />
+So I’ve gone from a great high down to a big low.  No deck can really compete against the infinite Edge+Flash v cycle.<br />
+<br />
+Next turn I use Bewil (v) hoping that the one card that can save me is in there………and it is.  (which I suppose isn’t that surprising since mid to late game my deck activates an awful lot).  At the start of my control phase I grab Look Sir Droids with Bewil….and use it.  No more 3PO shenanigans.  Then I do my draining and fear damage to ensure that the evil protocol droid stays good and buried.<br />
+<br />
+With his main source of power (cycling) gone, I’m confident that this one is in the books….and it is.  Being forced to actually draw for cards the old fashioned way is much too slow to compete with fear damage from 4 or 5 systems, I forget how many I had out at that point.<br />
+<br />
+FW   2  +15<br />
+<br />
+So now I know that if I win my next game I am in the final no matter what.  Gianetti is the only person undefeated now, and I have a shot at changing that in<br />
+<br />
+Game 6 – WHAP vs.  Gianetti Dueling Hunt Down<br />
+<br />
+Another blast from the past matchup for me.  I start Wokling (v), Disorder (v) and Insight and remember that there are a lot of things that can go wrong in this matchup.  At the time I only had 1x AJR in the deck for dueling protection.<br />
+<br />
+On his turn he doesn’t do very much, he just makes some comments about having a bad hand or whatever.  By this point in the tourney I’m well aware of the potential dangers of taking anything Gianetti says seriously.  I do have a Queen in hand as well as an Obi (v) but don’t feel quite spunky enough to put any Jedi out at the moment.  I get out Honor out on my first turn and flip just with Amidala.  For the rest of the game he was the only one losing to Visage.<br />
+<br />
+He decides to go after the Queen with a Bubo (he started Krayt Dragon Bones (v), Bad Feeling (v) and something else.)  I’m pretty sure she survived the first attack.  At this point I’m feeling pretty good, he’s taking steady damage from visage, my drain and my objective.  I don’t put down Obi (v) until he finally comes down with Vader, and I think EPP 4-LOM at my throne room.  I believe I It’s a Trap!’d the battle.<br />
+<br />
+As soon as I drop Obi (v) and his saber he plays Circle.  Since that is the card that single-handedly scares me more than anything else in this matchup I grab it.  I also manage to Sense it despite adding 4 to the draw with his objective.  I have enough power at the throne room to kill Bubo even without destiny, so I do so.  I then go to battle against his contingent of cronies, but he objects….insistent that characters aren’t allowed to participate in attacks and battles on the same turn.<br />
+<br />
+I admit I am taken aback by this, and after some attempts at reasoning fail, Pistone gets involved and starts looking through Rules Documents.  Fortunately for me I’ve made it a habit to carry one of those small Glossary books with me just in case someone tries to question rulings that I know to be correct.<br />
+<br />
+After showing him the relevant rules entry (characters may participate in one of each per turn) he appears quite surprised, but lets me battle.  Obi (v) is pretty effective against Dark Jedi, and I clear him out.  The rest of the game is pretty uneventful, I actually get some musician retrieval going in addition to the damage I am dealing.<br />
+<br />
+On one of the last turns of the game he rushes my throne room with a lone EPP Maul and goes to duel my Obi with Maul Strikes.  He plays Focused Attack and draws 1, 1, 7 (canceled).  Maul loses the duel, dies and by now all the damage I’ve dealt has pretty much taken him out of commission.  I end the game without a Lost Pile.<br />
+<br />
+FW    2  +31<br />
+<br />
+So both Gianetti and I finish at 5-1 and he gets the bye by default.  He doesn’t seem to keen on playing a FC so he concedes the MA state title to me.  Pistone gives out some spiffy prizes, I get an uncut sheet from Tatooine and some packs and I think a tourney foil…..tech.  I’m pretty psyched about the end results, as I was still itching to “prove myself” after receiving a bye for getting 3rd place at NJ states.  <br />
+<br />
+<hr><br />
+<br />
+<i> III.  Junk that takes place Between the Tourneys </i><br />
+<br />
+A group of us decide to go out to eat at a Friendly’s near our hotel.  Tom Hollingworth and Greg Reelitz are staying at the same Days Inn as Yaeger and I that night so afterwards we all head back there for some strategerizing.<br />
+<br />
+Steve had some tough matchups on the day, he got beat by not one but two dueling decks!  Oh twisted fate, how cruel you can be.  Pistone convinces Steve to leave Tatooine Mains behind in favor of the “broken” WYS (v).  Steve’s willing to give it a go.  Oh, and going back to the superman comments from earlier.  As Steve and I are looking through cards Pistone is flipping through TV channels and finds one of the superman movies.  It’s at the part where Clark Kent is fighting Superman in like a junkyard or something.  I was actually trying to pay somewhat close attention to it until some humongous chunk of something crushes Kent into the ground but all it does is make a big hole and he’s completely unharmed.  That was enough for me.  Back to the ccg related stuff…<br />
+<br />
+Since I accomplished my main goal for the weekend (win a qualifier), I decided to just build a crazy dark deck for Sunday.  Inspired by a Decktech post, I built a dark LSC podracing deck that used around 37 destiny 7 cards.  The character list was simply 5x Lord Maul, 2x Vader, 2x v emperor.  You get damage from draining, podracing (ok, kind of a longshot) and from some Counter Assaults.  I figured it’d be a fun deck that should go 0-3 but if by some weird chance I get to Counter Assault someone for a ton it’s an auto win.  WOOT.  (note – from here on out that deck will be referred to as “The Stupid Deck.”)  Oh, and I also put in a Cane Adiss (v) in the hopes that it will be a big help against the speeders deck.  For the WHAP I switch in a What Was It? in case I go up against dueling again.<br />
+<br />
+So we get building and by the time we’re done it’s pretty late.  I think Yaeger and Pistone playtested a game but to be honest I have no recollection of what happened.  We hear that Reelitz is building an MBO for Sunday, which is tech for me since I’m not playing the Fear deck again.  Steve refuses to change his SYCFA list for it and I don’t blame him….probably wouldn’t have made a real difference anyway.  We say our goodbyes and turn in for the night.<br />
+<br />
+When we get up Sunday morning we wisely decide to forego the breakfast of champions provided by the hotel.  We figure it’s a better call to go the McDonald’s only a couple hundred feet from the Days Inn itself.  Plus the Inn gave us some coupons for free sandwiches and stuff for breakfast which is pretty tech.  We also decide that we’re gonna be smart and head right to the church hall this time instead of chilling by the store again.  I still have one decklist to do and I think Steve has to do both of his.  Turns out that the joke is on us cuz as soon as we get there we’re told that the owner wasn’t able to reserve the room for Sunday so we have to drive back over to the store anyway.  Oh well.  <br />
+<br />
+So we head back over to the store and I sit down to do my decklist inside.  In the meantime (as I found out later) Reelitz was on Covert Ops trying to get us access to the church building.  The store was pretty cramped so I guess that kinda makes sense.  Pistone finally gets a call from Reelitz and apparently someone in the area was kind enough to let him in.  Pistone tells us that the only way we can play there again is if we all pitch in like an extra $4 to cover the fee for the owner having to rent the place.  We unanimously agree that it’s worth the extra money to play somewhere where we can walk freely and have a shot at air circulation.  I owe Reelitz some definite thanks as he was also able to print off a bunch of random v texts as well including my Adiss v.  Thanks a lot dude.<br />
+<br />
+I finish my list and then drive BACK over to the church hall.  Not too long thereafter…..Pistone does the pairings and we’re off to the races.<br />
+<br />
+<hr><br />
+<br />
+<i> IV.  RI States Game Information </i><br />
+<br />
+Game 1 – Stupid Deck vs. Yaeger’s  WYS (v)<br />
+<br />
+Well I’m not too thrilled about this matchup to be honest…..Steve knows my deck pretty well so he’s not going to be dumb enough to drain where he’ll be vulnerable to Counter Assault.  In fact, I don’t think he drained me on the ground ever all game.<br />
+<br />
+Basically, I put Lord Maul on Naboo, I think Palpy at the 2/2 site on naboo, and Vader on Corellia.  That sets up Resistance for me and now he’s only draining me for like 1 at the corellia system, 1 at aquaris, and 2 at kessel MAX.  But even that takes awhile to get going as he is really intimidated by Counter Assault.  In the meantime I keep pinging him with naboo drains and the retrieval from the podrace helps prolong it big time.  I think he did mount an assault on Naboo with a Jedi and a Corellian, but it doesn’t really work out well as I have plenty more Mauls and I can pretty much auto kill his Jedi with combat and then give any remaining Corellians the poke of death.  Pretty boring game for the most part and The Stupid Deck edges out a win by 7.<br />
+<br />
+FW    2 +7<br />
+<br />
+Well thankfully it was only a loss by 7 for Yaeger so he can definitely bounce back and go for the bye today.  At least that’s what we’re both hoping will happen.<br />
+<br />
+Game 2 – WHAP vs. Steve Vallee Senate<br />
+<br />
+I admit I’m pretty happy when I see his starting objective.  I’ve played this matchup on multiple occasions with WHAP and I’ve always done very well against it.  He tells me before we get started that the only chance he has at winning is to somehow prevent me from flipping.  While I don’t necessarily disagree, I know that for Senate’s ground package to stop me he’s going to need nothing short of a miracle.<br />
+<br />
+Within my starting hand I see an Amidala (I believe that’s happened every game up to this point), a We Don’t Have Time For This, and among other things, a Control combo.  On his first turn he decides to drop EPP Vader alone to my throne room.  I can’t help but feel just a bit of remorse for what I know will happen next turn.  I guess the point is that to beat WHAP it definitely is key to try and stop them from flipping.  But a lone epp vader….won’t exactly cut it.<br />
+<br />
+I activate all my force (which is considerable) and play Tunnel Vision searching for the last piece of the puzzle I need.  I get Panaka, then deploy everything I can to the throne room and battle.  3 battle destinies later, he loses Vader plus 7-8 overflow.  For the next 2-3 turns he insists on dropping more and more epps on me trying to wrest control of the Throne Room from my grasp.  I’m pretty sure I played We Don’t Have Time For This a second time during all of these scuffles.  Since my characters regenerate themselves and his do not it is only a matter of time.  Eventually he gives up and just concentrates on doing his whole Senate thing. <br />
+<br />
+The rest of the details are a bit fuzzy, but I know that the game didn’t last much longer.  Senate just has no real way of dealing with all the damage whap deals….I think I had I Hope She’s All Right going on top of everything else.  I use my coruscant Alter to stop his Political Effect that cancels drains.  When he flips and attacks that just means that there’s a better chance for me to cancel his destinies since all the senators are like 5’s and 6’s.<br />
+<br />
+FW   2  +23<br />
+<br />
+Game 3 – WHAP vs. Kingery Tuskens n Tanks<br />
+<br />
+Well after hearing about the man, the myth, the legend, I finally get to play Mr. Kingery for the first time!  I admit I’m not really sure what to expect here, all I think I know is that it’s going to be a pretty uninteractive matchup.<br />
+<br />
+For the first (and I think only) time on the weekend, I am unable to flip first turn.  This saddens me quite deeply.  He plays Brief Loss of Control (v) during my turn to stop me from controlling the TR.  Afterwards he readily admits that it did nothing since I would’ve just flipped during his turn then.  At any rate, with no Queen, there will be no flipping, so I am forced to draw until I find an Amidala.<br />
+<br />
+On his second turn he sets up….he puts the two good raiders on Tatooine and plays Bantha Herd (v) so he can drain for a heck of a lot.  Maul in Infiltrator goes to the system.  On my turn I flip and get the musician thing going, I forget if I had Panaka at this point, I don’t think I did.<br />
+<br />
+So we trade a lot of damage back and forth, he gets Occupation going and uses the teleporting tusken to maximize damage in his control phase while keeping himself safe at the end of the turn.  He does send a Bubo after me at some point but he is quickly dispatched on my next turn.  It’s a tight damage race, I eventually get both of my Atrocities (v) into effect, and of course Optimism (v) to stop his drain at the system.  Things are looking pretty good.<br />
+<br />
+Then he drops a tank and a battle droid commander at my 2/1 site.  Sure why not, everyone else is doing it, heh.  He puts a cannon on it and Open Fire so he can shoot it during his control phase at adjacent sites. Not good.<br />
+<br />
+I put Obi (v) in front of the tank and switch the Queen and Panaka so that I have extra defense value at the Hallway.  On his turn he tries to bump off Obi-Wan in the control phase but he misses!  That’s pretty huge.  So we battle and I play Smoke Screen since the commander is forfeit 5.  He has to clear and Naboo is now mine once again.  Musician retrieval is sufficient to offset enough of his damage so I outlast him.<br />
+<br />
+FW  2  +4<br />
+<br />
+Well I’m 3-0 at this point after planning on scrubbing out with a dumb dark deck; funny how that works.  Anyway, on to the next round.<br />
+<br />
+<br />
+Game 4 – Stupid Deck vs. Twigg TRM<br />
+<br />
+Ah, my first repeat game.  I’m feeling pretty confident that I know his deck, and that he has no real clue what my deck is about.  At the same time, dark combat should never really beat TRM (especially pre-redux) so I don’t exactly have high expectations.<br />
+<br />
+We both don’t do anything for awhile, we just draw for cards, podrace some, and he puts out some lovely twixes.  I know that he plays the Naboo docking bay, so as soon as I put Maul down at one of the generator sites, he’s just going to put a Jedi at the dbay as far away as possible.  Oh well, it’s not like I can win without Maul on the table so I decide to drop him with his saber at the 3/2 site.  As predicted he puts Mace (v) and 2 other scrubs at the docking bay two sites away.  Great.<br />
+<br />
+Well I notice that his power at the site is 12.  Twelve with three characters.  I decide that I might as well do what my deck is supposed to do so I move Maul over one and hope that my trust in the destinies will not be misplaced.  He goes to drain me and I Counter Assault.  My destinies are 7, 7, 7 so he has to take 9 damage.  Sweet, this deck actually did what it was supposed to do!<br />
+<br />
+That’s about all that goes right for me however.  He It Could Be Worses most of the podrace damage and On the Edges back a lot of the Counter Assault damage.  He puts out Obi (v) and EPP Quiggy at the dbay as well so if I move over Maul I am in essence committing suicide.  Well, I am dealing him absolutely no damage otherwise so it’s not like I really have a choice.  I drop DVD LOTS at the dbay and move Maul over, I think I combat him but he beats me with two high destinies since he canceled one of mine.  Big surprise.<br />
+<br />
+On his turn he goes to SATM one of my precious dark Jedi but misses!  Sweet, now I won’t die instantly, it will just be a longer and more painful death.  He battles me, cancels one of my swings, of course hits both of my Jedi.  I actually get to choke v11 Obi tho since he canceled a weapon destiny, so that was pretty tech.  When all is said and done I take like 17 overflow or so.  Good times.<br />
+<br />
+So another Lord Maul comes down, as does another v11 Obi.  When faced with the choice of dealing no damage to him and slowly bleeding to death, or going out in a great horrific blaze, I choose the latter.<br />
+<br />
+FL  0   -15<br />
+<br />
+Despite not really having much of a chance, it was a fun game.  Chris was a very cool opponent, even if he plays with tons of Japanese cards.  &#61514;  He shows me a small collection of English translations he keeps in a box, just in case………they’re needed.  I also got to hear his version of the anti-Japanese shenanigans that took place at Gen Con this past summer…..for obvious reasons it will not be repeated here.  Moving right along…<br />
+<br />
+Game 5 – WHAP vs. Yaeger’s SYCFA<br />
+<br />
+Hmm, I admit I really was hoping I wouldn’t have to play Yaeger again, but sometimes that’s just the way the sides work out.  I know I have a great shot at this matchup, especially since he doesn’t start Decree (v) against me.  I start the typical “non-interactive” stuff against him.<br />
+<br />
+I flip first turn as per usual and get I Hope She’s All Right going immediately.  Musician retrieval is going as well.  I jump on the chance to go to his docking bay right away as well, Obi-Wan (v) with his saber went there and was uncontested all game.  Eventually I put Prof on him to add a bit of damage.  Yoda, Mofo pulls me my Alter and I use it to knock off FWKTIL when he’s about to really pour on some heavy pain.  I guess his Controls were spent on my drains and canceling my Atrocities.  He does eventually get out his Decree (v) which prolongs the game considerably.  But I am still dealing heavy damage from IHSAR as well as drains, not to mention retrieving with Uh-Oh (v).  The damage race last awhile, but WHAP comes out on top.<br />
+<br />
+FW  2  +16<br />
+<br />
+So now I’m 4-1, and WHAP has given me a strong 6-0 finish on the weekend.  It’s all up to The Stupid Deck now if I’m going to win this event as well.  I’m not exactly holding my breath.<br />
+<br />
+Game 6 – Stupid Deck vs. Gianetti Speeders<br />
+<br />
+Hmmm, it’s like déjà vu all over again.  Well this isn’t exactly the matchup I was hoping for either, but when you’re playing a pile for a dark deck I suppose there really aren’t any ‘good’ matchups.  My big secret plan for this matchup is to find my Cane Adiss (v) to make him hurt every time he wants to drain me.  Unfortuantely I keep drawing and drawing to no avail…..no sign of the Adiss (v) anywhere.  Before he starts draining me at non-battlegrounds I figure, what the heck, I might as well just get it with Fanfare.  So I do, although with him knowing that I have it in my hand the odds are pretty much 0 that I’ll get to use it.  At least it will work to minimize some damage for awhile right?<br />
+<br />
+I do the typical Maul to the 3/2 site kinda deal, and to be honest I don’t remember where Palpy went, probably the 2/2.  I win the podrace, and get to retrieve 6, but of course he only loses 1 thanks to his classy objective.  The Echo Base Trooper Officer (v) is at the 4th marker, and I figure that if I am to have ANY chance at all of winning this game I have to kill him so that he won’t be able to drop the shields and drain me for a heck of a lot.  DVD LOTS decides to rush him there (of course he reacts another speeder over and plays Rebel Ambush to add a ton to his power) and my mission is successful!  <br />
+<br />
+Meaning, I killed the guy that drops the shields.  Unfortunately I think I took 8 overflow.  Oh well.  Still, my rationale is that I might have a shot if he never gets to play T-47 Battle Formation and if he remains afraid to drain me at non-battlegrounds (because of the Adiss).  My hopes are not long lasting.  Of course he also plays with Romas Navander (v) so he eventually digs him out and drops him at the command center.  The shields drop, he uses Battle Formation (while ensuring that he never drains me for more than 3 at a site) and the pain is soon too much to handle.  My Naboo drains have been going pretty much all game, so I’ve got him really low on life.<br />
+<br />
+But not low enough.  Just before he drains me out he plays that trooper retrieval card to up his diff by like four.<br />
+<br />
+FL    0 -10<br />
+<br />
+<hr><br />
+<br />
+<i> V.  All Good Things… </i><br />
+<br />
+So the second tourney comes to a close, Kingery is given the title of RI state champion, and life goes on.  Steve and I decide that we’d rather sightsee on Monday a bit instead of driving eight or nine hours back to Maryland that night.<br />
+<br />
+Pistone takes us to a nifty Chinese place not too far away where all kinds of comic mishaps ensue.  For those that don’t know, Steve Yaeger is a connoisseur of all foods spicy.  He has a quantitative scale that he applies to each and every bite he takes; Pistone and I were quite fascinated to hear of how he has worked on this scale over the years.  <br />
+<br />
+Steve begins the meal by ordering a drink that goes by the moniker “Suffering Ba$tard.”  He seemed quite fond of it, although he would be feeling the effects of it for some time afterwards.  He the orders some crazy hot dish from the Chinese menu, specifically requesting that it rank around a “2” on the scale of spiciness.  (The Scale goes from 1 to 5 with 5 being the hottest)<br />
+<br />
+My food is ok, I admit I’ve had far worse at lesser Chinese establishments.  In the meantime Steve is carefully explaining to the waitress that the food he has been given sadly ranks only at around a “1.”  Pistone and I are trying hard not to laugh out loud to ourselves as the waitress listens intently to his list of grievances and then offers to take it back to give it a bit of a boost up the scale.  Steve accepts the offer.<br />
+<br />
+She soon returns with a second dish with some kinda murky, greenish sauce on it.  Steve is directed to apply as much of this substance as he wants to his food to “fix it.”  It soon becomes clear that Yaeger is pleased…..after a few more bites he is grimacing and a few beads of sweat are visible on his forehead.  Ah, mission accomplished.<br />
+<br />
+We then leave for a movie theater and agree to see the 2006 Pixar Blockbuster Cars.  I’m a pretty big fan of their previous movies so I have pretty high hopes for this one.<br />
+<br />
+There were maybe 7 viewers total in the theater to see Cars.  Well, no biggie I guess, better that then having tons of obnoxious kids (or adults) crowding around us.  <br />
+<br />
+All in all it’s a pretty good movie, I’d recommend it to fellow DeckTechers if you haven’t seen it already.  Sadly this is the first Pixar movie that I can remember that attempts to shove a political agenda down your throats a bit.  (Something about how large interstate highways are destroying the very fabric of local townships in the Midwest).<br />
+<br />
+Steve is feeling the effects of the Ba$tard and has trouble remaining conscious.  Fortunately that ends during a particular scene where Sally Carrera (voiced by the smash hit “Life with Bonnie” star Bonnie Hunt) tells off the rusty, set-in-his ways Doc Hudson (Paul Newman) for placing his own interests ahead of the rest of the inhabitants of Radiator Springs.  Upon being so moved by Sally’s direct, concise, and masterful ability to put Doc in his place I couldn’t help but applaud her efforts by exclaiming “PWNED!”<br />
+<br />
+Steve was wide awake after that and it was a pretty funny moment, wish you were there.<br />
+<br />
+Anyway…….<br />
+<br />
+So the movie ends, we head back to the Days Inn, and Steve wants to sleep.  Pistone wants to play a game against The Stupid Deck so we play down in the lobby against his wys (v).  He wins by a pretty small margin, which is good……since the dark deck really shouldn’t win very often………it’s a pile of 7’s.<br />
+<br />
+On Monday morning Pistone, Steve, and I head to the historic haven of Plymouth.  We saw the Mayflower (replica) there, the great Plymouth Rock, and we went to a museum there that had all kinds of artifacts from the colonial days, I also bought some “historic” salt water taffy for the folks at home.  I’m definitely glad that we stayed the extra day, I’d never really been to MA before to go sight-seeing so it was cool to cross that little bit of the great US of A off of my checklist.<br />
+<br />
+Around mid-afternoon we say our goodbyes and Steve and I begin the long trek back to the Old Line State.  The trip is fairly uneventful aside from taking a slight unexpected detour somewhere in NYC.  All in all we make it back home over an hour faster than it took coming up there.  We trade some at my place and Steve crashes for the night before driving back down to VA for 4th of July festivities.  Oh yeah, and apparently there was a big storm that day because a tree in my front yard fell down…that was pretty lame.<br />
+<br />
+Well, if you actually managed to make it this far (after reading everything before this) then congrats to you, and I thank you.  I haven’t submitted anything to DeckTech in a long while so I really appreciate your time spent reading and reviewing.  I’ll be posting my WHAP simultaneously with this as well, so be sure to go check that out.<br />
+<br />
+Woops, can’t forget props and slops!<br />
+<br />
+<hr><br />
+<br />
+Props:<br />
+<br />
+-To Pistone.  Regardless of what his many, many critics on the forums and elsewhere say…this guy cares a LOT about the future of this game.  Thanks so much man for taking the time to run these two events, it means so much to the players.  Thanks for being a great host to Steve and I up in Mass, maybe someday we’ll be able to show you around down here.<br />
+-To the rest of the cool Albany/CT guys that made the trip, it was fun meeting some of you for the first time and getting to play some cards.  I hope to see some of you at worlds, if not this year then maybe next time.<br />
+-To the store owner for putting up with us and giving us the space to do our thing.<br />
+-To Steve for making the trip with me and being a pretty cool guy, there’s no way the trip would’ve been possible for me otherwise, thanks a lot dude.  Hope to see you for VA/WV states.<br />
+-To Nitsuj for talking tech online from time to time, proving that Team Ohio does have the power to build decent decks on occasion.  ;)<br />
+-To WHAP for going 6-0 on the weekend.  Will it silence the critics?  Most likely not, but at least they’ll have to invent some more excuses as to why it’s such a bad deck.<br />
+-To Pirates 2, one of the best movies I’ve seen all year, even if it is not quite as good as the original.  Do your self a favor if you haven’t seen it yet.<br />
+-To the Plymouth museum:  I hope you guys get your air conditioning.<br />
+-Counter Assault for 9!<br />
+<br />
+Slops:<br />
+<br />
+-To the Vince Lombardi service station in NJ.  The food there was pretty lackluster, they were out of condiments, and plus both Steve and I weren’t able to use our credit/debit cards there.  Plus they make you feel guilty for wanting to pump your own gas.<br />
+-To the George Washington Bridge for being there.  Actually, I guess those slops should be more directed to the Hudson River, oh well.<br />
+-To the Pilgrims and subsequent Plymouth residents.  Why did you have to move the Rock so many times?  Does it really matter where the heck you keep it?  And when you DO move it, why can’t you do it right…..without having big chunks of it breaking off.  Come one, how hard is it to move a rock?<br />
+-To Superman.<br />
+-To the Orioles front office.  So, Daniel Cabrera isn’t working out so well…..let’s send him down to AAA.  But let’s not get rid of Chen who has a higher ERA (pushing 7.50), an 0-6 record, in almost as many innings pitched?  You guys amaze me.<br />
+-To the Days Inn Continental Breakfast.  Sorry guys, but I’ve been to far too many hotels with far better food than that.<br />
+-To the SECURITY guards maintaining a constant presence around Plymouth Rock.  They actually seemed genuinely pleased when they told us that a wax museum we were searching for no longer existed.  Well, I guess on some level it was kinda funny.<br />
+<br />
+<br />
+Well, I think that’s it for now folks, thanks again for reading!<br />
+<br />
+God Bless,<br />
+<br />
+Tim “Aglets” Simon<br />
+ <br></font></blockquote><BR><font class="bfont"> <A HREF='/starwarsccg/treports/treports.php?id=5536&view=1&PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb'>Read the Reviews</a><font class="bfont"> | <A HREF='/starwarsccg/treports/treports.php?PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php?PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php?PHPSESSID=7256ac780cef1a43d27bb5fd5f225bdb"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>

@@ -1,0 +1,533 @@
+
+ 
+<html>
+<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
+<head>
+<title>Welcome Star Wars: CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Star Wars: TCG, Star Wars, Skywalker, Obi Wan, Kenobi, Lucas, Wizards of the Coast, WOTC, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+a {  color: #aaaaff;}
+a:hover { color: #5a89EF;}
+Body {  font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; text-decoration: none; background-color: #BF003F; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Verdana, Arial, sans-serif; font-size: 9pt;}
+
+.h1font { font-family: Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.h2font { font-family: Verdana, Arial, sans-serif; font-size: 10pt; font-style: normal;  font-weight: bold; text-decoration: none; }
+.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt;}
+.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt;}
+.lfont { color: #FFFFFF; font-family: Verdana, Arial, sans-serif; font-size: 7px; font-style: normal; text-decoration: none; }
+
+.rumor { color: #FFFFFF; text-decoration: none; }
+.cheader { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: none;
+			text-indent: 2pt;
+			margin: 5px 5px; 
+			}
+.cheader .h1font { color: #FFFFFF; }			
+.cheader .bfont { color: #FFFFFF; }			
+.cheader A { 
+			font-family: Arial, sans-serif; 
+			color: #FFFFFF; 
+			font-size: 14pt; 
+			font-style: normal;  
+			font-weight: bold; 
+			text-decoration: underline;
+			margin: 5px 5px; 
+			padding: 5px 5px; 
+		}			
+.cbody {  
+		border: thin #3F403F solid;
+		background-color: #000000;
+}		
+
+.cbody A:link {  
+		color: #aaaaff;
+}
+
+.r2header { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			text-indent: 5px;
+			font-weight: bold; 
+			color: #FFFFFF; 
+			margin: 5px 5px; 
+			padding: 5px 5px; }
+
+.r2body { 
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			text-decoration: normal;
+			color: #FFFFFF; 
+			margin: 5px 0px; 
+			padding: 1px 5px; 
+		}
+
+.r2body A:link {
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+}
+.r2body A:active {			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+.r2body A:visited {	
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			}
+
+.level1nav:link {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #f7f7f7;
+			text-decoration:none;
+			font-weight: bold;
+			text-indent: 5px;
+			}
+.level1nav:active {  			
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+.level1nav:visited {  
+			font-size: 8pt;
+			font-family: Verdana, Arial, Helvetica, Sans-Serif;
+			color: #c5c5c5;
+			text-decoration:none;
+			font-weight: bold;
+			}
+input {font-family: Verdana, Arial, sans-serif; font-size: 9pt }
+select {font-family: Arial, sans-serif; font-size: 9pt }
+-->
+</style>
+ 
+</head>
+<body text="#FFFFFF" link="#AAAAFF" alink"#c5c5c5" vlink="#c5c5c5" 
+bgcolor="#BF003F" margin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img height=3 hspace=0 vspace=0 src="/starwarsccg/gfx/theme1/alleft.gif" width=7 border=0></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img height=175 hspace=0 src="/starwarsccg/includes/logo.gif" width=186 border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action=""><input type="hidden" name="PHPSESSID" value="...328fedb22570524062aeb1303" />
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">SWCCG ===</option>
+<option value="/starwarsccg/index.php">Home</option>
+<option value="/starwarsccg/main/about.php">About</option>
+<option value="/starwarsccg/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Star Wars CCG</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><a href="/starwarsccg/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Home</a><br>
+
+       
+
+<a href="/starwarsccg/articles/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Articles</a><br>
+
+
+<a href="/starwarsccg/decks/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Decks</a><br>
+
+
+<a href="/starwarsccg/treports/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Reports</a><br>
+
+ 
+
+<div align=right>
+
+<a href="/starwarsccg/treports/treports.php?cat=constructed&PHPSESSID=...328fedb22570524062aeb1303">Constructed</a> &nbsp;<br>
+
+<a href="/starwarsccg/treports/treports.php?cat=sealed&PHPSESSID=...328fedb22570524062aeb1303">Sealed Deck</a> &nbsp;<br>
+
+</div>
+
+  <a href="/starwarsccg/academy/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Jedi Academy</a><br>
+
+
+<a href="/starwarsccg/resources/index.php?PHPSESSID=...328fedb22570524062aeb1303" class="level1nav">Resources</a><br>
+
+<br><a href="/premium/index.php?PHPSESSID=...328fedb22570524062aeb1303"                    
+class="level1nav">Premium Memberships</a><br>
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Auction</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><A href="http://www.decktech.net/auction/index.php">Currently 2 auctions listed</A><p>Ending within 12 hours<br><br><p>Auctions starting today!<br><br><ul></ul><font size='1'><a href='/auction/list.php?PHPSESSID=...328fedb22570524062aeb1303'>List Your Item!</a> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">DeckTech Writers</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><b>Star Wars CCG</b><br><a href='/starwarsccg/featured/taylor.php?PHPSESSID=...328fedb22570524062aeb1303'>2005-05-02 Scott Lingrell</a><br> 
+
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td>
+<center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Site Sponsor</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE -->
+<center>
+<script language="JavaScript">
+<!--
+ShowBurstAd('cb8702a','125','125');
+// --></script>
+<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
+<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
+width="125" height="125" border="0" alt="Click Here"></a> 
+</noscript>
+</center>
+<!-- END BURST CODE --></div></font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center><BR><center><table width="170" border="0" cellpadding="0" cellspacing="0">
+<tr><td bgcolor="#000000" valign="top"><img src="/starwarsccg/gfx/theme1/r2top.gif" width="82" height="13" align="right" vspace="0" hspace="0" border="0"><font class="r2header">Top Articles</font></td></tr><tr><td height="1"><img src="/starwarsccg/gfx/clear.gif" width="2" height="1" vspace="0" hspace="0" border="0"></td></tr>
+<tr><td bgcolor="#3F403F" class="r2body"><ol><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6126&view=2&PHPSESSID=...328fedb22570524062aeb1303">A Possible Future for SWCCG, Part II</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6110&view=2&PHPSESSID=...328fedb22570524062aeb1303">Zane Thorp - Player Created V9 Card</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6117&view=2&PHPSESSID=...328fedb22570524062aeb1303">Rating Problem?</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6127&view=2&PHPSESSID=...328fedb22570524062aeb1303">Mace Windu (v)</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6134&view=2&PHPSESSID=...328fedb22570524062aeb1303">Open-ended Star Wars CCG</A></font></li><BR><li><font class="bfont"><A HREF="/starwarsccg/articles/articles.php?id=6111&view=2&PHPSESSID=...328fedb22570524062aeb1303">Im calling you out Pistone!!</A></font></li><BR></ol> 
+</font></td></tr><tr><td valign="top"><img src="/starwarsccg/gfx/theme1/r2bottom.gif" width="83" height="13" align="right" border=0 vspace=0 hspace=0></td></tr></table></center> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="middle"> 
+    <td height="113" background="/starwarsccg/includes/header.jpg">
+	<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>    </td>
+  </tr>
+    <tr valign="top"> 
+    <td height="25"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#BF003F" valign="top" width="1"><img src="/starwarsccg/gfx/clear.gif" width="0" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#BF003F" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="bottom" width="98%"><img src="/starwarsccg/gfx/theme1/toptab.gif" width="98" height="10" border="0" vspace="0" hspace="0"></td><td align="left" valign="bottom" width="22">&nbsp;</td></tr>
+<tr><td bgcolor="#3F403F" width="98%" class="cheader"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Tournament Reports</td><form method='post' action=''><input type="hidden" name="PHPSESSID" value="...328fedb22570524062aeb1303" /><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Tournament Reports</option><option value='#'> </option><option value='/starwarsccg/treports/index.php3'>Star Wars: CCG</option><option value='/heroclix/treports/treports.php'>HeroClix</option><option value='/vs/treports/treports.php'>Marvel VS</option><option value='/lotr/treports/treports.php'>Lord of the Rings</option><option value='/magination/treports/treports.php'>Magi-Nation Duel</option><option value='/swtcg/treports/treports.php'>Ophidian 2350</option><option value='/magic/treports/treports.php'>The Wastelands</option></select></td></form></tr></table></td><td bgcolor="3F403F" valign="top" align="right" width="22"><img src="/starwarsccg/gfx/theme1/topcorner.gif" width="23" height="22" border="0" vspace="0" hspace="0" align="right"></td></tr>
+<tr><td width="98%" colspan=2><table width="100%" border="0" cellspacing="0" cellpadding="5" class="cbody">
+<tr><td><font class="h1font"> Twigg - Raod to NY State Championship<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><img src="/starwarsccg/gfx/theme1/star.gif" width="19" height="18" border="0" align="absmiddle"><font size='1'>(4.94)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/starwarsccg/main/mpage.php?member=140'>Brian "twigg" Terwilliger</A></font><font class="afont"> <a href='http://www.decktech.net/starwarsccg/main/mpage.php?member=140&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> May 24, 2001</font><p align='justify'><blockquote><font class="bfont"> *its late - if there are sp mistakes sorry...*<br />
+<br />
+Well after coming home from college, I was glad to be done with finals.  Now a long @#$% summer for work, basketball, beaches, and star wars.  So chris and I start making decks, and I refer to what ive been playing forever.  Palace raider WYS and TKOS (twiggs kind of skum).  So we begin playtesting and all hell breaks loose.  I dont know what it was but I was beating the crap out of everything with my skum deck, and my bro and I were splitting with my WYS vs. his hunt down.  So Hayes Hunter and Kyle Craft, two of the coolest kids in the world show up Friday night to hang out.  We go to taco bell and Hayes almost drives through the lobby.  We get some eats and then play some basketball.  My dad is a machine since he is tall, Craft has a nice shot, and Hayes is as uncoordinated as they get.  Afterward we go to my crib and start the night of playtesting.  Craft slaughters me with his AOBS.  And so I look at that dark and start playtesting with it.  Kyle beats me down with his WYS.  Riiiight.  So I learned nothing.  I beat the hell out of Hayes and his skum and his hidden mains.  So after a loooong @#$% night of talking and playing, I stick with what I got.  WYS with space tek, and TKOS.  I write up my decklists and Hayes is infatuated with my cat pumpkin.  He spends all night playing with it and rolling dice on the floor.  He was easily amused.  The lights finally go out around 5am, right after Craft and Hayes playtest L5R.<br />
+<br />
+My dad gets us up at 5:30am (awesome sleep) and we shower and ready.  Art and Aaron pick us up and its time to go.  Kyle and Hayes were sleeping so we woke em to say later, (haha!).  We get to Dunkn Donuts at waaay to early.  We drive up and Im sleeping through George Carlins 7 dirty words and Cartman singing, &amp;#8220;Im saaaiiiiiilllliiing&amp;#8230;&amp;#8221; Ugh.  So we arrive at like 8:30am.  We thumb through some Tat cards my dad got from Sqadronland and play 4-square.  Quick eats at BK and then time for tourney.<br />
+<br />
+NY State Championship<br />
+<br />
+LS: WYS Space Tek<br />
+DS: TKOS<br />
+<br />
+<br />
+Game 1 WYS vs Jon Yost Cloud Citys Dark Deal<br />
+<br />
+Never expected to see this in a tourney, especially after I heard rumor of Both Operatives.  Anyway, I get a good draw and get Capt Han and the Falcon to Tat turn 1.  He scanning crews me, (wow!) and takes my Wedge.  I draw and the plop raiders at my docking bays to flip.  He pulls Bespin: CC and drops 2 ties there.  Red 10 and the P-Skate invader CC.  My cannons shoot OS-72 in Obsideon 1, and I deal him 14 early damage.  He set up dark deal, and so Im draining at Kessel and my dbs while battleing him at his CC:db.  I slowly get my harvesting going and the retrieval keeps me in it against his drain of 15.  I had battle plan working in my favor, but where was menace fades?  NO CLUE.  Late skirmishes with raiders and ECC Lando on cloud city finish him off.<br />
+<br />
+FW +16<br />
+2 (+16)<br />
+<br />
+Highs: X WING CANNON<br />
+Lows: Menace fades where are you?<br />
+<br />
+&lt;chu just told me as im typing this to say &amp;#8220;biggedy beats.&amp;#8221;  Anyway&amp;#8230;&gt;<br />
+<br />
+<br />
+Game 2 TKOS vs Jake Rich WYS<br />
+<br />
+I get a ballz hand, pull the Jabbas Barge.  He draws and I monnok him to get an idea of what type of deck he was playing.  I get 2 cards, I forget what they were &amp;#8211; but hes playing standard smugglers, ships and raltiir captains.  On my turn I draw and get the good stuff &amp;#8211; galaid, jabba, skum, and guys.  My next turn I set up a drain of 4 at Tat:JP and the AC.  I draw up and get some space.  Dash and a R-Captain fly to kessel.  I drop the beats and wipe him out of space, canceling his destiny with a Myo from hand.  Luke and Lando hit the cantina, but its nothing Boba, Myo and some Abyssins cant handle.  Draining and battle retrieval fisnish him off.<br />
+<br />
+FW +32<br />
+4 (+48)<br />
+<br />
+Highs: Deck working like a machine<br />
+Lows: Jake is a good guy, seems like his opening hand wanst what he wanted it to be<br />
+<br />
+<br />
+Game 3 WYS vs Matt The World Champion Sokols ISB Space<br />
+<br />
+AWESOME.  I knew I was destined to play some local yokals, but didnt think this early.  I have been playing my WYS forever and knew how to handle space.  Especially with my tek.  His turn he commands for Piet, pulls meerjek, and yanks Fondor.  Not anticipating much ground power I drop 2 raiders in crafts to my tat docking bay and spaceport docking bay.  Im getting tons of force as is he.  His turn he drops the Executor and Sullust, and moves Piet from the Exe db to the bridge.  My turn I drain and draw.  Luckily both of his masterful moves and monnoks were in his deck so my hand of 17 cards stayed.  Good for me, not good for him.  I anticipated the zuckass slap down and played for it.  I put mirax, wedge and melass in the pulsar skate at kessel.  His turn he slapped me with zuckass and an ORS and a lat damage.  OUCH.  Luckily wedge is a beast.  He then moved over the Chimera which had accompanied the Executor the turn before.  Game over I win.  How you say?  My turn I tunnel vision for my falcon which was being a bad ship not being in my deck.  I drop the Captain in the falcon and a palce raider in Red 10 packing an X wing cannon.  Han has a VERY bad feeling about this so I battle anyway.  I shoot down zuckass, power pivot the empty chimera, darklighter spin my 1st destiny for a 6 and draw a 6 and a 2.  25 battle damage!  Not too bad but that awesome used 4 made it a whopping &lt;b&gt;75&lt;/b&gt; battle damage and the game.  The look on Matts face was priceless.<br />
+<br />
+FW +24<br />
+6 (+72)<br />
+<br />
+Highs: Take a guess<br />
+Lows: Playing a friend early on<br />
+<br />
+Chris had just lost a tight game to Brad Kipple, and so Team Albany has a lot of 3-0, including Aaron northrup, and even Jason Foss, yes Jason I said your name, JASON FOSS was in the hunt.  And so I must trek on.  My next hurdle wouldnt be easy&amp;#8230;<br />
+<br />
+<br />
+Game 4  TKOS vs Chris Janiaks HB Mains<br />
+<br />
+Well at the sound of the pairing I was a little worried.  Last year Janiak did well and got to the final duel, yet fell to my brother.  Could I keep the family tradition going? (my dad is also 1-1 vs him lifetime).  Hellz ya!! ;-)  HB mains has nothing for skum and villany.  Especially my deck.  When he began to set up at my desert heart and didnt play a spaceport db to walk into the palace I knew I was fine.  I became relaxed as the pressure fluxed onto his shoulders.  My bargaining table was limiting his drains and I was owning him in space.  My first monnok rid of some retrieval cards and that was really all I needed.  Bossk, Zucass, and the Stinger (with Guri aboard) were draing battle destiny in the twenties!  No real interaction but improving my diff was all I needed.  And yes chris, leaving Home One around for another turn wasnt a good move.<br />
+<br />
+FW +20<br />
+8 (+92)<br />
+<br />
+Highs: Winning with ease<br />
+Lows: none<br />
+<br />
+Chris lost again and was stunned.  I felt really bad and would have given anything to switch spots with him.  He puts in the time, the testing and knows his stuff.  I guess today was suppost to me my lucky day.  My dad calls me on the cell and I give him the low down.  He wishes me luck and will call later.  Hayes then calls from the Guild.  I tell him im on a roll and hes coaching me mentally.  Well, my nervousness continues. [before every game I eat a tums, and run to take a piss.  Dunno, just my habit.]<br />
+<br />
+Game 5 WYS vs Brad Kipples AOBS<br />
+<br />
+Yes another team albany mate.  But luckily I was trained for this game.  The night before Craft beat the piss out of me with his WYS when I played his AOBS.  He simply said, puss out and sit at DBs and fallen = you win.  So following the ways of craft I set up a kessel drain with 11 ability (set for stun THIS!) and then ran away and portaled at the dockingbays.  The drain of 3 and lack of old palpy was enough to end the game fairly quickly.  It was only a matter of putting the finishing touches on him.  EPP luke was in a craft so he couldnt be hurt and chewie protector was keeping Dengar with Booya cannon in line.  Harvests later, I am 5-0.<br />
+<br />
+FW +17<br />
+10 (+104)<br />
+<br />
+Ok, Brians little heart is pumping with nervousness as I am extremly close to the golden game.  But my diff isnt insane enough so I still need a win or a loss under 10.  Tom Coloracco is the only other undefeated with a timed win and he gets paired with Josh &amp;#8220;Bat Dad&amp;#8221; Patternnini (sp?)  I get Brad once more.<br />
+<br />
+FLASH BACK  2000 NY States &amp;#8211; Im 4-1 and if I win, I get into the final duel against my brother.  I loose to Kipple and enjoy the scrub seats watching janiak and my bro duke it out.<br />
+<br />
+Game 6 TKOS vs Brad Kipples WYS<br />
+<br />
+Again, I feel very comfotable with my deck since, thanks to Chris, Hayes, and Kraft has been playtested into a machine.  He goes for Kessel early and I bring the hurt of all 3 of my ships (DAMN!).  He barriers, so I dont get to woop him, but we play the chase game and im draining him throughout.  On the ground I set up a drain of 6, he never got menace fades (did you play it?) so that helped a lot.  I spread out to deal him damage, not caring how much I win by, I just need the W.  We battle back and forth and my drain and taking a toll on him, but Im deploying a lot.  Jedi Luke is making his way toward the palace and Im reading guys in hand.  Were about even when I make a drain at Tat:JP he reacts two patrol crafts over one carrying Jedi Luke.  I gkk/rebels wont escape the craft carrying luke, but then question the move.  I wasnt sure if that craft could react again later when I battled (if it could then I wasnt gonna waste the gkk).  After asking the TD, he looked it up and the second craft is stuck where it is.  Taking this opportunity, I drop my hand of guys anticipating the portal, and hoping for no houjx.  No portal, no houjx.  Game over.<br />
+<br />
+FW +16<br />
+12 (+120)<br />
+<br />
+Highs: Im in the final<br />
+Lows: none, brad was a great opponent especially during our rules question/confusion<br />
+<br />
+Turns out Bat Dad edges out Tom by +1, thus sending Pete &amp;#8220;Im jabba the hut&amp;#8221; Srodoski to the duel.  Im nervous and excited at the same time.  Pete is one of the most underrated players in the game, and I respect him.  Only thing I wish was that my dad was here to see me in the final.  In 2001 ive been on a hot streak winning Decipher Day in NYC, and the Corusant Civil Was II in Suracuse.  Well enough blab &amp;#8211; game time.<br />
+<br />
+Duel Game 1  WYS vs Petes Hunt Down Space<br />
+<br />
+I get a horrible draw an already feel nauseas about loosing the title.  He drops lord vader, stick, and starts pounding guys on my dockingbays.  I flee to space to get a drain of 3 at kessel.  He brings the hurt but first accumulates a fleet of zuckass with 4lom and the chimera with chinerau and ozzel.  Visage is owning me and im slowly getting my harvests going.  By 7th turn my back was to the wall and I really only had one chance of winning.  Setting up the deadly combo&amp;#8230; He moves Zuckass with 4lom and the Chimera infront of my lat damaged ship (which was attacked by bossk the turn before).  Well Dash in Outrider was gonna have to win the game since the falcon was sitting in my lost pile.  Power, big destinies and A palce raider in red squad 1 show zuckass and with the double card dealt out 56 damage.  With minor forfeit Pete lost 30 something force which crippled him.  His drains at my dockingbays were out retrieved with harvests and the drain at kessel. <br />
+<br />
+FW +26<br />
+<br />
+Highs: Pressure is off! My dark can win<br />
+Lows: none &amp;#8211; great game by both of us.  I just caught pete off guard.<br />
+<br />
+<br />
+Duel Game 2  TKOS vs Petes WYS Insert<br />
+<br />
+After playtesting with the guys back home we each knew a little something about each others decks.  So pete expected the skum and I expected numbers from the big guy.  His HB numbers wooped my during the week so I started resistance over crush since I didnt forsee clash.  My turn I pull the barge and draw.  He pulls home1 db and draws.  I drop skum, jabba and 2 abbysins.  (need to get my &quot;#s up until the 3 battlegrounds).  I draw and get what I need.  His turn he drops dash, jedi luke and artoo and inserts.  I activate all of it, no poppage!  So I set up on the palace and yank galaid with the AC text and control the game from there.  There were a few skirmishes here and there, but once his inserts were weakened, the game was pretty much over.  We dropped our hands, and shook hands.  Well played Pete!<br />
+<br />
+FW +26<br />
+<br />
+Highs: No insert poppage!<br />
+Lows: None<br />
+<br />
+And so a warm feeling shoots all over my body as I have done it.  Through all the playtesting and deckbuilding at college and playing till 5 am with my homies, it was all worth it. (decks to follow soon)<br />
+<br />
+Brian Terwilliger, 2001 NY State SWCCG Champion (YJ too! ;-)<br />
+<br />
+The state TR ends here, but if you want to read more about the weekend &amp;#8211; HERE YA GO.<br />
+<br />
+That night we eat McDonalds on the way home and play name that tune.  I was leading when we all got tired of naming uncl kraka &amp;#8211; follow me.  Score was Me 128, Aaron Kingery 120, Art Wright 67, Jason Foss 12, My bro 0 (he slept).  That night Craft and Hayes were waiting and greeted me in my triumph.  Hayes apparently could have won a sword at an L5R tourney but either didnt have enough cash or something and Kyle went 1-3.  We played a little and looked at my dads Tatooine cards all night.  <br />
+<br />
+A little sleep later we have a local tourney on Sunday at the Guild (cant get enough SWCCG!!!)  I end up going 6-0 beating Craft x2, Hayes, My bro x2 and my dad.  When all is said and done expect me to be somewhere in the 2200s!!!  Hayes went 3-3 and felt the trauma of playing on Team Albanys home court, even losing to starfish (aka &amp;#8211; Joe Giannetti &amp;#8211; Mich State Champ).  After the tourney I get some white opaque sleeves so I can be more like kyle craft ;-).  We head down to red lobster to celebrate my dads birthday.  Red lobster has a bazillion hour wait so we hit up applebees.  The service was @#$% and we managed to amuse ourselves for 45 minutes until we got our water.  Chris and I had to attend a meeting for Applebees &lt;ironic?&gt; so Kyle and Hayes went with Joe to play pool.  And hour and a half later we arrive at Joes, play some pool, share stories, and Hayes pounds one of Joes dads Coors lights (in like 13 seconds no less).  We head back to my house cause chris has school in the morning and we all are pretty tired.  We get home and in our tired stupors hayes drops a mega fart on kyles head, who, at the time was humping Tiger under a blanket.  Kyle and I are watching our fantasy teams online and Hayes is obsessed with my cat still.  Rolling dice, throwing cards, and tearing up paper, those two did everything together.  Kyle later on used the claws of pumpkin to scratch hayes pretty good.<br />
+<br />
+We all awake around 2pm.  Kyle is dragging me out of my bed and says, yo get ur @$$ outa bed.  I stumble down stairs and call Chu, who had recently got home from Tennessee (also a state champ!).  So get dressed and go to my brothers highschool to pick him up and go down to Nisky to play cards with Chu.  We get to the parking lot and walk in, we are immediately attacked by the Death Star Troopers.  My high school was waaaaay protective and anal about any and everything.  Kyle faced off with one of the hall monitors explaining to them that columbine wasnt this bad.  Hayes gets escoreted out of the building and they pleas to them so he can buy a soda.  He was escorted and then released.  I finally find my brother and we jet out of Shen, the Imperial palace.  We head down to Nisky to meet up with Chu.  After a quick hello and a few games between state champs (we split I think) we do a mega sealed deck.  Chu had ordered a lot of EPPs and ECCs so we tore em open and made 80 card ghetto sealed decks.  Kyle beat me by 7 and Chu owned Hayes.  On the drive back to my house we stop and get KFC and Chu orders corn on a stick. It was really amazing to look at!  Hayes them spits up a loogie JUST as I finish my my chicken fingers.  &amp;#8220;You were done&amp;#8221; he claims.  BALLZ.  Anyway&amp;#8230; we got to my house and play cards for a few.  We head back to drop chu home and go with Matt, Dan, and Mike Damboise to put 200 forks in this kids yard and ceran wrap joes car.  Pulling out of our driveway I scream over to dans car that this is a &amp;#8220;NORTHWAY RUN.&amp;#8221;<br />
+<br />
+(taken from kessel run, joe and I raced all the time up I-87 the northway.  I am undefeated in northway runs and no was hayes vs dan sokol)<br />
+<br />
+Hayes takes off at 80mph around my development and then breaks 120 on the highway.  Fearing for my life I jump in the backseat and craft dives forward.  We end up smoking dan and enjoy the smell of burnt rubber in the pricechopper parking lot.  Inside we buy our materials and kyle buys me a lunchable cookie.  Comes with chocolate chips, frosting and a cookie that you put together yourself.  Pretty stupid but frosting rules!  As were about to get in the car I comment that we could do the shopcart push that they did on jackass on mTV.  Kyle says &amp;#8220;ill do it.&amp;#8221;  Before he gets a second thought, we throw him in a cart and slam him into an island.  He goes flying in the air and bounces off of a light pole.  Only scruffed a little and bleeding on 1 leg, we continue to fork the lawns and kyle wonders what the hell he was thinking.<br />
+<br />
+We place the forks all over this kid nicks lawn in little shapes and stuff and then ceran wrap joes car.  It looked beautiful.  We run away from a car shinning their lights on us and tear out of there.  We get to my house like at 2 and start building decks for Tatooine.  Around 4 kyle wants to see if we can stay up when my bro wakes up at 6.  So hayes and I try to figure out podracing.  What ends up happening is kyle beats the hell out of me and Hayes playes with the cat some more.  If you wanna know what we concluded on podracing, read kyles article &amp;#8211; Podracing? Gay as hell.  For those of you who think its a cool mechanic or think you can avoid it &amp;#8211; are either stupid &amp;#8211; or dead wrong.  Pod racing sucks and you will all have to deal with it.  Six thirty roles around and I set off my brothers alarm.  Hes like, you guys are up?  He knew the answer when he heard kyle and hayes screaming at each other downstairs.  Deciding just to go for broke, Hayes and Kyle decide to drive back on no sleep, thinking itll be better and attempting to awake from any sleep at all.  I say good bye and wish them luck.  It was one hell of a weekend.  They leave, and I crash and wake up around 5pm.  One hell of a time, and now for the props and slops&amp;#8230;<br />
+<br />
+PROPS<br />
+-that god damn card for dealing soo much damage <br />
+-kyle craft for being one of the coolest kids ever : dude u r always welcome<br />
+-hayes for playing with my cat um&amp;#8230; all the time!  And u r NOT a scrub<br />
+-kyle for letting us almost kill him<br />
+-hayes for breaking the sound barrier<br />
+-team albany for being my support<br />
+-my bro for preppn me to take his place as NY champ<br />
+-pete for playing great games<br />
+-my dad for the moral support<br />
+-my decks for not letting me down<br />
+-joe proving that he is more than his ranking (lol)<br />
+-craft and hayes for the playtesting<br />
+-art and aaron for the ride up<br />
+-jason foss for wanting me to say his name, jason foss, as many times as a jason foss can<br />
+-my cat pumpkin for keeping hayes buzy for 5 days<br />
+-blink 182 for the song &amp;#8220;Rock Show&amp;#8221;<br />
+<br />
+SLOPS<br />
+-art, did we need to get there 90 minutes early? ;-)<br />
+-the mini fiasco at the end of states, im glad its over<br />
+-brad for hitting me with his car<br />
+-the rent-a-hall-monitors at my highschool<br />
+-mikey p for a no show ;-(<br />
+<br />
+<br />
+<br />
+Hope to see you all at the bounty tourney this Sunday.<br />
+Come and get some!!!<br />
+<br />
+twigg<br />
+ <br></font></blockquote><BR><font class="bfont"> <A HREF='/starwarsccg/treports/treports.php?id=2365&view=1&PHPSESSID=...328fedb22570524062aeb1303'>Read the Reviews</a><font class="bfont"> | <A HREF='/starwarsccg/treports/treports.php?PHPSESSID=...328fedb22570524062aeb1303'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/starwarsccg/main/join.php?PHPSESSID=...328fedb22570524062aeb1303'> become a registered member</a></font></td></tr></table>
+    </td></tr><tr><td width="98%" bgcolor="3F403F" align="left" valign="bottom"><img src="/starwarsccg/gfx/theme1/bottomtab.gif" width="98" height="10" vspace="0" hspace="0" border="0"></td>
+	<td width="22" bgcolor="3F403F" valign="bottom" align="right"><img src="/starwarsccg/gfx/theme1/bottomcorner.gif" width="23" height="22"></td></tr></table>
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/starwarsccg/gfx/clear.gif" width="10" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+    <tr align="center" valign="bottom" >
+      <td height="9">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td height="55" background="/starwarsccg/gfx/theme1/footer.jpg">&nbsp;</td>
+    </tr>
+    <tr align="center" valign="bottom" > 
+      <td bgcolor="#000000"> 
+
+		<font face="verdana, arial, sans-serif" size=1>
+        This site is maintained and updated by fans of Star Wars CCG, and is in 
+        no way affiliated with LucasFilm or Decipher. We in no way 
+        claim the artwork displayed to be our own. Copyrights and trademarks for 
+        the films and other promotional materials are held by their respective 
+        owners and their use is allowed under the fair use clause of the Copyright 
+        Law.<a href="/global/terms.php?PHPSESSID=...328fedb22570524062aeb1303"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate -->
+</html>
+<br>
+<b>Warning</b>:  Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in <b>Unknown</b> on line <b>0</b><br

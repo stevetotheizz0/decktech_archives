@@ -1,0 +1,366 @@
+
+<html><!-- #BeginTemplate "/Templates/freedom.dwt" -->
+<head>
+<title>FreedomCon - United We Stand</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {  margin: 0px 0px; border: none; font: 10pt Verdana, Arial, Helvetica, sans-serif; color: #000000}
+.legal {  font: 6pt Verdana, Arial, Helvetica, sans-serif; color: #CCCCCC}
+td {  font: 9pt Verdana, Arial, Helvetica, sans-serif}
+.nav {  font-size: 8pt; color: #FFFFFF; text-decoration: none}
+-->
+</style>
+</head>
+
+<body bgcolor="#000E58" margin="0" marginwidth="0" marginheight="0">
+<table width="93%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td colspan="2" height="97"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+        <tr>
+          <td><img src="/freedomcon/gfx/freeblue.gif" width="266" height="123" border="0"> 
+          </td>
+          <td valign="middle" align="center">&nbsp; </td>
+        </tr>
+      </table>
+      
+    </td>
+    <td width="42" height="97">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td height="149"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <tr> 
+                <td class="legal"><a href="/freedomcon/index.php" class="nav">Home</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/about.php" class="nav">About FreedomCon</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/sponsors.php" class="nav">Our Sponsors</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/contact.php" class="nav">Contact Us</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/attend.php" class="nav">Players Attending</a></td>
+              </tr>
+              <tr> 
+                <td><a href="/freedomcon/donate.php" class="nav">Donations and Charity</a></td>
+              </tr>
+              <tr>
+                <td><a href="/freedomcon/buzz.php" class="nav">Discuss FreedomCon 2!</a></td>
+              </tr>				  
+			  
+            </table>
+            
+          </td>
+        </tr>
+      </table>
+
+      <!-- #BeginEditable "nav" --> <!-- #EndEditable --><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><br>
+      </font>
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr valign="top"> 
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b><br>
+            What:<br>
+            FreedomCon</b> <br>
+            Philadelphia 2002<br>
+            <br>
+            <b>When:</b> <br>
+            October 4-6 <br>
+            <br>
+            <b>Where:</b> <br>
+            NeoQuest Games<br>
+            Gary's Plaza<br>
+            531 South Broad Street<br>
+            Lansdale, PA 19446<br>
+            </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">215 
+            855 7035</font></td>
+        </tr>
+      </table>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"></font></td>
+    <td width="541" bgcolor="#FFFFFF" valign="top" background="/freedomcon/gfx/Vegasxflcam.jpg"><!-- #BeginEditable "body" --> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td valign="top" height="461" width="57%"> <br>
+
+<script language="javascript">
+
+echo "test";
+
+// This makes certain pages private, for members only. Neal 10-2013
+if ($access == "" )
+{
+echo "<table bgcolor='#ffffff' width=500><tr><td><P>This area of DeckTech is now restricted to members only. You must be logged in to view this page.
+Go to <a href='http://www.decktech.net/'> DeckTech.net </a> to log in";
+echo "<P>If you are not a member, and would like to spy on a member, you are cordially invited to kiss off.</td></tr></table>";
+exit;
+}
+
+function getpreviewwin()
+{
+texttoshow = document.buzzboardform.convertedtext.value;
+prev1 = window.open('','previewwindow','width=150,height=100,resizable=yes,left=300,top=300');
+prev1.document.writeln("<font size='2' face='verdana'>The text you have entered will look like this:<p>");
+prev1.document.writeln(texttoshow);
+}
+
+function changetobold()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<b>"+newtext+"</b>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoitalic()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<i>"+newtext+"</i>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetounderline()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<u>"+newtext+"</u>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetospoiler()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "(drag mouse to see spoiler)<div style=background-color:red;color:red;foreground-color:red>"+newtext+"</div>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetourl()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+linkyaddress = document.buzzboardform.texttoconvert.value;
+oldtext=document.buzzboardform.convertedtext.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoquote()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoimage()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<img src="+newtext+">";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetored()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ff0000>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoblue()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#0000ff>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function changetoyellow()
+{
+newtext = document.buzzboardform.texttoconvert.value;
+document.buzzboardform.convertedtext.value = "";
+oldtext=document.buzzboardform.convertedtext.value + "<font color=#ffff00>"+newtext+"</font>";
+document.buzzboardform.convertedtext.value = oldtext;
+document.buzzboardform.convertedtext.focus()
+}
+
+function oldchangetobold()
+{
+newtext = prompt("Bold Text", "Enter your text to convert to Bold Face here");
+oldtext=document.buzzboardform.comments.value + "<b>"+newtext+"</b>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoitalic()
+{
+newtext = prompt("Italic Text", "Enter your text to convert to Italic Face here");
+oldtext=document.buzzboardform.comments.value + "<i>"+newtext+"</i>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetounderline()
+{
+newtext = prompt("Underlined Text", "Enter your text to Underline here");
+oldtext=document.buzzboardform.comments.value + "<u>"+newtext+"</u>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoquote()
+{
+newtext = prompt("Quote Another", "Enter the text you want to Quote here");
+oldtext=document.buzzboardform.comments.value + "<blockquote><i>"+newtext+"</i></blockquote>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetourl()
+{
+newtext = prompt("Make a Link", "Enter your text to describe your link here");
+linkyaddress = prompt("Make a Link You MUST use the http:// to start!", "Enter the address you want to link to here. You must include http://");
+oldtext=document.buzzboardform.comments.value + "<a href="+linkyaddress+" target=x>"+newtext+"</a>";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+function oldchangetoimage()
+{
+newtext = prompt("Post an Image: DO NOT ABUSE THIS FEATURE! You must use the http:// format", "Enter the url of your image from the internet. This may be found by right clicking on an image and selecting properties. You must use the http:// format");
+oldtext=document.buzzboardform.comments.value + "<img src="+newtext+">";
+document.buzzboardform.comments.value = oldtext;
+document.buzzboardform.comments.focus()
+}
+
+</script>
+
+
+
+
+
+
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5<br />
+<b>Warning</b>:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in <b>/home/decktech/public_html/global/includes/com/buzzboard.php</b> on line <b>1719</b><br />
+<table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font class="h1font">What would you say, of all the companions, is the all out best to have?  All facts considered?</B></font></td></tr><tr valign="top"><td><font class="bfont"><font class="bfont"> From: 20 Rings</font><BR><table><TR><TD><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='#postarea'>Jump to Post Area</A></font></td><td width=40>&nbsp;</td><BR><td><font class="bfont"><A HREF='/freedomcon/buzz.php?id=2707'><b>REFRESH THIS TOPIC</b></A></font></td><td width=40>&nbsp;</td></tr></table><TABLE WIDTH='100%' border=0 cellpadding=6><tr><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="h2font"> Name</td><TD ALIGN='LEFT' valign='top' bgcolor=#EFF1FF><font class="h2font"> Comment</td></tr><TR><td width='4' valign='top' bgcolor=#FFFFFF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I just messaged Sparkz. I think.  Reading these old LOTR threads is fun. <br><BR><font size=1>12:04 01-16-2013</font><BR><BR>My lord, it&#39;s just an eye. The gods saw fit to grace me with a spare</TD></TR><TR><td width='4' valign='top' bgcolor=#EFF1FF><img src='/global/images/premium_icon.gif' border='0' hspace='1' vspace='1'></td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B><a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a></B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=<a href="http://www.decktech.net/magic/main/mpage.php?member=17">Dredlox™</a>'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">oh man, i forgot about half these people. One Spoon is Diniega, Sparkz was a really cool guy <br><BR><font size=1>13:01 12-16-2008</font><BR><BR>Play Versus (or FMA) against me online sometime. Dmail me for friend code!</TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>tampamikes</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=tampamikes'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I&#39;ve swiched out my KIE for my ROTN and so far they are pretty close but I know when I go up against moria ROTN will help me more the healing from Kie isn&#39;t as important if you go 2nd cause its easier to make it to the sant. But the best reason aragorn is better than any other char is: the Pony no other site lets you bring out such a powerhouse. </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Shivv</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Shivv'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Stand alone or with support cards I&#8217;d have to say Aragorn ROTN.<br />
+<br />
+As a stand alone, his power 8 makes him a good fighter.<br />
+His 4 health means he&#8217;s hanging in there.<br />
+He&#8217;s a ranger.<br />
+He can exert to be defender +1<br />
+<br />
+With support there are tons of cards that can contribute to make Aragorn a unholy bringer of doom.<br />
+ </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Art Vandalay</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Art Vandalay'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Without a doubt, Merry From O&#39;er the Brandywine is the best companion.  He&#39;s a common, and slap down a common sword to get a wound magnet.  At strength 7, he won&#39;t be overwhlemed very often(next to never with a bounder).  With 4 vitality, he takes it for the team very often. </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Sparkz</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Sparkz'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Yeah, i dont know 20 rings, but from his earlier posts, i definitely doubt that was him. </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>20 C0ck Rings</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=20 C0ck Rings'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I apologize for the post below. I shouldn&#39;t call other people names when I have made by far the dumbest comments ever in the history of Deck Tech buzz boards.<br />
+<br />
+I rescind my previous statement and agree with anyone who thinks I am stupid because it is absolutely true. Thanks. </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Gandwarf</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Gandwarf'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">You know I think Decipher has done a really good job of making each incarnation of the companions playable in the right deck. I don&#39;t think there is a MUST play version of any of them. </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Rogue Nine</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Rogue Nine'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I always pack four aragorn so I tend to use ROTN . . . that way by site nine he is happily healed up and ready to commit suicide to protect frodo </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>20 Rings</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=20 Rings'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Two below, you fruitcake.<br />
+<br />
+I never said you have to exert Aragorn to heal.  There are other cards that say exert to heal a "...."<br />
+<br />
+You are a retard and dumbass.<br />
+<br />
+The world would be better off if you and your computer caught on fire.<br />
+<br />
+Thank you.  </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>The Judge</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Judge'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Looking at the healing aspect can be important.<br />
+<br />
+New Gandalf and Frodo have Aragorn signet and 1 or the other can be healed by KIE every turn. Cool. This is very good when using Sting, Glamdring, or Gandalf&#39;s staff.<br />
+<br />
+Common Merry, Arwen,LOG, and Sam also can be healed by him so a good balanced deck of new Frodo, Gandalf, Arwen, rare Boromir, and Sam along with KIE means you heal which ever character you are using the most, depending on what you are playing against. Obviously Arwen will do a good bit of battle against Nazgul and being able to heal her every turn will save you some pain, and against twilight Nazgul, you can remove those irritating burdens every turn with Sam.<br />
+<br />
+It&#39;s just a useful tool. ROTN is awesome in an aggressive fast moving deck and he has won games for me several times as he takes on 4 minions at site 9 while the others mosey on by.<br />
+<br />
+I like them both but I do like the control, balanced decks with healing also.<br />
+<br />
+Its a healthy debate. </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>20 Rings</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=20 Rings'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Hello I am 20 Rings.<br />
+<br />
+The post below is also from me and states that you must exert Aragorn to heal people but don&#39;t have to exert him to use Athelas.<br />
+<br />
+Yes, Yes, I am an idiot, please don&#39;t laugh at me to much. I am sensitive. </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Thorbolter</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Thorbolter'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Gandalf, Friend of the Shirefolk.  Great sword and staves.  Excellent spells.  Best allies.  Condition removal.  Best companion. </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>20 Rings</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=20 Rings'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Not really, Athelas can remove conditions, and you dont have to exert Aragorn to do it. </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>tampamikes</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=tampamikes'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">healing 3 or 4 wounds per game is like having 3 or 4 extra athlises in your deck(for free). I havent tried the ROTN in my archery deck yet but I will experiment with it. </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>marinethrawn</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=marinethrawn'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I have to go with KIE, I think he is better right now.  I usually don&#39;t have to worry about swarms, directed archery and damage takes care of that.  The healing I think is more powerful, but it all depends on your local meta. </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>edmund</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=edmund'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I dunno, I mean how many wounds do you really end up removing with him (KiE) that wouldn&#39;t be removed through other means? 3? I don&#39;t see how that&#39;s possible worth not playing ROTN, except, I guess in specific decks. </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Judge</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Judge'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">I agree with. KIE&#39;s healing power is really good and makes him more versatile than ROTN but ROTN can win games at site 9 easily.<br />
+<br />
+KIE lets you use Sting or Glamdring for free which is nice. </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>faramir</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=faramir'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">KiE? Gah, not more of this... Ranger of the North is like twice the character KiE could ever hope to be :).  KiE will heal you maybe 3 wounds in a game, RotN will flat out win you games (particularly against Moria, but also Sauron, and really, most people are gonna be playing Moria anyway). </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>The Judge</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=The Judge'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Seriously speaking...I would call it a tie between Gandalf FOTSF and KIE. They both have an equal number of devestating support cards to go with them, Aragorns healing power and high vitality and ability to have higher vitality is very powerful. Most of the companions are good in their own way but those 2 top the list by far. Legolas is a panzy in battle and SPIES makes him look like a doofus. </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>ADrake</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=ADrake'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Arwen and Legolas are both excellent picks, but I have to go with Gandalf, FOTSF. When armed with Glamdring, you can essentially take on anyone AND cut out twilight. Plus, his support cards are the best in the game. Aragorn is also good, but if you play all the conditions on him that make him so effective (Saga, Last Alliance), you cannot play Sleep without hurting yourself.  </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>tampamikes</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=tampamikes'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">aragorn has all the toys and the site to go fetch him </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Sparkz</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Sparkz'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">Well, it all depends. If you want to get the farthest without worrying about overwhelming, i would say Aragorn, ROTN. Gandalf can make it very far also, but having only frodo and gandalf is a sure way to get yourself overwhelmed. Arwen is cool, but i wouldnt say the best. Id probably go with aragorn. THink about this:<br />
+Aragorn<br />
+Armor<br />
+Rangers Sword<br />
+Last Alliance<br />
+Flaming Brand<br />
+Aragorn&#39;s Bow<br />
+<br />
+By himself, he can beat most nazgul. And with a couple elves, he is even more powerful.<br />
+<br />
+Emerson </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>20 Rings</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=20 Rings'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Yes that&#39;s what I meant.  But this is dumb, so i stopped talking </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Rogue Nine</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Rogue Nine'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I assumed we were talking with the least support cards . . . </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Greypie</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Greypie'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Arwen, without a doubt.<br />
+She has the best weapon, but more importantly, she&#39;s an elf, and a ranger, and she works well with Aragorn. This makes her the most versitile companion in the games. </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>Voice of Law</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Voice of Law'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">I think the best companion to have is, without a doubt, Frodo. Can&#39;t play the game without him. </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>Vincent Vega</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=Vincent Vega'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">Gandalf has some of the best support cards, so I really like him, but I think Legolas, Greenleaf might stand the best on his own. </TD></TR><TR><td width='4' bgcolor=#FFFFFF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#FFFFFF><font class="bfont"><B>dope5tar</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=dope5tar'>Ignore</A></font></td><Td valign='top' bgcolor='#FFFFFF' ><font class="bfont">i say arwen, cuz she has the best weapon in the game. </TD></TR><TR><td width='4' bgcolor=#EFF1FF>&nbsp;</td><TD ALIGN='LEFT' valign='top' width='70' bgcolor=#EFF1FF><font class="bfont"><B>20 Rings</B></font><br><font class="afont"> <A HREF='/freedomcon/buzz.php?ignorename=20 Rings'>Ignore</A></font></td><Td valign='top' bgcolor='#EFF1FF' ><font class="bfont">The problem with Legolas is he is easily overwhelmed by Moria Swarms.  Aragorn, ROTN, along with a ranger&#39;s sword, and his ability, can whoop some ass. </TD></TR><TR><TD colspan='2'><font class="bfont"><A HREF='/freedomcon/buzz.php'>Back to Topics List</A></font></TD></TD></TABLE><P><B>Showing last 30 posts! </b><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='1'><input type='hidden' name='id' value=2707><input type='Submit'  value=' Show all Posts '></form><form action='/freedomcon/buzz.php'><input type='hidden' name='showmore' value='2'><input type='hidden' name='id' value=2707><input type='Submit'  value=' Show Next 30 Posts '></form><p><font class="bfont"><b>You must be a member to add topics to this list.</b>  <p>Please <a href='/swtcg/main/join.php'> become a registered member</a></font></font></td></tr></table><script language='javascript'>function quoteboard(quotetext){document.buzzboardform.comments.value = '<i>'+quotetext+'</i><p>';}</script>
+<!-- advertising code -->
+<!-- Kontera ContentLink(TM);-->
+<!--
+<script type='text/javascript'>
+var dc_AdLinkColor = 'blue' ; 
+var dc_PublisherID = 157626 ; 
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'>
+</script>
+-->
+<!-- rumors board code end -->
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+      </table>
+      <!-- #EndEditable --></td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="144">&nbsp;</td>
+    <td width="541" bgcolor="#999999">&nbsp;</td>
+    <td width="42">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"> 
+      <p align="center" class="legal"><span class="legal"><span class="legal"><span class="legal"><br>
+        Legal- TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and related 
+        marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher Inc. Decipher, 
+        Customizable Card Game, The Art of Great Games and associated marks and 
+        intellectual property are exclusively owned by Decipher Inc. All Rights 
+        Reserved. THIS Web Site IS NOT PRODUCED OR ENDORSED BY DECIPHER, INC OR 
+        LUCASFILM LTD OR PARAMOUNT PICTURES. STAR TREK. </span></span></span> 
+        <span class="legal"><span class="legal"><br>
+        <span class="legal"> TM & © 2002 www.decktech.net. All Rights Reserved. 
+        </span></span></span><br>
+        <br>
+      </p>
+      </td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+</body>
+<!-- #EndTemplate --></html>

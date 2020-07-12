@@ -1,0 +1,231 @@
+ 
+<html><!-- #BeginTemplate "/Templates/decktech_2.dwt" -->
+<head>
+<title>Welcome CCG Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<meta name="keywords" content="CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming">
+<meta name="description" content="DeckTech has one mission: To build a self sustaining community that adds entertainment value to the CCGs we all enjoy. All CCG players welcome.">
+
+<style type="text/css">
+<!--
+Body { font-family: Arial, Helvetica, sans-serif; color: #FFFFFF; font-size: 10pt; font-style: normal; text-decoration: none; background-color: #000000; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+.level1nav {  color: #00FF00; text-decoration: none; font-weight: bold; font-size: 10pt;}
+a {  color: #00FF00; text-decoration: none}
+.header_bg {  background: #001F90}
+a:hover { color: #FFFFFF; text-decoration: none }
+.border {  border: thin #001F90 solid}
+input {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; border: 1px solid black}   
+-->
+</style>
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000" background="/global/images/home/background.jpg"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="1" height="1" vspace="0" hspace="0" border="0"></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img src='/global/membercenter/gfx/dt_2logo.gif' border=0></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+
+function go(x) {
+
+value = "";
+
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+
+if (value != "") window.location = value;
+
+}
+
+</script>
+
+<form method="post" action="">
+
+<div align="center">
+
+<select name="select" onChange="go(this)">
+
+<option selected>Quick Jump</option>
+
+<option value="/groups/index.php">Groups</option>
+
+<option value="#"> </option>
+
+<option value="#">CCGs ======</option>
+
+<option value="/magination/index.php">Magi-Nation Duel</option>
+
+<option value="/lotr/index.php">Lord of the Rings</option>
+
+<option value="/swccg/index.php3">Star Wars CCG</option>
+
+<option value="/swtcg/index.php">Star Wars TCG</option>
+
+<option value="#"></option>
+
+<option value="/index.php">decktech.net</option>
+
+</select>
+
+</div>
+
+</form> </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font face="Arial, Helvetica, sans-serif" size="2"><B>Member Center</B></font></td></tr><tr valign="top"><td><font face="Arial, Helvetica, sans-serif" size="2">
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+  <tr>
+    <td><a href="/index.php" class="level1nav">Home</a></td>
+  </tr>
+  <tr> 
+    <td><a href="/membercenter/inbox.php" class="level1nav">Inbox</a></td>
+  </tr>
+  <tr> 
+    <td><a href="/membercenter/directory.php" class="level1nav">Member Directory</a></td>
+  </tr>
+   
+  <tr> 
+    <td><a href="/membercenter/update.php" class="level1nav">Update My Info</a></td>
+  </tr>
+  <tr> 
+    <td><a href="/index.php?mlogout=true" class="level1nav">Log Out...</a></td>
+  </tr>
+</table>
+</font></td></tr></table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr> <tr valign="top"><td><table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font face="Arial, Helvetica, sans-serif" size="2"><B>CCGs</B></font></td></tr><tr valign="top"><td><font face="Arial, Helvetica, sans-serif" size="2">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="6">
+  <tr align="center" valign="middle"> 
+    <td><a href="/magination/index.php"><img src="/groups/global/images/magi.jpg" width="110" height="99" border="0"></a></td>
+  </tr>
+  <tr align="center"> 
+    <td><a href="/lotr/index.php" class="level1nav"><img src="/groups/global/images/lotr.gif" width="110" height="96" border="0"></a></td>
+  </tr>
+  <tr align="center"> 
+    <td><a href="/swccg/index.php3" class="level1nav"><img src="/groups/global/images/sw.gif" width="108" height="72" alt="Star Wars Customizable Card Game" border="0"></a></td>
+  </tr>
+  <tr align="center"> 
+    <td><a href="/swtcg/index.php"><img src="/groups/global/images/swt.gif" width="108" height="73" border="0"></a></td>
+  </tr>
+</table>
+
+</font></td></tr></table></td></tr><tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr> 
+        <tr valign="top"> 
+          <td> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="top"> 
+    <td height="75" rowspan="3"><img src="/lotr/gfx/trans_header1.gif" width="22" height="2" vspace="0" hspace="0" border="0"></td>
+    <td height="75"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="6">
+        <tr> 
+          <td><!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td><img src="../global/images/home/trans.gif" width="6" height="8"></td>
+  </tr>
+  <tr valign="bottom"> 
+    <td><img src="/global/membercenter/gfx/header.gif" width="339" height="16" vspace="0" hspace="0" usemap="#header" border="0"><map name="header"><area shape="rect" coords="95,2,171,18" href="/index.php"></map></td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="22" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#001F90" valign="top"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font face="Haettenschweiler, Impact, Arial Black" size="5">
+<form action="/membercenter/directory.php">
+<table width="200" border="0" cellspacing="5" cellpadding="0" align=right>
+<td><input type="text" name="search"></td>
+<td><input type="submit" name="Submit2" value="Search"></td>
+</tr>
+</table></form>
+
+DeckTech Members</B></font></td></tr><tr valign="top"><td bgcolor="#000066"><font face="Arial, Helvetica, sans-serif" size="2"><TABLE WIDTH="100%" BORDER=0 CELLPADDING=5 CELLSPACING=0><TR bgcolor="#000066"><TD><A HREF="/membercenter/directory.php?dir_orderby=fname&dir_slope=ASC"><img src="/global/includes/com/gfx/DESC.gif" width="13" height="13" align="left" border="0"></A><font face="Arial, Helvetica, sans-serif" size="2"><B> Name:</b></font></TD><TD><A HREF="/membercenter/directory.php?dir_orderby=tech_points&dir_slope=ASC"><img src="/global/includes/com/gfx/DESC.gif" width="13" height="13" align="left" border="0"></A><font face="Arial, Helvetica, sans-serif" size="2"><B> Tech Points:</b></font></TD><TD><A HREF="/membercenter/directory.php?dir_orderby=state&dir_slope=ASC"><img src="/global/includes/com/gfx/DESC.gif" width="13" height="13" align="left" border="0"></A><font face="Arial, Helvetica, sans-serif" size="2"><B> City, State:</b></font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=498"><font face="Arial, Helvetica, sans-serif" size="2"> Doug "Phrim" Faust</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 15,333 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Voorhees, NJ </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=450"><font face="Arial, Helvetica, sans-serif" size="2"> Clint "GameMaster" Hays</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 14,892 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Mt. Juliet, TN </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=6437"><font face="Arial, Helvetica, sans-serif" size="2"> Jared "Tapewurm" Brown</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 14,757 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Sydney, NSW </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=2186"><font face="Arial, Helvetica, sans-serif" size="2"> Danny "Skuff D" Rider</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 14,125 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Blue Diamond, 89004-0270 </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=2445"><font face="Arial, Helvetica, sans-serif" size="2"> Chris "CGogolen" Gogolen</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 14,092 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Dayton, nj </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=20"><font face="Arial, Helvetica, sans-serif" size="2"> John "Crash Beedo" Arendt</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 14,047 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Boulder, CO </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=304"><font face="Arial, Helvetica, sans-serif" size="2"> Brian "Red 81" Guthrie</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 13,791 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Austin, TX </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=4677"><font face="Arial, Helvetica, sans-serif" size="2"> Andrew "ROFL Monster" Howard</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 13,743 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Shorewood, IL </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=2"><font face="Arial, Helvetica, sans-serif" size="2"> Walter "Walter" Cowart</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 13,583 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Merritt Isl., FL. </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=645"><font face="Arial, Helvetica, sans-serif" size="2"> Matt "Old Skooler" Lush</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 13,159 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Ft. Hood, TX </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=12956"><font face="Arial, Helvetica, sans-serif" size="2"> Jean Paul "HB" Agez</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 13,087 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> thélus, France </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=14360"><font face="Arial, Helvetica, sans-serif" size="2"> Joseph "Quickbeam" Conley</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 13,077 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Richland, WA </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=495"><font face="Arial, Helvetica, sans-serif" size="2"> Matt "MattSokol" Sokol</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 12,956 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> gotham, new york </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=3752"><font face="Arial, Helvetica, sans-serif" size="2"> Geoff "Loaf" Gallo-Cornell</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 12,873 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Coatesville, Pennsylvania </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=1710"><font face="Arial, Helvetica, sans-serif" size="2"> Clayton "TheDohMan" Atkin</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 12,768 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Sonora, California </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=2061"><font face="Arial, Helvetica, sans-serif" size="2"> Adam "Vincent Vega" Beauchamp</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 12,697 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Milner, Ga. </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=357"><font face="Arial, Helvetica, sans-serif" size="2"> David "plasma26" Brinson</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 12,639 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Muncie, IN </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=3072"><font face="Arial, Helvetica, sans-serif" size="2"> Paul "lbmyers1" Myers</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 12,602 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Augusta, GA </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=9214"><font face="Arial, Helvetica, sans-serif" size="2"> Brian "retwin316" Fred</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 12,469 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Lafayette, Indiana </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=4244"><font face="Arial, Helvetica, sans-serif" size="2"> Eric "YOYOY" Bailey</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 12,461 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Indianapolis, IN </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=4788"><font face="Arial, Helvetica, sans-serif" size="2"> Alex "aljex" Helmke</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 12,228 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Geneva, IL </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=1323"><font face="Arial, Helvetica, sans-serif" size="2"> Bill "BRay" Gordon</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 12,158 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Tulsa, OK </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=600"><font face="Arial, Helvetica, sans-serif" size="2"> Luca "Luca/Tzizvvt" Costanzo</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 12,095 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Kew, Victoria </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=278"><font face="Arial, Helvetica, sans-serif" size="2"> Andrew "Gadget" Ledwith</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 11,834 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Marlborough, CT </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=720"><font face="Arial, Helvetica, sans-serif" size="2"> Nick "aeneas23" Reisch</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 11,795 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Houston, TX </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=5800"><font face="Arial, Helvetica, sans-serif" size="2"> J "_Armaedes_" T</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 11,791 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Marble Falls, Texas </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=4755"><font face="Arial, Helvetica, sans-serif" size="2"> Julien "Dark Padawan" Riviere</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 11,591 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Lievin, France </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=341"><font face="Arial, Helvetica, sans-serif" size="2"> Peter "martian" Hall</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 11,452 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Columbia, MO </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=4254"><font face="Arial, Helvetica, sans-serif" size="2"> Casey "Smeg" Barson</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 11,375 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Sandy, UT </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=1805"><font face="Arial, Helvetica, sans-serif" size="2"> Kenneth "Ken B" Bradford</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 11,235 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Fayetteville, TN </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=43"><font face="Arial, Helvetica, sans-serif" size="2"> Michael "Joz" Josem</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 11,074 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Caulfield East, Victoria </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=2576"><font face="Arial, Helvetica, sans-serif" size="2"> Ryan "CmdCorranH" Austin</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 10,920 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> grove city, Pa </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=4170"><font face="Arial, Helvetica, sans-serif" size="2"> Pete "Ghetto 13" Flamini</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 10,881 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Chesapeake, VA </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=189"><font face="Arial, Helvetica, sans-serif" size="2"> Bastian "Death Star" Winkelhaus</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 10,869 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Wuppertal, NRW / Germany </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=6993"><font face="Arial, Helvetica, sans-serif" size="2"> Patrick "Pappy" Napier</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 10,849 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Colorado Springs, Colorado </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=1311"><font face="Arial, Helvetica, sans-serif" size="2"> Keith "Tessek-CPA" Henderson</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 10,708 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> West Haven, CT </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=5241"><font face="Arial, Helvetica, sans-serif" size="2"> Ray "Ray Bordier" Bordier</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 10,702 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Douglassville, PA </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=3923"><font face="Arial, Helvetica, sans-serif" size="2"> Jon "Wow" Bragg</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 10,664 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Boston, MA </font></TD></TR><TR bgcolor="#001F90"><TD><A HREF="mpage.php?member=2570"><font face="Arial, Helvetica, sans-serif" size="2"> Cat "Ulaire Kubaz" Ceder</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 10,612 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> Sanata Barbara, CA </font></TD></TR><TR bgcolor="#000066"><TD><A HREF="mpage.php?member=4164"><font face="Arial, Helvetica, sans-serif" size="2"> Justin "MoffWicket" Alfs</FONT></A></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> 10,436 </font></TD><TD><font face="Arial, Helvetica, sans-serif" size="2"> New Brighton, MN </font></TD></TR></TABLE><BR>Showing 40-80 of 20069 total DeckTech Members <BR><A href="/membercenter/directory.php?dir_start=0&search=&dir_slope=DESC&dir_orderby=tech_points">< Back </A>&nbsp; <A href="/membercenter/directory.php?dir_start=80&search=&dir_slope=DESC&dir_orderby=tech_points">More ></A></font></td></tr></table>            
+ <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="16" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="1">
+  <tr align="center"> 
+    <td><font face="Arial, Helvetica, sans-serif" size="2"><p><a href="/global/terms.php">Terms of Service</a> TM & © 2002 www.decktech.net. 
+      All Rights Reserved.</font></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

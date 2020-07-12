@@ -1,0 +1,338 @@
+ 
+<html><!-- #BeginTemplate "/Templates/decktech_2.dwt" -->
+<head>
+<title>Welcome Lord of the Rings Players</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Lord of the Rings, Gandalf, Frodo, Ring, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
+<style type="text/css">
+<!--
+
+@font-face {
+    font-family: Tolk;
+    font-style:  normal;
+    font-weight: normal;
+    src: url(http://www.decktech.net/lotr/includes/TOLKIEN0.eot);
+}
+
+@font-face {
+    font-family: Papy;
+    font-style:  normal;
+    font-weight: normal;
+    src: url(http://www.decktech.net/lotr/includes/PAPYRUS0.eot);
+}
+
+Body { font-family: Times, Times New Roman, serif; color: #686998; font-size: 8pt; font-style: normal; text-decoration: none; background-color: #FFFFFF; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
+TD {  font-family: Times, Times New Roman, serif; font-size: 9pt;}
+.level1nav {  font-family: Papy, Times, serif; color: #686998; text-decoration: none; font-weight: bold; font-size: 8pt;}
+.h1font { font-family: Tolk, Times, serif; color: #686998; font-size: 18pt; font-style: normal; text-decoration: none; font-weight: bold; }
+.h2font { font-family: Papy, Times, serif; color: #686998; font-size: 10pt; font-style: normal; text-decoration: none; font-weight: bold; }
+.bfont { font-family: Times, Times New Roman, serif; color: #686998; font-size: 10pt; font-style: normal; text-decoration: none; }
+.afont { font-family: Papy, Times, serif; color: #686998; font-size: 8pt; font-style: normal; text-decoration: none; }
+.rumor { font-family: Papy, Times, serif; color: #686998; font-size: 9pt; font-style: normal; text-decoration: none; }
+a {  color: #CF4300; text-decoration: none}
+.header_bg {  background: #F4F4F4}
+a:hover { color: #CE754A; text-decoration: none }
+.border { }
+input {font-family: Papy, Times, serif; font-size: 8pt }
+select {font-family: Papy, Times, serif; font-size: 8pt }
+
+-->
+</style>
+</head>
+<body link="#CF4300" vlink="#CF4300" alink="#0000FF" text="#686998" margin="0" marginwidth="0" marginheight="0" bgcolor="#FFFFFF"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1" valign="top"><img src="/lotr/gfx/left_top.gif" width="16" height="145" vspace="0" hspace="0" border="0"></td>
+    <td width="130" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top" align="left"> 
+          <td><a href="http://www.decktech.net"><img src="/lotr/gfx/logo.gif" width="135" height="144" vspace="0" hspace="0" border="0"></a></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
+        </tr>
+        <tr valign="top"> 
+          <td height="2"> <script>
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+</script>
+
+<form method="post" action="">
+<div align="center">
+<select name="select" onChange="go(this)">
+<option selected>Quick Jump</option>
+<option value="#"> </option>
+<option value="#">LotR TCG ======</option>
+<option value="/lotr/index.php">Home</option>
+<option value="/lotr/main/about.php">About</option>
+<option value="/lotr/main/join.php">Sign Up Now!</option>
+<option value="#"></option>
+<option value="/index.php">decktech.net</option>
+</select>
+</div>
+</form>
+ </td>
+        </tr>
+        <tr valign="top"> 
+          <td> <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr><td width="1"><img src="/lotr/gfx/cloud/blue1.gif" width="1" height="27"></td>
+    <td background="/lotr/gfx/cloud/orange4.gif"><font face="Papy, Times, serif" class="h2font">Lord of the Rings</td><td width="1"><img src="/lotr/gfx/cloud/orange5.gif" width="1" height="27"></td>
+  </tr><tr><td width="1" valign="bottom"><img src="/lotr/gfx/cloud/orange2.gif" width="1" height="110"></td>
+  <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="4"><tr><td><font face="  Times, Times New Roman, serif" class="bfont">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><a href="/lotr/index.php" class="level1nav">Home</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/articles/index.php" class="level1nav">Articles</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/decks/index.php" class="level1nav">Decks</a><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="2">
+        <tr> 
+          <td width="1%"><img src="../../global/images/home/trans.gif" width="10" height="5"></td>
+          <td width="99%"> 
+            <font face="  Times, Times New Roman, serif" class="bfont">            <a href="/lotr/decks/decks.php?cat=AD">Advanced</a></font></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font face="  Times, Times New Roman, serif" class="bfont">            <a href="/lotr/decks/decks.php?cat=IN">Intermediate</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font face="  Times, Times New Roman, serif" class="bfont">            <a href="/lotr/decks/decks.php?cat=BG">Beginner</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font face="  Times, Times New Roman, serif" class="bfont">            <a href="/lotr/decks/decks.php?cat=FN">Fun</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font face="  Times, Times New Roman, serif" class="bfont">            <a href="/lotr/decks/decks.php">All</a></td>
+        </tr>
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="99%"> 
+            <font face="  Times, Times New Roman, serif" class="bfont">            <a href="/lotr/resources/cardlist.php">Card List</a></td>
+        </tr>
+      </table>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/treports/index.php" class="level1nav">Tournament 
+      Reports</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/outfitters/index.php" class="level1nav">M.E. 
+      Outfitters</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/trade/index.php" class="level1nav">Trade</a><br>
+          </td>
+  </tr>
+  <tr> 
+    <td><a href="/lotr/resources/index.php" class="level1nav">Resources</a><br>
+          </td>
+  </tr>
+</table>
+</font></td></tr></table></td><td width="1" valign="top"><img src="/lotr/gfx/cloud/orange6.gif" width="1" height="111"></td>
+  </tr><tr align="left"><td colspan="3"><img src="/lotr/gfx/cloud/orange3.gif" width="111" height="15" vspace="0" hspace="0" border="0"></td>
+  </tr></table> </td>
+        </tr>
+         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
+        <tr valign="top"> 
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr><td width="1"><img src="/lotr/gfx/cloud/blue1.gif" width="1" height="27"></td>
+    <td background="/lotr/gfx/cloud/green4.gif"><font face="Papy, Times, serif" class="h2font">MoM Spoilers</td><td width="1"><img src="/lotr/gfx/cloud/green5.gif" width="1" height="27"></td>
+  </tr><tr><td width="1" valign="bottom"><img src="/lotr/gfx/cloud/green2.gif" width="1" height="110"></td>
+  <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="4"><tr><td><font face="  Times, Times New Roman, serif" class="bfont"><center>
+  Get the Complete List! <br>
+Now available in PDF Format! 158k
+</center>
+<center>
+  <a href="http://www.decipher.com/lordoftherings/cardlists/minesofmoria/minesofmoriaspoiler.pdf" target="_blank">Download the PDF!</a> 
+</center>
+</font></td></tr></table></td><td width="1" valign="top"><img src="/lotr/gfx/cloud/green6.gif" width="1" height="111"></td>
+  </tr><tr align="left"><td colspan="3"><img src="/lotr/gfx/cloud/green3.gif" width="111" height="15" vspace="0" hspace="0" border="0"></td>
+  </tr></table><BR><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr><td width="1"><img src="/lotr/gfx/cloud/blue1.gif" width="1" height="27"></td>
+    <td background="/lotr/gfx/cloud/blue4.gif"><font face="Papy, Times, serif" class="h2font">Featured Writers</td><td width="1"><img src="/lotr/gfx/cloud/blue5.gif" width="1" height="27"></td>
+  </tr><tr><td width="1" valign="bottom"><img src="/lotr/gfx/cloud/blue2.gif" width="1" height="110"></td>
+  <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="4"><tr><td><font face="  Times, Times New Roman, serif" class="bfont"><table width="120" border="0" cellspacing="0" cellpadding="3">
+  <tr align="center"> 
+    <td><a href="http://www.decktech.net/lotr/articles/articles.php?id=3219&view=2"><img src="/lotr/gfx/features/cadvandtage2.jpg" width="113" height="113" border="0"></a></td>
+  </tr>
+  <tr align="center"> 
+    <td><a href="/lotr/articles/articles.php?id=3141&view=2"><img src="/lotr/gfx/features/site.gif" width="113" height="113" border="0"></a></td>
+  </tr>
+  <tr align="center"> 
+    <td><a href="http://www.decktech.net/lotr/articles/features/rightime.php"><img src="/lotr/gfx/features/right.gif" width="113" height="113" border="0"></a></td>
+  </tr>
+  <tr align="center"> 
+    <td><a href="http://www.decktech.net/lotr/articles/features/cavetroll.php"><img src="/lotr/gfx/features/trollad.gif" width="113" height="113" border="0"></a></td>
+  </tr>
+  <tr align="center"> 
+    <td><a href="/lotr/articles/features/buget1.php"><img src="/lotr/gfx/features/bdget1.gif" width="113" height="113" border="0"></a></td>
+  </tr>
+  <tr align="center"> 
+    <td><a href="/lotr/articles/features/cardadvg1.php"><img src="/lotr/gfx/features/advantage.gif" width="113" height="113" border="0"></a></td>
+  </tr>
+</table>
+</font></td></tr></table></td><td width="1" valign="top"><img src="/lotr/gfx/cloud/blue6.gif" width="1" height="111"></td>
+  </tr><tr align="left"><td colspan="3"><img src="/lotr/gfx/cloud/blue3.gif" width="111" height="15" vspace="0" hspace="0" border="0"></td>
+  </tr></table> </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top" colspan="2" width="90%"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0" background="/lotr/gfx/header_back.jpg">
+  <tr valign="top"> 
+    <td height="148"> <img src="/lotr/gfx/trans_header1.gif" width="8" height="60" border="0" vspace="0" hspace="0"><br>
+    </td>
+  </tr>
+</table>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#FFFFFF" valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="22" height="2" vspace="0" hspace="0" border="0"></td>
+          <td bgcolor="#FFFFFF" valign="top"><!-- #BeginEditable "Body" --> 
+              <script language="javascript">function card_browser(card)
+		{
+	var DL;
+	DL = "/lotr/main/cardbrowser.php?card=" + card; 
+	var SITE = window.open(DL,"cardbrowser");
+	return;
+		}
+	</script><table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr><td width="2" height="15"><img src="/lotr/gfx/center_column/1.gif" width="2" height="25"></td>
+    <td width="700" background="/lotr/gfx/cloud/bluecc.gif" height="15" valign="bottom"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr><td><font face="Tolk, Times, serif" class="h1font"><font color="#8989B1">Advanced Decks</font></B></font></td></tr></table></td></tr><tr><td width="2"></td><td valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="5"><tr><td><font face="  Times, Times New Roman, serif" class="bfont"><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td colspan="2"><font face="Tolk, Times, serif" class="h1font">All Arrows Perish - Inquest</font></td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Papy, Times, serif" class="h2font"> Rating</Font></TD><TD><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><font size=1>(4.63)</font> | <A HREF="/lotr/decks/decks.php?reviews=21262">Read Reviews</A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Papy, Times, serif" class="h2font"> Author</font></TD><TD><font face="  Times, Times New Roman, serif" class="bfont"> <A HREF="http://www.decktech.net/lotr/main/mpage.php?member=8834">Ryan "NzglStalker" Austin</A></FONT> <font face="Papy, Times, serif" class="afont"> <a href='http://www.decktech.net/lotr/main/mpage.php?member=8834&sub=1'> (Subscribe to this member)</a></font></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Papy, Times, serif" class="h2font"> Description</Font></TD><TD> </TD></TR><TR><TD COLSPAN="2" VALIGN="TOP"><font face="  Times, Times New Roman, serif" class="bfont"> Deck uses a powerful Gandalf platform combined with aimed archery to create a super fellowship. For shadow I use a Archery Hate version of Nazgul with some sweet support cards. This deck can win by getting to site nine and killing of your opponent&#8217;s</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Papy, Times, serif" class="h2font"> Submitted</Font></TD><TD><font face="  Times, Times New Roman, serif" class="bfont"> February 7, 2002</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Papy, Times, serif" class="h2font"> Cards</Font></TD><TD> </TD></TR><TR><TD COLSPAN="2" VALIGN="TOP"><font face="  Times, Times New Roman, serif" class="bfont"> <br>
+STARTING<br>
+Frodo, SOD<br>
+One Ring, IB<br>
+Gandalf, FOTS<br>
+<br>
+SITES<br>
+1) Prancing Pony<br>
+2) Bree Streats<br>
+3) <a href="javascript:card_browser(879)">Ford of Bruinen</a><br>
+4) Pass of Cardharas<br>
+5) Bridge of Kazah-Dum<br>
+6) Lothlorian Woods <br>
+7) Silverload Banks<br>
+8) <a href="javascript:card_browser(238)">Shores of Nen Hithoel</a><br>
+9) Summit of Amen Hen<br>
+<br>
+FREE PEOPLE (30)<br>
+Gandalf FOTS (start)<br>
+Aragorn ROTN x3<br>
+Legolas Greenleaf x3<br>
+Aragorn&#8217;s Bow x2<br>
+Ranger&#8217;s Sword x2<br>
+<a href="javascript:card_browser(284)">Glamdring</a> x2<br>
+Sleep, Cardharas x2<br>
+<a href="javascript:card_browser(293)">Servant of the Secret Fire</a> x4<br>
+Albert Dreary x2<br>
+Barlimen Butterbur <br>
+<a href="javascript:card_browser(190)">Power According to His Stature</a> x2<br>
+A Ranger&#8217;s Versatility x2<br>
+Strength of the Spirit x3<br>
+<a href="javascript:card_browser(266)">Rumil, Elven Protector</a><br>
+<br>
+SHADOW (30)<br>
+Witch King x4<br>
+Ultaire Nelya x3<br>
+Ultaire Enquea <br>
+Ultaire Cantea x3<br>
+Ultaire Toldea x2<br>
+Ultaire Attea x3<br>
+<a href="javascript:card_browser(89)">Relentless</a> Charge x4<br>
+<a href="javascript:card_browser(100)">All Blades Perish</a> x3<br>
+<a href="javascript:card_browser(113)">Nazgul Sword</a> x3<br>
+<a href="javascript:card_browser(112)">Morgul Gates</a> x4<br>
+    </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Papy, Times, serif" class="h2font"> Strategy</Font></TD><TD> </TD></TR><TR><TD COLSPAN="2" VALIGN="TOP"><font face="  Times, Times New Roman, serif" class="bfont"> ~~~~~~~~~~~~~~~~~~~~~~~<br>
+<b>Deck CHANGES</B><br>
+OUT:<br>
+<br>
+4)Pass of Cardhas<br>
+Rumil<br>
+Nazgul Sword x3<br>
+<br>
+IN:<br>
+4)Moria Lake<br>
+Pale Blade x3<br>
+Barlimen Butterbur<br>
+<br>
+Witch King and his Pale Blade cause to much damage to not play with the blades. Also the Nazgul Swords really haven&#39;t helped me out much. Another Barlimen was really needed and Rumil didn&#39;t help out much since archery/PATHS takes care of swarms. And then I changed Pass of Cardhaus to Moria lake because, like the Pass, Moria Lake is also above ground. It also gives me one more twilight, and doesn&#39;t help out uruk hai players.<br>
+<br>
+<b>***END OF DECK UPDATE***</b><br>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br>
+<br>
+<b>Intro</b><br>
+<br>
+This deck uses a powerful Gandalf platform combined with aimed archery to create a super fellowship. I have experianced the power of aimed archery first hand, and have developed, what I feel, is the best version. <br>
+<br>
+For shadow I have chosen one of the most solid platforms in the game, Nazgul. Limit your opponent to moving one site per turn to get ahead with your fellowship and dominate any archery deck. This deck can win by getting to site nine or killing of your opponent&#8217;s fellowship with Nazgul.<br>
+<br>
+<b>TOP CARDS</b><br>
+For the fellowship Strength of the Spirit allows you to prevent exertions when you preform aimed archery, and Servant of the Secret Fire can be played on any minion to win/survive skirmishes. The 2 character weapons serve the same purpose by adding strength bonus. Sleep Cardharas is VERY key since the majority of minion decks play heavy amounts of conditions.<br>
+Albert Dreary is HUGE in this deck since he is able to cancel SPIES OF SAURAMEN during the manuever phase. This is huge since Spies of Sauramen takes away my ability to shoot down minions. <br>
+<br>
+On the shadow side Relentless charge wounds every archer, which is devestating if played against an archery deck. All Blades Perish stops wounds taken by arrows on the Nazgul, as well as any other card that can be played to wound the Nazgul. Witch King and Pale Blade are also two top cards. Together they can overwelm quite often as well as deal out some massive damage. Morgul Gates is very key since it allows your expensive Nazgul to go down for an affordable cost.<br>
+<br>
+<b>HOW IT BEATS YOU</b><br>
+As stated in the introduction, the game can be won by your fellowship or shadow side. You will find that against most archery decks your shadow wins you the game. Where against decks with a non archery fellowship you win by getting to site 9. If possible always try to go second so that you get your sites 2 and 3 out. Both are Nazgul havens. <br>
+<br>
+Against archery decks the Nazgul are able to kill off the archers and then destroy the ring bearer. Doing this is made easy by the 4x Relentless charge and 3x All Blades Perish. Typically archery decks cannot win many skirmishes against Nazgul if they are unable to use their arrows effectivly. All Blades Perish cancels wounds sent in the Nazgul&#39;s direction, and causes the archers to exert themselves more. You can also play 1-3 copies of Relentless charge to kill them off. Try to play them at sites 4 & 5 to prevent your oppoenent from playing A Ranger&#39;s Versatallity first. All Blades Perish can also end games when your opponent throws Frodo in front of an exhausted Nazgul in order to play Power According to His Stature. <br>
+<br><br>
+Once the archers are dead your opponent will only have Gandalf or Arwen to protect frodo. These characters can be hastily dispached of and then the Nazgul.<br>
+<br>
+The fellowship is played by moving slow in the beginning while setting up. Once set up this fellowship can really fly. Use Strength of the Spirit to prevent exertions and Servant of the Secret Fire to help win skirmishes. Archery & PATHS mows downa any swarm decks as well as most sauron. Uruk Hai can be beaton in skirmishes or by shooting them. Remember, Spies of Sauramen is canceled by Dreary. Nazgul are a little tougher, but Ranger&#39;s Versatallity can really help your archers against the big black boys. <br>
+<br>
+I have found this deck to be extreamly effective against any decktype. The fellowship is the strongest availible right now, and is complimented by a shadow that downright destroys archery; as well as seriously hurting and slowing down your opponent. <br>
+<br>
+<b>NUMBER 1 CARD</b><br>
+Relentless Charge - The bane of any archery deck. Play it when their archers are already wounded (by exerting themselves) and goodbye archers. Play a few of these against the archers and you won&#39;t have to worry about any more arrows. <br>
+ </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="  Times, Times New Roman, serif" class="bfont"> <a href="/lotr/decks/decks.php">Back to Decks Directory</a> | <A HREF="/lotr/decks/decks.php?reviews=21262"> Read Reviews </A> | <a href="deckprint.php?deck=21262" TARGET="BLANK_"> Printer Friendly</a></FONT></TD></TR></TABLE><a name="review"></a><font face="Papy, Times, serif" class="h2font">In order to review decks you must be a registered member. <A href="/lotr/main/join.php">Sign up for free!</A></font></font></td></tr></table></td></tr></table> <!-- #EndEditable --></td>
+          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="16" height="2" vspace="0" hspace="0" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td colspan="4">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" background="/lotr/gfx/footer_back.jpg">
+    <tr align="center" valign="bottom" > 
+      <td height="210"><font face="Papy, Times, serif" class="afont">This site is maintained and updated 
+        by fans of The Lord of the Rings TCG, and is in no way affiliated with 
+        New Line Cinema or Decipher Inc. We in no way claim the artwork displayed 
+        to be our own. Copyrights and trademarks for the films and other promotional 
+        materials are held by their respective owners and their use is allowed 
+        under the fair use clause of the Copyright Law.<a href="/global/terms.php" class="level1nav"><br>
+        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
+      </td>
+    </tr>
+  </table>
+  
+</div>
+</td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

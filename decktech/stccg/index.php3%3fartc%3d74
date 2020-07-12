@@ -1,0 +1,635 @@
+ 
+<html><!-- #BeginTemplate "/Templates/st_home.dwt" -->
+<head>
+<title>DeckTech - for the players, by the players.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/stccg/global/css/white.css">
+<style type="text/css">
+<!--
+.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
+.top_bg {  background-image: url(/stccg/global/images/trek/header_b1.gif); background-repeat: repeat-x}
+.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
+.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
+.centercolor {  background-color: #000000}
+.top_header { background-image: url(/stccg/global/images/trek/header_back.gif); background-repeat: repeat-y}
+-->
+</style>
+</head>
+<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="90%" align="center" valign="middle" background="/stccg/global/images/trek/header_back.gif" rowspan="2" class="header_bg"><img src="/stccg/global/images/trek/glear.gif" width="1" height="1"> 
+      <!-- #BeginLibraryItem "/Library/Banner2.lbi" -->
+
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
+function ShowBurstAd(adcode, width, height) {
+ var bN = navigator.appName;
+ var bV = parseInt(navigator.appVersion);   
+ var base='http://www.burstnet.com/';   
+ var Tv='';   
+ var agt=navigator.userAgent.toLowerCase();   
+ if (bV>=4)  
+ {ts=window.location.pathname+window.location.search;
+  i=0; Tv=0; while (i< ts.length)
+    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
+  else   {Tv=escape(window.location.pathname);
+  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+    else if (Tv.charAt(1)=="/")
+ Tv="";     
+ if( Tv.charAt(Tv.length-1) == "/")
+   Tv = Tv + "_";}   
+ if (bN=='Netscape'){        
+  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
+ { document.write('<s'+'cript src="'+ 
+  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
+  +Tv+'">'); 
+  document.write('</'+'script>');
+ }
+   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
+  adcode + '-map.cgi'+Tv+'"target=_top>');
+  document.write('<img src="' + base + 'cgi-bin/ads/' +
+  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
+  ' border="0" alt="Click Here"></a>');}   
+}
+if (bN=='Microsoft Internet Explorer')    
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
++     
+adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
+'frameborder="0" scrolling="no"></ifr'+'ame>');  
+}
+//-->
+</script>
+<!-- BEGIN RICH-MEDIA BURST! CODE --> 
+
+<script language="JavaScript">
+<!--
+ShowBurstAd('ad8702a','468','60');
+// -->
+</script>
+
+<noscript>
+<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
+</noscript>
+
+<!-- END BURST CODE -->
+ <!-- #EndLibraryItem --> </td>
+    <td width="171" bgcolor="#000000" > 
+      <table width="142" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td bgcolor="#333399"><img src="/stccg/global/images/trek/glear.gif" width="155" height="8"></td>
+          <td bgcolor="#000000">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td width="171" bgcolor="#333399" ><img src="/stccg/global/images/trek/logo1.gif" width="171" height="59" border="0" vspace="0" hspace="0"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="162" valign="top" bgcolor="#000000"> 
+      <table width="154" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="145" rowspan="2" valign="top"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+              <tr> 
+                <td bgcolor="#000000" width="12" height="40">&nbsp;</td>
+                <td height="40" bgcolor="#333399"><img src="/stccg/global/images/trek/left1.gif" width="133" height="48" vspace="0" hspace="0" border="0"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#000000" width="12">&nbsp;</td>
+                <td bgcolor="#8543B1"><!-- #BeginLibraryItem "/Library/st_login.lbi" -->  
+                  <form method="post" action="/stccg/index.php3" name="">
+                    
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom"> 
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr> 
+                        <td height="5"><font face="Haettenschweiler, Impact, Arial Black" size="4" color="#FFFFFF">&nbsp;<img src="/stccg/global/images/trek/login.gif" width="57" height="13"></font></td>
+                      </tr>
+                      <tr> 
+                        <td> &nbsp; 
+                          <input type="text" name="sname" size="12" maxlength="22">
+                        </td>
+                      </tr>
+                      <tr valign="top"> 
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><font size="1"><img src="/stccg/global/images/trek/name.gif" width="33" height="7" vspace="4" hspace="5"></font></font></td>
+                      </tr>
+                      <tr> 
+                        <td> &nbsp; 
+                          <input type="password" name="password" size="12" maxlength="14">
+                        </td>
+                      </tr>
+                      <tr valign="top"> 
+                        <td><img src="/stccg/global/images/trek/password.gif" width="61" height="7" vspace="4" hspace="5"></td>
+                      </tr>
+                      <tr align="right"> 
+                        <td><font face="Haettenschweiler, Impact, Arial Black" size="4" color="#FFFFFF"> 
+                          <input type="hidden" name="mlogin" value="true">
+                          <input type="submit" name="Submit" value="Login">
+                          &nbsp;&nbsp;</font> </td>
+                      </tr>
+                    </table>
+                  </form>
+                   <!-- #EndLibraryItem --></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#000000" width="12" height="2"><img src="/stccg/global/images/trek/glear.gif" width="12" height="1"></td>
+                <td height="2" bgcolor="#000000"><img src="/stccg/global/images/trek/glear.gif" width="1" height="1"></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#000000" width="12" height="131">&nbsp;</td>
+                <td height="131" align="center" valign="middle" bgcolor="#333399"><a href="http://www.decipher.com/startrek/index.html" target="_blank"><img src="/stccg/global/images/trek/trek_logo.gif" width="123" height="117" border="0"></a></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#000000" width="12" height="169">&nbsp;</td>
+                <td height="169" valign="top" bgcolor="#2DA7CE"><img src="/stccg/global/images/trek/left2.gif" width="133" height="70"> 
+                  <!-- #BeginEditable "about" --> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                          <tr valign="top"> 
+                            <td><font face="Haettenschweiler, Impact, Arial Black" size="5" color="#333399">What 
+                              is ST: CCG?</font></td>
+                          </tr>
+                          <tr valign="top"> 
+                            <td height="189" class="level2nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#333399">Imagine 
+                              playing a game of chess where each player could 
+                              select from 1000 pieces, each of which moved differently. 
+                              You would select your 16 pieces in secret, and so 
+                              would your opponent. [<a href="/stccg/main/stccg.php3" class="level2nav">more</a>]</font></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- #EndEditable --></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#000000" width="12">&nbsp;</td>
+                <td valign="top" bgcolor="#000000"><img src="/stccg/global/images/trek/left_bottom.gif" width="133" height="16"></td>
+              </tr>
+            </table>
+          </td>
+          <td width="10" height="40" align="left" valign="top" bgcolor="#000000"> 
+            <img src="/stccg/global/images/trek/header_c1.gif" width="17" height="48" border="0" vspace="0" hspace="0"></td>
+        </tr>
+        <tr> 
+          <td width="10" height="494" bgcolor="#000000">&nbsp;</td>
+        </tr>
+      </table>
+      <img src="/swccg/global/images/trans.gif" width="17" height="8" vspace="0" hspace="0" border="0"></td>
+    <td valign="top" class="centercolor" bgcolor="#000000"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+        <tr align="right" valign="top"> 
+          <td height="42" class="top_bg" width="35%" align="left" background="/stccg/global/images/trek/header_b1.gif"><img src="/stccg/global/images/trek/header_m1.gif" width="151" height="48" vspace="0" hspace="0" border="0"></td>
+          <td height="42" class="top_bg" width="63%" background="/stccg/global/images/trek/header_b1.gif">&nbsp;</td>
+          <td height="42" class="top_bg" width="2%" background="/stccg/global/images/trek/header_b1.gif"><img src="/stccg/global/images/trek/header_r1.gif" width="12" height="48"></td>
+        </tr>
+        <tr align="right" valign="top"> 
+          <td height="42" colspan="2" align="left"><!-- #BeginEditable "Body" --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td bgcolor="#333399" colspan="2" valign="top" height="24"><img src="/stccg/global/images/trek/tablet1.gif" width="92" height="32"></td>
+                <td valign="top" height="24" colspan="3"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td bgcolor="#333399" width="12%" height="13"><img src="/stccg/global/images/trek/glear.gif" width="1" height="19"></td>
+                      <td width="0%" height="13"><img src="/stccg/global/images/trek/glear.gif" width="2" height="1"></td>
+                      <td width="76%" bgcolor="#8543B1" height="13"><img src="/stccg/global/images/trek/glear.gif" width="1" height="1"></td>
+                      <td width="9%" height="13"><img src="/stccg/global/images/trek/tab_decktech.gif" width="119" height="16" vspace="0" hspace="4"></td>
+                      <td width="3%" bgcolor="#8543B1" align="right" height="13"><img src="/stccg/global/images/trek/tablet_cap.gif" width="18" height="19"></td>
+                    </tr>
+                    <tr> 
+                      <td width="12%"><img src="/stccg/global/images/trek/glear.gif" width="1" height="12"></td>
+                      <td width="0%"></td>
+                      <td width="76%"></td>
+                      <td width="9%"></td>
+                      <td width="3%"></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr> 
+                <td width="80" bgcolor="#333399" height="40%"><img src="/stccg/global/images/trek/glear.gif" width="80" height="8" border="0" vspace="0" hspace="0"></td>
+                <td width="12" height="40%"><img src="/stccg/global/images/trek/glear.gif" width="12" height="8" border="0" vspace="0" hspace="0"></td>
+                <td rowspan="5" colspan="3" valign="top"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr valign="top"> 
+                      <td bgcolor="#000000" height="72" width="100%" colspan="3"><img src="/stccg/global/images/trek/glear.gif" width="1" height="5"><br>
+                        <span class="text">Welcome to DeckTech ST: CCG a great 
+                        place to learn about Star Trek the Customizable Card Game&#153;. 
+                        If your new take a few moments to look around. From the 
+                        decks and articles to the community features DeckTech 
+                        ST: CCG has something to offer players of every skill 
+                        level.<br>
+                        </span> </td>
+                    </tr>
+                  </table>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="88%" bgcolor="#8543B1" height="13"><img src="/stccg/global/images/trek/tablet_capr.gif" width="18" height="19" vspace="0" hspace="0" border="0"></td>
+                      <td width="7%" height="13"><img src="/stccg/global/images/trek/tab_news.gif" width="42" height="18" vspace="0" hspace="4"></td>
+                      <td width="5%" bgcolor="#8543B1" align="right" height="13"><img src="/stccg/global/images/trek/tablet_cap.gif" width="18" height="19"></td>
+                    </tr>
+                    <tr> 
+                      <td width="88%"></td>
+                      <td width="7%"></td>
+                      <td width="5%"></td>
+                    </tr>
+                  </table>
+                  
+                 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td>
+<a name=74></a>
+<table width=100%>
+<tr><td colspan=2><font color=#FFFFFF face="arial"><b>Confirmed: FreedomCon the Only Championship for 2001 Qualifiers</b></font></td></tr>
+<tr><td><font face="arial" size="2"><b>DeckTech reports on Sat Nov 10 2001 </font></td><td align=right><font face="arial" size="2">FreedomCon News</font></td></tr>
+<tr><td colspan=2><font face="arial" size="2">In a move to distance themselves from the player supported and organized FreedomCon World Championships for Star Wars, Star Trek, Young Jedi, and Jedi Knights, an executive from Decipher announced that the FreedomCon Champions would not be officially recognized as the Decipher World Champions for the year 2001.  <br>
+<br>
+Instead no champions for 2001 will be officially recognized. The official 2001 World Championships were recently cancelled due to concerns over player safety in light of the recent terrorist activities.  <br>
+ <br>
+There was no mention in the statement concerning the rescheduling of an official 2001 World Championships, however, 2002 World Championships for all of Deciphers games will be held in November of next year. <br>
+ <br>
+This recent announcement burdens the player-organizers of FreedomCon with the task of providing the only World Championship level event for the qualifiers of 2001. <br>
+<br>
+We were optimistically hopeful that Decipher would reschedule the official 2001 World Championships sometime early next year. It is now clear that the unofficial FreedomCon World Championship will be the only World Championship level event available for the many hundreds of dedicated gamers that qualified in 2001.<br>
+<br>
+The complete statement can be read on Deciphers web site <A href="http://www.decipher.com/newsflash/2001/11/110901storyA.html" target="blank">here:</a> <p><small>edited by DeckTech on Sat Nov 10 2001 </small><p><small>edited by DeckTech on Sat Nov 10 2001 </small></font></td></tr>
+<tr><td align=right colspan=2><font face=arial size=1> <a href=send.php?di=/stccg/index.php3&id=74 target="_blank">send to friend</a> | <a href=print.php?74 target="_blank">printer friendly</a></font></td></tr>
+</table><p><table width=100%><tr><td><HR><font face=arial size=2>That post by decipher was unnecessary.  Who gives a #&!% what they recognize the tournament as.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:lordmadskills@hotmail.com">Michael Pistone</a></font><font face=arial size=2> - Sat Nov 10 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Just more proof that the Decipherians don't even have two neurons to rub together.  There's no need to shoot down a truly great grassroots effort by the player community to keep the spirit of the game alive despite the tragedies of this year.  They're like the prissy generals staying in the back of the army and then bitching about the infantry's uniforms getting dirty when the grunts are the ones out there doing all the fighting.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:Dalantyr@aol.com">Dalantyr</a></font><font face=arial size=2> - Sat Nov 10 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Thanks decipher for your half @ssed comment regarding Fcon.  Decipher can kiss my @ss and let WoTC take over, at least they care for their player base.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:red5@san.rr.com">RedV</a></font><font face=arial size=2> - Sat Nov 10 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Look, I've never been a huge fan of WotC, but I don't hear about tons of their players leaving MTG and other games because of an obvious lack of concern from WotC.  Decipher refuses to learn from their mistakes and is ostricizing the entire SW:CCG comunity in the process.  Come on Decipher, you may not be gaining any new players, but at least humor us older ones and act like you care about us.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:willgil3@bellsouth.net">will gilchrist</a></font><font face=arial size=2> - Sat Nov 10 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Pete is right on.<br><br>
+Two points:<br><br>
+1. This apparent "exodus" is just not at the scale many are saying it is. Don't believe me? Take a look at ebay sometime and type in "SWCCG collections". then take a look at the amount of bids they get. In other words, for every one play that leaves there are 4 or 5 ready to jump in.<br><br>
+2. Let's talk about the "almighty" Magic cardgame for a moment. One of the anti-Decipher beefs is the apparent lack of playtesting which result in the apparent release of shoddy products, right? Tell me, how much or (little in this case) playtesting does wotc do to end up filling up several pages worth of banned cards (not counting their rulings and errata)?<br><br>
+The bottomline is: some of you think Decipher is SO horrible, but I'll tell ya, if wotc ever got the Star Wars licence you'd be begging LFL to give it back to Decipher. Ask the L5R players what happened to that game when wotc inherited it...</font></td></tr><tr><td><font face=arial size=2>Red 84</font><font face=arial size=2> - Sat Nov 10 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I don't see the big deal with Monica Jones' announcement.  It's not a surprise to me, it's not as if I expected decipher to crown the winner of Freedomcon the Decipher World Champ.  They said all along they couldn't support FreedomCon, and this is just part of that.  I don't even bear her any ill will, she actually seems to be pretty good at what she does.<br>
+But as far as I'm concerned it's a non-issue.  The bloc of some of the SM's might keep trumpeting the fact that Decipher doesn't recognize it, but really who cares?  Make no mistake, FreedomCon is this year's World Championship.  It doesn't matter if a few people don't go, because probably anyone who wouldn't go based on their dislike of Decktech didn't have a chance in hell of winning anyway.  All the people who would have come to this years Decipher World Championship are probably coming to Decktech's World Championship, +\- 2%.  All the Europeans are still coming.  Most of the Tennesse crew is coming.  Most of the East coast is coming.  Some of the West Coast is coming, but that's not unusual.  Hunter's not coming as far as I know, unfortunately, but that's not new, he's got other things going on.  The Canadian's are coming too.  The good players I know that aren't coming are just due to the normal attrition of a bad economy or other obiligations.  The prizes are better than Decipher's, and the con itself is BETTER!  Yeah, I said it, it's better than Deciphercon would have been.  So where's the bolt of lightning?  That's the way I feel, so sue me over my opinion.  Deciphercon would have been cool, sure, but anything involving me and David and the countless other awesome people involved in this is just too good to deny.<br>
+<br>
+Personally, I think David should have just called it the Star Wars CCG World Championship anyway, but he was trying to be pleasant and respectful to Decipher, despite what a few of you say.  The winner is the World Champ, even if some chumps don't like it.  Sorry.  Non-issue.<br>
+<br>
+Furthermore, to Dork 84, try to read the handwriting on the wall.  Do you see ANY mention of Star Wars in 2002 Deciphercon?  I sure don't.  Can't you see, it's probably all done for, probably has been for months.  You know the playtesters haven't been play testing anything since Theed's Palace months ago.  It's all set, you've just got to use your head.  It's not the end of the world.  If you like Decipher, they are still making Lord of the Rings and Star Trek.  They aren't going anywhere.  Go ahead support them, their games, whatever floats your boat.  If you don't like DT, go to Decipher's site, don't come to freedomcon, whatever, it's not a big deal.</font></td></tr><tr><td><font face=arial size=2>neal</font><font face=arial size=2> - Sat Nov 10 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>While I generally find the politics of SWCCG to be a silly concept at best, Decipher's announcement really got on my nerves.  First they cancel everything for dubious reasons.  Then when Decktech and the community get together to do something great for the players, they send out this memo to try to bring everyone down.  Never mind that Freedomcon doesn't cost them a cent and actually saved them the thousands of dollars it would have cost to run the event.  Never mind that Freedomcom provides free promotion of Reflections 3, Lord of The Rings, and the new Jedi Knights set.  Decipher cancels the biggest event of the year and WoTC provides thousands of dollars of prizes to a player based initiative.  Decipher responds by saying "your tourny doesn't count."  <br>
+<br>
+Well I have a newsflash for Decipher since they didn't get it when Freedomcon was announced.  Warren Holland and the Decipher company doesn't decide whether the Freedomcon World Championship is legitimate.  In fact, *I* decide whether it is not.  Not me as individual but as part of the SWCCG community.  It's legitimate because *we say it is* just like there's a world championship tourny because we said there would be.  As my friend Gary Mohnsen put it, this would be like the Spaulding corporation saying that the winner of the World Series would not be recognized because they say so and they make the baseballs.  <br>
+<br>
+Decipher turned it's back on the community long ago and is cashing out now.  I personally believe that regardless of what they were in the past they are now just money grubbing liars who don't care a whit about the consumers.  You can feel that way or not, but look hard at the evidence and convince me that SWCCG will go on in the next year.  It won't, they know it, and they are trying to sell us a few more boxes of crap before it's over.  If you look close enough, you can read that message right between where is says "Deciphercon cancelled" and "Buy lots of Lord of The Rings."<br>
+<br>
+Well here's another newsflash for Decipher.  *WE DON'T NEED YOU ANYMORE.*  That's the message of Freedomcon, and all the memos in the world won't change that a bit.  <br>
+<br>
+Steven</font></td></tr><tr><td><font face=arial size=2>Steven</font><font face=arial size=2> - Sat Nov 10 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Although I was also very disappointed at Decipher's decision about Deciphercon, I would still support them in their effort to keep the license and to keep the game we love going. I have been very excited about FreedomCon, up until a few days ago. When I saw WOTC was providing prize support, that was completely discouraging, they are a company I would <B>NEVER</B> buy product from, and if they get the SWCCG license, I plan to keep playing the Decipher version, as I know many people will. Although I support DeckTech and everything that they do and stand for, Neal's statement on here was completely wrong and gave me my first negative feeling toward DT. Some people don't like DT, but by saying something like that, he just gives more people a reason not to like DT. He basically said that DT supports WOTC getting the license, and if that is the case, it is completely against what the general player population feels. We don't want to see SWCCG turn into magic, no thought, no playtesting, mass amounts of errata/banning/restriction, and MORE people in it just for money. Basically, if WOTC gets the license, they will create a mass produced CCG, that hopefully no TRUE SWCCG player will contribute to. And hopefully DT see's that, although I think they are the best thing that has happened to this game, they wouldn't be here without Decipher.</font></td></tr><tr><td><br><font face=arial size=2><a href="http://www.decktech.net/3" target=gfds>http://www.decktech.net/3</a></font><BR><font face=arial size=2><a href="mailto:masteryoda13@home.com">Andrew Masteryoda13 Howard</a></font><font face=arial size=2> - Sat Nov 10 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Andrew, we can complain all we want about what might happen if such and such happened but what does that accomplish? It isn't going to change the fact that all descision regarding the star wars property have already been completed. <br>
+<br>
+Those of us that are serious about helping our gaming community are doing our best to voice the real concerns of the players the best we know how to those that  matter the most. <br>
+<br>
+It's like everything in life you have to play the hand your dealt the best you can.</font></td></tr><tr><td><font face=arial size=2>David</font><font face=arial size=2> - Sat Nov 10 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I am really surprise how Decipher Turn.. I have been one of the most fervant admirator for decipher... but they lost many good employee (such as Matt Mariani, first Marketing director.. he knew how to make SWCCG great).  This message was not necessary, we already knew that they didn`t support Freedomcon.. The winner will be the World Champ.. I think I should give my 1996 plate to the winner to officialise this <img src=/news/smileys/smile.gif> .. but that just a though...<br>
+<br>
+</font></td></tr><tr><td><font face=arial size=2>Raphael Asselin</font><font face=arial size=2> - Sat Nov 10 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I'm sick of the WOTC bashing.  Decipher doesn't hold a candle to WOTC and you all know it.<br>
+<br><br>
+<br><br>
+WOTC - providing prize support for Freedomcon<br>
+<br><br>
+Decipher - cancelled DCon and now "doesn't recognize" Freedomcon.  Oh yeah, and buy LOTR.<br>
+<br><br>
+<br><br>
+WOTC - no meaningful errata in last 7 sets.  ZERO banned cards in last 7 sets.<br>
+<br><br>
+Decipher - 50 page supplement to Glossary, two errata the first week R3 released.<br>
+<br><br>
+WOTC - predictable 3 sets a year.<br>
+<br><br>
+Decipher - 5 sets this year, who knows when.  Theed Palace anyone?  Oh yeah, and in R3, you get all of 3 new cards a pack.  Sweet!  3 boxes later...<br>
+<br><br>
+<br><br>
+WOTC doesn't do any playtesting?!  What are you guys smoking?!  Yeah podracing was well tested.  So was the Senate.  So was lightsaber combat.  WYS?  Please.<br>
+<br><br>
+<br><br>
+Maybe I'm just imagining things, but I've seen Decipher do NOTHING to support their game.  Hell, Decktech is more committed to the game than they are, and they're just a website!  Look at the company that makes the freaking game and tell me ONE good thing they've done.  Just one.<br>
+<br>
+</font></td></tr><tr><td><font face=arial size=2>enhanced</font><font face=arial size=2> - Sat Nov 10 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I gotta agree with enhanced here, it appears that the tables are turning and big D is continuing to say screw you to the playing community while WOTC came through for us. I've heard bad things in the past about WOTC, but at this point how much worse can they be than Decipher? If they keep the old and new cards compatible then I'm just gonna keep on playing. We will see what the future brings</font></td></tr><tr><td><font face=arial size=2>John P. Veasey</font><font face=arial size=2> - Sat Nov 10 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>ya know neal, i dont really apprecaite you saying that the guys who arent coming wouldnt have a chance...  Do you not remember who even won last year?  No one from team alabany is even going buddy... nice try</font></td></tr><tr><td><font face=arial size=2>pete srodoski</font><font face=arial size=2> - Sun Nov 11 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>pods were tested rather well from what I've heard. The problem is that D sometimes ignores playtesters in order to sell product. Can't change everything so that it isn't broken...who would buy the product then?<br>
+Also, whether or not decipher recognizes the tournaments or not they will still conform to current sanctioning rules (last I heard, anyways) so it'll be logged as however many games...affected ratings accordingly. Did Decipher recognizing 2001 world champions make it any better? You got a cool bag and some glass. Yay. This year you're getting killer prizes and you will be recognized as the true champion by a good portion of the players on DT. I know that there are a bunch of people where I live who will recognize the champion even though they are not going. They are going to local con instead for some other game that they tested for...that everyone doesn't want to hear right now, but is based off of a movie coming out in December (week before christmas.)<br>
+</font></td></tr><tr><td><font face=arial size=2>Disgruntled Goat</font><font face=arial size=2> - Sun Nov 11 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>you can only establish yourself as a real champ by performing well consistantly. One of the important first steps to doing that is showing up at the event. <br>
+<br>
+You could be the bobby fisher of SW but if you can't afford the cards or to travel, or even if you don't care enough to go to the tournaments then for all practical purposes you might as well just be average. <br>
+<br>
+Part of being the best at this game is showing up, I mean maybe there is a better baseball team than the diamondbacks, but if they don't show up to play, then who cares what they think about themselves? <br>
+<br>
+its always seems silly for people to claim to be good enough to win  anything they are not planning on showing up to compete in. If your good enough then bring it, otherwise shut your mouth and know your role.</font></td></tr><tr><td><font face=arial size=2>broc jin</font><font face=arial size=2> - Sun Nov 11 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>What a low blow by decipher, from everything I read on the website even before the annoucemnt, DT never claimed it was an official world championship. If you look on the front page of the freedomcon web site there is even a question that ask: <br>
+<br>
+"How can you run World Championships? Has Decipher given you permission to hand out a champion title?" <br>
+<br>
+To which the answer is (in bold red) "The FreedomCon World Championship level events are not recognized or supported by Decipher."<br>
+<br>
+the statement by decipher makes it seem like DT was trying to claim decipher recognized them. Really what dt said was it's not an official WC, but who gives a flip? Decipher gave up the right to decide who was the champ when they chicken out of dcon like a bunch of pants pissing school girls. </font></td></tr><tr><td><font face=arial size=2>jimm</font><font face=arial size=2> - Sun Nov 11 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I don't see why some people continue to bash Wizards of the Coast.  I've been playing Magic since it first started, and the only complaint I can have about the game or the company is the money that you spend to stay current with sets.  But hello, that is true for all successful CCGs, Star Wars included.<br>
+<br>
+They have playtested all their sets extensively over the past 4 years, and like Enhanced says, they have not had any banned/restricted or problematic cards in the last 7 sets!  Decipher has, and will continue (for a few months anyways) to make cards that are obviously overpowered. Podracing, WYS, and Senate are just some of their recent overpowered mistakes.<br>
+<br>
+Decipher also feels the need to hold with their card/set policy, that allows them to be legal in tournaments right away.  Now that would be fine normally, except that you can use the EPP Qui-Gon and Maul in the closed tournaments you win them in.  Great, so someone wins a card that they can use to keep on winning in a stiff environment.  Smart.<br>
+<br>
+Decipher, which has been making SW for a long time now, continues to get worse as a company and a game-maker, instead of IMPROVING like WOTC has.  I have played and enjoyed Magic for many years, and have come to like SW CCG again, but all this crap over the last year with 5 money-making sets is just dumb.<br>
+<br>
+You can even cheat in SW and easily get away with it (as evidenced at our state tourney), with their current system.  If Decipher supported and gave a quarter of the effort that WOTC put in their flagship product, then we wouldn't be so upset.  I've hardly ever heard any such crap coming from Magic players in the last 5 years, that I've heard about SW in the last year.<br>
+<br>
+If Decipher had a clue, then I wouldn't have to be wishing that WOTC would get their license.  The only thing I hope is that they can get the game Lock, Stock, and Barrel, so that we can continue to play a game that we like.<br>
+Out.</font></td></tr><tr><td><font face=arial size=2>privy</font><font face=arial size=2> - Sun Nov 11 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>do any of you actually think the star wars fan club bought these prizes? no they were probably given them (for promotional reasons) to GIVE TO STAR WARS FANS, what better way then this? wotc does have its faults, but they treat their magic players with 10x the respect decipher does us. also instead of banning cards d just makes us buy more cards to counter act abusive strategies they made in the first place.</font></td></tr><tr><td><font face=arial size=2>edmund</font><font face=arial size=2> - Sun Nov 11 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Ok, pete s. can you possibly READ what I say before commenting?  Is that too taxing?  Here's what I say, "because probably anyone who wouldn't go <b>based on their dislike of Decktech</b> didn't have a chance in hell of winning anyway".<br>
+<br>
+Understand?  Are you telling me that team albany is boycotting FreedomCon because they don't like dt?  I can understand if <BR>1) you all are broke. <BR>2) you all don't feel like spending money on ref III <BR>3) You just don't feel like it for some reason.<br>
+But if you all are not going because you don't like DT, then i've lost all respect for you.  I've always been cool with Matt, like him quite a bit on DT actually, and Terwilliger and I are friendly, I even set up a Editorial for him.  I think you are speaking out of line, pal.  Don't speak for your betters.<br>
+<br>
+Also, I want to say that, and this is unrelated to any of my opinions on Decipher, that I've always liked WOTC too, back to before I ever heard of Decipher.  I like their games, and I like their support of their games.  I think they do a good job of making their stuff, I think it's a myth perpetuated by their competitors/detractors that they "errata" everything.  It's a lot more responsible, IMHO, to use small errata, restrict or ban, than to make tons of crappy cards that cancel other cards.  Each set in SW is half filler due to this.  I'm sick of seeing objectives that say, <b>You may not play scanning crew</b>.  Just restrict it, for god's sake to 1!  We wouldn't even need defensive shields if they'd restrict.<br>
+<br>
+You know, that's one of the reasons Juz is SW hero.  He steps up to the plate.  He errata'd cards in the last couple weeks knowing there's a big tournament coming up and there wouldn't be time to fix them (i'm guessing), rather than just let abusive strategy fly, and making one side or deck out of control powerful.  And he's taken some flak for it which is a bunch of garbage.  Juz puts the players before anything.  Juz totally rules.</font></td></tr><tr><td><font face=arial size=2>neal</font><font face=arial size=2> - Sun Nov 11 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I like what steven had to say.  that's it</font></td></tr><tr><td><font face=arial size=2>Deck</font><font face=arial size=2> - Sun Nov 11 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Here is my two cents worth.<br>
+<br>
+First of all I admire decktech for providing the player community with this forum to air out their differences. It helps the players to talk about (therapy if you will) a game that might be dying. The writing is on the wall and all but the most ignorant, face buried in the sand, slack-jowled yokels cant see it.  We need to talk about this with each other. Props to DT.<br>
+<br>
+All I want to say as a SM, player, and someone who has spent at least $10,000 on this game is that I will support this game above all else. I dont care who owns it. As a seven year old who watched SW I was hooked. My only regret is that I didnt start playing the game until Special Ed. I bought eleven boxes. Dont tell me I dont love this game. I would buy cards form Osama Bin Laden if he owned the copyright. (just a joke; dont get freaky)<br>
+<br>
+This is the only game that i know of that the players truly love despite the leadership from above. The players are what makes this game so special. We are special. The average intellect cannot play this game. Trust me as a teacher only the brightest students can and will play it. I'm talking about the gifted and scholars bowl kids who play and excell at this game. <br>
+<br>
+We have something special here. So whoever gets it (the gane;license) you need to treat these players as the true champs and care for your consumers. <br>
+<br>
+As a HS econ teacher, I teach and tell my students that if a company or business doesnt treat you right then it is your duty as a conmsumer to stoop patronizing their products.<br>
+<br>
+In the end, the company that treats the player base like true consumers will be the true and valid owner of this great game.<br>
+<br>
+Final comment- If I support the players and the game how can I go wrong. We all need to stick together. </font></td></tr><tr><td><font face=arial size=2><a href="mailto:mcrosby@hcboe.net">Cantonavader</a></font><font face=arial size=2> - Sun Nov 11 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>neal, do you ever think before you post something? What do you have to be arrogant about? Betters? You're a frickin' dork that helps run a starwars gaming site. Get over yourself quickly and realize that no one in the real world cares about your sw skills. Peace.</font></td></tr><tr><td><font face=arial size=2>Whatever</font><font face=arial size=2> - Mon Nov 12 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>yeah i guess idiots would interpret reason as arrogance.</font></td></tr><tr><td><font face=arial size=2>edmund</font><font face=arial size=2> - Mon Nov 12 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Betters referred to your better halfs in Team Albany.  I was trying to make you a little mad, because I think you deserved it.  And I may be a lot of things, but a dork isn't one of them.  Ask anyone who's met me.  Incidentally, don't you think it's kind of strange to end a flame in "peace"?</font></td></tr><tr><td><font face=arial size=2>neal</font><font face=arial size=2> - Mon Nov 12 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>you guys, if you think about it all D is doing is sticking to what they orginally said about terrorists, and while that does sound a little foolish, I can very much see them getting sued over something happening.  I mean people get over 4mil for spilling hot coffee on themselves...  As for the game being finished, we in MI have never been going stronger, the largest weekly league in the world, over 24 people every week and 90 some that have participated overall.  I do wish that D would reschedule 2001 championships though.</font></td></tr><tr><td><font face=arial size=2>Jek Nkik</font><font face=arial size=2> - Mon Nov 12 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Just a funny little thing i just saw.<br>
+If you look for freedomcon on decipher.com amongst all the other sanctioned tourneys, the description reads : <br>
+FreedomCon World Championship for Star Wars<br>
+I dunno who put this up but i guess that info is not checked by decipher but instead the TD announcing the tourney is responsible for it.<br>
+<br>
+</font></td></tr><tr><td><font face=arial size=2>Death Star</font><font face=arial size=2> - Mon Nov 12 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>why don't they sell it to wizards and hope they support it like magic (i hate magic)?</font></td></tr><tr><td><font face=arial size=2>Eldorian</font><font face=arial size=2> - Mon Nov 12 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>If this game is developed, designed, playtested, and supported like Magic. We are all going to have a great game for a long, long time.<br><br>Red 84 - I love how you claim the buying of collection of SWCCG on Ebay for pennies on the dollar represents a good thing for the game.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:papalorax@hotmail.com">PapaLorax</a></font><font face=arial size=2> - Mon Nov 12 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Mr. Srodoski, I suggest you learn to shut your mouth. If you want to impress everyone of your SW abilities, then go right ahead. I have no desire to get into a pissing contest. But I've heard some things about you that I don't appreciate. I came to Fort Worth to play you a month or so ago because I'd heard you claimed Texas was void of good players. I also heard you are an arrogant asshole that likes to talk s.hit to scrubs. Here's the reality: you haven't played a tenth of the good players in Texas. I'm sure you're skilled, but at least wait until you lose to Matt, Jeremy, and I before judging the state. And, don't f.uck with Neal. You're just spilling your ignorance all over his nice shoes.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:juustin@hotmail.com">Justin Warren</a></font><font face=arial size=2> - Mon Nov 12 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Just a funny little thing i just saw.<br>
+If you look for freedomcon on decipher.com amongst all the other sanctioned tourneys, the description reads :<br>
+FreedomCon World Championship for Star Wars<br>
+I dunno who put this up but i guess that info is not checked by decipher but instead the TD announcing the tourney is responsible for it.<br>
+-=-=-=-=-=---<br>
+Quoted from above...<br>
+<br>
+I posted the tournaments as I was asked to by the FreedomCon Organizer.<br>
+Once Decipher posted that they would not be recognizing the championship in any way, shape, or form, it was too late to alter the information on decipher.com. They put in a new 2 week in advance requirement for posting/changing tournaments.<br>
+Sorry for any confusion this may or may not have caused.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:starwarsccgtd@hotmail.com">David Evans</a></font><font face=arial size=2> - Tue Nov 13 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>neal, you've always had good stuff to say, and I agree with every word on this string until I saw this one: "that's one of the reasons Juz is SW hero." Yeah, he got rid of a few abusive strategies before big events, but he's not all he seems to be. The dude put an errata on Dagobah. Yeah, the system. Check it out.  He also put an errata on Captain Han and didn't bother to mention the change. Compare the Reflections version to the CC version - you'll notice quite a difference on a landed Falcon. As for Projetive Telepathy, Sense and a pair of catch cards (at the time - now 3 catch cards) were great way to counter it. You know I agree with 99% of what you say, but this just wasn't a very well thought out comment. This is not meant to be a flame!<br><br>
+<br><br>
+And as for WotC taking the game, I have disliked the way they treat Magic as a game, but I love the way they treat and respect their players. I enjoy what they have done with Pokemon, although those are the only 2 WotC games I've played. I don't know where this game is going, but I like it in the hands of Wizards. I read Big D's comment about FCon not being official a day after reading WotC was bringing the prizes. That one was interesting. The comment was made very clear long before now, and the reiteration just shows how much disrespect we are getting. I decided the fun I was having wasn't worth the cost of the cards, and finding a way to defeat Ref3 decks is hard. I tried HB to cancel the drains of 4, but they can't be cancelled. An Executor that can be pulled and deployed for free is ludicrous - Don't Do That Again doesn't do crap because you can pull the Bespin system with Dark Deal. Free Executor - period. Rediculous. And I'm still pissed off that I lost a game with my Hunt Down because of a single Epic Duel with Obi-Wan. The reason I lost the duel was because Lando is a destiny 5. That's absurd. Operatives were bad for the game - operatives got errata'd hard. Reflections 3 is bad for the game - I don't see them hitting the entire set. <b>THIS</b> is meant to be a flame. I can't go to FCon, but congrats to whoever wins. You KNOW you are the World Champ.<br><br>
+<br><br>
+I see that Decipher World Championships are going to be held again in 2002. I don't see the name "StarWars CCG" on that anouncement anywhere. I have also seen a LOT of WotC advertising on DeckTech recently. Go Wizards.<br><br>
+<br><br>
+Did I really just say that?</font></td></tr><tr><td><font face=arial size=2>BlackViper</font><font face=arial size=2> - Tue Nov 13 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>this will be a shorter version then i intended to make:<br>
+<br>
+to Neal, i don't us ethe handle "whatever"... i wouldn't say shi*t without using my signature to back it.  <br>
+<br>
+to Justin Warren: I'm not going to insult you, that would be too low.  Obviously, you don't like me, well, likewise.  I came to have fun and play cards when i moved here from Albany.  I had a lot of fun playing SW in Dallas for nearly three months.  It got dull, the competition is terrible, and the players are not as good.  If you interpret that with me "trash-talking" to scrubs, then so be it.  There are a few cool people that i met so far down here.  Fortunatly, one of them was not you.  From your degrading insults without even knowing me, I wouldn't look forward in ever meeting you.  As for Matt? and Jeremy?, great!  If you really want me to pick up a box of cards, make two decks.  Send me an email when you want a tourney in Dallas, and I will show up... Win? I don't know, but if it will lay whatever you wrote to me to rest then so be it.  If you want to get your Texas buddies to come up and play, I'm game.  It's not that difficult.  As for you traveling to Ft. Worth, I'm sorry I didn't show, I have never been there, and wasn't intending to ever.  If you want to trash talk or to set up plans, Email me, its much more fitting then on Decktech.  And think before you say some things.<br>
+<br>
+As for Neal and DT...  Although im almost positive that you'll erase my comment much like the last 10, I have no beef with you, nor will i ever.  I respect your deeds, although i may not agree with them.  I don't even know any of you, so i dont wanna press grudges before i ever get to meet you.  Im sure one day we'll have a beer together over a game of cards.  I have met Mike Girrard and hes a cool guy, as for the rest, only time will tell.<br>
+<br>
+Thanks for your time,</font></td></tr><tr><td><font face=arial size=2><a href="mailto:kavanix@aol.com">pete srodoski</a></font><font face=arial size=2> - Tue Nov 13 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Decipher is a puss</font></td></tr><tr><td><font face=arial size=2><a href="mailto:killerb2kthegame@hotmail.com">KillerB</a></font><font face=arial size=2> - Tue Nov 13 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>pete s.: I never erased any of your posts, dude.  Don't know what you're talking about.  I don't hold grudges either, I'm quick to flip my lid, but just as quick to forget it if a person is cool.  So is Team Albany boycotting or what?  I don't see their name under the pre-registers?  By the way, Matt, hoostino and Jeremy know what they are doing, and are good players and good people.  If you are in Texas don't miss a chance to make friends with them.<br>
+<br>
+To BlackViper:  Hmm, I'll take what you say under advisement and think about it.  You and I seem to always agree, so i'll consider carefully.</font></td></tr><tr><td><font face=arial size=2>neal</font><font face=arial size=2> - Tue Nov 13 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Dood, I didn't mean to insult you. I don't have a problem with you, it's just that there seemed to be a consensus of opinion in Ft. Worth that you talked a lot of trash about how good you are. And it was on your member page that I recall reading something about you looking for a challenge in Texas, because you weren't finding any. I interpreted that as a bit of offensive arrogance, and I wanted to demonstrate that you've only tasted Texas SWCCG. I was a little abrasive in order to grab your attention, which I did apparently. Also, I saw that you had some distasteful things to say to Neal, and that's just not cool. Neal is a great guy, and doesn't deserve the flaming he sometime gets from people that don't understand what it takes to keep this website you all cherish running.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:juustin@hotmail.com">Justin</a></font><font face=arial size=2> - Tue Nov 13 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>LOL -- you've got to be kidding me!  You guys actually said, "This recent announcement burdens the player-organizers of FreedomCon with the task of providing the only World Championship level event for the qualifiers of 2001."  Okay, two things:<br>
+<br>
+1)  The event you are running is not a "World Championship level event".  Why?  Because many State and Provincial Champions are not attending FreedomCon that would have otherwise gone to DecipherCon.  Basically, you're offering a half-challenge of an event.<br>
+<br>
+2)  Your arrogance is unbelieveable!  How can you possibly say you are "providing the <b>only</b> World Championship level event?!  Basically, you're offering a convention -- and I know of a LOT of year 2001 conventions...  You're just one of many.<br>
+<br>
+jedi guy<br>
+</font></td></tr><tr><td><font face=arial size=2>jedi guy</font><font face=arial size=2> - Tue Nov 13 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>One more thing -- I forgot to add that I am very happy to see Decktech run FreedomCon.  I believe Decipher was wrong to cancel DecipherCon, and the Decktech guys have come to the rescue.<br>
+<br>
+All I'm saying is -- don't let it go to your heads.  <img src=/news/smileys/smile.gif></font></td></tr><tr><td><font face=arial size=2>jedi guy</font><font face=arial size=2> - Tue Nov 13 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>for neal... no team albany hasn't boycotted the tournament.  Most players just don't care about the game as much, and don't want to burn any money traveling.  We are having a tourney up there anyways.  But then again, I don't speak on behalf of Team Albany any longer.  And yes, almost every comment i have wrote on decktech was erased.  I still haven't found a Star wars player i disliked (except Clint Hays,) and he only talks shi*t online.  Hopefully, this crap will fly over and we won't have to put up with this type of nonsense.  <br>
+<br>
+A few words for Decktech.  I will say something the majority of the playing community would say, but they choose not to.  Support for Wizards is BAD for the star Wars community.  Most SW players played magic, and quit because it was dull.  A company like wizards, who only wants to franchise the card industry won't care about the players, they only want money.  This may only be my opinion, but its what happens.  Decipher is fading into that grey area that Wizards already is in, but they're no there yet.<br>
+<br>
+Thanks,</font></td></tr><tr><td><font face=arial size=2>pete srodoski</font><font face=arial size=2> - Tue Nov 13 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>A banter from a MTG player:<br>
+<br>
+Decipher has made a mistake it will have to learn from, and do so very quickly. I have been playing SW since SE, and Magic since Unlimited. I really enjoy the mechanics of SW, the certain small things that make up a good game (hand size is necessarily a good thing, no such thing as a mulligan, compensation for luck). Magic has been -very- good to me, even after i stopped playing for a month because of a really bad series of sets and fast bannings (Urza Saga block). Mind you, i was a PT player and have played a few events for cash (btw, many players come for travel and fun, not just the money). <br>
+<br>
+Now Decipher has had a old mandate that its player base would be protected, and they did so very well in the beginning. Free product support (magic mails you cards you can only play in a certain format) for local tournaments. a state champion, regionals, and a world championship. never money, rarely travel. being a SW pro just meant you could go to a con and pick up $500.<br>
+<br>
+My local store does that monthly.<br>
+<br>
+Top 64 at any PT (6 a month, 2 always in US) is 750 MIN.<br>
+<br>
+But Magic is not the same base as Star Wars, and that could be sited as one of its strengths. When many Magic only players heard Big D was going to cancel its World<br>
+s, its only "money" travel tournament, alot of players were shocked. Many of us felt that decipher ruined the idea of having invites. Safety yes, but delaying the championship until a more reasonable time would be much more, yes, reasonable. And decipher awarding the money to charity was nice, but in a theory that was meant for the players first. They could have, and chances are would have contributed. Instead you guys got the shaft.<br>
+<br>
+Now by no means is DCI perfect. Hell no. One of the reasons Magic is so strong is because we complain so much, so loud that they do something else. Yes, they may screw it up, but they are still supporting their loyal customer base. 7 sets is one hell of a record for Magic. Its last main release, Invasion, brought a huge surge of old players back into the game for its balanced mechanics and "fair" cost. SW it seems by my discussions has begun to deteriorate into its "Saga" phase, where the company releases the product and lets the players figure out how to break it. Big D is losing sales, players.<br>
+<br>
+What can be done? You guys are already doing. While I was at the recent PT New Orleans lastweekend talking with some main guys, like main set designer Rosewater, he thought it was phenomenal that a player base was going to have their own championship, for all the right reasons. Not to bash Decipher, but to play the game very competitively. It seems well organized, and there is much discussion to involve as much as the Decipher community as possible. This is great for SW, ST and YG (who plays that?), and the fact that Decip. isnt even endorsing it makes you guys even more the heros.<br>
+<br>
+I really wouldnt worry about Wizards taking up the Decipher license: it seems you players can be just as loud as us Magic guys, and that is what will your game alive. <br>
+Congradulations to all who were involved in this, and good luck at Freedomcon.<br>
+<br>
+Seriously Impressed,<br>
+pyrostrife</font></td></tr><tr><td><font face=arial size=2>Yossarian</font><font face=arial size=2> - Tue Nov 13 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I would just like to point out that IF WOTC gets the righs to the game, by copyright law, they are not allowed to continue the old game (unless they have the rights... and you thin D will give it them?). So IF WOTC gets the rights either: WOTC will make a NEW SW game (probably a "magic look-a-like" like Harry Potter or Pokemon) OR they will simply do nothing with the licience and simply wave it in Decipher's face yelling, "Na-na-nana-na", preventing D from making any more Decipher cards. Bottom line- SWCCG is dead. I dont play SWCCG, but I know what is going on- Decipher is attempting to squeeze every last penny out of you until they have to give it up. <br>
+<br>
+If you dont beleive me (a non-SwCCG player) here are the facts:<br>
+1) NO Confirmed Furture for any SWCCGS. For all three of the SWCCGS no Future has been announced (except for Theed Palace with should release soon) beyond this year and the year is coming to end rather quickly.<br>
+2) Joe Alfred making STCCG. Joe Alread was one of the worlds BEST SWCCG players, he was a Squadron member and even wrote for Scrye, but Decipher hired him to make STCCG cards. Why? THe ONLY logical answer would be they would not need him for SWCCG because SWCCG is dying.<br>
+3) WOTC donating prizes. The ONLY reason why WOTC would donote prizes for a "competetor's" event is to win over customers of the competitor. In other words, WOTC is planning ahead and is winning customers because they know they have won the licence (and when they are sure of it.... you'll know).<br>
+<br>
+Some didn't beleive the twin towers would fall. Now the tri towers are falling  whether you belive it or not.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:MilesStuntDouble@aol.com">LooPHolE</a></font><font face=arial size=2> - Thu Nov 15 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>nice post.<br><br>
+<br><br>
+it's like deja vu all over again...</font></td></tr><tr><td><font face=arial size=2>BlackViper</font><font face=arial size=2> - Fri Nov 16 2001  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Yossarian/Pyrostrife (nice Catch 22 reference)... Could you write me please?  <br>
+Neal@decktech.net.  I want to talk to you about DT Magic: The Gathering.</font></td></tr><tr><td><font face=arial size=2>neal</font><font face=arial size=2> - Sun Nov 18 2001  </font></td></tr></table><p><font face=arial size=2><p>&nbsp;<a href="javascript:history.back(-1)">back</a></font><table><tr><td><font size=2 face=arial>*required fields<BR>only html tags <b>&lt;b&gt;,&lt;a&gt;,&lt;br&gt;</b> are allowed in your comment.</font></td></tr></table><br><form method=post action=/stccg/index.php3?artc=74><table><tr><td><font size=2 face=arial>*name</font></td><td><input type=text maxlength=150 name=name></td></tr><tr><td><font size=2 face=arial>email</font></td><td><input type=text maxlength=150 name=e_mail></td></tr><tr><td><font size=2 face=arial>url</font></td><td><input type=text maxlength=150 name=url></td></tr><tr><td valign=top><font size=2 face=arial>*comment</font></td><td><textarea rows=5 cols=25 wrap=soft name=comment></textarea></td></tr><tr><td>&nbsp;</td><td align=center><input type=hidden name=what value=post><input type=submit value="add comment"></td></tr></table></form> </td>
+                    </tr><tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                  </table>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="88%" bgcolor="#8543B1" height="13"><img src="/stccg/global/images/trek/tablet_capr.gif" width="18" height="19" vspace="0" hspace="0" border="0"></td>
+                      <td width="7%" height="13"><img src="/stccg/global/images/trek/tab_recent.gif" width="183" height="18" vspace="0" hspace="4"></td>
+                      <td width="5%" bgcolor="#8543B1" align="right" height="13"><img src="/stccg/global/images/trek/tablet_cap.gif" width="18" height="19"></td>
+                    </tr>
+                    <tr> 
+                      <td width="88%"></td>
+                      <td width="7%"></td>
+                      <td width="5%"></td>
+                    </tr>
+                  </table>
+                  <div align="left"> 
+                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                      <tr> 
+                        <td class="text"><br>
+                          Decks, Articles, Tournament Reports and Personnel Log 
+                          Entries in the Last 24 Hours</td>
+                      </tr>
+                      <tr align="center"> 
+                        <td valign="top">&nbsp;</td>
+                      </tr><tr align="center"> 
+                        <td valign="top"> 
+                          <table border="0" cellspacing="0" cellpadding="0">
+                            <form action="#">
+                              <TR><TD><select name='select8' onChange='go(this)' size='1'><option>19 Personnel Log Entries</option><option>----------------------------------------------------------------</option><option value='/stccg/membercenter/directory/memberpage.php3?member=1'>The Founder<option value='/stccg/membercenter/directory/memberpage.php3?member=2029'>K Slattery<option value='/stccg/membercenter/directory/memberpage.php3?member=3370'>yodarth<option value='/stccg/membercenter/directory/memberpage.php3?member=4495'>Master 666</select></TD></TR> 
+                            </form>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr align="center">
+                        <td valign="top">&nbsp;</td>
+                      </tr>
+                      
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="2" colspan="2"><img src="/stccg/global/images/trek/glear.gif" width="1" height="2"></td>
+              </tr>
+              <tr> 
+                <td width="80" bgcolor="#8543B1" height="68" valign="bottom" align="right"><img src="/stccg/global/images/trek/n3.gif" width="26" height="11"></td>
+                <td width="12" height="68">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td width="80" height="2" valign="top" align="right"><img src="/stccg/global/images/trek/glear.gif" width="1" height="2"></td>
+                <td width="12" height="2"><img src="/stccg/global/images/trek/glear.gif" width="1" height="1"></td>
+              </tr>
+              <tr> 
+                <td width="80" bgcolor="#333399" height="264" valign="top" align="right">&nbsp;</td>
+                <td width="12" height="264"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"></td>
+              </tr>
+              <tr> 
+                <td height="2" colspan="3" bgcolor="#333399" valign="top"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"></td>
+                <td width="4" height="2" bgcolor="#000000"><img src="/stccg/global/images/trek/glear.gif" width="2" height="1"></td>
+                <td width="347" height="2" bgcolor="#333399"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"></td>
+              </tr>
+              <tr> 
+                <td height="22" colspan="2" valign="top">&nbsp;</td>
+                <td height="22" colspan="3">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="2" colspan="3" bgcolor="#8543B1" valign="top"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"></td>
+                <td width="4" height="2" bgcolor="#000000"><img src="/stccg/global/images/trek/glear.gif" width="2" height="4"></td>
+                <td width="347" height="2" bgcolor="#333399"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"></td>
+              </tr>
+              <tr> 
+                <td height="22" colspan="2" bgcolor="#8543B1" valign="top"><img src="/stccg/global/images/trek/tablet2.gif" width="92" height="24"></td>
+                <td height="22" colspan="3"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td bgcolor="#000000" height="8" width="41%"><img src="/stccg/global/images/trek/glear.gif" width="1" height="14"></td>
+                      <td height="8" width="1%"></td>
+                      <td height="8" width="58%"></td>
+                    </tr>
+                    <tr> 
+                      <td bgcolor="#8543B1" height="2" width="41%"><img src="/stccg/global/images/trek/glear.gif" width="1" height="10"></td>
+                      <td height="2" width="1%"></td>
+                      <td height="2" width="58%" bgcolor="#8543B1"><img src="/stccg/global/images/trek/glear.gif" width="1" height="1"></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <p align="center"><span class="legal"> THIS WEB SITE IS NOT PRODUCED 
+              OR ENDORSED BY DECIPHER, INC OR PARAMOUNT PICTURES. STAR TREK and 
+              All Related Elements TM & copy; 1997 Paramount Pictures. All Rights 
+              Reserved. STAR TREK: THE NEXT GENERATION, DEEP SPACE NINE, VOYAGER 
+              and FIRST CONTACT are trademarks of and all characters and related 
+              marks are trademarks of Paramount Pictures.</span></p>
+            <!-- #EndEditable --></td>
+          <td height="42" width="2%" align="left">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+    <td width="171" valign="top" bgcolor="#000000"> 
+      <table width="171" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#333399" width="150"><img src="/stccg/global/images/trek/logo2.gif" width="155" height="48" vspace="0" hspace="0" border="0"></td>
+          <td width="21"><img src="/stccg/global/images/trek/glear.gif" width="12" height="1"></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#333399" width="150"><img src="/stccg/global/images/trek/logo3.gif" width="155" height="47"></td>
+          <td width="21">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td bgcolor="#333399" align="center" width="150" valign="top" height="12"><!-- #BeginLibraryItem "/Library/ST_Jump.lbi" --><script language="JavaScript">
+
+function logout() {
+var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
+document.cookie = cookie;
+window.location = "../index.php3";
+	}
+
+function go(x) {
+value = "";
+for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
+if (value != "") window.location = value;
+}
+
+</script>
+             
+            <form method="post" action="">
+              <select name="select1" onChange="go(this)">
+    <option selected>TURBOLIFT</option>
+    <option value="/stccg/resources/rulings.php3">Current Rulings</option>
+    <option value="/global/decktech.php">About DeckTech</option>
+    <option value="/stccg/membercenter/directory.php3">Crew Directory</option>
+  </select>
+            </form>
+            <br>
+            <!-- #EndLibraryItem --></td>
+          <td width="21" height="12">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td bgcolor="#000000" align="left" valign="top" width="150"><img src="/stccg/global/images/trek/tele_foot.gif" width="155" height="12" vspace="0" hspace="0" border="0"></td>
+          <td width="21">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top" width="150"><img src="/stccg/global/images/trek/primary_nav.gif" width="155" height="156" border="0" vspace="0" hspace="0" usemap="#Map"><map name="Map"><area shape="rect" coords="2,24,153,41" href="/stccg/index.php3"><area shape="rect" coords="3,43,149,59" href="/stccg/membercenter/index.php3"><area shape="rect" coords="2,61,149,78" href="/stccg/decks/index.php3"><area shape="rect" coords="1,81,150,96" href="/stccg/articles/index.php3"><area shape="rect" coords="1,100,153,115" href="/stccg/treports/index.php3"><area shape="rect" coords="1,118,151,133" href="/stccg/resources/index.php3"></map></td>
+          <td width="21">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td valign="top" align="left" width="150"> 
+            <table width="155" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="20"><img src="/stccg/global/images/trek/glear.gif" width="20" height="8"></td>
+                <td bgcolor="#8042AF" width="5"><img src="/stccg/global/images/trek/glear.gif" width="5" height="8"></td>
+                <td width="124"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/st_main.lbi" -->
+<table border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+  <tr> 
+    <td>&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/stccg/main/stccg.php3" class="level2nav">About 
+      ST: CCG</a><a href="/www/articles/strategy.php3" class="level2nav"> </a></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/stccg/membercenter/directory.php3" class="level2nav">&nbsp;Crew 
+      Directory </a> </font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/stccg/main/faq.php3" class="level2nav">FAQ 
+      </a></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/global/terms.php" class="level2nav">&nbsp;Terms 
+      of Service</a></font></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --><!-- #EndEditable --></td>
+              </tr>
+            </table>
+          </td>
+          <td width="21">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="150"><img src="/stccg/global/images/trek/rspacer.gif" width="155" height="128" vspace="0" hspace="0" border="0"></td>
+          <td width="21">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td bgcolor="#8543B1" width="150">&nbsp;</td>
+          <td width="21">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="150"><img src="/stccg/global/images/trek/rbottom8.gif" width="155" height="83"></td>
+          <td width="21">&nbsp;</td>
+        </tr>
+      </table>
+      <br>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>
