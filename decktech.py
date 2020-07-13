@@ -54,7 +54,7 @@ def preproc(infile):
             strategy = i.find('font').text
 
 
-        with open(pd.to_datetime(date).strftime("%Y-%m-%d")+ '-' + fileName + '.md', 'a') as output:
+        with open(pd.to_datetime(date).strftime("%Y-%m-%d")+ '-' + fileName + '.txt', 'a') as output:
             output.write( '---' + '\n')
             output.write('author: ' + author.encode("utf8") + '\n')
             output.write('title: ' + decktitle.encode("utf8") + '\n')
