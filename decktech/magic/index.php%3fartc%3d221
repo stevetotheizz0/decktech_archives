@@ -1,407 +1,0 @@
-
-  
-<html><!-- #BeginTemplate "/Templates/decktech_1.dwt" -->
-<head>
-<title>Welcome Magic: The Gathering Players</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="keywords" content="Magic: The Gathering, Magic,
-Richard Garfield, Magi-Naion, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
-<style type="text/css">
-<!--
-
-A:link {color: #003399}
-A:alink {color: #990033}
-A:visited {color: #990033}
-Body, TD { margin: 0in; marginleft: 0in; margintop: 0in; border-style: none; font-family: Verdana, Arial, sans-serif; font-size: 8pt; color: #000000; font-style: normal; text-decoration: none;}
-.h1font { font-family: Verdana, Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; letter-spacing: -1px}
-.h2font { font: normal 10pt/18pt Verdana, Arial, sans-serif; font-weight: bold; text-decoration: none;}
-.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; color: #000000; font-style: normal; text-decoration: none;}
-.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt; font-style: normal; text-decoration: none; }
-
-.flegal { font-family: Verdana, Arial, sans-serif; font-size: 7pt; font-style: normal; text-decoration: none; color: #FF9933}
-.flegal A { color: #FFFFFF}
-
-.rfont { font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; color: #666666; font-weight: bolder; text-decoration: none; }
-
--->
-</style>
-</head>
-<body text="#000000" bgcolor="#FFFFFF" margin="0" marginwidth="0" marginheight="0"> 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-   
-  <tr>
-    <td height="18" width="1" rowspan="2" valign="top"  bgcolor="#CCCCCC">
-<img src="/magic/gfx/lft_c_top.gif" width="9" height="127" vspace="0" hspace="0" border="0"></td>
-    <td height="18" rowspan="2" valign="top"  bgcolor="#CCCCCC"> 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr valign="top" align="center"> 
-          <td><a href="http://www.decktech.net"><img src="/magic/gfx/hlogo.gif" width="165" height="127" vspace="0" hspace="0" border="0" ></a></td>
-        </tr>
-      </table>
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr valign="top"> 
-          <td height="2"><img src="../global/images/home/trans.gif" width="130" height="8"></td>
-        </tr>
-        <tr valign="top"> 
-          <td height="2"> <script>
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-</script>
-
-<form method="post" action="">
-<div align="center">
-<select name="select" onChange="go(this)">
-<option selected>Quick Jump</option>
-<option value="#"> </option>
-<option value="#">Magic ========</option>
-<option value="/magic/index.php">Home</option>
-<option value="/magic/main/about.php">About</option>
-<option value="/magic/main/join.php">Sign Up Now!</option>
-<option value="#"></option>
-<option value="/index.php">decktech.net</option>
-</select>
-</div>
-</form>
- </td></tr>
-        <tr valign="top"> 
-          <td> <table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Magic: The Gathering</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td><a href="/magic/index.php" class="level1nav">Home</a><br>
-       
-<div align=right>
-<a href="/magic/main/about.php">About the Game</a> &nbsp;<br>
-<a href="/magic/main/decktech.php">About DeckTech</a> &nbsp;<br>
-<a href="/magic/main/directory.php">Member Directory</a> &nbsp;<br>
-<a href="/magic/main/join.php">Sign Up Now!</a> &nbsp;<br>
-</div> 
- 
-<a href="/magic/articles/index.php" class="level1nav">Articles</a><br>
-<a href="/magic/decks/index.php" class="level1nav">Decks</a><br>
-<a href="/magic/treports/index.php" class="level1nav">Reports</a><br>
- <a href="/magic/resources/index.php" class="level1nav">Resources</a><br>
-<BR></td></tr></table> </td>
-        </tr>
-         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
-        <tr valign="top"> 
-          <td> 
-<table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Site Sponsor</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE -->
-<center>
-<script language="JavaScript">
-<!--
-ShowBurstAd('cb8702a','125','125');
-// --></script>
-<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
-<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
-width="125" height="125" border="0" alt="Click Here"></a> 
-</noscript>
-</center>
-<!-- END BURST CODE --></div><BR></td></tr></table><br><table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Quick News</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td>
-<p><i><a href="/dpc/index.php">DPC</a> Houston Results!</i><br>
-<b>Type II</b><br>
-Samuel Friedman $150<br> 
-John Coley $150<br> 
-Jack Vassullo $150<br> 
-Chris Connor $150<br><br>
-<b>Type I</b><br> 
-1st Samuel Friedman $75<br> 
-2nd Bart Brown $38<br> 
-
-  </p>
-  <BR></td></tr></table><br>
-<table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Top Articles</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td>Top 10 in last 30 days<ol><li><font class="bfont"><A HREF="/magic/articles/articles.php?id=3904&view=2">Power of Black</A></font></li><li><font class="bfont"><A HREF="/magic/articles/articles.php?id=3929&view=2">What Happend to This Great Game???</A></font></li><li><font class="bfont"><A HREF="/magic/articles/articles.php?id=3958&view=2">LOTR is a far better game</A></font></li></ol><A href="http://www.decktech.net/magic/articles/articles.php">More ></A><BR></td></tr></table> 
- </td>
-        </tr>
-      </table>
-    </td>
-    <td height="18" width="90%" align="left" rowspan="2" valign="top"> 
-<table width="100%" border="0" vspace="0" hspace="0" cellspacing="0" cellpadding="0">
-  <tr valign="top"> 
-    <td width="98%" background="/magic/gfx/hback.jpg" valign="bottom" height="92"><img src="/magic/gfx/trans.gif" width="8" height="92" border="0" vspace="0" hspace="0" align=left> 
-    </td>
-  </tr>
-  <tr valign="top"> 
-    <td width="98%" background="/magic/gfx/hlowback.gif" height="35"><img src="/magic/gfx/trans.gif" width="8" height="35" border="0" vspace="0" hspace="0"></td>
-  </tr>
-  <tr valign="top"> 
-    <td width="98%" height="11">&nbsp;</td>
-  </tr>
-</table>
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-          <td width="1" height="136" valign="top" >
-<img src="/magic/gfx/trans.gif" width="18" height="2" vspace="0" hspace="0" border="0"></td>
-          <td width="80%" height="136" valign="top" > 
-            <!-- #BeginEditable "Body" -->
-            <table width="100%" border="3" cellspacing="0" cellpadding="5" bgcolor="#000000" bordercolor="#FF0000">
-              <tr>
-                <td><img src="../global/images/home/mtg100.gif" width="322" height="150"></td>
-              </tr>
-            </table>
-            <BR><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td><font class="h1font">Latest News</font></td></tr><tr><td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-<tr height="10"><td width="98%" bgcolor="#333333" height="10"><img src="/magic/gfx/trans.gif" width="6" height="2" vspace="0" hspace="0" border="0"></td><td valign="bottom" align="right"><img src="/magic/gfx/hrz/tk.gif" width="103" height="10" border="0" vspace="0" hspace="0"></td>
-</tr><tr><td>&nbsp;</td><td valign="top" align="right">
-<img src="/magic/gfx/hrz/bk.gif" width="92" height="24" border="0" vspace="0" hspace="0"></td>
-</tr></table></td></tr><tr><td><font class="bfont">
-<a name=221></a>
-<table width=100%>
-<tr><td colspan=2><font class="h2font"> 2i and Magi Nation Duel at Gen Con - World Championship!</font></td></tr>
-<tr><td><font class="bfont"> DeckTech reports on Mon Jul 29 2002 </font></td><td align=right><font class="bfont"> DeckTech Update</font></td></tr>
-<tr><td colspan=2><font class="bfont"> Here it is, the big jewel of the MND crown!  The <b>World Championships</b> at GenCon.<br>
-<br>
-Jen Hunter reports in that the excitement is building to a frenzied pace for this event.  She invites all DeckTechers to either participate or stop by and take a gander at the highest level of play of this outstanding game.<br>
-<br>
-So far the MND attendance at cons this year has DOUBLED!  Get involved in this great game, because it's taking off.  And the best part is, it's taking off straight from the underneath... err, I mean underground!  You've got to love a game that's built from the ground up.<br>
-<br>
-Stop by and get a demo and some free stuff.  Meet the staff.  I want to call <b>Special Attention</b> to the Friday 2pm tournament<br>
-<br>
-2:00pm Magi-Nation Sealed Deck Tournament <br>
-  Each player receives one starter and two boosters to build a deck, competing against other players. Excellent for starting players and a new challenge for Experienced players. <br>
-<br>
-That's right, you play for <b>FREE</b>, and you keep your cards.  All of you.  If you miss this chance, you are gonna be kicking yourself.  And for those not familiar with MND, you can really trade your cards, it's in high demand!<br>
-<br>
-Also with many of our DT guys and gals playing, expect to see some killer tournament reports and decks after the championship.<br>
-<br>
-With tons of promotions, a friendly and highly competant staff, tremendously skiled players, and possibly the best game being sold, 2i has an up and coming winner that you will want to check out.<br>
-<br>
-So enough hype from me, here's the schedule<br>
-<br>
-- Neal<br>
-<br>
-Thursday, August 8   <br>
-Noon Magi-Nation Constructed Deck Tournament <br>
-  Bring in your constructed deck and show off your tricks. Standard deck construction rules apply. <br>
-  <br>
-3:00pm Magi-Nation Constructed Deck Tournament <br>
-  Bring in your constructed deck and show off your tricks. Standard deck construction rules apply. <br>
-  <br>
-6:00pm Magi-Nation Mixed Doubles Sealed Deck Tournament <br>
-  Doubles tournaments are fun, non-sanctioned events where new players are teamed up with experienced players to take on other pairs of players in a sealed deck environment. This is a great way to learn the game, and to introduce friends to Magi-Nation. No experience required! <br>
-  <br>
-Friday, August 9   <br>
-  <br>
-10:00am Magi-Nation Storyline Tournament <br>
-  The winner of this constructed deck tournament designs their very own card for the next Magi-Nation expansion! Each player will also receive a special promotional card, premiering exclusively at GenCon. Prizes will be awarded to the top 16 players. <br>
-  <br>
-2:00pm Magi-Nation Sealed Deck Tournament <br>
-  Each player receives one starter and two boosters to build a deck, competing against other players. Excellent for starting players and a new challenge for Experienced players. <br>
-  <br>
-6:00pm Magi-Nation Team Tournament <br>
-  Bring in your own 3-person team and compete against other teams. Standard deck construction rules apply. <br>
-  <br>
-Saturday, August 10   <br>
-  <br>
-10:00am Magi-Nation World Championship <br>
-  This is the highest level of competition in the Moonlands - cash awards, special prizes and more! Each player must bring his or her own constructed deck, decklist and counters. Prizes will be awarded to the top 32 players. <br>
-  <br>
-1:00pm Magi-Nation Sealed Deck Tournament <br>
-  Each player receives one starter and two boosters to build a deck, competing against other players. Excellent for starting players and a new challenge for Experienced players. <br>
-  <br>
-3:00pm Magi-Nation Constructed Deck Tournament <br>
-  Bring in your constructed deck and show off your tricks. Standard deck construction rules apply. <br>
-  <br>
-6:00pm Magi-Nation Mixed Doubles Sealed Deck Tournament <br>
-  Doubles tournaments are fun, non-sanctioned events where new players are teamed up with experienced players to take on other pairs of players in a sealed deck environment. This is a great way to learn the game, and to introduce friends to Magi-Nation. No experience required! <br>
-  <br>
-Sunday, August 11   <br>
-  <br>
-11:00am Magi-Nation Sealed Deck Tournament <br>
-  Each player receives one starter and two boosters to build a deck, competing against other players. Excellent for starting players and a new challenge for Experienced players. <br>
-  <br>
-2:00pm Magi-Nation Constructed Deck Tournament <br>
-  Bring in your constructed deck and show off your tricks. Standard deck construction rules apply. <br>
-<p><small>edited by DeckTech on Mon Jul 29 2002 </small></font></td></tr>
-<tr><td align=right colspan=2><font class="afont">  <a href=/send.php?di=/magic/index.php&id=221 target="_blank">send to friend</a> | <a href=/print.php?221 target="_blank">printer friendly</a></font></td></tr>
-</table><table width=100%><tr><td><HR> <font class="bfont"> Also, Jen says they will be selling and giving away Japanese base set.<br>
-<br>
-Hey, important: if there's someone who wants to cover worlds live or something, lmk.  I can probably hook up something ala the buzz board for some live updates.</font></td></tr><tr><td><font class="bfont"> neal</font><font class="bfont"> - Mon Jul 29 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> If you're going to GenCon, be sure to pick up the special promo card, "Tony at a Con". <br>
-http://www.magi-nation.com/duel/Promo/tonyatacon.jpg</font></td></tr><tr><td><font class="bfont"> <a href="mailto:jenifer@magi-nation.com">Jenifer Hunter</a></font><font class="bfont"> - Mon Jul 29 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> I must say, this sounds really awesome. I keep meaning to pick up the game and give it a try, but just haven't had the time, but a free sealed deck when I have nothing else to do, this ROCKS! Props to the 2i people, always having great support.</font></td></tr><tr><td><br><font class="bfont"> <a href="http://www.decktech.net/3" target=gfds>http://www.decktech.net/3</a></font><BR><font class="bfont"> <a href="mailto:jediknight@decktech.net">Andrew Howard</a></font><font class="bfont"> - Mon Jul 29 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> You all, if you are really, really nice ... Jenifer my do updates on the progress of the World Championship right here on DT.<br>
-<br>
-IF you are really nice!</font></td></tr><tr><td><font class="bfont"> Neal Razi</font><font class="bfont"> - Mon Jul 29 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> what about dbz worlds at gen con. don't forget those. I don't know how many ppl play dbz on this site but they were at orgins. peace decktech<br>
-jason</font></td></tr><tr><td><font class="bfont"> jason wade</font><font class="bfont"> - Tue Jul 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> Heh, my sister is named Jen Hunter.  But I don't think she knows anything about MND.  <img src=/news/smileys/smile.gif></font></td></tr><tr><td><font class="bfont"> Brian Hunter</font><font class="bfont"> - Tue Jul 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> are all the sealed decks free? how does it work? just walk up and ask to participate in a free tournament? thanks</font></td></tr><tr><td><font class="bfont"> Jason Liu</font><font class="bfont"> - Tue Jul 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> Well, heh, I'd recommend learning how to play first.  Get a demo.  Then yeah, you go sign up and get some free stuff, then sit down and make some friends and play.</font></td></tr><tr><td><font class="bfont"> neal</font><font class="bfont"> - Tue Jul 30 2002  </font></td></tr></table><p><font class="bfont"> <p>&nbsp;<a href="javascript:history.back(-1)">back</a></font><P>You must be a registered member to comment on the news. <a href="/magic/main/join.php">Sign up here!</a><BR></td></tr></table><BR><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td><font class="h1font">In the Last 24 Hours</font></td></tr><tr><td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-<tr height="10"><td width="98%" bgcolor="#333333" height="10"><img src="/magic/gfx/trans.gif" width="6" height="2" vspace="0" hspace="0" border="0"></td><td valign="bottom" align="right"><img src="/magic/gfx/hrz/tk.gif" width="103" height="10" border="0" vspace="0" hspace="0"></td>
-</tr><tr><td>&nbsp;</td><td valign="top" align="right">
-<img src="/magic/gfx/hrz/bk.gif" width="92" height="24" border="0" vspace="0" hspace="0"></td>
-</tr></table></td></tr><tr><td><font class="bfont">            <div align=CENTER> 
-              <table border="0" cellspacing="0" cellpadding="0">
-                <form action="#">
-                                  </form>
-              </table>
-              <BR></td></tr></table>            </div>
-            <!-- #EndEditable --></td>
-          <td width="1" valign="top"  background="/magic/gfx/vstripe.gif"><img src="/magic/gfx/trans.gif" width="18" height="2" vspace="0" hspace="0" border="0"></td>
-          <td height="136" align="left" valign="top" width="150"> 
-            <table width="100%" cellpadding="0" cellspacing="0" border="0">
-              <TR valign="top"><TD>
-
-<table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Member Login 
-</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td><div align="center">
-<form name="form1" method="post" action="/magic/index.php">
-<font class="bfont"><a href="/global/join.php" class="level1nav">Register for Membership!</a></font><br><br>
-<font class="afont">Name</font><br>
-<input type="text" name="sname" maxlength="22" size="10"><br>
-<font class="afont">Password</font><br>
-<input type="password" name="password" maxlength="14" size="10"><br>
-<input type="hidden" name="mlogin" value="true">
-<input type="submit" name="Submit" value="Login">
-</form>
-<font class="bfont"><a href="/global/forgot.php" class="level1nav">Forget your password?</a></font>
-</div>
-<BR></td></tr></table>
-</TR></TD><tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr><TR valign="top"><TD>
-<table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">DeckTech for Groups 
-</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td> 
-DeckTech for Groups enables group 
-leaders to develope their own online presence which helps to promote their local 
-gaming community. <br>
-<br>For more information 
-      about DeckTech for Groups or to find a specific group go <a href="../../../groups/index.php">here</a>.
-<BR></td></tr></table>
-
-
-
-
-
-</TR></TD><tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr><TR valign="top"><TD>
-<table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Master Decks</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td>Top 10 in last 30 days<ol><li><font class="bfont"><A HREF="/magic/decks/decks.php?deck=24765">New Extended Red Beatdown</A></font></li><li><font class="bfont"><A HREF="/magic/decks/decks.php?deck=24722">Chumping to Victory</A></font></li><li><font class="bfont"><A HREF="/magic/decks/decks.php?deck=24737">Odyssey Block Psychatog</A></font></li><li><font class="bfont"><A HREF="/magic/decks/decks.php?deck=24739">Statsis</A></font></li><li><font class="bfont"><A HREF="/magic/decks/decks.php?deck=24741">Hatred</A></font></li><li><font class="bfont"><A HREF="/magic/decks/decks.php?deck=24802">Rebel Swarms</A></font></li></ol><A href="http://www.decktech.net/magic/decks/decks.php">More ></A><BR></td></tr></table> 
- 
-</TR></TD> 
-              <tr> 
-                <td><img src="/global/images/home/trans.gif" width="150" height="1" vspace=0 hspace=0 border=0></td>
-              </tr>
-            </table>
-          </td>
-          <td width="1" valign="top" ><img src="/magic/gfx/trans.gif" width="9" height="2" vspace="0" hspace="0" border="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> </tr>
-  <tr> 
-    <td colspan="3">
-<div align="center"> 
-  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tr align="center" valign="bottom" >
-      <td bgcolor="#000000" height="4"><img src="../gfx/trans.gif" width="6" height="14"></td>
-    </tr>
-    <tr align="center" valign="bottom" > 
-      <td bgcolor="#CC0033"><font class="flegal">This site is maintained and updated 
-        by fans of Magic: The Gathering and is in no way affiliated with Wizards 
-        of the Coast Corporation. We in no way claim the artwork displayed to 
-        be our own. Copyrights and trademarks for promotional materials are held 
-        by their respective owners and their use is allowed under the fair use 
-        clause of the Copyright Law.<a href="/global/terms.php"><br>
-        Terms of Service</a> TM & © 2002 www.decktech.net. All Rights Reserved. 
-        </font> </td>
-    </tr>
-  </table>
-</div>
-</td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate --></html>

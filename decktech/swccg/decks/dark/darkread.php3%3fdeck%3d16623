@@ -1,670 +1,0 @@
-<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
-<head>
-<title>DeckTech - for the players, by the players.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" href="/swccg/global/css/white.css">
-<!-- #BeginEditable "Style" --> 
-<style type="text/css">
-<!--
-.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
-.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
-.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
-.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
-.centercolor {  background-color: #313063}
--->
-</style>
-<!-- #EndEditable -->
-</head>
-<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" -->
-
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-
-<script language="JavaScript">
-<!--
-ShowBurstAd('ad8702a','468','60');
-// -->
-</script>
-
-<noscript>
-<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
-</noscript>
-
-<!-- END BURST CODE -->
- <!-- #EndLibraryItem --></td>
-    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
-      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
-    <td valign="top" class="centercolor" rowspan="2" > 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
-          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
-          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
-        </tr>
-        <tr> 
-          <td colspan="2"><!-- #BeginEditable "Body" --> 
-            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
-              <tr> 
-                <td bgcolor="#333366" height="12" valign="top" width="44%"><img src="/swccg/global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
-                <td bgcolor="#333366" align="right" valign="top" height="12" width="48%"><img src="/swccg/global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr> 
-                <td height="622" valign="top" colspan="2" bgcolor="#333366"><table width="100%" border="0" cellpadding="4"><tr bgcolor="#000000"><td><font color="#FFFFFF"><font face="Haettenschweiler, Tahoma, Arial" size="6">bastardised tdigwatt</font></td></tr></table><BR><table WIDTH="100%" CELLPADDING="4"><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
-	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
-	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">dope makes you smarter </FONT></TD>
-	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
-	<A HREF="../../membercenter/directory/memberpage.php3?member=7216">.prototype.</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
-	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
-	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">cool </FONT></TD>
-	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
-	<A HREF="../../membercenter/directory/memberpage.php3?member=8045">Boozer</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
-	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
-	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">   <br>
-    <br>
-  <br>
-Fear <br>
-<br>
- hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha <br>
-hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha  <br>
-  Jared2oo1 <br>
- OH MY GOD!!! I had this exact deck Idea when dagohbah came out, only I ran more guys, but theres one problem, fear is unique, you can only play one per turn, nice try though, I really wish this would have worked out. Im giving you 5 stars cause I had the same Idea, but this will never work. good try tho.  <br>
-  Slippers <br>
- go review all my things 5 stars  <br>
-  spirajira <br>
- RETARD(*)  <br>
-  tk424 <br>
- use limited resources its better and put in some Rule cards  <br>
-  BigZeq <br>
- hmm...no <br>
-:)  <br>
-  BadGirl <br>
- cuz u were stoopid enough to post it.  <br>
-  GG BLADE <br>
- Funny, but what if they have &quot;Honor of the Jedi&quot; out?  <br>
-  dough65432 <br>
- Hey to the person near the bottom of the review list that said &quot;Thanks for wasting our time&quot; And anyone else in similar agreement. The only person that wasted &quot;Your&quot; time was you... You did NOT have to write a review at all. Your individual rating doesnt amount to a hill of Magical Beans against this deck with so many people rating it. And didnt devastate the owner either. <br>
-<br>
-To the maker of this deck.. You couldve added 4-5 more sites, added like 5-10 characters and some other interrupts and you might have gotten the 3 neccessary to be able to review a deck. <br>
-<br>
-<br>
- <br>
-  X <br>
- Well... maybe a loss by 20 if you&amp;#8217;re lucky. That&amp;#8217;s all.  <br>
-  Timber <br>
- ummm no  <br>
-  . <br>
- This deck would have a good chance of placing at worlds. Almost no weaknesses.  <br>
-  Informant <br>
- ya know, toss Limited Resources in, along with Defensive Fire, No Escape started w/ Twi&amp;#8217;Lek, and Voyeur and you&amp;#8217;ll have some massive direct damage.  <br>
-  PCGSAlucard <br>
- Four words: Honor Of The Jedi.  <br>
-  YodaMaster <br>
- A loser, laugh at it, then destroy it, then verbally abuse the maker of this deck!. This really wasted my time. Thanks for the 3 points though.  <br>
-  Garion <br>
- I fear you are a butt pirate  <br>
-  Mikey P <br>
- Wow. 1/2 for you, 3 points for me. =) Thanks.  <br>
-  SmooveGroove <br>
- fear is unique, grimtassh, and honor, learn those 3 things and you will figure out why this deck is bad  <br>
-  Dr. Evil <br>
- ok  <br>
-  Hardpack <br>
- FIRST! i saw this deck before!...SECOND at least start death star system...  <br>
-  Eldorian <br>
- A greater section on strategy may help you get better reviews.  <br>
-  The Drop Out <br>
- even thought it would probably only lose by like 20 or so.. no.  <br>
-  Loaf <br>
- sorry but fear can only be played once a turn...  <br>
-  Throdo <br>
- YES!  <br>
-  MylordMartin <br>
- Not only Honor Of The Jedi can kill this...the opponent <br>
-deploys at a single site...grab one of your FEAR with <br>
-There&amp;#8217;ll Be Hell To Pay and drains you for 1 all the <br>
-rest of the game while you don&amp;#8217;t have enough force to <br>
-play your FEAR...anyway, what a loser!  <br>
-  Bravo_40 <br>
- Um, if you wanted ppl to go easy on reviews you wouldn&amp;#8217;t have posted this. I hope you realize how bad of a deck this is. Thanks for wasting our time.  <br>
-  The Gov&#146;na <br>
- Sorry, but Honor, monnok, and a few other cards just out can kill this. Plus if they drain, you die. Direct damage is not a real way to play.  <br>
-  EBOLuke <br>
- Someone doesnt care  <br>
-  TheShroom <br>
- is this a joke? obviously...  <br>
-  sublime <br>
- Saddddddd  <br>
-  ChevinUSMC <br>
- stay away from the paint chips <br>
- <br>
-  honkytonk33 <br>
- Not even worth the effort, but I&amp;#8217;ll give you .5 star for 1st submission. This crap doesn&amp;#8217;t go good here @ DeckTech....put more thought into it.  <br>
-  BlackDemon4 <br>
- blah  <br>
-  SockMan <br>
- <br>
-   <br>
- <br>
-  <br>
-  <br>
-   <br>
- Quick Jump Community Buzz Current Rulings Member Directory My Page My Inbox  <br>
-  Home<br>
- <br>
- Member Center <br>
- <br>
- Decks<br>
- <br>
- Articles<br>
- <br>
- Tournament Reports <br>
- <br>
- Player Resources<br>
- <br>
- <br>
- <br>
-    Decks Home<br>
- <br>
- Dark Decks<br>
- <br>
- Light Decks<br>
- <br>
- <br>
- <br>
-  <br>
- Latest News  <br>
-Announcing: The Fantasy DeckTech Players&amp;#8217; Challenge Winners<br>
-Thu, March 1, 2001 EDT <br>
-<br>
-<br>
-Round by Round Web Coverage of the first DPC Open<br>
-Wed, February 21, 2001 EDT <br>
-<br>
-<br>
-The DPC Normal: Schedule of Events<br>
-Tue, February 20, 2001 EDT <br>
-<br>
-more news <br>
- <br>
-Editorial Updates <br>
-Tj Holman<br>
-2001-06-03<br>
-Matt Lush<br>
-2001-06-09<br>
- <br>
-Quick Tips <br>
-Trying to find something to do to help promote SW:CCG? Look at our community projects just off the homepage!<br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
-  <br>
-    <br>
-  <br>
-Fear <br>
-<br>
- hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha <br>
-hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha  <br>
-  Jared2oo1 <br>
- OH MY GOD!!! I had this exact deck Idea when dagohbah came out, only I ran more guys, but theres one problem, fear is unique, you can only play one per turn, nice try though, I really wish this would have worked out. Im giving you 5 stars cause I had the same Idea, but this will never work. good try tho.  <br>
-  Slippers <br>
- go review all my things 5 stars  <br>
-  spirajira <br>
- RETARD(*)  <br>
-  tk424 <br>
- use limited resources its better and put in some Rule cards  <br>
-  BigZeq <br>
- hmm...no <br>
-:)  <br>
-  BadGirl <br>
- cuz u were stoopid enough to post it.  <br>
-  GG BLADE <br>
- Funny, but what if they have &quot;Honor of the Jedi&quot; out?  <br>
-  dough65432 <br>
- Hey to the person near the bottom of the review list that said &quot;Thanks for wasting our time&quot; And anyone else in similar agreement. The only person that wasted &quot;Your&quot; time was you... You did NOT have to write a review at all. Your individual rating doesnt amount to a hill of Magical Beans against this deck with so many people rating it. And didnt devastate the owner either. <br>
-<br>
-To the maker of this deck.. You couldve added 4-5 more sites, added like 5-10 characters and some other interrupts and you might have gotten the 3 neccessary to be able to review a deck. <br>
-<br>
-<br>
- <br>
-  X <br>
- Well... maybe a loss by 20 if you&amp;#8217;re lucky. That&amp;#8217;s all.  <br>
-  Timber <br>
- ummm no  <br>
-  . <br>
- This deck would have a good chance of placing at worlds. Almost no weaknesses.  <br>
-  Informant <br>
- ya know, toss Limited Resources in, along with Defensive Fire, No Escape started w/ Twi&amp;#8217;Lek, and Voyeur and you&amp;#8217;ll have some massive direct damage.  <br>
-  PCGSAlucard <br>
- Four words: Honor Of The Jedi.  <br>
-  YodaMaster <br>
- A loser, laugh at it, then destroy it, then verbally abuse the maker of this deck!. This really wasted my time. Thanks for the 3 points though.  <br>
-  Garion <br>
- I fear you are a butt pirate  <br>
-  Mikey P <br>
- Wow. 1/2 for you, 3 points for me. =) Thanks.  <br>
-  SmooveGroove <br>
- fear is unique, grimtassh, and honor, learn those 3 things and you will figure out why this deck is bad  <br>
-  Dr. Evil <br>
- ok  <br>
-  Hardpack <br>
- FIRST! i saw this deck before!...SECOND at least start death star system...  <br>
-  Eldorian <br>
- A greater section on strategy may help you get better reviews.  <br>
-  The Drop Out <br>
- even thought it would probably only lose by like 20 or so.. no.  <br>
-  Loaf <br>
- sorry but fear can only be played once a turn...  <br>
-  Throdo <br>
- YES!  <br>
-  MylordMartin <br>
- Not only Honor Of The Jedi can kill this...the opponent <br>
-deploys at a single site...grab one of your FEAR with <br>
-There&amp;#8217;ll Be Hell To Pay and drains you for 1 all the <br>
-rest of the game while you don&amp;#8217;t have enough force to <br>
-play your FEAR...anyway, what a loser!  <br>
-  Bravo_40 <br>
- Um, if you wanted ppl to go easy on reviews you wouldn&amp;#8217;t have posted this. I hope you realize how bad of a deck this is. Thanks for wasting our time.  <br>
-  The Gov&#146;na <br>
- Sorry, but Honor, monnok, and a few other cards just out can kill this. Plus if they drain, you die. Direct damage is not a real way to play.  <br>
-  EBOLuke <br>
- Someone doesnt care  <br>
-  TheShroom <br>
- is this a joke? obviously...  <br>
-  sublime <br>
- Saddddddd  <br>
-  ChevinUSMC <br>
- stay away from the paint chips <br>
- <br>
-  honkytonk33 <br>
- Not even worth the effort, but I&amp;#8217;ll give you .5 star for 1st submission. This crap doesn&amp;#8217;t go good here @ DeckTech....put more thought into it.  <br>
-  BlackDemon4 <br>
- blah  <br>
-  SockMan <br>
- <br>
-   <br>
- <br>
-  <br>
-  <br>
-   <br>
- Quick Jump Community Buzz Current Rulings Member Directory My Page My Inbox  <br>
-  Home<br>
- <br>
- Member Center <br>
- <br>
- Decks<br>
- <br>
- Articles<br>
- <br>
- Tournament Reports <br>
- <br>
- Player Resources<br>
- <br>
- <br>
- <br>
-    Decks Home<br>
- <br>
- Dark Decks<br>
- <br>
- Light Decks<br>
- <br>
- <br>
- <br>
-  <br>
- Latest News  <br>
-Announcing: The Fantasy DeckTech Players&amp;#8217; Challenge Winners<br>
-Thu, March 1, 2001 EDT <br>
-<br>
-<br>
-Round by Round Web Coverage of the first DPC Open<br>
-Wed, February 21, 2001 EDT <br>
-<br>
-<br>
-The DPC Normal: Schedule of Events<br>
-Tue, February 20, 2001 EDT <br>
-<br>
-more news <br>
- <br>
-Editorial Updates <br>
-Tj Holman<br>
-2001-06-03<br>
-Matt Lush<br>
-2001-06-09<br>
- <br>
-Quick Tips <br>
-Trying to find something to do to help promote SW:CCG? Look at our community projects just off the homepage!<br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
-  <br>
-    <br>
-  <br>
-Fear <br>
-<br>
- hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha <br>
-hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahahahahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha hahahaha  <br>
-  Jared2oo1 <br>
- OH MY GOD!!! I had this exact deck Idea when dagohbah came out, only I ran more guys, but theres one problem, fear is unique, you can only play one per turn, nice try though, I really wish this would have worked out. Im giving you 5 stars cause I had the same Idea, but this will never work. good try tho.  <br>
-  Slippers <br>
- go review all my things 5 stars  <br>
-  spirajira <br>
- RETARD(*)  <br>
-  tk424 <br>
- use limited resources its better and put in some Rule cards  <br>
-  BigZeq <br>
- hmm...no <br>
-:)  <br>
-  BadGirl <br>
- cuz u were stoopid enough to post it.  <br>
-  GG BLADE <br>
- Funny, but what if they have &quot;Honor of the Jedi&quot; out?  <br>
-  dough65432 <br>
- Hey to the person near the bottom of the review list that said &quot;Thanks for wasting our time&quot; And anyone else in similar agreement. The only person that wasted &quot;Your&quot; time was you... You did NOT have to write a review at all. Your individual rating doesnt amount to a hill of Magical Beans against this deck with so many people rating it. And didnt devastate the owner either. <br>
-<br>
-To the maker of this deck.. You couldve added 4-5 more sites, added like 5-10 characters and some other interrupts and you might have gotten the 3 neccessary to be able to review a deck. <br>
-<br>
-<br>
- <br>
-  X <br>
- Well... maybe a loss by 20 if you&amp;#8217;re lucky. That&amp;#8217;s all.  <br>
-  Timber <br>
- ummm no  <br>
-  . <br>
- This deck would have a good chance of placing at worlds. Almost no weaknesses.  <br>
- </FONT></TD>
-	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
-	<A HREF="../../membercenter/directory/memberpage.php3?member=6362">BigZeq</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
-	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
-	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Man, that review was long.<br>
-<br>
-Great deck, as always, Ronnie.  A few things, though.  I think 3 Maul/DLOTS is fine.  Without numbers in this one, it&#146;s probably worth playing an Arica and a U-3P0.  Also needs a sniper/dark strike. </FONT></TD>
-	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
-	<A HREF="../../membercenter/directory/memberpage.php3?member=600">Luca/Tzizvvt</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
-	<IMG SRC="../images/dd10.GIF" BORDER=0></TD>
-	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Cool Deck!! </FONT></TD>
-	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
-	<A HREF="../../membercenter/directory/memberpage.php3?member=1154">DS Pro</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
-	<IMG SRC="../images/dd9.GIF" BORDER=0></TD>
-	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">weird, looks okay </FONT></TD>
-	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
-	<A HREF="../../membercenter/directory/memberpage.php3?member=2576">CmdCorranH</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
-	<IMG SRC="../images/dd8.GIF" BORDER=0></TD>
-	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">ok </FONT></TD>
-	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
-	<A HREF="../../membercenter/directory/memberpage.php3?member=6178">Hardpack</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
-	<IMG SRC="../images/dd6.GIF" BORDER=0></TD>
-	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Dark Deal requires you to control 3 related sites, how do you plan do do that with only 3 different characters, sure there all good characters, but against QMC these days you wouldnt have a hope. notice how Im not being petty and rating your deck half a star? </FONT></TD>
-	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
-	<A HREF="../../membercenter/directory/memberpage.php3?member=3861">Aeon</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%">
-	<IMG SRC="../images/dd5.GIF" BORDER=0></TD>
-	<TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">WTF? Only 3 diferent characters?. One of them placed out of play and you are out of game. What will you do if op deploy fast a rebel at your site?, then you can´t deploy palpy and that leaves you with only 2 characters to battle LS.<br>
-You will have lots of troubles to control the 3 sites, in fact I feel you won´t ever be able to do it.<br>
-Your destiny rate is also very low.<br>
- </FONT></TD>
-	</TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2">
-	<A HREF="../../membercenter/directory/memberpage.php3?member=3530">Garion</A></FONT></TD></TR></table></td>
-              </tr>
-              <tr> 
-                <td height="67" valign="top" colspan="2" bgcolor="#333366"><a href="darkdetail.php3?deck=16623"><img src="/swccg/decks/images/ldback.GIF" width="65" height="77" border="0"></a> 
-                  <a href='darkreview.php3?deck=16623'><img src='/swccg/decks/images/ldreview.GIF' width='65' height='77' border='0'></a> 
-                </td>
-              </tr>
-            </table>
-            <!-- #EndEditable --></td>
-        </tr>
-      </table>
-    </td>
-    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
-      <table border="0" cellspacing="0" cellpadding="0" width="150">
-        <tr align="right" valign="top"> 
-          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
-          <td width="154" valign="top" align="right"> 
-            <table width="154" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF">&nbsp; </td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF"> 
-                  <script language="JavaScript">
-
-function logout() {
-var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
-document.cookie = cookie;
-window.location = "../index.php3";
-	}
-
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-
-</script>
-                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
-<select name="select1" onChange="go(this)">
-    <option selected>Quick Jump</option>
-    <option value="/swccg/resources/rulings.php3">Current Rulings</option>
-    <option value="/swccg/main/decktech.php3">About DeckTech</option>
-    <option value="/swccg/membercenter/directory.php3">Member Directory</option>
-    <option value="#">-----------------------------</option>
-    <option value="http://www.decktech.net">decktech.net</option>
-  </select>
-</form><br>
-<!-- #EndLibraryItem --> </td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
-                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
-                  Center</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
-                  Reports </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/treports/index.php3" class="level1nav"></a></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav"></a><a href="/swccg/shop/index.php" class="level1nav">Tech 
-                  Shop </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
-                  Resources</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
-          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/decks.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/index.php3" class="level2nav">Decks 
-      Home</a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/dark/darkdecks.php3" class="level2nav">Dark 
-      Decks</a><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/decks/light/lightdecks.php3" class="level2nav">Light 
-      Decks</a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-</table>
-<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
-          <td width="155" valign="top" height="13"> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr align="left" valign="top" bgcolor="#630063"> 
-                <td width="154">
- <!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE -->
-<center>
-<script language="JavaScript">
-<!--
-ShowBurstAd('cb8702a','125','125');
-// --></script>
-<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
-<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
-width="125" height="125" border="0" alt="Click Here"></a> 
-</noscript>
-</center>
-<!-- END BURST CODE --> 
-<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
-                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="4">
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
-      Updates</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2002-01-12</font><BR></td>
-  </tr>
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
-      Tips</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><p><font face='arial' size='2' color='#ffffff'>Trying to find something to do to help promote SW:CCG? Look at our community projects just off the homepage!</font></td>
-  </tr>
-</table>
-<!-- #EndLibraryItem --></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate --></html>

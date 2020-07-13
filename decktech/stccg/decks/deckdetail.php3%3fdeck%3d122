@@ -1,532 +1,0 @@
-<html><!-- #BeginTemplate "/Templates/st_2.dwt" -->
-<head>
-<title>DeckTech - for the players, by the players.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" href="/stccg/global/css/white.css">
-<style type="text/css">
-<!--
-.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
-.top_bg {  background-image: url(/stccg/global/images/trek/header_b1.gif); background-repeat: repeat-x}
-.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
-.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
-.centercolor {  background-color: #000000}
-.top_bgHeader { background-image: url(/stccg/global/images/trek/l2_back.gif); background-repeat: repeat-y}
--->
-</style>
-</head>
-<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td width="90%" align="center" valign="middle" background="/stccg/global/images/trek/l2_back.gif" rowspan="2" class="top_bgHeader"> 
-      <img src="/stccg/global/images/trek/glear.gif" width="1" height="1"> <!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-
-<script language="JavaScript">
-<!--
-ShowBurstAd('ad8702a','468','60');
-// -->
-</script>
-
-<noscript>
-<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
-</noscript><!-- #EndLibraryItem --></td>
-    <td width="171" bgcolor="#000000" > 
-      <table width="142" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-          <td bgcolor="#333399"><img src="/stccg/global/images/trek/glear.gif" width="155" height="8"></td>
-          <td bgcolor="#000000">&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td width="171" bgcolor="#333399" ><img src="/stccg/global/images/trek/logo1.gif" width="171" height="59" border="0" vspace="0" hspace="0"></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td valign="top" class="centercolor" bgcolor="#000000" align="left"> 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-        <tr valign="top"> 
-          <td width="12" align="left"><img src="/stccg/global/images/trek/glear.gif" width="12" height="1" border="0" vspace="0" hspace="0"></td>
-          <td class="top_bg" width="98%" align="left" background="/stccg/global/images/trek/header_b1.gif"><img src="/stccg/global/images/trek/l2_left1.gif" width="302" height="48" border="0" vspace="0" hspace="0"></td>
-          <td class="top_bg" width="12" align="right" background="/stccg/global/images/trek/header_b1.gif"><img src="/stccg/global/images/trek/header_r1.gif" width="12" height="48" border="0" vspace="0" hspace="0"></td>
-        </tr>
-        <tr valign="top"> 
-          <td align="left" width="12"><img src="/stccg/global/images/trek/glear.gif" width="12" height="1" vspace="0" hspace="0" border="0"></td>
-          <td width="98%" align="left"><img src="/stccg/global/images/trek/glear.gif" width="1" height="1" border="0" vspace="0" hspace="0"><!-- #BeginEditable "Body" -->
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td bgcolor="#FF9C00" colspan="2" valign="top" height="24"><img src="/stccg/global/images/trek/tablet1.gif" width="92" height="32"></td>
-                <td valign="top" height="24" colspan="3"> 
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                    <tr> 
-                      <td bgcolor="#FF9C00" width="0%" height="13"><img src="/stccg/global/images/trek/glear.gif" width="1" height="19"></td>
-                      <td width="0%" height="13"><img src="/stccg/global/images/trek/glear.gif" width="2" height="1"></td>
-                      <td width="93%" bgcolor="#8543B1" height="13"><img src="/stccg/global/images/trek/glear.gif" width="1" height="1"></td>
-                      <td width="3%" height="13"><img src="/stccg/global/images/trek/tab_decks.gif" width="47" height="18" vspace="0" hspace="4"></td>
-                      <td width="4%" bgcolor="#8543B1" align="right" height="13"><img src="/stccg/global/images/trek/tablet_cap.gif" width="18" height="19"></td>
-                    </tr>
-                    <tr> 
-                      <td width="0%"><img src="/stccg/global/images/trek/glear.gif" width="1" height="12"></td>
-                      <td width="0%"></td>
-                      <td width="93%"></td>
-                      <td width="3%"></td>
-                      <td width="4%"></td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <tr> 
-                <td width="80" bgcolor="#FF9C00" height="40%"><img src="/stccg/global/images/trek/glear.gif" width="80" height="8" border="0" vspace="0" hspace="0"></td>
-                <td width="12" height="40%"><img src="/stccg/global/images/trek/glear.gif" width="12" height="8" border="0" vspace="0" hspace="0"></td>
-                <td rowspan="5" colspan="3" valign="top"> 
-                  <div align="left">
-                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                      <tr valign="top"> 
-                        <td bgcolor="#000000" height="38" width="100%" colspan="3"><img src="/stccg/global/images/trek/glear.gif" width="1" height="5"><br>
-                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                            <tr> 
-                              <td bgcolor="#000000" height="8" width="100%" colspan="3"><span class="header">I Love my Scans! :)</span></td>
-                            </tr>
-                            <tr> 
-                              <td bgcolor="#8543B1" height="2" width="41%"><img src="/stccg/global/images/trek/glear.gif" width="1" height="5"></td>
-                              <td height="2" width="1%"><img src="/stccg/global/images/trek/glear.gif" width="1" height="5"></td>
-                              <td height="2" width="58%" bgcolor="#FF9C00"><img src="/stccg/global/images/trek/glear.gif" width="1" height="5"></td>
-                            </tr>
-                          </table>
-                          <span class="text"> <TABLE WIDTH="100%" CELLPADDING=5 BORDER=0><TR><TD VALIGN="TOP" COLSPAN=2><SPAN CLASS="header">Rating </SPAN><IMG SRC="/stccg/global/images/rating/8.gif" BORDER=0></TD></TR><TR><TD VALIGN="TOP"><A HREF="deckread.php3?deck=122"><IMG SRC="/stccg/global/images/read.gif" BORDER=0></A></TD><TD><A HREF="deckreview.php3?deck=122"><IMG SRC="/stccg/global/images/review.gif" BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><span class=header>Author</Span></TD><TD><span class=text><A HREF="../membercenter/directory/memberpage.php3?member=6627">Kellyne "Vixen" Wilkins</A></span></TD></TR><TR><TD VALIGN="TOP"><SPAN CLASS="header">Date Transmitted</SPAN></TD><TD WIDTH="90%"><span class=text>May 18, 2001</span></TD></TR><TR><TD VALIGN="TOP"><SPAN CLASS="header">Description</SPAN></TD><TD WIDTH="90%" ><span class=text>Combine Scanning with personnel downloads from AMS/ASP/Defend Homeworld and the later Empok Nor for mission solving prowess.  Add to the mix potential mission stealing and catch your opponent unaware.  And for the third sentence: It&#146;s my first deck o</span></TD></TR><TR><TD VALIGN="TOP"><SPAN CLASS="header">Card List</SPAN></TD><TD WIDTH="90%" ><span class=text><TABLE WIDTH="100%" CELLPADDING=5 BORDER=0><TR><TD VALIGN="TOP"><span class=text>Seed Deck (30 + free stuff)<br>
-<br>
-Missions: 6<br>
-<br>
-Study Cometary Cloud<br>
-Mining Survey<br>
-Inv. Anomaly II<br>
-Investigate Coup<br>
-Explore Typhone Expanse II<br>
-Plague Planet<br>
-<br>
-Doorways: 4<br>
-<br>
-Alternate Universe Doorway<br>
-Space-Time Portal<br>
-Spacedoor<br>
-Q-Tent<br>
-<br>
-Facilities: 2<br>
-Empok Nor<br>
-Husnock OP<br>
-<br>
-Other seeds: 8<br>
-Assign Mission Specialists<br>
-Assign Support Personnel<br>
-Defend Homeworld<br>
-Quark&#146;s Isolinear Rods<br>
-Husnock Ship<br>
-Q the Referee x2<br>
-Plans of the Tal Shiar<br>
-<br>
-Dilemmas: 15<br>
-Dead End<br>
-Chula: The Game<br>
-Shaka, When the Walls Fall<br>
-Scientific Method<br>
-Female&#146;s Love Interest/Radioactive Garbage Scow<br>
-Friendly Fire<br>
-Ferengi Infestation<br>
-Executive Authorization<br>
-Emergency Conversion<br>
-Maglock<br>
-Navigational Hazards<br>
-Lack of Preparation<br>
-Beserk Changeling<br>
-In the Pale Moonlight<br>
-Alien Parasites/REM Fatigue Hallucinations<br>
-<br>
-Artifact: 1<br>
-Horga&#146;hn<br>
-<br>
-Sites: 6<br>
-Ops<br>
-Docking Pylons<br>
-Ore Processing Unit<br>
-Security Office<br>
-Infirmary<br>
-Science Lab </span></TD><TD WIDTH="50%" ><span class=text>Draw deck: 208 <br>
-<br>
-Personnel: 45<br>
-<br>
-AMS: 22<br>
-Dr. LaForge<br>
-Leah Brahms<br>
-Lwaxana Troi<br>
-Riva<br>
-Gibson<br>
-Soren<br>
-Dr. Royse<br>
-Alyssa Ogawa<br>
-Norah Satie<br>
-Christopher Hobsen<br>
-Inge Eiger<br>
-Toby Russel<br>
-Tallus<br>
-Parem<br>
-Selok<br>
-Mopak<br>
-Tagus<br>
-Takket<br>
-R&#146;Mal<br>
-Palteth<br>
-Dr. Farek<br>
-Kathleen Tonnel<br>
-Narik<br>
-Assign Support Personnel: 16<br>
-Shelby<br>
-T&#146;Pan<br>
-Karell Odan<br>
-Sarek<br>
-Karen Loews<br>
-Ensign Gaffney<br>
-Taylor Moore<br>
-Taul<br>
-Movar<br>
-Pardek<br>
-Tomalak<br>
-Jaron<br>
-Thei<br>
-Maques<br>
-Ty Kajada<br>
-Amoras<br>
-Defend Homeworld people: 3<br>
-Luther Sloan<br>
-Koval<br>
-Anya<br>
-Quark&#146;s Isolinear Rods people: 2<br>
-10 and 01<br>
-Senator Letant<br>
-Writ: 1<br>
-Nilva<br>
-Other: 2<br>
-Salia<br>
-D&#146;Vano<br>
-<br>
-Sites: 3<br>
-Guest Quarters<br>
-Docking Ports<br>
-Promenade Shops<br>
-<br>
-Equipment: 16<br>
-Type 1 Phaser<br>
-Type 2 Phaser<br>
-Type 3 Phaser Rifle<br>
-Romulan Disruptor Rifle<br>
-Romulan Disruptor<br>
-Medical Kit<br>
-Medical Tricorder<br>
-Medical Padd<br>
-Tricorder<br>
-Science Kit<br>
-Science Padd<br>
-Engineering Kit<br>
-Engineering Tricorder<br>
-Engineering Padd<br>
-Fed Padd<br>
-Romulan Padd<br>
-<br>
-Ships: 4<br>
-Battle Cruiser<br>
-USS Nebula<br>
-Xeophilite Freighter<br>
-D&#146;deridex<br>
-<br>
-Events: 17<br>
-Intermix Ratio<br>
-The Big Picture<br>
-Fair Play<br>
-Kivas Fajo Collector x7<br>
-Treaty: Romulan/Federation x2<br>
-Masaka Transformations<br>
-Mirror Image<br>
-Espionage: Romulan on Federation<br>
-Espionage: Romulan on Klingon<br>
-Espionage: Romulan on Bajoran<br>
-<br>
-Objectives: 21<br>
-Assign Mission Specialists x10<br>
-Assign Support Personnel x10<br>
-Operate Wormhole Relays<br>
-<br>
-Incidents: 7<br>
-It&#146;s Only a Game<br>
-Access Denied<br>
-Panel Overload<br>
-Scanner Interference<br>
-Obelisk of Masaka<br>
-Writ of Accountability x2<br>
-<br>
-Doorways: 25<br>
-Alternate Universe Door x2<br>
-Temporal Vortex x2<br>
-Q-Tent x21<br>
-<br>
-Interrupts: 70<br>
-Palor Toff x25<br>
-Distortion x5<br>
-Scan x8<br>
-Full Planet Scan x6<br>
-Senior Staff Meeting x6<br>
-Wake of the Borg x2<br>
-Remodulation x18<br>
-<br>
-Q-Tent: 13<br>
-Ambassador Tomalak<br>
-Senator Vreenak<br>
-Commander Charvnek<br>
-Keras<br>
-Sisters of Duras<br>
-John Doe<br>
-Reflection Therapy<br>
-Full Planet Scan<br>
-Scan<br>
-Traveler: Transcendence<br>
-Gal Ga&#146;Thong<br>
-Treaty Romulan/Federation<br>
-Dead End<br>
-<br>
- </span></TD></TR></TABLE></span></TD></TR><TR><TD VALIGN="TOP"><SPAN CLASS="header">Strategy</SPAN></TD><TD WIDTH="90%" ><span class=text>I know, there&amp;#8217;s a whole LOT of cards :)<br>
-<br>
-Here&amp;#8217;s the basic idea: If you can see a stealable mission out there and that&amp;#8217;s any that aren&amp;#8217;t Fair Playable, then you go after that mission to steal it and hopefully get a Horga&amp;#8217;hn in the process.  With AMS points, it should be at least 50 points.  Then go and commandeer Empok Nor and with two AMS personnel, solve Mining Survey for the win.<br>
-<br>
-To get the Federation and Romulans working together, although they can do fine working by themselves, grab a Tent for either Senator Vreenak or Ambassador Tomalak who can special download the Treaty.<br>
-<br>
-If you see that you can&amp;#8217;t steal any of their missions, that&amp;#8217;s where Empok Nor comes in handy.  With Anya/Salia, Ty Kajada, either Takket and a high staff icon personnel OR Dr. LaForge and Leah Brahms, all you need is to use Quark&amp;#8217;s Isolinear Rods on 10 and 01 to pass any Empok Nor dilemma except for Sleeper Trap but I don&amp;#8217;t see that very often so I don&amp;#8217;t worry about it.<br>
-<br>
-Once Empok Nor is commandeered, you can have Anya in the Promenade Shops and Salia in the Guest Quarters to help your card drawing, plus you can Tent for a Traveler: Transcendence to help with that as well plus the Remodulations to get rid of the junk you don&amp;#8217;t need and lastly the Q the Referee cycling/discarding.  <br>
-<br>
-Then it&amp;#8217;s just a matter of using your Assign Mission Specialists/Assign Support Personnel to solve missions, making use of the Tent or the Scans in the draw deck to look at your missions to choose people accordingly, plus the equipment to help augment that and Palor Toff to get those cards back.<br>
-<br>
-Sure, it&amp;#8217;s probably not a Worlds calibar deck since its probably not fast enough but it does do pretty well against certain decks like the Guardian decks, Hunt for DNA Bortaus, unsuspecting Romulan decks, dual icon missions, etc.<br>
-<br>
-Call it a first draft :)<br>
-<br>
-Anyway take care...<br>
-<br>
-Love, <br>
-Kellyne <br>
-<br>
-------------------------------------------------------------<br>
-<br>
-In response to Biggie:<br>
-<br>
-you can only use Defend Homeworld once per game to download a single security person. <br>
-<br>
-Yes I know that, but I&#146;m also leaving my options open as to who I choose to get out.  For example, if I see Quash Conspiracy or Espionage Mission, I can steal those missions with just Koval by himself.  If there&#146;s no dilemmas at Empok Nor, I can download Luther Sloan to Empok Nor and commandeer that way.  If I don&#146;t feel the need for either one, I go with Anya/Salia.<br>
-<br>
-Plus get rid of the Hushnok Out post <br>
-<br>
-If I see dilemmas at Empok Nor, I want to commandeer it before my opponent on turn 1.  The seeded ship allows me to spend my card play for 10 and 01, which will give me enough attributes and skills to pass all but one of the dilemmas with ease at Empok Nor.<br>
-<br>
-and get Continuing Committee which allows you to play tal shiar for free, but get yourself a Romulus and get rid of Plaque planet for Cloaked Mission(Romulus homeworld). <br>
-<br>
-If I did that, this would have to be a vastly different deck and I don&#146;t want to do that.<br>
-<br>
-Screw the ship cause it is only range 6 <br>
-<br>
-It also allows me to download someone with Transporter Skill which is a skill I could definately use for a space-based deck.<br>
-<br>
-just dl a xepholite frieghter or D&amp;#8217;deridex Advanced with both have range 9. Just use Defend Homeworld to dl Koval(who haves Tal Shiar x2). Then with your AMS should dl Narik and Takket, then with ASP dl Tomalak. just coomandeer first turn. <br>
-<br>
-If there&#146;s dilemmas there, then there&#146;s nothing saying that I can&#146;t use my seeded Husnock Ship or wait a turn to get a ship via Spacedoor.  As far as my Ops download, again that&#146;s certainly an option.<br>
-<br>
-The deck is meant to be as flexible as possible and yes, as I stated before it&#146;s a really large draw deck and I&#146;ll fully admit that it&#146;s too big but I&#146;m not getting rid of the concept just because it doesn&#146;t agree with what your sensiblities want it to be.<br>
-<br>
-Love,<br>
-Vixen </span></TD></TR><TR><TD VALIGN="TOP"><A HREF="deckread.php3?deck=122"><IMG SRC="/stccg/global/images/read.gif" BORDER=0></A></TD><TD><A HREF="deckreview.php3?deck=122"><IMG SRC="/stccg/global/images/review.gif" BORDER=0></A></TD></TR><TR><TD VALIGN="TOP"><a href="decks.php3"><img src="/stccg/global/images/back.gif" border="0" ></a></TD><TD><a href="deckprint.php3?deck=122" TARGET="BLANK_"><img src="/stccg/global/images/print.gif" border="0"></a></TD></TR></TABLE> </span></td>
-                      </tr>
-                    </table>
-                    <div align="left"></div>
-                  </div>
-                </td>
-              </tr>
-              <tr> 
-                <td height="2" colspan="2"><img src="/stccg/global/images/trek/glear.gif" width="1" height="2"></td>
-              </tr>
-              <tr> 
-                <td width="80" bgcolor="#8543B1" height="68" valign="bottom" align="right"><img src="/stccg/global/images/trek/n1.gif" width="26" height="11"></td>
-                <td width="12" height="68">&nbsp;</td>
-              </tr>
-              <tr> 
-                <td width="80" height="2" valign="top" align="right"><img src="/stccg/global/images/trek/glear.gif" width="1" height="2"></td>
-                <td width="12" height="2"><img src="/stccg/global/images/trek/glear.gif" width="1" height="1"></td>
-              </tr>
-              <tr> 
-                <td width="80" bgcolor="#FF9C00" height="264" valign="top" align="right">&nbsp;</td>
-                <td width="12" height="264"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"></td>
-              </tr>
-              <tr> 
-                <td height="2" colspan="3" bgcolor="#FF9C00" valign="top"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"></td>
-                <td width="4" height="2" bgcolor="#000000"><img src="/stccg/global/images/trek/glear.gif" width="2" height="1"></td>
-                <td width="347" height="2" bgcolor="#FF9C00"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"></td>
-              </tr>
-              <tr> 
-                <td height="22" colspan="2" valign="top">&nbsp;</td>
-                <td height="22" colspan="3">&nbsp;</td>
-              </tr>
-              <tr> 
-                <td height="2" colspan="3" bgcolor="#8543B1" valign="top"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"></td>
-                <td width="4" height="2" bgcolor="#000000"><img src="/stccg/global/images/trek/glear.gif" width="2" height="4"></td>
-                <td width="347" height="2" bgcolor="#FF9C00"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"></td>
-              </tr>
-              <tr> 
-                <td height="22" colspan="2" bgcolor="#8543B1" valign="top"><img src="/stccg/global/images/trek/tablet2.gif" width="92" height="24"></td>
-                <td height="22" colspan="3"> 
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                    <tr> 
-                      <td bgcolor="#000000" height="8" width="41%"><img src="/stccg/global/images/trek/glear.gif" width="1" height="14"></td>
-                      <td height="8" width="1%"></td>
-                      <td height="8" width="58%"></td>
-                    </tr>
-                    <tr> 
-                      <td bgcolor="#8543B1" height="2" width="41%"><img src="/stccg/global/images/trek/glear.gif" width="1" height="10"></td>
-                      <td height="2" width="1%"></td>
-                      <td height="2" width="58%" bgcolor="#8543B1"><img src="/stccg/global/images/trek/glear.gif" width="1" height="1"></td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-            <br>
-            <!-- #EndEditable --></td>
-          <td width="12" align="left"><img src="/stccg/global/images/trek/glear.gif" width="12" height="1" vspace="0" hspace="0" border="0"></td>
-        </tr>
-      </table>
-    </td>
-    <td width="160" valign="top" bgcolor="#000000"> 
-      <table width="171" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-        <tr> 
-          <td bgcolor="#333399" width="190" valign="top" align="left"><img src="/stccg/global/images/trek/logo2.gif" width="155" height="48" vspace="0" hspace="0" border="0"></td>
-          <td width="10" bgcolor="#000000"><img src="/stccg/global/images/trek/glear.gif" width="16" height="8"></td>
-        </tr>
-        <tr> 
-          <td bgcolor="#333399" width="190"><img src="/stccg/global/images/trek/logo3.gif" width="155" height="47" border="0" vspace="0" hspace="0"></td>
-          <td width="10">&nbsp;</td>
-        </tr>
-        <tr> 
-          <td bgcolor="#333399" align="center" width="190"> <!-- #BeginLibraryItem "/Library/ST_Jump.lbi" --><script language="JavaScript">
-
-function logout() {
-var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
-document.cookie = cookie;
-window.location = "../index.php3";
-	}
-
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-
-</script>
-             
-            <form method="post" action="">
-              <select name="select1" onChange="go(this)">
-                <option selected>TURBOLIFT</option>
-                <option value="/stccg/resources/rulings.php3">Current Rulings</option>
-                <option value="/stccg/main/decktech.php3">About DeckTech</option>
-                <option value="/stccg/membercenter/directory.php3">Crew Directory</option>
-              </select>
-            </form>
-            <br>
-            <!-- #EndLibraryItem --> </td>
-          <td width="10">&nbsp;</td>
-        </tr>
-        <tr> 
-          <td bgcolor="#000000" align="left" valign="top" width="190"><img src="/stccg/global/images/trek/tele_foot.gif" width="155" height="12" vspace="0" hspace="0" border="0"></td>
-          <td width="10">&nbsp;</td>
-        </tr>
-        <tr> 
-          <td align="left" valign="top" width="190"><img src="/stccg/global/images/trek/primary_nav.gif" width="155" height="156" border="0" vspace="0" hspace="0" usemap="#Map"><map name="Map"><area shape="rect" coords="2,24,153,41" href="/stccg/index.php3"><area shape="rect" coords="3,43,149,59" href="/stccg/membercenter/index.php3"><area shape="rect" coords="2,61,149,78" href="/stccg/decks/index.php3"><area shape="rect" coords="1,81,150,96" href="/stccg/articles/index.php3"><area shape="rect" coords="1,100,153,115" href="/stccg/treports/index.php3"><area shape="rect" coords="1,118,151,133" href="/stccg/resources/index.php3"></map></td>
-          <td width="10">&nbsp;</td>
-        </tr>
-        <tr> 
-          <td valign="top" align="left" width="190"> 
-            <table width="155" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td width="21"><img src="/stccg/global/images/trek/glear.gif" width="21" height="8"></td>
-                <td bgcolor="#8042AF" width="5"><img src="/stccg/global/images/trek/glear.gif" width="5" height="8"></td>
-                <td width="130"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/st_decks.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"> 
-      &nbsp; <a href="/stccg/decks/index.php3" class="level2nav">Decks Home</a> 
-      </font></td></tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/stccg/decks/decks.php3" class="level2nav">Decks LCARS</a> </font></td></tr>
-</table><!-- #EndLibraryItem --> <!-- #EndEditable --></td>
-              </tr>
-            </table>
-          </td>
-          <td width="10">&nbsp;</td>
-        </tr>
-        <tr> 
-          <td width="190"><img src="/stccg/global/images/trek/rspacer.gif" width="155" height="128" vspace="0" hspace="0" border="0"></td>
-          <td width="10">&nbsp;</td>
-        </tr>
-        <tr> 
-          <td bgcolor="#8543B1" width="190">&nbsp;</td>
-          <td width="10">&nbsp;</td>
-        </tr>
-        <tr> 
-          <td width="190"><img src="/stccg/global/images/trek/rbottom8.gif" width="155" height="83" border="0" vspace="0" hspace="0"></td>
-          <td width="10">&nbsp;</td>
-        </tr>
-      </table>
-      <br>
-      <br>
-      <br>
-    </td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate --></html>

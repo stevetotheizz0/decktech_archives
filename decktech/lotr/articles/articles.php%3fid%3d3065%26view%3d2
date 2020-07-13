@@ -1,351 +1,0 @@
- 
-<html>
-<!-- #BeginTemplate "/Templates/decktech_2.dwt" --> 
-<head>
-<title>Welcome Lord of the Rings Players</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="keywords" content="Lord of the Rings, Gandalf, Frodo, Ring, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
-<style type="text/css">
-<!--
-
-@font-face {
-    font-family: Tolk;
-    font-style:  normal;
-    font-weight: normal;
-    src: url(http://www.decktech.net/lotr/includes/TOLKIEN0.eot);
-}
-
-@font-face {
-    font-family: Papy;
-    font-style:  normal;
-    font-weight: normal;
-    src: url(http://www.decktech.net/lotr/includes/PAPYRUS0.eot);
-}
-
-Body { font-family: Times, Times New Roman, serif; color: #686998; font-size: 8pt; font-style: normal; text-decoration: none; background-color: #FFFFFF; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
-TD {  font-family: Times, Times New Roman, serif; font-size: 9pt;}
-.level1nav {  font-family: Papy, Times, serif; color: #686998; text-decoration: none; font-weight: bold; font-size: 8pt;}
-.h1font { font-family: Tolk, Times, serif; color: #686998; font-size: 18pt; font-style: normal; text-decoration: none; font-weight: bold; }
-.h2font { font-family: Papy, Times, serif; color: #686998; font-size: 10pt; font-style: normal; text-decoration: none; font-weight: bold; }
-.bfont { font-family: Times, Times New Roman, serif; color: #686998; font-size: 10pt; font-style: normal; text-decoration: none; }
-.afont { font-family: Papy, Times, serif; color: #686998; font-size: 8pt; font-style: normal; text-decoration: none; }
-.rumor { font-family: Papy, Times, serif; color: #686998; font-size: 9pt; font-style: normal; text-decoration: none; }
-a {  color: #CF4300; text-decoration: none}
-.header_bg {  background: #F4F4F4}
-a:hover { color: #CE754A; text-decoration: none }
-.border { }
-input {font-family: Papy, Times, serif; font-size: 8pt }
-select {font-family: Papy, Times, serif; font-size: 8pt }
-
--->
-</style>
- 
-</head>
-<body link="#CF4300" vlink="#CF4300" alink="#0000FF" text="#686998" margin="0" marginwidth="0" marginheight="0" bgcolor="#FFFFFF">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td width="1" valign="top"><img src="/lotr/gfx/left_top.gif" width="16" height="145" vspace="0" hspace="0" border="0"></td>
-    <td width="130" valign="top"> 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr valign="top" align="left"> 
-          <td><a href="http://www.decktech.net"><img src="/lotr/gfx/logo.gif" width="135" height="144" vspace="0" hspace="0" border="0"></a></td>
-        </tr>
-      </table>
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr valign="top"> 
-          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
-        </tr>
-        <tr valign="top"> 
-          <td height="2"> <script>
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-</script>
-
-<form method="post" action="">
-<div align="center">
-<select name="select" onChange="go(this)">
-<option selected>Quick Jump</option>
-<option value="#"> </option>
-<option value="#">LotR TCG ======</option>
-<option value="/lotr/index.php">Home</option>
-<option value="/lotr/main/about.php">About</option>
-<option value="/lotr/main/join.php">Sign Up Now!</option>
-<option value="#"></option>
-<option value="/index.php">decktech.net</option>
-</select>
-</div>
-</form>
- </td>
-        </tr>
-        <tr valign="top"> 
-          <td> <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr><td width="1"><img src="/lotr/gfx/cloud/blue1.gif" width="1" height="27"></td>
-    <td background="/lotr/gfx/cloud/blue4.gif"><font face="Papy, Times, serif" class="h2font">Lord of the Rings</td><td width="1"><img src="/lotr/gfx/cloud/blue5.gif" width="1" height="27"></td>
-  </tr><tr><td width="1" valign="bottom"><img src="/lotr/gfx/cloud/blue2.gif" width="1" height="110"></td>
-  <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="4"><tr><td><font face="  Times, Times New Roman, serif" class="bfont">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td><a href="/lotr/index.php" class="level1nav">Home</a><br>
-       </td>
-  </tr>
-  <tr> 
-    <td><a href="/lotr/articles/index.php" class="level1nav">Articles</a><br>
-       
-      <table width="100%" border="0" cellspacing="0" cellpadding="2">
-        <tr> 
-          <td width="1%"><img src="../../global/images/home/trans.gif" width="10" height="5"></td>
-          <td width="99%"><font face="  Times, Times New Roman, serif" class="bfont"><a href="/lotr/articles/articles.php">All</a></font></td>
-        </tr>
-      </table>
-      </td>
-  </tr>
-  <tr> 
-    <td><a href="/lotr/decks/index.php" class="level1nav">Decks</a><br>
-      </td>
-  </tr>
-  <tr> 
-    <td><a href="/lotr/treports/index.php" class="level1nav">Tournament 
-      Reports</a><br>
-      </td>
-  </tr>
-  <tr>
-    <td><a href="/lotr/outfitters/index.php" class="level1nav">M.E. 
-      Outfitters</a><br>
-      </td>
-  </tr>
-  <tr> 
-    <td><a href="/lotr/resources/index.php" class="level1nav">Resources</a><br>
-      </td>
-  </tr>
-</table>
-</font></td></tr></table></td><td width="1" valign="top"><img src="/lotr/gfx/cloud/blue6.gif" width="1" height="111"></td>
-  </tr><tr align="left"><td colspan="3"><img src="/lotr/gfx/cloud/blue3.gif" width="111" height="15" vspace="0" hspace="0" border="0"></td>
-  </tr></table> </td>
-        </tr>
-         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
-        <tr valign="top"> 
-          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr><td width="1"><img src="/lotr/gfx/cloud/blue1.gif" width="1" height="27"></td>
-    <td background="/lotr/gfx/cloud/blue4.gif"><font face="Papy, Times, serif" class="h2font">Site Sponsor</td><td width="1"><img src="/lotr/gfx/cloud/blue5.gif" width="1" height="27"></td>
-  </tr><tr><td width="1" valign="bottom"><img src="/lotr/gfx/cloud/blue2.gif" width="1" height="110"></td>
-  <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="4"><tr><td><font face="  Times, Times New Roman, serif" class="bfont"><div align=center> <!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE -->
-<center>
-<script language="JavaScript">
-<!--
-ShowBurstAd('cb8702a','125','125');
-// --></script>
-<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
-<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
-width="125" height="125" border="0" alt="Click Here"></a> 
-</noscript>
-</center>
-<!-- END BURST CODE --> 
-</div></font></td></tr></table></td><td width="1" valign="top"><img src="/lotr/gfx/cloud/blue6.gif" width="1" height="111"></td>
-  </tr><tr align="left"><td colspan="3"><img src="/lotr/gfx/cloud/blue3.gif" width="111" height="15" vspace="0" hspace="0" border="0"></td>
-  </tr></table><BR><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr><td width="1"><img src="/lotr/gfx/cloud/blue1.gif" width="1" height="27"></td>
-    <td background="/lotr/gfx/cloud/orange4.gif"><font face="Papy, Times, serif" class="h2font">Featured Writers</td><td width="1"><img src="/lotr/gfx/cloud/orange5.gif" width="1" height="27"></td>
-  </tr><tr><td width="1" valign="bottom"><img src="/lotr/gfx/cloud/orange2.gif" width="1" height="110"></td>
-  <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="4"><tr><td><font face="  Times, Times New Roman, serif" class="bfont"><table width="120" border="0" cellspacing="0" cellpadding="3">
-  <tr align="center"> 
-    <td><a href="http://www.decktech.net/lotr/articles/features/rightime.php"><img src="/lotr/gfx/features/right.gif" width="113" height="113" border="0"></a></td>
-  </tr>
-  <tr align="center"> 
-    <td><a href="http://www.decktech.net/lotr/articles/features/cavetroll.php"><img src="/lotr/gfx/features/trollad.gif" width="113" height="113" border="0"></a></td>
-  </tr>
-  <tr align="center"> 
-    <td><a href="/lotr/articles/features/buget1.php"><img src="/lotr/gfx/features/bdget1.gif" width="113" height="113" border="0"></a></td>
-  </tr>
-  <tr align="center"> 
-    <td><a href="/lotr/articles/features/cardadvg1.php"><img src="/lotr/gfx/features/advantage.gif" width="113" height="113" border="0"></a></td>
-  </tr>
-  <tr align="center"> 
-    <td><a href="/lotr/features/tournaments.php"><img src="/lotr/gfx/features/tbasics.gif" width="113" height="113" border="0"></a></td>
-  </tr>
-  <tr align="center"> 
-    <td><a href="/lotr/features/elf.php"><img src="/lotr/gfx/features/elvendecks.jpg" width="113" height="113" border="0"></a></td>
-  </tr>
-</table>
-</font></td></tr></table></td><td width="1" valign="top"><img src="/lotr/gfx/cloud/orange6.gif" width="1" height="111"></td>
-  </tr><tr align="left"><td colspan="3"><img src="/lotr/gfx/cloud/orange3.gif" width="111" height="15" vspace="0" hspace="0" border="0"></td>
-  </tr></table> </td>
-        </tr>
-      </table>
-    </td>
-    <td align="left" valign="top" colspan="2" width="90%"> 
-<table width="100%" border="0" cellspacing="0" cellpadding="0" background="/lotr/gfx/header_back.jpg">
-  <tr valign="top"> 
-    <td height="148"> <img src="/lotr/gfx/trans_header1.gif" width="9" height="37" border="0" vspace="0" hspace="0"><br>
-      <a href="/lotr/contest/index.php"><img src="/lotr/gfx/sting_banner.jpg" width="462" height="131" border="0" vspace="0" hspace="0"></a> 
-    </td>
-  </tr>
-</table>
- 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr> 
-          <td bgcolor="#FFFFFF" valign="top" width="1"><img src="/lotr/gfx/trans_header1.gif" width="22" height="2" vspace="0" hspace="0" border="0"></td>
-          <td bgcolor="#FFFFFF" valign="top"><!-- #BeginEditable "Body" --> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-  <tr><td width="2" height="15"><img src="/lotr/gfx/center_column/1.gif" width="2" height="25"></td>
-    <td width="700" background="/lotr/gfx/cloud/redcc.gif" height="15" valign="bottom"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr><td><font face="Tolk, Times, serif" class="h1font"><font color="#C46161">Articles</font></B></font></td></tr></table></td></tr><tr><td width="2"></td><td valign="top"> 
-      <table width="100%" border="0" cellspacing="0" cellpadding="5"><tr><td><font face="  Times, Times New Roman, serif" class="bfont">
- <font face="Tolk, Times, serif" class="h1font"> How To Win A Skirmish, installment #1<br></font><br><font face="Papy, Times, serif" class="h2font"> <b>Overall Rating:</b> </font><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><img src="/lotr/gfx/star2.gif" width="19" height="21" border="0" align="absmiddle"><font size='1'>(4.60)</font><br><font face="Papy, Times, serif" class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/lotr/main/mpage.php?member=8614'>marc "ShotguNazgul" LALAGUE</A></font><br><font face="Papy, Times, serif" class="h2font"> <b>Date Submitted:</b> December 29, 2001</font><p align='justify'><blockquote><font face="  Times, Times New Roman, serif" class="bfont"> In the LOTR card game, you find yourself fighting in alot of skirmishes. Many players do not realize how important it is for you to win skirmishes. <br>
-<br>
-Benefits for winning skirmishes:<br>
-<br>
-  Winning or losing skirmishes often determine two twings. The first thing is the survivability of your fellowship. If you win lots of skirmishes, you will not take many wounds or burdens on your characters. Keeping you wounds low is very important if you plan on staying in the game long. Obviously, You will not win EVERY skirmish. However, every skirmish counts. As long as there are not too many wounds on your characters, you will maintain your fellowship longer.<br>
-  The second benefit of winning skirmishes is that you will be able to race to site 9 more effectively. Every time you win a skirmish,you either wear down or kill one of their minions. If you do very well and kill one or more minions in the skirmish phase, it will be generally safer to keep moving. If you LOSE every skirmish in the skirmish phase, then moving again becomes nearly impossible. Their minions will remain there to cause even more pain and they will be able to play more minions. AND, since you lost all your skirmishes, your fellowship must have been taking wounds, which means your characters will be closer to dying. The loss of characters can never be replaced so it is very vital to keep as many members of your fellowship alive as possible.<br>
-  You may be thinking that if the object of the game is to get to site 9 alive, then winning skirmishes is the key to LOTR. that is exactly what i think. Listed Below are the cards from each culture that help you win skirmishes. If they have other abilities that do not necessarily help to win skirmishes, i did not even consider the other abilites.<br>
-<br>
-Rating system:<br>
-* =terrible<br>
-** =ineffective<br>
-*** = useable<br>
-**** = effective <br>
-***** =should go in any deck of that culture<br>
-<br>
-Dwarves:<br>
-<br>
-Power Fighters- Gimli, Farin.<br>
-<br>
-***** Dwarf Axe. 0 twilight foclobberrmanent +2 STR. One of the best weapons in the game.<br>
-<br>
-***Gimli&#39;s Battle Axe. Its ok, But dwarven axe is often better.<br>
-<br>
-**** Cleaving Blow, Axe Strike, Their Halls Of Stone, Battle Fury. These are all about equally effective and a good mix of these makes a versatile +STR pumping machine.<br>
-<br>
-Elven: <br>
-<br>
-Power Fighters: Arwen<br>
-<br>
-*****Gwemegil. Best Weapon in the game. <br>
-<br>
-****Asfaloth. effective on Arwen, but not as effective as Gwemegil/<br>
-<br>
-* Bow of the Galahdrim. Poor Legolas is terrible at skirmishing, and this thing doesn&#39;t help much.<br>
-<br>
-**** Defiance. This card on Arwen= Dead Nazgul.<br>
-<br>
-***Border Defences. Not terrible, but defiance is better 9 times out of 10 as there are only 4 minion archers in the game.<br>
-<br>
-**8Tale of Gil-Galad. Good card, but not as effective as defiance.<br>
-<br>
-Gandalf:<br>
-<br>
-Power Fighters:Gandalf (surprising?)<br>
-<br>
-***** Servant of the secret Fire. My vote for most versatile and effective skirmish event in the game. If you use Gandalf, You should try very hard to get as many of these as possible!!!!<br>
-<br>
-**** Glamdring. Very , very good on Gandalf, but only he can wield it.<br>
-<br>
-**** Mysterious Wizard. Very Effective if you bid a low # of burdens. Otherwise, its trash :(<br>
-<br>
-Gondor:<br>
-<br>
-Power fighters: ARAGORN, Boromir is ok.<br>
-<br>
-*****Ranger&#39;s Sword. The only weapon for the big man. Damage +1= HUGE.<br>
-<br>
-****Blade of Gondor. Better than Ranger&#39;s Sword by stats, but since Boromir isn&#39;t as good as Aragorn it falls a little short.<br>
-<br>
-****Swordarm of the white tower. Basic, Solid, and effective. Some cool tricks with Rare Aragorn.<br>
-<br>
-*****Swordsman of the Northern Kingdom. EXTREMELY good in the early game. 4 of this in a deck if you use Aragorn.<br>
-<br>
-*****Ranger&#39;s Versatility. This card is broken. Helps weaken stronger minions so theyre easier to kill. Also, it does not allow the opponent to use some cards that require exertion.<br>
-<br>
-** The Saga Of Elendil. Good card, but not as effective when trying to win skirmishes.<br>
-<br>
-Shire:<br>
-***** Hobbit stealth. VERY VERY nice card. can cancel skirmishes early, which is nice, and gives a nice little strength boost late Game.<br>
-<br>
-***** Hobbit Intuition. Same reason as Hobbit Stealth.<br>
-<br>
-***** Power According To His Stature. Can kill minions by itself. great card.<br>
-<br>
-***** Sting. A must have for every deck.<br>
-<br>
-**** There and back again. The only card that gives more than one companion +STR. very effective.<br>
-<br>
-** Halfling Deftness. Not as effective as any above cards.<br>
-<br>
-* noble Intentions. Not as effective as any above cards.<br>
-<br>
-Conclusion- I hope you all learned something from this article, Part 2 will be posted within 2 days. part 2 will contain strategies for each race, and one or two decklists designed around winning skirmishes! I hope you all enjoyed my article.<br>
-<br>
-Marc &quot;ShotguNazgul&quot; Lalague <br></font></blockquote><BR><font face="  Times, Times New Roman, serif" class="bfont"> <A HREF='/lotr/articles/articles.php?id=3065&view=1'>Read the Reviews</a><font face="  Times, Times New Roman, serif" class="bfont"> | <A HREF='/lotr/articles/articles.php'>Back to List</A></font><p><font face="  Times, Times New Roman, serif" class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/lotr/main/join.php'> become a registered member</a></font>
-</font></td></tr></table></td></tr></table> <!-- #EndEditable --></td>
-          <td width="1" valign="top"><img src="/lotr/gfx/trans_header1.gif" width="16" height="2" vspace="0" hspace="0" border="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> </tr>
-  <tr> 
-    <td colspan="4">
-<div align="center">
-  <table width="100%" border="0" cellspacing="0" cellpadding="0" background="/lotr/gfx/footer_back.jpg">
-    <tr align="center" valign="bottom" > 
-      <td height="210"><font face="Papy, Times, serif" class="afont">This site is maintained and updated 
-        by fans of The Lord of the Rings TCG, and is in no way affiliated with 
-        New Line Cinema or Decipher Inc. We in no way claim the artwork displayed 
-        to be our own. Copyrights and trademarks for the films and other promotional 
-        materials are held by their respective owners and their use is allowed 
-        under the fair use clause of the Copyright Law.<a href="/global/terms.php" class="level1nav"><br>
-        Terms of Service</a> TM & © 2001 www.decktech.net. All Rights Reserved. </font> 
-      </td>
-    </tr>
-  </table>
-  
-</div>
-</td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate -->
-</html>

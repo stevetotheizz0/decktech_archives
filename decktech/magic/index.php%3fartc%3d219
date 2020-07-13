@@ -1,453 +1,0 @@
-
-  
-<html><!-- #BeginTemplate "/Templates/decktech_1.dwt" -->
-<head>
-<title>Welcome Magic: The Gathering Players</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="keywords" content="Magic: The Gathering, Magic,
-Richard Garfield, Magi-Naion, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
-<style type="text/css">
-<!--
-
-A:link {color: #003399}
-A:alink {color: #990033}
-A:visited {color: #990033}
-Body, TD { margin: 0in; marginleft: 0in; margintop: 0in; border-style: none; font-family: Verdana, Arial, sans-serif; font-size: 8pt; color: #000000; font-style: normal; text-decoration: none;}
-.h1font { font-family: Verdana, Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; letter-spacing: -1px}
-.h2font { font: normal 10pt/18pt Verdana, Arial, sans-serif; font-weight: bold; text-decoration: none;}
-.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; color: #000000; font-style: normal; text-decoration: none;}
-.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt; font-style: normal; text-decoration: none; }
-
-.flegal { font-family: Verdana, Arial, sans-serif; font-size: 7pt; font-style: normal; text-decoration: none; color: #FF9933}
-.flegal A { color: #FFFFFF}
-
-.rfont { font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; color: #666666; font-weight: bolder; text-decoration: none; }
-
--->
-</style>
-</head>
-<body text="#000000" bgcolor="#FFFFFF" margin="0" marginwidth="0" marginheight="0"> 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-   
-  <tr>
-    <td height="18" width="1" rowspan="2" valign="top"  bgcolor="#CCCCCC">
-<img src="/magic/gfx/lft_c_top.gif" width="9" height="127" vspace="0" hspace="0" border="0"></td>
-    <td height="18" rowspan="2" valign="top"  bgcolor="#CCCCCC"> 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr valign="top" align="center"> 
-          <td><a href="http://www.decktech.net"><img src="/magic/gfx/hlogo.gif" width="165" height="127" vspace="0" hspace="0" border="0" ></a></td>
-        </tr>
-      </table>
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr valign="top"> 
-          <td height="2"><img src="../global/images/home/trans.gif" width="130" height="8"></td>
-        </tr>
-        <tr valign="top"> 
-          <td height="2"> <script>
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-</script>
-
-<form method="post" action="">
-<div align="center">
-<select name="select" onChange="go(this)">
-<option selected>Quick Jump</option>
-<option value="#"> </option>
-<option value="#">Magic ========</option>
-<option value="/magic/index.php">Home</option>
-<option value="/magic/main/about.php">About</option>
-<option value="/magic/main/join.php">Sign Up Now!</option>
-<option value="#"></option>
-<option value="/index.php">decktech.net</option>
-</select>
-</div>
-</form>
- </td></tr>
-        <tr valign="top"> 
-          <td> <table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Magic: The Gathering</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td><a href="/magic/index.php" class="level1nav">Home</a><br>
-       
-<div align=right>
-<a href="/magic/main/about.php">About the Game</a> &nbsp;<br>
-<a href="/magic/main/decktech.php">About DeckTech</a> &nbsp;<br>
-<a href="/magic/main/directory.php">Member Directory</a> &nbsp;<br>
-<a href="/magic/main/join.php">Sign Up Now!</a> &nbsp;<br>
-</div> 
- 
-<a href="/magic/articles/index.php" class="level1nav">Articles</a><br>
-<a href="/magic/decks/index.php" class="level1nav">Decks</a><br>
-<a href="/magic/treports/index.php" class="level1nav">Reports</a><br>
- <a href="/magic/resources/index.php" class="level1nav">Resources</a><br>
-<BR></td></tr></table> </td>
-        </tr>
-         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
-        <tr valign="top"> 
-          <td> 
-<table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Site Sponsor</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE -->
-<center>
-<script language="JavaScript">
-<!--
-ShowBurstAd('cb8702a','125','125');
-// --></script>
-<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
-<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
-width="125" height="125" border="0" alt="Click Here"></a> 
-</noscript>
-</center>
-<!-- END BURST CODE --></div><BR></td></tr></table><br><table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Quick News</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td>
-<p><i><a href="/dpc/index.php">DPC</a> Houston Results!</i><br>
-<b>Type II</b><br>
-Samuel Friedman $150<br> 
-John Coley $150<br> 
-Jack Vassullo $150<br> 
-Chris Connor $150<br><br>
-<b>Type I</b><br> 
-1st Samuel Friedman $75<br> 
-2nd Bart Brown $38<br> 
-
-  </p>
-  <BR></td></tr></table><br>
-<table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Top Articles</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td>Top 10 in last 30 days<ol><li><font class="bfont"><A HREF="/magic/articles/articles.php?id=3904&view=2">Power of Black</A></font></li><li><font class="bfont"><A HREF="/magic/articles/articles.php?id=3929&view=2">What Happend to This Great Game???</A></font></li><li><font class="bfont"><A HREF="/magic/articles/articles.php?id=3958&view=2">LOTR is a far better game</A></font></li></ol><A href="http://www.decktech.net/magic/articles/articles.php">More ></A><BR></td></tr></table> 
- </td>
-        </tr>
-      </table>
-    </td>
-    <td height="18" width="90%" align="left" rowspan="2" valign="top"> 
-<table width="100%" border="0" vspace="0" hspace="0" cellspacing="0" cellpadding="0">
-  <tr valign="top"> 
-    <td width="98%" background="/magic/gfx/hback.jpg" valign="bottom" height="92"><img src="/magic/gfx/trans.gif" width="8" height="92" border="0" vspace="0" hspace="0" align=left> 
-    </td>
-  </tr>
-  <tr valign="top"> 
-    <td width="98%" background="/magic/gfx/hlowback.gif" height="35"><img src="/magic/gfx/trans.gif" width="8" height="35" border="0" vspace="0" hspace="0"></td>
-  </tr>
-  <tr valign="top"> 
-    <td width="98%" height="11">&nbsp;</td>
-  </tr>
-</table>
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-          <td width="1" height="136" valign="top" >
-<img src="/magic/gfx/trans.gif" width="18" height="2" vspace="0" hspace="0" border="0"></td>
-          <td width="80%" height="136" valign="top" > 
-            <!-- #BeginEditable "Body" -->
-            <table width="100%" border="3" cellspacing="0" cellpadding="5" bgcolor="#000000" bordercolor="#FF0000">
-              <tr>
-                <td><img src="../global/images/home/mtg100.gif" width="322" height="150"></td>
-              </tr>
-            </table>
-            <BR><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td><font class="h1font">Latest News</font></td></tr><tr><td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-<tr height="10"><td width="98%" bgcolor="#E0E7CF" height="10"><img src="/magic/gfx/trans.gif" width="6" height="2" vspace="0" hspace="0" border="0"></td><td valign="bottom" align="right"><img src="/magic/gfx/hrz/tw.gif" width="103" height="10" border="0" vspace="0" hspace="0"></td>
-</tr><tr><td>&nbsp;</td><td valign="top" align="right">
-<img src="/magic/gfx/hrz/bw.gif" width="92" height="24" border="0" vspace="0" hspace="0"></td>
-</tr></table></td></tr><tr><td><font class="bfont">
-<a name=219></a>
-<table width=100%>
-<tr><td colspan=2><font class="h2font"> DT Calendar for August - get your dates in</font></td></tr>
-<tr><td><font class="bfont"> DeckTech reports on Thu Jul 18 2002 </font></td><td align=right><font class="bfont"> DeckTech Update</font></td></tr>
-<tr><td colspan=2><font class="bfont"> Time for the second calendar!<br>
-<br>
-This time it's our always popular DT girl pal <b>Munchkin</b>.  You've heard about her, you know you all can't wait to see her!<br>
-<br>
-Rather than giving everything away, we'll just say that Munchkin is an attractive teenage Animal Lover with lots of interesting hobbies.<br>
-<br>
-Photos taken by Mike Kessling.<br>
-<br>
-Now you can start entering here important dates.<br>
-<br>
-Like last time<br>
-<br>
-<b>Specifics:</b> <br>
-Do NOT post <br>
-<br>
-Tournaments.  There is NO way we can include the myriad of tournaments in the world. Only VERY large tournaments may supercede this. <br>
-<br>
-Do post<br>
-<br>
-International Holidays<br>
-<br>
-Birthdays of Prominent DT members <br>
-<br>
-Game related dates - Releases, league dates, etc (Note that some companies may not be eligible) <br>
-<br>
-- Neal<p><small>edited by DeckTech on Thu Jul 18 2002 </small></font></td></tr>
-<tr><td align=right colspan=2><font class="afont">  <a href=/send.php?di=/magic/index.php&id=219 target="_blank">send to friend</a> | <a href=/print.php?219 target="_blank">printer friendly</a></font></td></tr>
-</table><table width=100%><tr><td><HR> <font class="bfont"> This time if you want international holidays, POST EM.  I'm more than happy to put them up, I just don't know them!<br>
-<br>
-Tiuli, here's your chance!</font></td></tr><tr><td><font class="bfont"> neal</font><font class="bfont"> - Thu Jul 18 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> August 5 - Picnic Day (Australia)<br>
-August 26 - UK Bank Holiday<br>
-hehe</font></td></tr><tr><td><br><font class="bfont"> <a href="http://www.cs.swt.edu/jt1014" target=gfds>http://www.cs.swt.edu/jt1014</a></font><BR><font class="bfont"> <a href="mailto:jt1014@swt.edu">Jacob Taylor</a></font><font class="bfont"> - Thu Jul 18 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> August 6 Lord of the Rings - Fellowship of the Ring DVD release</font></td></tr><tr><td><font class="bfont"> <a href="mailto:donweinstein@yahoo.com">Don Weinstein</a></font><font class="bfont"> - Thu Jul 18 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> August 3rd - rayc (Michael and Alice Hawley)'s 17th wedding aniversary. <img src=/news/smileys/smile.gif> </font></td></tr><tr><td><font class="bfont"> Michael Hawley</font><font class="bfont"> - Thu Jul 18 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> I didn't say I loved ALL animals! I don't like large spiders or snakes. But I like other reptiles. Like Kessling. =^_^=</font></td></tr><tr><td><font class="bfont"> Munchkin Chiknas</font><font class="bfont"> - Thu Jul 18 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> ComiCon - Aug 1-4<br>
-GenCon - Aug 8-11<br>
-DragonCon - Aug 30 - Sep. 2<br>
-<br>
-Enrique Huerta<br>
-Bravo 64, "Max of Tat"<br>
-Rider of Rohan, "Úlairë Enriquë"<br>
-Shadow 16</font></td></tr><tr><td><font class="bfont"> Enrique Huerta</font><font class="bfont"> - Thu Jul 18 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> will you be naked ?</font></td></tr><tr><td><font class="bfont"> Dominic Gaudreault</font><font class="bfont"> - Fri Jul 19 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> Ya, August 6 LOTR comes out, and that's also my birthday, WAHOO (don't post b-day).</font></td></tr><tr><td><font class="bfont"> <a href="mailto:cboba@bocasoft.com">Corey Boba</a></font><font class="bfont"> - Fri Jul 19 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> hi,<br>
-my birthday is August 7th. then august 8-11 is eric winning gencon days. j/k. see whoever at gencon,i gope i do as well at origins.</font></td></tr><tr><td><font class="bfont"> Eric Hunter</font><font class="bfont"> - Fri Jul 19 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> wow, my lack of sleep caught up with me.. here is what i ment to say.<br><br>
-my b-day august 7th<br><br>
-i hope i do as well at gencon, as i did at origins<br><br>
-see some of you there<br><br>
-later</font></td></tr><tr><td><font class="bfont"> Eric Hunter</font><font class="bfont"> - Fri Jul 19 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> No Dom, only you get that kind of treatment. =^_^=</font></td></tr><tr><td><font class="bfont"> Munchkin Chiknas</font><font class="bfont"> - Sat Jul 20 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> picnic day in australia? i dont recall celebrating no picnic day...anyone wanna go for a picnic?<br>
-<br>
-my bday on the 4th Aug, if anyone wants to get me a geforce4, the new soulfly album or a box of RotEL. or a picnic.</font></td></tr><tr><td><font class="bfont"> Haakon Neinhalt-Schmutzig</font><font class="bfont"> - Sat Jul 20 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> My birthday is August 31st.</font></td></tr><tr><td><font class="bfont"> Hannah Grimm</font><font class="bfont"> - Sat Jul 20 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> honestly, i have seen better looking women than munchkin. I mean a DOG is more attractive than her.</font></td></tr><tr><td><font class="bfont"> sean vess</font><font class="bfont"> - Sat Jul 20 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> WTF? Someone seems to have a problem :P Its call an optometrist, go check one out and get some glasses <img src=/news/smileys/wink.gif></font></td></tr><tr><td><font class="bfont"> <a href="mailto:jediknight@decktech.net">Andrew Howard</a></font><font class="bfont"> - Sat Jul 20 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> lets just say he knows something you don't andrew.......</font></td></tr><tr><td><font class="bfont"> jason wade</font><font class="bfont"> - Sun Jul 21 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> It is not your business to spread rumors about me on the internet. Grow up. You don't know what you're talking about. I guess you have a nice attraction for dogs then because I vaguely remember you telling everybody you were going to bone me at Origins. Catch your mouth before it runs away to where your pair can't keep up with it.</font></td></tr><tr><td><font class="bfont"> Munchkin Chiknas</font><font class="bfont"> - Sun Jul 21 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> hey you watch your language little kid</font></td></tr><tr><td><font class="bfont"> Dominic Gaudreault</font><font class="bfont"> - Sun Jul 21 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> Well then... people here sure are angry at each other a lot.  I've never seen this 'Munchkin' girl, but I'm sure she's very pretty, and besides, it's DECKTECH and it's a TCG site!  It's not really designed as a modeling website.  But who knows?  I might be wrong - "Munchkin" might be the hottest chick ever, or maybe not.  But there's no need to insult people on here just cause you get off on it.  Or something.</font></td></tr><tr><td><font class="bfont"> Dennis Jeffris</font><font class="bfont"> - Sun Jul 21 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> Hey, let's get a couple things straight.<br>
-<br>
-One, if you can't say something nice, then keep your stupid #&!%ing mouth closed.  I will ban anyone who annoys me in this, and you can like it<br>
-<br>
-Furthermore, the next juvenile person who "spreads rumors" as Munchkin put it also earns a ban.<br>
-<br>
-Anyone who earns a ban is also eligible for an asskicking in person.</font></td></tr><tr><td><font class="bfont"> Neal Razi</font><font class="bfont"> - Sun Jul 21 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> GOODNESS!  Some people are horribly rude, and most of those types don't have any right to say what they do.  Hypocrites, all of them!<br>
-<br>
-On a better note, congratulations to all!  We are all priveleged with photos of Munchkin in August!  ::wahay!::<br>
-<br>
-Can't wait to see the pics, Munchkin.  <img src=/news/smileys/grin.gif><br>
-<br>
-<br>
-<br>
-From one calendar girl to another . . .</font></td></tr><tr><td><font class="bfont"> Suann Robinson</font><font class="bfont"> - Sun Jul 21 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> To Sean and Jason:<br><br>You two need to shut the hell up. Do not talk shyte about my best friend unless you are willing to take a beating from me and my entire crew. If you value your health I would stay in Alabama and have sex with your sister and skip any convention that Team PCA is going to be at. </font></td></tr><tr><td><font class="bfont"> Mike Kessling</font><font class="bfont"> - Sun Jul 21 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> Jesus H. Christ folks, why are some of you so stupid?  You've probably never even seen this girl yet you're talking shiatt for no apparent reason.  And threatening to beat someone up for badmouthing a friend...? that's pretty dumb.  Just wait till you see them in person then wail on their ass so they won't be expecting it.  Anyway, I'm sure we can be more mature than the rest the gaming community.  Besides, arguing over the internet is like participating in the Special Olympics, even if you win you're still a retard (no offense intended to special olympics participants).</font></td></tr><tr><td><font class="bfont"> <a href="mailto:willgil3@bellsouth.net">will gilchrist</a></font><font class="bfont"> - Sun Jul 21 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> ok look at it this way guys.. if u dont like the calendar.. dont download it.. <br>
-<br>
-plus since suann was beautiful, i have faith that neal didnt pick "the cave troll" to be on the next calendar.. anyway its all kinda silly.. munchkin seems like a good person, leave her alone.. </font></td></tr><tr><td><font class="bfont"> Ryan Fojtik</font><font class="bfont"> - Sun Jul 21 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> Sorry, Will, but we've all met each other on more than one occaision so we are not just blowing steam out our cute little butts.<br>
-<br>
-¤Munchkin¤<br>
-</font></td></tr><tr><td><font class="bfont"> Munchkin Chiknas</font><font class="bfont"> - Sun Jul 21 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> you people jump to concusions on what I meant.... did I say anything bad about you munchkin? no. you assumed I ment something bad. sean is blowing off steam right now in the wrong place and I say sorry on his behave as well as mine. and mike I already can't make gencon cus of school but I will be in dragon and deciphercon. I have no intetion of starting any sort of fights but if you throw a putch at me first then be warned that you won't be able to throw a second one. all I was inplying is that sean has seen her and knows what she looks like so if he thinks that what she looks like well he is intitled to say so.....maybe not here but he can say it. either way sorry again.</font></td></tr><tr><td><font class="bfont"> jason wade</font><font class="bfont"> - Sun Jul 21 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> You little kids should keep your petty squabbles elsewhere, Decktech is such a friendly environment <img src=/news/smileys/wink.gif></font></td></tr><tr><td><font class="bfont"> <a href="mailto:jediknight@decktech.net">Andrew Howard</a></font><font class="bfont"> - Sun Jul 21 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> My bad Munchkin.  I didn't know that you've met, but I was trying to defend you anyway.  Kinda funny that I've never seen you and this Sean guy has even though I live like 15 min north of Duluth.<br>
-Ryan: lol yeah I'm sure that Neal didn't pick the cave troll-funny shiatt.<br>
-Jason: we've met before and you didn't strike me as a terribly threatening guy, so just stick with the appology and I'm sure everyone will forget about the misunderstanding.</font></td></tr><tr><td><font class="bfont"> will gilchrist</font><font class="bfont"> - Mon Jul 22 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> Stop bickering ok? Everybody. Nobody wants to here this crap. <br>
-Jason: You're backing out because you didn't expect people to jump on you for jumping on me. That's fine. I don't care what any of you think of me but if you want to take anything up with me, take it up with me instead of starting unneeded BS on this site, ok? Two more things: (1) Sean can apoligize for himself. If he's a big enough boy to call a woman a dog then he's a big enough boy to apoligize for himself. (2) Don't run your mouth on Kessling. Unless you plan on hitting a girl, don't put your money on getting anywhere near him. <br>
-<br>
-Will: No biggie, I was just straightening that out for you. Hey! I live in Duluth. What a coincidence! =P<br>
-<br>
-¤Munchkin¤</font></td></tr><tr><td><font class="bfont"> Munchkin Chiknas</font><font class="bfont"> - Mon Jul 22 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> mike may not be able to hit you twice you ugly #&!%er but i can guaran-damn-tee you that i can.  you need to watch your #&!%in mouth talkin shyte about munchkin.  and your little boy sean vess needs to apologize...not only for being so mean to munchkin but for being a complete dumbass as well.</font></td></tr><tr><td><font class="bfont"> Clint Hays</font><font class="bfont"> - Mon Jul 22 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> My problem isn't really with you Jason. Sean on the other hand has some shyte coming to him. He is a little punk b!tch so I wouldn't get in the way of me or my team if we cross paths.</font></td></tr><tr><td><font class="bfont"> Mike Kessling</font><font class="bfont"> - Mon Jul 22 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> (yawn)<br>
-<br>
-does this remind you of anything? oh thats right the LAST calendar girl thread. its like watching replays of survivor or something.<br>
-<br>
-the guys who bashed the Munchkin are tossers, but the blokes who threaten to belt them are on the same level of analdom. when was the last time u heard of gamer geeks rolling a poodle let alone another gamer? in all the con reports, ive heard nothing about violence. no one's got the balls to talk crap like this in real life: doing so would get you chopped by vietnamese gangstas like 2 guys did here in melbourne. so shut the fcuk up. post more public holidays. have a nice day.<br>
-<br>
-respect,</font></td></tr><tr><td><font class="bfont"> Haakon Neinhalt-Schmutzig</font><font class="bfont"> - Mon Jul 22 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> my balls must be pretty big...i did hit someone at a card shop... damn what a bad gamer i am... but be cool guys, its no fun to fight</font></td></tr><tr><td><font class="bfont"> Dominic Gaudreault</font><font class="bfont"> - Mon Jul 22 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> I think this has gone far enough. I apologize for the stupidity of the local gamers in my area. What they have done is childish and unacceptable. It is in the best interest of the Decktech community to ban the instigators of the fight and have all related comments removed from the forum. I fully support whatever action Neal takes. </font></td></tr><tr><td><font class="bfont"> Clay Wilburn</font><font class="bfont"> - Mon Jul 22 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> It's cool, clay, it seems to have blown over.  Let's just drop it.<br>
-<br>
-Any more birthdays or holidays?  Sounds like PIcnic day is something no one celebrates.<br>
-<br>
-Get 'em in now, I'm about finished.  Last time we missed Canada day...</font></td></tr><tr><td><font class="bfont"> Neal Razi</font><font class="bfont"> - Mon Jul 22 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> yeah, theres no such fÙcking thing as 'picnic day'.<br>
-BTW giles, my b'day is on the 3rd 1 day after u.yup.<br>
-<br>
-Neal- I'm fairly positive the Australian continentals for lotr is gonna be the last weekend of August if u wanna throw it in.</font></td></tr><tr><td><font class="bfont"> jason baretta</font><font class="bfont"> - Tue Jul 23 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> Oh, so you know (even though he didn't post it), August 17th is Dominic's birthday. <img src=/news/smileys/smile.gif> The big 21!! =^_^=<br>
-<br>
-¤Munchkin¤</font></td></tr><tr><td><font class="bfont"> Munchkin Chiknas</font><font class="bfont"> - Tue Jul 23 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> hahahahha dead set, jason? with our powers combined, i think everyone on decktech should get us prezzies and hire strippers for us.<br>
-<br>
-btw, kevin said he wouldnt mind hosting a DPC in melb, but:<br>
-1) do you really want kevin running a MONEY event like a DPC?<br>
-2) do you really wanna hike 6 hrs by car down here?<br>
-<br>
-alternatively, we could meet in the middle and go with canberra, but theres nothing else to do there cept jerk off to hotel pr0n and spot politicians.<br>
-<br>
-respect,</font></td></tr><tr><td><font class="bfont"> Haakon Neinhalt-Schmutzig</font><font class="bfont"> - Tue Jul 23 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> its like this haakon.<br>
-1) i can't seem to coordinate action between Neal and our TD Rob for reasons unknown to me.<br>
-2) I'd rather chew glass than attend a DPC hosted by kevin<br>
-3)With the continentals in Sydney its unlikly you or any other outer state players would bother to come to Sydney on 2 separate occaisions just to play cards.<br>
-<br>
-So i dunno, i guess i'll just wait for the fÙcking continentals, to be honest i can't be  fÙcked thinking about it.</font></td></tr><tr><td><font class="bfont"> jason baretta</font><font class="bfont"> - Wed Jul 24 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> Two aussies - try to cool it with the f's ok?<br>
-<br>
-All you gotta do is get someone out there to WRITE ME.  I'll take it from their.  neal@decktech.net.  It shouldn't be hard to get you hooked up.</font></td></tr><tr><td><font class="bfont"> Neal Razi</font><font class="bfont"> - Wed Jul 24 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> not that anybody cares, but my b-day is aug 7.  also, you morons from huntsville need to back off munchkin...so there.  see you guys at gen...</font></td></tr><tr><td><font class="bfont"> william cruse</font><font class="bfont"> - Wed Jul 24 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> Sean Vess is by far one of the dumbest people on the planet, youll have you excuse him. I may be mistaken, but i think the sean your talking about munchkin is shawn martin, not sean vess (the boning at origins etc.) See you guys at GenCon.<br>
-<br>
--efridge</font></td></tr><tr><td><font class="bfont"> <a href="mailto:efridge@epimp.com">Efridge Engelhardt</a></font><font class="bfont"> - Wed Jul 24 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> sorry about that neal</font></td></tr><tr><td><font class="bfont"> jason baretta</font><font class="bfont"> - Thu Jul 25 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> Dear Kessling,<BR><BR>Do you want me to destroy these two randoms?<BR><BR>Sincerely,<BR>Vincent Vega</font></td></tr><tr><td><font class="bfont"> Adam Beauchamp</font><font class="bfont"> - Thu Jul 25 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> theres an idea, jason...i wonder if we could MAKE a DPC our continentals...like, play for the bye etc, but with the cash thing thrown in too, cause we all know D gives out jack as prizes. could be sweet...<br>
-<br>
-respect,</font></td></tr><tr><td><font class="bfont"> Haakon Neinhalt-Schmutzig</font><font class="bfont"> - Thu Jul 25 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> Prolly appropriate for this thread, Happy Birthday to Munchkin <img src=/news/smileys/smile.gif></font></td></tr><tr><td><font class="bfont"> <a href="mailto:jediknight@decktech.net">Andrew Howard</a></font><font class="bfont"> - Thu Jul 25 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> August, 11 is "Revolution!" Thats where we make peanut-butter and cheese sam'miches and skinny dip. Oh, It's also Vordai appreciation day since I'll never have the guts to submit my pics for this thingy</font></td></tr><tr><td><font class="bfont"> Heather Murphey</font><font class="bfont"> - Fri Jul 26 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> Munchkin I dont know you but have heard nice things from Clay, what Sean said here was bad form and believe me.. He will realize that this Saturday.</font></td></tr><tr><td><font class="bfont"> <a href="mailto:eviljon666@hotmail.com">jon smith</a></font><font class="bfont"> - Fri Jul 26 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> Awww, thank you Andrew. <img src=/news/smileys/smile.gif></font></td></tr><tr><td><font class="bfont"> Munchkin Chiknas</font><font class="bfont"> - Fri Jul 26 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> I was wondering why i left the discussion board from many web site... seeing this crap just help me remember.  Anyway, if i can rant a little.  Why attack a girl if you aren`t one?.. anyway, no one touch that girl cause she is a friend of a friend, and friend of my friend are frined to me.. hum.. there is a lot of "friend" in this sentence my friend. heheh it so funny to tell our opinion.  anyway, might see some of you in Deciphercon, if i am able to make it..  And Neal, if you want a date for august. it will be my 9th anniversary with my girlfriend.. yep the same one that came in Tunisia with me back in 1997. 26th of august that is.<br>
-</font></td></tr><tr><td><font class="bfont"> Raphael Asselin</font><font class="bfont"> - Sat Jul 27 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> giles, thats a nice idea for the players point of view, but i get the feeling the td is looking forward to a big payout <img src=/news/smileys/smile.gif><br>
-at leats kevin isn't running it. last time it wa sin sydney, he took over and all he gave out was like 3 packs of freakin DS2</font></td></tr><tr><td><font class="bfont"> jason baretta</font><font class="bfont"> - Sun Jul 28 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> but they should be doing it cos they love the game, jason!! what more incentive is there apart from serving the game (ppfftttwhahahaa)...bloody money grubbers, no wonder no one plays in melb anymore...<br>
-<br>
-at any rate, its definitely gonna b last weekend of aug hey? know anywhere where i could crash over the w/end?<br>
-<br>
-respect,</font></td></tr><tr><td><font class="bfont"> Haakon Neinhalt-Schmutzig</font><font class="bfont"> - Sun Jul 28 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> You guys ever hear of email? Or hell, even dmail? :P</font></td></tr><tr><td><font class="bfont"> <a href="mailto:jediknight@decktech.net">Andrew Howard</a></font><font class="bfont"> - Sun Jul 28 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> My birthday is August 15th.  Except I'm not prominent since I stopped playing LOTRTCG.  Oh well . . . I won a contest.   Maybe I'll come to Fcon or something.  Cheers.</font></td></tr><tr><td><font class="bfont"> Mark Balderston</font><font class="bfont"> - Mon Jul 29 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> i'm not munchie-bashing, i just find this part of the mini-bio amusing: "...Rather than giving everything away, we'll just say that Munchkin is an attractive teenage Animal Lover with lots of interesting hobbies..."  I KNOW I'm not the only one to read that and laugh...<br>
-<br>
-</font></td></tr><tr><td><font class="bfont"> Robert Fletcher</font><font class="bfont"> - Mon Jul 29 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> yeh i read that one and kept it to myself robert <img src=/news/smileys/smile.gif><br>
-<br>
-andrew - just making use of all the different forms of technology at my fingertips...hehe<br>
-<br>
-respect,</font></td></tr><tr><td><font class="bfont"> Haakon Neinhalt-Schmutzig</font><font class="bfont"> - Mon Jul 29 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> When is the actual release date of the calendar?  Thanks.</font></td></tr><tr><td><font class="bfont"> John Garrett</font><font class="bfont"> - Mon Jul 29 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font class="bfont"> Well lets see...I payed $45.00 to get into Origins last month then payed another $10.00 just to play in a WOTC SWTCG tournament...and I did not even get a booster pack.....thanks for nothing Wizards.</font></td></tr><tr><td><font class="bfont"> Scott Manley</font><font class="bfont"> - Thu Aug 1 2002  </font></td></tr></table><p><font class="bfont"> <p>&nbsp;<a href="javascript:history.back(-1)">back</a></font><P>You must be a registered member to comment on the news. <a href="/magic/main/join.php">Sign up here!</a><BR></td></tr></table><BR><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td><font class="h1font">In the Last 24 Hours</font></td></tr><tr><td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-<tr height="10"><td width="98%" bgcolor="#E0E7CF" height="10"><img src="/magic/gfx/trans.gif" width="6" height="2" vspace="0" hspace="0" border="0"></td><td valign="bottom" align="right"><img src="/magic/gfx/hrz/tw.gif" width="103" height="10" border="0" vspace="0" hspace="0"></td>
-</tr><tr><td>&nbsp;</td><td valign="top" align="right">
-<img src="/magic/gfx/hrz/bw.gif" width="92" height="24" border="0" vspace="0" hspace="0"></td>
-</tr></table></td></tr><tr><td><font class="bfont">            <div align=CENTER> 
-              <table border="0" cellspacing="0" cellpadding="0">
-                <form action="#">
-                                  </form>
-              </table>
-              <BR></td></tr></table>            </div>
-            <!-- #EndEditable --></td>
-          <td width="1" valign="top"  background="/magic/gfx/vstripe.gif"><img src="/magic/gfx/trans.gif" width="18" height="2" vspace="0" hspace="0" border="0"></td>
-          <td height="136" align="left" valign="top" width="150"> 
-            <table width="100%" cellpadding="0" cellspacing="0" border="0">
-              <TR valign="top"><TD>
-
-<table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Member Login 
-</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td><div align="center">
-<form name="form1" method="post" action="/magic/index.php">
-<font class="bfont"><a href="/global/join.php" class="level1nav">Register for Membership!</a></font><br><br>
-<font class="afont">Name</font><br>
-<input type="text" name="sname" maxlength="22" size="10"><br>
-<font class="afont">Password</font><br>
-<input type="password" name="password" maxlength="14" size="10"><br>
-<input type="hidden" name="mlogin" value="true">
-<input type="submit" name="Submit" value="Login">
-</form>
-<font class="bfont"><a href="/global/forgot.php" class="level1nav">Forget your password?</a></font>
-</div>
-<BR></td></tr></table>
-</TR></TD><tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr><TR valign="top"><TD>
-<table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">DeckTech for Groups 
-</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td> 
-DeckTech for Groups enables group 
-leaders to develope their own online presence which helps to promote their local 
-gaming community. <br>
-<br>For more information 
-      about DeckTech for Groups or to find a specific group go <a href="../../../groups/index.php">here</a>.
-<BR></td></tr></table>
-
-
-
-
-
-</TR></TD><tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr><TR valign="top"><TD>
-<table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Master Decks</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td>Top 10 in last 30 days<ol><li><font class="bfont"><A HREF="/magic/decks/decks.php?deck=24765">New Extended Red Beatdown</A></font></li><li><font class="bfont"><A HREF="/magic/decks/decks.php?deck=24722">Chumping to Victory</A></font></li><li><font class="bfont"><A HREF="/magic/decks/decks.php?deck=24737">Odyssey Block Psychatog</A></font></li><li><font class="bfont"><A HREF="/magic/decks/decks.php?deck=24739">Statsis</A></font></li><li><font class="bfont"><A HREF="/magic/decks/decks.php?deck=24741">Hatred</A></font></li><li><font class="bfont"><A HREF="/magic/decks/decks.php?deck=24802">Rebel Swarms</A></font></li></ol><A href="http://www.decktech.net/magic/decks/decks.php">More ></A><BR></td></tr></table> 
- 
-</TR></TD> 
-              <tr> 
-                <td><img src="/global/images/home/trans.gif" width="150" height="1" vspace=0 hspace=0 border=0></td>
-              </tr>
-            </table>
-          </td>
-          <td width="1" valign="top" ><img src="/magic/gfx/trans.gif" width="9" height="2" vspace="0" hspace="0" border="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> </tr>
-  <tr> 
-    <td colspan="3">
-<div align="center"> 
-  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tr align="center" valign="bottom" >
-      <td bgcolor="#000000" height="4"><img src="../gfx/trans.gif" width="6" height="14"></td>
-    </tr>
-    <tr align="center" valign="bottom" > 
-      <td bgcolor="#CC0033"><font class="flegal">This site is maintained and updated 
-        by fans of Magic: The Gathering and is in no way affiliated with Wizards 
-        of the Coast Corporation. We in no way claim the artwork displayed to 
-        be our own. Copyrights and trademarks for promotional materials are held 
-        by their respective owners and their use is allowed under the fair use 
-        clause of the Copyright Law.<a href="/global/terms.php"><br>
-        Terms of Service</a> TM & © 2002 www.decktech.net. All Rights Reserved. 
-        </font> </td>
-    </tr>
-  </table>
-</div>
-</td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate --></html>

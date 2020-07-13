@@ -1,394 +1,0 @@
-<html><!-- #BeginTemplate "/Templates/st_2.dwt" -->
-<head>
-<title>DeckTech - for the players, by the players.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" href="/stccg/global/css/white.css">
-<style type="text/css">
-<!--
-.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
-.top_bg {  background-image: url(/stccg/global/images/trek/header_b1.gif); background-repeat: repeat-x}
-.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
-.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
-.centercolor {  background-color: #000000}
-.top_bgHeader { background-image: url(/stccg/global/images/trek/l2_back.gif); background-repeat: repeat-y}
--->
-</style>
-</head>
-<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td width="90%" align="center" valign="middle" background="/stccg/global/images/trek/l2_back.gif" rowspan="2" class="top_bgHeader"> 
-      <img src="/stccg/global/images/trek/glear.gif" width="1" height="1"> <!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-
-<script language="JavaScript">
-<!--
-ShowBurstAd('ad8702a','468','60');
-// -->
-</script>
-
-<noscript>
-<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
-</noscript><!-- #EndLibraryItem --></td>
-    <td width="171" bgcolor="#000000" > 
-      <table width="142" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-          <td bgcolor="#333399"><img src="/stccg/global/images/trek/glear.gif" width="155" height="8"></td>
-          <td bgcolor="#000000">&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td width="171" bgcolor="#333399" ><img src="/stccg/global/images/trek/logo1.gif" width="171" height="59" border="0" vspace="0" hspace="0"></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td valign="top" class="centercolor" bgcolor="#000000" align="left"> 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-        <tr valign="top"> 
-          <td width="12" align="left"><img src="/stccg/global/images/trek/glear.gif" width="12" height="1" border="0" vspace="0" hspace="0"></td>
-          <td class="top_bg" width="98%" align="left" background="/stccg/global/images/trek/header_b1.gif"><img src="/stccg/global/images/trek/l2_left1.gif" width="302" height="48" border="0" vspace="0" hspace="0"></td>
-          <td class="top_bg" width="12" align="right" background="/stccg/global/images/trek/header_b1.gif"><img src="/stccg/global/images/trek/header_r1.gif" width="12" height="48" border="0" vspace="0" hspace="0"></td>
-        </tr>
-        <tr valign="top"> 
-          <td align="left" width="12"><img src="/stccg/global/images/trek/glear.gif" width="12" height="1" vspace="0" hspace="0" border="0"></td>
-          <td width="98%" align="left"><img src="/stccg/global/images/trek/glear.gif" width="1" height="1" border="0" vspace="0" hspace="0"><!-- #BeginEditable "Body" -->
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td bgcolor="#0066CC" colspan="2" valign="top" height="24"><img src="/stccg/global/images/trek/tablet1.gif" width="92" height="32"></td>
-                <td valign="top" height="24" colspan="3"> 
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                    <tr> 
-                      <td bgcolor="#0066CC" width="1%" height="13"><img src="/stccg/global/images/trek/glear.gif" width="1" height="19"></td>
-                      <td width="0%" height="13"><img src="/stccg/global/images/trek/glear.gif" width="2" height="1"></td>
-                      <td width="86%" bgcolor="#3399CC" height="13"><img src="/stccg/global/images/trek/glear.gif" width="1" height="1"></td>
-                      <td width="9%" height="13"><img src="/stccg/global/images/trek/tab_reports.gif" width="65" height="18" vspace="0" hspace="4"></td>
-                      <td width="4%" bgcolor="#2DA7CE" align="right" height="13"><img src="/stccg/global/images/trek/tablet_cap.gif" width="18" height="19"></td>
-                    </tr>
-                    <tr> 
-                      <td width="1%"><img src="/stccg/global/images/trek/glear.gif" width="1" height="12"></td>
-                      <td width="0%"></td>
-                      <td width="86%"></td>
-                      <td width="9%"></td>
-                      <td width="4%"></td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <tr> 
-                <td width="80" bgcolor="#0066CC" height="40%"><img src="/stccg/global/images/trek/glear.gif" width="80" height="8" border="0" vspace="0" hspace="0"></td>
-                <td width="12" height="40%"><img src="/stccg/global/images/trek/glear.gif" width="12" height="8" border="0" vspace="0" hspace="0"></td>
-                <td rowspan="5" colspan="3" valign="top"> 
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                    <tr valign="top"> 
-                      <td bgcolor="#000000" height="38" width="100%" colspan="3"><img src="/stccg/global/images/trek/glear.gif" width="1" height="5"><br>
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                          <tr> 
-                            <td bgcolor="#000000" height="8" width="100%" colspan="3"><span class="header">Vancouver Open, 7/1/2001</span></td>
-                          </tr>
-                          <tr> 
-                            <td bgcolor="#3399CC" height="2" width="41%"><img src="/stccg/global/images/trek/glear.gif" width="1" height="5"></td>
-                            <td height="2" width="1%"><img src="/stccg/global/images/trek/glear.gif" width="1" height="5"></td>
-                            <td height="2" width="58%" bgcolor="#0066CC"><img src="/stccg/global/images/trek/glear.gif" width="1" height="5"></td>
-                          </tr>
-                        </table>
-                        <span class="text">
-<TABLE WIDTH="100%" CELLPADDING=5 BORDER=0><TR><TD VALIGN="TOP" COLSPAN=2><SPAN CLASS="header">Rating </SPAN><IMG SRC="/stccg/global/images/rating/7.gif" BORDER=0></TD></TR><TR><TD VALIGN="TOP"><A HREF="reportread.php3?report=53"><IMG SRC="/stccg/global/images/read.gif" BORDER=0></A></TD><TD><A HREF="reportreview.php3?report=53"><IMG SRC="/stccg/global/images/review.gif" BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><span class=header>Author</Span></TD><TD><span class=text><A HREF="../membercenter/directory/memberpage.php3?member=5630">Steve "Rachmaninoff" Boyles</A></span></TD></TR><TR><TD VALIGN="TOP"><SPAN CLASS="header">Date Transmitted</SPAN></TD><TD WIDTH="90%"><span class=text>July 7, 2001</span></TD></TR><TR><TD VALIGN="TOP"><SPAN CLASS="header">Report</SPAN></TD><TD WIDTH="90%" ><span class=text>Tournament Report -- Vancouver Open, July 1, 2001<br>
-<br>
-For the second time in my ST:CCG career, I carpooled up to Hyperlight Enterprises in Vancouver to take part in a large ST:CCG tournament (the first was for one of the Vancouver-Seattle Semi-Annual Challenges).  After cramming five people into Ryan Agnew&#146;s car which was obviously built for four despite its five seatbelts, we started the trek up to Vancouver.<br>
-<br>
-As an appreciator of all types of music, I can&#146;t help but comment on the variety of Ryan&#146;s CDs we listened to.  Eminem, Shirley Bassey (of the &quot;Goldfinger&quot; soundtrack fame), Moby, the &quot;Gone in 60 Seconds&quot; soundtrack, and Orff&#146;s choral masterpiece Carmina Burana come to mind, and I&#146;m sure there was other stuff, too.  I can honestly say that I never imagined riding up to Vancouver with four other Trek players in a very cramped space with three of us singing along to &quot;O Fortuna.&quot;  It was definitely an interesting trip.<br>
-<br>
-Anyway, the deck I built was an End Transmission/Friendly Fire deck.  Some of you may remember me commenting in an earlier tournament report how my draw decks kept getting bigger and bigger.  Well, today was no exception.  I was up to 97 cards in my draw deck, with nearly half the deck (after pre-game/first-turn downloads and not counting [Ref] cards) End Transmissions.  I also included ten Kevins mainly to counter Goddess of Empathy, which I never saw, but it proved useful elsewhere.  The deck will be posted here shortly (entitled &quot;I Built This Deck While Listening to &#146;Copa Cabana&#146;&quot;... explanation of the title will be provided there).<br>
-<br>
-I&#146;ve got a reputation for playing really weird mission selections (like the Romulan stasis deck in a Mirror Mirror tournament), and this deck was no exception.  I used three Mirror Quadrant missions, two Alpha, and one Delta, and seeded Mirror Terok Nor in addition to a Kazon, Romulan, and Terran Outpost, and downloading both Emblems.  The deck was primarily Mirror-focused, where I could Process Ore to draw cards once I started End Transmissioning, plus Ops-download personnel to pass missions (after all, I&#146;m forfeiting my end of turn draw when I play ET, so I might as well get something out of it).  I included the other outposts for defense against certain strategies, Ajur/Boratus in particular (I had landable ships available in either quadrant to keep Ajur/Boratus from being &quot;alone&quot; with Archaeology on the planet), although I also had PNZ and Caretaker&#146;s Array/seeded Voyager counters.<br>
-<br>
-I aimed to take full advantage of my countdown icons never counting down.  Obviously, Fightin&#146; Words and filters were used to supplement the Friendly Fires.  But there&#146;s other stuff too: Mirror Image and Temporal Vortex will never count down either, and Wake of the Borg can&#146;t touch my Colonies (since it destroys the Colony at the end of my turn, which never happens).  I really, *really* wanted to make Blood Screening work in this deck, but in the end I ditched it as unreliable.<br>
-<br>
-Twenty-four people ended up at the Open.  I think 12-13 were from the Seattle area, with Michael van Breemen making the trip from Oregon and the Alberta crew (Olav Rokne, David Hyttenrauch, and Eric Nielsen) showing up as well.  The remainder of the twenty-four were from the Vancouver area.  It was a tough field, with plenty of good players: three-time World finalist and last year&#146;s Washington champion Jason Drake; former World finalist, winner of the Seattle Grand Slam, Ken Tufts, who&#146;s played in the most number of tournament games (over 380); two-time World finalist and last year&#146;s British Columbia champion James Monsebroten; Alberta provincial champion Olav Rokne; and several of the better Seattle area players made for some big names in the field.  At least Todd Soper was directing and not playing. :-)  Anyway, here&#146;s the games:<br>
-<br>
-Game one: vs. Ryan Agnew<br>
-<br>
-Ryan is known for playing Romulan decks with a heavy random battle element using dual-personnel, Lore, and a rifle or three for some surprises when stopped on a planet.  Today he was playing a Dominion deck, though.  It was a momentuous occasion when we called Todd over to show him that all four quadrants were represented on our spaceline, a first for both of us.  Unfortunately, I didn&#146;t get to see much of his deck.  He did the typical thing of downloading Deyos, and he Devidian Door-ed a Jemmie to draw a card.  I downloaded my startup cards, plus ditched a Q the Ref for an Obelisk, playing a Masaka on him.  I ended my turn, hoping he wouldn&#146;t be able to show another Devidian Door.  Luckily, he couldn&#146;t, even after Ref-cycling a card, so I got a quick 100-0 win.  (Ryan said this was due to a bad distribution of cards, since he drew three of his five D-Doors in his opening hand... the deck was only 37 cards, so he normally has a decent shot of drawing another).  2 (+100), 2 (+100) cumulative<br>
-<br>
-Props: Finally I was able to catch someone for not showing a D-Door (at States there was someone with a three-card hand and a huge draw deck who managed to draw another D-Door in the three new cards he drew)<br>
-Slops: Ending the game so quickly.  I did what I had to do, but I would have liked to play the game out.<br>
-<br>
-Game two: vs. Keith Watabayashi<br>
-<br>
-Keith is a good player, and with DRAGS out of the way, I wondered what deck he&#146;d be pulling out of his sleeve today.  During the seed phase, I saw it was Kazon, so I thought it would be an easy win, since it&#146;s all but impossible for a Kazon deck to pass Friendly Fire with a Fightin&#146; Words in play.<br>
-<br>
-It was at this time that I did what unofficially earned the &quot;Big Oops of the Important Tournament&quot; award.  Following in the footsteps of: me at Worlds two years ago (using two missions I couldn&#146;t solve), me at a Seattle two-day tournament a year and a half ago (Q-Bypassing with a Writ on the table), and Eric Wood at States (mistaking his Transwarp Network Gateway for a Q-Flash and seeding it under a mission so he couldn&#146;t get into the Alpha Quadrant [this was before Voyager]), for some reason I forgot to seed my sites.  <br>
-<br>
-Without any sites I knew I was in BIG trouble.  Once I started playing End Transmissions, I couldn&#146;t draw any more cards without Ore Processing.  That also meant I couldn&#146;t Ops-download personnel.  That&#146;s a very big oops.  So, I went after missions much more aggressively than normal, scoring one for 30 points despite hitting two Denevan Neural Parasites at various missions.  I cleared out two others except for a FLI/RGS combo which I couldn&#146;t pass since I somehow overlooked stocking a ship with Tractor Beam.  If I had one of those I actually might have had a shot at the game since I could have solved a second mission and built a Colony (at the very least, it would have been much closer).  But there was nothing I could do with the deck as it was.  I scored my thirty points before I was forced to start playing ETs, at which point I knew it was just a matter of time before I ran out since I wasn&#146;t drawing any more cards.  Also, without drawing any more cards, I couldn&#146;t get any more personnel (not that it would have mattered since I couldn&#146;t have passed the FLI/RGS anyway).  Keith won a turn or two after my Friendly Fires counted down.  0 (-70), 2 (+30) cumulative.<br>
-<br>
-Props: Scoring 30 points (almost 60 or 90) without my sites... I wasn&#146;t really expecting to get any.<br>
-Slops: Forgetting to seed my sites!  (In this deck, that&#146;s an &quot;oops&quot; and a half)<br>
-Also, neglecting to stock a ship with Tractor Beam was a major oversight.<br>
-<br>
-Game three: vs. Mike Long<br>
-<br>
-After announcing the pairing for this game, Todd expressed his annoyance that I had yet to play anyone from outside the Seattle area. :-)<br>
-<br>
-Mike was playing a fairly standard Federation Delta Quadrant Spatial Scission deck.  I don&#146;t think there was any Kazon or Vidiian splashed in.   Anyway, the game got off to an excellent start for me.  I stuck my Spacedoor in the Delta Quadrant, and on the first turn downloaded a Kazon Shuttle and Seska with Defend Homeworld.  I downloaded a Boarding Party and commandeered his seeded Voyager on the first turn, scoring twenty points.  <br>
-<br>
-My mission solving also got off to a decent start, passing one dilemma at Mine Dilithium and finding a Dead End there.  This wasn&#146;t very far into the game, but Mike already had a huge stack of personnel at Liberation (I&#146;d guess at least fifteen) protecting his Chakotay drawing cards from Ancestral Vision.  I had plenty of Kevins if I had wanted to nullify it, but I didn&#146;t think it&#146;d be worth it... after all, all the card draws in the world won&#146;t do him any good if he can&#146;t pass my combos.  And sure enough, he couldn&#146;t.  Even though Trabe Grenade selected Tuvok (so nobody died), the Hide and Seek/Fightin&#146; Words combo was too much, and he was stuck behind a Friendly Fire.  I think Tuvok was also selected for Penalty Box, but I&#146;m not sure... one of his many Tuvoks was chosen for just about everything in this game, especially in the Q-Flash as he was also chosen for Mandarin Bailiff. :-)<br>
-<br>
-I cleared out Search for Rebels except for an Executive Authorization, and at this point I knew I was just a few turns from winning.  I Ops-downloaded a PADD, scored that mission and Mine Dilithium the next turn, and built a Colony to win a turn later while I had plenty of End Transmissions to hold him off.  Full win 2 (+100), 4 (+130) cumulative<br>
-<br>
-Props: Commandeering Voyager on turn one!<br>
-Slops: This game lasted longer than I would have liked... everything went as I expected, but we were within ten minutes of the hour limit.<br>
-<br>
-Game four: vs. Roxanne Barbour<br>
-<br>
-It never fails.  I always get to play Roxanne whenever we&#146;re in the same tournament.  It usually seems to be in the fourth round, too. :-)  I really look forward to games against her... I don&#146;t think any of our games have been a runaway for either one of us.  They&#146;re always very close (I&#146;ll never forget the 132-125 timed win against her in my first tournament).  <br>
-<br>
-Today, she was playing a Vidiian Genetronic Replicator deck.  Plenty of Ancestral Vision drawing, too, using Penk/Pendari as bodyguards to protect  Chakotay.  She started attempting missions about halfway through the game.  I made sure to choose Sethis with Kelvan Show of Force, since he&#146;s the only Vidiian that still has Leadership after Fightin&#146; Words.  Luckily, he was the one chosen to die, with me suspending play with Q the Ref to download Panel Overload to nullify her Genetronic Replicator.  So, without any Leadership, she couldn&#146;t solve that mission.  By this point, I had scored one mission and was at 35 points, thanks to Art of Diplomacy letting me pass Implication with ease (Seska and Evil Kirk have 4 Treachery = 2 Diplomacy just by themselves).  After tripping a few more Friendly Fires, she tried to rush me with three Quinns, hoping to empty my hand of Transmissions so all the delayed countdowns would catch up and she&#146;d have three empty missions.  But after processing ore all game long, I had about 7-8 ETs in my hand, so there was no worry.  <br>
-<br>
-I was having trouble counting in this game, since twice I hit a wall with attribute requirements, and attempted the next turn, being one attribute short (for instance, I hit Ferengi Infestation with exactly 50 CUNNING the second time).  The first time was due to my last minute substitution of one personnel for another (and for some reason I didn&#146;t bother to check the CUNNING); the second time was because I misread a dilemma (I thought the CUNNING requirement on Implication went with the Diplomacy requirement , and the INTEGRITY with the Law requirement.  I got them mixed up).<br>
-<br>
-I lost some points to a Higher... the Fewer, and we timed out at 22-(-15).  I was two turns away from scoring two more missions, but the game had ended.  Modified win, 1 (+22); 5 (+152) cumulative<br>
-<br>
-Props: I love Fightin&#146; Words that never count down!<br>
-Slops: That darned time limit... I always seem to run afoul of it.<br>
-<br>
-Game five: vs. Carlin Jacobson<br>
-<br>
-Well, after satisfying my quota of playing a Canadian, I went right back to a Seattle-area player.  :-)<br>
-<br>
-As luck would have it, Carlin was playing a Defend Homeworld deck.  That&#146;s right.  That means almost EVERY one of his personnel has SECURITY or Leadership.  That&#146;s bad when your deck relies on filtering those two skills out of attempting crews.  That&#146;s very bad.<br>
-<br>
-I could tell he was playing DH after he Mysterious Orb-ed Ensign Davis to the Chamber of Ministers on the first turn.  No problem, I thought.  I know how to beat these decks -- wait to attempt missions until you have most of your personnel out, and megateam your way through the missions, taking advantage of your momentum while your opponent has to wait until his turn to take advantage of all the personnel downloaded by Defend Homeworld.  Of course, this usually assumes that your dilemmas will actually be effective. :-)<br>
-<br>
-He claimed that I made a mistake by processing ore with an End Transmission, since he instantly knew I was playing ET/FF.  I didn&#146;t think so... after all, it&#146;s nothing he wouldn&#146;t know after attempting a mission.  I almost had a very nice save when he secured Bajor, since HQ: Secure Homeworld requires that you &quot;capture all opposing personnel on planet,&quot; and captured personnel can&#146;t initiate battle, so he grabbed my Ensign Davis and I thought I was safe.  Alas, he used his Return Orb to Bajor to grab another Mysterious Orb from Q&#146;s Planet and before the end of his turn, though.  He was eating through my dilemmas like they were nothing due to all the SECURITY and Leadership he had in play, even after Fightin&#146; Words.<br>
-<br>
-So, after having about 17 personnel in play, I threw them all at Mine Dilithium, where I hit Q-Flash+Dead End, stopping my attempt and letting him download his whole deck.  On his turn, he attempted Cultural Observation, but I was lucky enough with my filters (it took Fightin&#146; Words, a Chula: the Chandra, a Hide and Seek, Penalty Box, his decision to attempt with a smaller team, and a lot of luck) that he was stuck behind a Friendly Fire.  Knowing I would soon be out of time since I couldn&#146;t rely on stopping him at other missions, I threw everyone at another mission, but was stopped by an Executive Authorization (I think), so I had to wait until my next turn to download a PADD.  Meanwhile, he breezed through Hunt for DNA Program, which took him to 100 points.  Full loss, 0 (-100), cumulative 5 (+52).<br>
-<br>
-Props: Remembering that Secure Homeworld makes you capture opposing personnel on the planet... it was almost a very nice way to stop the Defend Homeworld download.<br>
-Slops: Some of the lousiest luck I&#146;ve had in matchups (a Friendly Fire deck vs. a deck where everyone has SECURITY or Leadership).<br>
-<br>
-Game six: vs. David Houle<br>
-<br>
-So, with any hope of my making the final gone, I was paired up against the *other* Canadian I always end up playing.  Both of my previous wins against David were modified wins, so I was expecting this game to be tough.<br>
-<br>
-Since this was the sixth round and we were all tired, the four of us playing at the tables outside (me, David, Keith, and James Monsebroten) were being really, really weird during the dilemma phase.  It started with reading mission titles differently (e.g., &quot;Covert Installation II: The Return&quot;, &quot;&#146;Shattered Space&#146; Investigation,&quot; etc.), then quickly devolved (&quot;I&#146;ll seed a Wormhole of the Temporal Micro variety&quot;), leading to questions about why there&#146;s no Temporal Mega-Wormhole.  You can tell we were tired. :-)<br>
-<br>
-Anyway, I tried to regroup and concentrate on the last game.  David was playing Fed Delta Quadrant (with Ancestral Vision and Chakotay, sigh) and had a couple self-seeds.  At first I thought he was playing Ajur/Boratus, so I seeded the Spacedoor in the Delta Quadrant and landed on Restore Victims (the only mission with four dilemmas).  I walked out on the planet with Seska and attempted the mission, revealing his Q.  I later realized that she couldn&#146;t do this (she isn&#146;t non-aligned), so we decided to put the Q back under.  I did trip another one of his Q&#146;s (I would have ended up tripping his self-seed anyway, since there was nothing else for Seska to do in the Delta Quadrant, and I try to run my own personnel into my opponent&#146;s self-seeds), but he Q-Bypassed Liberation for 30 points before I could get to that one.  My Q-Flash stayed, though (it&#146;s not a dilemma), and I chose to have Hide and Seek play as an Event on the table, protecting me from his last Q (the one I &quot;tripped&quot; at Restore Victims).  <br>
-<br>
-I had no problem solving Search for Rebels and Mine Dilithium, taking me to sixty points.  It was just a matter of redshirting and Ops-downloading for what I needed.  It&#146;s nice being able to take your time without worrying about your opponent winning. :-)  I did delay solving Search for Rebels after uncovering an Edo Probe, though.  I debated continuing on, since I knew I could make up a 10-point loss with my Colony.  But I decided to be cautious and solve Mine Dilithium first, before returning to pass his Founder Secret.<br>
-<br>
-He already uncovered a few of my Friendly Fires (and lost some points to Mandarin Bailiff), and he knew he had no way around them without the Q&#146;s.  So, I built a Colony and waited a few turns to get to 100.  Full win 2 (+76), cumulative 7 (+128).<br>
-<br>
-Props: Beating another Q-Bypass deck.  I&#146;ve yet to lose against a Bypass deck, and after this game I&#146;m 4-0.<br>
-Slops: The misplay of attempting Restore Victims with Seksa.  Oops.<br>
-<br>
-My score was good enough for sixth place out of twenty-four, earning me a nice looking puck.  I was happy with this, although I was also disappointed with some of my playing.  Keith admitted that he probably couldn&#146;t have beaten me if I had remembered to seed my sites, and that extra victory point(s) could have gotten me a few places higher, probably third or fourth.  I continued one trend while breaking another: I ended up at seven victory points for the third major tournament in a row (I also was at 7 (+something) at the last Vancouver-Seattle challenge and at States), but I was no longer the perpetual runner-up (since November, I&#146;ve been 2nd, 4th (just out of range of better prizes), 2nd, 1st, 3rd (just out of the final confrontation at States), and 2nd).<br>
-<br>
-So, in the end, it was Olav Rokne and Jason Drake who faced off in the final confrontation.  Olav won all six of the regular games, including his match with Jason.  Unfortunately, my carpool wanted to leave early, so I didn&#146;t get to see it.  From what I heard, though, Jason won by Palor Toff-ing his Quark&#146;s Rods to keep his Tent open (Olav was using Revolving Door/DQSS among other strategies).  So, the Seattle-Vancouver area can still claim that it&#146;s won all of the major tournaments held there (all of the Regionals, Opens, Grand Slams, etc. around here have been won by someone from Seattle or Vancouver).<br>
-<br>
-Here&#146;s the top 8 (as I remember it) after the first six games:<br>
-<br>
-1. Olav Rokne<br>
-2. Jason Drake (won final confrontation)<br>
-3. Michael van Breemen<br>
-4. Keith Watabayashi<br>
-5. Ken Tufts<br>
-6. Steve Boyles (me)<br>
-7. Tom Vuchelen<br>
-8. Carlin Jacobson (?)<br>
-<br>
-So, two of the people in my carpool (Tom and myself) walked off with pucks as we settled in for the long ride back.  It was about 9:00 even though we left before the final confrontation.  Not sticking around was probably a good idea, too... it was nearly 2:00 before I got to bed, and I had to wake up at 5:00 in the morning to commute to Seattle for summer classes (and a probability midterm... joy)<br>
-<br>
-All in all, a good tournament!  It&#146;s always fun when we travel to Vancouver (or the Vancouver players come to Seattle)... there&#146;s always good matches and lots of enjoyment when our playing groups mix.  It&#146;s also heartening to see a more diverse playing environment in Vancouver: there  were four female players (three regulars and one newer one) and more minority players.<br>
-<br>
---Steve &quot;Sergei Rachmaninoff&quot; Boyles </span></TD></TR><TR><TD VALIGN="TOP"><A HREF="reportread.php3?report=53"><IMG SRC="/stccg/global/images/read.gif" BORDER=0></A></TD><TD><A HREF="reportreview.php3?report=53"><IMG SRC="/stccg/global/images/review.gif" BORDER=0></A></TD></TR><TR><TD VALIGN="TOP"><a href="reports.php3"><img src="/stccg/global/images/back.gif" border="0" ></a></TD><TD></TD></TR></TABLE></span></td>
-                    </tr>
-                  </table>
-                  <div align="left"> </div>
-                </td>
-              </tr>
-              <tr> 
-                <td height="2" colspan="2"><img src="/stccg/global/images/trek/glear.gif" width="1" height="2"></td>
-              </tr>
-              <tr> 
-                <td width="80" bgcolor="#3399CC" height="68" valign="bottom" align="right"><img src="/stccg/global/images/trek/n3.gif" width="26" height="11"></td>
-                <td width="12" height="68">&nbsp;</td>
-              </tr>
-              <tr> 
-                <td width="80" height="2" valign="top" align="right"><img src="/stccg/global/images/trek/glear.gif" width="1" height="2"></td>
-                <td width="12" height="2"><img src="/stccg/global/images/trek/glear.gif" width="1" height="1"></td>
-              </tr>
-              <tr> 
-                <td width="80" bgcolor="#0066CC" height="264" valign="top" align="right">&nbsp;</td>
-                <td width="12" height="264"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"></td>
-              </tr>
-              <tr> 
-                <td height="2" colspan="3" bgcolor="#0066CC" valign="top"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"></td>
-                <td width="4" height="2" bgcolor="#000000"><img src="/stccg/global/images/trek/glear.gif" width="2" height="1"></td>
-                <td width="347" height="2" bgcolor="#0066CC"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"></td>
-              </tr>
-              <tr> 
-                <td height="22" colspan="2" valign="top">&nbsp;</td>
-                <td height="22" colspan="3">&nbsp;</td>
-              </tr>
-              <tr> 
-                <td height="2" colspan="3" bgcolor="#3399CC" valign="top"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"></td>
-                <td width="4" height="2" bgcolor="#000000"><img src="/stccg/global/images/trek/glear.gif" width="2" height="4"></td>
-                <td width="347" height="2" bgcolor="#0066CC"><img src="/stccg/global/images/trek/glear.gif" width="1" height="4"></td>
-              </tr>
-              <tr> 
-                <td height="22" colspan="2" bgcolor="#3399CC" valign="top"><img src="/stccg/global/images/trek/tablet2.gif" width="92" height="24"></td>
-                <td height="22" colspan="3"> 
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                    <tr> 
-                      <td bgcolor="#000000" height="8" width="41%"><img src="/stccg/global/images/trek/glear.gif" width="1" height="14"></td>
-                      <td height="8" width="1%"></td>
-                      <td height="8" width="58%"></td>
-                    </tr>
-                    <tr> 
-                      <td bgcolor="#3399CC" height="2" width="41%"><img src="/stccg/global/images/trek/glear.gif" width="1" height="10"></td>
-                      <td height="2" width="1%"></td>
-                      <td height="2" width="58%" bgcolor="#3399CC"><img src="/stccg/global/images/trek/glear.gif" width="1" height="1"></td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-            <br>
-            <!-- #EndEditable --></td>
-          <td width="12" align="left"><img src="/stccg/global/images/trek/glear.gif" width="12" height="1" vspace="0" hspace="0" border="0"></td>
-        </tr>
-      </table>
-    </td>
-    <td width="160" valign="top" bgcolor="#000000"> 
-      <table width="171" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-        <tr> 
-          <td bgcolor="#333399" width="190" valign="top" align="left"><img src="/stccg/global/images/trek/logo2.gif" width="155" height="48" vspace="0" hspace="0" border="0"></td>
-          <td width="10" bgcolor="#000000"><img src="/stccg/global/images/trek/glear.gif" width="16" height="8"></td>
-        </tr>
-        <tr> 
-          <td bgcolor="#333399" width="190"><img src="/stccg/global/images/trek/logo3.gif" width="155" height="47" border="0" vspace="0" hspace="0"></td>
-          <td width="10">&nbsp;</td>
-        </tr>
-        <tr> 
-          <td bgcolor="#333399" align="center" width="190"> <!-- #BeginLibraryItem "/Library/ST_Jump.lbi" --><script language="JavaScript">
-
-function logout() {
-var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
-document.cookie = cookie;
-window.location = "../index.php3";
-	}
-
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-
-</script>
-             
-            <form method="post" action="">
-              <select name="select1" onChange="go(this)">
-                <option selected>TURBOLIFT</option>
-                <option value="/stccg/resources/rulings.php3">Current Rulings</option>
-                <option value="/stccg/main/decktech.php3">About DeckTech</option>
-                <option value="/stccg/membercenter/directory.php3">Crew Directory</option>
-              </select>
-            </form>
-            <br>
-            <!-- #EndLibraryItem --> </td>
-          <td width="10">&nbsp;</td>
-        </tr>
-        <tr> 
-          <td bgcolor="#000000" align="left" valign="top" width="190"><img src="/stccg/global/images/trek/tele_foot.gif" width="155" height="12" vspace="0" hspace="0" border="0"></td>
-          <td width="10">&nbsp;</td>
-        </tr>
-        <tr> 
-          <td align="left" valign="top" width="190"><img src="/stccg/global/images/trek/primary_nav.gif" width="155" height="156" border="0" vspace="0" hspace="0" usemap="#Map"><map name="Map"><area shape="rect" coords="2,24,153,41" href="/stccg/index.php3"><area shape="rect" coords="3,43,149,59" href="/stccg/membercenter/index.php3"><area shape="rect" coords="2,61,149,78" href="/stccg/decks/index.php3"><area shape="rect" coords="1,81,150,96" href="/stccg/articles/index.php3"><area shape="rect" coords="1,100,153,115" href="/stccg/treports/index.php3"><area shape="rect" coords="1,118,151,133" href="/stccg/resources/index.php3"></map></td>
-          <td width="10">&nbsp;</td>
-        </tr>
-        <tr> 
-          <td valign="top" align="left" width="190"> 
-            <table width="155" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td width="21"><img src="/stccg/global/images/trek/glear.gif" width="21" height="8"></td>
-                <td bgcolor="#8042AF" width="5"><img src="/stccg/global/images/trek/glear.gif" width="5" height="8"></td>
-                <td width="130"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/st_reports.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"> 
-      &nbsp; <a href="/stccg/treports/index.php3" class="level2nav">Reports Home</a> 
-      </font></td></tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/stccg/treports/reports.php3" class="level2nav">Reports LCARS</a> 
-      </font></td></tr>
-</table><!-- #EndLibraryItem --> <!-- #EndEditable --></td>
-              </tr>
-            </table>
-          </td>
-          <td width="10">&nbsp;</td>
-        </tr>
-        <tr> 
-          <td width="190"><img src="/stccg/global/images/trek/rspacer.gif" width="155" height="128" vspace="0" hspace="0" border="0"></td>
-          <td width="10">&nbsp;</td>
-        </tr>
-        <tr> 
-          <td bgcolor="#8543B1" width="190">&nbsp;</td>
-          <td width="10">&nbsp;</td>
-        </tr>
-        <tr> 
-          <td width="190"><img src="/stccg/global/images/trek/rbottom8.gif" width="155" height="83" border="0" vspace="0" hspace="0"></td>
-          <td width="10">&nbsp;</td>
-        </tr>
-      </table>
-      <br>
-      <br>
-      <br>
-    </td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate --></html>

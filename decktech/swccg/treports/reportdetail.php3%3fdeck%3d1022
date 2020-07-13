@@ -1,385 +1,0 @@
-<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
-<head>
-<title>DeckTech - for the players, by the players.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" href="/swccg/global/css/white.css">
-<!-- #BeginEditable "Style" --> 
-<style type="text/css">
-<!--
-.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
-.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
-.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
-.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
-.centercolor {  background-color: #630031}
--->
-</style>
-<!-- #EndEditable -->
-</head>
-<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE -->
-<script language="JavaScript">
-<!-- /* © 1997-1999 BURST! Media, LLC. All Rights Reserved.*/
-var TheAdcode = 'ad8702a';
-var bN = navigator.appName;
-var bV = parseInt(navigator.appVersion);
-var base='http://www.burstnet.com/';
-var Tv='';
-var agt=navigator.userAgent.toLowerCase();
-if (bV>=4)
-  {ts=window.location.pathname+window.location.search;
-   i=0; Tv=0; while (i< ts.length)
-      { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-   if( Tv.charAt(0)!='/' ) Tv="/"+Tv;
-          else if (Tv.charAt(1)=="/")Tv="";
-  if( Tv.charAt(Tv.length-1) == "/")
-    Tv = Tv + "_";}
-if (bN=='Netscape'){ 
-     if ((bV>=4)&&(agt.indexOf("mac")==-1))
-{  document.write('<s'+'cript src="'+ 
-      base+'cgi-bin/ads/'+TheAdcode+'.cgi/RETURN-CODE/JS' 
-      +Tv+'">'); 
-     document.write('</'+'script>');    } 
-     else if (bV>=3) {document.write('<'+'a href="'+base+'ads/'+ 
-        TheAdcode+'-map.cgi'+Tv+'"target=_top>'); 
-        document.write('<img src="' + base + 'cgi-bin/ads/' + 
-        TheAdcode + '.cgi' + Tv + '" ismap width="468" height="60"' + 
-        ' border="0" alt="Click Here"></a>');} 
- } 
-if (bN=='Microsoft Internet Explorer') 
- document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'+ 
-  TheAdcode + '.cgi' + Tv + '/RETURN-CODE" width="468" height="60"' + 
-  'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' + 
-  'frameborder="0" scrolling="no"></ifr'+'ame>'); 
-// --> 
-</script> 
-<noscript><a href="http://www.burstnet.com/ads/ad8702a-map.cgi" target="_top"> 
-<img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi" 
- width="468" height="60" border="0" alt="Click Here"></a> 
-</noscript> 
-<!-- END BURST CODE -->
-<!-- #EndLibraryItem --></td>
-    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
-      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
-    <td valign="top" class="centercolor" rowspan="2" > 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
-          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
-          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
-        </tr>
-        <tr> 
-          <td colspan="2"><!-- #BeginEditable "Body" --> 
-            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
-              <tr> 
-                <td bgcolor="#630031" height="12" valign="top" width="44%"><img src="/swccg/global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
-                <td bgcolor="#630031" align="right" valign="top" height="12" width="48%"><img src="/swccg/global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr> 
-                <td  valign="top" colspan="2" bgcolor="#630031">
-				 
-
-
-<table width=100% border=0 cellpadding=4><tr bgcolor="#000000"><td><font face="Haettenschweiler, Tahoma, Arial" size="6" color='#ffffff'>Hatfield, England 7/16/00</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC='images/dd4.GIF' BORDER=0><A HREF="reportread.php3?deck=1022"><IMG SRC='images/ldread.GIF' BORDER=0></A><A HREF="reportreview.php3?deck=1022"><IMG SRC='images/ldreview.GIF' BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=2764">Jamie "JEEBS" Giberti</A></FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Date Created</Font></TD><TD><font face="Arial, sans-serif" size='2'>July 19, 2000</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Report</Font></TD><TD><font face="Arial, sans-serif" size="2">It was 3rd Sunday of the month that meant the regular local tourney.<br>
-<br>
-It had been nearly a month since the last tournament, and I didn&amp;#8217;t know how many people would be playing 3rd Anthology decks (EBO, SYCFA, RTP). I scanned decktech for decks the week before, and nothing took my fancy, so I went with my good old Profit from the Sun v1.2. For DS, I decided to try something completely new. I tried out big blue, set your course flip and non-flip before settling on Endor Ops. Both decks are on my page if you wanna look.<br>
-I get to the Harrier Pub about half an hour early, say hello to some of the gang, and trade a little. Bubo (Lenard Smth, the TD) gets here, and we start. We had 14 players.<br>
-My Rating going in to the tourney was 1509.<br>
-<br>
-Game 1:<br>
-<br>
-Endor Ops vs. Stuart Marsh (1464) Yavin 4 Leia Deck<br>
-<br>
-This was a really interesting game. I start Perimeter Patrol as usual, him careful planning for forest and farm. First turn get rumours and deploy it along with Fen son to the bunker, Draw and say go. He draws. I stick down Back Door and get Establish Secret Base, draw. His go, sticks down DOS with Ani's stick at Back Door, and corp. Beezer and Evram Lajale at Landing Platform. My go stick down Ozzel in T scout 1 at Landing Platform, and Igar in Tempest 1 to face Leia, initiate, he plays it's not my fault to make her immune to attrition, and warriors courage (Shite!), but I draw a 6, he only drew 5 from 3 destinies so I win by 8,and the site is cleared. He goes, put down Se Leia with a normal blaster rifle at back door, and JP Han at landing platform. He gives beezer sharpshooter rifle aswell. T scout 6 and veers pay Leia a visit, and she gets trampled by the at-st, they move over to L Platform. His go, he deploys vanden Willard with a repeating blaster cannon to Y4 Forest, and moves JP Han to back door. I think he&amp;#8217;s up to something. I stick down Darth Vader, Blizzard 2 and Marquand, plus IAO. Battle, he loses Han and 11 more. Turns out he wanted to play warriors courage, but JP Han aint a warrior. Meanwhile ZinMH has been draining for 3 at fondor for ages, and it&amp;#8217;s taking its toll. Iggy with gun goes and get Willard, and I drain him out.<br>
-<br>
-FW + 19<br>
-<br>
-The Good: Winning my first game, I have never done that before.<br>
-The Bad: Having so many probs trying to Kill Leia<br>
-The Ugly: JP Han in anything other than a Profit deck, UGH!<br>
-<br>
-Game 2:<br>
-<br>
-Profit vs. Alex Main's (1483) TDIGWATT<br>
-<br>
-He starts CC: downtown Plaza as his site and IAO, Me Goo <br>
-Nee Tay for some dumb reason. He starts by deploying bespin <br>
-I get a god hand with everything I need (Melas, Chewie, Tosche station, ICBW, Boussh, Savrip, B Tank, Obis stick)<br>
-Slap down Melas and the wookie at Tosche's Station, draw up (docking bay 94) He puts down East Platform, and 2 skiffs, plus ZinMH at bespin. My go, activate 17(That&amp;#8217;s gotta be a record, slap down Ori at the Chamber. I change my normal plan of waiting until losing 10 force to retrieve Han, don&amp;#8217;t know why, I just did.  Draw up a crapload getting practically every main character and ICBWS, plus other good stuff). He goes drain for 1, ICBW it. Doesn&amp;#8217;t do anything but draw. My go, drain &amp; profit for 5, slap down Boussh and Lando at T:<br>
-JP, deploy Landed falcon there, move Han there into Falcon<br>
-but not before slapping down Ben at Docking Bay 94. His go, slaps down 2 lots of 2/2 scrubs at his sites, Combat cloud car to Bespin CC, Starts Occupation and DD, and flips. (BUGGER) My go, drain/Profit for 11, Master Luke with stick at the AC, deploy wedge on falcon with Han, take off to tatooine system, shuffle my characters around so I am causing max profit damage. His go, just gives me 13 damage, and draws. My go I match that, and draw. Same happens on his next turn. I decide I don&amp;#8217;t like it and slap down Tawss and Boshek to 1 of his sites, he forgets to leave force to react, clear the site. Then drain him out<br>
-<br>
-FW + 9<br>
-<br>
-The Good: Winning My first 2 games, was now in uncharted territory.<br>
-The Bad: Losing my traffic control off the top cos my dif could have been more.<br>
-The Ugly: Orimaarko for having a pumpkin for a head (and cos nothing ugly happened in the game)<br>
-<br>
-Game 3: Profit vs. Michael Rogers (1808) Ralops<br>
-<br>
-Now the real games start. I start Goo Nee Tay, him IAO. First couple of turns get out cantina and docking bay, him <br>
-Now the real games start. I start Goo Nee Tay, him IAO. First couple of turns get out cantina and docking bay, him getting out ralltir sites and D*: War Room and Coruscant. He deploys 2 At-st Pilots to 2 sites, and says go. My turn, slap town Tosche with Ben lookin after it. His go, drains me, I play LITW on a pilot and go goes missing. That really pissed him off and slowed him down a bit. My go, I send Lando to Free Han and retrieve 9 force. His go, he slaps down Mara, Tarkin, and an At-St pilot and flips. I give him profit damage, he drains me, I ICBW it once in a while. Then he puts down Kashyyk and kiffex, puts Dengar in P1 there. He is now out draining me, and I am getting low on life force, so I send RLinR1 to fight Dengar, he Gets Barriered. His go, Bossk in bus, Zuckuss in MH, Lateral Damage, 18 force, game over.<br>
-<br>
-FL - 18<br>
-<br>
-The Good: Until the End, Hangin with the no 6 in the country.<br>
-The Lows: Making a scrub mistake at the End<br>
-The Ugly: 18 damage from that battle<br>
-Game 4: Endor Ops vs. Chris Moore&amp;#8217;s Mains and Toys Cantina Shuffle<br>
-<br>
-Great. The 1 deck I think my Endor Ops will have real problems with and I have to face it. I search for rumours and deploy it first turn as usual, and then draw, he draws also. I stick down IAO second turn and draw, he slaps down the cantina, and Ben Kenobi and a B&amp;#8217;ommar Monk to Mos Eisley. Oh Great, Cantina Shuffle! I slap down Back Door with Ozzel in Tempest Scout 1, and Tempest Scout 3 alone at the Landing Platform. Stupid me, I forget to occupy the bunker for Perimeter Patrol. He goes and slaps down, Harc Seff, Tawss, and Han with blaster at the docking bay. He initiates, I react, he senses, I am in @#$%. The walker and about 7 more. My go, I stick out Battle Order to slow things down<br>
-And get Bossk in the Bus at Endor. He keeps paying for the Cantina shuffle drains, so I am down around 15 at this point. I get a twi&amp;#8217;lek (thank god) and go for resistance, and it&amp;#8217;s in there. Slap down resistance, deploy a couple of tempest scouts and the sith lord to take care of the lot at the bunker, so I am fulfilling resistance. The drains were pretty even for awhile thanks to me trampling harc seff, he added Master Luke with Anakin&amp;#8217;s lightsabre at cantina, but it was having any effect yet. Late game, he slapped down mech failure on tempest scout 2, nabruns over Ben and Luke in his move phase, but first puts out Order to engage. I have like 6 force left, and we are close to time, so I send Igar and Ozzel on a suicide run against Luke and Ben. Game Over<br>
-<br>
-FL &amp;#8211;22 (4-13)<br>
-<br>
-The Good: Bossk in Bus draining for 2 all game took the differential down a bit.<br>
-The Lows: playing M &amp; T<br>
-The Ugly: Forgetting to occupy the Bunker for PP<br>
-<br>
-Game 5: Profit vs. James (S)Murphy&amp;#8217;s (1670) Ralops<br>
-<br>
-I start Goo Nee Tay, him IAO.<br>
-This was a very interesting game, as I have never played Smurf, despite both of us playing in the regular tourney most of the time. We both draw for a couple of turns, then turn 3, he puts down, Mara, tarkin, and a biker scout and flips. I deploy Lando to the empty Forest, and then deploy Tantive IV at ralltir flipping the objective back, and I shuttle lando up to the Tantive. He doesn&amp;#8217;t like that, and sticks down first strike, and slaps down Boba in Slave 1, and initiates, he retrieves 1, and I lose 1. Result of battle, he loses 1 force, I Tank Lando. Next turn redeploy Lando, initiate, I retrieve 1, he loses 1, he loses Slave 1, me Tank Lando again. I also deploy Boussh that turn and break her cover, cos I wanna free Han in a turn or 2. His go, drains for 1, slaps down Devastator in MH and the Executor (HOLY SHIT!) at Ralltir, and DV, DLOTS at the AC. We battle at the AC first, He draws a 3, me a 5,so we clear the chamber. At Ralltir, I lose Tantive and 7 more. He spreads out and flips again. I deploy Ben, Free Han, and retrieve Lost Pile, plus I deploy Chewbacca and Lando (alive for the 3rd time) to the Jundland wastes. I also deploy d bay 94, and Savrip. Busy turn. His turn, drain for 3, deploy coruscant, and draw. This is where it gets interesting. My go, I drain/Profit for 5, and he loses an emergency deployment amongst other things. His go, drains for 3, then deploys Bossk with Mortar Gun, and Normal Zuckuss, and initiates, he retrieves, I lose 1. He draws a 4 for bossk, so no 1 is captured, he draws a 2 for destiny, me a zero, so I forfeit Han and revive him, he loses 2. My go, drain/profit for 4, slap down Boussh, Tawss, Boshek, and Artoo. I initiate, I retrieve 1, he loses 1. Turns out this is where he wanted to play emergency deployment. He didn&amp;#8217;t have another. I smack him for the characters and 10. His go, drains for 4 (he moves devastator to coruscant last turn), and gives Mara her stick. Then he puts down Kashyyyk. Tempest 1 and Veers play Chewie and Lando a visit at the Judland wastes. He retrieves, I lose. I just forfeit a spare Ben from Hand with savrip, he runs to the docking bay. My go, drain/profit, slap down cantina. We are both running very low on force, so I move Boussh and boshek out to T: JP, leaving Tawss, Ben, and Han in the Chamber, and Chewie and Lando chase the Walker. His go, drains for bout 6, and slaps down a lone evax at the now empty judland wastes. My go, drain/profit, melas comes down and wipes out evax, plus master Luke goes to the cantina. He drains, deploys Iggy with gun, and 4-lom with gun against boshek and Leia, initiates, I lose, he retrieves, he captures Leia, I lose Boshek, and a falcon with savrip to cover it. After the next round of drains and profit damage, he has 5 cards, me 2. Its my go, I drain/profit for 4, he thinks he&amp;#8217;s won by 1. The walker and veers are still in front of Lando and Chewie. I battle, he loses his last force!<br>
-<br>
-FW + 3 (6-10)<br>
-<br>
-The Good: I Never EEEEEEEEEVVVVVVVVVEEEEEEEEERRRRRRRR played I game like that.<br>
-The Bad: It being so damn tense, cos a crowd had gathered round.<br>
- The Ugly: Evax on his own, that&amp;#8217;s how desperate we both were.<br>
-<br>
-Game 6: Endor Ops vs. Derek Hawkesworth (1830) Mains and Toys<br>
-<br>
-After the last game, I was so knackered, I couldn&amp;#8217;t remember much of this one. It&amp;#8217;s pretty similar to game 4. Sorry folks<br>
-<br>
-FL &amp;#8211;25<br>
-<br>
-So I go 6-35, my best in ages. It was a great tourney, Lenard ran his first 1 very well. Here are the full standings:<br>
-<br>
-1st: Nick Rice 10 +81<br>
-2nd: Michael Rogers 10 +60<br>
-3rd: Chris Moore 10 +51<br>
-4th: Derek Hawkesworth 8 +69<br>
-5th: Andrew Duncan 6 +18<br>
-6th: Ian Ericson 6 +3<br>
-7th: Jamie Giberti (ME) 6-35<br>
-8th: Matt Allen 4 -10<br>
-9th: Alex Main 4 -10<br>
-10th: Robert Garcide-Neville 4-31<br>
-11th: Stuart Marsh: 3 &amp;#8211;51<br>
-12th: Alex Macdonald-Smith 0-190<br>
-13th: James Murphy *<br>
-14th: Chris Payne *<br>
-<br>
-The last 2 players had to leave slightly early, so lenard declared them joint last.<br>
-It was a great tourney, I was happy with both my decks, I only lost to really high ranked players after all.<br>
-<br>
-Thanks for reading.<br>
-<br>
- </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="allreports.php3"><img src='images/ldback.GIF' border="0"></a><A HREF="reportread.php3?deck=1022"><IMG SRC='images/ldread.GIF' border="0"></A><A HREF="reportreview.php3?deck=1022"><IMG SRC='images/ldreview.GIF' border="0"></A></FONT></TD></TR></TABLE>		
-		 
-				 
-				
-				
-				 </td>
-              </tr>	  
-            </table>
-            <!-- #EndEditable --></td>
-        </tr>
-      </table>
-    </td>
-    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
-      <table border="0" cellspacing="0" cellpadding="0" width="150">
-        <tr align="right" valign="top"> 
-          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
-          <td width="154" valign="top" align="right"> 
-            <table width="154" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF">&nbsp; </td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF"> 
-                  <script language="JavaScript">
-
-function logout() {
-var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
-document.cookie = cookie;
-window.location = "../index.php3";
-	}
-
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-
-</script>
-                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
-<select name="select1" onChange="go(this)">
-<option selected>Quick Jump</option>
-<option value="/swccg/resources/rulings.php3">Current Rulings</option>
-<option value="/swccg/main/decktech.php3">About DeckTech</option>
-<option value="/swccg/membercenter/directory.php3">Member Directory</option>
-</select>
-</form><BR>
-<!-- #EndLibraryItem --> </td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
-                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
-                  Center</a></font> <br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
-                  Reports </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
-                  Resources</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
-          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/treports.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-  <tr> 
-    <td>
-	<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;
-	<a href="/swccg/treports/index.php3" class="level2nav">Reports Home </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-
-  <tr> 
-    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/allreports.php3" class="level2nav">All Reports 
-      </a><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/localreports.php3" class="level2nav">Local Reports 
-      </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/grandslamreports.php3" class="level2nav">Grand 
-      Slams </a> <br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/statereports.php3" class="level2nav">State Champs 
-      </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/openreports.php3" class="level2nav">Open/Regional</a><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr>
-    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/worldsreports.php3" class="level2nav">World Champs 
-      </a><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr> 
-    <td> <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/sealedreports.php3" class="level2nav">Sealed 
-      Deck </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>  
-</table>
-<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
-          <td width="155" valign="top" height="13"> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr align="left" valign="top" bgcolor="#630063"> 
-                <td width="154">
- 
-
-<!-- BEGIN BURST! CODE -->
-<center>
-<a href="http://signup.postmasterdirect.com/affiliates?owner=BachSystems&affili
-ate=dawiyhd"><img src="http://gfx.postmasterdirect.com/gfx/banners/list125x125.gif"
-height="125" width="125" border=0></a></center>
-<!-- END BURST! CODE --> 
-
-<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
-                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" --><table width="100%" border="0" cellspacing="0" cellpadding="4">
-  <tr bgcolor="#000000"> 
-    <td><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Latest News 
-      </font></b></font></td>
-  </tr>
-  <tr> 
-    <td> <p><font face="Arial, Helvetica, sans-serif" size="2"><a href=/dpc/news/fantasy_winners.php>Announcing: The Fantasy DeckTech Players&#146; Challenge Winners</a></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Thu, March 1, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR><p><font face="Arial, Helvetica, sans-serif" size="2"><a href=/dpc/news/coverage.php>Round by Round Web Coverage of the first DPC Open</a></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Wed, February 21, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR><p><font face="Arial, Helvetica, sans-serif" size="2"><A href=/dpc/news/normal_schedule.php>The DPC Normal: Schedule of Events</A></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Tue, February 20, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR> <a href="/swccg/main/news.php3"><font face="Arial, Helvetica, sans-serif" size="1"><br>
-      more news</font></a> </td>
-  </tr>
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
-      Updates</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><a href='/swccg/resources/tjpage.php3'><font face='Arial, sans-serif' size='2'>Tj Holman</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-08</font><BR><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-25</font><BR><a href='  /swccg/resources/terwilligerpage.php3'><font face='Arial, sans-serif' size='2'>Brian Terwilliger</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-03</font><BR></td>
-  </tr>
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
-      Tips</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><p><font face='arial' size='2' color='#ffffff'>Trying to find something to do to help promote SW:CCG? Look at our community projects just off the homepage!</font></td>
-  </tr>
-</table><!-- #EndLibraryItem --></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate --></html>

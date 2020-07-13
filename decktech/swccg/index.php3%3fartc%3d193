@@ -1,529 +1,0 @@
-<html>
-<head>
-<title>DeckTech - for the players, by the players.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" href="/swccg/global/css/white.css">
-<style type="text/css">
-<!--
-.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
-.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
-.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
-.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
-.centercolor {  background-color: #2900FF}
--->
-</style>
-</head>
-<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"> <!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-
-<script language="JavaScript">
-<!--
-ShowBurstAd('ad8702a','468','60');
-// -->
-</script>
-
-<noscript>
-<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
-</noscript><!-- #EndLibraryItem --></td>
-    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td width="171" valign="top" bgcolor="#000000" height="949"> 
-      <table width="172" border="0" cellspacing="0" cellpadding="0">
-        <tr> 
-          <td width="156" rowspan="2" bgcolor="#000000" align="center" valign="top" height="100"><br>
-            <!-- #BeginLibraryItem "/Library/Login_Box.lbi" -->
- 
-<form method="post" action="/swccg/index.php3" name="">
-  <table width="134" border="0" cellspacing="0" cellpadding="0">
-    <tr valign="bottom"> 
-                  
-      <td><img src="/swccg/global/images/logintop.gif" width="134" height="8"></td>
-                </tr>
-                <tr bgcolor="#630063"> 
-                  <td><font face="Haettenschweiler, Impact, Arial Black" size="4" color="#FFFFFF">&nbsp;<font size="5">&nbsp;&nbsp;Members</font></font></td>
-                </tr>
-                <tr bgcolor="#630063"> 
-                  <td> &nbsp; 
-                    
-        <input type="text" name="sname" size="12" maxlength="22">
-                  </td>
-                </tr>
-                <tr bgcolor="#630063"> 
-                  <td>&nbsp;&nbsp;&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><font size="1">name</font></font></td>
-                </tr>
-                <tr bgcolor="#630063"> 
-                  <td> &nbsp; 
-                    
-        <input type="password" name="password" size="12" maxlength="14">
-                  </td>
-                </tr>
-                <tr bgcolor="#630063"> 
-                  <td>&nbsp;&nbsp;&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><font size="1">password</font></font></td>
-                </tr>
-                <tr bgcolor="#630063" align="right"> 
-                  
-      <td><font face="Haettenschweiler, Impact, Arial Black" size="4" color="#FFFFFF"> 
-        <input type="hidden" name="mlogin" value="true">
-        <input type="submit" name="Submit" value="Login">
-        &nbsp;&nbsp;</font> </td>
-                </tr>
-                <tr valign="top">                   
-      <td><img src="/swccg/global/images/loginbottom.gif" width="134" height="8"></td>
-                </tr>
-              </table>
-            </form>
-
-
-
-
-
-<!-- #EndLibraryItem --><br>
- <!-- #BeginLibraryItem "/Library/swccg_logo.lbi" --><a href="http://www.decipher.com/starwars/index.html" target="_blank"><img src="/swccg/global/images/swccglogo.jpg" width="135" height="90" border="0" vspace="0" hspace="0"></a><!-- #EndLibraryItem --></td>
-          <td width="31" height="57" align="left" valign="top" background="/swccg/global/images/circuit/left_background.gif" class="left_background"> 
-            <img src="/swccg/global/images/circuit/leftca.gif" width="30" height="57" border="0" vspace="0" hspace="0"></td>
-        </tr>
-        <tr> 
-          <td width="31" height="100" background="/swccg/global/images/circuit/left_background.gif" class="left_background"><img src="/swccg/global/images/trans.gif" width="30" height="1" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td colspan="2" class="orange" background="/swccg/global/images/circuit/background.gif"><img src="/swccg/global/images/circuit/lcspacer.gif" width="185" height="65" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="156" bgcolor="#2900FF" valign="top" height="396"> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="4">
-              <tr valign="top" bgcolor="#000000"> 
-                <td><font face="Haettenschweiler, Impact, Arial Black" size="5" color="#FFFFFF">What 
-                  is SW:CCG?</font></td>
-              </tr>
-              <tr valign="top"> 
-                <td height="354"> <font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><br>
-                  &quot;Imagine playing a game of chess where each player could 
-                  select from 1000 pieces, each of which moved differently. You 
-                  would select your 16 pieces in secret, and so would your opponent. 
-                  Sitting opposite him, surveying the board, you would make your 
-                  attacks based on the pieces you selected, and form your defenses 
-                  based on the pieces your opponent selected.&quot; -Decipher<br>
-                  <br>
-                  For more information about SW:CCG check out our <a href="/main/swccg.php3">About 
-                  SW:CCG </a>page!</font> </td>
-              </tr>
-              <tr> 
-                <td>&nbsp;</td>
-              </tr>
-            </table>
-            </td>
-          <td width="31" rowspan="2" bgcolor="#000000" valign="top"><img src="/swccg/global/images/circuit/lftcolterm.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="156" bgcolor="#2900FF" valign="bottom"><img src="/swccg/global/images/circuit/left_term.GIF" width="156" height="15"></td>
-        </tr>
-      </table>
-    </td>
-    <td valign="top" class="centercolor" height="949" > 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
-          <td height="4" class="top_bg" width="100%" align="left"><img src="/swccg/global/images/circuit/leftcb.gif" width="12" height="57" vspace="0" hspace="0" border="0"></td>
-          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
-        </tr>
-        <tr> 
-          <td colspan="2"> 
-            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
-              <tr> 
-                <td bgcolor="#2900FF" height="12" valign="top" width="44%"><img src="global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
-                <td bgcolor="#2900FF" align="right" valign="top" height="12" width="48%"><img src="global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr> 
-                <td height="684" valign="top" colspan="2" bgcolor="#2900FF"> 
-                  <table width="100%" border="0" cellpadding="4">
-                    <tr valign="top"> 
-                      <td bgcolor="#2900FF" height="133"><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"> 
-                        </font> 
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                          <tr> 
-                            <td height="51"><a href="/dpc/index.php3"><img src="/swccg/global/images/techtex.gif" width="311" height="87" border="0"></a></td>
-                          </tr>
-                          <tr> 
-                            <td bgcolor="#000000" height="31"><font face="Haettenschweiler, Impact, Arial Black" size="5">&nbsp;Latest 
-                              News</font></td>
-                          </tr>
-                          <tr> 
-                            <td height="2">&nbsp;</td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr valign="top"> 
-                      <td height="166"> <font face="Arial, Helvetica, sans-serif" size="2"> 
-                        
-<a name=193></a>
-<table width=100%>
-<tr><td colspan=2><font color=#00FF00 size="5" face="Haettenschweiler, Tahoma, Arial, sans-serif">Attention All Females: Want to be a DT Calendar Girl?</font></td></tr>
-<tr><td><font face="arial" size="2">DeckTech reports on Wed May 29 2002 </font></td><td align=right><font face="arial" size="2">DeckTech Update</font></td></tr>
-<tr><td colspan=2><font face="arial" size="2">With the introduction of new games Magi Nation Duel and Lord of the Rings, DeckTech.net is seeing something new lately: Girls.<br>
-<br>
-Due to a wacky idea followed by several requests and a few initial volunteers, DeckTech is planning on having a 6 month downloadable calendar featuring 6 girls from DeckTech!  This calendar will have various dates such as holidays and DPC or Convention info, and of course inluce a picture of the girl for the month.<br>
-<br>
-Now this is not a chauvinistic or exploitative venture, it is merely a chance to be part of something fun, if you so choose.<br>
-<br>
-If you are interested, send an email to project head <a href="mailto:alex@decktech.net">Alex Tennet</a> to see about joining.<br>
-<br>
-Multiple pictures for each person are fine, but only one of each person will be selected so that a maximum of people can participate.  In the event that there are many participators, 6 will be selected randomly, with some filtering due to picture quality.  It is open to all ages, races, whatever.<br>
-<br>
-So ladies, get your pictures ready and gain thousands of worshipful fans as part of the DeckTech Calendar!<p><small>edited by DeckTech on Wed May 29 2002 </small></font></td></tr>
-<tr><td align=right colspan=2><font face=arial size=1> <a href=send.php?di=/swccg/index.php3&id=193 target="_blank">send to friend</a> | <a href=print.php?193 target="_blank">printer friendly</a></font></td></tr>
-</table><table width=100%><tr><td><HR><font face=arial size=2>Ok, I'll be the first to admit, this is a crazy idea, even for us!  But hey, that's DT, we do crazy stuff.<br>
-<br>
-I think it'll be a lot of fun, and I look forward to having more girls involved in DT.  It's a real pleasant change.<br>
-<br>
-ok, discuss away.</font></td></tr><tr><td><font face=arial size=2>neal</font><font face=arial size=2> - Wed May 29 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Hey yo... <br>
-<br>
-Does the girl have to be a member of DT? Cuz I know that there are a few members (myself included) who have to have attractive GFs and/or wives who could spice up a calendar... Just a thought.</font></td></tr><tr><td><font face=arial size=2>Adam Drake</font><font face=arial size=2> - Wed May 29 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>This is hilarious. <img src=/news/smileys/smile.gif><br>
---Lisa</font></td></tr><tr><td><font face=arial size=2>Lisa Gansky</font><font face=arial size=2> - Wed May 29 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I know it's pretty wacky, isn't it?  Lisa you sending a pic?</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Wed May 29 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>sure, why not?<br>
-</font></td></tr><tr><td><font face=arial size=2>Hannah Grimm</font><font face=arial size=2> - Wed May 29 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I have a picture of my dog I can submit.  she's gotta be better looking than some females I've seen play this game.  Except for Tiuli "ICE HEART" Anfossi - I'd put her up as my calander girl any day.....</font></td></tr><tr><td><font face=arial size=2>matt wehner</font><font face=arial size=2> - Wed May 29 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>This is the first I've been back to DT in 9  months and I'm appalled by the chauvinist attitude. <br>
-Incidentally, can u get the chicks to dress up as Arwen or Rosie Cotton? </font></td></tr><tr><td><font face=arial size=2>Brian Connolly</font><font face=arial size=2> - Wed May 29 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I actually thought this was a joke.. :p</font></td></tr><tr><td><font face=arial size=2>Charlie Herren</font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>You guys might wanna remember that posting pictures of any minor without legal consent from their parents is a Class A Felony in most states, don't want some random parents suing DT <img src=/news/smileys/smile.gif></font></td></tr><tr><td><br><font face=arial size=2><a href="http://www.decktech.net/3" target=gfds>http://www.decktech.net/3</a></font><BR><font face=arial size=2><a href="mailto:masteryoda13@attbi.com">Andrew Howard</a></font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Just so everyone is clear, this is not my idea at all - it's actually Neal's (I wouldn't want to take the credit Neal, people should know where this blatant chauvanism comes from <img src=/news/smileys/smile.gif>. However I will indeed be accepting these submissions for use in DT's 2002 calendar. So if you want to see yourself alongside famous birds such as Kim Caton, Heidi Farinholt and Andie "McDowell" Howard of #1 player fame, please email. Letters of disgust should still go to neal@decktech.net however...(Disclaimer: one of the above listed lovely ladies may not appear for reasons of taste, decency and class A felony lawsuits).</font></td></tr><tr><td><font face=arial size=2><a href="mailto:alex@decktech.net">Alex Tennet</a></font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>this made me laugh real hard.  heheh.  seriously, if people want to look at hot chicks, they don't visit LOTR:TCG sites.  Cheers</font></td></tr><tr><td><font face=arial size=2>Mark Balderston</font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>One young lady, that will take the cake, plays here in Vegas.  Her name is Suann...She should send a picture.</font></td></tr><tr><td><font face=arial size=2>Tim Guzman</font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>man, I wish Natalie Portman was on Deck Tech.  *sobs*</font></td></tr><tr><td><font face=arial size=2>Matt Townend</font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Guys, this is fun.  That's all.<br>
-<br>
-And for the record, I come up with a dumb idea like 100 times a day.  <b>Alex Tennet</b> *is* the one who pursued the dumb idea and convinced me to do it!<br>
-<br>
-And andrew, well, to forget something you have to have known it first.  I never heard that, are you sure that's the case?</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>What...you guys weren't kidding Neal? <img src=/news/smileys/smile.gif></font></td></tr><tr><td><font face=arial size=2>Lisa Gansky</font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Yeah, I'm sure, its a federal law part of the Internet Privacy Act or whatever they called it. Anyone under the age of 18 is protected from having their image posted on the internet without the express written consent of their legal guardian, as well as no child under 14 can give out their personal information without the same verification from their parents/guardian(s).</font></td></tr><tr><td><br><font face=arial size=2><a href="http://www.decktech.net/3" target=gfds>http://www.decktech.net/3</a></font><BR><font face=arial size=2><a href="mailto:masteryoda13@attbi.com">Andrew Howard</a></font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Tuili and Myriam and the 2 pretiest girl playing card</font></td></tr><tr><td><font face=arial size=2>Dominic Gaudreault</font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I look like a girl, and I like boys, can I take part of that contest ?</font></td></tr><tr><td><font face=arial size=2>Dominic Gaudreault</font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>ahhhhhhhhh how come the name i had writen ( jimmy chen ) changed to dominic gaudreault... </font></td></tr><tr><td><font face=arial size=2>Dominic Gaudreault</font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>  this all sounds fine and dandy...  however i think the alternate approach would work better...  instead of hot girls, you should take pictures of different shop owners arround the country...m kinda like the 7-UP truck drivers commercial...  just a thought</font></td></tr><tr><td><font face=arial size=2><a href="mailto:Mhump76@aol.com">Mike Humphries</a></font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Anyhow, out of curiosity I looked up the law on photographs and info gathering of minors and children through the internet.  Children, of course, are under 13 and there are parental consent restrictions.  However, there are no restriction to minors, it's not even bothered to be defined in the section.  Also, FL statutes had nothing either.<br>
-<br>
-If someone has any info to the contray, please contact either I or alex.</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>This has been done before by gaming magazines: why not poll for our favorite CCG,TCG femmes. Of course, you'll have to secure the copyrights-but I feel this might be better than player photos.</font></td></tr><tr><td><font face=arial size=2>christian cinder</font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>that suggestion while interesting, is not even feasable.</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>hahaha Dominic you like boys?  when are you going to play this game again? soon you wont be in the canada top 3.  and why does that guy want pictures of shop owners?</font></td></tr><tr><td><font face=arial size=2>Jeff Peck</font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>hehe i dont care ... ill just do good at a big tournement and that will put me in top 3 ... anyways we wont get any sponsor for canada ... so i have no motivation for rating... and as for boy yes i like them ... well actualy its more of a inside between my friends ... there is a player call jimmy chen and he is gay ... and he like us alot... i wanted to write that with his name but ... we cant use fake name <img src=/news/smileys/sad.gif>  it changes back to our real name <img src=/news/smileys/sad.gif></font></td></tr><tr><td><font face=arial size=2>Dominic Gaudreault</font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I think we know why that guy wants to see card store owners....probably one of that Jimmy Chen guys "friends".</font></td></tr><tr><td><font face=arial size=2>Chris Cicconi</font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>dom u ll work and u ll have the money for go there... u must go there if u do the top 3.          i am happy to learn u are gay  <img src=/news/smileys/wink.gif></font></td></tr><tr><td><font face=arial size=2>Myriam Gimaiel</font><font face=arial size=2> - Thu May 30 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Dom is gay?  I didn't know that.  I thought he was making some crazy joke or something.  I thought he had a girlfriend.<br>
-<br>
-Oh well, Dom you are still me hero, gay or not.</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Dom is gay?  I didn't know that.  I thought he was making some crazy joke or something.  I thought he had a girlfriend.<br>
-<br>
-Oh well, Dom you are still my hero, gay or straight.</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>6 at random is wrong.  Should be 5 at random and Tiuli.</font></td></tr><tr><td><font face=arial size=2>Henry Jicha</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>while it does seem like a funny idea, doesn't it strike anyone else as a little sad?</font></td></tr><tr><td><font face=arial size=2>jason baretta</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>i think its very funny .... why peaple  ll be sad for that ??? </font></td></tr><tr><td><font face=arial size=2>Myriam Gimaiel</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>you don't think the idea of 10 000 DT members, ogling you while they clutch thier 'flaming brands' is kinda perverted?</font></td></tr><tr><td><font face=arial size=2>jason baretta</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>hehe no , sorry <img src=/news/smileys/smile.gif> i aint ... unfortunatly for us jimmy chen might be ... i dont care ... but he is always toutching our body when we are playing a lotr game... its hard to concentrate. hi neal</font></td></tr><tr><td><font face=arial size=2>Dominic Gaudreault</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>why does everbody want tiuli to be in this?  i am reporting all of you to her mommy.  take that.  speaking of gay, i heard a rumor that somebody with the initials J I is gay too.  i wonder who he is.  hey dom kick that guy in the nuts.  wait... he may enjoy that.  nevermind.  plus i read your page.  dont you love the canadian government, they sure know how to spend our money.</font></td></tr><tr><td><font face=arial size=2>Jeff Peck</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Hey I just want to get The Finger to a group of LAMEplayers who are crying abuot the calendar and calling it sexist.<br>
-<br>
-Me sexist, right.  Everyone is always saying i'm far too left wing, now i'm a right wing oppressor.<br>
-<br>
-If anyone is sexist it's people like a scrub named Chen who are paternalists.  Yeah, you heard me chump, paternalistic.  You think woman can't decide for themselves what they want to do?  Gee, thanks defender of the faith.  Maybe you can make women dress the way you think also.  Why don't you dress them in a burqua, then they'll have to listen to you.  YOU are the sexist.<br>
-<br>
-Guess, what dorks, it's America.  People are allowed to do and say and think what they want.  You should be thankful for that, cause that's the only way you get to spout your mangled, unintelligent tripe.</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>why do you have to go and say sexism is reserved by the right-wing oppressors? those who are truly right wing believe in individual freedoms.<br><br>take it back <img src=/news/smileys/smile.gif></font></td></tr><tr><td><font face=arial size=2>Evan Fitzgerald</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Many right winger certainly do respect individual freedoms.  Evan and I may not agree on health care, envt, or many other things, but he is a staunch defender of personal liberties.</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Neal. I love your ideas. They make decktech different from every other game commutity out there. But this idea is...well might be a little over the edge for a ccg gaming community. Granted that most ppl who play ccg are smart and responsable ppl and are of an older age. But I have recommended this site to many ppl including my friends who I play ccg's with that are under the age of 12. I am not say this is a bad idea. Just take a look at the picture before you put it up and make sure nobody would get the wrong impression about the picture and flame at decktech about it. Later decktech</font></td></tr><tr><td><font face=arial size=2>jason wade</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I hear you Jason.  These pics aren't lewd or anything.  Just a smiling face of a girl from DT.  It's nothing raunchy</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Have to jump in to defend the fellow "oppressors". Personal liberties are a big factor in my political philosphies. Sexism is not, just as Evan put it, "sexism is reserved by the right-wing oppressors". Anyway, Neal, did you see Frank Rich's latest Times Op column? Watch this: one of the few times I will agree to a slightly more left standpoint. Check it out in the link.</font></td></tr><tr><td><br><font face=arial size=2><a href="http://www.nytimes.com/2002/05/25/opinion/25RICH.html" target=gfds>http://www.nytimes.com/2002/05/25/opinion/25RICH.html</a></font><BR><font face=arial size=2>John Anderson</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Sounds like fun, something different.I'll support it.</font></td></tr><tr><td><br><font face=arial size=2><a href="Gen" target=gfds>Gen</a></font><BR><font face=arial size=2>Keith Watabayashi</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>If the ladies are willing to submit photos, why not post em. <br>
-<br>
-Maybe we should ask them, what they would like to see?  Though I fear the answer would be Orlando Bloom!</font></td></tr><tr><td><font face=arial size=2>Marc Urrutia</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Haha...Lego's pretty cute, but I like Elrond better. <img src=/news/smileys/wink.gif><br>
-<br>
-http://www.lordofrivendell.com<br>
-<br>
-Dunno why...maybe I've just been seduced by his wisdom. <img src=/news/smileys/smile.gif></font></td></tr><tr><td><font face=arial size=2>Lisa Gansky</font><font face=arial size=2> - Fri May 31 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Alright now, why has not anyone spoken up for the guys?  Why don't we put the whole "sexist" issue to rest by having DT Boys as well?  I, for one, would be willing to challenge any DT guy to a posedown or two!</font></td></tr><tr><td><font face=arial size=2>John Rowe</font><font face=arial size=2> - Sat Jun 1 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Because no girl would want to see 6 loser guys.  The only cute gamer I know is austin.<br>
-<br>
-And, from a female.  this isn't sexist, get a life.</font></td></tr><tr><td><font face=arial size=2>Hannah Grimm</font><font face=arial size=2> - Sat Jun 1 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>WOAH!  No need to be insulting... notice that "sexist" is in quotations.  I don't think this endeavor is sexist at all.  Since that word had precedent however, I decided to use it.  But, as long as we are analzying verbage... are you insinuating that all DT guys are losers?  That would be awful hurtful.</font></td></tr><tr><td><font face=arial size=2>John Rowe</font><font face=arial size=2> - Sat Jun 1 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>You gotta be nuts to do that. If you ask me, the only way this would work is if oyu just use pictures from the cards. You people have got to be crazy to send in pictures of yourself! And being male, I'd even be expected to want ot see this!</font></td></tr><tr><td><font face=arial size=2>classified classified</font><font face=arial size=2> - Sat Jun 1 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Damina, kindly don't make yourself look retarded.  Hannah that was way out of line.  Behavior yourselves.</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Sun Jun 2 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Personally, I think it's a fabulous idea. There aren't very many female gamers out there (that aren't just chicks dragged to tournaments by their boyfriends). We all love playing games so why don't we add a little more of what we love to the gaming environment. =^_^= I'm all for it and I already sent a few old pictures to Alex. It's not sexist, and even if it was, it's volunteer only. *wink*<br>
-<br>
-Peace.<br>
-Munchkin<br>
-<br>
-PS- Oh and Drake, Why would we want people not on DT to be the *DT* Calendar girl? In that case, we could just make a calendar of hot chicks and how original is that? =^_^=</font></td></tr><tr><td><font face=arial size=2><a href="mailto:¤Atlanta¤">Munchkin Chiknas</a></font><font face=arial size=2> - Sun Jun 2 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Hello I am back agian and well my posts have be deleted. Well thats freedom of speach for you. Well i will not be silenced by this hitler run idea forcing us to look at women that make me want to puke. I hope that their are some hot women and not but ugly. Well I feel that we need some contrvesity up in here and yes i am the voice of the scrubs in swccg and i will keep it up to. I hate LOTR with a passion and hope it dies. Well i hope to see hot chick and not those fat ugly chicks that we see at the cons dressed up in chains and such that i laugh at a lot with my friends. and It feels so empty without me.  <br>
-Peace <br>
-Damian Loback</font></td></tr><tr><td><font face=arial size=2>Damian Loback</font><font face=arial size=2> - Sun Jun 2 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Damian, are you hammered or something? Just kidding. LotR is not a bad game...I've bought two booster boxes and it can be entertaining. When you come over Friday I'll teach you how to play. No ugly chicks!!!!!</font></td></tr><tr><td><font face=arial size=2>John Anderson</font><font face=arial size=2> - Sun Jun 2 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I would take that as an insult but I can imagine you now choking on your words. I'm not a fat, ugly gamer chick thank you. =^_^=<br>
-<br>
-*The Dark Horse*<br>
-¤¤¤¤Munchkin¤¤¤¤</font></td></tr><tr><td><br><font face=arial size=2><a href="Haha!" target=gfds>Haha!</a></font><BR><font face=arial size=2>Munchkin Chiknas</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Thanks for the compliment Tim!  You and Matt convinced me to hand over a couple pics, but ONLY to prove that not all girls who are into Dungeon and Dragons, LoTR, and PC gaming are bootang-looking!</font></td></tr><tr><td><font face=arial size=2>Suann Robinson</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>haha EXACTLY! Bust a cap for the non-"bootang-looking" gaming chicks! haha. =^_^=<br>
-<br>
-*The Dark Horse*<br>
-¤¤¤¤Munchkin¤¤¤¤</font></td></tr><tr><td><font face=arial size=2>Munchkin Chiknas</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I think it is a great idea to get women involved more in DT.  I agree that the stereotypical gamer girl is more of a Cave Troll and not Arwen ( or more of a Yarna and not a Quenn Amidala, for you SW:CCG folks ).  But in all honesty, many of the girls who are into games are beautiful, intelligent women, and if they want to showcase themselves in good fun, I say let them.  Have fun people, relax.  If you dont want to look at the pics, you dont have to.  Goodnight and thank you. And trust me Damian, it really doesnt feel that empty without you.  So lets get down to Business, I don't got no time to play around, what is this?!?  Must be a circus in town, lets shut the S#@T down on these clowns, can I get a witness ? <br>
-</font></td></tr><tr><td><font face=arial size=2>Patrick Napier</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Damian, i deleted your posts, cause you need to learn to watch your mouth.  You can have your say, but i'll delete things that are out of control, and i'll keep doing it.</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>damian, if you are an old skooler, then you should know i'll keep deleting you.  I told you, watch your mouth.  You wanna swear go to the SWCCG buzz board, looser standards there.  But like i said, if you've been around here, you should know i'll keep hitting you till you learn your lesson.</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>LOL...not a bad concept neal...no one can fault DT for not being original..<br>
-<br>
-should be interesting to see if there are any attractive card players out there :P all the gamer girls ive ever seen are 100% ugly in a bun.<br>
-<br>
-if i wanted to see attractive women, id go to a rave or something. DT calender chicks? its like digging for diamonds in a bauxite mine. still, ill be sure to check it out and see how it goes.<br>
-<br>
-respect,</font></td></tr><tr><td><font face=arial size=2>Haakon Neinhalt-Schmutzig</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>why many guys think at the girls who play card are all ugly????? its not true... and its why i want to send my pic i want to proove u that a good looking girl can do so. <img src=/news/smileys/smile.gif> </font></td></tr><tr><td><font face=arial size=2>Myriam Gimaiel</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>damn i wanted to be the 69th person to post a messege, oh well, missed it by one place.  unless Neal deletes more things from that damian.  i never heard of the guy before.  who is he?  i can justify calling him a loser cant i Neal?  dude Neal is not a nazi.  Neal is a cool guy and respected by so many players around the world, he just doesnt put up with people that act like idiots, or people who bad mouth others.  and anybody who makes fun of others only does so because of some inadequacy about himself or herself.</font></td></tr><tr><td><font face=arial size=2>Jeff Peck</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>If I may chime in yet again, while hoping to avoid the obloquy of the more veteren members?<br>
-Art imitates life.  Life is not all string bikinis and toned bodies.  I think it is mildly shallow and very superficial to claim that a DT calender should only contain startling DT beauties.  The gaming girls I have met are charming, unique individuals and if we are going to celebrate their participation, it should not be concomitant to a requirement of physical "beauty".  The calender is a great idea, but let's see it portray the reality of the gaming world, rather than a pubescent fantasy.<br>
-<br>
-Perhaps an esoteric observation not appropriate for this board... but, eh, I say what I say, right Damien?</font></td></tr><tr><td><font face=arial size=2>John Rowe</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>why do guys think that girl gamers are ugly? cause....they generally are! i fully cannot recall a single gamer girl who has given me a trouser cramp. you wanna try, myriam, knock yourself out...hehe<br>
-<br>
-so, john...you wanna look at a calendar with 'inner beauty'? uh huh. i think some magazine did the same thing here in australia by putting a 65 yr old homosexual judge in their top 100 beautiful people issue...alongside people like nat portman, halle berry, etc. now, if you're telling me you'd pick up an issue of that mag for a picture of said judge, youve disturbed me highly.<br>
-<br>
-i got an idea...how about opening this thing to anyone...like...i dunno...'Scrub of the Month' or something. just get people to send in profiles and give em their 5 mins on the DT soapbox. what do you lot think?<br>
-<br>
-respect,</font></td></tr><tr><td><font face=arial size=2>Haakon Neinhalt-Schmutzig</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I think there's a lot of cute girl gamers.  I don't mind saying it, as long as no one gets bent over it.<br>
-<br>
-Dalantyr, Kim caton, MaryGail Dufresne, Hannah Grimm, like all of Mike Bellefatto's girlfriends, that one Asian YJ player who like half the people in orlando were following.  I've seen attractive girls at tournaments, and I'm no girlfriendless dork.  I'm sure there's more, esp since Lord of the Rings and MND have come online here.<br>
-<br>
-Here's what I'm saying.  This is not some PC thing where, haha, as HNS said with a 65 yro homosexual.  I'm not selling any illusions.  None of the girls pictured are going to be supermodels.  No kidding, I suppose that's not a shock.  Does that mean we wouldn't enjoy meeting them?  Does that mean that some of the guys wouldn't enjoy looking at them?  Or getting to know some fellow gamers?  It's just a chance to get to know some people here, and give the women a bit o' publicity.  You all know me, I love controversy.  Is this something Decipher would ever do?  Hell, no.  But it's just crazy enough and quirky enough for DT.<br>
-<br>
-Myriam, I'll write you.  The more the merrier.<br>
-<br>
-Oh and Damian you bought yourself a ban, enjoy.  I've met some retards on this site, but you are right up there.  Try to learn to SPELL words before using them, ok?</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Ah, just for the record. Not all of the blokes playing cardgames etc.  are beautiful small elves eather. Ever seen a 200 pounds truckdriver in a dirty size small SW t-shirt. It is not  pritty.<br>
-And by the way, not everybody here are american. Im norwegian. But anyway I were in the US once. And I did not see one single good looking chick. Then how can I even begin to hope for one who plays?<br>
-Well well, I am looking forward anyway. But plz do not poste a pic that could scare Shelob in to a fit...</font></td></tr><tr><td><font face=arial size=2><a href="mailto:mr_eivind@hotmail.com">Eivind Guneriussen</a></font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Gosh I love the bootang of gamer chicks... I can think of THREE that I've met, two of which I know personally who are MORE than attractive enough for this calendar! And one of them has already sent in pictures!</font></td></tr><tr><td><br><font face=arial size=2><a href="http://www.decktech.net/lotr/main/mpage.php?member=2392" target=gfds>http://www.decktech.net/lotr/main/mpage.php?member=2392</a></font><BR><font face=arial size=2><a href="mailto:phobosmjb@hotmail.com">Matt Berta</a></font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Guys one thing, cause i'm seeing hints of it: in the words of the immortal Gabe Alonso "Don't act like grubby gamers".  <br>
-<br>
-There's just a few of you who are acting really dorky right now.  For those of you who have had 0 luck with girls, a bit of advice.  Acting obxious is a very ineffective strategy.  Try being polite, it's a lot better strat, and a lot more pleasant.</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Hear, hear, Neal!</font></td></tr><tr><td><font face=arial size=2>John Rowe</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Damian, go to school. Learn grammar and spelling. Quit typing like a retard.<br>
-Buford, GA is ass.<br>
-SWCCG isn't nearly what it used to be.<br>
-This whole calendar idea came about because of LOTR and MND, and you're asking girls to play you in SWCCG, when in fact, before LOTR/MND, there weren't quite as many females posting to Decktech. I'm not quite following your logic.</font></td></tr><tr><td><font face=arial size=2>Charlie Herren</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>"I think the furor is back".  Am i the only won that's notices the comic idiocy in that statement?<br>
-<br>
-Charlie do you know this geek?  What is he about 9 yrs old?  I thought you needed your daddy's permission to use the computer at that age?</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I don't recall the name from any local SWCCG tourneys I attended in the past couple of years, so I have no clue as to who this person is. Maybe he just started SWCCG when Coruscant came out or something..</font></td></tr><tr><td><font face=arial size=2>Charlie Herren</font><font face=arial size=2> - Mon Jun 3 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I kinda know Damian from online. He hooked me up with some cards for regionals - he seemed like a nice guy. I think he just moved to GA from some other state, forgot which though. I don't really know him well enough to defend him though. <br>
-<br>
-I think the calendar is a cool idea. It gives us a look at the female gaming community. </font></td></tr><tr><td><font face=arial size=2>Chris Wodicka</font><font face=arial size=2> - Tue Jun 4 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I know Damian pretty well, we test and go to tourneys together. I've been to his house once (DPC w/ Paul Myers and Jim) and he's been over to my place once and he's coming again Friday. My word's good, right Neal? Anyway, Damian moved here in July or so from Wisconsin. He's an all right guy, just a yankee (you know how those guys are). He can get a little fired up a bit, but when he's calm I think he's a pretty good member. As for his typing skills, he has dysographa (I believe I spelled that right) and that causes him to screw things up. As for his 'luck' with girls, he has a steady girlfriend, who is not quite as attractive as the girls I've dated, however, she seems attractive enough. He's been playing for a while and is all right (1600's?). I think he's either a junior or a senior in high school. Also, any SW GA players: tournament in Buford on the 8th. Be there. I think there'll be 10 or so. Charlie, Mike, Adam, I know y'all are playing LotR, but come out and play the game that you know that you came to love (even though D screwed it up at times. Operatives, anyone?!?)</font></td></tr><tr><td><br><font face=arial size=2><a href="http://www.decktech.net/69" target=gfds>http://www.decktech.net/69</a></font><BR><font face=arial size=2><a href="mailto:JohnAnderson12@netscape.net">John Anderson</a></font><font face=arial size=2> - Tue Jun 4 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I'm half annoyed, and half tempted by this whole thing.  hehe.  I'd be very interested in something like profiles with pictures in them, or a decktech member of the day photo or something that includes guys AND girls, but a calendar ... not to rain on the parade or anything, but I can't help but make bad connotations with the idea of a calendar.  It just smacks of objectification, though I know it's in good fun and I'm thinking of submitting anyway.  I'd be into a more level arena of sharing photos and having more participation than simply six chosen calendar girls.  Just my opinion, as a gal.   </font></td></tr><tr><td><font face=arial size=2>Megan McGinnis</font><font face=arial size=2> - Tue Jun 4 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>megan, you took the words outta my mouth.<br>
-<br>
-yeah, thats what i wanted to say. with the 'calendar' idea, people already have a mindset about what they wanna see in it...its like if you pick up playboy, you're gonna wanna see naked chicks, but if you pick up Scrye or Inquest or someting, you're not gonna have the same expectation. if it was a member of the month/day/year/century, it'd be all about people rather than a55. in the words of static x, more evil, less disco...if anyone understands that.<br>
-<br>
-respect,</font></td></tr><tr><td><font face=arial size=2>Haakon Neinhalt-Schmutzig</font><font face=arial size=2> - Tue Jun 4 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>oh the contraversy, the debates are almost more fun than the damn project.<br>
-and giles did you get my message?</font></td></tr><tr><td><font face=arial size=2>jason baretta</font><font face=arial size=2> - Tue Jun 4 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>which message, jason?<br>
-and check out my member page and the 3rd link, man...this band kicks serious a55...logan mader 4 eva<br>
-<br>
-respect,</font></td></tr><tr><td><font face=arial size=2>Haakon Neinhalt-Schmutzig</font><font face=arial size=2> - Tue Jun 4 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>In the words of Han Solo, megan "Hey It's me" (pointing to myself with an innocent grin).  Would I do anything disrespectful?  You know me.<br>
-<br>
-I think you should send a photo Megan.  Get to know your fellow players.  Dispel any myths about there being no female gamers.  Or that the only ones are horrific monsters.  That's poppycock, and this calendar is gonna prove that.<br>
-<br>
-Besides it'll be fun.  Who doesn't want to be a star?</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Tue Jun 4 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>*does best impression of princess Leia frown at Han Solo*<br>
-<br>
-Hehe.  I might just send one in.  If I don't, I'll be sure to at least send YOU one.   *grin*  I think you should also have a men of decktech calendar, I think the male gamer stereotype is probably as much in need of shattering than the girl gamer one.  Maybe even MORE in need.  I'll help judge!  *waves hand in air*<br>
-<br>
-Really, though.  Still digging the intent, but not digging the delivery.</font></td></tr><tr><td><font face=arial size=2>Megan McGinnis</font><font face=arial size=2> - Tue Jun 4 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>*looks down at date*<br>
-<br>
-Is it tomorrow already?  </font></td></tr><tr><td><font face=arial size=2>Megan McGinnis</font><font face=arial size=2> - Tue Jun 4 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>WOOOHOOO damian is banned.  </font></td></tr><tr><td><font face=arial size=2>Jeff Peck</font><font face=arial size=2> - Tue Jun 4 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I have sold about 2/3 of my good SWCCG cards. I haven't bought anything since Tatooine. My last major tournament for SWCCG was the first Atlanta DPC. After that tournament, my will to play SWCCG was just gone. You won't see me playing SWCCG much, if at all anymore.<br>
-<br>
-</font></td></tr><tr><td><font face=arial size=2>Charlie Herren</font><font face=arial size=2> - Tue Jun 4 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Ya know, that is an interesting point.  The male geek gamer stereo type could stand to be shattered.  Perhaps that should be considered.  <br>
-<br>
-Balance!</font></td></tr><tr><td><font face=arial size=2>Marc Urrutia</font><font face=arial size=2> - Tue Jun 4 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>*Tsks* taking credit for an idea talked about by the girls on IRC...<br>
-<br>
-You already had me saying yes...</font></td></tr><tr><td><font face=arial size=2>Melanie Wilberforce</font><font face=arial size=2> - Tue Jun 4 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Hey, Damian is an idiot but I'm allowed to say that cuz I'm his bud.  John's right, he has dysgraphia or something wack like that and it makes him even more retarded than he already is, but if you get to know him, he's alright.  Charlie: I vaguely know you from SWCCG days but I'm doubtful of your success with the ladies, so take it easy.  Damian:shut up dude quit looking like a moron (aka don't talk) give neal a break he seems like a good level headed guy and works hard to maintain a great site.  DT ladies- if you want to dispel any myths about gamer girls, then post ur pics so we can be the judge, and neal, if you want to do the same thing with guys to be fair to the girls, then maybe that'll smooth over some feelings.  Whatever, peace.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:willgil3@bellsouth.net">will gilchrist</a></font><font face=arial size=2> - Wed Jun 5 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Hmm, interesting. <br>
-Will: reread what I originally posted, and the posts I've made on this thread, which actually have nothing to do with "success with the ladies." But I guess since I've been worrying about other (and more important) things, like school and my job, I guess that makes me a failure..<br>
-<br>
-As for a male version of the calendar.. one request, two words: Mike Kessling.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:charlieherren@yahoo.com">Charlie Herren</a></font><font face=arial size=2> - Wed Jun 5 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Actually Charlie, I did read your posts, but I was just making an underhanded personal attack in defense of Damian Lowjack.  However, upon talking to him over AIM, I remember that he is a dufus and that he deserves no defense (I luv u damian).  I work nearly full time (but am taking the summer off of school) but I make the little lady a fairly high priority, but maybe thats just me.  Anyway, wouldn't there be some kind of legal problems with having Mike on the calendar? Other than that, he is kinda cute... </font></td></tr><tr><td><font face=arial size=2><a href="mailto:willgil3@bellsouth.net">will gilchrist</a></font><font face=arial size=2> - Wed Jun 5 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Here's a thought. Since the Queen of England is a fan of Decktech, why not honor her by adding her to the calendar? Sure she's old, but think about this: it could raise awareness of Decktech throughout the world. Just a thought I had.</font></td></tr><tr><td><font face=arial size=2>Douglas Camp</font><font face=arial size=2> - Wed Jun 5 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Saying Mike Kessling is "kinda cute" is like saying Michael Jordan was a decent basketball player. I don't know the exact legalities of posting pictures of an 8-year-old boy on the internet, but I suppose if Mike isn't in a compromising pose, then it should be alright.</font></td></tr><tr><td><font face=arial size=2>Charlie Herren</font><font face=arial size=2> - Wed Jun 5 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Oh, and as a side note, 2nd-shift jobs suck ass.</font></td></tr><tr><td><font face=arial size=2>Charlie Herren</font><font face=arial size=2> - Wed Jun 5 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I would like to second the motion for a guys calender.  Even if no girls are interested, it would at least go a little toward gender neutrality.</font></td></tr><tr><td><font face=arial size=2>John Rowe</font><font face=arial size=2> - Wed Jun 5 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>So, whaddya say Neal/Alex?  Maybe after you finish up the ladies calendar, we could consider a guys calendar.  We have already nominated Mike, and I am considered something of a stud-muffin by the ladies and would be willing to send in a pic.  I'm sure that some of the more gender neutrality minded fellas wouldn't mind leveling out things for the girls by posting some pics.  The last thing I want to see is DT becoming hotorsnot.com, but I think it would be kinda fun to give the females a fair turn and something to bring the male/female gaming community closer--and I mean that in the best possible way.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:willgil3@bellsouth.net">will gilchrist</a></font><font face=arial size=2> - Thu Jun 6 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Hmm, tell you what, i'll consider it... thing is i think there'd be TOO many submissions for that.</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Thu Jun 6 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>It is completely legal to have pictures of Mikey on a calendar as long as you can't see his no-no special spots. =^_^= Rather than a male DT Calendar, we should just have a Mikey Kessling calendar. I would take the responsibility upon myself to take some barely legal Mikey pictures. hehe.<br>
-<br>
-Oh and btw, John Anderson, the Atlanta crew (Mike, Charlie, etc) won't be able to make it on the 8th in Buford due to the fact that we'll be in South Carolina at the LOTR Territorial. Ü<br>
-<br>
-Peace.<br>
-*The Dark Horse*<br>
-¤¤¤¤Munchkin¤¤¤¤</font></td></tr><tr><td><font face=arial size=2>Munchkin Chiknas</font><font face=arial size=2> - Thu Jun 6 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>don't do it Neal, this whole things starting to get f*cking scary now..<img src=/news/smileys/sad.gif></font></td></tr><tr><td><font face=arial size=2>jason baretta</font><font face=arial size=2> - Fri Jun 7 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Hehe, the kessling calendar is just weird enough that i'm interested.  Don't tempt me, i might just hook it up!</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Fri Jun 7 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>as long as DT doesnt turn into a animal S&M lesbian barely legal fetish site, ill still keep coming here :P<br>
-<br>
-(actually, even then id still keep coming, only if the articles are good...hehe)<br>
-<br>
-respect,</font></td></tr><tr><td><font face=arial size=2>Haakon Neinhalt-Schmutzig</font><font face=arial size=2> - Fri Jun 7 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>A couple of things...<br>
-<br>
-First of all Buford GA sucks @ss...<br>
-<br>
-Munchkin may not be a fat ugly gaming chick, but she is pretty annoying sometimes, but she's not the worst gaming groupie I have ever met.<br>
-<br>
-I think the fact that this has created such a furor is hilarious. <br>
-<br>
-Mike kessling is a cute 8 year old boy, but don't insult him in public... EVER.<br>
-<br>
-Peace.</font></td></tr><tr><td><font face=arial size=2>Adam Drake</font><font face=arial size=2> - Sat Jun 8 2002  </font></td></tr></table><p><font color=#FFFFFF face=arial size=2><p>&nbsp;<a href="javascript:history.back(-1)">back</a></font><P>You must be a registered member to comment on the news. <a href="/global/join.php">Sign up here!</a>  </font> </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-            <div align="center"> 
-              <p align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF" class="legal">Legal- 
-                TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and 
-                related marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher 
-                Inc. Decipher, Customizable Card Game, The Art of Great Games 
-                and associated marks and intellectual property are exclusively 
-                owned by Decipher Inc. All Rights Reserved. THIS Web Site IS NOT 
-                PRODUCED OR ENDORSED BY DECIPHER, INC OR LUCASFILM LTD. </font></p>
-              <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF" class="legal"> 
-                <br>
-                <a href="/swccg/main/terms.php3">Terms of Service</a> TM & © 2000 
-                www.decktech.net. All Rights Reserved. </font></p>
-            </div>
-            </td>
-        </tr>
-      </table>
-    </td>
-    <td width="180" valign="top" bgcolor="#000000" height="949"> 
-      <table border="0" cellspacing="0" cellpadding="0" width="150">
-        <tr align="right" valign="top"> 
-          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
-          <td width="154" valign="top" align="right"> 
-            <table width="154" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF"> 
-                  <script language="JavaScript">
-
-function logout() {
-var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
-document.cookie = cookie;
-window.location = "../index.php3";
-	}
-
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-
-</script>
-                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
-<select name="select1" onChange="go(this)">
-    <option selected>Quick Jump</option>
-    <option value="/swccg/resources/rulings.php3">Current Rulings</option>
-    <option value="/swccg/main/decktech.php3">About DeckTech</option>
-    <option value="/swccg/membercenter/directory.php3">Member Directory</option>
-    <option value="#">-----------------------------</option>
-    <option value="/index.php">decktech.net</option>
-  </select>
-</form><!-- #EndLibraryItem --></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"> 
-                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
-                  Center</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
-                  Reports </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF" height="16"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/shop/index.php" class="level1nav">Tech 
-                  Shop </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
-                  Resources</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="left" valign="top"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="36">&nbsp;</td>
-          <td width="154" bgcolor="#FF6500" valign="top" height="36"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
-            <!-- #BeginLibraryItem "/Library/main.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-  <tr> 
-    <td>&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/main/swccg.php3" class="level2nav">About 
-      SW:CCG</a><a href="/www/articles/strategy.php3" class="level2nav"> </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/main/faq.php3" class="level2nav">FAQ 
-      </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-</table>
-<!-- #EndLibraryItem --></td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
-          <td width="155" valign="top" height="13"> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr align="left" valign="top" bgcolor="#630063"> 
-                <td width="154"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
-                  <table width="100%" border="0" cellspacing="0" cellpadding="4">
-                    <tr bgcolor="#000000"> 
-                      <td height="26"><font face="Haettenschweiler, Impact, Arial Black" size="5">F.A.Q.</font></td>
-                    </tr>
-                    <tr> 
-                      <td><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"><ul>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"><a href="main/faq.php3#password">Help, 
-                            I Lost my Password!</a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"><a href="main/faq.php3#submit">How 
-                            do I submit Decks and Articles to be reviewed?</a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"><a href="main/faq.php3#care">Why 
-                            should I care about my Tech Points?</a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"> 
-                            <a href="main/faq.php3#more">How do I get more Tech 
-                            Points?</a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"> 
-                            <a href="main/faq.php3#scale">What is the Tech Points 
-                            rating scale? </a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"> 
-                            <a href="main/faq.php3#edit">How Do I Edit My Decks 
-                            Strategy Section?</a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"> 
-                            <a href="main/faq.php3#content">Can I use DeckTech 
-                            decks and articles on my SW:CCG web site or in my 
-                            magazine?</a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"><a href="main/faq.php3#tournament">Can 
-                            I post a local tournament on your web site?</a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"><a href="main/faq.php3#link">Can 
-                            I get my Web Site listed in your links page?</a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"><a href="main/faq.php3#advertise">Can 
-                            I advertise my store on your web site?</a></font></li>
-                        </ul></font>
-                        </td>
-                    </tr>
-                    <tr> 
-                      <td>&nbsp;</td>
-                    </tr>
-                  </table>
-                  <br>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-</body>
-</html>
