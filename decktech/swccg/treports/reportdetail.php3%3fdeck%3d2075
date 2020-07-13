@@ -1,515 +1,0 @@
-<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
-<head>
-<title>DeckTech - for the players, by the players.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" href="/swccg/global/css/white.css">
-<!-- #BeginEditable "Style" --> 
-<style type="text/css">
-<!--
-.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
-.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
-.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
-.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
-.centercolor {  background-color: #630031}
--->
-</style>
-<!-- #EndEditable -->
-</head>
-<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" -->
-
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-
-<script language="JavaScript">
-<!--
-ShowBurstAd('ad8702a','468','60');
-// -->
-</script>
-
-<noscript>
-<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
-</noscript>
-
-<!-- END BURST CODE -->
- <!-- #EndLibraryItem --></td>
-    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
-      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
-    <td valign="top" class="centercolor" rowspan="2" > 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
-          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
-          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
-        </tr>
-        <tr> 
-          <td colspan="2"><!-- #BeginEditable "Body" --> 
-            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
-              <tr> 
-                <td bgcolor="#630031" height="12" valign="top" width="44%"><img src="/swccg/global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
-                <td bgcolor="#630031" align="right" valign="top" height="12" width="48%"><img src="/swccg/global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr> 
-                <td  valign="top" colspan="2" bgcolor="#630031">
-				 
-
-
-<table width=100% border=0 cellpadding=4><tr bgcolor="#000000"><td><font face="Haettenschweiler, Tahoma, Arial" size="6" color='#ffffff'>Mass States (Double TR)</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC='images/dd5.GIF' BORDER=0><A HREF="reportread.php3?deck=2075"><IMG SRC='images/ldread.GIF' BORDER=0></A><A HREF="reportreview.php3?deck=2075"><IMG SRC='images/ldreview.GIF' BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5098">Hayes "Hayes" Hunter</A></FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Date Created</Font></TD><TD><font face="Arial, sans-serif" size='2'>April 15, 2001</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Report</Font></TD><TD><font face="Arial, sans-serif" size="2">It&#146;s double TR time, and I even included MetallicA lyrics so enjoy!<br>
-<br>
-(P.S. Sorry if it does that wierd !#@$ thing... I did this on word, but edited it after pasting)<br>
-<br>
-<br>
-4-06-01<br>
-<br>
-States are in a week, and I&#146;m set.  I know exactly what decks I am going to play, and have known for quite some time, but I hadn&#146;t played in a SW tournament for about 6 weeks due to time, school, parents, and L5R tournaments.  Thus, I planned on going to the once a month Framingham tournament tomorrow to get back into the swing of things and to test my decks.  Come on, would you really think I would reveal my states decks the week before?  Apparently no one else did either...  So I get back from this girls house at like 7ish, cause I gotta make my decks and stuff, only to learn that my friend&#146;s mom is throwing him a surprise party (though it came to the guests as a surprise as well) the next day!  What to do?  PART-EH, or SW?  Hayes chooses both.  I called up his mom and it turns out I wouldn&#146;t have to be there till 7, which means I&#146;d need to leave the tourney at 6ish, so good.  I&amp;#8217;ll play some, then hit the party.  That night decks are made and that is that.<br>
-<br>
-<br>
-4-07-01 FRAMINGHAM<br>
-<br>
-Uneventfulness.  13 players, a low turnout indeed, but only cause everyone was trying to keep their decks secret.  My bro was grounded, Steebo was working, Mike Schiemer, who actually stopped by, had a track meet, so it was just me and Brentson.<br>
-<br>
-********IMPORTANT NOTICE TO KASHYYYKIANS*******<br>
-Video Connections is closing!  I don&#146;t know the exact date, but it is within the week or so.  This means everything must go!  Videos, cards, toilet paper, you name it!  (I got 29 packs and a starter of L5R, about 20 rares, and 8 videos for $60- there are some good deals, but selection is prolly low now)  Worried about where to play the first Saturday of every month now?  Worry no longer- TJ&#146;s in Milford will be taking over that role with Kris Earl and Jared Greenwald alternating TD duty.  Be there!<br>
-*******END NOTICE******<br>
-<br>
-Oh yeah, the decks.  Light is your above average Hidden Mains focusing on OTE, Barrier, Clash, and SATM to create a game winning battle or two.  A decent array of characters compliments a relatively light space package, but the 4 Edges in the deck make up for it.  Dark is MKOS Abyssin swarm with plenty of space.  I was using the Fortress hodge podge version of MKOS for a while, but Hunter convinced me to switch to swarm last minute, so props to him.  Onward.<br>
-<br>
-Game One<br>
-Hidden Mains Vs Kris Dow&#146;s (1500) COTVG<br>
-Kris has played casually with his brother back home in Texas and this turns out to be his first tourney...  Umm... Deploy, battle, drain, and retrieve.  It&#146;s that simple.<br>
-FW +41<br>
-(2+41)<br>
-<br>
-Highs: No<br>
-Lows: Yes<br>
-<br>
-Game Two<br>
-MKOS Vs Big Guy&#146;s (1500) Crap<br>
-Well wouldn&amp;#8217;t you know it- the light side won all of its games?  Well while that&#146;s good for light, it sure as hell isn&amp;#8217;t good for this dude seeing how he got the bye.  This guy was also playing in his first tourney and his deck was just pathetic.  I over-deployed.<br>
-FW +34<br>
-(4+75)<br>
-<br>
-Highs: See above<br>
-Lows: Ditto<br>
-<br>
-Game Three<br>
-MKOS Vs Jim &quot;Eclypse&quot; Valeri&#146;s (1671) WYS<br>
-WYS is generally not a good match-up for MKOS, however I was playing 5 ships so I felt I&#146;d be able to maintain somewhat of a presence in space.  Since Jim doesn&#146;t play much at all out side of tournaments he was relatively unfamiliar with the ramifications of the situation, and as such did not start Battle Plan and/or Menace Fades (he chose Insurrection, Staging Areas, and Chasm *drinky drinky motion* and I did the standard No Bargain, Power of the Hutt, and Oppressive &amp; TINT).  Not good for him.  I get a hella good start dropping Chall, Scum, Jabba The Hutt, Gailid, and an Abyssin to the AC my first turn!  We skirmish some on the ground- me being very impatient and often times not being able to draw battle destiny thanks to Master Luke bouncing my higher ability characters.  I use Jabba&#146;s text to my advantage to overcome his Battle Plan that eventually makes an appearance and I successfully kick him off the system despite his Savrip.  With celebration gone nothing could compete against my JP drains and auto retrieval.<br>
-FW +22<br>
-(6+97)<br>
-<br>
-Highs: I have now learned how to make my MKOS the best<br>
-Lows: He coulda/shoulda had it<br>
-<br>
-Game Four<br>
-Hidden Mains Vs Stephen &quot;The Gov&#146;na&quot; Cellucci&#146;s (1545) Dueling HDADTJ<br>
-You have to understand HDADTJ is all anyone plays here.  I play it, Steebo plays it, Mike Schiemer plays it... and as such, I know exactly how to beat it.  Fearing Honor he starts No Escape for his third effect and I stick to my default making YISYW mine.  He drops Carida and two battleground DBs then picks up his first turn.  I again get an incredible start getting JK Luke and his stick to the H1: DB AND Goo Nee Tay out.  I move Luke to his CC: DB and I save a force for barrier.  Visage still eating.  Hayes forgets details, but Weapon Levs, Clash, SATM, and Rebel Barrier were involved.  Basically my mini force choke prevented him from getting any solid footing while his own Visage ate him away.  The last couple of turns I Edge for the massive differential.<br>
-FW +30<br>
-(8+127)<br>
-<br>
-Highs: My differential?<br>
-Lows: Poop<br>
-<br>
-Since I had never driven to the location of the party before I wanted to make sure I wouldn&#146;t be late so at 5:45 I took off and people were still finishing their fourth game.  I told Brentson to play for the high dif so we could play before I had to go, but no dice.  He won it or something I dunno, go read the other Framingham report.  It was cool though, just before I left they did a raffle for some SW junk which I won, so conveniently my friend&#146;s gift was taken care of :)  I was going to write about the party itself, and the trouble we got ourselves into (yes, blood was involved) but it&#146;s just not as funny when you&amp;#8217;re sober.<br>
-<br>
-<br>
-4-13-01<br>
-<br>
-I couldn&#146;t fall asleep on Thursday night, and I unfortunately woke up really early on Friday.  That&#146;s bad cause I only got like 5 hours of sleep, but it&#146;s good cause I know I&#146;ll be able to fall asleep fast to get plenty of rest for states the next day.  Now, on an entirely random note, apparently I was the only person unaware that there was no school, so by the time I got on the phone at 11 everyone had plans or was already gone.  I didn&#146;t want to do any more SW cause I had been playing my decks all week (with other stuff in to throw people off the trail) and they were tight, so I decided to meet up with these girls at a mall in Boston.  I invite my bug Justin Desai along and he&#146;s like &quot;cool&quot; so we plan for me to pick him up cause he&#146;s like pooping beer.  Anyway, the plan was for me to leave my house at 12:00 get to his at 12:40 and then be at the mall at like 1:00.  Well Boston sucks ass.  I got to the outskirts of the city in like 25 minutes (with a quarter tank of gas mind you) and then proceed to spend the next, oh say, hour and a half trying to figure how the hell to get to his house.  I couldn&#146;t pull over to call him anywhere cause there are literally 0 parking spots, and there are all these 1-way streets and @#$%, it was crazy.  So I&#146;m on fumes by the time I get to within like a half mile of his place and I call him and get him to meet me cause I don&#146;t know what&#146;s going on.  We then call the 3 chicks, but alas, they weren&#146;t waiting around that long for a bunch of SW playing mofos.  So we&#146;re like now what?  As it so happens, we weren&#146;t so far from Tufts University, where my friend Travis is attending, so we figure we&amp;#8217;d give him a call.  We get over there, after stopping for gas, and meet up with Travis and play some Wars (the decks I&#146;m going to use still wrecking) then get dinner.  I drive Justin home, and me and Travis head for my place.  Travis was going to stay the night anyway because no trains arrive in Acton (the town neighboring Boxborough) before the tournament starts since he doesn&#146;t have a car.  Did that sentence make sense?  So we arrive home a whole 20 minutes before he woulda arrived had he taken the train.  Oh joy.  My leg then started cramping up some &#146;cause of the four hours of @#$%ing stop and go traffic I had to sit through, but it was ok &#146;cause my dad had an Australian dude over for dinner and he talks like Juz (which, to any non Australian/British person, is just damned amusing).  Deck lists were printed off, and then there was sleep.<br>
-<br>
-<br>
-4-14-01 BOXBOROUGH<br>
-<br>
-I swear to God (prolly not the best idea on Easter) the only thing that ever happens in my town are random conventions at the Holiday Inn.  Seriously.  The police beat is like &quot;Police assist Farmer Joe&#146;s cows cross road.&quot;  It&#146;s just this small town- 10 miles square, shaped like a&amp;#8230; you guess it: a box, hence the retarded name.  So while everyone else attending this thing has to hop on the highway for like 25 minutes plus, the Hunter household awoke at about 8am and we left at about 8:45.  That right there is tech.  Everyone goes inside, but I know the thing isn&amp;#8217;t going to start on time so I sit in my car and crank the METALLICA.  More tech.  I finally go in, pay my $12 (ick), and sit down to play.  <br>
-<br>
-And so it begins.<br>
-<br>
-&quot;Dealing out the agony within<br>
-Charging had and no one&#146;s gonna give in<br>
-Living on your knees, conformity<br>
-Or dying on your feet for honesty<br>
-Inbred, our bodies work as one<br>
-Bloody, but never cry submission<br>
-Following our instinct not a trend&quot;<br>
-<br>
-Game One<br>
-MKOS Vs Stephen &quot;The Gov&#146;na&quot; Cellucci&#146;s (1545) HBX<br>
-MKOS is basically an auto win over HBX.  His turn he drops Kessel from hand, and on mine I go for Hutt Influence and draw.  From left to right, I get Peter Parker&#146;s girlfriend, MJ (Mighty Jabba), and an Abyssin at the Passages, Gailid and Chall at the AC, Bib at the Palace (holding Jabba&#146;s Twerps), and S+D all out second turn (with the help of S+V)... Yeah I think we know where this is heading.  To add insult to injury, he never activates any of his systems and has to deploy them all from the reserve deck.  Some EPPs come down late game, but I just use them to kill my guys allowing me to retrieve them and boost my dif.<br>
-FW +32<br>
-(2+32)<br>
-<br>
-Highs: One down<br>
-Lows: none... for me, at least :P<br>
-<br>
-Now after this game someone was saying something about someone taking cards from their lost pile into their hand or something, but I dunno, it wasn&#146;t my game.<br>
-<br>
-&quot;Slamming through don&#146;t f_ck with razorback<br>
-Stepping out?  You&#146;ll feel our hell on you&#146;re back&quot;<br>
-<br>
-Game Two<br>
-Hidden Mains Vs Steve &quot;Stevie B&quot; Baroni&#146;s (1975) Kashyyyk Tallon Roll TIEs<br>
-He starts Kashyyyk, Oppressive &amp; TINT, Mob Points, and SSPFT; I start Battle Plan as my third effect.  He gets no locations for the longest time, so advantage of starting Kashyyyk is lost immediately.  I get a decent 8 and am able to get guys to DBs early on for big activation and early drains.  I had Outrider and Dash in hand relatively early on, but since he was getting such little force he wasn&#146;t spreading out so I just took over Milwaukee, and kept it, uncontested, for just about the entire game.  It was slow going, as we both knew we had excellent shots at making the final duel, and because my deck can&#146;t do more than 4 in drains on the ground (2 battleground DBs and 2 sabers).  I am able to satisfy Battle Plan and my Barriers and OTE eat him up while I use my Edges with 6s like a mad man.  At one point I flipped a Jedi Knight Luke for Off The Edge, which made Steve suspicious (and me confused) until we realized it was the Luke I had retrieved with an On The Edge like 3 turns earlier!  I got in a couple of battles where I came out very much on top thanks to destiny tracking, and he only Tallon Rolled my only Tallon Roll-able ship, Gold Leader in Gold 1, once (it came back and beat his @#$% later).  Board control is Hidden Mains&#146; friend.<br>
-FW +27<br>
-(4+59)<br>
-<br>
-Highs: Beating a deck I hadn&#146;t anticipated<br>
-Lows: Playing a friend... wait a second!  It&#146;s the MA State championship- I&#146;m going to be playing people I play every week<br>
-<br>
-&quot;Blood follows blood and we&#146;ll make sure<br>
-Life ain&#146;t for you and we&#146;re the cure&quot;<br>
-<br>
-Game Three<br>
-MKOS Vs Justin &quot;H2O&quot; Desai&#146;s (1842) WYS<br>
-Justin knows the score, so he starts both Menace and Battle Plan, along with Insurrection, but thanks to my experience in Framingham the week before I had tweaked my deck so it should handle this match-up.  My first deck dive for a site reveals none, so he gets to check out my entire deck I managed not to show him the day before.  Yay.  I just draw up and get my sites and some key space.  JK Luke comes out to play, I drop my sites and saves, he drops Han and Falcon to Kessel with I&#146;ll Take the Leader, and then is stuck with like 2 cards in hand.  Instead of going for the flip (and allowing him a free drain of 4 total) I attack in space, since I know I need to maintain domination at the systems if I want to win.  So Chall and some peeps make it to the AC, then Guri in Stinger, Bossk in Bus, and the Virago come down on the Cap&#146;n&#146;s @#$% hardcore.  I break his immunity and he has to lose some while I just ditch the Virago.  He keeps POOPing my cards and making obscene gestures but I let it go cause I flip, and then I am unstoppable in space with Guri and my JP drains are fortified.  It&#146;s was just matter of time from there.<br>
-FW +21<br>
-(6+80)<br>
-<br>
-Highs: Proving my deck can own space<br>
-Lows: Meow cow<br>
-<br>
-&quot;Honesty is my only excuse<br>
-Try to rob us of it, but it&#146;s no use&quot;<br>
-<br>
-Game Four<br>
-Hidden Mains Vs Daniel &quot;Lord Jabba&quot; Mailloux&#146;s (1634) SYCFA Troopers<br>
-I didn&#146;t know what was going on.  He looked like he was doing TIE Bombers, I mean he starts Mob Points, Planetary Subjugation, and Oppressive &amp; TINT so I start Battle Plan.  He even fetches Milwaukee and drops an asteroid sector to it.  So I&#146;m getting prepped to do some weird space battles, but am getting my mains and sabers out in the meanwhile.  OTE comes out, then EPP Vader makes an appearance so I Barrier.  He drops like 6 Stormies.  WTF?  I kick myself for playing 2 Fall of the Legend and only 1 TMAC (which cancels DJP and T Assault).  He battles, plays TA, I hack and slash and send a pile of white armor to the lost pile.  From there I know he has very little space so I get some ships to Corulag to fulfill my Battle Plan and I keep Clashing Vader, making him eat OTE along while.  My edges help the reoccurring Clash, and my dif at the end.  Last battle he drops 3 White-coats in hopes of using my own DTF against me, except since he had no cards in hand (and as such no means of playing another TA after I cancel the first one) I play TMAC on his TA and kick the crap out of them, through their helmets.<br>
-FW +26<br>
-(8+106)<br>
-<br>
-Highs: Playing an old Skool deck revamped...<br>
-Lows: ... but Stormtroopers?!  Come on!<br>
-<br>
-By now the multiple waters and Ginger Ales I&#146;ve been drinking are starting to catch up with me, and it becomes a very very good thing that my games take only about 25-30 minutes.<br>
-<br>
-&quot;Steamroller action crushing all<br>
-Victim is your name and you shall fall&quot;<br>
-<br>
-Game Five<br>
-Hidden Mains Vs Rick &quot;Jedi Simnot&quot; Gaudioso&#146;s (1724) Imp Command BHBM<br>
-Rick started this game informing me he wished he could play his light... go figure.  I start YISYW, he goes for Oppressive &amp; TINT.  Anyway, he doesn&#146;t deploy Carida, even though it&#146;s in his opening hand (he shows me after I verify his deck) but instead puts Emperor Palpatine to the D*II: DB.  Luke comes out of the reserve deck to the H1: DB where he picks up his saber.  Rick drops CHYBC (damnit) and searches for a DB, but finds none.  I see 4 Vader&#146;s in his deck.  Luke eventually makes his way to the Spaceport DB which is attached to Corulag, Lord Vader comes down with Saber, then retreats to the Emperor at the D*II DB, costing him his last 3 force, and I smile.  My turn I activate like a fiend, drop Blount to the D*II DB, expecting him to get zapped- it doesn&#146;t happen.  So down comes Obi, then Protector, and finally DTF.  I battle, don&#146;t retrieve one cause of CHYBC, but he loses one, I Weapon Lev Vader&#146;s Saber, hit Vader, then Clash him making him immediately lost and freeing Luke.  I miss the Emperor with Luke, but he still has to lose like 8 force after the Emperor.  Blount dies, and in the 8 he lost he loses the decks second Palpatine.  It&#146;s too much of a loss to recover from.  I just fend off his measly attacks with Barriers and SATM, then get in my standard last-couple-of-turns retrieval, and we finish the game with him not occupying a single location.<br>
-FW +30<br>
-(10+136)<br>
-<br>
-Highs: Early beats<br>
-Lows: Early beats<br>
-<br>
-&quot;We chew you up and spit you out<br>
-We laugh, you scream and shot<br>
-All flee, with fear you run<br>
-You&#146;ll know just where we come from<br>
-<br>
-Damage incorporated&quot;<br>
-<br>
-Game Six<br>
-MKOS Vs Steve &quot;Stevie B&quot; Baroni&#146;s (1975) AvataR QMC<br>
-He knows how to approach MKOS as well as Justin, so he starts Menace, Plan, and Squass, I do the usual.  I just deploy my site and draw.  He deploys his site and gets Dash and ship to Bespin.  I drop another site and draw again, saving some force.  He deploys Ten Numb to the system and another site and sets up CC Celebration with Leia and Melas, leaving him with very few cards in hand.  I flip with minimal cards including Bib and Jabba the Hutt, drop Guri in Stinger, then Zuckass in Boat, which is Barriered, and I add 2 Abyssins for fodder then pick up.  Kyle Huer joins the party in space and we fight.  I flip a 4 and 5, which are really a 6 and 7, while he draws a 5 which is canceled by Myo, and a 2 for power.  Kyle runs to the sector, leaving Blue 5 sitting with an Intruder Missile on it at the system, so I cancel Celebration.  I drain for an @#$% load for free, then drop the Virago I just drew and then Xizor aboard it and battle, reducing my lost pile to 0 and killing his space.  I just own the Bespin system and the ground on Tatooine, so there&amp;#8217;s not a thing he can do, but I over draw cause my hand was all icky red.  And I&#146;m in the finals to face my brother.<br>
-FW +20<br>
-(12+156)<br>
-<br>
-Highs: Done, nearly<br>
-Lows: None, clearly<br>
-<br>
-&quot;Damage jackals ripping right through you<br>
-The sight and smell of this it gets me goin&#146;&quot;<br>
-<br>
-Eric got the first round bye, and managed to keep his dif low enough that we never had to play (he finished at +80, nearly half my score).  Going into the last round there, we were first and third so we didn&#146;t have to play&amp;#8230; Anyway last year&amp;#8217;s finals were with my bro, too.  He was 5-1, losing only to me and I was 6-0.  Since the prize was the same (a bye to day 2 of Continentals) I didn&#146;t mind so much that he won (we played a 1 game final by a couple cards).  This year would be different.  Since I was in first I opted to play my dark first.<br>
-<br>
-&quot;Know just how to get just what we want<br>
-Tear it from your soul in nightly hunt&quot;<br>
-<br>
-Final: Game One<br>
-MKOS Vs Eric &quot;Bounty22&quot; Hunter&#146;s (1994) Hidden Mains<br>
-His third effect was Wise &amp; DODN so his grabbers would go free.  I just get out a site and draw.  He deploys locations and draws.  I drop another site and flip with a couple guys and scum, then consolidate my forces (keeping an alien leader at each of the sites for Jabba&amp;#8217;s Twerps, the techiest tech of all).  He plops down Jedi Luke with Saber to the Spaceport DB and moves to JP.  Now I do my bonehead play of the day: I have Myo and 4 Abyssins in hand, along with Guri and her ship and Zuckass in Boat and some gay red cards.  I drop the 4 Abyssins to JP, I DON&#146;T deploy Myo to the Chamber, nor do I use POTH for another guy, and I battle.  D&#146;oh.  Fortunately he doesn&amp;#8217;t have Fallen Portal (I can read my bro like a book ;) but we do only tie in power.  At least I canceled his destiny and drew really well, so he had to lose some force, and I just had to retreat.  He made some attempts to enter the palace directly, but Elephant Man said no to Lando with Axe, and Obi was NSPed.  Luke found his way to AC, where MJ replaced Fatty and I made him lose Luke and a bunch cause I was now adding +2 to all my many destinies.  The board was void of his characters and ships so I took over all the locations and retrieved my force for a sound win.<br>
-FW +27<br>
-(14+183)<br>
-<br>
-Highs: Knowing BHBM can&#146;t win by 28<br>
-Lows: Forgetting Myo wasn&amp;#8217;t out then, deploying four Abyssin&#146;s to take on Jedi Luke<br>
-<br>
-&quot;F_ck it all and @#$%ing no regrets<br>
-Never happy ending only dark sets&quot;<br>
-<br>
-Final: Game Two<br>
-Hidden Mains Vs Eric &quot;Bounty22&quot; Hunter&#146;s (1994) BHBM<br>
-Now I was angry.  I was prepared to draw up once he got under 27, but I just kept playing.  Lessee, he said he was going to play aggressive, so instead of dropping Emperor Palpatine to the D*II DB he went to the CC DB.  Neh, I just saved force and deployed locations (Dagobah, Hut, and H1 DB from deck, Corulag, CC DB and Spaceport DB from hand :).  Preparing for the second turn beat down.  He dropped 2 guys with Palp, neither was Vader, so on my turn out came Luke, who was Barriered, then Leia from hand and Protector and Anakin&#146;s saber for her.  I battle and win, but I have to lose both guys, leaving Luke naked.  He beats Luke up some, for the only battle he won all game, and Luke satisfied the battle damage.  Next turn Obi and Luke come out and kill some stuff.  I take over the Throne Room eventually and GOD makes an appearance.  GOD sits there with Luke and Obi (he didn&#146;t want to take Luke with Vader for obvious reasons) reducing the drain at the other CC DB, and then I finally get my edges, after he grabs one of my recircuable 6s.  I just deal some battle and OTE damage and drain him out.<br>
-FW +20<br>
-(16+203)<br>
-<br>
-Highs: I am the state champion and get to sleep the night before day 2 of worlds<br>
-Lows: None, whatsoever<br>
-<br>
-&quot;All&#146;s fair for Damage Inc. you see<br>
-Step a little closer if you please&quot;<br>
-<br>
-Props to:<br>
-All who came<br>
-All the new people who came<br>
-All my opponents<br>
-Kris and Steve for running 3 State Championships simultaneously<br>
-My bro for a valiant effort (his decks were ass; he went 6-0 on skill)<br>
-That funny little Chinese kid who told me it wasn&#146;t his card<br>
-Mike &quot;Deck&quot; Gemme for the Outrider<br>
-Mike &quot;Deck&quot; Gemme for the book of tech<br>
-Justin Gemma for the name and the good performance<br>
-Anyone who kept their card I gave them<br>
-Brian Hunter &#146;cause he helped me switch to swarm<br>
-Paul Maholick for winning RI again<br>
-Brian Cieszynski for winning NH again<br>
-Me, &#146;cause if my 14-0 ever gets updated I&#146;ll be 2200+<br>
-Anyone I forgot!<br>
-<br>
-Slops to:<br>
-Whoever was cheating<br>
-The Holiday Inn for charging an @#$% load for the banquet hall rooms<br>
-Me for not remembering more (details, props and slops, but can you blame me?  It&#146;s 5 in the morning and I haven&amp;#8217;t slept all night.  No rest for the weary I swear)<br>
-<br>
-&quot;Blood will follow blood<br>
-Dying time is here<br>
-Damage incorporated&quot;<br>
-<br>
-Thanks for reading (this far).<br>
-<br>
--Hayes &quot;Hayes&quot; Hunter<br>
-Massachusetts State Champion </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="allreports.php3"><img src='images/ldback.GIF' border="0"></a><A HREF="reportread.php3?deck=2075"><IMG SRC='images/ldread.GIF' border="0"></A><A HREF="reportreview.php3?deck=2075"><IMG SRC='images/ldreview.GIF' border="0"></A></FONT></TD></TR></TABLE>		
-		 
-				 
-				
-				
-				 </td>
-              </tr>	  
-            </table>
-            <!-- #EndEditable --> </td>
-        </tr>
-      </table>
-    </td>
-    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
-      <table border="0" cellspacing="0" cellpadding="0" width="150">
-        <tr align="right" valign="top"> 
-          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
-          <td width="154" valign="top" align="right"> 
-            <table width="154" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF">&nbsp; </td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF"> 
-                  <script language="JavaScript">
-
-function logout() {
-var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
-document.cookie = cookie;
-window.location = "../index.php3";
-	}
-
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-
-</script>
-                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
-<select name="select1" onChange="go(this)">
-    <option selected>Quick Jump</option>
-    <option value="/swccg/resources/rulings.php3">Current Rulings</option>
-    <option value="/swccg/main/decktech.php3">About DeckTech</option>
-    <option value="/swccg/membercenter/directory.php3">Member Directory</option>
-    <option value="#">-----------------------------</option>
-    <option value="/index.php">decktech.net</option>
-  </select>
-</form><!-- #EndLibraryItem --> </td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
-                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
-                  Center</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
-                  Reports </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/treports/index.php3" class="level1nav"></a></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav"></a><a href="/swccg/shop/index.php" class="level1nav">Tech 
-                  Shop </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
-                  Resources</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
-          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/treports.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-  <tr> 
-    <td>
-	<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;
-	<a href="/swccg/treports/index.php3" class="level2nav">Reports Home </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-
-  <tr> 
-    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/allreports.php3" class="level2nav">All Reports 
-      </a><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/localreports.php3" class="level2nav">Local Reports 
-      </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/grandslamreports.php3" class="level2nav">Grand 
-      Slams </a> <br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/statereports.php3" class="level2nav">State Champs 
-      </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/openreports.php3" class="level2nav">Open/Regional</a><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr>
-    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/worldsreports.php3" class="level2nav">World Champs 
-      </a><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr> 
-    <td> <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/sealedreports.php3" class="level2nav">Sealed 
-      Deck </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>  
-</table>
-<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
-          <td width="155" valign="top" height="13"> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr align="left" valign="top" bgcolor="#630063"> 
-                <td width="154">
-
-<center>
-  <a href="/dpc/events/vegas.php"><img src="/global/images/125banner_vdpc.gif" width="129" height="125" border="0"></a> 
-</center>
-<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
-                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="4">
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
-      Updates</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><a href='/swccg/resources/hoostinopage.php3'><font face='Arial, sans-serif' size='2'>Justin Warren</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2002-05-17</font><BR></td>
-  </tr>
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
-      Tips</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><p><font face='arial' size='2' color='#ffffff'>Trying to find something to do to help promote SW:CCG? Look at our community projects just off the homepage!</font></td>
-  </tr>
-</table>
-<!-- #EndLibraryItem --></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate --></html>

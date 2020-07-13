@@ -1,461 +1,0 @@
-<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
-<head>
-<title>DeckTech - for the players, by the players.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" href="/swccg/global/css/white.css">
-<!-- #BeginEditable "Style" --> 
-<style type="text/css">
-<!--
-.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
-.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
-.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
-.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
-.centercolor {  background-color: #630031}
--->
-</style>
-<!-- #EndEditable -->
-</head>
-<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" -->
-
-<!-- BEGIN RICH-MEDIA BURST! CODE -->
-<script language="JavaScript">
-<!-- /* © 1997-1999 BURST! Media, LLC. All Rights Reserved.*/
-var TheAdcode = 'ad8702a';
-var bN = navigator.appName;
-var bV = parseInt(navigator.appVersion);
-var base='http://www.burstnet.com/';
-var Tv='';
-var agt=navigator.userAgent.toLowerCase();
-if (bV>=4)
-  {ts=window.location.pathname+window.location.search;
-   i=0; Tv=0; while (i< ts.length)
-      { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-   if( Tv.charAt(0)!='/' ) Tv="/"+Tv;
-          else if (Tv.charAt(1)=="/")Tv="";
-  if( Tv.charAt(Tv.length-1) == "/")
-    Tv = Tv + "_";}
-if (bN=='Netscape'){ 
-     if ((bV>=4)&&(agt.indexOf("mac")==-1))
-{  document.write('<s'+'cript src="'+ 
-      base+'cgi-bin/ads/'+TheAdcode+'.cgi/RETURN-CODE/JS' 
-      +Tv+'">'); 
-     document.write('</'+'script>');    } 
-     else if (bV>=3) {document.write('<'+'a href="'+base+'ads/'+ 
-        TheAdcode+'-map.cgi'+Tv+'"target=_top>'); 
-        document.write('<img src="' + base + 'cgi-bin/ads/' + 
-        TheAdcode + '.cgi' + Tv + '" ismap width="468" height="60"' + 
-        ' border="0" alt="Click Here"></a>');} 
- } 
-if (bN=='Microsoft Internet Explorer') 
- document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'+ 
-  TheAdcode + '.cgi' + Tv + '/RETURN-CODE" width="468" height="60"' + 
-  'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' + 
-  'frameborder="0" scrolling="no"></ifr'+'ame>'); 
-// --> 
-</script>
-<noscript><a href="http://www.burstnet.com/ads/ad8702a-map.cgi" target="_top"> 
-<img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi" 
- width="468" height="60" border="0" alt="Click Here"></a> </noscript> <!-- END BURST CODE --> 
- <!-- #EndLibraryItem --></td>
-    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
-      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
-    <td valign="top" class="centercolor" rowspan="2" > 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
-          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
-          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
-        </tr>
-        <tr> 
-          <td colspan="2"><!-- #BeginEditable "Body" --> 
-            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
-              <tr> 
-                <td bgcolor="#630031" height="12" valign="top" width="44%"><img src="/swccg/global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
-                <td bgcolor="#630031" align="right" valign="top" height="12" width="48%"><img src="/swccg/global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr> 
-                <td  valign="top" colspan="2" bgcolor="#630031">
-				 
-
-
-<table width=100% border=0 cellpadding=4><tr bgcolor="#000000"><td><font face="Haettenschweiler, Tahoma, Arial" size="6" color='#ffffff'>Seattle, WA 8/12/00</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC='images/dd4.GIF' BORDER=0><A HREF="reportread.php3?deck=1116"><IMG SRC='images/ldread.GIF' BORDER=0></A><A HREF="reportreview.php3?deck=1116"><IMG SRC='images/ldreview.GIF' BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=443">Douglas "Douglas" Harvilla</A></FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Date Created</Font></TD><TD><font face="Arial, sans-serif" size='2'>August 13, 2000</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Report</Font></TD><TD><font face="Arial, sans-serif" size="2">  Finally, the first tournament at Broken Games since the release of Death Star II, and 24 players turn up to compete.  Martin Norris, Rogue 7 and as dedicated a squadron member as you'll find anywhere, runs this event,<br>
-scheduled on Decipher's birthday.<br>
-<br>
-  My Hunt Down is ready and waiting, all tuned-up and tricked out with the coolest of the Death Star II cards.  Light Side?  That's a whole other story.  Finally settle on a Home One: War Room start for big blue pounce, thumbing my nose at Captain Sarkli.  I'm not expecting him to be real<br>
-popular with this crowd yet.<br>
-<br>
-  DS - Vader, May I?  <br>
-<br>
-  A Hunt Down permission deck of sorts, it's all about staying in control of the game.  May I play this interrupt?  May I turn you to the Light Side?  May I draw this Intruder Missle for a battle destiny?  Afraid not.<br>
-<br>
-  LS - Super Mon<br>
-<br>
-  To Home One what the Superfalcon deck was to everybody's favorite flying fast food freighter.  Mind you, the other ships are nasty, too.  A variety of the best DSII effects, and at least three ways to stop a battle destiny draw.  <br>
-<br>
-  <br>
-<br>
-  Game 1 - DS versus James Forinash's Hidden Base Squassin<br>
-<br>
-  I start with the usual Hunt Down stuff, no Epic Duel, and Prepared Defenses for Imperial Arrest Order, Mobilization Points, and Crush The Rebellion.  He gets out Insurrection, Squadron Assignments, and Your Insights Serve you Well.<br>
-<br>
-  My first game action is to grab the Executor with Mobilization Points, then I activate and pull out a docking bay.  Turn it over to James, he deploys Kashyyyk and controls it with Hol Okand in Gold 6.  On my turn, Lord<br>
-Vader with Vader's Lightsaber hits the Death Star DB and flips my objective.  We drain each other for a turn.<br>
-<br>
-  He reinforces with a couple X-Wings.  I'm activating 11 at this point, so it takes only a turn to save up and drop the Executor and some pilots at Kashyyyk.  We rumble over this system for a couple turns, as he loses X-Wings to cover attrition and I forfeit pilots to cover battle damage.<br>
-<br>
-  James' ships are getting worn down steadily, and he is forced to move to Tatooine, leaving me with a drain at Kashyyyk.  I transit Vader back to the Executor DB, and next turn move him to the ship itself, taking firm control<br>
-of space with the Vader-Tarkin combo.  Two turns later, Visage ends the game.<br>
-<br>
-  Win by 31<br>
-<br>
-2(+31)<br>
-Highlights: A lot of interaction in space.<br>
-Lowlights: None on the ground, whatsoever.<br>
-<br>
-<br>
-  Game 2 - LS versus Ben Rich's SYCFA TIE Interceptors<br>
-<br>
-  We get out our effects, and I settle for Insurrection, Insights, and Strike Planning.  The latter seems to be a good choice, because it has Ben confused as to what my deck is up to.  When I deploy Docking Bay 94 and Ben Kenobi, he still has no idea what I'm doing.  But he fishes for There Is No Try, just in case.  We both deploy docking bays from the deck, and Ben gets Sienar Fleet Systems out protected by a TIE Interceptor and The Emperor's Sword at Wakeelmui.<br>
-<br>
-  Inexplicably, he puts Presence Of The Force on Wakeelmui.  While this gives him an extra drain, it makes a frontal assault on the place a lot easier to pull off.  I lose Insights to get Launching The Assault and fetch Home One from the deck.  Deploy a cheap leader to the War Room, making Home One deploy -5 and power +3.<br>
-<br>
-  At Wakeelmui, Home One deploys with the new Wedge and Tycho Celchu piloting.  Of course, Ben barriers, but I cancel it with Sense.  Battle, cancel his destiny draw (Tycho is a Rogue pilot, check the lore), and clear out the system plus some of Ben's life force.  When I control Wakeelmui, I cancel Sienar Fleet Systems with Alter.  Worth a measly 2 cards lost to There Is No Try.<br>
-<br>
-  He has a TIE Interceptor landed at Docking Bay 327 to hold a battleground site for Battle Order.  EPP Luke kicks it out.  The battle damage is canceled by SYCFA, but it still hurts, since now Ben has to pay extra for his TIEs until he takes back Wakeelmui, and is also paying for his force drains.<br>
-<br>
-  Drop R2 In Red 5 at the DB, Luke hops aboard and takes off to the system.  Ben drops a big fleet at Sullust, and moves all his ships together there, except Baron Soontir Fel in Saber 1.  I drop Liberty and Spiral on him and<br>
-battle, but flip low, though I win the battle by 3, Ben covers it from hand and the Baron stays.  Spiral is lost, and I move Luke in his ship over to back up Liberty.  Spread my other ships out to drain.<br>
-<br>
-  We get in one more battle, then Ben is unable to cross the parsec gaps to stop my drains.<br>
-<br>
-  Win by 18<br>
-<br>
-4(+49)<br>
-Highlights: The deck works.<br>
-Lowlights: Terrible draws in battle.<br>
-<br>
-<br>
-  Game 3 - DS versus Joe Olson's There Is Good In Him<br>
-<br>
-  Ahhh, long-awaited interaction on the ground.  We get all our effects out and the number of cards on table is just obscene before the game even begins.  It won't be a long game.<br>
-<br>
-  Activate 5, deploy Captain Sarkli to the Landing Platform, and draw cards.  Joe activates 2 force, pulls out a docking bay, and moves Luke over to be captured.  I deploy Darth Vader and flip, transfer Luke into his custody,<br>
-and move him and Sarkli to Chief Chirpa's Hut.<br>
-<br>
-  Joe is still not activating jack, with Sarkli interrupting his force generation at the Hut.  Still, he is able to drop an Elom at the Home One docking bay to get some extra force with Staging Areas.  He is reluctant to<br>
-deploy Honor Of The Jedi because he doesn't occupy a battleground, so instead he invades the Executor.<br>
-<br>
-  A spy and Orrimaarko take over the Holotheatre, canceling Visage.  I play Masterful Move to get the spare Visage, play Put All Sections On Alert to cancel Orri's game text and keep him from getting a battle destiny.  Deploy<br>
-Jabba The Hutt and 4-LOM With Concussion Rifle, battle, flip a 6 (Emperor Palpatine) and a 1.  Clear the site and put Visage back in business.<br>
-<br>
-  He deploys Honor Of The Jedi after putting Captain Han in the Falcon at Kessel to make it immune to Alter.   Not enough force to take back Kessel right now, so I have to spread across three battlegrounds or kick Han out of<br>
-town to get around it.  No prob.<br>
-<br>
-  I was tracking the Put All Sections On Alert, 15 cards down, but do some counting and figure out where the Emperor I drew should be.  When I activate<br>
-everything, he's still two cards down, so I cancel my own Blast Door<br>
-Controls with Alter, deploy Janus Greejatus, and put a card on the bottom of<br>
-my Used Pile with his game text to draw the top card of my deck, which<br>
-should be the Emperor.  It works.<br>
-<br>
-  Deploy Palpatine to Chief Chirpa's Hut, adding a Dark Side icon and making the place a battleground.  Move Sim Aloo and Sarkli to the Landing Platform, and transit Vader and Tarkin back to Docking Bay 327.  At the end of my turn, Visage once again nails my opponent.<br>
-<br>
-  I get drained at Kessel, but had a bunch of cards in hand anyway.  On my turn, drain all over the place, though he stops the drain at the Hut with Bargaining Table.  With Janus, I put a card back to draw one off the top.  Boba Fett In Slave 1.  Then I check out my opponent's top card with Sim Aloo.  A 3, that's acceptable.  Drop BFIS1 to Kessel, battle, draw a 4 to his 3, and I win the battle by 2.  Joe tacks on an Elom for forfeit fodder and battles, he gets a 4, I get a 6 and take Kessel.  It is over the next<br>
-turn when I drain him.<br>
-<br>
-  Win by 25<br>
-<br>
-6(+74)<br>
-Highlights: I'd been looking forward to this match-up.<br>
-Lowlights: No battles on the ground, just at Kessel.<br>
-<br>
-<br>
-  Game 4 - LS versus Mike Mikaelian's Hunt Down TIE Interceptors<br>
-<br>
-  We each get our docking bays out, and he flips on the second turn with Dark Lord Of The Sith at Docking Bay 327, then transits to the Executor for safety.  I deploy Kessel with General Calrissian and Nien Numb aboard Gold Squadron 1 to drain, and Honor Of The Jedi to protect myself from Visage.<br>
-<br>
-  Mike deploys Baron Soontir Fel in Saber 1 with SFS Lasers and DS-181-3 in Saber 3 to Kessel, but doesn't battle, instead saving his 4 remaining force.  I'm surprised, but by no means disappointed.  Maybe he is uncomfortable with<br>
-the idea of missing with the lasers, losing a ship to attrition, and having the remaining one pounded on my turn by an angry Falcon with Home One as backup.<br>
-<br>
-  I deploy Ben Kenobi to Docking Bay 94, flipping Mike's objective back over, and move the Falcon to Wakeelmui.  With great satisfaction, I tell my opponent to lose one to Visage.  Now his TIEs are stranded at Kessel with no<br>
-hyperdrives.  He deploys Fighters Coming In, then a pair of unique TIEs to Wakeelmui and we battle.<br>
-<br>
-  His own Admiral's Order gives me enough immunity to hang on, but I lose a few cards.  He forfeits a TIE and relocates it to the DB, but tries to do it with the pilot.  We call over the TD and he rules against it, so Mike won't<br>
-get to just take off for free and put the ship right back in action.<br>
-<br>
-  I'd like to get Wedge down to cancel a destiny, but I don't have any Red or Rogue pilots in my hand.  Remembering a wierd rule that goes way back, I deploy him on the Falcon as a passenger, with Romas 'Lock' Navander on Red Squadron 1.  Now Romas is a Red Squadron pilot, so I get to cancel a battle destiny.  Wakeelmui is cleared out quick.<br>
-<br>
-  A drain of 2 at the Spaceport Docking Bay reminds me of the other text on Fighters Coming In, since it includes a drain bonus.  DVDLOTS is alone at the DB, so I deploy EPP Luke there and transit Ben Kenobi and General Blissex over.  Mike battles, and I hit Vader with Luke's saber, than play The Force Is Strong With This One and end up with 21 power to his 11.  He loses a whole mess of cards, and battles me in space to finish off his remaining life force.<br>
-<br>
-  Win by 12<br>
-<br>
-Highlights: Reversing Visage, taking over Wakeelmui.<br>
-Lowlights: That's the second TIE deck in a row.  These are getting old.<br>
-<br>
-<br>
-  Game 5 - LS versus Charles Hickey's (drumroll please) SYCFA TIEs<br>
-<br>
-  Oh, come on, people.<br>
-<br>
-  This one starts like the other two games, but Hickey has out Oppressive Enforcement and is playing grabbers (one of which I handed him for the tournament - d'oh!).  He's also a little tougher to lure into space, keeping the &quot;pounce&quot; element of my deck from coming into play.<br>
-<br>
-  He's got Dreaded Imperial Starfleet out, so I've got to set up to drain in 2 places before he even considers deploying anything.  But eventually we get things moving.  A Dreadnaught and a couple TIE Interceptors.  Gee, this<br>
-looks familiar.  With Launching The Assault, I get Home One from the deck with Ackbar and Thaneespi piloting, so Charles' battle destiny is reduced to zero.<br>
-<br>
-  This game ran way too long, so I'll summarize it.  Cancel stuff until Sense and Alter are both grabbed, while Charles seems to be playing duplicates of the drain-canceler effect and retrieving just enough force to stay technically alive in spite of my drains.  We have several big battles,<br>
-but I typically outpower him by enough to force the forfeiture of a bunch of ships.<br>
-<br>
-  Ten minute warning.  I drain, he retrieves, we battle once.  Five minute warning.  I drain, he retrieves, we battle once.  Two minute warning, now the battles are a memory, it's just my drains versus his retrieval.  When<br>
-the time runs out, I'm in clear control of the game, with drains going at 3 systems and total domination of the board.<br>
-<br>
-  However, he has 20 cards left, I only have 19.  So it is a timed loss.  Oh, well.<br>
-<br>
-  Timed Loss by 20<br>
-<br>
-8 (+66)<br>
-Highs: The deck still works, and would've won in short order.<br>
-Lows: Playing three stupid TIE decks in a row.<br>
-<br>
-<br>
-  Game Six - DS versus Charles Hickey's Profit<br>
-<br>
-  He goes with Premiere Han, I put Mara and Jabba The Hutt in the Audience Chamber to watch the scoundrel.  Deploy Vader to Jabba's Palace on the first turn, flip.  After a turn, Charles drops Master Luke with Anakin's Lightsaber and Ben Kenobi at the Audience Chamber and battles.  Swing at Master Luke, miss.  He hits Jabba, but draws a battle destiny of 0 to my 4, he forfeits Luke and revives, minus the saber.  I forfeit Jabba.<br>
-<br>
-  Deploy the Emperor to DB 327, Vader and Mara switch places.  Charles moves his mains to Jabba's Palace hoping to catch Mara with Fallen Portal.  I deploy 4-LOM With Concussion Rifle, IG-88 With Riot Gun, then Sim Aloo.  Use<br>
-Sim to make sure Mara is safe before battling.  Sure enough, there's a 0 on top of Charles' Reserve Deck, and he flips it for Fallen Portal.<br>
-<br>
-  4-LOM tries to cancel Ben's text, but Blaster Deflection cancels the targeting.  Mara swings at Ben, and I cancel Swing And A Miss with Sense, but miss Ben anyway.  So Charles takes out the bounty hunters and moves Boushh to the Audience Chamber in my move phase to confront Vader, then gets Ben and Luke back there on his turn.<br>
-<br>
-  Battle and swing at Ben, draw a tracked total of 7 and hit him, then play I Have You Now.  Charles shoots Leia's Blaster Rifle at Vader, and I cancel the targeting with Force Field, but he jumped the gun on Blaster Proficiency, so now I know what he has planned.  Draw 3, 3, 5, add 1 to<br>
-each.  Clears the place out except for Boushh, and flips my objective.<br>
-<br>
-  On his turn, he deploys Master Luke across from Mara, flipping my objective.  But he battles there first.  Mara hits him and then flips a 7 for battle destiny.  Total of 13 (Emperor's on table) to 11, he loses Luke and a couple cards, and my objective flips.  Now Boushh can't battle, so<br>
-Charles can't take out Vader using her rifle and Blaster Proficiency.  I Sniper her out of the picture and Charles draws up.<br>
-<br>
-  Win by 13<br>
-<br>
-10(+79)<br>
-Highlights: A lot of battling.<br>
-Lowlights: The bounty hunter droids getting clobbered.<br>
-<br>
-<br>
-  So the standings are announced, and I'm tied for first place with Ben<br>
-Rich, a nice guy who's visiting us for a while out here.  We both have 10<br>
-(+78), and his only loss was to me with his TIE deck.  The tiebreaker used<br>
-is best game, and he has a win by 41 in the first round, so he gets the win<br>
-and first crack at the prizes, including a very cool Chewbacca coffee mug<br>
-painted by Martin's wife.<br>
-<br>
-  I pick up four packs of DSII in prize support and pull an Emperor from the first one.  Elated, I scramble around to find opponents for a few casual games, and Matt Bryant says he wants to see my Light deck in action, so we get out our starting stuff.  Predictably, he's playing another TIE deck.<br>
-That's four in a row.  God Almighty, I hope this is just a passing fad.<br>
-<br>
-  Thanks to Martin for running the tournament and everybody for showing up, see you all at the next one.<br>
-<br>
- </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="allreports.php3"><img src='images/ldback.GIF' border="0"></a><A HREF="reportread.php3?deck=1116"><IMG SRC='images/ldread.GIF' border="0"></A><A HREF="reportreview.php3?deck=1116"><IMG SRC='images/ldreview.GIF' border="0"></A></FONT></TD></TR></TABLE>		
-		 
-				 
-				
-				
-				 </td>
-              </tr>	  
-            </table>
-            <!-- #EndEditable --></td>
-        </tr>
-      </table>
-    </td>
-    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
-      <table border="0" cellspacing="0" cellpadding="0" width="150">
-        <tr align="right" valign="top"> 
-          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
-          <td width="154" valign="top" align="right"> 
-            <table width="154" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF">&nbsp; </td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF"> 
-                  <script language="JavaScript">
-
-function logout() {
-var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
-document.cookie = cookie;
-window.location = "../index.php3";
-	}
-
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-
-</script>
-                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
-<select name="select1" onChange="go(this)">
-    <option selected>Quick Jump</option>
-    <option value="/swccg/resources/rulings.php3">Current Rulings</option>
-    <option value="/swccg/main/decktech.php3">About DeckTech</option>
-    <option value="/swccg/membercenter/directory.php3">Member Directory</option>
-    <option value="#">-----------------------------</option>
-    <option value="http://www.decktech.net">decktech.net</option>
-  </select>
-</form><br>
-<!-- #EndLibraryItem --> </td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
-                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
-                  Center</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
-                  Reports </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/treports/index.php3" class="level1nav"></a></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav"></a><a href="/swccg/shop/index.php" class="level1nav">Tech 
-                  Shop </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
-                  Resources</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
-          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/treports.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-  <tr> 
-    <td>
-	<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;
-	<a href="/swccg/treports/index.php3" class="level2nav">Reports Home </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-
-  <tr> 
-    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/allreports.php3" class="level2nav">All Reports 
-      </a><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/localreports.php3" class="level2nav">Local Reports 
-      </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/grandslamreports.php3" class="level2nav">Grand 
-      Slams </a> <br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/statereports.php3" class="level2nav">State Champs 
-      </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/openreports.php3" class="level2nav">Open/Regional</a><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr>
-    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/worldsreports.php3" class="level2nav">World Champs 
-      </a><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr> 
-    <td> <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/sealedreports.php3" class="level2nav">Sealed 
-      Deck </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>  
-</table>
-<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
-          <td width="155" valign="top" height="13"> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr align="left" valign="top" bgcolor="#630063"> 
-                <td width="154">
-
-
-<center>
-  <a href="http://www.decktech.net/swccg/index_news.php3?artc=18"><img src="/swccg/global/images/banner_125.jpg" width="125" height="121" border="0"></a> 
-</center>
-
-
-<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
-                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="4">
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
-      Updates</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-07-26</font><BR><a href='/swccg/resources/clintpage.php3'><font face='Arial, sans-serif' size='2'>Clint Hays</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-07-25</font><BR><a href='/swccg/resources/hoostinopage.php3'><font face='Arial, sans-serif' size='2'>Hoostino</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-07-26</font><BR></td>
-  </tr>
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
-      Tips</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><p><font face='arial' size='2' color='#ffffff'>For newer members wanting to gain review ability, the easiest thing is to first write a tournament report. Check the current reports to get the feel for different styles, then go to a tournament and write your own. Even Sealed Decks count!</font></td>
-  </tr>
-</table>
-<!-- #EndLibraryItem --></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate --></html>

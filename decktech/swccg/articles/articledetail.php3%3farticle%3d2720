@@ -1,413 +1,0 @@
- 
-<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
-<head>
-<title>DeckTech - for the players, by the players.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" href="/swccg/global/css/white.css">
-<!-- #BeginEditable "Style" --> 
-<style type="text/css">
-<!--
-.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
-.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
-.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
-.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
-.centercolor {  background-color: #004142}
--->
-</style>
-<!-- #EndEditable -->
-</head>
-<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-
-<script language="JavaScript">
-<!--
-ShowBurstAd('ad8702a','468','60');
-// -->
-</script>
-
-<noscript>
-<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
-</noscript><!-- #EndLibraryItem --></td>
-    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
-      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
-    <td valign="top" class="centercolor" rowspan="2" > 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
-          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
-          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
-        </tr>
-        <tr> 
-          <td colspan="2"><!-- #BeginEditable "Body" --> 
-            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
-              <tr> 
-                <td bgcolor="#004142" height="12" valign="top" width="44%"><img src="../global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
-                <td bgcolor="#004142" align="right" valign="top" height="12" width="48%"><img src="../global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr> 
-                <td height="622" valign="top" colspan="2" bgcolor="#004142">&nbsp;<table width="100%" border="0" cellpadding="4"><tr bgcolor="#000000"><td><font color="#FFFFFF"><font face="Haettenschweiler, Tahoma, Arial" size="6">Deck Architecture 2: The Wrecking Ball</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC="images/a5.gif" BORDER=0><A HREF="articleread.php3?article=2720"><IMG SRC="images/aread.GIF" BORDER=0></A><A HREF="articlereview.php3?article=2720"><IMG SRC="images/areview.GIF" BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="../membercenter/directory/memberpage.php3?member=6495">Devon "Devonator" Clark</A></FONT></TD></TR><!-- 6495 --><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Description</Font></TD><TD><font face="Arial, sans-serif" size="2">A follow-up to Deck Architecture that focuses more on game play than on Deck Construction...The Basics section might be very helpful to new players.</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Article</Font></TD><TD><font face="Arial, sans-serif" size="2">You&#146;re ready!  You&#146;ve recently built two powerhouse decks, which you&#146;re now going to unveil on some poor unsuspecting fools at your hometown gaming store.  You walk in the door with realistic aspirations of winning the whole tournament.  How can you lose with these two decks?  You start strong, rattling off two easy victories of over 25.  But your next two matches are versus 2 of the local juggernauts.  Your first match pits your WYS versus a non-dueling Hunt Down where Guri and Maul wreck your smugglers.  In the next game, your opponent uses Lieutenant Blount to keep ISB on the 0-side for the entire game stopping you from ever getting anything going.  And so you go home...discouraged at 2-2.  You were certain that this week you would shed your mediocrity.  Well, don&#146;t be discouraged.  As I have mentioned before (in DA1), there are two sides to Star Wars success--preparation and execution.  And while you had prepared excellently for this tournament, you lost to two players who excel at execution.  But you too can learn to enjoy that success.  To that end, where Deck Architecture showed you how to accomplish effective Deck Construction...Deck Architecture 2 will show you how to accomplish effective Deck Destruction...<br>
-<br>
-Here is a list of DA1&#146;s major assumptions to ensure that DA2 is stand-alone:<br>
-<br>
-1)	Your cards do not beat your opponents...you beat your opponent.<br>
-2)	A deck&#146;s foundation is its method of winning.<br>
-3)	Strategies can substitute cards, but cards cannot substitute strategies!<br>
-4)	A deck&#146;s framework is its method of disruption, damage, and support for your foundation<br>
-5)	Great deck design is important, but true success revolves around playing skill.<br>
-6)	A deck&#146;s aesthetic touches are interrupts and effects that sharpen its offense and defense.<br>
-<br>
-And now, the most important point of all…<br>
-<br>
-7)	Your cards do not beat your opponents...you beat your opponent.<br>
-<br>
-Oh, I already made that last point, didn&#146;t I?  Well, it&#146;s VERY important, so it bears repeating!  <br>
-<br>
-Anyway, remember these 7...err...6 points as you read this article and everything should be crystal clear.  But to be perfectly honest, most of this article is simply reverse engineering Deck Architecture with common sense.  Most of my points will seem incredibly obvious to just about everybody in the game, so be forewarned: this article is not likely to teach you anything NEW.  Instead, it will reinforce what you already know (and that which you didn&#146;t know you already knew) and emphasize important points to hopefully make you view certain mechanics in new ways.  If this sounds interesting to you, by all means read on.  If not, stop now...<br>
-<br>
-THE BASICS<br>
-<br>
-We&#146;ve all heard coaches and managers of struggling sports franchises talk about their team&#146;s inability to execute the basics.  Well, just as you have heard this cliché used and over-used, you might have also discovered that it does indeed have some validity.  Excellence, in fact, is built out of those basics.  Sloppy play is the stuff of amateurs.  To be great requires precision.  The greatest historic figures (sports, politics, war, or otherwise) were great because they rarely made mistakes.  True, mistakes ARE inevitable...and as you make them, you will learn to cope with them.  But aim to eliminate them from your play completely.  The extent to which you eliminate them from your play will determine your level of success in this game.  Be mindful of the basics...save you they can!<br>
-<br>
-A Force:<br>
-<br>
-One of the SWCCG rulebook&#146;s first major points is that &quot;A Force&quot; is the basic unit of the Star Wars game.  This is SO monumentally true that we often take it for granted.  Force is the life-blood of any Star Wars deck.  And just as a person gets weaker as you remove more and more blood from their veins, a Star Wars deck gets weaker as you remove more and more cards.  Every chance you get, you should deny your opponents force, be it by damage or by force choke.  Often, that one card will be the key to their entire strategy.  After all, think of all those times that the weight of Visage&#146;s 1 per turn has been too crippling to endure.  I mean it is ONLY 1 damage a turn.  On the other hand, it&#146;s a constant--a reliable source of damage.  And each of those cards is a card that a deck needs.  One force might not seem like much, but you must play this game one force at a time.  Do your 1 Damage now...and next turn...and next turn.  It adds up quickly.<br>
-<br>
-This leads me to my first major point.  There are two roads to success in any given game of Star Wars--preserve your force and deny your opponent force.  Everything you do, every choice you make, should ALWAYS revolve around one of these goals.  If you have no cards to retrieve and there are no &lt;&gt; sites on the table, why would you play Ounee Ta?  It&#146;s a waste of an action.  Save it until that card will do you some good.  When you get right down to it, the eventual winner of any game of SWCCG will be the one who uses his Force most effectively--the one who gets the most mileage out of EVERY card at his disposal.  Through patience, awareness, and control, that player maximizes his damage potential and damage prevention potential because he realizes (though they might not have thought of it in this way) that you must satisfy the following equation to win...<br>
-<br>
-OPPONENT&#146;S LOSSES + YOUR PREVENTION &gt; YOUR LOSSES + OPPONENT&#146;S PREVENTION<br>
-<br>
-...or equivalently...<br>
-<br>
-OPPONENT&#146;S LOSSES - OPPONENT&#146;S PREVENTION &gt; YOUR LOSSES - YOUR PREVENTION<br>
-<br>
-If you satisfy this equation, you WILL win...logically.<br>
-<br>
-A Rule:<br>
-<br>
-Star Wars consists of many rules.  The extent to which you enforce them, on yourself and on your opponent, should be proportional to the level of skill you want to achieve.  The best Star Wars players in the world know and enforce EVERY rule.  The order of actions makes a difference in their games.  If I say I&#146;m looking for a DB in my WYS deck, deploy Kessel while I&#146;m in there, and then deploy a SP:DB to Kessel, an expert player would catch me and make me deploy that SP:DB to Tatooine.  I declared the deployment of the DB before declaring the deployment of Kessel, so that player would be right.  Now, you might find this astute observance of every rule to be anal-retentive, and in many cases I&#146;m inclined to agree with you, but at the same time, let me remind you, &quot;The Devil is in the Details!&quot;  In order to achieve a level of play consistent with the top players in the world, you must be knowledgeable and observant of every rule.  <br>
-<br>
-And yet, if you don&#146;t want to be that Star Wars zealot, you don&#146;t have to be.  You can allow your opponents the latitude to take back actions while still enforcing the rules...but DO enforce the rules.  It will make both you and your opponent better players.  And if your opponent is new to the game, make a special point to enforce EVERY rule.  Yes, these are the games when you should hold yourself to the highest standards of play.  In these instances, be a teacher.  Teach these young players rules that they might miss.  Tell them when they have made strategic errors.  Tell them when they have forgotten to enforce a card.  Give that player every opportunity to take back poorly played actions.  New players will benefit far more from your experience than you will from allowing their inexperience to be an excuse for laxity.  Ask yourself which is more important: Enriching the game by creating a positive game experience for a new player or adding 5 to your differential?  Trust me, you learn much more as a teacher than you ever learn as a player.  Thus, by being a teacher, you prepare yourself for future matches against top-rated players.  You reinforce your knowledge and your skills while passing them on to others.<br>
-<br>
-A Ruling:<br>
-<br>
-It&#146;s incredibly difficult to keep up with every ruling in the Star Wars universe.  Even if you read the Glossary, CRD, and StG, you would be lucky to retain even one third of that information.  So, when there is a rules question (notice I say &quot;when&quot; and not &quot;if&quot;), ALWAYS, ALWAYS, ALWAYS ask a TD if there is ANY uncertainty of the answer at all.  If you&#146;re not sure, ask a TD.  If you&#146;re pretty sure, ask a TD.  If you&#146;re 99% sure, ask a TD.  If you&#146;re completely sure, but your opponent is only 99% sure...guess what...ask a TD.  I have seen many people (myself included) lose games because they took their opponent&#146;s word on something, or were almost 100 % sure their opponent was right, and therefore didn&#146;t bother to ask a TD.  Then of course they kick themselves when they realize that they were right and it cost them the game.  Rulings are an important part of the game because questions WILL arise in game situations.  Having those questions answered correctly and to the satisfaction of both players will make both you and your opponent better, plus it will ensure that the proper player wins.  And if you play against inexperienced players, make a SPECIAL point of calling TDs.  It will teach those less experienced players to use their resources, and therefore make them better players as well.<br>
-<br>
-A Phase:<br>
-<br>
-When people evaluate their mistakes, the first mistakes that usually jump to mind are when you have not used your phases to full effectiveness (more specifically, forgetting to drain, retrieve, deploy, battle, move, etc.)  These are the mistakes that come back to haunt us because they are most often the most costly.  After all, even if you&#146;ve built a solid deck, if you don&#146;t remember to do everything you can in each of your phases, your deck is like a rusted blade, it has the potential to be deadly, but only if used correctly.  Declare every phase, and go through them one by one.  Even if there is nothing you can do in your control phase, declare the phase and state to your opponent that there is nothing that you can do.  Often, just stating the name will remind you of an action that you might have overlooked.  Also, this will clearly define the boundaries of your opponent&#146;s timing envelopes.  And MOST importantly, this puts your actions in the proper order so that you do not deploy before you drain.  This small step--simply stating the beginning of a new phase--will eliminate a lot of ambiguity and it will make both you and your opponent play cleaner games.  <br>
-<br>
-An Action:<br>
-<br>
-Actions are like phases within phases.  They are pockets of time that allow you to do something...so long as it is ONE something.  In between your various somethings, your opponent has an equivalent pocket of time to do something of his own.  Understanding the order and timing of actions is imperative for your success.  If you have EPP Luke and Han in a battle against Palpatine and 4-LOM with gun, you had better know when 4-LOM can shoot and when Palpatine can use Force Lightning.  This will help you in your planning, and it will make you play better.  If you do not clearly separate your actions, for instance if you were to declare 6 separate drains as one, your opponent can do things that they would not normally be able to do within the boundaries of the rules, such as cancel all 6 drains with one control.  Hey, you declared it as one action…he responded with one action.  Get in the habit of offering your opponent actions between your actions.  Just like with phases, having a clearly defined envelope of opportunity will make both you and your opponent play sharper games...plus, in many cases, it makes for a good bluff.  By observing the order of phases and actions and giving your opponent due opportunities for each, you will create better playing experiences for everybody, you will win more games, and above all else, you will have more fun.  <br>
-<br>
-<br>
-Well, I&#146;m pretty sure that this is as basic as you can get in Star Wars...almost mind-numbingly basic.  But If you can&#146;t perform these basics, you&#146;re not ready for effective Deck Destruction, hence THE BASICS are a necessary preface for what follows.  And if you ever find that you&#146;re not performing to your expectations, it is always a good idea to get back to the basics.  But having talked about the basics enough already, we&#146;re ready to move on.  Hereafter, the paths of DA1 and DA2 intersect.  Now we will talk about...<br>
-<br>
-DECK DESTRUCTION:  THE WRECKING BALL<br>
-<br>
-In Deck Architecture, I talked about ways to construct strong decks.  There are three aspects to any successful deck--foundation, framework, and aesthetics.  As a wrecking ball, you must try and take these 3 important areas away from your opponent.  And in your deck preparations, you should have formed a plan to achieve this against every one.<br>
-<br>
-Recognizing Other Architecture:<br>
-<br>
-95% of all successful decks are nearly identical to another easily recognizable deck.  Therefore, going into your match, you should already have a solid idea of what to expect, assuming that you recognize the deck type that you are playing against.  Once you recognize your opponent&#146;s deck, you should have no problem constructing a course of action.  Of course, a well-formed plan against Profit will do no good at all against WYS.  <br>
-&quot;Well, YEAH!  Come on, Devon!  How stupid do you think we are?&quot;  <br>
-Well, I use this ludicrous example to illustrate that if you don&#146;t recognize an opposing deck type, your planning is of no use to you.  Therefore, the sooner you recognize the type of deck your opponent is playing, the sooner you will be able to start swinging your wrecking ball.  Try and hone your recognition skills.  Ideally, you should be able to recognize a deck type just by the start.  And in most cases, even if you don&#146;t know what to expect from a deck (if that player did not play an objective), the starting interrupts and effects alone should tell you enough to formulate a solid plan.<br>
-<br>
-Develop Your Plan:<br>
-<br>
-You&#146;ve recognized your opponent&#146;s deck.  You&#146;re certain that you know exactly what it does.  Now, you have to prepare yourself to beat it.<br>
-<br>
-First, you must evaluate how important is it that you stop your opponent&#146;s strategy?  In every match-up, there will be a dominant strategy, and if yours is the dominant strategy, you can play your game and let your opponent react to you.  If you run a Dark Deal deck against a Throne Room Mains deck, you would be ill advised to spend your resources disrupting your opponent when setting up Dark Deal and Occupation would win you the game. Conversely, your opponent would do well to prevent you from setting up Dark Deal at the expense of his own plans for that very same reason.  Recognize the dominant strategy.  If it is more important that you disrupt your opponent than it is to set yourself up, you should sacrifice your plans a little to make sure that you stop your opponent from his...and vice versa.  <br>
-<br>
-Now, regardless of whose strategy is dominant, it is always a good idea to attempt to disrupt somehow.  So, what can you do to stop your opponent?  Well, you will stop your opponent, whatever his plans, by denying one (or more) of the three major Deck Architecture areas--Aesthetics, Framework, and/or Foundation.  Determine which area to attack, and then start to apply pressure there.  <br>
-<br>
-The Aesthetics:<br>
-<br>
-The Aesthetics are a collection of interrupts and effects used to sharpen a deck&#146;s defensive and offensive capabilities.  They are useful cards, but rarely essential for victory.  Therefore, while Aesthetics are by far the easiest aspects of an opponent&#146;s deck to remove, it will do you the least amount of good.  Most Aesthetic cards will be used once and probably not heard from again.  (However, due to retrieval and/or tracking this is not always the case.)  Really, the only time that you should attack this area of architecture is when you have the dominant strategy, as these cards will be used to hinder you and attack your framework and foundation.  If you can eliminate the Aesthetics in these cases, it will often leave your Framework and Foundation intact, and that will translate to victory, because you have the dominant strategy.  In most other cases, do not concentrate on the Aesthetics.  True, if there is a specific interrupt that is a constant thorn in your side, take that card away, but do not expect this to destroy your opponent&#146;s deck.  It will only hinder them slightly.  Remember, regardless of how you approach the Aesthetics, if a card is not giving your opponent an advantage in &quot;The Equation&quot;, there is no reason to target it.  It is probably more important that you attack the Framework and Foundation.<br>
-<br>
-The Framework:<br>
-<br>
-The Framework is the meat of any deck.  It contains the character base, the support for the foundation, and the potential for drains, battles, and disruption.  You WILL attack the framework.  You MUST attack the framework.  In fact, you will probably spend most of your time chipping away at the framework through battles and drains.  It will not be easy and, truth be told, if you make bad decisions, you stand a good chance of causing more damage to yourself than to your opponent.  Exercise wisdom and temperance when battling and force draining.  Your decisions regarding them can either win or lose games.  Hence, I will discuss the most fundamental actions of Star Wars--the battle and the force drain.<br>
-<br>
-The Force Drain is the most devastating source of damage in all of Star Wars.  An uncontested drain of 2 WINS games...and if you&#146;re dealing that uncontested drain of 2, it is probably you that is winning.  Get back to basics.  Think about that Equation.  If you can lock down a site for a drain of 2 per turn, you&#146;re not just adding 2 to your equation...you&#146;re adding 2 for each turn that you drain there (and I normally assume that a drain will continue for 3-5 turns).  This is why Force Drains are so devastating.  A drain of 2, harmless though it might seem, amounts to 10 force over 5 turns.  Put that kind of pressure on your opponent, and it will force your opponent to react.  When they react, they expose large portions of their framework.  When they expose their framework, hit it with that wrecking ball and watch their entire deck shudder.  <br>
-<br>
-You do this by battling.  Battles are the most destructive forces in all of Star Wars.  They rip supports from a deck&#146;s framework, and sometimes, they crack a deck&#146;s foundation.  As the game progresses, these cracks and destroyed supports make it harder and harder to keep a deck standing...and eventually it crumbles.  Thus, battles create and disrupt damage and open doors for Force Drains.  Despite the addition of other damage sources (i.e. Odds or Podracing), Star Wars still all comes back to battles and drains.  Let&#146;s put this in terms of The Equation.  Your opponent has a couple of characters at the Cantina draining for 2.  You react by deploying EPP Han and EPP Luke and forfeit fodder.  Through your shots, destinies, and shear power, you manage to clear the site as well as cause 4 overflow damage.  You&#146;ve just turned their 4 or 5 turns of drains against you into a drain against them.  AND you also caused 4 damage plus character loss.  In this one small battle, you have managed to add over 20 to your Equation total (You&#146;ve prevented at least 8 force lost to future drains, you&#146;re draining there instead, and you have their character loss plus 4 overflow).  That one small battle could very well have won you the game.  Battles ARE huge!<br>
-<br>
-In fact, battles are so huge that there is an art to using them effectively.  If you can learn to attack when the damage/prevention potential is at its peak, you will be one step closer to being amongst the elite of Star Wars.  However, it can be difficult to exercise this kind of touch, because sometimes to maximize your damage and prevention potential you will have to endure a few turns of drains.  Most players are unwilling to make that kind of sacrifice.  That impatience is ultimately their downfall.  Yes, though I profess that every force is essential to a deck&#146;s victory, I also profess that any deck can sustain a few force lost here or there, and it is important for you to realize that this is true.  In the example above, you might have to take 2 force drains in the Cantina before you find EPP Luke and that forfeit fodder.  It would be an enormous error in judgment to deploy EPP Han without them in an attempt to clear the site.  Alone, his task would be near impossible.  In this situation, and many others, it is in your best interest to wait.  Having the patience to wait and the awareness to pick that right moment is an art that separates the good from the best.<br>
-<br>
-Hopefully, at this point, you can see how deadly drains and battles are because of the equation.  Now, let&#146;s tie this into the framework.  Framework cards--the majority of which are characters--are the fuel for battles and drains.  They are your damage potential.  Therefore, if I remove the framework, I remove the possibility for damage.  And if you cannot damage me, your side of the equation equals 0...hence you will lose.  In my introductory vignette, Darth Maul and Guri were so effective versus WYS because they negated the WYS framework--Guri removed any smuggler bonuses and Maul removed smugglers from locations altogether.  By invalidating the framework, that player successfully used his wrecking ball to tear your deck apart.  This is just one of many ways to attack, but one way or another you MUST attack the framework with your wrecking ball.  Without it, any deck will lose.  And yet, there is another, often more effective, means of attack--destroy the foundation.<br>
-<br>
-The Foundation:<br>
-<br>
-A deck&#146;s foundation is its means of winning.  Hence, it follows logically that if you take away a deck&#146;s foundation--its means of winning--it cannot win.<br>
-<br>
-Good players recognize the importance of their foundation.  They understand that without a strong foundation they can&#146;t win, and they protect their foundations accordingly.  They use characters, interrupts, effects and every trick available to them to preserve their foundation.  For this reason, destroying a foundation can be tough work, but despite its inherent difficulty, you should always make a goal of attacking your opponent&#146;s foundation.  It will win you games.<br>
-<br>
-The first step in destroying your opponent&#146;s foundation is recognizing what it is.  If you know deck types, you should have no problem recognizing your opponent&#146;s foundation right off of the bat.  If you&#146;re opponent is playing Hunt Down, the foundation is Vader and Visage.  If your opponent is playing EBO, it&#146;s EBO...go figure.  In order to destroy the foundation, you must completely remove these cards from play.  Immediately, you might realize that these are NOT easy tasks.  Well, in a well-constructed deck, completely destroying the foundation is NEVER an easy task.  But if the opportunity presents itself, it&#146;s a good idea to try.  Yes, if you can destroy the foundation, you WILL win games, but if the opportunity does not present itself, which will be most games, just cracking the foundation will often be enough to give you an advantage.  If you can take away EITHER Visage or Vader, you&#146;ll have the upper hand.  If you can cancel EBO&#146;s drain bonuses, you&#146;ll have the upper hand.  And while these things do not completely destroy Hunt Down&#146;s or EBO&#146;s foundation, they are steps in the right direction.  ATTACKING the foundation is what is essential...not destroying it.  If you think back to my introductory vignette, in that second match, Lieutenant Blount kept ISB from ever flipping, thus negating (but not destroying) the foundation.  That was what won the game.<br>
-<br>
-And yet, again I must maintain that everything comes back to that equation.  As you search for ways to defeat your opponent, you must be mindful of how each card will affect your equation in the long run.  Only commit your cards to setting up your strategy or disrupting your opponent if that will ultimately help your side.  Maximize your damage and prevention potential, and pick your moments to swing that wrecking ball.<br>
-<br>
-FINAL THOUGHTS<br>
-<br>
-Most of this article is just common sense...as I said it would be.  Yes, if you think about your decks, you&#146;ll immediately recognize a few key cards--your foundation.  If your opponent were to remove these cards as options, you&#146;d be on the short end of a losing battle.  Therefore, your job when playing other people&#146;s decks is to find those cards and take them from them.  In the meantime, remove their characters--their capacity to damage you.  If all else fails, get back to basics and play this game one force at a time.  Prevent and create damage by battling and draining, and use those tools to whittle away your opponent&#146;s lifeforce.  Everything comes back to that equation.  Keep it in mind as you make your decisions, and you will progress.  With enough experience, you might eventually vault your status from a lowly Deck Architect to a much more lethal Deck Architect &quot;of Destruction&quot;.<br>
-<br>
-I hope this helped you out!  Thanks for reading.<br>
-<br>
-<br>
-Devon &quot;Doesn&#146;t Architect of Destruction sound like a WWF bad guy?&quot; Clark<br>
-<br>
-<br>
-<br>
-FOOTNOTE:  To those of you who might protest that prevented drains basically count double (subtracted from Your Losses and added to Your Prevention) in my equation, I know!  Let me just say that the principles are more important than the equation so cut me some slack...Good lord!  I&#146;m not writing a thesis here, it&#146;s just a Star Wars article.<br>
- </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="articles.php3"><img src="images/aback.GIF" border="0"></a><A HREF="articleread.php3?article=2720"><IMG SRC="images/aread.GIF" BORDER=0></A><A HREF="articlereview.php3?article=2720"><IMG SRC="images/areview.GIF" BORDER=0></A><a href="articleprint.php3?article=2720" TARGET="BLANK_"><img src="images/aprint.gif" border="0"></a></FONT></TD></TR></TABLE> </td>
-              </tr>
-            </table>
-            <!-- #EndEditable --></td>
-        </tr>
-      </table>
-    </td>
-    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
-      <table border="0" cellspacing="0" cellpadding="0" width="150">
-        <tr align="right" valign="top"> 
-          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
-          <td width="154" valign="top" align="right"> 
-            <table width="154" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF">&nbsp; </td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF"> 
-                  <script language="JavaScript">
-
-function logout() {
-var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
-document.cookie = cookie;
-window.location = "../index.php3";
-	}
-
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-
-</script>
-                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
-<select name="select1" onChange="go(this)">
-    <option selected>Quick Jump</option>
-    <option value="/swccg/resources/rulings.php3">Current Rulings</option>
-    <option value="/swccg/main/decktech.php3">About DeckTech</option>
-    <option value="/swccg/membercenter/directory.php3">Member Directory</option>
-    <option value="#">-----------------------------</option>
-    <option value="http://www.decktech.net">decktech.net</option>
-  </select>
-</form><br>
-<!-- #EndLibraryItem --> </td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
-                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
-                  Center</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
-                  Reports </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/treports/index.php3" class="level1nav"></a></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav"></a><a href="/swccg/shop/index.php" class="level1nav">Tech 
-                  Shop </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
-                  Resources</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
-          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/article.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"> 
-      &nbsp; <a href="/swccg/articles/index.php3" class="level2nav">Article Home</a> 
-      </font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/articles/articles.php3" class="level2nav">Article Archive</a> 
-      <br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-</table>
-<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
-          <td width="155" valign="top" height="13"> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr align="left" valign="top" bgcolor="#630063"> 
-                <td width="154">
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE -->
-<center>
-<script language="JavaScript">
-<!--
-ShowBurstAd('cb8702a','125','125');
-// --></script>
-<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
-<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
-width="125" height="125" border="0" alt="Click Here"></a> 
-</noscript>
-</center>
-<!-- END BURST CODE --><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
-                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="4">
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
-      Updates</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2002-07-03</font><BR></td>
-  </tr>
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
-      Tips</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><p><font face='arial' size='2' color='#ffffff'>Remember, when viewing submissions like decks, articles, or tournament reports, by clicking the appropriate title, you can sort by title, date, and rating. Use the arrow to reverse the order!</font></td>
-  </tr>
-</table>
-<!-- #EndLibraryItem --></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate --></html>

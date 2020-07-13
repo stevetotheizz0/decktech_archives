@@ -1,344 +1,0 @@
-<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
-<head>
-<title>DeckTech - for the players, by the players.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" href="/swccg/global/css/white.css">
-<!-- #BeginEditable "Style" --> 
-<style type="text/css">
-<!--
-.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
-.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
-.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
-.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
-.centercolor {  background-color: #630031}
--->
-</style>
-<!-- #EndEditable -->
-</head>
-<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE -->
-<script language="JavaScript">
-<!-- /* © 1997-1999 BURST! Media, LLC. All Rights Reserved.*/
-var TheAdcode = 'ad8702a';
-var bN = navigator.appName;
-var bV = parseInt(navigator.appVersion);
-var base='http://www.burstnet.com/';
-var Tv='';
-var agt=navigator.userAgent.toLowerCase();
-if (bV>=4)
-  {ts=window.location.pathname+window.location.search;
-   i=0; Tv=0; while (i< ts.length)
-      { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-   if( Tv.charAt(0)!='/' ) Tv="/"+Tv;
-          else if (Tv.charAt(1)=="/")Tv="";
-  if( Tv.charAt(Tv.length-1) == "/")
-    Tv = Tv + "_";}
-if (bN=='Netscape'){ 
-     if ((bV>=4)&&(agt.indexOf("mac")==-1))
-{  document.write('<s'+'cript src="'+ 
-      base+'cgi-bin/ads/'+TheAdcode+'.cgi/RETURN-CODE/JS' 
-      +Tv+'">'); 
-     document.write('</'+'script>');    } 
-     else if (bV>=3) {document.write('<'+'a href="'+base+'ads/'+ 
-        TheAdcode+'-map.cgi'+Tv+'"target=_top>'); 
-        document.write('<img src="' + base + 'cgi-bin/ads/' + 
-        TheAdcode + '.cgi' + Tv + '" ismap width="468" height="60"' + 
-        ' border="0" alt="Click Here"></a>');} 
- } 
-if (bN=='Microsoft Internet Explorer') 
- document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'+ 
-  TheAdcode + '.cgi' + Tv + '/RETURN-CODE" width="468" height="60"' + 
-  'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' + 
-  'frameborder="0" scrolling="no"></ifr'+'ame>'); 
-// --> 
-</script> 
-<noscript><a href="http://www.burstnet.com/ads/ad8702a-map.cgi" target="_top"> 
-<img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi" 
- width="468" height="60" border="0" alt="Click Here"></a> 
-</noscript> 
-<!-- END BURST CODE -->
-<!-- #EndLibraryItem --></td>
-    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
-      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
-    <td valign="top" class="centercolor" rowspan="2" > 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
-          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
-          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
-        </tr>
-        <tr> 
-          <td colspan="2"><!-- #BeginEditable "Body" --> 
-            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
-              <tr> 
-                <td bgcolor="#630031" height="12" valign="top" width="44%"><img src="/swccg/global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
-                <td bgcolor="#630031" align="right" valign="top" height="12" width="48%"><img src="/swccg/global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr> 
-                <td  valign="top" colspan="2" bgcolor="#630031">
-				 
-
-
-<table width=100% border=0 cellpadding=4><tr bgcolor="#000000"><td><font face="Haettenschweiler, Tahoma, Arial" size="6" color='#ffffff'>Huntsville, AL 30.12.00</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC='images/dd4.GIF' BORDER=0><A HREF="reportread.php3?deck=1582"><IMG SRC='images/ldread.GIF' BORDER=0></A><A HREF="reportreview.php3?deck=1582"><IMG SRC='images/ldreview.GIF' BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=2313">Tom "Gand" Culpepper</A></FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Date Created</Font></TD><TD><font face="Arial, sans-serif" size='2'>December 31, 2000</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Report</Font></TD><TD><font face="Arial, sans-serif" size="2">I have been playtesting and playing an EBO and a BHBM deck for weeks and they are the ones that I know, so of course todays decks are Chadra(monkey, rat, rodent...ect.) Agents and Hunt Down.  But I have taken a beating the last couple weeks and in closed environment, so my rating has dropped into mid 1560&#146;s<br>
-<br>
-Pre tourney I traded for a URF Luke Skywalker...  it is now for trade in case anyone wants it.<br>
-<br>
-Game 1:  Rodents vs Chris McClure(1706) musicians are way broken....(just wait for the new Mara)<br>
-<br>
-I have played agianst this deck before and I know what happens when a ton of musicians get together, it is not pretty. I didn&#146;t bring EBO today specifically because No Escape kills the canceling part of this deck.  I get a really good opening hand with Kabe, Order To Engage, Bargining table and a couple mice, chris does not start his audience chamber and can&#146;t convert mine yet, so he drops a couple musicians to the chamber and draws.  On my turn I drop Bo Shuda, Kabe and play You Will Take Me To Jabba Now looking for Tessek who is not there, so I settle for broken Lando instead and drop Order to Engage.  I draw the rest, but I had used tessek to deploy Lando(Doh!).  On his turn, Mighty Jabba and a friend have to move out to Tatooine: Jabba&#146;s Pallace to keep from being slaughtered by order(that card RULES), but Chris has to lose three force to it anyway...  he lost Bib and Scum in the 3 cards(Item no.1)  He deployed a little backup to his musicain force and also the lower passages that turn.  My turn I drop a couple rats in front of the force and play Throw Me Another Monkey(Nar Shadda) save a few, I say go. He decides it is time to kill off some rats since he doesn&#146;t want to lose to order.  This is exactly what I had planned.  He initiates, I play Fallen Portal, targeting the musicians that retrieve a force per musician to same site and make musicans immune to attrition&lt;3.  They are both ability 1, so they get squished(Item no.2) and I play It&#146;s A Trap to cancel the slaughter.  Chris can only move away, so he does and says go.  My turn I mostly back up the rats and draw to try and get my locations into hand for force generation, but I did do one important thing...  I deployed Tat: Jabba&#146;s Pallace, and the AC and lower passages, both his, were unoccupied...  lose 2 force(Item no.3)  Back and forth a few turns untill I see that most of his forces are out and I drop a few guys for battles, lose some chadras, retrieve some chadras(I was mainly throwing them out there to flip the objective)  At this ploint Chris still has the better position, he is draining for 4 a turn to my 3 and I have less left than him.  I am getting back a chadra a turn, but still no Tessek.  Finally he drops the Cantina and I battle elsewhere as he kills off a mouse and Han w/blaster at the expense of Mighty Jabba and a scrub.  His turn he deploys another Mighty Jabba to the Cantina and is now easily in position to beat me...  he thinks.  I have Han w/ blaster, a rodent and Tessek with enough left to drop Han w/blaster and a couple rats to the cantina, I battle and kill off Mighty Jabba and he kills a rat.  I expect him to drain and leave my forces alone, since he is still ahead by enough  cards to gaurentee a win.  Instead he throws out Jabba the Hutt and battles.  Why?  I shoot Jabba, draw a 5 and add a 5 to power only.  I think he killed another rat and Han survived, he had to lose Jabba and 7, with no cards in hand(Item no.4).  On my turn I deploy Tessek(to AC) and a rat to Cantina to increase my force drain to 5 a turn.  He activates all four he has left and drains, I still have one left... and the musicians at desert heat can&#146;t come to block my drain(Item no.5).  His fate is sealed.  I win...  Five small events causing force loss or setting up bad table position, and I pull out a close one, win by one.<br>
-<br>
-Highs: See 5 items above, winning<br>
-Lows: Not having Tessek MUCH earlier<br>
-<br>
-FW 2(+1)<br>
-<br>
-<br>
-Game 2:  my Hunt Down vs one of the 3 new kids(sorry, I forgot his name) cc deck.<br>
-<br>
-I really do not know what he was trying to accomplish with his deck, but he started the CC downtown Plaza, thereby giving me enough for a first turn DVDLOTS.  I dropped out Rendalli and Executor: Docking Bay, flip my objective and say lose to Visage, then go.  He loses a site off the top, activates then retrieves it, but his activation was only 4, so I know he can&#146;t do too much else this turn.  He draws, loses to Visage and it is my turn.  I deploy the Emperor, another 1/0 Docking Bay and Ephant Mon to Holotheater, remind about visage and say go.  The next several turns are all the same, he activates, draws, loses to visage and it&#146;s mine... I activate, drain and draw and let him have it back... He saves and deploys a ship to Rendali, but that can only hurt him at this point.  I deploy ZiMH, BiHT, 4-LOM/w Blaster, and Capt Sarkil, no force left to battle.  I put them there to block the drain.  He decides to drop a second ship and a pilot and battle.  This is ugly.  I draw 3 destiny 6,1 and 0 and his draw is reduced to 0.  He loses the pilot, then the ship.  Leaving a lone B-wing.  I activate, drain and battle.  This time I draw a 6,7 and 6.  I draw a bunch of cards, tell him lose to visage and search, finally I have what I want... Come Here You Big Coward (stop the retrieval of sites) and Reactor Terminal, I am not worried about alter because 1) he has no characters on table 2) TFHGOOTU.  I have fortified the Downtown plaza with Mara, her saber, vader&#146;s saber and Dr. Evazan.  Murdering squad.  That group can take out 3 characters before the power segment of a battle, easily.  I drop my entiire hand into used next turn...  and lock the game down.  His last turn was to die with honor, deploy a lone Chewbacca agianst the murdering squad and fight them.  Battle damage did him in, and I win by 35.<br>
-<br>
-FW 4(+36)<br>
-<br>
-Highs:  LOCKDOWN.  He never generated more than 4 force a turn.  I absolutely dominated this game.<br>
-<br>
-Lows: none, really<br>
-<br>
-I am paired with Andy McClure for the next game, and this worries me.  He is also playing HDADTJ, a deck which beat Steven Lewis&#146;s Chadras by more than 25.<br>
-<br>
-Game 3:  Monkeys that Vader likes to kill vs Andy McClure(2000+) HDADTJ<br>
-<br>
-There is nothing good to say about this game.  I got clobbered.  I kept throwing brave little monkeys at Vader, and actually killed him a couple times, but he was always back with friends the next turn to make monkey jam.  I got Tessek first turn, but that was about the only good thing I was able to do all game.  Ben stayed alive longer than I thought he would, but I never was able to draw sites, except as destiny once, so I never had a chance.  I was fortunate that Andy&#146;s draws were horrid for most of the game, so it wasn&#146;t as bad as it could have been.  Loss by 30.<br>
-<br>
-FL 4(+6)<br>
-<br>
-Of the players who played light, I am highest still so I have to play Andy agian... oppsite decks.  I have played against his Chadras before.  Actually, we split games with these decks the day before(he won a drain game similar to the one below without my big mistake, I won one where I dueled Obi and Luke in the same turn, winning both) and I know I can win this game if he doesn&#146;t get a bunch of sites early.  I have to win the game by 43 to win the tournament(8 in hand, 8 deployed 1 lost to start) so I have to win without losing another card to win tournament.<br>
-<br>
-I know better than to go striaght to AC, so I deploy another 1st turn Vader to the pass.  He loses to visage and activates.  He gets a bunch of sites early.  This is trouble.  Tessek, Kabe are at AC with Bo Shuda.  The game is battles back and forth, but never against Vader, as he has Tarkin to back him up and we are pretty much even. <br>
-<br>
-During the game I make one BIG mistake that sealed my fate.  I deploy Dengar w/Blaster, Dr. Evazan, Davod Jon and Blizzard Scout 1....  stupid I activated enough to move them if nessicary.  I knew the destinies of the 3 I should have left behind, and I had a Trample in hand.  I battled, knowing I had a 6 and 7 for destiny(and a 3,5 that should have been left on top of it).  Had I have played it wisely(seeing as how in MY battle MY actions are first) I should leave 4 destinies, shoot and operate on lando w/vibro axe now no one can be excluded.  Shoot and leave a monkey.  Draw the 6 for destiny, interupt before he draws to trample Obi w/saber, drawing the 7 at the bottom.  That leaves just one alien and 2 ability...  no destiny, no destiny to power only.  Power would then have been 18 to 3, with a forfeit 0 chadra.  (and Andy, if you read this...  I know these were the destiny because I lost 4 cards to force drain the next turn, off the top, exactly as I remembered them... 7,6,5,3)See final differential.  The forces that I leave behind are beaten down upon over the next couple turns.  You can&#146;t make that kind of mistake and expect to beat Andy.  This one is another loss, by 15 on my own mistake.<br>
-<br>
-FL 4(-10)<br>
-<br>
-Highs:  I learned something about my forces... NEVER underestimate them when you are confident of your destinies.<br>
-<br>
-Lows:  Losing a game I now realize I could have won.<br>
-<br>
-Tournament props to the 3 new guys we had show up to the tourney.  I hope they all can become regulars.<br>
-<br>
-Results:<br>
-<br>
-Andy won the tourney, Chris took second, I took 4th by ONE damn card.  Better luck next time.<br>
-<br>
-<br>
-<br>
-Thanks for reading!<br>
-<br>
-Gand </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="allreports.php3"><img src='images/ldback.GIF' border="0"></a><A HREF="reportread.php3?deck=1582"><IMG SRC='images/ldread.GIF' border="0"></A><A HREF="reportreview.php3?deck=1582"><IMG SRC='images/ldreview.GIF' border="0"></A></FONT></TD></TR></TABLE>		
-		 
-				 
-				
-				
-				 </td>
-              </tr>	  
-            </table>
-            <!-- #EndEditable --></td>
-        </tr>
-      </table>
-    </td>
-    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
-      <table border="0" cellspacing="0" cellpadding="0" width="150">
-        <tr align="right" valign="top"> 
-          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
-          <td width="154" valign="top" align="right"> 
-            <table width="154" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF">&nbsp; </td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF"> 
-                  <script language="JavaScript">
-
-function logout() {
-var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
-document.cookie = cookie;
-window.location = "../index.php3";
-	}
-
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-
-</script>
-                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
-<select name="select1" onChange="go(this)">
-<option selected>Quick Jump</option>
-<option value="/swccg/resources/rulings.php3">Current Rulings</option>
-<option value="/swccg/main/decktech.php3">About DeckTech</option>
-<option value="/swccg/membercenter/directory.php3">Member Directory</option>
-</select>
-</form><BR>
-<!-- #EndLibraryItem --> </td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
-                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
-                  Center</a></font> <br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
-                  Reports </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
-                  Resources</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
-          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/treports.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-  <tr> 
-    <td>
-	<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;
-	<a href="/swccg/treports/index.php3" class="level2nav">Reports Home </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-
-  <tr> 
-    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/allreports.php3" class="level2nav">All Reports 
-      </a><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/localreports.php3" class="level2nav">Local Reports 
-      </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/grandslamreports.php3" class="level2nav">Grand 
-      Slams </a> <br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/statereports.php3" class="level2nav">State Champs 
-      </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/openreports.php3" class="level2nav">Open/Regional</a><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr>
-    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/worldsreports.php3" class="level2nav">World Champs 
-      </a><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr> 
-    <td> <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/sealedreports.php3" class="level2nav">Sealed 
-      Deck </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>  
-</table>
-<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
-          <td width="155" valign="top" height="13"> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr align="left" valign="top" bgcolor="#630063"> 
-                <td width="154">
- 
-
-<!-- BEGIN BURST! CODE -->
-<center>
-<a href="http://signup.postmasterdirect.com/affiliates?owner=BachSystems&affili
-ate=dawiyhd"><img src="http://gfx.postmasterdirect.com/gfx/banners/list125x125.gif"
-height="125" width="125" border=0></a></center>
-<!-- END BURST! CODE --> 
-
-<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
-                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" --><table width="100%" border="0" cellspacing="0" cellpadding="4">
-  <tr bgcolor="#000000"> 
-    <td><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Latest News 
-      </font></b></font></td>
-  </tr>
-  <tr> 
-    <td> <p><font face="Arial, Helvetica, sans-serif" size="2"><a href=/dpc/news/fantasy_winners.php>Announcing: The Fantasy DeckTech Players&#146; Challenge Winners</a></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Thu, March 1, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR><p><font face="Arial, Helvetica, sans-serif" size="2"><a href=/dpc/news/coverage.php>Round by Round Web Coverage of the first DPC Open</a></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Wed, February 21, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR><p><font face="Arial, Helvetica, sans-serif" size="2"><A href=/dpc/news/normal_schedule.php>The DPC Normal: Schedule of Events</A></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Tue, February 20, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR> <a href="/swccg/main/news.php3"><font face="Arial, Helvetica, sans-serif" size="1"><br>
-      more news</font></a> </td>
-  </tr>
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
-      Updates</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><a href='/swccg/resources/tjpage.php3'><font face='Arial, sans-serif' size='2'>Tj Holman</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-08</font><BR><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-25</font><BR><a href='  /swccg/resources/terwilligerpage.php3'><font face='Arial, sans-serif' size='2'>Brian Terwilliger</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-03</font><BR></td>
-  </tr>
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
-      Tips</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><p><font face='arial' size='2' color='#ffffff'>Use the Quick Jump box to jump straight to your member page.</font></td>
-  </tr>
-</table><!-- #EndLibraryItem --></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate --></html>

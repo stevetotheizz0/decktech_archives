@@ -1,692 +1,0 @@
- 
-<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
-<head>
-<title>DeckTech - for the players, by the players.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" href="/swccg/global/css/white.css">
-<!-- #BeginEditable "Style" --> 
-<style type="text/css">
-<!--
-.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
-.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
-.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
-.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
-.centercolor {  background-color: #004142}
--->
-</style>
-<!-- #EndEditable -->
-</head>
-<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" -->
-
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-
-<script language="JavaScript">
-<!--
-ShowBurstAd('ad8702a','468','60');
-// -->
-</script>
-
-<noscript>
-<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
-</noscript>
-
-<!-- END BURST CODE -->
- <!-- #EndLibraryItem --></td>
-    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
-      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
-    <td valign="top" class="centercolor" rowspan="2" > 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
-          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
-          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
-        </tr>
-        <tr> 
-          <td colspan="2"><!-- #BeginEditable "Body" --> 
-            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
-              <tr> 
-                <td bgcolor="#004142" height="12" valign="top" width="44%"><img src="../global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
-                <td bgcolor="#004142" align="right" valign="top" height="12" width="48%"><img src="../global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr> 
-                <td height="622" valign="top" colspan="2" bgcolor="#004142">&nbsp;<table width="100%" border="0" cellpadding="4"><tr bgcolor="#000000"><td><font color="#FFFFFF"><font face="Haettenschweiler, Tahoma, Arial" size="6">Reflections III spoliers (DS)</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC="images/a3.gif" BORDER=0><A HREF="articleread.php3?article=2910"><IMG SRC="images/aread.GIF" BORDER=0></A><A HREF="articlereview.php3?article=2910"><IMG SRC="images/areview.GIF" BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="../membercenter/directory/memberpage.php3?member=7358">Third "Third Angel" Angel</A></FONT></TD></TR><!-- 7358 --><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Description</Font></TD><TD><font face="Arial, sans-serif" size="2">Reflections III spoilers, For all those who missed them on big D&#8217;s webpage (or haven&#8217;t gotten them from other resorces on the web yet.) (DS only)</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Article</Font></TD><TD><font face="Arial, sans-serif" size="2">REFLECTIONS III  D E C I P H E R®<br>
-The Art Of Great Games®<br>
-Complete Set Card Spoiler (DS)<br>
-<br>
-REFLECTIONS III<br>
-<br>
-(due to lack symbols: º = upkeep symbol, ½  = send to used pile symbol. Å = place out of play symbol)<br>
-<br>
-Premium Cards<br>
-<br>
-<br>
-DARK Characters<br>
-<br>
-¥BIB FORTUNA<br>
-Destiny 3<br>
-DARK SIDE Alien Character [PM]<br>
-Lore: Twi&#146;lek who serves as Jabba&#146;s majordomo. First to discover the profitability of ryll spice found on Ryloth.<br>
-POWER: 3 ABILITY: 1<br>
-Text: While with Jabba, power +3 and, during your draw phase, may use 1 Force to count the number of cards in your Force Pile, place your Force Pile in your Used Pile, and then activate Force up to the counted number.<br>
-DEPLOY: 2 FORFEIT: 3<br>
-Episode I<br>
-<br>
-¥BOBA FETT, BOUNTY HUNTER<br>
-Destiny 3<br>
-DARK SIDE Alien Character [PM]<br>
-Lore: The most feared bounty hunter in the galaxy. Justifiably, his fee is as large as his reputation.<br>
-POWER: 7 ABILITY: 3 ARMOR: 5<br>
-Text: Adds 3 to the power of anything he pilots. Adds one battle destiny if with your alien or Imperial (or adds two battle destiny if with your bounty hunter or Vader). Immune to attrition &lt; 5. End of your turn: º Use 2 or ½ Lose 2 or Å.<br>
-DEPLOY: 5 FORFEIT: 6<br>
-Pilot<br>
-Warrior<br>
-<br>
-¥JABBA DESILIJIC TIURE<br>
-Destiny 3<br>
-DARK SIDE Alien Character [PM]<br>
-Lore: Gangster and leader in control of Tatooine. The amount of credits Jabba earns from Podracing is said to be vast, but only Bib Fortuna knows the exact number.<br>
-POWER: 3 ABILITY: 3 Force-attuned:<br>
-Text: While at Podrace Arena, once during your control phase may &#146;wager&#146;. Both players draw destiny and add 2 if they have won a Podrace. Loser (lowest total) loses 1 Force. If you just won the wager and Bib Fortuna is present, you may retrieve 1 Force.<br>
-DEPLOY: 3 FORFEIT: 5<br>
-Episode I<br>
-<br>
-¥LORD MAUL<br>
-Destiny 1<br>
-DARK SIDE Darth Maul Character [PM]<br>
-Lore: Sent by Darth Sidious to Naboo in order to assist theTrade Federation in their blockade<br>
-there. His confrontation with Obi-Wan and Qui-Gon would impact history forever.<br>
-POWER: 7 ABILITY: 6 Dark Jedi:<br>
-Text: Deploys -2 to Naboo. While with Qui-Gon, your battle destinies here are each +1. When Maul wins a lightsaber combat, adds 2 to opponent&#146;s Force loss. Immune to Disarmed, Clash Of Sabers, and attrition &lt; 5 (or &lt; 6 if<br>
-armed with a lightsaber).<br>
-DEPLOY: 8 FORFEIT: 8<br>
-Pilot<br>
-Warrior<br>
-Episode I<br>
-<br>
-STORMTROOPER GARRISON<br>
-Destiny 4<br>
-DARK SIDE Imperial Character [PM]<br>
-Lore: The Imperial Navy&#146;s ruthless shock troops. The distinctive white armor of the stormtrooper is recognized throughout the galaxy as a feared occupational force.<br>
-POWER: 8 ABILITY: 1 ARMOR: 3<br>
-Text: Imperial leaders present may not be targeted by weapons. While with an Imperial leader, adds one battle destiny. While at an opponent&#146;s site, Force drain +1 here (or +2 if also a Rebel Base). End of your turn: º Use 1 or ½ Lose 1 or Å.<br>
-DEPLOY: 6 FORFEIT: 4<br>
-Warrior<br>
-<br>
-¥THOK &amp; THUG<br>
-Destiny 5<br>
-DARK SIDE Alien Character [PM]<br>
-Lore: Jabba the Hutt knew that having a big, strong, dumb guard was good, but having lots of them is better.<br>
-POWER: 8 ABILITY: 1 ARMOR: 4<br>
-Text: Deploys -2 to a Jabba&#146;s Palace site. If opponent just initiated battle, may use X Force (limit 2) to add twice X to power. Your alien leaders present may not be targeted by weapons. End of your turn: º Use 2 or ½ Lose 1 or Å.<br>
-DEPLOY: 7 FORFEIT: 5<br>
-Warrior<br>
-<br>
-<br>
-DARK Defensive Shields<br>
-<br>
-¥A USELESS GESTURE<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: Imperial officers aboard the Death Star considered the Rebellion a minor threat.<br>
-Text: Plays on table. Cancels Don&#146;t Underestimate Our Chances. While opponent has 3 smugglers on table, once per turn you may search opponent&#146;s Lost Pile and place one Interrupt there out of play. Ketwol may exchange a docking bay only once per game.<br>
-<br>
-¥ALLEGATIONS OF CORRUPTION<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: With the Republic groaning under the weight of its own bureaucracy, senators accuse, bicker and fight to further their own agendas.<br>
-Text: Plays on table. Once per game, may use 1 Force to stack one Interrupt just played here. To play any new Interrupt of the same name, player must first stack it here and use +1 Force for each Interrupt in stack, even if Interrupt is normally free.<br>
-Episode I<br>
-<br>
-¥BATTLE ORDER<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: Administration of the Imperial installation on Endor includes coordination of troops on the ground and tight security provided by the Empire&#146;s space fleet.<br>
-Text: Plays on table. Unless Battle Plan on table, for either player to initiate a Force drain, that player must first use 2 Force unless that player occupies a battleground site and a battleground system.<br>
-<br>
-¥COME HERE YOU BIG COWARD<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: &#146;Chewie! Come here!<br>
-Text: Plays on table. While you occupy a battleground and opponent occupies less than two battlegrounds, cancel: Asteroid Sanctuary, opponent&#146;s Force drains at non- battleground locations, and opponent&#146;s Force retrieval.<br>
-<br>
-¥CROSSFIRE<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: Scout walker pilots are trained to set up a deadly heavy fire zone. This tactic can be disrupted by enemy weapons fire.<br>
-Text: Plays on table. S-foils and Maneuvering Flaps are suspended where you have either a weapon present or a starship (or vehicle) with maneuver &gt; 3 present.<br>
-<br>
-¥DO THEY HAVE A CODE CLEARANCE?<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: Imperial officers are always on the lookout for Rebel espionage.<br>
-Text: Plays on table. If opponent just retrieved Force using an Interrupt or Utinni Effect, you may place that card here. Opponent&#146;s Force retrieval is reduced by X, where X = number of cards here.<br>
-<br>
-¥FANFARE<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: The Boonta Eve crowds are always looking for new and exciting developments at every Podrace.<br>
-Text: Plays on table. Cancels Order To Engage and Scramble. Once per game you may take any Immediate Effect into hand from Reserve Deck; reshuffle. While opponent occupies no battleground systems, Staging Areas is suspended.<br>
-Episode I<br>
-<br>
-¥LEAVE THEM TO ME<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: &#146;I will deal with them myself.<br>
-Text: Plays on table. While you occupy a Subjugated planet location, operatives are forfeit = 0, operatives do not add to Force drains and your Force drains may not be reduced. (Subjugated planet is defined on the Objective card Local Uprising.)<br>
-<br>
-¥NO ESCAPE<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: Jabba&#146;s influence is not easily ignored. Neither are his voracious and vile appetites. Even Jedi soon learn this lesson.<br>
-Text: Plays on table. Effects, Epic Events, and Objectives are immune to Honor Of The Jedi. At opponent&#146;s site where opponent&#146;s creature present, you may deploy without presence or Force icons, and your Force generation there is +1.<br>
-<br>
-(question on No Escape... I&#146;m not sure the &lt;&gt; is there or not. it doesn&#146;t show up in the spoilers)<br>
-<br>
-¥OPPRESSIVE ENFORCEMENT<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: The Imperial fleet keeps a tight grip on the systems under its control. Abuses and excesses by local citizens are not tolerated.<br>
-Text: Plays on table. Your Immediate Effects may plays for free. Whenever opponent cancels your card with Sense or Alter, place that canceled card in Used Pile.<br>
-<br>
-¥RESISTANCE<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: Oola had to choose between giving in to Jabba&#146;s constant advances or resisting him and inciting his wrath.<br>
-Text: Plays on table. While you occupy at least 3 battlegrounds or opponent occupies no battle grounds, you lose no more than 2 Force from each Force drain or &#146;insert&#146; card.<br>
-<br>
-¥SECRET PLANS<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: Imperial computer systems are equipped with complex algorithms designed to prevent access by unauthorized users.<br>
-Text: Plays on table. If opponent is about to retrieve X Force, opponent must first use X Force or that retrieval is canceled. (X is equal to the full amount of Force allowed to be retrieved, regardless of the number of cards in opponent&#146;s Lost Pile.)<br>
-<br>
-¥THERE IS NO TRY<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: &#146;Always with you what cannot be done.<br>
-Text: Plays on table. Sense and Alter are now Lost Interrupts. When any player makes a destiny draw for Sense or Alter, and that destiny draw is successful, that player loses 2 Force.<br>
-<br>
-¥WE&#146;LL LET FATE-A DECIDE, HUH?<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: Qui-Gon was not one to leave the success of an elaborate plan to chance.<br>
-Text: Plays on table. Cancels Frozen Assets and Beggar. Each player may play only one card with &#146;sabacc&#146; in title each turn. You may cancel an opponent&#146;s card with &#146;sabacc&#146; in title by losing 1 Force from hand.<br>
-Episode I<br>
-<br>
-¥WEAPON OF A SITH<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: In order to use his double-bladed weapon, Maul trained under Darth Sidious for years.<br>
-Text: Plays on table. For opponent to steal a weapon from target character using a non- [Episode I] card, must first draw one destiny. If destiny +1 &gt; target&#146;s ability, weapon stolen. Otherwise, attempt fails and stealing card is placed out of play.<br>
-Episode I<br>
-<br>
-¥WIPE THEM OUT, ALL OF THEM<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: Darth Sidious&#146; command was merciless and direct. He left no room for misinterpretation.<br>
-Text: Plays on table. While opponent has a non-unique alien or non-unique starfighter in battle, opponent may not draw more than two battle destiny.<br>
-Episode I<br>
-<br>
-¥YOU CANNOT HIDE FOREVER<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: &#146;Give yourself to the dark side. It is the only way you can save your friends.<br>
-Text: Plays on table. Cancel &#146;insert&#146; cards. (This will cancel any &#146;insert&#146; cards that have been inserted in any Reserve Deck.)<br>
-<br>
-¥YOU&#146;VE NEVER WON A RACE?<br>
-Destiny 0<br>
-DARK SIDE Defensive Shield [PM]<br>
-Lore: &#146;Not even finished?<br>
-Text: Plays on table. Unless opponent occupies three battlegrounds, I Did It! is suspended. If Sebulba&#146;s Podracer on table, your Force loss from Boonta Eve Podrace is reduced by X, where X = number of battlegrounds you occupy.<br>
-Episode I<br>
-<br>
-<br>
-DARK Effects<br>
-<br>
-¥COLO CLAW FISH<br>
-Destiny 4<br>
-DARK SIDE Effect [PM]<br>
-Lore: Elongated fish found in the depths of Naboo oceans. It utilizes its large, claw-like appendages to hold onto its prey for long periods of time before finally consuming its meal.<br>
-Text: Deploy on table. Cancels Opee Sea Killer. While no card here, you may place a card from hand face-up here. If you just drew weapon or battle destiny, you may exchange it for card here, which then counts as that destiny draw. (Immune to Alter.)<br>
-Episode I<br>
-<br>
-¥CONDUCT YOUR SEARCH<br>
-Destiny 5<br>
-DARK SIDE Effect [PM]<br>
-Lore: &#146;...and bring his companions to me.<br>
-Text: Deploy on table. Twice per game, may take any card with &#146;door&#146; in title into hand from Reserve Deck; reshuffle. At Endor sites where you have a scout, Rebel scouts are power -1 and forfeit -3. (Immune to Alter.)<br>
-<br>
-¥ENERGY WALLS<br>
-Destiny 4<br>
-DARK SIDE Immediate Effect [PM]<br>
-Lore: Divide and conquer can be a powerful warfare tactic.<br>
-Text: During your control phase, deploy on Theed Palace Generator Core. No more than one character may deploy to here each turn, and characters may not move to or from here. Immediate Effect lost at end of opponent&#146;s turn.<br>
-Episode I<br>
-<br>
-¥FEAR IS MY ALLY<br>
-Destiny 0<br>
-DARK SIDE Effect [PM]<br>
-Lore: Maul&#146;s arsenal includes much more than simple combat training.<br>
-Text: Deploys on table. When deployed, take up to 8 cards from outside your deck and place them face-down under here. Cards under here do not count toward your deck limit. Three times per game, may play a Defensive Shield from here, as if from hand. (Immune to Alter.)<br>
-Episode I<br>
-<br>
-¥OPEE SEA KILLER<br>
-Destiny 3<br>
-DARK SIDE Effect [PM]<br>
-Lore: With a vicious array of pointed teeth, the Opee Sea Killer is a fearsome hunter. When outmatched in size, it uses small crevices to avoid bigger predators.<br>
-Text: Deploy on table. Cancels Sando Aqua Monster. While no card here, may place an opponent&#146;s just drawn battle destiny face-up here. If opponent just drew battle destiny with the same destiny number as card here, place both cards in opponent&#146;s Lost Pile.<br>
-Episode I<br>
-<br>
-¥PREPARE FOR A SURFACE ATTACK<br>
-Destiny 5<br>
-DARK SIDE Effect [PM]<br>
-Lore: Ruthless and well equipped for both air and ground assault, Vader&#146;s feared Death Squadron came to the icy Rebel Base with total domination in mind.<br>
-Text: Deploy on table. Your Force drains at Echo sites may not be modified or canceled by opponent. Once per turn, if you just deployed an AT-AT to a marker site, you may deploy (at -4) a Star Destroyer to the Hoth system (or vice-versa.) (Immune to Alter.)<br>
-<br>
-¥SANDO AQUA MONSTER<br>
-Destiny 5<br>
-DARK SIDE Effect [PM]<br>
-Lore: Huge fish that is feline in nature and moves on its hind legs. Slow movement makes it difficult for the monster to feed, but whenever a confrontation arises he always wins.<br>
-Text: Deploy on table. Cancels Opee Sea Killer and Colo Claw Fish. While no card here, you may draw destiny and place it face-up here. If you are about to draw a card for weapon or battle destiny, you may instead use card here, then place it in Lost Pile. (Immune to Alter.)<br>
-Episode I<br>
-<br>
-¥THE HUTTS ARE GANGSTERS<br>
-Destiny 5<br>
-DARK SIDE Effect [PM]<br>
-Lore: ÒIf they discovered her...<br>
-Text: Deploy on table. While Amidala with Jabba, her game text is canceled. While you occupy an [Episode I] Tatooine site with [Episode I] Jabba, once per turn you may place a card from hand in your Used Pile to draw a card from Reserve Deck. (Immune to Alter.)<br>
-<br>
-¥THEY MUST NEVER AGAIN LEAVE THIS CITY<br>
-Destiny 5<br>
-DARK SIDE Effect [PM]<br>
-Lore: Vader&#146;s plans were to turn the city in the clouds into a graveyard for the Rebellion.<br>
-Text: Deploy on table. Opponent&#146;s movement from a Bespin location to a non-Bespin location requires +1 Force. Once per game, Executor deploys for free to Bespin system. Once per turn, may place a TIE just forfeited from a Bespin location in your hand.<br>
-<br>
-¥WHERE ARE THOSE DROIDEKAS?!<br>
-Destiny 4<br>
-DARK SIDE Effect [PM]<br>
-Lore: When two Jedi are attempting to breach your bridge, even a destroyer droid&#146;s response time seems far too slow.<br>
-Text: Deploy on table. While no card here, may cancel a Force drain by placing a non- unique destroyer droid here from Reserve Deck; reshuffle. During your deploy phase, may use 5 Force to deploy (for free) a destroyer droid from here, as if from hand.<br>
-Episode I<br>
-<br>
-<br>
-DARK Epic Events<br>
-<br>
-DEEP HATRED<br>
-Destiny 0<br>
-DARK SIDE Epic Event [PM]<br>
-Text: Deploy on table. You may not play Sniper or You Are Beaten. During any deploy phase, each player may place one card face-down under one of their Jedi or Dark Jedi. (These are that character&#146;s combat cards.) No character may have more than three combat cards at once. When a character removed from table, place that character&#146;s combat cards in owner&#146;s Used Pile.<br>
-Episode I<br>
-<br>
-<br>
-DARK Interrupts<br>
-<br>
-¥BLOW PARRIED<br>
-Destiny 3<br>
-DARK SIDE Used Interrupt [PM]<br>
-Lore: Offense may win battles, but defense keeps you alive long enough to mount an offense.<br>
-Text: Place in Used Pile to take top card of Force Pile into hand. OR If both players just revealed a combat card during lightsaber combat and opponent&#146;s combat total is exactly 1 greater than yours, add 1 to your combat total. OR Cancel Clash Of Sabers or Obi-Wan&#146;s Journal.<br>
-Episode I<br>
-<br>
-¥DARK RAGE<br>
-Destiny 5<br>
-DARK SIDE Lost Interrupt [PM]<br>
-Lore: While Qui-Gon meditated to regain strength lost during the ferocious duel, Darth Maul paced impatiently outside the energy barrier like a caged Krayt Dragon.<br>
-Text: If opponent just initiated a duel, use 3 Force to cancel it. OR Take Deep Hatred into hand from Reserve Deck; reshuffle. OR If Maul has no combat cards, place an opponent&#146;s combat card (random choice) in opponent&#146;s Used Pile. (Immune to Sense.)<br>
-Episode I<br>
-<br>
-¥FORCE PUSH<br>
-Destiny 5<br>
-DARK SIDE Used Interrupt [PM]<br>
-Lore: At close range a Sith has more than just a lightsaber that can damage you.<br>
-Text: Target opponent&#146;s Jedi present with your Dark Jedi. Reveal one of target&#146;s combat cards (random selection). If revealed card&#146;s destiny &gt; 4, place that card on top of opponent&#146;s Reserve Deck. Otherwise, lose 1 Force. (Immune to Sense.)<br>
-Episode I<br>
-<br>
-¥NO MATCH FOR A SITH<br>
-Destiny 4<br>
-DARK SIDE Lost Interrupt [PM]<br>
-Lore: Lightsaber duels are so fast and furious that Jedi don&#146;t plan their offensive strategy, but instead rely on instinct and their ability to sense an opponent&#146;s next strike.<br>
-Text: If Maul armed with a lightsaber in battle, use 2 Force to draw two destiny. Opponent draws two destiny. If any of your destinies equal any of opponent&#146;s destinies, opponent&#146;s Jedi is power = 0 for remainder of battle.<br>
-Episode I<br>
-<br>
-¥QUI-GON&#146;S END<br>
-Destiny 5<br>
-DARK SIDE Lost Interrupt [PM]<br>
-Lore: While Qui-Gon spent years maintaining peace, Maul was sharpening his combat skills. Those years of training came to fruition in one fateful moment.<br>
-Text: If Maul just defeated Qui-Gon in lightsaber combat, place Qui-Gon out of play. If Obi-Wan at same or related site, opponent loses 3 Force, Obi-Wan is power +3 for remainder of turn, and opponent may play a combat card under Obi-Wan.<br>
-Episode I<br>
-<br>
-¥THE EBB OF BATTLE<br>
-Destiny 5<br>
-DARK SIDE Used Interrupt [PM]<br>
-Lore: Lightsaber confrontations are a complex dance of feints, strikes, parries and footwork. Mistakes are rarely forgiven.<br>
-Text: Activate 1 Force. OR Add 1 to your just drawn duel destiny OR If under your Dark Jedi as one of that character&#146;s combat cards, reveal to opponent and place in your Used Pile to cancel an opponent&#146;s Force drain.<br>
-Episode I<br>
-<br>
-¥THROUGH THE CORRIDOR<br>
-Destiny 3<br>
-DARK SIDE Lost Interrupt [PM]<br>
-Lore: Obi-Wan was anxious, Qui-Gon was patient and Maul was angry.<br>
-Text: Target Maul and an opponent&#146;s Jedi present if no other Jedi or Dark Jedi at same site. Reveal one combat card (random selection) of each target. Revealed card with highest destiny is placed in owner&#146;s Lost Pile. Return other combat card.<br>
-Episode I<br>
-<br>
-¥UNSALVAGEABLE<br>
-Destiny 5<br>
-DARK SIDE Used Interrupt [PM]<br>
-Lore: With mounting pressure from superior forces, the Rebellion sometimes has to abandon it&#146;s crippled equipment in order to simply get it&#146;s personnel out alive.<br>
-Text: During your turn, target an opponent&#146;s unpiloted starship present at a system, or an opponent&#146;s unpiloted vehicle. Target is lost (along with any cards aboard it). OR Cancel Hyper Escape, Power Pivot or Out Of Commission.<br>
-<br>
-<br>
-DARK Locations<br>
-<br>
-¥BLOCKADE FLAGSHIP: HALLWAY<br>
-DARK SIDE Site Location [PM]<br>
-Dark Force Icons: 1 Light Force Icons: 1<br>
-DS Text: If you occupy, Force generation +1 here, and opponent&#146;s characters may not move from here.<br>
-LS Text: Your Jedi deploy +2 here.<br>
-Mobile Location<br>
-Interior Site<br>
-Starship Site<br>
-Episode I<br>
-<br>
-¥NABOO: THEED PALACE GENERATOR<br>
-DARK SIDE Site Location [PM]<br>
-Dark Force Icons: 2 Light Force Icons: 2<br>
-DS Text: Your Dark Jedi are power +2 here.<br>
-LS Text: Your Jedi are power +1 here. Force drain -1 here.<br>
-Planet Location<br>
-Interior Site<br>
-Episode I<br>
-<br>
-¥NABOO: THEED PALACE GENERATOR CORE<br>
-DARK SIDE Site Location [PM]<br>
-Dark Force Icons: 3 Light Force Icons: 2<br>
-DS Text: Any characters of ability &lt; 5 hit here (and all cards on them) are placed in owner&#146;s Used Pile.<br>
-LS Text: Any characters of ability &lt; 5 hit here (and all cards on them) are placed in owner&#146;s Used Pile.<br>
-Planet Location<br>
-Interior Site<br>
-Episode I<br>
-<br>
-<br>
-DARK Objectives<br>
-<br>
-LET THEM MAKE THE FIRST MOVE / AT LAST WE WILL HAVE REVENGE<br>
-Destiny 0<br>
-DARK SIDE Objective [PM]<br>
-Side 0 Text: Deploy Theed Palace Generator, Theed Palace Generator Core and Deep Hatred. While this side up, opponent may not Force drain where opponent has a Jedi, and your Force drains at Naboo sites where you have a Dark Jedi may not be canceled. Once during your control phase, may target one opponent&#146;s character present with your Dark Jedi at an interior Theed Palace site. Target is lost.<br>
-Flip this card if an opponent&#146;s Jedi present at an interior Naboo battleground site.<br>
-<br>
-Side 7 Text: While this side up, you may not Force drain or initiate battle at any location where you have a Dark Jedi. Once during your move phase, your Dark Jedi may initiate lightsaber combat against an opponent&#146;s Dark Jedi present: Each player draws 2 destiny. Loser (lowest total) loses 2 Force (cannot be reduced). If difference is 5 or greater, lost Force must come from Reserve Deck, and losing character is lost.<br>
-Flip this card and retrieve 1 Force if opponent has no Jedi present at any interior Naboo battleground.<br>
-Episode I<br>
-<br>
-<br>
-DARK Vehicles<br>
-<br>
-¥BLIZZARD 4<br>
-Destiny 4<br>
-DARK SIDE Combat Vehicle [PM]<br>
-Lore: Staffed by an experienced crew, Blizzard 4&#146;s role in all engagements is to seek out new terrain uncovered by the initial offensive thrust, and unload troops to hold it. Enclosed.<br>
-POWER: 8 ARMOR: 4 LANDSPEED: 1<br>
-Text: May add 6 passengers. Permanent pilots provide ability of 4. When deployed, you may deploy (for free) an Imperial warrior aboard from your Reserve Deck; reshuffle. End of your turn: º Use 1 or Å.<br>
-DEPLOY: 5 FORFEIT: 5<br>
-Pilot<br>
-Pilot<br>
-Scomp Link<br>
-<br>
-<br>
-DARK Weapons<br>
-<br>
-¥AURRA SING&#146;S BLASTER RIFLE<br>
-Destiny 7<br>
-DARK SIDE Character Weapon [PM]<br>
-Lore: Aurra Sing&#146;s weapon of choice when she isn&#146;t using an opponent&#146;s lightsaber against them. Targeting mechanism is so complex only Aurra Sing herself can decipher it.<br>
-Text: Deploy on Aurra Sing. May target a character or creature for free. Target loses all immunity to attrition for remainder of turn. Draw destiny. Target hit if destiny +1 &gt; defense value. Jedi hit by Aurra Sing are power = 0 for remainder of battle.<br>
-Episode I<br>
-<br>
-¥MAUL&#146;S DOUBLE-BLADED LIGHTSABER<br>
-Destiny 1<br>
-DARK SIDE Character Weapon [PM]<br>
-Lore: Maul&#146;s double-blader lightsaber was actually two lightsabers fused into one. Only after years of training could Maul finally wield this powerful weapon, which hasn&#146;t been used in ages.<br>
-Text: Deploy on Maul. Adds 1 to Maul&#146;s lightsaber combat total. May lose 1 Force to add 2 to Force drain where present. Twice per battle, may target a character. Draw two destiny. Target hit, and its forfeit = 0, if total &gt; defense value. May not be stolen.<br>
-Episode I<br>
-<br>
-<br>
-Theed Palace Preview Cards (foiled)<br>
-<br>
-DARK Effects<br>
-<br>
-¥AFTER HER! (FOIL)<br>
-Destiny 5<br>
-DARK SIDE Immediate Effect [PV]<br>
-Lore: &#146;This one&#146;s a decoy!<br>
-Text: If opponent just Force drained you at a location, deploy on that location. Opponent&#146;s Force drains here are +1. Your battle destiny draws here are +1. If you control this location, may place Immediate Effect in Used Pile to retrieve 4 Force. (Immune to Control.)<br>
-Episode I<br>
-<br>
-¥NABOO OCCUPATION (FOIL)<br>
-Destiny 5<br>
-DARK SIDE Effect [PV]<br>
-Lore: Battle droid armies require less credits to maintain than the average soldier. Trade Federation tactics are designed to take advantage of these numbers.<br>
-Text: Deploy on table. During your draw phase, may use 3 Force: until end of next turn, opponent generates no Force at Naboo sites you control with a battle droid. Place Effect in Lost Pile if you have no battle droids on Naboo. (Immune to Alter.)<br>
-Episode I<br>
-<br>
-<br>
-DARK Interrupts<br>
-<br>
-¥ROLLING, ROLLING, ROLLING (FOIL)<br>
-Destiny 5<br>
-DARK SIDE Used Interrupt [PV]<br>
-Lore: The Colicoids from Colla IV modeled destroyer droids after themselves in that they<br>
-can roll up into a ball and move swiftly into a conflict.<br>
-Text: Take any non-unique destroyer droid into hand from Reserve Deck; reshuffle. OR During your deploy phase, relocate your destroyer droid to an adjacent site.<br>
-Episode I<br>
-<br>
-<br>
-<br>
-© 2001 Lucasfilm Ltd. &amp; TM. All Rights Reserved. TM, ® &amp; © 2001 Decipher Inc. All Rights Reserved. The information in this document is copyrighted Decipher Inc. 2001; however it may be freely disseminated online or by traditional means as long as it is not altered and this copyright notice is attached.<br>
-<br>
-If you notice any errors or omissions, please email jediknight@decipher.com with &quot;SWQ Spoiler&quot; as the title of your email. </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="articles.php3"><img src="images/aback.GIF" border="0"></a><A HREF="articleread.php3?article=2910"><IMG SRC="images/aread.GIF" BORDER=0></A><A HREF="articlereview.php3?article=2910"><IMG SRC="images/areview.GIF" BORDER=0></A><a href="articleprint.php3?article=2910" TARGET="BLANK_"><img src="images/aprint.gif" border="0"></a></FONT></TD></TR></TABLE> </td>
-              </tr>
-            </table>
-            <!-- #EndEditable --></td>
-        </tr>
-      </table>
-    </td>
-    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
-      <table border="0" cellspacing="0" cellpadding="0" width="150">
-        <tr align="right" valign="top"> 
-          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
-          <td width="154" valign="top" align="right"> 
-            <table width="154" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF">&nbsp; </td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF"> 
-                  <script language="JavaScript">
-
-function logout() {
-var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
-document.cookie = cookie;
-window.location = "../index.php3";
-	}
-
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-
-</script>
-                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
-<select name="select1" onChange="go(this)">
-    <option selected>Quick Jump</option>
-    <option value="/swccg/resources/rulings.php3">Current Rulings</option>
-    <option value="/swccg/main/decktech.php3">About DeckTech</option>
-    <option value="/swccg/membercenter/directory.php3">Member Directory</option>
-    <option value="#">-----------------------------</option>
-    <option value="http://www.decktech.net">decktech.net</option>
-  </select>
-</form><br>
-<!-- #EndLibraryItem --> </td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
-                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
-                  Center</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
-                  Reports </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/treports/index.php3" class="level1nav"></a></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav"></a><a href="/swccg/shop/index.php" class="level1nav">Tech 
-                  Shop </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
-                  Resources</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
-          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/article.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"> 
-      &nbsp; <a href="/swccg/articles/index.php3" class="level2nav">Article Home</a> 
-      </font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/articles/articles.php3" class="level2nav">Article Archive</a> 
-      <br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-</table>
-<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
-          <td width="155" valign="top" height="13"> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr align="left" valign="top" bgcolor="#630063"> 
-                <td width="154">
-
-<center>
-  <a href="/dpc/events/vegas.php"><img src="/global/images/125banner_vdpc.gif" width="129" height="125" border="0"></a> 
-</center>
-<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
-                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="4">
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
-      Updates</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><a href='/swccg/resources/hoostinopage.php3'><font face='Arial, sans-serif' size='2'>Justin Warren</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2002-05-05</font><BR></td>
-  </tr>
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
-      Tips</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><p><font face='arial' size='2' color='#ffffff'>Trying to find something to do to help promote SW:CCG? Look at our community projects just off the homepage!</font></td>
-  </tr>
-</table>
-<!-- #EndLibraryItem --></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate --></html>

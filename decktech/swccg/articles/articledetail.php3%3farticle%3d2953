@@ -1,596 +1,0 @@
- 
-<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
-<head>
-<title>DeckTech - for the players, by the players.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" href="/swccg/global/css/white.css">
-<!-- #BeginEditable "Style" --> 
-<style type="text/css">
-<!--
-.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
-.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
-.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
-.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
-.centercolor {  background-color: #004142}
--->
-</style>
-<!-- #EndEditable -->
-</head>
-<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" -->
-
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-
-<script language="JavaScript">
-<!--
-ShowBurstAd('ad8702a','468','60');
-// -->
-</script>
-
-<noscript>
-<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
-</noscript>
-
-<!-- END BURST CODE -->
- <!-- #EndLibraryItem --></td>
-    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
-      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
-    <td valign="top" class="centercolor" rowspan="2" > 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
-          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
-          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
-        </tr>
-        <tr> 
-          <td colspan="2"><!-- #BeginEditable "Body" --> 
-            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
-              <tr> 
-                <td bgcolor="#004142" height="12" valign="top" width="44%"><img src="../global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
-                <td bgcolor="#004142" align="right" valign="top" height="12" width="48%"><img src="../global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr> 
-                <td height="622" valign="top" colspan="2" bgcolor="#004142">&nbsp;<table width="100%" border="0" cellpadding="4"><tr bgcolor="#000000"><td><font color="#FFFFFF"><font face="Haettenschweiler, Tahoma, Arial" size="6">Duel Of The Fates 101 (ep1)</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC="images/a5.gif" BORDER=0><A HREF="articleread.php3?article=2953"><IMG SRC="images/aread.GIF" BORDER=0></A><A HREF="articlereview.php3?article=2953"><IMG SRC="images/areview.GIF" BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="../membercenter/directory/memberpage.php3?member=5934">scott "hjedi" taylor</A></FONT></TD></TR><!-- 5934 --><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Description</Font></TD><TD><font face="Arial, sans-serif" size="2">This atricle will deal in depth a deck that can be made with this new objective, Duel Of The Fates. i have included only EP1 cards that will be of use. note Sense, alters, control and other smaller noted cards can be put in at your discretion, This is an</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Article</Font></TD><TD><font face="Arial, sans-serif" size="2">I`ll start with part one the light side obective<br>
-<br>
-: The Light Side Objective WWHT/DoTF :<br>
-<br>
-<br>
-We Will handle This<br>
-Deploy: Theed palace generator, Theed Palace generator core, and Inner strength. <br>
-<br>
-While: this side up Opponent may not force drain where opponent has a Dark Jedi, and your force drains at Naboo sites where you have a Jedi cannot be canceled. Once during your control Phase you may target one opponents character at an interior Theed palace site with your Jedi, Target is lost. <br>
-<br>
-Flip: this card if an opponents Dark Jedi is at an interior Theed Palace site. <br>
-<br>
-What effectively this means is you can drain if the opponent has ability of a character of ability &lt;6 at the core room or generator room. And you can during your control phase pick off a character there that`s the strongest and then battle them.and if Maul (please note this is the only Dark Jedi in EP1 so far) is at the Desert landing site on Tatooine, then he is F***ed as he can`t drain there. You get a lot of force activation but then so does your opponent, one of the cons with his objective. you can up the activation by the use of security control and lets speak with the coucil (effect and interrupt)<br>
-<br>
-&gt;&gt;&gt;&gt;&gt;&gt;flip over&lt;&lt;&lt;&lt;&lt;&lt;&lt;<br>
-<br>
-Duel of the fates <br>
-While: this side up, you may not Force drain or initiate battle at any location where you have a Jedi. Once during your move phase, your Jedi may initiate lightsaber combat against an opponents Dark Jedi present: Each player draws 2 destiny. Loser (lowest total) loses 2 Force (cannot be reduced). If difference is 5 or greater, lost Force must come from Reserve Deck, and losing character is lost. <br>
-<br>
-Flip: this card and retrieve 1 Force if opponent has no Dark Jedi present at any interior Naboo battleground. <br>
-<br>
-This is hard once the dark side jedi Maul is there on Naboo, youll have a hard time trying to kill him, but if you do the bonus is high, No more Dark Jeids to worry about. and with Inner Strength (see below), you can effectively duel or initate combat and win with a tracked destiny. and if Maul loses and you have another tracked 7 destiny you can effectively get rid of Maul with Mauls Demise (interrupt).<br>
-<br>
-<br>
-&gt;Mauls Demise&lt; Used Interrupt<br>
-destiny 6<br>
-<br>
-If your [episode 1] Jedi just defeated Maul in lightsaber combat draw destiny. Add two if Qui-Gon is placed out of play. If total destiny &gt;6 place maul out of play, and you may take one card from the lost pile into hand. (immune to Sense) <br>
-<br>
-With maul out of play, effectively the dark side cant stop any drains at all at Naboo. all you need is a tracked 7 and hey presto you win.<br>
-<br>
-<br>
-Inner Strength 0 <br>
-Epic Event <br>
-<br>
-Deploy on table. You may not play Sorry About The Mess or Clash Of Sabers. During any deploy phase, you may place one card face-down under one of your Jedi. (These are that characters combat cards.) No character may have more than two combat cards at once. Instead of drawing lightsaber combat destiny or duel destiny, your participating character may use one of his combat cards. Place characters combat cards in owners Used Pile when used (or if that character 0leaves the table). <br>
-<br>
-with this new epic event in this deck you can effectively win duels and combat every turn. and if your feeling unlucky try What Was It? (immediate effect)<br>
-<br>
-What was it? 3 <br>
-Immediate effect <br>
-<br>
-If your opponent just initiated a duel against one of your non-captive Jedi at a site deploy on that Jedi. Cancel that duel and relocate the Jedi to an adjacent site. Your duel destinies are each +1. (Immune to control) <br>
-<br>
-Now you can stand a chance against an opponent who has 7s for destiny all the time now as he will have to get out of your way. you destinys when tracked are now 8s.<br>
-<br>
-Other cards that can be utilized to make this deck powerful are below :-<br>
-<br>
-----------------------<br>
-&gt;Speak With The Jedi Council&lt; Used or Lost Interrupt<br>
-destiny 4<br>
-<br>
-USED: If the jedi council chamber is not on the table, you may deploy it from Reserve Deck; reshuffle LOST: Deploy one Jedi Council member to the Jedi Council Chamber fro Reserve Deck; reshuffle<br>
-<br>
-This is a key card to get a lot of activation. first use is to get the Jedi Council Chamber<br>
-<br>
-<br>
-&gt;Coruscant : Jedi Council Chamber&lt; Location<br>
-<br>
-Dark side : non-unique lightsabers Force drain bonuses everywhere are cancelled.<br>
-Light side : (ep1) Yoda may dploy here from Reserve Deck, Reshuffle. Immune to Revolution<br>
-<br>
-3 facts<br>
-a.	No Non-unique lightsabers in ep1 enviroment<br>
-b.	No Revolution in ep1 enviroment<br>
-c.	Yoda can download from reserve deck.<br>
-<br>
-so with that one interupt can enhance your activation and pull out all the jedis that you can use in your deck.<br>
-<br>
-Mace Windu, Depa Billaba and Plo Koon.<br>
-<br>
-more about the jedi later!<br>
------------------------<br>
-<br>
------------------------<br>
-&gt;Strike Blocked&lt; Used Interrupt<br>
-destiny 3<br>
-<br>
-Take top card of Force Pile into hand. OR If opponent just revealed a combat card, it is canceled (place in opponents used pile) and opponent must draw destiny instead (that destiny is reduced by 1). OR cancel Maul Strikes, Dark Strike or You Are Beaten.<br>
-<br>
-This is another double (triple ???) edged card. you can put it in your used pile for the top card of your force pile if you already have one in your hand. Or cancel Maul Strikes, now this is great and the card is a used interrupt. Better than a sense. And the last but more important thing this card can do. is cancel a combat card and force the opponent to draw a destiny -1, this could make or break the deadlock of 7s all the time. underated and powerful.<br>
------------------------<br>
-<br>
------------------------<br>
-Jedis<br>
-<br>
-&gt;Mace Windu&lt;<br>
-<br>
-Deploy +3 anywhere except the JCC. If Amidala at a battleground and maul is not on the table opponent loses 2 force during my control phase. <br>
-<br>
-If you leave him at the JCC and you have Padme Naberrie out, you can effectively kill you opponent by forcing your opponent to deploy Maul prematurely, to desert site, more on Padme after Jedis.<br>
-<br>
-<br>
-&gt;Depa Billaba&lt;<br>
-<br>
-Deploys only to JCC. Once per turn use 1 force to peek at the top card of any reserve deck, place that card either on top of reserve deck or used pile.<br>
-<br>
-This jedi is pure tech, used in conjunction with Naked 3po is a surefire way to control destinies.<br>
-<br>
-<br>
-&gt;Plo Koon&lt;<br>
-<br>
-Deploys only to JCC. Once per turn may cancel and cause a redraw of a weapon or battle destiny.<br>
-<br>
-This is another tech jedi at the JCC. you can cancel a 7 on a lightsaber or gun that will kill your jedi to something a little more like a 3 or 4.<br>
-<br>
-<br>
-&gt;Yoda, SCM&lt;<br>
-<br>
-Deploys only to JCC. during move phase use 4 force to move a jedi to a place where you have presence<br>
-<br>
-this is good for sudden attack on the darkside if there is only maul and a scrub. move over and combat.<br>
-<br>
-<br>
-&gt;Obi-wan, Jedi Knight&lt;<br>
-<br>
-if Obi present with Qui then Qui can use Obis combat cards. +2 to power if with maul.<br>
-<br>
-with maul dueling all the time obi with qui can be handy.<br>
-<br>
-<br>
-&gt;Qui-Gon, Jedi Master&lt;<br>
-<br>
-If Qui wins combat, force lose is +2 and once per game lose 2 force 2 get saber back<br>
-<br>
-now if you keep winning with qui you will pick away at the dark sides force pile.<br>
-<br>
-Plus the fact that all these jedi can add one more force each to the activation is a massive bonus for this decktype.<br>
-<br>
--------------------------<br>
-<br>
--------------------------<br>
-Support Characters<br>
-<br>
-&gt;Captain Panka&lt;<br>
-<br>
-deploys -1 to padmes site (deploy is now 3) once per game may get his blaster from reserve deck and once per turn character hit by him losses 2 force.<br>
-<br>
-Now he may not be much, but with his blaster he can be a monster plus he has forfeit of 6.<br>
-<br>
-<br>
-&gt;Padme Naberrie&lt;<br>
-<br>
-twice per game may deploy qui or obi to same site. can`t be targeted while jedi here.<br>
-<br>
-now this is a serious jedi downloader here. plus the fact she is part of a combo with her blaster and Mace makes up for her innocent looks.<br>
-<br>
-<br>
-&gt;Sabe&lt;<br>
-while at same site as Amidala she is power +2 and amidala is immune to attrition. If at a site and Amidala is not on the table may Place her OOP to deploy Amidala from reserve deck.<br>
-<br>
-now this gets Amidala out so fast and for free. so you can get the jedi`s out even sooner. but if you have Amidala out already your cooking. Amidala can`t be hit with jedis present and she is total immune to attrition.<br>
-<br>
-<br>
-&gt;Sio Bibble&lt;<br>
-<br>
-activation +2 at same site as Amidala, While at Naboo, subtract 1 from opponents drains at adjacent sites and your other republic characters are power +1.<br>
-<br>
-Activation will get higher and higher with Sio next to Padme.<br>
-<br>
-<br>
-&gt;Jar-Jar Binks&lt;<br>
-<br>
-deploys anywhere. during battle may use 1 force, destiny +2 &gt; destiny + target`s ability, both are lost.<br>
-<br>
-This is great at taking out hit squads and the fact that Gimme A Lift and Brisky Morning Muchen and Jar-Jars electropole can be used makes for a good charater more later on.<br>
-<br>
-<br>
-&gt;Yarua&lt;<br>
-<br>
-A good senator with high power and good forteit with low deploy cost<br>
-<br>
-&gt;Naked 3po&lt;<br>
-<br>
-once per turn may place a card from hand on used pile to draw op card from reserve deck.<br>
-<br>
-Pure tech as i was saying earlier on with Depa Billaba, use to track destinies<br>
-<br>
--------------------------<br>
-<br>
--------------------------<br>
-<br>
-Support Weapons<br>
-<br>
-&gt;Jar-Jars Electropole&lt;<br>
-destiny 7<br>
-<br>
-May throw (place in used pile) if Destiny +2 &gt; defence value target -2 power &amp; landspeed 0<br>
-<br>
-This may seem a little stupid to put in to a deck of this type. but with the number of 7s in EP1 pratically zero. Jar-Jars electrople is good for a beatdown next turn. plus a very reusable 7 back in the deck<br>
-<br>
-<br>
-&gt;Pankas Blaster&lt;<br>
-destniy 4<br>
-<br>
-may target creature, cahrrater or vehicle. target hit if destiny +2 &gt; defence value, power +3 when hit something<br>
-<br>
-Now this is great with Cpt Panka, as you hit somthing your power goes up by 3 and opponent has to lose 2 force.<br>
-<br>
-<br>
-&gt;Amaidalas Blaster&lt;<br>
-Destiny 6<br>
-<br>
-Draw destiny. if destiny &gt; defence value target power and forfeit = 0<br>
-<br>
-powerful, and it`s a destiny 6 which helps the combat. <br>
-<br>
-<br>
-&gt;Obis lightsaber&lt;<br>
-Destiny 2<br>
-<br>
-deploy on (EP1) obi, add one to force drain. draw 2 destiny, &gt; defence value target hit, if  dark jedi, add 1. not extremely useful at all apart from the fact this is the only saber in EP1 that can add 1 to the force drain.<br>
-<br>
-<br>
-&gt;Quis Lightsaber&lt;<br>
-Destiny 5<br>
-<br>
-deploy on Qui or (EP1) ob. Adds one to combat total.  draw 2 destiny and if &gt; defence value it`s hit if a dark jedi lose one force if hit.<br>
-<br>
-better by the fact it can be deployed on either obi or qui, and adds one to combat total. High destiny counts as well.<br>
-<br>
-------------------------<br>
-<br>
-------------------------<br>
-Other Supporting Cards<br>
-<br>
-<br>
-&gt;Armamnet Dismantled&lt;<br>
-destiny 6<br>
-<br>
-use 4 force (1 if obi got a saber) to deploy on table if maul is present with obi (obi cannot move). Maul saber swings once per battle and adds only 1 to force drain.<br>
-<br>
-not nessecary to this deck type. but handy if the dark side does not use the dark side version of the same objective. plus high destiny does not hurt.<br>
-<br>
-<br>
-&gt;Clinging To The Edge&lt;<br>
-Destiny 5<br>
-<br>
-if opponents dark jedi with at least 1 combat card just initated combat against your jedi with none, draw 3 destiny and choose 2 to use for lightsaber combact destiny. you may take other card into hand or return it to top of reserve deck.<br>
-<br>
-This is handy in a pinch, when the opponent targets another jedi at the same site with no combat card under.plus it`s handy to see if you can get him wit h2 highest combat card.. one on top of reserve deck and one under the jedi.<br>
-<br>
-<br>
-&gt;Weapon Of A Fallen Mentor&lt; immediate effect<br>
-destiny 6<br>
-<br>
-if you lightsave was just losr from  a  site deploy on your character of ability &gt;4 at same site relocate that saber to this character who may use that lightsaber and it may not be stolen (immune to control)<br>
-<br>
-This is more of a job when obi and qui are together or for obi with a Jedi CM and Qui with a Jedi CM. that way the fight goes on.<br>
-<br>
-<br>
-&gt;Fall Of A Jedi&lt; lost interrupt<br>
-destiny 6<br>
-<br>
-If your jedi was just defeated in combat you may either: Reveal a dark jedis combat cards and place one in opponents lost pile (return others). OR Place Qui OOP and take (ep1) obi from lost or reserve pile ; reshuffle<br>
-<br>
-looking at this makes you think why would i want qui oop. Well if you play Mauls demise you will Place Maul OOP then. The other thing it can do is get rid of a high combat card under the dark jedi that is handy as it could be another 7 waiting there.<br>
-<br>
-<br>
-&gt;Are You Brain Dead?!&lt; used or lost interrupt<br>
-destiny 5<br>
-<br>
-USED: target your (ep1) jedi defneding a battle. Target is immune toa ttrition for the rest of turn (unless jedi present). LOST: In a battle you lost, placea Jedi Council member you just forfeited in used pile to cancel all battle damage and attrition against you.<br>
-<br>
-Wooooall. Used part is handy, but lost part is even better, basically jump down depa and Klo and attack their army. use AYBD?! and hit them with attrition while you only lose one card.<br>
-<br>
-<br>
-&gt;Jedi Escape&lt; lost interrupt<br>
-destiny 5<br>
-<br>
-if opponent just initiated a duel against one of your non-captive jedi at a site use 1 force to cancel the duel and you may relocate any number of your characters there to an adjacent site<br>
-<br>
-This can be handy if your opponent has played Maul Strikes, he loses that card and you lose no jedis, and if it was a battle well he has lost that battle as there was no battle.<br>
-<br>
-<br>
-&gt;Brisky Moring Muchen&lt; effect<br>
-destiny 3<br>
-<br>
-deploy on table. Once per game. may deploy jar jar from reserve deck; reshuffle. if you just lost jar jar from a site, may place him here. at any time, may use 3 force to take jar jar from here into hand.<br>
-<br>
-this is basically a recylcable character that can`t be killed in conjunction with gimme a lift below<br>
-<br>
-<br>
-&gt;Gimme A Lift&lt; used interrupt<br>
-destiny 5<br>
-<br>
-Relocate Jar Jar to a battle just initiated at an adjacent site. OR Increase Jar Jar&#146;s landspeed by 1 for remainder of turn. OR If Jar Jar on Brisky Morning Munchen, take him into hand<br>
-<br>
-this makes for an easy recyclable 5 and make jar jar more easier to get back on the table. plus can be used to move jar jar in a battle like a react.<br>
-<br>
-<br>
- </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="articles.php3"><img src="images/aback.GIF" border="0"></a><A HREF="articleread.php3?article=2953"><IMG SRC="images/aread.GIF" BORDER=0></A><A HREF="articlereview.php3?article=2953"><IMG SRC="images/areview.GIF" BORDER=0></A><a href="articleprint.php3?article=2953" TARGET="BLANK_"><img src="images/aprint.gif" border="0"></a></FONT></TD></TR></TABLE> </td>
-              </tr>
-            </table>
-            <!-- #EndEditable --></td>
-        </tr>
-      </table>
-    </td>
-    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
-      <table border="0" cellspacing="0" cellpadding="0" width="150">
-        <tr align="right" valign="top"> 
-          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
-          <td width="154" valign="top" align="right"> 
-            <table width="154" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF">&nbsp; </td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF"> 
-                  <script language="JavaScript">
-
-function logout() {
-var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
-document.cookie = cookie;
-window.location = "../index.php3";
-	}
-
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-
-</script>
-                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
-<select name="select1" onChange="go(this)">
-    <option selected>Quick Jump</option>
-    <option value="/swccg/resources/rulings.php3">Current Rulings</option>
-    <option value="/swccg/main/decktech.php3">About DeckTech</option>
-    <option value="/swccg/membercenter/directory.php3">Member Directory</option>
-    <option value="#">-----------------------------</option>
-    <option value="http://www.decktech.net">decktech.net</option>
-  </select>
-</form><br>
-<!-- #EndLibraryItem --> </td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
-                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
-                  Center</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
-                  Reports </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/treports/index.php3" class="level1nav"></a></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav"></a><a href="/swccg/shop/index.php" class="level1nav">Tech 
-                  Shop </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
-                  Resources</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
-          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/article.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"> 
-      &nbsp; <a href="/swccg/articles/index.php3" class="level2nav">Article Home</a> 
-      </font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/articles/articles.php3" class="level2nav">Article Archive</a> 
-      <br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-</table>
-<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
-          <td width="155" valign="top" height="13"> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr align="left" valign="top" bgcolor="#630063"> 
-                <td width="154">
- <!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE -->
-<center>
-<script language="JavaScript">
-<!--
-ShowBurstAd('cb8702a','125','125');
-// --></script>
-<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
-<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
-width="125" height="125" border="0" alt="Click Here"></a> 
-</noscript>
-</center>
-<!-- END BURST CODE --> 
-<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
-                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="4">
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
-      Updates</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-12-17</font><BR><a href='/swccg/resources/hoostinopage.php3'><font face='Arial, sans-serif' size='2'>Justin Warren</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-11-26</font><BR></td>
-  </tr>
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
-      Tips</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><p><font face='arial' size='2' color='#ffffff'>Remember, when viewing submissions like decks, articles, or tournament reports, by clicking the appropriate title, you can sort by title, date, and rating. Use the arrow to reverse the order!</font></td>
-  </tr>
-</table>
-<!-- #EndLibraryItem --></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate --></html>

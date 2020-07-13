@@ -1,417 +1,0 @@
- 
-<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
-<head>
-<title>DeckTech - for the players, by the players.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" href="/swccg/global/css/white.css">
-<!-- #BeginEditable "Style" --> 
-<style type="text/css">
-<!--
-.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
-.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
-.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
-.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
-.centercolor {  background-color: #004142}
--->
-</style>
-<!-- #EndEditable -->
-</head>
-<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" -->
-
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-
-<script language="JavaScript">
-<!--
-ShowBurstAd('ad8702a','468','60');
-// -->
-</script>
-
-<noscript>
-<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
-</noscript>
-
-<!-- END BURST CODE -->
- <!-- #EndLibraryItem --></td>
-    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
-      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
-    <td valign="top" class="centercolor" rowspan="2" > 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
-          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
-          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
-        </tr>
-        <tr> 
-          <td colspan="2"><!-- #BeginEditable "Body" --> 
-            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
-              <tr> 
-                <td bgcolor="#004142" height="12" valign="top" width="44%"><img src="../global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
-                <td bgcolor="#004142" align="right" valign="top" height="12" width="48%"><img src="../global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr> 
-                <td height="622" valign="top" colspan="2" bgcolor="#004142">&nbsp;<table width="100%" border="0" cellpadding="4"><tr bgcolor="#000000"><td><font color="#FFFFFF"><font face="Haettenschweiler, Tahoma, Arial" size="6">Deck Architecture (Revised, Condensed, and Improved)</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC="images/a5.gif" BORDER=0><A HREF="articleread.php3?article=2523"><IMG SRC="images/aread.GIF" BORDER=0></A><A HREF="articlereview.php3?article=2523"><IMG SRC="images/areview.GIF" BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="../membercenter/directory/memberpage.php3?member=6495">Devon "Devonator" Clark</A></FONT></TD></TR><!-- 6495 --><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Description</Font></TD><TD><font face="Arial, sans-serif" size="2">This is a revised and shortened edition of my original Deck Architecture.  But, don’t let that fool you.  This article is still LONG...but not so long that it has one page cut out, like the original did.</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Article</Font></TD><TD><font face="Arial, sans-serif" size="2">Before we begin building, it&#146;s important to understand that nobody, not even the masters, gets it absolutely right in his first try.  You WILL tweak and modify.  It&#146;s inevitable.  So, don&#146;t be discouraged if your first design is not the 60-card Excalibur that you envisioned.  You may simply need to evaluate the deck&#146;s strengths and weaknesses and smooth out the rough edges.  Don&#146;t build a new deck right away if your just-built deck loses a few.  If you do, the cycle will continue.  So what if your LS deck isn&#146;t enjoying the same success as your DS deck.  It&#146;s probably because it hasn&#146;t enjoyed the same kind of shelf life, and therefore hasn&#146;t been tweaked as much.  I suggest that in order to be successful, you should aspire to be more than a deck builder.  Be a Deck Architect.  As an aspiring architect, your first consideration is whether to build at all.  Your deck may just need a few more supports.  If this is the case, you probably just need to renovate a little.  However, if your deck has more trouble standing on its own than the Leaning Tower of Piza, chances are that it might be a good time to build a new deck.  If so, keep in mind that successful architects have a series of steps that they take in order to do their best work.  You should follow those same steps as they apply to deck architecture.  The first of these steps is to determine whether to build at all.  The remaining steps are listed below…<br>
-<br>
-SURVEYING<br>
-<br>
-Architects begin by surveying the landscape on which they will build.  As a deck architect, you should survey the grounds on which you will build your deck.<br>
-<br>
-*Pick your construction site-Architects do not build if they do not have a site on which to build.  You too must find the site on which you will build your deck.  <br>
-<br>
-Okay, instead of a physical location, your construction site will be a theme.  Sometimes, that theme is an objective, but it could also be an effect, character, interrupt, etc.  It could be any number of cards or card types.  Your construction site is whatever card has tickled your imagination to begin thinking about building a deck.  Create for yourself a vision of what you would like your deck to do in an ideal situation and use that as your starting point.  This will get your creative juices flowing.  Conversely, if you do not pick your site, your deck will fold.  We&#146;ve all seen decks that seemed like 60 cards thrown together randomly with absolutely no direction or strategy.  You&#146;ve probably even felt pity for that unfortunate soul who just doesn&#146;t get it, yet.  You must dedicate some time to figure out what your deck concept is--what it is that your deck will do.  This will help determine how you build your deck and it will also help determine how you will combat the elements.<br>
-<br>
-*Test the grounds--Architects might find a good spot to build, but they must first test the grounds to determine if the location is safe.  You too should test your grounds to see if your construction site is a safe place to build.  <br>
-<br>
-If your construction site is a card combo, check to make sure the combo is legal.  Check to make sure that you have the cards to pull it off.  Learn any rulings about the cards.  Know what problems you will meet before you ever begin to design.  This sounds somewhat intensive, but in truth, it&#146;s not.  All you have to know is whether you are capable of accomplishing your vision.  If you want to make a speeder deck using T-47 Battle Formations on Hoth and you include the Main Power Generators, you&#146;ve taken away your battleground sites to satisfy the Formations.  Your deck will crumble because you never surveyed your location.  That&#146;s what I mean by testing your grounds.  Verify that you will be able to play your deck in tournaments.  Test your grounds to make sure that you don&#146;t get an unwanted surprise.<br>
-<br>
-THE WORK ENVIRONMENT<br>
-<br>
-You&#146;re ready to get to work.  When Architects work, they create a productive work environment.  Now that you&#146;re at this stage, you must create an environment conducive to your best work, as well.<br>
-<br>
-*Go to the office--An Architect has an office--a place where he knows he does his best work.  As a deck architect, you should go to your office, too.  <br>
-<br>
-It is a documented phenomenon of psychology that our bodies attribute certain functions to certain locations.  Your bed is the place where you sleep.  Your body knows this.  That&#146;s why anybody who has ever studied in bed has fallen asleep studying in bed.  So, create for yourself a place where you build decks.  Your body will attribute this as a place of thinking, and you will do your best deck building there.  Your office might be at your coffee table, desk, computer, or any number of other places.  Wherever your office might be, it is important that you have one.  Building decks requires thought, so find a place where you can do your best thinking and make that your office.<br>
-<br>
-*Adhere to your schedule--Architects never wait until the night before a project is due to throw a building together.  The results would be flawed and unsatisfactory.  As a deck architect, you should adhere to your schedule and give yourself plenty of time to do your best work.  <br>
-<br>
-Again, deck building requires thought, so allow yourself the latitude and time to do your best thinking.  Rarely is anyone successful with a deck that they threw together 45 minutes before a tournament.  You must provide yourself ample time to build your deck.  Try not to build under high amounts of stress.  Your thought process will be stressed as well.  Instead, give yourself hours, days even, to build a deck that you can be proud of and a deck that you will enjoy playing (hopefully, they&#146;re one and the same).  You will do your best work this way, and that will translate into more wins at tournaments and more fun, as well.<br>
-<br>
-CONSTRUCTION<br>
-<br>
-You&#146;re in your positive work environment.  Now it&#146;s time to start building.<br>
-<br>
-*Blueprints--Architects don&#146;t build if they don&#146;t have a plan.  Why would you?  <br>
-<br>
-Design your deck on paper before you ever touch your cards.  If you begin working with cards, you tend to be influenced more by individual cards and not how they fit in to the scheme of your deck.  If you begin working on paper, you tend to be influenced more by the big picture and what your deck is trying to accomplish.  Remember that your goal is efficiency.  You&#146;re trying to make the best use of each card slot.  Your LS scouts deck might be more efficient if you had not filled three card slots with Take The Initiative.  While one might be effective, three is overkill and those card slots could be better utilized elsewhere.  Of course, you never realize this until your deck is annihilated by Odds in the big tournament; plus, whenever you used TTI, it only added 3 to attrition--not exactly the game-altering results you hoped for.  If you had designed on paper, you probably would have only played one, maybe none at all.  That would have left you with two open card slots.  You might have therefore realized that you were weak against Odds and added Your Insight Serves You Well.  Start with a blueprint before you build.  In a very subtle way, it leads to increased deck efficiency.<br>
-<br>
-*Lay the foundation--Architects never build without first placing a foundation.  Neither should you.  <br>
-<br>
-You should always begin by asking yourself, &quot;How will my deck win?&quot;  When you were surveying, you probably discovered a card or card combo that answers this question.  This might be your foundation, but be careful.  Often these cards fit better into the next area of construction--framework.  However, if you have identified your deck&#146;s foundation, you should begin construction here.  A good guideline is to allow fewer than ten card slots for your foundation.<br>
-<br>
-No matter what your foundation is, you must begin deck construction by adding the foundation--your means of winning.  It would be a very large oversight to include no TIEs in a TIE swarm deck.  This should be obvious.  Moreover, it should also be obvious that you must apply the proper weight to those same cards to enjoy any amount of success.  A traditional Hunt Down deck would be mistaken to include only two Vaders.  That architect has NOT applied the proper weight to his foundation.  Neither of these two decks will ever truly be successful because they haven&#146;t adequately prepared the foundations.<br>
-<br>
-To continue the above argument, I maintain that it is also essential that you recognize your ACTUAL foundation.  I chose the above examples of the TIE swarm and Hunt Down decks because, in both cases, I did NOT accurately identify the ACTUAL foundation.  As I stated at the beginning of this section, you must answer the question &quot;How will my deck win?&quot; When you have done this, you will have identified your foundation.  Often, it is more than a single card.  For example, while the foundation of a traditional Hunt Down deck would obviously be Vader (you CANNOT win without him), you DO NOT win with Vader.  When you ask yourself,  &quot;How will this deck win?&quot;, your answer will probably be &quot;Visage of the Emperor.&quot;  Therefore, there are two elements to Hunt Down&#146;s foundation--Vader and Visage.  This is a solid foundation.  Four or five Vaders plus two or three Visages equals between six and eight cards.  That is within our ten-card limit.  This is stable.  <br>
-<br>
-Sometimes, the theme that you chose while surveying is not your foundation, either.  A deck that consists entirely of a TIE swarm would not be much good at all.  In truth, it is the retrieval of Sienar Fleet Systems that gives a TIE swarm deck teeth.  Therefore, the effect, and the locations necessary to make SFS work, are all parts of the foundation.  (Locations are often key parts of the foundation.  You can&#146;t play Scum and Villainy without the Audience Chamber, and you can&#146;t play Tatooine Celebration without Tatooine sites.  Therefore, the appropriate locations for these cards are also part of your deck&#146;s foundation.)  So, your TIE swarm foundation consists of SFS and Wakeelmui.  Two SFSes and Wakeelmui equals a three-card foundation.  This is a very stable deck-design and a good example of why small foundations can lead to good decks.  TIE swarm decks have limited strategies because they have a small foundation, which means that they are very easy to play.<br>
-<br>
-In short, to make a successful deck, you MUST identify your foundation and prepare it properly.<br>
-<br>
-*Build your framework--Architects, never build from the outside in.  They start by assembling the frame--the supports on which their building will stand.  As a deck architect, you should do the same.  <br>
-<br>
-The framework of your deck should do a number of things for you.  It should protect your foundation.  It should assist in getting your foundation in place.  It should include a set of additional cards that will carry the weight in your deck--cards that battle, drain, damage, and disrupt.  And it should include a set of supports for your supports--cards that work well with your other framework cards.  A good assortment of the above will establish a solid framework, and a solid framework is just as important as a solid foundation.  Without the framework, there is nothing to keep the deck together and your deck will crumble just as quickly as if your deck had no foundation.  A SFS deck without TIEs, even though it has a solid foundation, is even less effective than a TIE deck without SFS.  Therefore, your foundation and framework go hand-in-hand.  Together, they should account for the majority of your deck--approximately forty to forty-five cards out of your sixty.  <br>
-<br>
-*Add the aesthetic touches--Architects never consider a structure finished when all they have built is supports and struts.  They add windows, masonry, facings, and other aesthetic touches.  As a deck architect, you should add your aesthetic touches as well.<br>
-<br>
-You have approximately fifteen to twenty cards left.  These are the cards you use to personalize your deck.  These are the interrupts and effects that will make your deck different than the others.  In these fifteen to twenty card slots, you should add both &quot;Universal Cards&quot; and &quot;Tricks of the Trade&quot;.  Your universal cards are cards that fit into almost every deck strategy, but are neither foundation nor framework.  These cards (Imperial/Rebel Barrier, Monnok/Grimtaash, Ghhk/Houjix, Interrupt Grabbers, etc.) are universal in their applicability but are not essential to your deck&#146;s success.  Because these cards are universal in their applicability, it is a good idea to play them because they enhance the effectiveness of your counter-strategies.  Universal cards are universal because they disrupt many opposing strategies.  They are defensive cards.  Conversely, you should also add some offensive tricks of the trade--cards that sharpen your deck&#146;s attack and make your deck more difficult to beat  (Power Pivot, Lateral Damage, Throw Me Another Charge, and Dark Maneuvers all fall into this category).  Tricks of the trade are not universal, because they are specific to your deck&#146;s offense (Incidentally, I include Throw Me Another Charge and Dark Maneuvers here, because they are easily tracked 6s.  Used in that capacity, both are highly offensive cards because a drawn 6 can be very damaging.)  Finally, as you finish adding aesthetic touches, try to add a surprise or two.  If you can add an element of the unexpected, you will be one step closer to beating the great players.  Most successful decks look almost identical to other decks of that archetype.  That&#146;s why one card&#146;s difference here or there makes such an immense difference.  Disciplined players know what to expect from certain deck types, so if you can surprise them, you&#146;ll stand a far better chance of beating them.  <br>
-<br>
-It is in the aesthetic touches that the great decks are made.  However, these cards don&#146;t win by themselves.  These are the enhancements that make your framework that much more potent and strong.  Pick these cards with care, because a proper selection of aesthetic touches can make or break your success.<br>
-<br>
-<br>
-Deck construction is a very important part of Star Wars.  With a good foundation, you can compete.  With a good framework, you can win games.  With good aesthetics, you can place in tournaments.  True success, however, revolves around your playing skill.  You need all of the above elements plus good play to win consistently on the tournament scale.<br>
-<br>
-TESTING<br>
-<br>
-Architects build models before they ever build the real thing.  This model allows them to test their designs against the elements to make sure that their designs will stand in less than ideal conditions.  As a deck architect, you must also test your deck.  All of your decks would win if you never had to play an opponent.  The problem is that you do.  Therefore, you have to prepare your decks against the elements--your opponents.<br>
-<br>
-*Weather Testing--Architects subject their models to common weather conditions to see how well it will endure them.  As a deck architect, you should test your decks against the common conditions, as well.<br>
-<br>
-The common weather conditions for your decks are the common opposing deck strategies.  You must have a plan to beat them--the Profits, ISBs, EBOs, Hunt Downs, etc.--when you build your deck.  If you do not take these deck types into consideration, your deck is doomed to failure.  Form a strategy to beat the top decks, and adhere to it, adapting, as needs be, to your opponent&#146;s strategy.  Having a cohesive battle plan will make you that much more ready to be successful in tournaments.  So, having prepared to beat these deck types, play your deck against your friends.  Once, the test results are in, make the proper adjustments and get yourself ready for the tournaments.  <br>
-<br>
-And remember in your efforts to beat commonly used decks: Strategies can substitute cards, but cards cannot substitute strategies.  Your cards don&#146;t beat your opponent…you do.  Just because you&#146;re playing Ounee Ta, don&#146;t expect to beat Ral Ops every time.  You must have a strategy.  It might include Ounee Ta, but you must have a strategy.  On the other hand, if your strategy beats Ral Ops every time without the help of Ounee Ta, there is no reason to include it.  Strategies can substitute cards, but cards cannot substitute strategies.<br>
-<br>
-Environmental Testing--Architects prepare their buildings against common local environmental conditions.  San Francisco skyscrapers are built earthquake proof, but mountainside homes are not.  Mountainside homes are built blizzard proof, but San Francisco skyscrapers are not.  These are nvironmental factors common to specific locations.  As a deck architect, you should prepare your decks against local environmental factors.  <br>
-<br>
-In the Star Wars community, we call this meta.  Designing your decks with meta in mind is conducive to prolonged success.  In my environment, I never saw EBO pre-Tatooine, so I rarely played Resistance or Imperial Decree.  However, if I had seen EBO often, it would have made sense to include a Resistance in my DS decks.  Consider your environment during deck design.  However, meta does not just include opposing deck types.  It also includes single cards.  For instance, Order To Engage was common in my area pre-Tatooine, and as a result, I played Point Man in my DS decks to combat that single annoying card.  In other areas, that annoying single card might be a Landing Claw or Mantellian Savrip.  It could be any number of cards.  Choose your cards accordingly.  Keep this in mind as you build your decks.  As you play and see certain cards more commonly, put in counters for those cards.  This way, through testing you will prepare your decks for your Star Wars environment.<br>
-<br>
-<br>
-**PICKING THE BEST MATERIALS**<br>
-<br>
-I&#146;ve discussed the steps that you, as a deck architect, should employ in building decks, but there is another consideration that I would be remiss not to discuss--picking the best materials.   Architects choose their materials based on what they want to accomplish, taking into account efficiency and cost.  As a deck architect, so should you.<br>
-<br>
-It has always intrigued me how, in Star Wars, one card can make the difference between a good deck and a great deck.  Every card slot IS that important!  Don&#146;t take liberties with them.  Filling each slot with the cards that will do the most work for you is absolutely essential to a good deck design.  When selecting each of your 60 cards, you should ask yourself, &quot;Why do I play this card?&quot;  Having answered that question, you should then ask, &quot;Is there another card which can accomplish this task better?&quot;  For example, you pick The Signal as your starting interrupt.  Its purpose is to get Insurrection.  However, you realize that Heading For The Medical Frigate can do the job even better.  It gets Insurrection and 2 additional effects.  It is the better card.  <br>
-<br>
-I know that this is an elementary example and not a mistake many would make, but it illustrates my point.  If you have a clear understanding of why you are playing a card, that understanding will help you both in choosing the best card for the job and in game play.  Picking the best card for the job leads to more efficient use of your card slots, and more card efficiency leads to better decks.  Therefore, picking the best card is essential to good deck design.<br>
- <br>
-An example:  In a There Is Good In Him deck, I might play Order To Engage…&quot;Why do I play this card?&quot;  TIGIH is a battling deck.  I want to make my opponent battle me…&quot;Is there a better card for this job?&quot;  There&#146;s Anger, Fear, and Agression.  OTE is easily cancelable by Point Man or Fanfare.  AFA is not so easily cancelable, and it still achieves the same goal.  The cons are that I will have to play more than one of them to make them effective.  This is a good example of how you should go about picking the best cards for your deck.<br>
-<br>
-Of course, you must deal with situations where you include multiples of the same card differently.  You must look at the second card as an entirely separate card altogether.  Regarding the duplicate card, you must again ask yourself the aforementioned questions.  &quot;Why am I playing A SECOND Celebration?&quot;  To make sure that I draw one faster.  &quot;Is there a better card for the job?&quot;  The Signal allows me to pull effects from my reserve deck…or…&quot;Why am I playing a second Celebration?&quot; In case the first one gets cancelled.  &quot;Is there a better card for that job?&quot; Effective Repairs lets me retrieve effects into hand.  If there is a possible substitute, you must decide if the substitute is better in your deck.  Here are a few factors to consider when deciding which is the better card.  <br>
-<br>
-DESTINY:  Which has the better destiny?  If you&#146;re looking to replace Jedi Luke with a Luke&#146;s Back, think again.  Jedi Luke&#146;s destiny 6 is all the reason you need to play a second of him.  However, if you were replacing farmboy Luke with Luke&#146;s Back, it makes more sense, but you still might want to think hard, simply for the second factor.  <br>
-<br>
-DIFFERENTIAL:  If your alternate is an interrupt, is it Used or Lost?  If you&#146;re using your alternate to pull the original from your reserve deck, this is an important consideration.  A Used interrupt, such as Were You Looking For Me in place of a second Artoo &amp; Threepio makes sense, because you&#146;re pulling a lower destiny from your reserve and replacing it with a higher destiny and you have the added versatility of WYLFM&#146;s added destiny text, you give up nothing for this.  All in all, WYLFM is the better card.  However, if the alternate is Lost, than it might be wiser to play a second of the original, because by lowering your differential, you&#146;re aiding your opponent in winning.<br>
-<br>
-COSTS:  What are the costs of your alternate card.  A Lost Interrupt which allows you to pull a card for a cost, such as the Back cards, isn&#146;t always the best selection, because it effectively raises the deploy cost of your original, and in the long run, as mentioned before, it lowers your differential.  Often, those costs are TOO costly…but not always.  If that lost interrupt can do MANY useful things for you, it might be the better card.  Double Back isn&#146;t a bad choice in a Black Sun deck, because you rely on bounty hunters, and it will pull any bounty hunter you want or retrieve them.  Used Interrupts with costs also might not be the best cards for the job.  A Signal used in your deck for the sole purpose of pulling ONE effect doesn&#146;t make sense.  The Signal&#146;s cost of 3 force is restrictive.  However, if you&#146;re playing MANY useful effects, The Signal is a logical choice, despite its costs, simply for its utility.  In one card slot, you have whatever effect you need from your reserve deck.<br>
-<br>
-QUANTITY PLAYABLE:  If your card is non-unique, how many can you logically fit into your deck.  While swarms have interrupts to pull the swarming characters, it really only makes sense to play one or two of the appropriate interrupt because, with no limitation to the amount of your swarm on the table, you want to get as many out there as you can.  Eight Short Range Fighters and one TIE is just silly, however eight TIES and one Short Range Fighter is good deck design, because the TIE is the more valuable card in your deck, and you can play many of them.  But you don&#146;t play nine TIEs, because you get the added utility of a Used 5 that can retrieve once per game.  By including it, you have added to your deck&#146;s efficiency. <br>
-<br>
-When working with multiples of cards, my suggestion to you is that you begin with only one of any given card.  Add multiples as you discover that a card is essential to your strategy or as you discover that a card is useful in various situations.  Keep in mind the importance of every card, apply the proper weight to them, and you will most effectively use your 60 card slots.<br>
- <br>
-FINAL THOUGHTS<br>
-<br>
-At this point, your deck should be designed and built, so let&#146;s take a moment to analyze your deck&#146;s components.  <br>
-<br>
-First of all, your deck should be balanced.  A deck is balanced if it can compete on many different fronts and survive.  If your arena is space, you should be prepared to fight on the ground.  If you&#146;re arena is on the ground, you should be prepared to fight in space.  The idea in a game of Star Wars is to attack a deck&#146;s weaknesses and beat them there.  Balanced decks have almost no weaknesses, at all.  They are more adaptable in the hands of skilled Star Wars players, and therefore more potent.  Balanced decks have a good mix of characters and starships, interrupts and effects, damage and disruption, etc. in their 60 cards.  They tend to have strategies and counter-strategies, which affords them the latitude to lose a few cards.  Balanced decks tend to bend but not to break if you take away cards.  Unbalanced decks are more rigid.  Therefore, more often than not, a balanced deck will be better than an unbalanced one in tournament play.<br>
-<br>
-Be mindful of your destiny draws.  Again, going back to balance, the problem with a deck which is all mains is that the destinies are incredibly low.  You must have cards that you intend to use for destiny.  It doesn&#146;t matter how many lightsabers you play, if your deck is full of 0s, 1s, and 2s, you&#146;re never going to hit anybody.  In building your deck, you must be prepared to draw decent destiny.  You should have a few good recyclable destinies for tracking purposes, also.  Steve &quot;BlackViper&quot; Marshall&#146;s tracking articles are an excellent source for this topic.  Remember, Star Wars is a game of control, and the more aspects of your game that you can control, the better you are suited to succeed.  If you can control the element of luck, you&#146;ve made a huge step to being a master player.  <br>
-<br>
-Finally, ALWAYS assume a worst-case scenario.  If you&#146;re retrieving, assume Secret Plans is in play.  If you need to draw a card early, assume you don&#146;t get it in your hand.  If you must generate lots of force, assume your opponent has force-choked you.  If you play an important interrupt, assume it has been grabbed.  If your deck can survive the worst-case scenarios, it should excel in the not-so-worst-case scenarios.  And although it doesn&#146;t always seem that way, those are most tournament situations.  You can&#146;t counter everything your opponent will do, so don&#146;t bother trying.  Instead, prepare your deck for what you know you will see.  If your deck is built well, 9 times out of 10 you will win if you outplay your opponent.<br>
-<br>
-<br>
-Okay, You should be ready to compete in your next tournament.  Now, you need to stick with your deck.  Remember, most decks become successful because you learn them inside and out and figure out how best to play them over time.  Don&#146;t overreact whenever you lose a game.  I must reiterate that your cards don&#146;t beat your opponent…you do.  In most cases, if you lose, your deck didn&#146;t fail you.  You failed it.  Look deeper and think about what other strategies you could have employed to win.  If there really wasn&#146;t anything at all, then modify a card here or there.  But don&#146;t scrap it until you know that it is antique, outdated, and of no use to you anymore.  Architects don&#146;t build skyscrapers just to tear them down.  As a deck architect, neither should you.  Keep building, testing, and tweaking, and someday your opponents will remember you as the Frank Lloyd Wright of deck architecture.<br>
-<br>
-Thanks for reading my article, I hope it helped.<br>
-<br>
-	--Devon Clark<br>
- </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="articles.php3"><img src="images/aback.GIF" border="0"></a><A HREF="articleread.php3?article=2523"><IMG SRC="images/aread.GIF" BORDER=0></A><A HREF="articlereview.php3?article=2523"><IMG SRC="images/areview.GIF" BORDER=0></A><a href="articleprint.php3?article=2523" TARGET="BLANK_"><img src="images/aprint.gif" border="0"></a></FONT></TD></TR></TABLE> </td>
-              </tr>
-            </table>
-            <!-- #EndEditable --></td>
-        </tr>
-      </table>
-    </td>
-    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
-      <table border="0" cellspacing="0" cellpadding="0" width="150">
-        <tr align="right" valign="top"> 
-          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
-          <td width="154" valign="top" align="right"> 
-            <table width="154" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF">&nbsp; </td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF"> 
-                  <script language="JavaScript">
-
-function logout() {
-var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
-document.cookie = cookie;
-window.location = "../index.php3";
-	}
-
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-
-</script>
-                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
-<select name="select1" onChange="go(this)">
-    <option selected>Quick Jump</option>
-    <option value="/swccg/resources/rulings.php3">Current Rulings</option>
-    <option value="/swccg/main/decktech.php3">About DeckTech</option>
-    <option value="/swccg/membercenter/directory.php3">Member Directory</option>
-    <option value="#">-----------------------------</option>
-    <option value="http://www.decktech.net">decktech.net</option>
-  </select>
-</form><br>
-<!-- #EndLibraryItem --> </td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
-                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
-                  Center</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
-                  Reports </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/treports/index.php3" class="level1nav"></a></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav"></a><a href="/swccg/shop/index.php" class="level1nav">Tech 
-                  Shop </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
-                  Resources</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
-          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/article.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"> 
-      &nbsp; <a href="/swccg/articles/index.php3" class="level2nav">Article Home</a> 
-      </font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/articles/articles.php3" class="level2nav">Article Archive</a> 
-      <br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-</table>
-<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
-          <td width="155" valign="top" height="13"> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr align="left" valign="top" bgcolor="#630063"> 
-                <td width="154">
- <!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE -->
-<center>
-<script language="JavaScript">
-<!--
-ShowBurstAd('cb8702a','125','125');
-// --></script>
-<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
-<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
-width="125" height="125" border="0" alt="Click Here"></a> 
-</noscript>
-</center>
-<!-- END BURST CODE --> 
-<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
-                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="4">
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
-      Updates</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-12-31</font><BR><a href='/swccg/resources/hoostinopage.php3'><font face='Arial, sans-serif' size='2'>Justin Warren</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-12-20</font><BR></td>
-  </tr>
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
-      Tips</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><p><font face='arial' size='2' color='#ffffff'>Trying to find something to do to help promote SW:CCG? Look at our community projects just off the homepage!</font></td>
-  </tr>
-</table>
-<!-- #EndLibraryItem --></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate --></html>

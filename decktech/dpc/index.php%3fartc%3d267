@@ -1,342 +1,0 @@
-<html>
-<!-- #BeginTemplate "/Templates/decktech_1.dwt" --> 
-<head>
-<title> 
-Welcome CCG Players</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-
-<meta name="keywords" content="CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming">
-<meta name="description" content="DeckTech has one mission: To build a self sustaining community that adds entertainment value to the CCGs we all enjoy. All CCG players welcome.">
-
-<style type="text/css">
-<!--
-Body { font-family: Arial, Helvetica, sans-serif; color: #FFFFFF; font-size: 10pt; font-style: normal; text-decoration: none; background-color: #000000; margin: 0in; marginleft: 0in; margintop: 0in; border-style: none}
-.level1nav {  color: #FF8220; text-decoration: none; font-weight: bold; font-size: 10pt; line-height: 20px;}
-a {  color: #FF8220; text-decoration: none}
-.header_bg {  background: #651057}
-a:hover { color: #FFFFFF; text-decoration: none }
-.border {  border: thin #651057 solid}
-input {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; border: 1px solid black}   
--->
-</style>
-</head>
-<body link="#FF8220" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000" background="/dpc/gfx/background.jpg">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  
-<tr bgcolor="#000000">
-  <td height="18" width="134" valign="top" colspan=2 align="right"><img src="/dpc/gfx/welcomebar1.gif" border="0" vspace="0" hspace="0" align=right></td>
-  <td height="18" width="95%" align="left" valign="top"><img src="/dpc/gfx/welcomebar2.gif" border="0" vspace="0" hspace="0" align=left></td>
-</tr>
-  <tr> 
-    <td height="18" width="1" rowspan="2" valign="top"> 
-      <img src="/lotr/gfx/trans_header1.gif" width="4" height="1" vspace="0" hspace="0" border="0">    </td>
-    <td height="18" width="130" rowspan="2" valign="top"> 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr valign="top" align="center"> 
-          <td><a href="http://www.decktech.net"> 
-            <img src='/dpc/gfx/logo1.gif' border=0 hspace=0 align=right>            </a></td>
-        </tr>
-      </table>
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr valign="top"> 
-          <td height="2"><img src="../global/images/home/trans.gif" width="130" height="8"></td>
-        </tr>
-        <tr valign="top"> 
-          <td height="2"> 
-            <script>
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-</script>
-<form method="post" action="">
-<div align="center">
-<select name="select" onChange="go(this)">
-<option selected>Quick Jump</option>
-<option value="/groups/index.php">Groups</option>
-<option value="#"> </option>
-<option value="#">CCGs ======</option>
-<option value="/magination/index.php">Magi-Nation Duel</option>
-<option value="/lotr/index.php">Lord of the Rings</option>
-<option value="/stccg/index.php3">Star Trek</option>
-<option value="/swccg/index.php3">Star Wars CCG</option>
-<option value="/swtcg/index.php">Star Wars TCG</option>
-<option value="#"></option>
-<option value="/index.php">decktech.net</option>
-</select>
-</div>
-</form>          </td>
-        </tr>
-        <tr valign="top"> 
-          <td> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font face="Arial, Helvetica, sans-serif" size="2"><B>DPC</B></font></td></tr><tr valign="top"><td><font face="Arial, Helvetica, sans-serif" size="2"><a href="/dpc/index.php" class="level1nav">Home</a><br>
- 
-<div align=right>
-<a href="/dpc/about.php">About the DPC</a> &nbsp;<br>
-<a href="/dpc/contact.php">Contact Us</a> &nbsp;<br>
-</div> 
- 
-<a href="/dpc/events/index.php" class="level1nav">2002 Events</a><br>
-<a href="/dpc/leader/index.php" class="level1nav">2002 Leader Board</a><br>
-<a href="/dpc/leader/2002player.php" class="level1nav">2002 DT Player of
-the Year</a><BR>
-<a href="/dpc/ongoing/index.php" class="level1nav">Ongoing Events</a><br>
-<a href="/dpc/coordinators/index.php" class="level1nav">Event Organizers</a><br>
-<a href="/dpc/rules/index.php" class="level1nav">Downloads</a><br>
-</font></td></tr></table>          </td>
-        </tr>
-                <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>        <tr valign="top"><td><table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font face="Arial, Helvetica, sans-serif" size="2"><B>CCGs</B></font></td></tr><tr valign="top"><td><font face="Arial, Helvetica, sans-serif" size="2">
-<table width="100%" border="0" cellspacing="0" cellpadding="6">
-  <tr align="center" valign="middle"> 
-    <td><a href="/magination/index.php"><img src="/groups/global/images/magi.jpg" width="110" height="99" border="0"></a></td>
-  </tr>
-  <tr align="center"> 
-    <td><a href="/lotr/index.php" class="level1nav"><img src="/groups/global/images/lotr.gif" width="110" height="96" border="0"></a></td>
-  </tr>
-  <tr align="center"> 
-    <td><a href="/stccg/index.php3" class="level1nav"><img src="/groups/global/images/st.gif" width="108" height="104" border="0"></a></td>
-  </tr>
-  <tr align="center">
-    <td><a href="/swccg/index.php3" class="level1nav"><img src="/groups/global/images/sw.gif" width="108" height="72" alt="Star Wars Customizable Card Game" border="0"></a></td>
-  </tr>
-  <tr align="center"> 
-    <td><a href="/swtcg/index.php"><img src="/groups/global/images/swt.gif" width="108" height="73" border="0"></a></td>
-  </tr>
-</table>
-</font></td></tr></table></td></tr><tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>        <tr valign="top"> 
-          <td> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font face="Arial, Helvetica, sans-serif" size="2"><B>DPC Forms</B></font></td></tr><tr valign="top"><td><font face="Arial, Helvetica, sans-serif" size="2"><table width="100%" border="0" cellpadding="4">
-  <tr> 
-    <td width="5%"><img src="/dpc/gfx/pdf.gif" width="25" height="25"></td>
-    <td width="95%"><font face="Arial, Helvetica, sans-serif" size="2"><a href="/dpc/global/pdf/decklist.pdf" target="_blank">DPC 
-      Deck List Form</a> </font></td>
-  </tr>
-  <tr> 
-    <td width="5%"><img src="/dpc/gfx/pdf.gif" width="25" height="25"></td>
-    <td width="95%"><font face="Arial, Helvetica, sans-serif" size="2"><a href="/dpc/global/pdf/registration.pdf" target="_blank">DPC 
-      Registration Form</a></font></td>
-  </tr>
-  <tr> 
-    <td width="5%"><img src="/dpc/gfx/pdf.gif" width="25" height="25"></td>
-    <td width="95%"><font face="Arial, Helvetica, sans-serif" size="2"><a href="/dpc/global/pdf/universalpenalties.pdf" target="_blank">DPC 
-      Penalty Guidelines</a></font></td>
-  </tr>
-</table></font></td></tr></table>          </td>
-        </tr>
-      </table>
-    </td>
-    <td height="18" width="90%" align="left" rowspan="2" valign="top"> 
-      
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr valign="top"> 
-    <td height="75" rowspan="2"> 
-      <img src="/lotr/gfx/trans_header1.gif" width="22" height="2" vspace="0" hspace="0" border="0">    </td>
-    <td height="75"> 
-      <table width="100%" border="0" cellspacing="0" cellpadding="6">
-        <tr> 
-          <td><a href='http://www.decktech.net/adserver/click.php?mgr=aspcode.net&id=23'><img border='0' src='/banner/balder.jpg'  ></a></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td><img src="/global/images/home/trans.gif" width="6" height="8"></td>
-  </tr>
-</table>
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr> 
-          <td width="1" height="136" valign="top" #000000> 
-            <img src="/lotr/gfx/trans_header1.gif" width="22" height="2" vspace="0" hspace="0" border="0">          </td>
-          <td width="80%" height="136" valign="top" #000000> 
-            <!-- #BeginEditable "Body" -->
-            <table width="100" border="0" cellpadding="4">
-              <tr> 
-                <td bgcolor="#000000" align="center"><img src="gfx/dpc_logo.gif" width="412" height="195"></td>
-              </tr>
-            </table>
-<div align="center">
-<table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font face="Haettenschweiler, Impact, Arial Black" size="5">Latest News</B></font></td></tr><tr valign="top"><td><font face="Arial, Helvetica, sans-serif" size="2">
-<a name=267></a>
-<table width=100%>
-<tr><td colspan=2><font face="Arial, Helvetica, sans-serif" size="2"><B> It's here!  The Voice of the Storms DPC Weekend!</font></td></tr>
-<tr><td><font face="Arial, Helvetica, sans-serif" size="2"> DeckTech announces on Thu Dec 5 2002 </font></td><td align=right><font face="Arial, Helvetica, sans-serif" size="2"> DeckTech Update</font></td></tr>
-<tr><td colspan=2><font face="Arial, Helvetica, sans-serif" size="2"> <img src="http://www.magi-nation.com/Duel/Cardlists/images/identifyingcards_01.gif" align="right"><br>
-<br>
-After some real under the gun last second efforts by three heroes, we're all set for the big <b>Voice of the Storms DPC Weekend</b>!<br>
-<br>
-What is this weekend event you say?  It's a DPC special event just for <b>Magi Nation Duel</b>.  At the storyline tournaments the week end of December 21, you will be attending in Huntsville Alabama, Sandy Utah and Livingston NJ, the first REAL workout of Voice.  That's right <b>simultaneos DPC's in THREE CITIES</b> to show that Magi Nation Duel is the hottest game around.  This is a <b>DPC First</b>, simultaneous tournaments!<br>
-<br>
-And thanks to three gentleman's efforts, and the DPC, there will be special prizes.  Oh yes, very special indeed.<br>
-<br>
-First place gets <b>$100 cash</b>!  Nothing like cash to bring the house <b>DOWN</b>.  <br>
-<br>
-If attendance permits, there may be more cash prizes too.<br>
-<br>
-Also, Law has hooked up, courtesy of <a href="http://www.magi-nation.com">Interactive Imagination</a>, everyone's favorite card co, <b>special promos</b> for each event!  What could be better?<br>
-<br>
-So who gets your thanks?  Let's get them some respect right now<br>
-<br>
-<b>Lawrence "Law" Sterling - Huntsville, AL</b><br>
-<br>
-<b>Matthew "Matt J" Jensen - Salt Lake City, Utah</b><br>
-<br>
-<b>Michael "mont83" Montalbano - New Jersey</b><br>
-<br>
-So get out there and PLAY, you all.  Get those decks ready, playtest, and strut, because we are gonna <b>blow out the decks here on DT</b> with the maddest props to the winners, and we are gonna show that MND is stronger than ever!<br>
-<br>
-Get in a car, a bus, a plane, hitch-hike, whatever it takes, and get the storyline fired up, baby at the Voice of the Storms DPC weekend...<br>
-<br>
-Finally, here's the info for the tournaments<br>
-<br>
----------------------------------<br>
-<br>
-Utah<br>
-<br>
-<a href="http://www.centurymagic.com" target="x">Century Magic</a><br>
-2063 East 9400 South<br>
-Sandy, UT 84093<br>
- <br>
-Phone: (801) 453-0085<br>
- <br>
-Tournament Director/Owner: Michael Bass<br>
-<br>
-For info: <a href="http://www.decktech.net/magination/main/inbox.php?inbx_st=send&to=808">Dmail Matt Jensen</a><br>
- <br>
-Tournament Date: Saturday, December 21, 2002. 3:00 PM with Registration at 2:00 PM<br>
-<br>
-The New Jersey Tournament will be at:<br>
-<br>
-New World Manga<br>
-93 E. Mount Pleasant Ave. <br>
-Livingston, NJ 07039<br>
-<br>
-Phone- (973) 597-0625<br>
-<br>
-Tournament Director/Owner- Chris Petitto<br>
-<br>
-<br>
-For info: <a href="http://www.decktech.net/magination/main/inbox.php?inbx_st=send&to=9583">Dmail Michael Montalbano</a><br>
-<br>
-Tournament Date: December 21, 6:00 PM<br>
-<br>
-Huntsville<br>
-<br>
-(location to be announced)<br>
-Probably Dr. bob's.  If anyone has any suggestions<br>
-please dmail "law"<br>
-<br>
-Tournament Director/Owner- Law Sterling<br>
-<br>
-For info: <a href="http://www.decktech.net/magination/main/inbox.php?inbx_st=send&to=9004">Dmail Law</a><br>
-<br>
-Tournament Date: December 21<p><small>edited by DeckTech on Thu Dec 5 2002 </small><p><small>edited by DeckTech on Thu Dec 5 2002 </small><p><small>edited by DeckTech on Thu Dec 5 2002 </small><p><small>edited by DeckTech on Fri Dec 6 2002 </small><p><small>edited by DeckTech on Fri Dec 6 2002 </small></font></td></tr>
-<tr><td align=right colspan=2><font face="Arial, Helvetica, sans-serif" size="1">  <a href=/send.php?di=/dpc/index.php&id=267 target="_blank">send to friend</a> | <a href=/print.php?267 target="_blank">printer friendly</a></font></td></tr>
-</table><table width=100%><tr><td><HR> <font face="Arial, Helvetica, sans-serif" size="2"> No kidding, this is gonna just whip.  Anyone who thinks mnd is not stronger than ever, just say, "yeah, THREE DPC'S in one weekend, boss.  Try that on for size"<br>
-<br>
-Hey, law still needs to finalize a play place.  If any wars or rings or good DTers in Huntsville got a place to play other than Dr. Bob's that weekend... get in contact with him pronto</font></td></tr><tr><td><font face="Arial, Helvetica, sans-serif" size="2"> neal</font><font face="Arial, Helvetica, sans-serif" size="2"> - Thu Dec 5 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font face="Arial, Helvetica, sans-serif" size="2"> matt j is a bear.  </font></td></tr><tr><td><font face="Arial, Helvetica, sans-serif" size="2"> Cortney Haggerty</font><font face="Arial, Helvetica, sans-serif" size="2"> - Fri Dec 6 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font face="Arial, Helvetica, sans-serif" size="2"> What's wrong with Dr. Bob's? I've never been there so I don't know, but from what I understand it's probably the best known location for MND in AL.</font></td></tr><tr><td><font face="Arial, Helvetica, sans-serif" size="2"> Gerald Andrews</font><font face="Arial, Helvetica, sans-serif" size="2"> - Sat Dec 7 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font face="Arial, Helvetica, sans-serif" size="2"> Bob's closed shop on Thursday; I'm checking with Haven Comics, located on the Huntsville/Madison border, to see what we can work out.</font></td></tr><tr><td><br><font face="Arial, Helvetica, sans-serif" size="2"> <a href="www.magi-nation.com" target=gfds>www.magi-nation.com</a></font><BR><font face="Arial, Helvetica, sans-serif" size="2"> <a href="mailto:thelawofsteel@aol.com">Law Sterling</a></font><font face="Arial, Helvetica, sans-serif" size="2"> - Sun Dec 8 2002  </font></td></tr></table><p><table width=100%><tr><td><HR> <font face="Arial, Helvetica, sans-serif" size="2"> Haven Comics will host the DPC event for Huntsville on December 21st. Please see our website for location, directions, & more details!</font></td></tr><tr><td><br><font face="Arial, Helvetica, sans-serif" size="2"> <a href="www.havencomics.com" target=gfds>www.havencomics.com</a></font><BR><font face="Arial, Helvetica, sans-serif" size="2"> <a href="mailto:Jennifer Tibbs">Jennifer Cuthbert</a></font><font face="Arial, Helvetica, sans-serif" size="2"> - Fri Dec 13 2002  </font></td></tr></table><p><font face="Arial, Helvetica, sans-serif" size="2"> <p>&nbsp;<a href="javascript:history.back(-1)">back</a></font><P>You must be a registered member to comment on the news. <a href="">Sign up here!</a></font></td></tr></table></div> <!-- #EndEditable --></td>
-          <td width="1" valign="top"> 
-            <img src="/lotr/gfx/trans_header1.gif" width="22" height="2" vspace="0" hspace="0" border="0">          </td>
-          <td height="136" align="left" valign="top" width="150"> 
-            <table width="100%" cellpadding="0" cellspacing="0" border="0">
-              <TR valign="top"><TD><table width="100%" border="0" cellspacing="0" cellpadding="0" class="border">
-                          <tr class="header_bg"> 
-                            <td><font face="Arial, Helvetica, sans-serif" size="2"><b>&nbsp;Member 
-                              Login </b></font></td>
-                          </tr>
-                          <tr align="center" valign="top" class="table_bg"> 
-                            <td> 
-                              <form name="form1" method="post" action="/dpc/index.php">
-                                
-        <table width="98%" border="0" cellspacing="0" cellpadding="3">
-          <tr valign="middle"> 
-            <td> 
-              <div align="center"><font color="#00FF00"><font face="Arial, Helvetica, sans-serif" size="2"><a href="/global/join.php" class="level1nav">Register 
-                for Membership!</a></font></font></div>
-            </td>
-          </tr>
-          <tr> 
-            <td height="2"> 
-              <div align="center"><font size="1">Name</font></div>
-            </td>
-          </tr>
-          <tr valign="top" align="center"> 
-            <td height="20"> 
-              <div align="center"> 
-                <input type="text" name="sname" maxlength="22" size="15">
-              </div>
-            </td>
-          </tr>
-          <tr> 
-            <td> 
-              <div align="center"><font size="1">Password</font></div>
-            </td>
-          </tr>
-          <tr> 
-            <td> 
-              <div align="center"><font color="#00FF00"><b> 
-                <input type="password" name="password" maxlength="14" size="15">
-                </b></font></div>
-				 <input type="hidden" name="mlogin" value="true">
-            </td>
-          </tr>
-          <tr> 
-            <td> 
-              <div align="center"><font color="#00FF00"><b> 
-                <input type="submit" name="Submit" value="Login">
-                </b></font></div>
-            </td>
-          </tr>
-          <tr> 
-            <td> 
-              <div align="center"><font color="#00FF00"><font face="Arial, Helvetica, sans-serif" size="2"><a href="/global/forgot.php" class="level1nav">forget 
-                your password?</a></font></font></div>
-            </td>
-          </tr>
-        </table>
-                              </form>
-                            </td>
-                          </tr>
-                        </table>
- </TR></TD><tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr><TR valign="top"><TD>
-<table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font face="Arial, Helvetica, sans-serif" size="2"><B>DeckTech for Groups 
-</B></font></td></tr><tr valign="top"><td><font face="Arial, Helvetica, sans-serif" size="2"> 
-DeckTech for Groups enables group 
-leaders to develope their own online presence which helps to promote their local 
-gaming community. <br>
-<br>For more information 
-      about DeckTech for Groups or to find a specific group go <a href="../../../groups/index.php">here</a>.
-</font></td></tr></table>
-
-
-
-
-
-</TR></TD><tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr><TR valign="top"><TD><table width="100%" border="0" cellspacing="0" cellpadding="3" class="border"><tr class="header_bg"><td height="2"><font face="Arial, Helvetica, sans-serif" size="2"><B>Speak Your Mind</B></font></td></tr><tr valign="top"><td><font face="Arial, Helvetica, sans-serif" size="2"><form method="post" action="/dpc/index.php"><p align="center"><BR><b></b></p><input type="hidden" name="save" value="yes"><p align="center"><input type="submit" name="Submit" value="Submit"></form></font><a href="/dpc/index.php?action=results" class="level1nav">Show me the results</font></p></font></td></tr></table> 
-</TR></TD>              <tr> 
-                <td><img src="/global/images/home/trans.gif" width="150" height="1" vspace=0 hspace=0 border=0></td>
-              </tr>
-            </table>
-          </td>
-          <td width="1" valign="top"> 
-            <img src="/lotr/gfx/trans_header1.gif" width="16" height="2" vspace="0" hspace="0" border="0">          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> </tr>
-  <tr> 
-    <td colspan="3"> 
-       
-<table width="100%" border="0" cellspacing="0" cellpadding="1">
-  <tr align="center"> 
-    <td><font face="Arial, Helvetica, sans-serif" size="2"><p><a href="/global/terms.php">Terms of Service</a> TM & © 2002 www.decktech.net. 
-      All Rights Reserved.</font></td>
-  </tr>
-</table>
-    </td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate -->
-</html>

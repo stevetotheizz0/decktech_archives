@@ -1,274 +1,0 @@
-
- 
-<html><!-- #BeginTemplate "/Templates/decktech_2.dwt" -->
-<head>
-<title>Welcome Magic: The Gathering Players</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="keywords" content="Magic: The Gathering, Magic,
-Richard Garfield, Magi-Naion, CCG, TCG, Collectible card games, Trading card game, SW:CCG, ST:CCG, M:TG, Customizable Card Game, CCG, Star Wars CCG, Star Trek CCG, Card Gaming"><meta name="description" content="The card gamers entertainment network. All gamers welcome.">
-<style type="text/css">
-<!--
-
-A:link {color: #003399}
-A:alink {color: #990033}
-A:visited {color: #990033}
-Body, TD { margin: 0in; marginleft: 0in; margintop: 0in; border-style: none; font-family: Verdana, Arial, sans-serif; font-size: 8pt; color: #000000; font-style: normal; text-decoration: none;}
-.h1font { font-family: Verdana, Arial, sans-serif; font-size: 14pt; font-style: normal;  font-weight: bold; text-decoration: none; letter-spacing: -1px}
-.h2font { font: normal 10pt/18pt Verdana, Arial, sans-serif; font-weight: bold; text-decoration: none;}
-.bfont { font-family: Verdana, Arial, sans-serif; font-size: 8pt; color: #000000; font-style: normal; text-decoration: none;}
-.afont { font-family: Verdana, Arial, sans-serif; font-size: 7pt; font-style: normal; text-decoration: none; }
-
-.flegal { font-family: Verdana, Arial, sans-serif; font-size: 7pt; font-style: normal; text-decoration: none; color: #FF9933}
-.flegal A { color: #FFFFFF}
-
-.rfont { font-family: Verdana, Arial, sans-serif; font-size: 9pt; font-style: normal; color: #666666; font-weight: bolder; text-decoration: none; }
-
--->
-</style>
-</head>
-<body text="#000000" bgcolor="#FFFFFF" margin="0" marginwidth="0" marginheight="0"> 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td width="1" valign="top"  bgcolor="#CCCCCC">
-<img src="/magic/gfx/lft_c_top.gif" width="9" height="127" vspace="0" hspace="0" border="0"></td>
-    <td valign="top"  bgcolor="#CCCCCC"> 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr valign="top" align="left"> 
-          <td><a href="http://www.decktech.net"><img src="/magic/gfx/hlogo.gif" width="165" height="127" vspace="0" hspace="0" border="0" ></a></td>
-        </tr>
-      </table>
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr valign="top"> 
-          <td height="2"><img src="../../global/images/home/trans.gif" width="130" height="8"></td>
-        </tr>
-        <tr valign="top"> 
-          <td height="2"> <script>
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-</script>
-
-<form method="post" action="">
-<div align="center">
-<select name="select" onChange="go(this)">
-<option selected>Quick Jump</option>
-<option value="#"> </option>
-<option value="#">Magic ========</option>
-<option value="/magic/index.php">Home</option>
-<option value="/magic/main/about.php">About</option>
-<option value="/magic/main/join.php">Sign Up Now!</option>
-<option value="#"></option>
-<option value="/index.php">decktech.net</option>
-</select>
-</div>
-</form>
- </td>
-        </tr>
-        <tr valign="top"> 
-          <td> <table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Magic: The Gathering</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td><a href="/magic/index.php" class="level1nav">Home</a><br>
-       
-<a href="/magic/articles/index.php" class="level1nav">Articles</a><br>
- 
-<div align=right>
-<a href="/magic/articles/articles.php">Browse All</a> &nbsp;<br>
-</div>
-<a href="/magic/decks/index.php" class="level1nav">Decks</a><br>
-<a href="/magic/treports/index.php" class="level1nav">Reports</a><br>
- <a href="/magic/resources/index.php" class="level1nav">Resources</a><br>
-<BR></td></tr></table> </td>
-        </tr>
-         <tr><td><img src="/global/images/home/trans.gif" width="8" height="6"></td></tr>  
-        <tr valign="top"> 
-          <td> 
-<table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Site Sponsor</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td><div align=center><!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE -->
-<center>
-<script language="JavaScript">
-<!--
-ShowBurstAd('cb8702a','125','125');
-// --></script>
-<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
-<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
-width="125" height="125" border="0" alt="Click Here"></a> 
-</noscript>
-</center>
-<!-- END BURST CODE --></div><BR></td></tr></table><br><table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Quick News</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td>
-<p><i><a href="/dpc/index.php">DPC</a> Houston Results!</i><br>
-<b>Type II</b><br>
-Samuel Friedman $150<br> 
-John Coley $150<br> 
-Jack Vassullo $150<br> 
-Chris Connor $150<br><br>
-<b>Type I</b><br> 
-1st Samuel Friedman $75<br> 
-2nd Bart Brown $38<br> 
-
-  </p>
-  <BR></td></tr></table><br>
-<table width="160" border="0" cellspacing="0" cellpadding="0"><tr><td class="rfont">Top Articles</td>
-  </tr>
-  <tr> 
-    <td background="/magic/gfx/hstripe.gif" height="3"><img src="/magic/gfx/trans.gif" width="6" height="3"></td>
-  </tr>
-    <tr> 
-    <td><img src="/magic/gfx/trans.gif" width="6" height="5"></td>
-  </tr>
-  <tr> 
-    <td>Top 10 in last 30 days<ol></ol><A href="http://www.decktech.net/magic/articles/articles.php">More ></A><BR></td></tr></table> 
- </td>
-        </tr>
-      </table>
-    </td>
-    <td align="left" valign="top" colspan="2" width="90%"> <table width="100%" border="0" vspace="0" hspace="0" cellspacing="0" cellpadding="0">
-  <tr valign="top"> 
-    <td width="98%" background="/magic/gfx/hback.jpg" valign="bottom" height="92"><img src="/magic/gfx/trans.gif" width="8" height="92" border="0" vspace="0" hspace="0" align=left> 
-    </td>
-  </tr>
-  <tr valign="top"> 
-    <td width="98%" background="/magic/gfx/hlowback.gif" height="35"><img src="/magic/gfx/trans.gif" width="8" height="35" border="0" vspace="0" hspace="0"></td>
-  </tr>
-  <tr valign="top"> 
-    <td width="98%" height="11">&nbsp;</td>
-  </tr>
-</table>
- 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr> 
-          <td valign="top" width="1" ><img src="/magic/gfx/trans.gif" width="18" height="2" vspace="0" hspace="0" border="0"></td>
-          <td  valign="top"><!-- #BeginEditable "Body" --> 
-            <BR><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td><font class="h1font"><table cellspacing=0 cellpadding=0 border=0 width=100%><TR><td><font class="h1font">Articles</td><form method='post' action=''><td align='right' valign='bottom'><select name='select' onChange='go(this)'><option selected>More DeckTech Articles</option><option value='#'> </option><option value='/starwarsccg/articles/index.php3'>Star Wars: CCG</option><option value='/lotr/articles/articles.php'>Lord of the Rings</option><option value='/magination/articles/articles.php'>Magi-Nation Duel</option><option value='/swtcg/articles/articles.php'>Star Wars TCG</option></select></td></form></tr></table></font></td></tr><tr><td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-<tr height="10"><td width="98%" bgcolor="#333333" height="10"><img src="/magic/gfx/trans.gif" width="6" height="2" vspace="0" hspace="0" border="0"></td><td valign="bottom" align="right"><img src="/magic/gfx/hrz/tk.gif" width="103" height="10" border="0" vspace="0" hspace="0"></td>
-</tr><tr><td>&nbsp;</td><td valign="top" align="right">
-<img src="/magic/gfx/hrz/bk.gif" width="92" height="24" border="0" vspace="0" hspace="0"></td>
-</tr></table></td></tr><tr><td><font class="bfont"><font class="h1font"> Responding to Misguided Comments<br></font><br><font class="h2font"> <b>Overall Rating:</b> </font><img src="/magic/gfx/star2.gif" width="20" height="20" border="0" align="absmiddle"><img src="/magic/gfx/star2.gif" width="20" height="20" border="0" align="absmiddle"><font size='1'>(2.38)</font><br><font class="h2font"> <b>Author:</b> <A HREF='http://www.decktech.net/magic/main/mpage.php?member=11727'>Richard "RichardBWade" Wade</A></font><font class="afont"> <a href='http://www.decktech.net/magic/main/mpage.php?member=11727&sub=1'> (Subscribe to this member)</a><br><font class="h2font"> <b>Date Submitted:</b> August 21, 2002</font><p align='justify'><font class="bfont"> First of all, you can find the original deck here: http://www.decktech.net/magic/decks/decks.php?deck=24959 .<br>
-<br>
-The first comment I would like to address is this one made by Volrath:<br>
-&quot;Wow another Quiet Speculation deck except this doesn&#39;t have Speculation my only sugestion. oh and Call Of The Herd.  BTW would you rate my Red/Green Beats Deck&quot;<br>
-<br>
-Volrath gave the deck a 5 Star rating to go with his comments, which is odd as his comments suggest that he doesn&#39;t consider the deck optimal.<br>
-<br>
-First of all, the deck is simply Quiet Speculation.  Quiet Speculation is a deck based around putting undercosted flashback spells into your graveyard with the sorcery of the same name.  However, it does this at the expense of tempo.  Whereas, Hudler is based around gaining tempo with its spells.  Also, Call of the Herd is simply overcosted for a deck such as Hudler.  For 2G, Hudler expects to receive a 4/4 Trampler that can&#39;t be killed with Repulse.  And for 3G out of the graveyard, it expects a 6/6 creature rather than a mere 3/3.  This isn&#39;t to say Call is bad because it most certainly isn&#39;t.  It simply has no business in the deck.<br>
-<br>
-The next comment I would like to address is this one made by Nova40k:<br>
-&quot;nice deck but i play a version that runs a little different. i run 2 wonder and no aqua thingies. and i run four mainboard counterspells. one main difference if my inclusion of the evasion card aether burst.  they take out blockers easily. plus i yanked an idea out of the version scrye had. they added mystic enforcer. well i added shadowmage instead because in my neck of the woods draw helps more than big beaters.<br>
-<br>
-also your sideboard seems a little how you say thrown together.&quot;<br>
-<br>
-Nova40k gave the deck a 3 star rating in addition to his comments.<br>
-<br>
-I&#39;d like to start by saying proper punctuation and spelling is major technology.  Secondly the rating system does not ask you to rate how close the deck is to your own.<br>
-<br>
-Secondly, Wonder is the most important card in the mirror as well as against a number of other decks.  Running 2 is sheer stupidity, but we&#39;ll assume its due to your ignorance and lack of experience with the game.  As for Aether Burst, Wonder is a far superior &quot;evasion card.&quot;  However, the Burst is actually a worthy card, however it simply isn&#39;t better than anything already in the deck and thus does not earn a slot.  As for running no &quot;aqua thingies&quot; as you put it , that is a serious error in judgement.  Hudler requires 10 Madness outlets to function properly.  Maindeck counterspells is simply pointless as they are far less than optimal in most matchups.  That&#39;s why they reside in the board.  Scrye is simply a price guide (not particularly accurate for that matter, btw) and its strategy content is usually out of date if not just wrong.<br>
-<br>
-In response to running Shadowmage Infiltrators, I once again have to assume that this is simply due to your lack of understanding when it comes to deckbuilding and playing.  They are a poor aggressive card and Hudler is an aggressive deck.<br>
-<br>
-As for your attack on my sideboard where you suggest that it is thrown together, I will once again be forced to assume that you are new to the game and just do not know of what you speak.<br>
-<br>
-Finally, this gem was posted by ffffffffff:<br>
-&quot;i don&quot;<br>
-<br>
-He gave the deck a 2 star rating in addition to his comment.<br>
-<br>
-I would just like people to realize that this sort of comment is just one example of things that cause people to look down on this site&#39;s content.<br>
-<br>
-Anyways, thank you for your time and I hope I was able to properly explain to the people who posted just why they were incorrect in their statements.  I&#39;m sure they&#39;ll improve their game by the time they get out of elementary school as one can only assume is where they are now by their comments and poor typing. <br></font><BR><font class="bfont"> <A HREF='/magic/articles/articles.php?id=4002&view=1'>Read the Reviews</a><font class="bfont"> | <A HREF='/magic/articles/articles.php'>Back to List</A></font><p><font class="bfont"> <b>You must be a member to contribute to Decktech.</b>  <p>Please <a href='/magic/main/join.php'> become a registered member</a></font><BR></td></tr></table>
- <!-- #EndEditable --></td>
-          <td width="1" valign="top" ><img src="/magic/gfx/trans.gif" width="9" height="2" vspace="0" hspace="0" border="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> </tr>
-  <tr> 
-    <td colspan="4">
-<div align="center"> 
-  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tr align="center" valign="bottom" >
-      <td bgcolor="#000000" height="4"><img src="../gfx/trans.gif" width="6" height="14"></td>
-    </tr>
-    <tr align="center" valign="bottom" > 
-      <td bgcolor="#CC0033"><font class="flegal">This site is maintained and updated 
-        by fans of Magic: The Gathering and is in no way affiliated with Wizards 
-        of the Coast Corporation. We in no way claim the artwork displayed to 
-        be our own. Copyrights and trademarks for promotional materials are held 
-        by their respective owners and their use is allowed under the fair use 
-        clause of the Copyright Law.<a href="/global/terms.php"><br>
-        Terms of Service</a> TM & © 2002 www.decktech.net. All Rights Reserved. 
-        </font> </td>
-    </tr>
-  </table>
-</div>
-</td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate --></html>

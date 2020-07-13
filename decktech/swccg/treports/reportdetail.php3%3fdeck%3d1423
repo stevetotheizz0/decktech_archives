@@ -1,329 +1,0 @@
-<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
-<head>
-<title>DeckTech - for the players, by the players.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" href="/swccg/global/css/white.css">
-<!-- #BeginEditable "Style" --> 
-<style type="text/css">
-<!--
-.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
-.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
-.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
-.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
-.centercolor {  background-color: #630031}
--->
-</style>
-<!-- #EndEditable -->
-</head>
-<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" --><!-- BEGIN RICH-MEDIA BURST! CODE -->
-<script language="JavaScript">
-<!-- /* © 1997-1999 BURST! Media, LLC. All Rights Reserved.*/
-var TheAdcode = 'ad8702a';
-var bN = navigator.appName;
-var bV = parseInt(navigator.appVersion);
-var base='http://www.burstnet.com/';
-var Tv='';
-var agt=navigator.userAgent.toLowerCase();
-if (bV>=4)
-  {ts=window.location.pathname+window.location.search;
-   i=0; Tv=0; while (i< ts.length)
-      { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-   if( Tv.charAt(0)!='/' ) Tv="/"+Tv;
-          else if (Tv.charAt(1)=="/")Tv="";
-  if( Tv.charAt(Tv.length-1) == "/")
-    Tv = Tv + "_";}
-if (bN=='Netscape'){ 
-     if ((bV>=4)&&(agt.indexOf("mac")==-1))
-{  document.write('<s'+'cript src="'+ 
-      base+'cgi-bin/ads/'+TheAdcode+'.cgi/RETURN-CODE/JS' 
-      +Tv+'">'); 
-     document.write('</'+'script>');    } 
-     else if (bV>=3) {document.write('<'+'a href="'+base+'ads/'+ 
-        TheAdcode+'-map.cgi'+Tv+'"target=_top>'); 
-        document.write('<img src="' + base + 'cgi-bin/ads/' + 
-        TheAdcode + '.cgi' + Tv + '" ismap width="468" height="60"' + 
-        ' border="0" alt="Click Here"></a>');} 
- } 
-if (bN=='Microsoft Internet Explorer') 
- document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'+ 
-  TheAdcode + '.cgi' + Tv + '/RETURN-CODE" width="468" height="60"' + 
-  'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' + 
-  'frameborder="0" scrolling="no"></ifr'+'ame>'); 
-// --> 
-</script> 
-<noscript><a href="http://www.burstnet.com/ads/ad8702a-map.cgi" target="_top"> 
-<img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi" 
- width="468" height="60" border="0" alt="Click Here"></a> 
-</noscript> 
-<!-- END BURST CODE -->
-<!-- #EndLibraryItem --></td>
-    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
-      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
-    <td valign="top" class="centercolor" rowspan="2" > 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
-          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
-          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
-        </tr>
-        <tr> 
-          <td colspan="2"><!-- #BeginEditable "Body" --> 
-            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
-              <tr> 
-                <td bgcolor="#630031" height="12" valign="top" width="44%"><img src="/swccg/global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
-                <td bgcolor="#630031" align="right" valign="top" height="12" width="48%"><img src="/swccg/global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr> 
-                <td  valign="top" colspan="2" bgcolor="#630031">
-				 
-
-
-<table width=100% border=0 cellpadding=4><tr bgcolor="#000000"><td><font face="Haettenschweiler, Tahoma, Arial" size="6" color='#ffffff'>Brugges, Belgium 04/11/2000</font></td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0"><tr><td></td><td>&nbsp;</td></tr><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Rating</Font></TD><TD><IMG SRC='images/dd4.GIF' BORDER=0><A HREF="reportread.php3?deck=1423"><IMG SRC='images/ldread.GIF' BORDER=0></A><A HREF="reportreview.php3?deck=1423"><IMG SRC='images/ldreview.GIF' BORDER=0></A></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Author</Font></TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=4755">Julien "Dark Padawan" Riviere</A></FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Date Created</Font></TD><TD><font face="Arial, sans-serif" size='2'>November 6, 2000</FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP"><font face="Haettenschweiler, Tahoma, Arial, sans-serif" size="5" COLOR="#FFFFFF">Report</Font></TD><TD><font face="Arial, sans-serif" size="2">This week I&#146;ve made the first tournament of the Tierfon Con. It&#146;s a lot of tournaments after which a big winner is designated. They take place in Brugges at De Striep (a nice store). With my friends we have playtested a lot our light decks against BHBM which was the deck overplayed at Decipher Con. So I&#146;ve played a lot this deck (a mix of Martin Akesson&#146;s and Yannick Lapointe&#146;s decks) and I haven&#146;t had time to built and test another deck. In lightside I took an X-wings Swarm Hidden Base (with only one Boush/Tk-422/EPP Luke/Epp Obi for characters) since I waited a lot of Hunt Down and Bring Him. With this deck I avoid Set For Stun which is huge against Super Falcon. So I played BHBM and Hidden Base. 25 players were present for this event. Sorry but I don&#146;t remember the names of all my opponents...<br>
-<br>
-Game#1 Dark against ? (Jedi Test to 5)<br>
-This game was long since he canceled my drains&#146; bonuses. I deploy some starships on Rendili to satisfy Battle Plan. I deploy Palpatine with Sim Aloo on Cloud City Dock and Mara on Endor dock to deploy Search&Destroy. He played It could be worse but i stacked it. I keept Barrier to prevent Falcon in space or Luke on the ground. He canceled Search&Destroy by cleaning Endor dock (Luke Barriered and Obi EPP who hit mara). I stacked one card. He deployed Falcon with other starships but I barriered. I deployed Zuckuss, Bossk, Lateral Damage and played Set For Stun (by tracking the barrier&#146;s destiny) on Han. He couldn&#146;t forfeit all of his ship so one stayed before my fleet. I stacked another card. I drew until I got Vader since Luke stood at Endor DB. On his turn, he chose to battle with his lone ship before I deployed another one. He lost a lot of forces and I stacked a third card. He past JT#5, retrieved ten and played On The Edge which I stacked. On my turn I deployed Vader capturing Luke and went on Death Star. Two turns after Lurn crossed on the dark side (I haven&#146;t made it yet !) and the game ended up.<br>
-FW 2(+20)<br>
-<br>
-Game#2 Light against Milan Angeli (Hunt Down Dueling)<br>
-This game was non interactive since he stood on the ground and me in space. I canceled fastly Visage with Transmission Terminated and his drains with projections/undercovers. An early Monnok put my 4 organised attack in lost but since I didn&#146;t lose much forces I played All Wings Report In to immediatly retrieve them. My drains finished him slowly: I haven&#146;t flipped due to the fear of security precaution (and he didn&#146;t make me lose forces).<br>
-FW 2(+20)<br>
-   4(+40)<br>
-<br>
-Game#3 Dark against Eric Bissot (Profit)<br>
-His deck was interessant: he played Bo Shuda, Anger Fear Agression, polarised negative power coupling and visored vision. I drained fastly with saber and janus by sensing Lost in the Wilderness (despite Do Or Do Not) then deployed Zuckuss in MH on Rendili to satisfy Battle Plan. I stacked Visored Vision and It Could Be Worse but I have Lost early my resistance :( He retrieved ten cards by flipping. This game was non interactive because I know how to beat a such deck. I didn&#146;t activate, just drained and kept barriers in hand. It was long but it was at him to made something. He just deployed Wars Not Make One Great and Figrin Dan on AC to make me activate. So I activated only two forces per turn (for draining on Rendili and Jabba&#146;s Palace) and sometimes, I searched Force Lightning with palpatine to shuffle my deck. When the end of the game was near he deployed Obi Epp and Leia on Cantina to make me lose forces from Profit. I moved Mara with saber into Cantina (I haven&#146;t deployed because I feared a barrier due to insert and order to engage). After his battle this long game ended up.<br>
-FW 2(+14)<br>
-   6(+54)<br>
-<br>
-At that time, I was one the two undefeated players with Olivier so I played against him in the next game...<br>
-<br>
-Game#4 Light against Olivier De Ridder (Set Your Course/Scum&Vilainy)<br>
-He slowed me with an early monnok (a few X-Wings) and had his Jabba&#146;s palace in starting hand so pulled off his Audience Chamber. He deployed Mighty Jabba and Security Precaution. I deployed Projection, systems and drew. On his second turn he deployed Bane Malar on AC followed by Search&Destroy. I tried to deployed Boussh but he played None Shall pass 2 times :( I answered to Search&Destroy by deploying Forest on Yavin 4, Obi on it and 6 Wings on the system. He immediatly played Masterfull move but I have nor Bith Shuffle (lost from a drain)  nie Stack. He then deployed Dengar with Carbine and Evazan protected by Blast Door Controls. He initiated and hit Obi with his 6&#146;s tracked... After, the pressure was too heavy for me (he has put Gailid on AC...) and I chose to flip despite security precaution. He made a few hit and run battles to retrieve my drains with First Strike and Scum. Indeed he has no batlle damage due to Security. I was dead when he probed my hidden base (I lost 8 forces)...<br>
-FL 2(-22)<br>
-   6(+32)<br>
-<br>
-Game#5 Dark against Bastian Prot (There Is Good In Him)<br>
-I start by deploying Palpatine with Janus on his docking bay. He activated only 3 (rendili) and gave me luke. He tried to play Lost In The Wilderness but I sensed. I deployed Vader with saber on the docking bay, gave him luke and moved Palpatine + Janus in the Hut. He answered to my drains by deploying Ben+Saber+Lando with Ax on Tatooine DB. I deployed Bossk on Rendili to drain and put Battle Order. Since I ever lost forces from my objective I deployed Sim Aloo on Endor DB (I had a barrier) and moved Vader before them. He battled Vader, played Weapon Levitation and I used Silm Aloo to prevent him from hitting Vader. I lost Vader with a few cards and he released Luke :) So I drained on the endor&#146;s sites and drew. I said him he couldn&#146;t activate or drain at Luke&#146;s site so he activated 5 :) As he couldn&#146;t transit on endor he moved Luke on Home One DB and drew. A turn after he gave Luke to Sim Aloo and moved Ben+Lando on Home One like Luke before. Since I&#146;ve lost two Vaders to drains :( and one in battle I didn&#146;t drew it and lost 3 per turn. I battled a few on endor against Ben with First Strike to kill Sim Aloo+Palpatine and give him Luke. He deployed a spy and wedge on my throne room but I battled with IG-88: he has enough forfeit to lose only wedge (the spy is captured). In the end, all my characters on Endor were dead and he played On The Edge to retrieve 5 forces. We finished by both draining (me: 1 on Rendili and him: 2 with Luke) and I won by retrieving the dominator each turn. A very close game ! Thanks Bastian for this good game with a lot of strategy and battles.<br>
-FW 2(+3)<br>
-   8(+35)<br>
-<br>
-Game#6 Light against ? (Hunt Down Dueling)<br>
-This game was also non interactive. I deployed early all my X-Wings on RDV point then moved them on Endor. I canceled Visage early with Transmission and put Boussh or Projection on his drains. After that he has never drained me :) Despite security precaution I flipped by moving all my X-Wings on Kessel. He deployed Chimaera (barriered) on Kessel and probed thinking he won&#146;t take battle damage... But Kessel was my Hidden Base ! I have changed it since someone had told my first base (Corulag) to a few people. I lost 8 forces due to security precaution but retrieved immediatly them by playing All Wings Report In. He put Tarkin and EPP Boba aboard Chimaera. I replaced a few X-Wings by Squadrons then battled: BEATDOWN ! The game ended immediatly :)<br>
-FW 2(+22)<br>
-  10(+57)<br>
-<br>
-Olivier, who was undefeated, lost his final match against Eric Bissot (I&#146;ve won against him in 3rd game). So we were all 3 at 10 points but my differential was the lowest :(<br>
-I will be back at the Tierfon Con #2 !<br>
-<br>
-03. Julien Rivière (me :) 10(+57)<br>
-02. Eric Bissot 10(+82)<br>
-01. Olivier De Ridder 10(+148)<br>
-<br>
-Thanks to Alexander De Ridder for having organised a good tournament !<br>
-<br>
-Good Luck !<br>
-<br>
-Julien Riviere<br>
- </FONT></TD></TR><TR><TD WIDTH="10%" VALIGN="TOP" COLSPAN="2"><font face="Arial, sans-serif" size="2"><a href="allreports.php3"><img src='images/ldback.GIF' border="0"></a><A HREF="reportread.php3?deck=1423"><IMG SRC='images/ldread.GIF' border="0"></A><A HREF="reportreview.php3?deck=1423"><IMG SRC='images/ldreview.GIF' border="0"></A></FONT></TD></TR></TABLE>		
-		 
-				 
-				
-				
-				 </td>
-              </tr>	  
-            </table>
-            <!-- #EndEditable --></td>
-        </tr>
-      </table>
-    </td>
-    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
-      <table border="0" cellspacing="0" cellpadding="0" width="150">
-        <tr align="right" valign="top"> 
-          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
-          <td width="154" valign="top" align="right"> 
-            <table width="154" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF">&nbsp; </td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF"> 
-                  <script language="JavaScript">
-
-function logout() {
-var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
-document.cookie = cookie;
-window.location = "../index.php3";
-	}
-
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-
-</script>
-                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
-<select name="select1" onChange="go(this)">
-<option selected>Quick Jump</option>
-<option value="/swccg/resources/rulings.php3">Current Rulings</option>
-<option value="/swccg/main/decktech.php3">About DeckTech</option>
-<option value="/swccg/membercenter/directory.php3">Member Directory</option>
-</select>
-</form><BR>
-<!-- #EndLibraryItem --> </td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
-                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
-                  Center</a></font> <br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
-                  Reports </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
-                  Resources</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
-          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/treports.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-  <tr> 
-    <td>
-	<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;
-	<a href="/swccg/treports/index.php3" class="level2nav">Reports Home </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-
-  <tr> 
-    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/allreports.php3" class="level2nav">All Reports 
-      </a><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/localreports.php3" class="level2nav">Local Reports 
-      </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/grandslamreports.php3" class="level2nav">Grand 
-      Slams </a> <br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/statereports.php3" class="level2nav">State Champs 
-      </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/openreports.php3" class="level2nav">Open/Regional</a><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr>
-    <td height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/worldsreports.php3" class="level2nav">World Champs 
-      </a><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-  <tr> 
-    <td> <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/treports/sealedreports.php3" class="level2nav">Sealed 
-      Deck </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>  
-</table>
-<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
-          <td width="155" valign="top" height="13"> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr align="left" valign="top" bgcolor="#630063"> 
-                <td width="154">
-<center>
-<a href="http://www.freebieclub.com/FC_myFreebies.asp?a=26049" target=blank>
-<img src="/swccg/global/includes/125.gif" border="0" width="125" height="125"></a></center>
-<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
-                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" --><table width="100%" border="0" cellspacing="0" cellpadding="4">
-  <tr bgcolor="#000000"> 
-    <td><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Latest News 
-      </font></b></font></td>
-  </tr>
-  <tr> 
-    <td> <p><font face="Arial, Helvetica, sans-serif" size="2"><a href=/dpc/news/fantasy_winners.php>Announcing: The Fantasy DeckTech Players&#146; Challenge Winners</a></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Thu, March 1, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR><p><font face="Arial, Helvetica, sans-serif" size="2"><a href=/dpc/news/coverage.php>Round by Round Web Coverage of the first DPC Open</a></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Wed, February 21, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR><p><font face="Arial, Helvetica, sans-serif" size="2"><A href=/dpc/news/normal_schedule.php>The DPC Normal: Schedule of Events</A></font><BR><font face="Arial, Helvetica, sans-serif" size="1">Tue, February 20, 2001 EDT <A HREF="/swccg/membercenter/directory/memberpage.php3?member=1" ></A></FONT><BR> <a href="/swccg/main/news.php3"><font face="Arial, Helvetica, sans-serif" size="1"><br>
-      more news</font></a> </td>
-  </tr>
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
-      Updates</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><a href='/swccg/resources/tjpage.php3'><font face='Arial, sans-serif' size='2'>Tj Holman</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-08</font><BR><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-13</font><BR><a href='  /swccg/resources/terwilligerpage.php3'><font face='Arial, sans-serif' size='2'>Brian Terwilliger</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-05-03</font><BR></td>
-  </tr>
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
-      Tips</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><p><font face='arial' size='2' color='#ffffff'>Remember, when viewing submissions like decks, articles, or tournament reports, by clicking the appropriate title, you can sort by title, date, and rating. Use the arrow to reverse the order!</font></td>
-  </tr>
-</table><!-- #EndLibraryItem --></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate --></html>

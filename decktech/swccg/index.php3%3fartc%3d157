@@ -1,383 +1,0 @@
-<html>
-<head>
-<title>DeckTech - for the players, by the players.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" href="/swccg/global/css/white.css">
-<style type="text/css">
-<!--
-.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
-.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
-.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
-.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
-.centercolor {  background-color: #2900FF}
--->
-</style>
-</head>
-<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"> <!-- #BeginLibraryItem "/Library/Banner2.lbi" --><a href='http://www.decktech.net/adserver/click.php?mgr=aspcode.net&id=17'><img border='0' src='http://www.decktech.net/global/images/banners/seattle.gif'  ></a><!-- #EndLibraryItem --></td>
-    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td width="171" valign="top" bgcolor="#000000" height="949"> 
-      <table width="172" border="0" cellspacing="0" cellpadding="0">
-        <tr> 
-          <td width="156" rowspan="2" bgcolor="#000000" align="center" valign="top" height="100"><br>
-            <!-- #BeginLibraryItem "/Library/Login_Box.lbi" -->
- 
-<form method="post" action="/swccg/index.php3" name="">
-  <table width="134" border="0" cellspacing="0" cellpadding="0">
-    <tr valign="bottom"> 
-                  
-      <td><img src="/swccg/global/images/logintop.gif" width="134" height="8"></td>
-                </tr>
-                <tr bgcolor="#630063"> 
-                  <td><font face="Haettenschweiler, Impact, Arial Black" size="4" color="#FFFFFF">&nbsp;<font size="5">&nbsp;&nbsp;Members</font></font></td>
-                </tr>
-                <tr bgcolor="#630063"> 
-                  <td> &nbsp; 
-                    
-        <input type="text" name="sname" size="12" maxlength="22">
-                  </td>
-                </tr>
-                <tr bgcolor="#630063"> 
-                  <td>&nbsp;&nbsp;&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><font size="1">name</font></font></td>
-                </tr>
-                <tr bgcolor="#630063"> 
-                  <td> &nbsp; 
-                    
-        <input type="password" name="password" size="12" maxlength="14">
-                  </td>
-                </tr>
-                <tr bgcolor="#630063"> 
-                  <td>&nbsp;&nbsp;&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><font size="1">password</font></font></td>
-                </tr>
-                <tr bgcolor="#630063" align="right"> 
-                  
-      <td><font face="Haettenschweiler, Impact, Arial Black" size="4" color="#FFFFFF"> 
-        <input type="hidden" name="mlogin" value="true">
-        <input type="submit" name="Submit" value="Login">
-        &nbsp;&nbsp;</font> </td>
-                </tr>
-                <tr valign="top">                   
-      <td><img src="/swccg/global/images/loginbottom.gif" width="134" height="8"></td>
-                </tr>
-              </table>
-            </form>
-
-
-
-
-
-<!-- #EndLibraryItem --><br>
- <!-- #BeginLibraryItem "/Library/swccg_logo.lbi" --><a href="http://www.decipher.com/starwars/index.html" target="_blank"><img src="/swccg/global/images/swccglogo.jpg" width="135" height="90" border="0" vspace="0" hspace="0"></a><!-- #EndLibraryItem --></td>
-          <td width="31" height="57" align="left" valign="top" background="/swccg/global/images/circuit/left_background.gif" class="left_background"> 
-            <img src="/swccg/global/images/circuit/leftca.gif" width="30" height="57" border="0" vspace="0" hspace="0"></td>
-        </tr>
-        <tr> 
-          <td width="31" height="100" background="/swccg/global/images/circuit/left_background.gif" class="left_background"><img src="/swccg/global/images/trans.gif" width="30" height="1" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td colspan="2" class="orange" background="/swccg/global/images/circuit/background.gif"><img src="/swccg/global/images/circuit/lcspacer.gif" width="185" height="65" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="156" bgcolor="#2900FF" valign="top" height="396"> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="4">
-              <tr valign="top" bgcolor="#000000"> 
-                <td><font face="Haettenschweiler, Impact, Arial Black" size="5" color="#FFFFFF">What 
-                  is SW:CCG?</font></td>
-              </tr>
-              <tr valign="top"> 
-                <td height="354"> <font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><br>
-                  &quot;Imagine playing a game of chess where each player could 
-                  select from 1000 pieces, each of which moved differently. You 
-                  would select your 16 pieces in secret, and so would your opponent. 
-                  Sitting opposite him, surveying the board, you would make your 
-                  attacks based on the pieces you selected, and form your defenses 
-                  based on the pieces your opponent selected.&quot; -Decipher<br>
-                  <br>
-                  For more information about SW:CCG check out our <a href="/main/swccg.php3">About 
-                  SW:CCG </a>page!</font> </td>
-              </tr>
-              <tr> 
-                <td>&nbsp;</td>
-              </tr>
-            </table>
-            </td>
-          <td width="31" rowspan="2" bgcolor="#000000" valign="top"><img src="/swccg/global/images/circuit/lftcolterm.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="156" bgcolor="#2900FF" valign="bottom"><img src="/swccg/global/images/circuit/left_term.GIF" width="156" height="15"></td>
-        </tr>
-      </table>
-    </td>
-    <td valign="top" class="centercolor" height="949" > 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
-          <td height="4" class="top_bg" width="100%" align="left"><img src="/swccg/global/images/circuit/leftcb.gif" width="12" height="57" vspace="0" hspace="0" border="0"></td>
-          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
-        </tr>
-        <tr> 
-          <td colspan="2"> 
-            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
-              <tr> 
-                <td bgcolor="#2900FF" height="12" valign="top" width="44%"><img src="global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
-                <td bgcolor="#2900FF" align="right" valign="top" height="12" width="48%"><img src="global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr> 
-                <td height="684" valign="top" colspan="2" bgcolor="#2900FF"> 
-                  <table width="100%" border="0" cellpadding="4">
-                    <tr valign="top"> 
-                      <td bgcolor="#2900FF" height="133"><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"> 
-                        </font> 
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                          <tr> 
-                            <td height="51"><a href="/dpc/index.php3"><img src="/swccg/global/images/techtex.gif" width="311" height="87" border="0"></a></td>
-                          </tr>
-                          <tr> 
-                            <td bgcolor="#000000" height="31"><font face="Haettenschweiler, Impact, Arial Black" size="5">&nbsp;Latest 
-                              News</font></td>
-                          </tr>
-                          <tr> 
-                            <td height="2">&nbsp;</td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr valign="top"> 
-                      <td height="166"> <font face="Arial, Helvetica, sans-serif" size="2"> 
-                        
-<a name=157></a>
-<table width=100%>
-<tr><td colspan=2><font color=#00FF00 size="5" face="Haettenschweiler, Tahoma, Arial, sans-serif">DeckTech Members: Celebration II Special Offer</font></td></tr>
-<tr><td><font face="arial" size="2">DeckTech reports on Tue Apr 16 2002 </font></td><td align=right><font face="arial" size="2">DeckTech Update</font></td></tr>
-<tr><td colspan=2><font face="arial" size="2"><A href="http://www.wizards.com/starwars/celebration.asp?x=celebration_welcome,3&c=celebrationII"><img src=/news/images/cebrii.jpg align=right border=0></A>Are you planning on going to Celebration II, in Indianapolis, Indiana on May 3 to 5, to celebrate with thousands of Star Wars fans from around the galaxy? If so, make sure you're a registered DeckTech member before April 29th and you will qualify for a special gift from Wizards of the Coast, including free Star Wars TCG cards! <br>
-<br>
-The first 500 fans that go to the customer service desk at Celebration II; let them know you're a DeckTech member and show them an id.  This will qualify for this special offer. If you are going to Celebration II, but are not a DeckTech member consider taking advantage of this exclusive offer by registering today. It's free and only takes a few minutes, best of all you will never receive junk email or unsolicited spam from us!<br>
-<br>
-For Star Wars Gaming Fans: <br>
-<br>
-Here is some information about the events Wizards of the Coast are holding at Celebration II for the Star Wars Trading Card Game.<br>
-<br>
-On Saturday May 4th from 10:00AM to 12:00PM Wizards of the Coast will be holding question and answer seminar with Star Wars TCG game designer Richard Garfield as well as Star Wars TCG game developers Robert Gutschera and David Eckelberry. <br>
-<br>
-At 1:00 bring a deck and participate in the Star Wars TCG Skirmish, a "King of the Hill" event. This will be the first large event for the Star Wars TCG and a chance for you to play against Richard, Robert, and David. Every time you play you will earn Star Wars TCG Attack of the Clones booster packs. Also, door prizes of complete sets and booster packs will be randomly given out to participants throughout the Skirmish. <br>
-<br>
-The top players in the Skirmish on Saturday will be invited to play in the "Final Battle" that afternoon. As first prize we are excited to be offering a limited edition Han Solo Blaster from Master Replicas. Additionally, first place will also receive a complete Attack of the Clones set for the Star Wars TCG. Other top players will also receive complete Attack of the Clones sets. <br>
-<br>
-Don't worry if you don't know how to play or just started playing. Demonstrations, deck building, and strategy clinics will be held starting at 1:00 on both Saturday and Sunday. Also, on Sunday we will be holding small 8-player tournaments.  <br>
-<br>
-Related Links: <br>
-<A href="http://swfan.wizards.com/Category.asp?CategoryID=198">Register for Celebration II</a><p><small>edited by DeckTech on Tue Apr 16 2002 </small><p><small>edited by DeckTech on Tue Apr 16 2002 </small></font></td></tr>
-<tr><td align=right colspan=2><font face=arial size=1> <a href=send.php?di=/swccg/index.php3&id=157 target="_blank">send to friend</a> | <a href=print.php?157 target="_blank">printer friendly</a></font></td></tr>
-</table><table width=100%><tr><td><HR><font face=arial size=2>Cool.  I went to the first in Denver, it was pretty fun.  Heh, that was the first time I met Mike Girard and John Arendt.  Back in the day, eh?  That limited edition Han Solo Blaster sounds cool.</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Tue Apr 16 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>As far as I am concerned this new game is horrible. Dice and crap. They couldn't come up with a new uquiqe system like starwars ccg was. The game is another battle tech. I am sorry but I don't support decktech in this new starwars. I am sticking with old wars</font></td></tr><tr><td><font face=arial size=2>jason wade</font><font face=arial size=2> - Tue Apr 16 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Dont support this game decktech, come on!<br>
-</font></td></tr><tr><td><font face=arial size=2>Mason Johnson</font><font face=arial size=2> - Tue Apr 16 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Dont support this game decktech, come on!<br>
-</font></td></tr><tr><td><font face=arial size=2>Mason Johnson</font><font face=arial size=2> - Tue Apr 16 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Uh, I think I told you.  I'm a SW fan.  Got it?  We are all SW fans.  If you are, SW celebration is going to be big fun.  Open your mind a little.  Everyone I know says the game is fun.  Brian Hunter said it's a cool game.  Out of the 8 guys that went to the premiere the only one who seemed not to like it was H. Hunter.</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Wed Apr 17 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I have not played Wars in a long time and have no strong feelings about the new game, but I have seen people who have never played Wars before and have unbiased opinons about it say it sucks. So why should Decktech support a looser and alianate the people who supported decktech for a long time and allowed it to become what it is now? Just my my two cents. </font></td></tr><tr><td><font face=arial size=2>Spencer Peeler</font><font face=arial size=2> - Wed Apr 17 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Most Star Wars fans that have played it really like it a lot.  Of the SWCCG players that have actually tried it and can speak from knowledge and not ignorance, either like it a lot, or will admit that it is fun, but not up to the level thay are used to with SWCCG.  Most of the people who say "it sucks" have not tried it at all.  They may have read the rules, but that doesn't count.</font></td></tr><tr><td><font face=arial size=2>Aaron Brogdon</font><font face=arial size=2> - Wed Apr 17 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Awesome deal for an awesome game guys!</font></td></tr><tr><td><font face=arial size=2>Aaron Brogdon</font><font face=arial size=2> - Wed Apr 17 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Hmm, hopefully there will be some non-SWTCG crap there(by crap I am referring to the game, not the other stuff, hehe). Obviously WOTC is seeing the huge player base DT has and is hoping many of them are dumb enough to actually play this game, well I for one am not, but I guess time will tell <img src=/news/smileys/smile.gif></font></td></tr><tr><td><br><font face=arial size=2><a href="http://www.decktech.net/3" target=gfds>http://www.decktech.net/3</a></font><BR><font face=arial size=2><a href="mailto:aphoward@siu.edu">Andrew Howard</a></font><font face=arial size=2> - Wed Apr 17 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>i don't get it. why wouldn't you want decktech to support a game just because it isn't well designed/fun to play? at least it will have a better chance of improving itself if enough people play to allow it multiple expansions. i don't think it is in decktech's best interest to support a wotc game that wotc is so committed to, just because if anything, wotc will open up a pro tour of their own, with bigger prizes than decktech can compete with, but that's their prerogative...<br>
-good luck dt, you've got your work cut out for you</font></td></tr><tr><td><font face=arial size=2>toydarian wattosjunkyard.com</font><font face=arial size=2> - Wed Apr 17 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>well.. if people say it's fun... maybe i'll give it a shot.  Who knows, you can whine about it not being as good as the original, which I will... But I also play LoTR, which sure isn't no SWCCG.  If it's fun, i'll try it.</font></td></tr><tr><td><font face=arial size=2>Alan Sagan</font><font face=arial size=2> - Wed Apr 17 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Well, I just joined decktech after hearing about the promotion for the new StarWars game, and I think it's going to be great. It seem that there are a lot of whiney players here at decktech, not the welcome I was looking forward to. I hope those of you that are going to Celebration II are more receptive to new games and new ideas. <br>
-</font></td></tr><tr><td><font face=arial size=2><a href="mailto:mr-moto@usa.net">Thomas Carrieri</a></font><font face=arial size=2> - Wed Apr 17 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Hey Thomas, glad to have you aboard.  Well, here's the background and historical perspective from me, resident historian here.  <br>
-<br>
-Most of the people at DeckTech came here when it was all about SWCCG.  So naturally, they still feel a strong alliegance to that game.  In all actuality, SWCCG was(is) a great game, one of the best ever, IMHO.  The manufacturor, Decipher, despite being great fans of Star Wars themselves, with continual bad marketing/development, bungled away their relation with LucasFilm, and lost their license to WOTC.  Decipher is well known to be hostile to Wizards of the Coast and has frequently put out the general attitude (many times indirectly but sometimes more - all Decipher volunteers are prohibited from volunteering with WOTC) that WOTC is their enemy, and the enemy of the people who play Decipher games.<br>
-<br>
-Now whether this is the case, I suppose only WOTC knows, but they've supported many Star Wars events through their SW fan club, even picking up the SWCCG (and YJ and Jedi Knights) World Championship support a year ago, which was more than Decipher did.  To me, they seem to be fans of SW and their games, which I appreciate, but that again is MHO.  So when you see people around here railing against Wizards of the Coast, or the new game, that's the background.  Decipher has bred an aura of hostility towards anything WOTC, and people take time to change, if at all.<br>
-<br>
-Just my historical perspective.  Feel free to disagree</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Wed Apr 17 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>thanks guys. i doubt i can make it to the celebration, but this is another good example of being all about the players. let's see - free registration = free stuff at celebration.<br><br>if you don't want to go its still no skin of your nose...also about supporting the other game. the SWCCG side is fairly stable and prolly requires little time to run. adding a new game won't detract from that - it will just give another option. can't argue about that at all.</font></td></tr><tr><td><font face=arial size=2><a href="mailto:papalorax@hotmail.com">Evan Fitzgerald</a></font><font face=arial size=2> - Wed Apr 17 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>at the end of the day WotC are supporting DT more than decipher ever did, so it's fairly plain to see why Neal is plugging for the SWTCG at the 'Celebration' con thing.If you don't wanna play the new game don't, but don't make it uncomfortable for new members like Mr Carrieri among others. <br>
-If you act like knob and insult the orgs. that DT solicites sponsorship or support from, then they can well withdraw their support, and then you have no DeckTech. DT has never dis'd its old members in support of the new game, it's just that things will get pretty stale fast if all DT is about is LSC and <br>
-WYS for forever and a day.<br>
-DT is just expanding into new games and this time getting a positive response from the ppl. who make those games. thats all. </font></td></tr><tr><td><font face=arial size=2>jason baretta</font><font face=arial size=2> - Thu Apr 18 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>WoTC has really done a lot to support the Star Wars community.   We as a Star Wars gaming community really should be thankful that WoTC has been so generous with us.  They bailed Decipher out at the last Worlds.  They invited players to get feedback to help improve their new game.  They have set up a wonderful structure to support players that choose to play the new SWTCG.  Bottomline is that no one has to play the game.  There is no one forcing you.   However, we should all be happy there is a company willing to reward those of us who choose to play the game.  </font></td></tr><tr><td><font face=arial size=2><a href="mailto:drtorch@aol.com">Paul Todd Feldman</a></font><font face=arial size=2> - Fri Apr 19 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>So much for all of that lovely boycott talk. Show a bunch of geeks some flashy cards from the new movie and we've got a player base. I, for one, am finished with CCGs (having finally set up a deal to sell off my LOTR collection) and I hope that someday you will all come to realize that this is a money-making scam that starts to run our lives. Oh well, have fun with Star Magic or Lukemon....or whatever they're calling it now. I hope that those who wanted to boycott this game will stick to their guns and not be won over by a bunch of flashy pictures. I understand why DT was won over...I mean, it is WOTC after all. And it's not like WOTC ever runs adds through DeckTech. Err, wait.....</font></td></tr><tr><td><font face=arial size=2>Steve Hennel</font><font face=arial size=2> - Fri Apr 19 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Wow, you'll be missed...oh wait, no you won't.</font></td></tr><tr><td><font face=arial size=2>edmund gray</font><font face=arial size=2> - Fri Apr 19 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Steve Hennel, wow, imporant person.  How will we live without you?  How many fake accounts can you lamers make? </font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Fri Apr 19 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>When will everyone get a f'ing clue.<br>
-<br>
-Support who you want or dis who you want but face facts people.  WOTC did what they did for one reason and that's $$.  They care as little about the fans as D did.  WOTC "bailed" out Worlds last year to ingratiate people to them.  They knew they were getting the license and decided to use the situation to their advantage.  Duh, thet's PR people.  That's what companies do, try all they can to make $$.  D and WOTC ARE THE SAME.  They care only about themeselves and their bottom line.  Argueing semantics is pointless.<br>
-<br>
-Don't fault DT for supporting a SW activity, even if it does have to do with the new game.  I feel the obverse should be recognized as well.  Some people DO NOT want to support WOTC, so don't try to make them look bad either, Neal.<br>
-<br>
-</font></td></tr><tr><td><font face=arial size=2>Duane Bruun</font><font face=arial size=2> - Fri Apr 19 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>If he's going to poke fun at DT, then I'll poke fun at his scrub self.  Whoever said I was supporting WOTC or anybody?  Not me.  I like the company, and I like some of their games.  That doesn't mean I "support" anybody.  It's a game from a good company, and it's star wars.  And they've been very pleasant to DeckTech.  You know it'll sell, and most of the reports I hear are favorable.  Plus, I think it'd be fun for DT to have some new members, other than typical crowd.  So therefore, you are getting the choice of it here.  Big deal.</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Fri Apr 19 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>The basic flaw in Steve Henne's comments are that he assumes the ones that were talking boycott are now supporting this game.  While this may be true of a few, so far the largest SWTCG fan base are either new players or players with open minds that realized from the beggining a "boycott" would have been a lost cause.  The game appeals to a much larger audience than just SWCCG players.<br>
-Also, if someone did say they were going to boycott it, then after seeing how fun it is to play changed their mind, what's wrong with that?  To continue to deny yourself something you know you will like out of pure stubborness is ridiculous.</font></td></tr><tr><td><font face=arial size=2>Aaron Brogdon</font><font face=arial size=2> - Sat Apr 20 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>I will not boycott this new tcg but I will sit back and watch what happens. If it dies then I will just say I told you so. If it booms like pokemon then I will still just play old wars. The fact is is that there will be 4 games of different varitations out there for starwars; Young jedi, Starwars ccg, Jedi Knights, and now Starwars Tcg. Reason why I don't think it will catch much attention is bc of LOTR. A new expainsion of lotr will come out soon about the same time this new wars will be released. The players who play LOTR will buy LOTR instead of buying this new product out there. It will become another jedi knight, came out with the new expation of starwars and nobody was willing to put money into the game to buy the new cards but they bought the new wars set.</font></td></tr><tr><td><font face=arial size=2>jason wade</font><font face=arial size=2> - Mon Apr 22 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Anyone going to the celebration could you please e-mail me at drtorch@aol.com?   I can't go due to prior obligations.  I need a favor and will compensate you for your trouble!  Thanks<br>
-<br>
-</font></td></tr><tr><td><font face=arial size=2><a href="mailto:drtorch@aol.com">Paul Todd Feldman</a></font><font face=arial size=2> - Mon Apr 22 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>Will there be a new SW:TCG area of the site? Im a classic Wars Player who went to LOTR. Ive looked at this new SWTCG and it looks pretty fun.</font></td></tr><tr><td><font face=arial size=2>Charlie Curry</font><font face=arial size=2> - Wed Apr 24 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>A SWTCG Decktech site would be great.  I think they said there would be one on the www.thisisgood.com/starwars forums.</font></td></tr><tr><td><font face=arial size=2>Aaron Brogdon</font><font face=arial size=2> - Thu Apr 25 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>There will definitely be a SWTCG DeckTech.  I saw the game yesterday, it looked pretty cool to me.  Wizards may even be offering some unique and cool things as contest prizes.</font></td></tr><tr><td><font face=arial size=2>Neal Razi</font><font face=arial size=2> - Thu Apr 25 2002  </font></td></tr></table><p><table width=100%><tr><td><HR><font face=arial size=2>yes i might be cool to have more members, new blood so to speak, around the place.<br>
-However, Neal, you might to not be actively 'supporting' WotC or their new game, but nothings for free. WotC advertise on DT, or at least they did, plus they helped you out big time with prizes at Freedomcon.<br>
-i doubt they're doing that cause they like the look of you. i suspect they expect something in return, namely, Positive press for their new game on the biggest ccg site out there.<br>
-Maybe its just conspiracy theory, or maybe the day will come when its time to pay the piper.<br>
-</font></td></tr><tr><td><font face=arial size=2>jason baretta</font><font face=arial size=2> - Fri Apr 26 2002  </font></td></tr></table><p> </font> </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-            <div align="center"> 
-              <p align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF" class="legal">Legal- 
-                TM & © 1998 Lucasfilm Ltd. All Rights Reserved. Star Wars and 
-                related marks are trademarks of Lucasfilm Ltd. TM & © 1998 Decipher 
-                Inc. Decipher, Customizable Card Game, The Art of Great Games 
-                and associated marks and intellectual property are exclusively 
-                owned by Decipher Inc. All Rights Reserved. THIS Web Site IS NOT 
-                PRODUCED OR ENDORSED BY DECIPHER, INC OR LUCASFILM LTD. </font></p>
-              <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF" class="legal"> 
-                <br>
-                <a href="/swccg/main/terms.php3">Terms of Service</a> TM & © 2000 
-                www.decktech.net. All Rights Reserved. </font></p>
-            </div>
-            </td>
-        </tr>
-      </table>
-    </td>
-    <td width="180" valign="top" bgcolor="#000000" height="949"> 
-      <table border="0" cellspacing="0" cellpadding="0" width="150">
-        <tr align="right" valign="top"> 
-          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
-          <td width="154" valign="top" align="right"> 
-            <table width="154" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF"> 
-                  <script language="JavaScript">
-
-function logout() {
-var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
-document.cookie = cookie;
-window.location = "../index.php3";
-	}
-
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-
-</script>
-                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
-<select name="select1" onChange="go(this)">
-    <option selected>Quick Jump</option>
-    <option value="/swccg/resources/rulings.php3">Current Rulings</option>
-    <option value="/swccg/main/decktech.php3">About DeckTech</option>
-    <option value="/swccg/membercenter/directory.php3">Member Directory</option>
-    <option value="#">-----------------------------</option>
-    <option value="/index.php">decktech.net</option>
-  </select>
-</form><!-- #EndLibraryItem --></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"> 
-                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
-                  Center</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
-                  Reports </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF" height="16"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/shop/index.php" class="level1nav">Tech 
-                  Shop </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
-                  Resources</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="left" valign="top"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="36">&nbsp;</td>
-          <td width="154" bgcolor="#FF6500" valign="top" height="36"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
-            <!-- #BeginLibraryItem "/Library/main.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-  <tr> 
-    <td>&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"><a href="/swccg/main/swccg.php3" class="level2nav">About 
-      SW:CCG</a><a href="/www/articles/strategy.php3" class="level2nav"> </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp;<a href="/swccg/main/faq.php3" class="level2nav">FAQ 
-      </a></font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-</table>
-<!-- #EndLibraryItem --></td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
-          <td width="155" valign="top" height="13"> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr align="left" valign="top" bgcolor="#630063"> 
-                <td width="154"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
-                  <table width="100%" border="0" cellspacing="0" cellpadding="4">
-                    <tr bgcolor="#000000"> 
-                      <td height="26"><font face="Haettenschweiler, Impact, Arial Black" size="5">F.A.Q.</font></td>
-                    </tr>
-                    <tr> 
-                      <td><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"><ul>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"><a href="main/faq.php3#password">Help, 
-                            I Lost my Password!</a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"><a href="main/faq.php3#submit">How 
-                            do I submit Decks and Articles to be reviewed?</a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"><a href="main/faq.php3#care">Why 
-                            should I care about my Tech Points?</a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"> 
-                            <a href="main/faq.php3#more">How do I get more Tech 
-                            Points?</a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"> 
-                            <a href="main/faq.php3#scale">What is the Tech Points 
-                            rating scale? </a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"> 
-                            <a href="main/faq.php3#edit">How Do I Edit My Decks 
-                            Strategy Section?</a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"> 
-                            <a href="main/faq.php3#content">Can I use DeckTech 
-                            decks and articles on my SW:CCG web site or in my 
-                            magazine?</a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"><a href="main/faq.php3#tournament">Can 
-                            I post a local tournament on your web site?</a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"><a href="main/faq.php3#link">Can 
-                            I get my Web Site listed in your links page?</a></font></li>
-                          <li><font face="Arial, Helvetica, sans-serif" size="2" color="#00FF00"><a href="main/faq.php3#advertise">Can 
-                            I advertise my store on your web site?</a></font></li>
-                        </ul></font>
-                        </td>
-                    </tr>
-                    <tr> 
-                      <td>&nbsp;</td>
-                    </tr>
-                  </table>
-                  <br>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-</body>
-</html>

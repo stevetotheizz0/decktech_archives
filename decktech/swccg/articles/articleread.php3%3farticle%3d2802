@@ -1,488 +1,0 @@
-<html><!-- #BeginTemplate "/Templates/sw_2.dwt" -->
-<head>
-<title>DeckTech - for the players, by the players.</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" href="/swccg/global/css/white.css">
-<!-- #BeginEditable "Style" --> 
-<style type="text/css">
-<!--
-.left_background {  background-image: url(/swccg/global/images/circuit/left_background.gif); background-repeat: repeat-y}
-.top_bg {  background-image: url(/swccg/global/images/circuit/top_background.gif); background-repeat: repeat-x}
-.lftcol {  background-image: url(/swccg/global/images/circuit/left_cbackground.gif)}
-.orange {  background-image: url(/swccg/global/images/circuit/background.gif)}
-.centercolor {  background-color: #004142}
--->
-</style>
-<!-- #EndEditable -->
-</head>
-<body link="#00FF00" vlink="#CCCCCC" alink="#00FF00" text="#FFFFFF" margin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="90%" align="center" valign="middle" bgcolor="#2900FF"><!-- #BeginLibraryItem "/Library/Banner2.lbi" -->
-
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<script language="JavaScript"> 
-<!-- /* © 1997-2001 BURST! Media, LLC. All Rights Reserved.*/ 
-function ShowBurstAd(adcode, width, height) {
- var bN = navigator.appName;
- var bV = parseInt(navigator.appVersion);   
- var base='http://www.burstnet.com/';   
- var Tv='';   
- var agt=navigator.userAgent.toLowerCase();   
- if (bV>=4)  
- {ts=window.location.pathname+window.location.search;
-  i=0; Tv=0; while (i< ts.length)
-    { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;}
-  else   {Tv=escape(window.location.pathname);
-  if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
-    else if (Tv.charAt(1)=="/")
- Tv="";     
- if( Tv.charAt(Tv.length-1) == "/")
-   Tv = Tv + "_";}   
- if (bN=='Netscape'){        
-  if ((bV>=4)&&(agt.indexOf("mac")==-1))  
- { document.write('<s'+'cript src="'+ 
-  base+'cgi-bin/ads/'+adcode+'.cgi/RETURN-CODE/JS' 
-  +Tv+'">'); 
-  document.write('</'+'script>');
- }
-   else if (bV>=3) {document.write('<'+'a href="'+base+'ads/' + 
-  adcode + '-map.cgi'+Tv+'"target=_top>');
-  document.write('<img src="' + base + 'cgi-bin/ads/' +
-  adcode + '.cgi' + Tv + '" width="' + width + '" height="' + height + '"' +
-  ' border="0" alt="Click Here"></a>');}   
-}
-if (bN=='Microsoft Internet Explorer')    
-document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'  
-+     
-adcode + '.cgi' + Tv + '/RETURN-CODE" width="' + width + '" height="' + height + '"' +     
-'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' +     
-'frameborder="0" scrolling="no"></ifr'+'ame>');  
-}
-//-->
-</script>
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-
-<script language="JavaScript">
-<!--
-ShowBurstAd('ad8702a','468','60');
-// -->
-</script>
-
-<noscript>
-<a href="http://www.burstnet.com/ads/ad8702a-map.cgi/ns" target="_top"><img src="http://www.burstnet.com/cgi-bin/ads/ad8702a.cgi/ns" width="468" height="60"border="0" alt="Click Here"></a> 
-</noscript>
-
-<!-- END BURST CODE -->
- <!-- #EndLibraryItem --></td>
-    <td width="210" ><img src="/swccg/global/images/logo.gif" width="210" height="81" border="0" vspace="0" hspace="0"></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td valign="top" height="22" background="/swccg/global/images/circuit/background.gif" > 
-      <img src="/swccg/global/images/circuit/leftcol_level2begin.gif" width="30" height="57" vspace="0" hspace="0" border="0"></td>
-    <td valign="top" class="centercolor" rowspan="2" > 
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr align="right" valign="top" background="/swccg/global/images/circuit/top_background.gif"> 
-          <td height="4" class="top_bg" width="100%" align="left">&nbsp;</td>
-          <td height="4" class="top_bg" width="100%"><img src="/swccg/global/images/circuit/logo_bottoma2.GIF" width="36" height="57" vspace="0" hspace="0" border="0" align="right"></td>
-        </tr>
-        <tr> 
-          <td colspan="2"><!-- #BeginEditable "Body" --> 
-            <table border="0" cellpadding="0" cellspacing="0" vspace="0" hspace="0" width="100%">
-              <tr> 
-                <td bgcolor="#004142" height="12" valign="top" width="44%"><img src="../global/images/tables/circuit/topleft.GIF" width="11" height="15" vspace="0" hspace="0" border="0"></td>
-                <td bgcolor="#004142" align="right" valign="top" height="12" width="48%"><img src="../global/images/tables/circuit/topright.GIF" width="12" height="15" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr> 
-                <td height="622" valign="top" colspan="2" bgcolor="#004142"> 
-                  <table width="100%" border="0" cellpadding="5">
-                    <tr valign="top"> 
-                      <td height="407" width="100%"><br>
-                        <table width="100%" border="0" cellpadding="4"><tr bgcolor="#000000"><td><font color="#FFFFFF"><font face="Haettenschweiler, Tahoma, Arial" size="6">Preventing The End</font></td></tr></table><BR><table WIDTH="100%" CELLPADDING="4"><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Hope this helps!<br>
- </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=1795">spoonyd</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I think you have a great point, however this is rather ill timed since decipher recently told us about the starting effect card.  I think this will help limit the power of podracing. Yes, I agree with you that direct damage is too much these days.  And wattos box is sick.  WHy you would make a card that allows you to lose over a sixth of your deck is insane.  Hopefully reflections will repair things.  I think right now my biggest complaints about the game is that the watto box fed into some of the sickest decks already out there (ie hunt down).  Decipher needs to quit pumping up dueling, direct damage, and focus on battling!  In ep 1 only,  maul is almost unbeatable!  From what it sounds though, the side deck will help out nicely against podracing, which has always been gay.  And also ref III or theed needs more cheap light side senators! </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=3656">Patch</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Dear Decipher,<br>
-Please send me free stuff.  I can&#146;t afford $10 a pack to only draw my 3rd I Will Find Them Quickly My Master.<br>
-<br>
-Thankyou<br>
-<br>
-Luke  (2294) </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=3966">Lukisius</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Just don&#146;t buy any more cards...see how they like it then, heh </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6249">BadBrad</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">ok </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6415">Polar Bear</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">You have a good point. Why not tell Decipher how you feel directly?<br>
-<br>
-In my experience, I&#146;ve found that light side wins more podraces than<br>
-dark. And light side needs some good Senators so that they have more<br>
-of an incentive to go to the Senate then just to stop the dark from<br>
-being too powerful.<br>
-<br>
-But that relatively unimportant stuff aside, Decipher has done a very<br>
-good job of keeping this game alive and well for almost 6 years now.<br>
-They&#146;re not perfect, but who is? And here&#146;s that 5 so that other people<br>
-can hear what you have to say. It might not be a 5 star article, and it<br>
-probably should be on the Message Boards, but I have a feeling some people<br>
-are going to rate this bad because they have dumb, overblown egos and<br>
-annoying, superiority complexes. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=1637">DevilBoy</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Boo Coruscant </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=3039">Frog</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">dear Big D<br>
-Ive enjoyed the game for the last three years. The recent expansions make me wanna throw in the towel. The game is becoming less fun and interactive. I like the fact that you are keeping things tossed up withnew expansions but i think 5 in one year is a couple to many. the thing i would suggest is to downscale podracing and bring back interactivness.<br>
-<br>
-Ian Merriman 1735<br>
-Corellia<br>
- </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5128">ion cannon</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">An excellent idea.<br>
-(I have doubts it will work, but the position of the players should be stated.)<br>
-Be sure to send letters to all the executives that might have Decipher&#146;s ear including RebelBaseLeader.<br>
-Please remind them that the gaming community is best represented through DeckTech (scary as that is).  Their lead customers are represented through DeckTech.  (Sorry Decipher, Stir Crazy just doesn&#146;t sell the way SWCCG does!)<br>
-<br>
-<br>
-Here&#146;s my letter:<br>
-<br>
-To Decipher (Creators of Star Wars CCG):<br>
-I have been a long time player.  I still remember the day when Hoth finally hit the shelves and I was excited because my second rare was Commander Luke Skywalker.  It was a time when the game was growing.<br>
-I continue to be as active a player and Tournament Director as I can be.  I participate in my local community and the world community through Deck Tech.  My Christmas list is jam packed with Decipher products both released and to-be-released.<br>
-I know that there is much dissention in the SWCCG community as of late.  I also know that many top and active players are leaving the game (more publicly and in mass than any time that I am aware of).  As I understand it, the most vocal complaints relates to lack of fun.  This is an unspecific comment and does not provide feedback to you, the producer, as how to improve the game and the morale of the consumers.  <br>
-Therefore, allow me to give you my view... First, I do not mind the newer less interactive options.  I feel that this actually opens up the game to many different types of players.  This, in turn, allows more decks to be developed which I feel makes the playing environment more fun.  What does, I feel, make the game less enjoyable is a few select things.  The first is cranky and over competitive players.  Now I realize that Decipher has minimal control over this.  What Decipher can do is actively recruit newer players.  (When I started playing, most sci-fi/fantasy conventions had a Squadron Member or Decipher representitive doing demos and giving away product.  Young players could recieve Jedi Packs to start their collection.)  A second thing that I feel has hurt the game is the rumors and discussion of the upcoming Decipher loss of their rights to produce the Star Wars game.  No player wants to join a game that might die in a few months and experienced players are equally wary of losing their favorite pasttime.  I believe that this needs to be addressed with your consumers in some way.  A third problem that arrised in 2001 is the rapid release of so many sets.  Deck ideas were never adaquately explored from one set before a new one was released.  In addition, most players could never afford to keep up or complete a collection due to time and financial restraints.  (The time when we waited between sets many months and usually past a scheduled release date actually improved anticipation and caused myself to purchase more of the previous set and the newer release.)  I must admit that I feel that I am a poorer player because of this lack of time between sets.  Fourth, I am worried about the new card type.  Where having so many cards does make building a 60 card deck very challenging, it also opens up many possiblities too.  I hope that this new &quot;side deck&quot; does not provide so much protection against strategies that some can not be used anymore.  (I liked that &quot;numbers&quot; decks effectively gave a player a chance without using only main characters.)  Lastly, I know that many players feel that they do not have a voice in the direction of the game.  I believe that it would benefit the morale of many players to know that Decipher will hear their opinions.  Not only hear them, but wants them.  I know that this is difficult, but perhaps a simple Email or contest or give-away for the players who respond to an Email survey or interview will go a long way while envigorating the direction of the game.<br>
-I approve of the design of the creation of the Galactic Senate and the new Jedi Masters.  The way Decipher designed them seems to keep a balance between the films and yet not making them too powerful.  (Very few decks are unbeatable; just that some are so more effective than others that they become the staple.)<br>
-<br>
-Thank you for considering my opinion,<br>
-Scot Vales<br>
-ScotVales@hotmail.com<br>
-Director #2VS08 </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6385">The Ithorian</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">ok </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6178">Hardpack</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">What a way to get points :-P<br>
-<br>
-Dear Decipher,<br>
-<br>
-I have been playing Star Wars CCG since it&#146;s release in 1995, and I absolutely LOVE the game.  However, with the release of Coruscant and Podracing, the game has become non-interactive and therefore less fun.  Star Wars is about interaction and battling to keep your ground.  However, if someone is just hanging around waiting to win a big podrace, then there&#146;s no fun there.  The force lost during the podrace will just be retrieved by the Dark side anyways.  Please, tone down Podracing or just get rid of it completely.  Also, the senate is a good idea, but it needs to be more interactive with non-senate decks.  Make some kind of &#146;killer cards&#146; like Ounee Ta was to Ralltir Ops.  Please bring this game back to it&#146;s battling roots.  It will be much better in the long run.  Thank you. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6237">PCGSAlucard</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Podracing, and senate is gay... I totally agree, and more power to your cause </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=3112">Drake</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">you cant cross obiwan to the dark side dumbass<br>
-<br>
-<br>
-dear (yeah right) decipher,<br>
-<br>
-stop trying to out-do yourself with each expansion. i remember when i looked forward to new sets anticipating what cards i could take and put in my *existing* decks instead of dreading what brand-new strategy i was going to be forced into playing or countering next. it really is ok to make more sets like endor, where instead of getting over-powered new mechanics (podracing, senate) we get cards that mold the game into a more perfect shape (battle plan, insurrection). did you even playtest the wys vs dark senate matchup?? that has got to be the most boring, aggravating game i have played since i dont know when. obviously by making each set contain some powerful new mechanic you are boosting your immediate revenues; but on the flip side i think you can see you are creating quite a bit of discontent amongst your customer base.<br>
-<br>
-Yo Momma<br>
-rated 6969 </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=400">Voice of Law</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I partially agree... but I hated the EPP&#146;s cause they took all the point out of the original weapons, I haven&#146;t seen anyone who plays &#146;han&#146;s heavy blaster pistol&#146; anymore.<br>
-<br>
-third </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=7358">Third Angel</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">good luck </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5246">Destab</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">i&#146;d give it just 3 star cause i don&#146;t agree...but for the spirit...<br>
-<br>
-i do not think senat is not interactive, and i like podracing as a new game feature, STILL i don&#146;t think anybody would play podracing for any less then they get now...you gotta dedicate so much room in your deck to successfully potrace that it is not to much benefit to get for it...you need like 12 cards for podracing...for ONLY a forceswing of 22...how much damage can the lightside do with 6 cards? how much can it retrieve?? it s not imbalanced i think...<br>
-<br>
-senat is interactive aswell! it has to be!...sure hold one location and drain for +2 there puts a lot of pressure on your opp...but why don&#146;t you just play menace fades? maul drains for on at mos espa db isn&#146;t too scary... </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5885">Eldorian</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">k </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=4755">Dark Padawan</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Nice, not the better place for this, but I totally agree with you. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=3530">Garion</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I may not agree with much of what you said but you get 5 stars for your good cause and because that dianoga kid is a meat head. Ok so I think Podracing is decent enough but all by itself will not win games. Also The Senate rocks and is big time interactive it has to be. I can&#146;t win the game by sitting in the senate and making you lose 1 force every turn. I have to use guys or ships to go out and drain or kill your things. You then can battle me thus interaction. Oh and I must say that the DS Senate against Watch Your Step is a great match up. I played my DS Senate deck against a top player in my Region and he had Watch Your Step and we had a great game. Tons of battleing both in space and on land back inforth a very intense game of chess sort of speak. It was one of the best games I have had in a while. Decipher does have so problems with the game though. So here is my letter to them. <br>
-<br>
-My letter too Decipher is the same letter wrote by The Ithorian because I agree with his entire letter. <br>
-<br>
-Douglas Kitzman<br>
-(Endor Region)   </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6956">FORCELORD</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Great Idea if you are Disgruntled. I am not too much but here is a letter good Luck.<br>
-<br>
-Dear Decipher Staff,<br>
-<br>
-     I have some concerncs about the card mechanics that are currenly coming out. Though I enjoy podracing from time to time. The current state of thing are that you must win the Pod Race vs Watto&#146;s Box or loose the game. I did it can be almost as devistating. This forces me to play with 8 cards devoted to winning a podrace. Which I dont want to run all the time. I would prefer to move those cards that would enhance my strategy for QMC or Tat Occ decks that I have enjoyed and always will enjoy as long as they can be sucessful around 50% of the time. <br>
-     On the Brite side I enjoy manipulation decks. I enjoy those decks which allow you to search your reserve and force piles. DS Senate is awsome but I am afraid it might be just a little bit too powerful. This forces me to play Senators in my LS deck that I would not always run or get nailed with a 5 force drain where maul will be immune to attrition w/ The Phantom Menace. I love manipulation but Please do not force others who do not enjoy it as much as me to play it.<br>
-      The Tatooine Maul is wonderful (good work) The Phantom Menace Is just too powerful. Especially in the EP1 environment. Yes, in the movie Obi Wan won by a fluke but to properly portray this in the EP1 environment is devistating when coupled with senators. All you can do is run away. The best combat vs him is to stick Obi Wan there and pray like hell that you can draw a 5 for destiny (he has no Lightsaber!!!). <br>
-<br>
-     In conclusions here is a quick sum Up<br>
-<br>
-1) Please fix pod racing so that I don&#146;t need to run Pod counters in every deck I design.<br>
-<br>
-2) DS Senate is wonderful but make it so that LS can compete as well<br>
-<br>
-3) Tat Maul is awesome.<br>
-<br>
-4) Phantom Menace is too unbalancing in EP1. Make Obi&#146;s  Stick and some way to counter against it.<br>
-<br>
-                                      Thank You<br>
-                                      Chad Samuels 1576 </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=3264">JadesFire</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I honestly don&#146;t know what you (Decipher) could do, I am only 16 and I am not trained in the business world to well. But I will offer a few suggestions. Help out a little bit more with some prize support extras, the best thing that can happen to a little dude, is for him to walk out with some prizes boosting his morale, even if he placed last (thats when he&#146;ll need it the most). Also, prehaps you could sell reflections a little bit cheaper, those packs are life savers for people just getting into the game and who need to catch up. Also, ADVERTISE, that is a major must, in all Star War based magazines and possibley even TV on a major show or something, it would really help.... in my view that is. For the game itself, prehaps some ways to erratum those bullets, some decks you just didn&#146;t hurt, you destroyed, utterly, I mean hurting a deck is good, but make it still playable, such as Ral Ops or something..... On the plus side, I love the Jedi Council, though I think some of them should be a little bit more powerful in their deploy/forfeit ratio, and prehaps better game text.... Also Yoda should be able to bring back the Jedi as well, thanks...<br>
-<br>
-Adam </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=7172">Xzilen</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Amen. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6041">snoova69</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">very good idea </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=3797">kjedi</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Hope it works! </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=7066">Christo</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Lightsaber combat stuff in R3 will probably be more cheapo stuff anyone can put in for auto-winning.  Hopefully the deck helper cards that were supposed to be in it are good and defensive shields don&#146;t suck.<br>
-<br>
-Dear Decipher,<br>
-     I have been playing SWCCG for nearly three years now, and until recently have been very pleased with the game.  <br>
-     My favorite time was around the Death Star 2 expansion, when people were playing space and ground, a variety of decktypes, and each decktype had its own gameplan; nothing was unbeatable.  <br>
-     With Jabba&#146;s Palace Sealed Deck I was impressed with some of the new cards, like Lando with Vibro Axe and Underworld Contacts, however, Scum and Villainy decks were way overpowered.  No Escape was another card in question, as well as Ounee Ta.  I feel both of these have their ups and downs.  <br>
-     Reflections 2 was a pretty good expansion.  The combo cards were all very balanced, and the two new decktypes were both fun to play and competitive.  At the time the Watch Your Step objective was all good; it gave LS players some hope for a deck to play to be competitive until Tatooine, where, hopefully several options would be available.  <br>
-     Tatooine wasn&#146;t too bad of an introduction to the Episode 1 cards, but it had its flaws.  The decktype fixers were good and bad.  I was pleased with the deck fixers, but some of them like We Shall Double Our Efforts were still underpowered and didn&#146;t make their decktype too good, just gave it an opportunity to be played.  If The Trace Was Correct was a great card that was pretty balanced.  But Podracing is lame.  It is basically a flip over a couple cards and cause a major Force swing just as your opponent is trying to set up.  The anti-alien counters seemed to go a little overflow, but I can see that they are quite balanaced since not many people need to play them.  The Camp is a little harsh, but I know that Scum decks need their time out.  <br>
-     Coruscant seemed cool at first, politics seemed like a great new mechanic, and it looked good.  But Coruscant was actually terrible.  Politics take up some card slots, but they&#146;re also very strong.  In any normal deck you should be able to counter something, but not entirely stop it, with a few cards in your deck.  But politics offer no counter solutions except playing politics yourself, which, if you&#146;re playing light to overpower dark politics you need to take up well over half your deck just to take the senate.  Alter can ruin some political effects, but that can be countered easily.  How about making a card for each side similar to Demotion to counter Senators?  The Dark side version may only need 1 on table, but the light may need two on table.  This way a non-senate deck can play their own game and not find Darth Maul is at over 20 power, has excluded your character, and your other character is forfeit=0.  And what was up with the cards that actually strengthened Podracing?  I really don&#146;t think it needed more help. <br>
-     Some things in SWCCG I am really liking.  The Episode 1 environment may involve a little more luck because of new mechanics than I care for, but otherwise it is a blast to play with a lot of interactiveness and you have to think of good ways to counter other things you might see.  Though Podracing and Senate can hurt, they can be countered more easily.  <br>
-     Remember when I said that Watch Your Step seemed like a temporary solution to help light decks deal with Scum?  Only one problem, since it came out in January, WYS has been basically the only Light deck that can win consistantly.  It is getting kind of lame.<br>
-     I hope that the game can improve back to what it used to be.  I really hope lightsaber combat isn&#146;t another theme one can just throw together and have a good shot of winning with.  Qui-Gon and Darth Maul, especially Maul are getting to be annoying in that there is no way to counter them either.  How about Maul have an Uncontrollable Fury of his own?  I really hope the Defensive Shield cards aren&#146;t just going to make it easier to counter decktypes that already aren&#146;t played due to the risk factor of a counter card.  I also hope the deck helper cards can strengthen old and forgotten decks to the point that when I try to find a deck to make I pull out 10 objective cards instead of 2 to consider.  I also hope the new mains in Reflections 3 are good to play, but are also very balanced and don&#146;t just eliminate the possibility of playing one of the older versions of that main.  <br>
-     Please consider my thoughts and the thoughts of others and try to improve SWCCG.  It really is losing interest for me.  I&#146;d hate to see the game I&#146;ve been playing for three years go down the drain.  Thanks.<br>
-<br>
-          Mark Kloida,1707<br>
-           Corellia-WI </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=3370">yodarth</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">to decipher:<br>
-<br>
-1. please kill podracing. it sux.<br>
-2. don&#146;t release 5 sets in 1 year. why not just release 1 or 2 a year like cloud city, special ed. and endor? i found myself skipping tatooine becoz the cards were just lame and i was saving up for coruscant.<br>
-3. no one plays old objectives anymore. if u just release `magic bullet&#146; cards to kill &#146;em, and cards to counter those cards, and more magic bullets, you&#146;ll find urself with 60 cards to just protect ur objective.<br>
-<br>
-and i totally agree with everything else everyone has said on this review page.<br>
-<br>
-if decipher doesn&#146;t resolve these issues, then maybe it&#146;s better in the long run they lose the license to another company who will.<br>
-<br>
-Deckard HCK<br>
-Outer Rim </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5741">shadowjedi</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">yes right letters </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=2576">CmdCorranH</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Great Idea, heres my message.<br>
-<br>
-Dear Decipher,<br>
-I have really enjoyed playing and collecting Star Wars.  However, some things you have done lately have made that harder on us players.  I am talking about game mechanics such as podracing, senate, and other non-interactive ideas.  It would be fun to have more deploying and battling in the game.  Also recently the expansions have been coming out to fast for some players to keep up with.  It would be nice to have them slowed down to 2 or 3 a year.  Thanks for your great game.  I would love to see it improved so I and others can keep playing it.<br>
-Matthew Balderston (1638)<br>
-Yavin 4 region<br>
-<br>
- </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5378">Roofoo</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2"> . </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=3829">Bob A Fett</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Five Stars are great!<br>
- </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=4743">mock</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">The game needs to be fixed immideatly or it will die out quick.  The players in my area dropped the amount of SW gameing to a bare minumum thanks to podraceing and just recently have been increasing due to the last set. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=2219">Igar</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I hope Decipher will hear our voice </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5792">TanDjo</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">You&#146;re right!  This is a positive article that hopefully will bring about some positive changes to the game.  5 stars so everybody can see this.<br>
-<br>
-Dear SWCCG staff,<br>
-I have enjoyed Star Wars since premiere.  I took a 3 year hiatus from Hoth to Endor, but I was drawn back by objectives and my friends who had remained loyal followers of the game.  However, recently, I think that the introduction of Episode I cards have really hurt the feel of the game.  There just isn&#146;t as much skill involved now as there has been in the past.  I hate the Podracing mechanic so much that I HAVE to play it.  There&#146;s no other option.  If I don&#146;t play it, I WILL lose.  I don&#146;t feel that there should be any game mechanic that you can say, &quot;If I don&#146;t play this in my deck, I will lose!&quot;  I don&#146;t necessarily believe that this should be removed from the environment, but I believe there should be &quot;useful&quot; cards that cancel Watto&#146;s Box and I Did It!  And if you make them vulnerable to sense, that will put some skill into podracing and give a realistic but not over-compensating defense versus Podracing.  I feel that Star Wars has gone down this road before when Dagobah released odds inserts.  However, the environment is much better now.  I think that we need to rejuvenate the game once again or the community is in major jeopardy.<br>
-<br>
-Devon Clark<br>
-Constructed Deck Rating: 1714<br>
-Yavin IV Region </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6495">Devonator</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Dianoga&#146;s letter is funny. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=14">BartmanMLV</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Look people, Decipher did not intentionally make Coruscant boost racing.  They made the sets at exactly the same time.  They just staggered the releases.  By the time everyone had come to the conclusion that podracing sucks, Coruscant was being printed.  So quit yer @#$%in&#146;.<br>
-<br>
-Yup, direct damage decks suck.  Drains and battles are more fun.  But I doubt this will do anything to (at Decipher anyway) change things.  But I don&#146;t want to hurt your cause, so here&#146;s 5 stars. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=409">ISBop</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Dear decipher,<br>
-<br>
-I have played your game for many years and have watched it go downhill. Expansions like dagobah, hoth, and coruscant have depressed players and made me think about quitting the game. I like that you&#146;re trying to incorporate episode into your game but your not doing to well. Senate for one is a big dissapointment where the ONLY way to counter it is to have senate yourself. It is also very powerful. Not even jedi masters who kick major @$$ have less benefits that senators who are just elected people who think their cool. Jedi are defenders of the galaxy and should not be confined to a chamber the size of my english classroom.<br>
-You got off to a great start but the rules you have made have horribly unbalanced the game. Impress us with good quality slowly produced well thought over and fun for both sides of the force expansion sets. Thank you for taking the time to read this now go make a good set please!!!<br>
-<br>
-Sincerly, <br>
-Joe Schlagheck<br>
-Tatooine Region<br>
- </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=7114">coo</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Good luck hope this helps... </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=4220">Boba Fett 48</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2"> true </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6437">zwitter</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">May Supatax be with you. (no I dont mean me) </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=7272">supatax</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Rather than complain, I&#146;ll tell you what I want. I want more cards to help old objectives! The new Tat. and Co. characters are fun to play with, but the obj helpers were the best Ep. 1 things made. Also, I want to blow up the Hoth generators, or have a Dantooine Base deck that works!<br>
-<br>
-Make more objectives, and enhance old ones! </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=4778">padawan3</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I strongly agree that non-interactive strategies should not <br>
-be promoted, and we should start playing real Star Wars,<br>
-with intense battling and force drains!!!! </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=4218">Palleon</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Great thoughts. Thank you for the idea. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=4819">crzybkhd</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I am giving you a five star because you asked and it is your own opinion.<br>
-<br>
-BUT, I disagree with you totally. Me and my friends (all tournament players) have no problem with the current Meta. We have grown to adapt the new expansions into our current play. Now think of this. . .RIII and Theed Palace aren&#146;t even out, what will be hurt or helped then. I wish people would stop complaining and put their efforts to working on their decks instead. Not only is it not fun to be complaining all of the time, but you are less likely to tell others about how great a game it really is.<br>
-<br>
-Now, I don&#146;t play Magic, but I have heard horror stories about what they have done to it. I do not feel that Decipher has hurt the game. Maybe some of you are phasing SWCCG out of your life because you have found other things to occupy your time, but I don&#146;t think you should take it out on everyone else just because you &quot;feel&quot; the current Meta isn&#146;t right. You say the current game is non-interactive, but it isn&#146;t near as bad as the original operatives, now they were broken.<br>
-<br>
-And if you think of it, I think Decipher is pulling it off just about right. On Tatooine and Coruscant (in the movie), were there any major battles? Besides the duel on Tatooine (represented by Maul Strikes) there wasn&#146;t much going battle wise so the movie was showing podracing, searching for the queen, searching for a hyperdrive, and meddling in the Senate. Theed Palace is when all the fighting comes. Do you think they are going to make Battle Droids, Gungans, Palace Gaurds, and Tanks just to place them at the Senate or Podrace Arena? I think not! They are creating them for BATTLES.<br>
-<br>
-That is totally my opinion which I am entitled to, but I do feel atleast some of it is right. What I am trying to say is, don&#146;t give up on the game, give it time. If we all gave up that easily, shouldn&#146;t you have left after Endor? </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=2371">5D6-RA7</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Dear Decipher Staff,<br>
-<br>
-I believe that Star Wars Customizable Card Game should be made more accessable to people who aren&#146;t millionares.  I for example can&#146;t buy boxes at a time, and your current price for 11-card packs is more than your original price for 15-card packs.  I understand that you are a company and need to turn a profit, but the high price is making me less interested in purchasing your product.<br>
-<br>
-Paul Merrian<br>
-No rating<br>
-Bespin Region </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=4267">Ultima 1</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">In my opinion...Decipher doesnt give a rats a.ss if you like the game or not. They are here to sell cards. Pure and simple. I dont like it but I still buy the cards and play the game because the alternatives are worse...Magic...been there done that...L5R...boring...other Decipher games? HA!! They all suck.<br>
-<br>
-Distribution of rares has been a joke from what I have seen. The boxes are clearly marked with codes and they end up going to the different areas of the country withe same dam rares in every box so you end up with extras of c.rappy rares and none of the few good rares. Case in point...10 boxes of COruscant opened here and No Amidala but 12 Rune Haakos and 25 Vote Nows. Swell.<br>
-<br>
-Play testing should be done by good players before the cards are selected for a set. The game designers are way to diverse. One promotes s.hit like pod racing and the other promotes interactive battling. What gives?<br>
-<br>
-No matter what..you cant please all the people all of the time...but you sure can p.iss alot of people off. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5383">Rushe</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">podracing and the senate suck, WYS is broken.  Sets are coming out way to quickly.  I would like you guys to make the game more battle related.  DSII was a agreat set.  </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5402">SonOfaSith</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">will do<br>
- </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6094">honkytonk33</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">i&#146;ll do the same </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=7196">Tala3</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">..... </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5803">Silent Bob</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Dear Decipher,<br>
-PLEASE STOP RELEASING SO MANY SETS IN SO LITTLE TIME!!! I am not a rich person but I need the new sets to continue  bing competetive. Thanks. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5953">Rabid Wookie</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I guess I&#146;m just going to have to do that... </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=2757">PorkyPadawan</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I hate Podrace. One solution could be: If you run with Podracer you can&#146;t play any other objetive at beginning of game and can&#146;t play any starting interrupt.<br>
-All those decks with HDADTJ&amp;numbers&amp;Podracer don&#146;t play SWCCG only insert cards and wait your destruction.  <br>
-Someone have to make anything about this!!! </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=3055">Talon Karde</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Holy @#$%, apparently I was living in a cave for the past three years, I never realized I could cross Obi-Wan to the darkside.  You are @#$%ing tech.  Seriously, if I would laugh my @#$% of in pity if I was sent a letter of that caliber.  It offers no insight and serves no purpose but complaining.  Why not make specific suggestions? D would rather see that than take advice from some guy who doesn&#146;t even realize that you can&#146;t cross Obi-Wan to the darkside. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=1469">Obi-Kev</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Decipher,<br>
-<br>
-With RFII, battling was over. The top decks were AOBS, Big blue with Imperial Command, WYS with extreme smuggler power, and Hidden Base with mains. Since Tatooine and Podracing/Senate, the top decks look like Magic decks. Large amounts of direct damage (Podracing), and old-school manipulation (Screws are coming back, Limited Resources, etc.) Truly, the game is reverting. I would like to see more battle cards/stratigies, and less Senate/Podracing. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=2134">Gen</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Hope this helps keep the game that we all love alive.<br>
-<br>
-Dear Decipher:<br>
-<br>
-     I have been collecting SWCCG since the beginning.  I remember when the game was about combat, with buddy cards and the whole deal.  Since then, we have invented drain cancelers, direct damage, and podracing.  Each one of these strategies reduced the interactiveness of the game, now to a point where (especially with battle interrupts) fighting offensively is all but suicidal.  If you lose a race with the box out, you&#146;re toasted.  If DS Senate stays flipped against you and has anti-SAC, you can&#146;t touch them because they will cancel drains and retrieve consistently while dealing constant damage via cheese like Yeb Yeb.  And Hunter summed up WYS perfectly as &quot;@#$%goty.&quot;  What ever happened to the days when LS could play a fight deck like Hidden Mains with an actual chance?  Duel defense helped in Tatooine, but the new Maul and Senate (not to mention racing, god forbid) make mains hopeless.  As a result, we&#146;re forced to play lame cheese like test-to-1, Gungans, and AFAs to win games.  You have taken the Epic out of Star Wars.  Please, fix it!<br>
-<br>
--Henry </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5078">Henry Ward</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I would hate to see the game go </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=4791">Dark-Lord</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6855">Monoc</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">a five to get this seen, I agree whole heartedly </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5973">Vaders Bitch</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Great idea. Maybe People Power will be able to do something about this.<br>
-<br>
-Dear Decipher<br>
-Cool game, but there are a few things I would like to point out. First, SLOW DOWN! Instead of making a couple of mediocre to bad sets (like Tat and Cor), take it slower and do one really good set. You are not engaged in a contest with Wizards to see who can bang out the most card sets in the shortest time. Take it easy and give our wallets time to recover as well. <br>
-Second, PLEASE print some kind of silver bullet that kills Podracing completely. Maybe then people would stop using it, and the game would be much better off for it. Podracing is Not Fun But Incredibly Boring and the sooner this menace is wiped out, the better. Lets have some beefier LS Senators too hey? Make those debates a bit more interesting. I&#146;m a bit worried about this side deck idea too. My first thought was &quot;we&#146;re heading into Trek territory here. This is Bad.&quot; My second thought was &quot; Great. All you now have to do is fill it up with ten silver bullet objective killers and you&#146;ve got an answer for everything. There goes the game.&quot; Please renew my faith and show me that I&#146;m just being paranoid here. Keep up the otherwise excellent work.<br>
-<br>
-Chris Hills<br>
-No idea what my rating is<br>
-England (don&#146;t know the region)<br>
-<br>
-<br>
- </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6830">Orkimedes</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">This report has made me think.  I have been playing SWCCG since A New Hope hit the streets and I thought that Tiree was the S*hit!  Now a days I am a big time player in my community and have won and come in second a few times in local tournements.  Now a days I hate the fact that the tournement scene has now been dominated by &quot;The Senate machine&quot; using Limited Resources and Defenisve Fire and stupid Lott Dod (I hate hime).  The only deck that can beat it is Watch your step! Which I think is the cheapest deck ever! Oh, I got two scrubs at a site? I get two destinys, six...six...CHEAP!  I like the good old days when Light side started with Obi-Wan&#146;s Hut, and Dark started with the death star and we liked it! We walked fifteen miles in the snow, bare foot, on sharp rocks, UP HILL BOTH WAYS just to get to our local comic book store!  hehe...sorry, it felt like it had to go in there. Anyways, I feel like something had been taken away from SWCCG, a certan kind of magic.  Anyways, stop breaking cards till they are stupid, stop making cards that cancel good cards...like this one card that cancels Weapon levatation! IT&#146;S A GOOD CARD! I&#146;ll stop now. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6189">Your mom</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Great Article, I really agree with you, something should be done, Watto&#146;s box has got to be the cheapest card ever. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5778">WorldChamp</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">stand back citizen, there&#146;s a hurricane coming through. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=1373">george3785</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">The game sucks right now... hope this will help. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=3503">ADrake</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Five stars for getting people to talk, but now that I hear this rumor stuff, it all makes sense. If you&#146;re about to lose your license, what would you do? That&#146;s right, pump out sets as fast as humanly possible to make as much money as possible before the end comes. So maybe this is the end, but I will still enjoy playing this game, even without new cards. I just hope there are a few others left who will still be playing too. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=902">ability6</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">sure </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=2021">Serpent</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5936">tk424</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I heard Decipher&#146;s losing their license, so this may be a moot point. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5800">Armaedes</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I actually have to agree. Podracing was certainly a retarded addition to the whole SWCCG scene. Senate decks are so confined and boring for both the player and the opponent (at least in my opinion). Great article! It actually DOES change the aspect of how I think about the game mechanics! NO SENATE DECKS FOR ME! </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6451">Gyrotech</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Nice article - and a good attitude. My primary concern though, is the rumor that Big D is losing the SW license. Meaning that SWCCG will end with EP1 - and then promptly die as Big D will no longer be able to make new cards on any of the movies. I personally don&#146;t think the current meta is too-one-sided, but then again, I&#146;m not playing in tournies where people spend 100s or 1000s on cards. Good luck. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=466">CuePhoenix</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">ruf article,  keep improving...DeckTech </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=7829">mighty_maul</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Dear decipher staff,<br>
-They&#146;re right- coruscant didnt help at all.  THe senator thing made it more so people indirectly influence each other, instead fo actually duking it out.  I hope that you remedy this for Reflections 3 and Theed Palace, so as not to lose any more incredible players.<br>
-<br>
-Emerson Sklar (4092)<br>
-Coruscant </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5011">Sparkz</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Endings are sad </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5347">Harbinger</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Good points </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=1951">Pezman37</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Nice article. I like it - I really do. How about this:<br>
-<br>
-Dear Decipher;<br>
-<br>
-Thanks for making a great game. I&#146;ll keep a set of SW:CCG before you added Episode I, and you&#146;ll see the rest on ebay in the near future. I appreciate that you used to be cool, but I will never buy another product with your name on it again. Less interactivity = less fun = fewer players = not actually more money for you like you wanted. Track those numbers around for awhile.<br>
-<br>
--Steve </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=4817">BlackViper</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">podracing is just too out there... i mean its nice and all but when people obsess about it its time to find a new outlet.... lets hope lightsaber combat is up to par... </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6207">Wittens Hand</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Ok. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=7922">Jodo-R2D2</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I agree in some ways.  I havn&#146;t played a sanctioned Tournament since Coruscant came out cause well I&#146;m disapointed that the set did not deal with podracing, they in fact added fuel to the fire.  Granted I don&#146;t hide behind podracing in my games, I aspire to be confrontational.  The Senate I feel is ridiculous too.  I havn&#146;t played against a DS senate deck yet but I see how terribly good these decks are on Decktech and I cringe.  <br>
-<br>
-The last time I quit this game was when Dagobah came out and every made stupid Dagobah Lightsaber Drain Decks where you couldn&#146;t do anything but sit back and get pissed on.  This a BATTLE game, aka we need to put the WAR back in Star Wars. <br>
-<br>
-Seeing some of the stuff in R3 is making me sad too because Decipher has introduced the Sideboard into Star Wars.  They have now found a way to be able to prevent certain stratagies without having to make room for it in your &quot;main deck&quot;.  Well it worked for Magic right?  Is this the best answer to solve problems?  Not really, I don&#146;t like the idea of lugging around another 11 card deck, Now I feel like a god damn Trek player ; )  The fact that they are doing this in a premium set too bothers me, how much of this jank do we really need to buy?  One and a half boxes of R2 and I was happy, had good mains and combos.  And now I&#146;m gonna pay 5 dollars a pack for Defensive Sheilds?  I know thats not the answer, but if Decipher can make a game where Senator Palpatine and Emperor Palpatine are in the same battle against each other, whats wrong with a sideboard?<br>
-<br>
-Pretty soon we&#146;ll have Anikin Skywalker ; )<br>
-<br>
-Jason &quot;Qui-Gon&quot; Keen </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=4548">Qui</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">SWEET </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=7989">Capsolo</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Excellent Article </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=1154">DS Pro</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I don&#146;t agree with everything you said, but I do agree with some of it, so here is the highest rating I can give.  You don&#146;t deserve it or anything. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5541">My Lord</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Some good points, but the game has always evolved and will continue to evolve.  Stick with it.   </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6993">Pappy</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">great. btw, one of the new defensive shields &#146;fixes&#146; racing so the DS isn&#146;t so much a threat </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6680">Admiral Twk</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">nice one bruvb </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6769">Captainsolo</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Way to prevent the end Nexis. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=444">Rypcord</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a5.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">schweet </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=7144">MavrickCS1</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a4.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">If Decipher really listened to what the players wanted, they&#146;d have slowed podracing down with Coruscant instead of boost it. The inclusion of that senate bull@#$% in addition to podracing just dealt the final blow. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=1584">yodamuppet</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a4.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">You have a point there. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5382">Blizzard</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a4.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">yeah they have some serious game design problems... </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=4208">Gwaihir</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a4.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">every card in r3 is a nail in the coffin, my friend<br>
- </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=3296">MoTU</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a4.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Nice Article!! </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=8042">Chokk</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a3.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">ok </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=2619">Cheezwhiz</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a3.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I agree with Cheezwhiz </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=383">HuntaWarya</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a3.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Yodamuppet is wrong about Coruscant, it was finalized before the post-Tatooine meta took shape. Anyway, I wouldn&#146;t keep much faith that anything like this will influence Decipher. It&#146;s all about the money; how much Reflections 3 are you going to buy? </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=2426">hoostino</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a3.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Ya ok, but umm that took very little thought IMO. Its the same as everyone who says &quot;give me 5 stars or else&quot; except you wrote a letter to Decipher. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=3923">Wow</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a3.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Maybe it has changed how you feel about the game, but Decipher has done a good job of correcting these flaws by issuing cards in future expansions.  &quot;Defensive Shields&quot; may end these problems.  Also, even though a podrace may be more devestating than a duel, it requires more cards, does not take away one of your main characters, and there are many cards currently that weaken the strategy.  I hope you read what I wrote, and give others a chance to read it also.<br>
-<br>
-My Word.<br>
-Wookie_56301 </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=4289">Wookie_56301</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a3.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I agree with HuntaWarya  who agrees with cheezwhiz. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5880">DEJA</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a2.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">MY LETTER<br>
-<br>
-STOOPID DECIPHER,<br>
-<br>
-    U R STOOPID!!!!!<br>
-<br>
-SINSEERLY,<br>
-DIANOGA </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=650">dianoga</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a2.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Dude D doesn&#146;t care as of January 1st 2002 the SWCCG game will be the property of WOTC with their own new game and ours will be dead anyway so just stop complaining cause it&#146;ll do you no good<br>
- </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=50">COTEB</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a2.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">Nice way to try and pick up more stars.  Put it on the messageboards if you want attention.  I must say this did nothing to improve MY game! </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=7394">Slides_Rule</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a2.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">I liked Courscant. The senate is a dumb idea, but not nearly as annoying as podracing. At least the senate requires some comittment of resources.  </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=4454">blackgecko</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a2.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">No real new information. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=711">Gold93</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a2.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">No one is forcing you to play... just go and get a new hobby, and if enough people stop playing decipher will realize this, and make the game better. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=1712">GG BLADE</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a2.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">you make some good points so you dont get a 1.... However I have no respect for any article that has to beg for a rating, hence you get a 2. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=2085">Armus</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a1.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">This was a waste of my time. If you hate the game so bad, then tell me this. Why are you still playing the game???? The last two sets have done nothing but helped the meta of the game. Nobody should be giving this deck a high rating as you told them to, nobody should see this as people are only going to follow in the path of bad leaders. By reading this only more people are going to quit and the game will die. This is stupid and a waste of my time. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=3808">MossRandyMos</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a1.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">dear anyone who reads this. I hope you choke on a jagged peice of metal and die. Get a life and deal with it. Thank you. </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=6065">Dark Raptor</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a1.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">This article wasted my time </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=3572">Platypus</A></FONT></TD></TR><TR><TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="10%"><IMG SRC="images/a1.gif" BORDER=0></TD><TD VALIGN="TOP" WIDTH="90%"><font face="Arial, sans-serif" size="2">you can thank your friend &quot;fredjohnson&quot; for this, he rated all my stuff 1/2 stars because i was being an a.ss to you. ALL I DID WAS GIVE 1 OF YOUR THINGS 3 STARS CAUSE YOU DID THE SAME TO ME! </FONT></TD></TR><TR><TD>&nbsp;</TD><TD><font face="Arial, sans-serif" size="2"><A HREF="/swccg/membercenter/directory/memberpage.php3?member=5262">Jedi Genius</A></FONT></TD></TR></table> </td>
-                    </tr>
-                    <tr valign="top"> 
-                      <td height="19" width="100%"><font face="Arial, Helvetica, sans-serif" size="2"><a href="articledetail.php3?article=2802"><img src="images/aback.GIF"  border="0"></a><a href="articlereview.php3?article=2802"><img src="images/areview.GIF" border="0"></a> 
-                        </font></td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-            <!-- #EndEditable --></td>
-        </tr>
-      </table>
-    </td>
-    <td width="180" valign="top" bgcolor="#000000" rowspan="2"> 
-      <table border="0" cellspacing="0" cellpadding="0" width="150">
-        <tr align="right" valign="top"> 
-          <td colspan="2" class="top_bg" background="/swccg/global/images/circuit/top_background.gif"><img src="/swccg/global/images/circuit/logo_bottom2.GIF" width="180" height="57" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" align="left" valign="top"><img src="/swccg/global/images/circuit/rightcolscorner.gif" width="11" height="18" vspace="0" hspace="0" border="0"><img src="/swccg/global/images/trans.gif" width="26" height="8" vspace="0" hspace="0" border="0"></td>
-          <td width="154" valign="top" align="right"> 
-            <table width="154" border="0" cellspacing="0" cellpadding="0">
-              <tr> 
-                <td bgcolor="#2900FF"><img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"></td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF">&nbsp; </td>
-              </tr>
-              <tr align="center"> 
-                <td bgcolor="#2900FF"> 
-                  <script language="JavaScript">
-
-function logout() {
-var cookie = "access" + "=; expires=Fri, 02-Jan-1970 00:00:00 GMT";
-document.cookie = cookie;
-window.location = "../index.php3";
-	}
-
-function go(x) {
-value = "";
-for(var i = 0; i < x.options.length; i++) if (x.options[i].selected) value = x.options[i].value;
-if (value != "") window.location = value;
-}
-
-</script>
-                  <!-- #BeginLibraryItem "/Library/Quick_Jump.lbi" --><form method="post" action="">
-<select name="select1" onChange="go(this)">
-    <option selected>Quick Jump</option>
-    <option value="/swccg/resources/rulings.php3">Current Rulings</option>
-    <option value="/swccg/main/decktech.php3">About DeckTech</option>
-    <option value="/swccg/membercenter/directory.php3">Member Directory</option>
-    <option value="#">-----------------------------</option>
-    <option value="http://www.decktech.net">decktech.net</option>
-  </select>
-</form><br>
-<!-- #EndLibraryItem --> </td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF" class="level1nav"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"> 
-                  &nbsp;<a href="/swccg/index.php3" class="level1nav">Home</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td height="15" bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/membercenter/index.php3" class="level1nav">Member 
-                  Center</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF">&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/decks/index.php3" class="level1nav">Decks</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/articles/index.php3" class="level1nav">Articles</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav">Tournament 
-                  Reports </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/treports/index.php3" class="level1nav"></a></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav">&nbsp;<a href="/swccg/treports/index.php3" class="level1nav"></a><a href="/swccg/shop/index.php" class="level1nav">Tech 
-                  Shop </a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-              <tr> 
-                <td bgcolor="#2900FF"> &nbsp;<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level1nav"><a href="/swccg/resources/index.php3" class="level1nav">Player 
-                  Resources</a></font><br>
-                  <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="left"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer1.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" height="38" background="/swccg/global/images/circuit/left_background.gif">&nbsp;</td>
-          <td width="154" bgcolor="#FF6500" valign="top"><img src="/swccg/global/images/trans.gif" width="154" height="1" vspace="0" hspace="0" border="0"><!-- #BeginEditable "SubNavigation" --><!-- #BeginLibraryItem "/Library/article.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav"> 
-      &nbsp; <a href="/swccg/articles/index.php3" class="level2nav">Article Home</a> 
-      </font><br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></td>
-  </tr>
-  <tr> 
-    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" class="level2nav">&nbsp; 
-      <a href="/swccg/articles/articles.php3" class="level2nav">Article Archive</a> 
-      <br>
-      <img src="/swccg/global/images/b.gif" width="154" height="2"></font></td>
-  </tr>
-</table>
-<!-- #EndLibraryItem --> <!-- #EndEditable --></td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2"><img src="/swccg/global/images/circuit/rcspacer2.gif" width="180" height="40" vspace="0" hspace="0" border="0"></td>
-        </tr>
-        <tr> 
-          <td width="26" background="/swccg/global/images/circuit/left_background.gif" height="13">&nbsp;</td>
-          <td width="155" valign="top" height="13"> 
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr align="left" valign="top" bgcolor="#630063"> 
-                <td width="154">
-<!-- BEGIN RICH-MEDIA BURST! CODE --> 
-<center>
-<script language="JavaScript">
-<!--
-ShowBurstAd('cb8702a','125','125');
-// --></script>
-<noscript><a href="http://www.burstnet.com/ads/cb8702a-map.cgi/ns" target="_top">
-<img src="http://www.burstnet.com/cgi-bin/ads/cb8702a.cgi/ns" 
-width="125" height="125" border="0" alt="Click Here"></a> 
-</noscript>
-</center>
-<!-- END BURST CODE --> 
-<img src="/swccg/global/images/trans.gif" width="154" height="1" border="0" vspace="0" hspace="0"> 
-                  <!-- #BeginLibraryItem "/Library/2sidebar.lbi" -->
-<table width="100%" border="0" cellspacing="0" cellpadding="4">
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Editorial 
-      Updates</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><a href='/swccg/resources/lushpage.php3'><font face='Arial, sans-serif' size='2'>Matt Lush</font></a><BR><font face='Arial, sans-serif' size='1' color='#ffffff'>2001-11-07</font><BR></td>
-  </tr>
-  <tr> 
-    <td bgcolor="#000000"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">Quick 
-      Tips</font></b></font></td>
-  </tr>
-  <tr> 
-    <td><p><font face='arial' size='2' color='#ffffff'>For newer members wanting to gain review ability, the easiest thing is to first write a tournament report. Check the current reports to get the feel for different styles, then go to a tournament and write your own. Even Sealed Decks count!</font></td>
-  </tr>
-</table>
-<!-- #EndLibraryItem --></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr background="/swccg/global/images/circuit/right_background.gif" align="right"> 
-          <td colspan="2" height="25"><img src="/swccg/global/images/circuit/rcspacer3.gif" width="180" height="120" border="0" hspace="0" vspace="0"></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="bottom" class="centercolor" width="15" background="/swccg/global/images/circuit/background.gif" height="90%" ><img src="/swccg/global/images/circuit/leftcol_level2term.gif" width="30" height="90" vspace="0" hspace="0" border="0"></td>
-  </tr>
-</table>
-</body>
-<!-- #EndTemplate --></html>
