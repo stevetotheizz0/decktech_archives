@@ -2,15 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ title }}</title>
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    Title: {{ title }} <br>
-    Author: {{ author }} <br>
-    Date: {{ date }} <br>
-    Description: {{ description }} <br>
-    Rating: {{ rating }} <br>
+    Title: {{ page.title }} <br>
+    Side: {{page.tags}} <br>
+    Author: {{ page.author }} <br>
+    Date: {{ page.date }} <br>
+    Description: {{ page.description }} <br>
+    Rating: {{ page.rating }} <br>
     <p>
       {{content}}
     </p>
