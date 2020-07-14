@@ -19,6 +19,7 @@ def preproc(infile):
 
         # Find deck title
         decktitle = soup.find('font', {'face':'Haettenschweiler, Tahoma, Arial'}).get_text()
+        decktitle = decktitle.replace('"', '')
 
         # Find author
         authorElement = soup.find('td', text="Author")
