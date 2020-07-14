@@ -4,6 +4,16 @@ exclude: ["README.md"]
 url: https://stevetotheizz0.github.io
 baseurl: /decktech_archives
 gems: [jekyll-paginate]
-plugins_dir: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 50
 paginate_path: "page:num"
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  extensions: fenced_code_blocks
+
+# collections:
+#   tags:
+#     output: true
+#     permalink: tags/:path/
