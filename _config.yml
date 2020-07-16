@@ -13,9 +13,8 @@ kramdown:
   syntax_highlighter: rouge
   extensions: fenced_code_blocks
 
-# collections:
-#   tags:
-#     output: true
-#     permalink: tags/:path/
+collections:
+  reports:
+    output: true
 
 theme: jekyll-theme-midnight
