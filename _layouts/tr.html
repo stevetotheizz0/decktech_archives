@@ -1,5 +1,13 @@
-Title: {{ page.title }}
-Author: {{ page.author }}
-Date: {{ page.date | date: "%m-%d-%Y" }}
-
-{{content}}
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <p><b>
+      Title: {{ page.title }} <br>
+      Author: {{ page.author }} <br>
+      Date: {{ page.date | date: "%m-%d-%Y" }} <br>
+    </b></p>
+    <p>
+      {{content}}
+    </p>
+  <body>
+</html>
