@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import re
 import pandas as pd
 
-os.chdir('d:\\Desktop\\decktech_archives\\decktech\\swccg\\decks\\light')
+os.chdir('d:\\Desktop\\decktech_archives\\decktech\\swccg\\decks\\dark')
 # get a list of the files in the current directory
 here = os.listdir(os.getcwd())
 
@@ -18,24 +18,26 @@ def preproc(infile):
         soup = BeautifulSoup(file, 'html.parser')
 
         # Find deck title
-        decktitle = soup.find('font', {'face':'Haettenschweiler, Tahoma, Arial'}).get_text()
-        decktitle = decktitle.replace('"', '')
-
+        deck_title = soup.find('font', {'face':'Haettenschweiler, Tahoma, Arial'}).get_text()
+        deck_title = deck_title.encode('UTF-8', 'backslashreplace').replace(':', '').replace('!', '').replace('<', '').replace('>', '')
+        deck_title = deck_title.replace("'", " ").replace("?", "").replace("!", "").replace("*", "").replace(",", " ").replace(".", " ")
         # Find author
-        authorElement = soup.find('td', text="Author")
-        print(authorElement)
-        for i in authorElement.parent.select("td:nth-of-type(2)"):
-            author = i.text
+        author_element = soup.find('td', text="Author")
+        for c in author_element.parent.select("td:nth-of-type(2)"):
+            author = c.text
 
         #Find date created
-        dateElement = soup.find('td', text="Date Created")
-        for i in dateElement.parent.select("td:nth-of-type(2)"):
-            date = i.text
+        date_element = soup.find('td', text="Date Created")
+        for b in date_element.parent.select("td:nth-of-type(2)"):
+            date = b.text
+            date = pd.to_datetime(date).strftime("%Y-%m-%d")
 
         #Find description
-        descriptionElement = soup.find('td', text="Description")
-        for i in descriptionElement.parent.select("td:nth-of-type(2)"):
-            description = i.text
+        description_element = soup.find('td', text="Description")
+        for g in description_element.parent.select("td:nth-of-type(2)"):
+            description = g.text
+            # print description.replace('\r', '').replace('\n', '').replace('!', '')
+            description = description.encode('UTF-8', 'backslashreplace').replace('\n', '').replace('*', '').replace('!', '').replace('"', '')
 
         #Find rating
         ratingElement = soup.find('td', text="Rating")
@@ -46,27 +48,29 @@ def preproc(infile):
 
         # Find cards
         cardsElement = soup.find('td', text="Cards")
-        for i in cardsElement.parent.select("td:nth-of-type(2)"):
-            cards = i.find('font').text
+        for a in cardsElement.parent.select("td:nth-of-type(2)"):
+            cards = a.find('font').text
+            cards = cards.replace('*', '').replace('!', '').replace(':', '').replace('<>', '')
 
         # Find strategy
         strategyElement = soup.find('td', text="Strategy")
-        for i in strategyElement.parent.select("td:nth-of-type(2)"):
-            strategy = i.find('font').text
+        for m in strategyElement.parent.select("td:nth-of-type(2)"):
+            strategy = m.find('font').text
+            strategy = strategy.replace(':', '').replace('!', '')
 
-
-        with open(pd.to_datetime(date).strftime("%Y-%m-%d")+ '-' + fileName + '.txt', 'a') as output:
-            output.write( '---' + '\n')
-            output.write('author: ' + author.encode("utf8") + '\n')
-            output.write('title: ' + decktitle.encode("utf8") + '\n')
-            output.write('side: ' + 'Light' + '\n')
-            output.write('date: ' + pd.to_datetime(date).strftime("%Y-%m-%d") + '\n')
-            output.write('description: ' + description.encode("utf8") + '\n')
+        with open(date + '-' + fileName + '.txt', 'a') as output:
+            output.write('---' + '\n')
+            output.write('layout: post' + '\n')
+            output.write('author: ! ' + author.encode('UTF-8', 'ignore').replace(':', '') + '\n')
+            output.write('title: ! ' + '"' + deck_title + '"' + '\n')
+            output.write('tags:\n' + '- ' +'Dark' + '\n')
+            output.write('date: ' + date + '\n')
+            output.write('description: ! ' +'"' + str(description).replace('\r', '') + '"' + '\n')
             output.write('rating: ' + str(rating) + '\n')
-            output.write('---' + '\n' + 'Cards: ' + '\n' + '\n' + cards.encode("utf8") + '\n' + '\n' + 'Strategy: '+ '\n' + '\n' + strategy.encode("utf8"))
+            output.write('---' + '\n' + 'Cards: ' + '\n' + '\n' + "'" + cards.encode("UTF-8", 'ignore') + "'" + '\n' + '\n' + 'Strategy: ' + "'" + '\n' + '\n' + strategy.encode("UTF-8", 'ignore') + "'")
 
     except:
-        print "error"
+        print "error " + fileName
 
 
 fileName = 0
