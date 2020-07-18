@@ -22,23 +22,6 @@ def preproc(infile):
         report_title = report.find('font').text
         print report_title
 
-        author_element = report.findAll('a')
-        author = author_element[2].text
-        print author
-        date = report.findAll('font')
-        date_tag = soup.find("td", text="Date Created")
-        # print date_tag
-        date_tag_parent = date_tag.find_parent('tr')
-        date = date_tag_parent.findAll('td')
-        date = date[1].text
-
-        report_text_tag = soup.find("td", text="Report")
-        # print date_tag
-        report_text_parent = report_text_tag.find_parent('tr')
-        report_text = report_text_parent.select('td')
-        print report_text
-
-
 
 
         # # Find deck title
@@ -58,22 +41,22 @@ def preproc(infile):
         # # print report
         #
         # print report
-        with open(pd.to_datetime(date).strftime("%Y-%m-%d") + '-' + slugify(report_title) + fileName + '.html', 'a') as output:
-            output.write('---' + '\n')
-            output.write('layout: tr' + '\n')
-            output.write('author: ! ' + author.encode('UTF-8').replace(':', '') + '\n')
-            output.write('title: ! ' + slugify(report_title) + '\n')
-            output.write('tags:\n' + '- ' +'Tournament_Report' + '\n')
-            output.write('date: ' + pd.to_datetime(date).strftime("%Y-%m-%d") + '\n')
-            output.write('---' + '\n' + str(report_text[1]))
+        # with open(pd.to_datetime(date).strftime("%Y-%m-%d") + '-' + slugify(report_title) + fileName + '.txt', 'a') as output:
+        #     output.write('---' + '\n')
+        #     output.write('layout: tr' + '\n')
+        #     output.write('author: ! ' + author.encode('UTF-8').replace(':', '') + '\n')
+        #     output.write('title: ! ' + slugify(report_title) + '\n')
+        #     output.write('tags:\n' + '- ' +'Tournament_Report' + '\n')
+        #     output.write('date: ' + pd.to_datetime(date).strftime("%Y-%m-%d") + '\n')
+        #     output.write('---' + '\n' + str(report[0]))
 
     except:
         print "error " + fileName
 
 
 fileName = 0
-for i in here:
-    print i
-    preproc(i)
+# for i in here:
+#     print i
+#     preproc(i)
 
-# preproc(here[1])
+preproc(here[1])
