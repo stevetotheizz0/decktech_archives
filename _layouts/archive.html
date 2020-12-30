@@ -21,11 +21,15 @@ layout: default
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 id="page-title" class="page__title">{{ page.title }}</h1>
     {% endunless %}
-    <p><b>
+    <p>
       Title: {{ page.title }} <br>
       Author: {{ page.author }} <br>
-      Date: {{ page.date | date: "%b %-d, %Y" }} <br>
-    </b></p>
+      Date: {{ page.date | date: "%b %-d, %Y" }}
+      {% if page.rating }
+        Rating: {{ page.rating }}
+      {% endif %}
+    </p>
+    <br> -------------------------------- <br>
     {{ content }}
   </div>
 </div>
